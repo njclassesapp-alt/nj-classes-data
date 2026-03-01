@@ -1,4 +1,4 @@
-let njQuestionsDatabase = [
+ njQuestionsDatabase = [
 
     // --- અવિભાજ્ય અવયવો અને અંકગણિતનું મૂળભૂત પ્રમેય ---
     { chapter: 1, q: "સૌથી નાની અવિભાજ્ય સંખ્યા કઈ છે?", options: ["0", "1", "2", "3"], ans: 2 },
