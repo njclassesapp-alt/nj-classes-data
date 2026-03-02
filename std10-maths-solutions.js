@@ -340,6 +340,114 @@ var njMathsSolutions = {
                     </div>`
             }
                     
-    }
+    }            , // અહી અલ્પવિરામ ખાસ મૂકવું (સ્વાધ્યાય 1.1 ને 1.2 સાથે જોડવા)
+            {
+                title: "સ્વાધ્યાય 1.2 - પ્રશ્ન 1",
+                question: "સાબિત કરો કે &radic;5 અસંમેય છે.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>સાબિતી (વિરોધાભાસની રીત):</b></p>
+                        <ul style="padding-left:20px;">
+                            <li><b>સ્ટેપ 1:</b> ધારો કે &radic;5 સંમેય સંખ્યા છે.<br>
+                            તેથી તેને <b>&radic;5 = a/b</b> સ્વરૂપમાં લખી શકાય. (જ્યાં a અને b નો 1 સિવાય કોઈ સામાન્ય અવયવ નથી).</li>
+                            
+                            <li style="margin-top:8px;"><b>સ્ટેપ 2:</b> બંને બાજુ વર્ગ કરતા:<br>
+                            5 = a² / b²<br>
+                            તેથી, <b>a² = 5b²</b> --- (પરિણામ 1)</li>
+                            
+                            <li style="margin-top:8px;"><b>સ્ટેપ 3:</b> આનો અર્થ એ કે a² એ 5 વડે વિભાજ્ય છે. પ્રમેય મુજબ, <b>'a' પણ 5 વડે વિભાજ્ય થાય.</b></li>
+                            
+                            <li style="margin-top:8px;"><b>સ્ટેપ 4:</b> ધારો કે a = 5c. આ કિંમત પરિણામ 1 માં મૂકતા:<br>
+                            (5c)² = 5b²<br>
+                            25c² = 5b² &nbsp;&rarr;&nbsp; <b>b² = 5c²</b></li>
+                            
+                            <li style="margin-top:8px;"><b>સ્ટેપ 5:</b> આનો અર્થ એ કે b² એ 5 વડે વિભાજ્ય છે, એટલે કે <b>'b' પણ 5 વડે વિભાજ્ય થાય!</b></li>
+                        </ul>
+                        <p style="background:#eff6ff; padding:10px; border-radius:5px; margin-top:10px; font-weight:bold; color:#1e40af;">
+                        વિરોધાભાસ: અહી સાબિત થયું કે a અને b બંને 5 વડે વિભાજ્ય છે (બંનેનો સામાન્ય અવયવ 5 છે). આપણી ધારણા ખોટી છે. તેથી, &radic;5 એ અસંમેય સંખ્યા છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 1.2 - પ્રશ્ન 2",
+                question: "સાબિત કરો કે 3 + 2&radic;5 અસંમેય છે.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>સાબિતી:</b></p>
+                        <ul style="padding-left:20px;">
+                            <li><b>સ્ટેપ 1:</b> ધારો કે 3 + 2&radic;5 સંમેય છે.</li>
+                            <li>તેથી, આપણે ધારી શકીએ કે <b>3 + 2&radic;5 = a/b</b> (જ્યાં a અને b પૂર્ણાંકો છે, b &ne; 0)</li>
+                            
+                            <li style="margin-top:8px;"><b>સ્ટેપ 2:</b> સમીકરણને ગોઠવતા (વર્ગમૂળ વાળા પદને એક બાજુ રાખો):<br>
+                            2&radic;5 = (a/b) - 3<br>
+                            2&radic;5 = (a - 3b) / b<br>
+                            તેથી, <b>&radic;5 = (a - 3b) / 2b</b></li>
+                            
+                            <li style="margin-top:8px;"><b>સ્ટેપ 3:</b> અહી 2, 3, a અને b પૂર્ણાંકો હોવાથી <b>(a - 3b) / 2b</b> એ સંમેય સંખ્યા બને.</li>
+                            <li>જો જમણી બાજુ સંમેય હોય, તો ડાબી બાજુ (&radic;5) પણ સંમેય થવી જોઈએ.</li>
+                        </ul>
+                        <p style="background:#ecfdf5; padding:10px; border-radius:5px; margin-top:10px; font-weight:bold; color:#047857;">
+                        વિરોધાભાસ: પરંતુ આપણે જાણીએ છીએ કે &radic;5 તો અસંમેય છે! આપણી ધારણા ખોટી છે. તેથી 3 + 2&radic;5 અસંમેય છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 1.2 - પ્રશ્ન 3 (i)",
+                question: "નીચે દર્શાવેલ સંખ્યા અસંમેય છે તેમ સાબિત કરો: 1 / &radic;2",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>સાબિતી:</b></p>
+                        <ul style="padding-left:20px;">
+                            <li>ધારો કે 1 / &radic;2 સંમેય છે.</li>
+                            <li>તેથી, <b>1 / &radic;2 = a/b</b></li>
+                            <li>બંને બાજુ ઉલટાવતા (વ્યસ્ત કરતા):<br> <b>&radic;2 = b/a</b></li>
+                            <li>અહી a અને b પૂર્ણાંકો હોવાથી <b>b/a</b> એ સંમેય સંખ્યા બને.</li>
+                            <li>તેથી ડાબી બાજુ (&radic;2) પણ સંમેય થવી જોઈએ.</li>
+                        </ul>
+                        <p style="background:#fef3c7; padding:10px; border-radius:5px; margin-top:10px; font-weight:bold; color:#b45309;">
+                        વિરોધાભાસ: પરંતુ &radic;2 અસંમેય છે. આપણી ધારણા ખોટી છે. 1 / &radic;2 અસંમેય છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 1.2 - પ્રશ્ન 3 (ii)",
+                question: "નીચે દર્શાવેલ સંખ્યા અસંમેય છે તેમ સાબિત કરો: 7&radic;5",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>સાબિતી:</b></p>
+                        <ul style="padding-left:20px;">
+                            <li>ધારો કે 7&radic;5 સંમેય છે.</li>
+                            <li>તેથી, <b>7&radic;5 = a/b</b></li>
+                            <li>7 ને બરાબરની પેલી બાજુ લઈ જતાં:<br> <b>&radic;5 = a / 7b</b></li>
+                            <li>અહી 7, a અને b પૂર્ણાંકો હોવાથી <b>a / 7b</b> એ સંમેય સંખ્યા બને.</li>
+                            <li>તેથી &radic;5 પણ સંમેય થવી જોઈએ.</li>
+                        </ul>
+                        <p style="background:#ede9fe; padding:10px; border-radius:5px; margin-top:10px; font-weight:bold; color:#5b21b6;">
+                        વિરોધાભાસ: પરંતુ &radic;5 અસંમેય છે. આપણી ધારણા ખોટી છે. 7&radic;5 અસંમેય છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 1.2 - પ્રશ્ન 3 (iii)",
+                question: "નીચે દર્શાવેલ સંખ્યા અસંમેય છે તેમ સાબિત કરો: 6 + &radic;2",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>સાબિતી:</b></p>
+                        <ul style="padding-left:20px;">
+                            <li>ધારો કે 6 + &radic;2 સંમેય છે.</li>
+                            <li>તેથી, <b>6 + &radic;2 = a/b</b></li>
+                            <li>6 ને બરાબરની પેલી બાજુ લઈ જતાં:<br> <b>&radic;2 = (a/b) - 6</b><br> <b>&radic;2 = (a - 6b) / b</b></li>
+                            <li>અહી 6, a અને b પૂર્ણાંકો હોવાથી <b>(a - 6b) / b</b> એ સંમેય સંખ્યા બને.</li>
+                            <li>તેથી &radic;2 પણ સંમેય થવી જોઈએ.</li>
+                        </ul>
+                        <p style="background:#fce7f3; padding:10px; border-radius:5px; margin-top:10px; font-weight:bold; color:#be185d;">
+                        વિરોધાભાસ: પરંતુ &radic;2 અસંમેય છે. આપણી ધારણા ખોટી છે. 6 + &radic;2 અસંમેય છે.
+                        </p>
+                    </div>`
+            }
+        ] // અહી પ્રકરણ 1 ના સ્વાધ્યાયનો એરે (Array) પૂરો થાય છે
+    } // અહી પ્રકરણ 1 નો ડેટા પૂરો થાય છે
+}; // અહી આખો njMathsSolutions નો ડેટાબેઝ પૂરો થાય છે
+
 };
                 
