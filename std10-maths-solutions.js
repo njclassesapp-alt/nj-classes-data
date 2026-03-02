@@ -449,5 +449,5 @@ var njMathsSolutions = {
     } // અહી પ્રકરણ 1 નો ડેટા પૂરો થાય છે
 }; // અહી આખો njMathsSolutions નો ડેટાબેઝ પૂરો થાય છે
 
-};
+
                 
