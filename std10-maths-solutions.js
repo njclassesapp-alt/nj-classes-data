@@ -2,7 +2,7 @@
 // Std 10 Maths - Premium Solutions Database (New Syllabus)
 // ==========================================
 
-var njMathsSolutions = {
+ njMathsSolutions = {
     // ------------------------------------
     // પ્રકરણ 1: વાસ્તવિક સંખ્યાઓ
     // ------------------------------------
