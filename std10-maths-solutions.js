@@ -2052,6 +2052,686 @@
                     </div>`
             }
         ] // અહી પ્રકરણ 3 ના સ્વાધ્યાયનો એરે (Array) પૂરો થાય છે
-    } // અહી પ્રકરણ 3 નો ડેટા પૂરો થાય છે
+    }, // અહી પ્રકરણ 3 નો ડેટા પૂરો થાય છે
+      // ------------------------------------
+    // પ્રકરણ 4: દ્વિઘાત સમીકરણ (Quadratic Equations)
+    // ------------------------------------
+    4: {
+        "theory": [
+            {
+                title: "થીયરી 1: બોર્ડ પરીક્ષાનું માળખું (Blueprint)",
+                question: "આ પ્રકરણમાંથી બોર્ડની પરીક્ષામાં કેટલા ગુણનું પૂછાય છે?",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ef4444; font-size:14px; line-height:1.8; color:#334155;">
+                        <p style="text-align:center; font-size:16px; font-weight:bold; color:#b91c1c; margin-bottom:10px;">🏆 કુલ ગુણ: 7</p>
+                        <table style="width:100%; border-collapse: collapse; margin-top:10px; background:#fff; border-radius:5px; overflow:hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+                            <tr style="background:#fee2e2; color:#991b1b; font-weight:bold; text-align:left;">
+                                <th style="padding:10px; border:1px solid #fca5a5;">વિભાગ (Section)</th>
+                                <th style="padding:10px; border:1px solid #fca5a5;">ગુણ (Marks)</th>
+                                <th style="padding:10px; border:1px solid #fca5a5;">પ્રશ્ન ક્રમાંક (Q. No.)</th>
+                            </tr>
+                            <tr>
+                                <td style="padding:10px; border:1px solid #fecaca;"><b>વિભાગ A</b> (હેતુલક્ષી)</td>
+                                <td style="padding:10px; border:1px solid #fecaca;">1 ગુણ</td>
+                                <td style="padding:10px; border:1px solid #fecaca; font-weight:bold; color:#dc2626;">2</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10px; border:1px solid #fecaca;"><b>વિભાગ B</b> (ટૂંકા દાખલા)</td>
+                                <td style="padding:10px; border:1px solid #fecaca;">2 ગુણ</td>
+                                <td style="padding:10px; border:1px solid #fecaca; font-weight:bold; color:#dc2626;">27</td>
+                            </tr>
+                            <tr>
+                                <td style="padding:10px; border:1px solid #fecaca;"><b>વિભાગ D</b> (મોટા કૂટપ્રશ્નો)</td>
+                                <td style="padding:10px; border:1px solid #fecaca;">4 ગુણ</td>
+                                <td style="padding:10px; border:1px solid #fecaca; font-weight:bold; color:#dc2626;">49</td>
+                            </tr>
+                        </table>
+                        <p style="margin-top:10px; font-size:13px; color:#7f1d1d;"><i>નોંધ: વિદ્યાર્થીઓએ વિભાગ D ના 4 ગુણના દાખલાઓ (ખાસ કરીને ઉંમર, ઝડપ, અને સંખ્યા વાળા કૂટપ્રશ્નો) પર સૌથી વધુ મહેનત કરવી.</i></p>
+                    </div>`
+            },
+            {
+                title: "થીયરી 2: પ્રમાણિત સ્વરૂપ અને વિવેચક (Discriminant)",
+                question: "દ્વિઘાત સમીકરણનું પ્રમાણિત સ્વરૂપ અને તેના બીજ (ઉકેલ) શોધવાનું સૂત્ર શું છે?",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>1. પ્રમાણિત સ્વરૂપ:</b><br>
+                        <span style="font-size:16px; font-weight:bold; color:#1d4ed8;">ax² + bx + c = 0</span> (જ્યાં a &ne; 0)</p>
+                        
+                        <p><b>2. વિવેચક (D અથવા &Delta;):</b><br>
+                        કોઈપણ સમીકરણના બીજ કેવા હશે તે નક્કી કરવા માટે વિવેચક શોધવામાં આવે છે.<br>
+                        <span style="background:#e0e7ff; padding:5px 10px; border-radius:5px; font-weight:bold; color:#2563eb; display:inline-block; margin-top:5px;">સૂત્ર: D = b² - 4ac</span></p>
+                        
+                        <p style="margin-top:10px;"><b>3. દ્વિઘાત સૂત્ર (શ્રીધર આચાર્યનું સૂત્ર):</b><br>
+                        <span style="font-size:15px; font-weight:bold; color:#1d4ed8;">x = [-b &plusmn; &radic;D] / 2a</span></p>
+                    </div>`
+            },
+            {
+                title: "થીયરી 3: બીજનું સ્વરૂપ (Nature of Roots)",
+                question: "વિવેચક (D) ની કિંમત પરથી સમીકરણના બીજ કેવા હશે તે કેવી રીતે નક્કી થાય?",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
+                        <p>વિવેચક <b>D = b² - 4ac</b> ની કિંમત પરથી 3 શક્યતાઓ મળે છે:</p>
+                        
+                        <div style="background:#ecfdf5; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #6ee7b7;">
+                            <p style="margin:0; font-weight:bold; color:#047857;">1. જો D > 0 (ધન સંખ્યા હોય):</p>
+                            <p style="margin:5px 0 0 0; font-size:13px;">સમીકરણને <b>બે ભિન્ન (અલગ-અલગ) અને વાસ્તવિક બીજ</b> મળે.</p>
+                        </div>
+
+                        <div style="background:#fef3c7; padding:10px; margin-bottom:10px; border-radius:5px; border:1px solid #fcd34d;">
+                            <p style="margin:0; font-weight:bold; color:#b45309;">2. જો D = 0 (શૂન્ય હોય):</p>
+                            <p style="margin:5px 0 0 0; font-size:13px;">સમીકરણને <b>બે સમાન અને વાસ્તવિક બીજ</b> મળે. (બંને જવાબ સરખા આવે).<br>
+                            આ કિસ્સામાં બીજ <b>-b / 2a</b> થાય છે.</p>
+                        </div>
+
+                        <div style="background:#fef2f2; padding:10px; border-radius:5px; border:1px solid #fca5a5;">
+                            <p style="margin:0; font-weight:bold; color:#b91c1c;">3. જો D < 0 (ઋણ સંખ્યા હોય):</p>
+                            <p style="margin:5px 0 0 0; font-size:13px;">સમીકરણને <b>કોઈ વાસ્તવિક બીજ ન મળે</b>. (અહી દાખલો આગળ ગણવાનો હોતો નથી).</p>
+                        </div>
+                    </div>`
+            }
+        ],
+
+        "examples": [
+            {
+                title: "ઉદાહરણ 1",
+                question: "ચકાસો કે નીચે આપેલ સમીકરણ દ્વિઘાત સમીકરણ છે કે નહિ: <br> (x - 2)² + 1 = 2x - 3",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>સૌથી પહેલા કૌંસ છોડીને સાદુંરૂપ આપીએ. (a - b)² = a² - 2ab + b² ના સૂત્રનો ઉપયોગ કરતા:</p>
+                        
+                        <p>ડાબી બાજુ (LHS):<br>
+                        (x - 2)² + 1 = x² - 4x + 4 + 1<br>
+                        = x² - 4x + 5</p>
+                        
+                        <p>હવે ડાબી બાજુ અને જમણી બાજુ સરખાવતા:<br>
+                        x² - 4x + 5 = 2x - 3<br>
+                        બધા પદોને એક બાજુ લાવતા:<br>
+                        x² - 4x - 2x + 5 + 3 = 0<br>
+                        <b>x² - 6x + 8 = 0</b></p>
+                        
+                        <p style="background:#ede9fe; padding:8px; border-radius:5px; font-weight:bold; color:#5b21b6; text-align:center;">
+                        આ સમીકરણ ax² + bx + c = 0 સ્વરૂપનું છે અને તેમાં x ની મહત્તમ ઘાત 2 છે. <br>તેથી, આપેલ સમીકરણ દ્વિઘાત સમીકરણ છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "ઉદાહરણ 2 (અવયવીકરણની રીત)",
+                question: "દ્વિઘાત સમીકરણ 2x² - 5x + 3 = 0 ના બીજ અવયવીકરણની રીતે શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>સમીકરણ: 2x² - 5x + 3 = 0</p>
+                        <p><b>Step 1:</b> પ્રથમ પદ અને અંતિમ પદનો ગુણાકાર: 2 × 3 = 6.<br>
+                        હવે 6 ના એવા ભાગ પાડો કે જેનો સરવાળો મધ્યમ પદ (-5) થાય.<br>
+                        ભાગ: -2 અને -3 (કારણ કે -2 + -3 = -5 અને -2 × -3 = 6).</p>
+                        
+                        <p><b>Step 2:</b> મધ્યમ પદના ભાગ પાડતા:<br>
+                        2x² - 2x - 3x + 3 = 0<br>
+                        પ્રથમ બે અને છેલ્લા બે પદમાંથી સામાન્ય કાઢતા:<br>
+                        2x(x - 1) - 3(x - 1) = 0<br>
+                        <b>(x - 1) (2x - 3) = 0</b></p>
+                        
+                        <p><b>Step 3:</b> બીજ શોધવા:<br>
+                        x - 1 = 0 &nbsp;&rarr;&nbsp; <b>x = 1</b><br>
+                        અથવા 2x - 3 = 0 &nbsp;&rarr;&nbsp; 2x = 3 &nbsp;&rarr;&nbsp; <b>x = 3/2</b></p>
+                        
+                        <div style="background:#fef3c7; border:1px dashed #f59e0b; padding:10px; margin-top:10px; border-radius:5px;">
+                            <p style="margin:0; font-weight:bold; color:#b45309;">💡 શોર્ટકટ ટ્રીક (MCQ માટે):</p>
+                            <p style="margin:0; font-size:13px;">ગુણાકાર 6 અને સરવાળો 5 ના ભાગ: -2 અને -3. <br>હવે બંનેની નિશાની બદલીને તેને 'x²' ના સહગુણક (2) વડે ભાગી નાખો.<br>જવાબ: 2/2 = <b>1</b> અને <b>3/2</b>. (સીધો જવાબ આવી ગયો!)</p>
+                        </div>
+                    </div>`
+            },
+            {
+                title: "ઉદાહરણ 3 (દ્વિઘાત સૂત્રની રીત)",
+                question: "દ્વિઘાત સૂત્રનો ઉપયોગ કરીને 3x² - 5x + 2 = 0 ના બીજ શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>અહીં a = 3, b = -5, c = 2 છે.</p>
+                        
+                        <p><b>Step 1 (વિવેચક D શોધવો):</b><br>
+                        D = b² - 4ac<br>
+                        D = (-5)² - 4(3)(2)<br>
+                        D = 25 - 24<br>
+                        <b>D = 1</b> (D > 0 હોવાથી બે વાસ્તવિક અને ભિન્ન બીજ મળશે)</p>
+                        
+                        <p><b>Step 2 (દ્વિઘાત સૂત્ર મૂકતા):</b><br>
+                        x = [-b &plusmn; &radic;D] / 2a<br>
+                        x = [-(-5) &plusmn; &radic;1] / (2 × 3)<br>
+                        x = [5 &plusmn; 1] / 6</p>
+                        
+                        <p><b>Step 3 (બંને બીજ અલગ કરતા):</b><br>
+                        પહેલું બીજ: x = (5 + 1) / 6 = 6 / 6 &nbsp;&rarr;&nbsp; <b>x = 1</b><br>
+                        બીજું બીજ: x = (5 - 1) / 6 = 4 / 6 &nbsp;&rarr;&nbsp; <b>x = 2/3</b></p>
+                        
+                        <p style="background:#fce7f3; padding:8px; border-radius:5px; font-weight:bold; color:#be123c; text-align:center;">
+                        આમ, સમીકરણના બીજ 1 અને 2/3 છે.
+                        </p>
+                    </div>`
+            }
+        ],
+             // ------------------------------------
+        // અહીથી પ્રકરણ 4 ના સ્વાધ્યાય શરૂ થાય છે 
+        // ------------------------------------
+        "exercise": [
+            {
+                title: "સ્વાધ્યાય 4.1 - પ્રશ્ન 1 (i & ii)",
+                question: "નીચે આપેલ સમીકરણો દ્વિઘાત સમીકરણો છે કે કેમ તે ચકાસો:<br>(i) (x + 1)² = 2(x - 3)<br>(ii) x² - 2x = (-2)(3 - x)",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>નોંધ:</b> જો સાદુંરૂપ આપ્યા પછી સમીકરણમાં ચલ 'x' ની <b>મહત્તમ ઘાત 2</b> રહે, તો તે દ્વિઘાત સમીકરણ કહેવાય.</p>
+                        <hr style="border:0; border-top:1px solid #cbd5e1; margin:10px 0;">
+                        
+                        <p><b>દાખલો (i): (x + 1)² = 2(x - 3)</b></p>
+                        <p>ડાબી બાજુ કૌંસ છોડતા: x² + 2x + 1<br>
+                        જમણી બાજુ કૌંસ છોડતા: 2x - 6</p>
+                        <p>બંનેને સરખાવતા:<br>
+                        x² + 2x + 1 = 2x - 6<br>
+                        x² + 2x - 2x + 1 + 6 = 0<br>
+                        <b>x² + 7 = 0</b></p>
+                        <p style="background:#eff6ff; padding:5px 8px; border-radius:5px; font-weight:bold; color:#1e40af;">નિષ્કર્ષ: અહીં x ની મહત્તમ ઘાત 2 છે. તેથી આ દ્વિઘાત સમીકરણ છે.</p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>દાખલો (ii): x² - 2x = (-2)(3 - x)</b></p>
+                        <p>x² - 2x = -6 + 2x<br>
+                        x² - 2x - 2x + 6 = 0<br>
+                        <b>x² - 4x + 6 = 0</b></p>
+                        <p style="background:#eff6ff; padding:5px 8px; border-radius:5px; font-weight:bold; color:#1e40af;">નિષ્કર્ષ: અહીં પણ x ની મહત્તમ ઘાત 2 છે. તેથી આ દ્વિઘાત સમીકરણ છે.</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.1 - પ્રશ્ન 1 (iii & iv)",
+                question: "દ્વિઘાત સમીકરણો છે કે કેમ તે ચકાસો:<br>(iii) (x - 2)(x + 1) = (x - 1)(x + 3)<br>(iv) (x - 3)(2x + 1) = x(x + 5)",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>દાખલો (iii): (x - 2)(x + 1) = (x - 1)(x + 3)</b></p>
+                        <p>બંને બાજુ કૌંસનો ગુણાકાર કરતા:<br>
+                        x² + x - 2x - 2 = x² + 3x - x - 3<br>
+                        x² - x - 2 = x² + 2x - 3</p>
+                        <p>બંને બાજુથી <b>x²</b> કેન્સલ (રદ) થઈ જશે!<br>
+                        તેથી, -x - 2x - 2 + 3 = 0<br>
+                        <b>-3x + 1 = 0</b></p>
+                        <p style="background:#ecfdf5; padding:5px 8px; border-radius:5px; font-weight:bold; color:#047857;">નિષ્કર્ષ: અહીં x ની મહત્તમ ઘાત 1 જ છે (x² વાળું પદ નથી). તેથી આ દ્વિઘાત સમીકરણ <b>નથી</b>.</p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>દાખલો (iv): (x - 3)(2x + 1) = x(x + 5)</b></p>
+                        <p>2x² + x - 6x - 3 = x² + 5x<br>
+                        2x² - 5x - 3 = x² + 5x<br>
+                        2x² - x² - 5x - 5x - 3 = 0<br>
+                        <b>x² - 10x - 3 = 0</b></p>
+                        <p style="background:#ecfdf5; padding:5px 8px; border-radius:5px; font-weight:bold; color:#047857;">નિષ્કર્ષ: અહીં x ની મહત્તમ ઘાત 2 છે. તેથી આ દ્વિઘાત સમીકરણ છે.</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.1 - પ્રશ્ન 2 (i)",
+                question: "નીચેની પરિસ્થિતિને દ્વિઘાત સમીકરણ સ્વરૂપે દર્શાવો:<br>જમીનના એક લંબચોરસ ટુકડાનું ક્ષેત્રફળ 528 મી² છે. તેની લંબાઈ (મીટરમાં) તેની પહોળાઈના બમણા કરતાં 1 મીટર જેટલી વધુ છે. આપણે લંબચોરસની લંબાઈ અને પહોળાઈ શોધવી છે.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે, લંબચોરસ પ્લોટની <b>પહોળાઈ = x</b> મીટર છે.</p>
+                        <p>શરત મુજબ, લંબાઈ એ પહોળાઈના બમણા (2x) કરતાં 1 વધુ છે.<br>
+                        તેથી, <b>લંબાઈ = 2x + 1</b> મીટર.</p>
+                        
+                        <p>લંબચોરસનું ક્ષેત્રફળ = લંબાઈ × પહોળાઈ<br>
+                        528 = (2x + 1) × x<br>
+                        528 = 2x² + x</p>
+                        
+                        <p>બધા પદોને એક બાજુ ગોઠવતા:</p>
+                        <p style="background:#fef3c7; padding:10px; border-radius:5px; font-weight:bold; color:#b45309; text-align:center; font-size:16px;">
+                        2x² + x - 528 = 0
+                        </p>
+                        <p style="font-size:13px; text-align:center; color:#64748b;">આ માંગેલ દ્વિઘાત સમીકરણ છે. (આનો ઉકેલ શોધવાથી લંબાઈ અને પહોળાઈ મળશે).</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.1 - પ્રશ્ન 2 (ii)",
+                question: "નીચેની પરિસ્થિતિને દ્વિઘાત સમીકરણ સ્વરૂપે દર્શાવો:<br>બે ક્રમિક ધન પૂર્ણાંકોનો ગુણાકાર 306 છે. આપણે આ પૂર્ણાંકો શોધવા છે.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે, પ્રથમ ક્રમિક ધન પૂર્ણાંક <b>x</b> છે.</p>
+                        <p>ક્રમિક સંખ્યા એટલે તરત પછીની સંખ્યા. તેથી, બીજો ધન પૂર્ણાંક <b>(x + 1)</b> થાય.</p>
+                        
+                        <p>શરત મુજબ, બંનેનો ગુણાકાર 306 છે:<br>
+                        x(x + 1) = 306<br>
+                        x² + x = 306</p>
+                        
+                        <p>306 ને ડાબી બાજુ લાવતા:</p>
+                        <p style="background:#ede9fe; padding:10px; border-radius:5px; font-weight:bold; color:#5b21b6; text-align:center; font-size:16px;">
+                        x² + x - 306 = 0
+                        </p>
+                        <p style="font-size:13px; text-align:center; color:#64748b;">આ માંગેલ દ્વિઘાત સમીકરણ છે.</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.1 - પ્રશ્ન 2 (iii)",
+                question: "નીચેની પરિસ્થિતિને દ્વિઘાત સમીકરણ સ્વરૂપે દર્શાવો:<br>રોહનની માતા તેના કરતા 26 વર્ષ મોટા છે. આજથી 3 વર્ષ પછી તેમની ઉંમર દર્શાવતી સંખ્યાઓનો ગુણાકાર 360 હશે. આપણે રોહનની હાલની ઉંમર શોધવી છે.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે, રોહનની હાલની ઉંમર = <b>x</b> વર્ષ.<br>
+                        માતા રોહન કરતા 26 વર્ષ મોટા છે. તેથી, માતાની હાલની ઉંમર = <b>(x + 26)</b> વર્ષ.</p>
+                        
+                        <p><b>3 વર્ષ પછી:</b><br>
+                        રોહનની ઉંમર = x + 3<br>
+                        માતાની ઉંમર = (x + 26) + 3 = <b>x + 29</b></p>
+                        
+                        <p>શરત મુજબ, 3 વર્ષ પછીની ઉંમરનો ગુણાકાર 360 થાય છે:<br>
+                        (x + 3)(x + 29) = 360<br>
+                        x² + 29x + 3x + 87 = 360<br>
+                        x² + 32x + 87 - 360 = 0</p>
+                        
+                        <p style="background:#fce7f3; padding:10px; border-radius:5px; font-weight:bold; color:#be123c; text-align:center; font-size:16px;">
+                        x² + 32x - 273 = 0
+                        </p>
+                        <p style="font-size:13px; text-align:center; color:#64748b;">આ માંગેલ દ્વિઘાત સમીકરણ છે.</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.1 - પ્રશ્ન 2 (iv)",
+                question: "દ્વિઘાત સમીકરણ સ્વરૂપે દર્શાવો: એક ટ્રેન 480 કિમી નું અંતર અચળ ઝડપથી કાપે છે. જો ઝડપ 8 કિમી/કલાક ઓછી હોય, તો આટલું જ અંતર કાપવા તે 3 કલાક વધુ સમય લે છે. તો ટ્રેનની ઝડપ શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #14b8a6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b> (અહીં આપણે સમય = અંતર / ઝડપ સૂત્રનો ઉપયોગ કરીશું)</p>
+                        
+                        <p>ધારો કે ટ્રેનની સામાન્ય ઝડપ = <b>x કિમી/કલાક</b> છે.<br>
+                        કાપવાનું કુલ અંતર = 480 કિમી.<br>
+                        સામાન્ય સમય (t₁) = <b>480 / x</b> કલાક.</p>
+                        
+                        <p>જો ઝડપ 8 કિમી/કલાક ઓછી કરવામાં આવે:<br>
+                        નવી ઝડપ = <b>(x - 8)</b> કિમી/કલાક.<br>
+                        નવો સમય (t₂) = <b>480 / (x - 8)</b> કલાક.</p>
+                        
+                        <p>શરત મુજબ, નવો સમય પહેલાના સમય કરતા 3 કલાક વધુ છે (એટલે કે બંને સમયનો તફાવત 3 છે):<br>
+                        [480 / (x - 8)] - [480 / x] = 3</p>
+                        
+                        <p>લ.સા.અ. લેતા (ચોકડી ગુણાકાર):<br>
+                        [480x - 480(x - 8)] / [x(x - 8)] = 3<br>
+                        480x - 480x + 3840 = 3x(x - 8)<br>
+                        3840 = 3x² - 24x<br>
+                        આખા સમીકરણને 3 વડે ભાગતા:<br>
+                        1280 = x² - 8x</p>
+                        
+                        <p style="background:#ccfbf1; padding:10px; border-radius:5px; font-weight:bold; color:#0f766e; text-align:center; font-size:16px;">
+                        x² - 8x - 1280 = 0
+                        </p>
+                        <p style="font-size:13px; text-align:center; color:#64748b;">આ માંગેલ દ્વિઘાત સમીકરણ છે.</p>
+                    </div>`
+            },
+                     
+            {
+                title: "સ્વાધ્યાય 4.2 - પ્રશ્ન 1 (i & ii)",
+                question: "અવયવીકરણની રીતથી નીચેના દ્વિઘાત સમીકરણના ઉકેલ મેળવો:<br>(i) x² - 3x - 10 = 0 <br>(ii) 2x² + x - 6 = 0",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>દાખલો (i): x² - 3x - 10 = 0</b></p>
+                        <p>અહીં 10 ના એવા ભાગ પાડવાના છે જેની બાદબાકી 3 થાય: (5 અને 2)<br>
+                        x² - 5x + 2x - 10 = 0<br>
+                        x(x - 5) + 2(x - 5) = 0<br>
+                        (x - 5) (x + 2) = 0<br>
+                        <b>x = 5</b> અથવા <b>x = -2</b></p>
+                        
+                        <div style="background:#e0e7ff; padding:8px; border-radius:5px; font-size:13px; margin-bottom:15px;">
+                            <b>💡 શોર્ટકટ ટ્રીક (MCQ માટે):</b> ગુણાકાર -10 અને સરવાળો -3 કોનો થાય? -5 અને +2. બંનેની નિશાની બદલી નાખો: <b>જવાબ: 5 અને -2</b>.
+                        </div>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>દાખલો (ii): 2x² + x - 6 = 0</b></p>
+                        <p>અહીં પ્રથમ અને છેલ્લા પદનો ગુણાકાર 2 × (-6) = -12. <br>હવે -12 ના એવા ભાગ જેનો સરવાળો +1 (મધ્યમ પદ) થાય: (+4 અને -3)</p>
+                        <p>2x² + 4x - 3x - 6 = 0<br>
+                        2x(x + 2) - 3(x + 2) = 0<br>
+                        (x + 2) (2x - 3) = 0<br>
+                        તેથી, x + 2 = 0 &nbsp;&rarr;&nbsp; <b>x = -2</b><br>
+                        અને 2x - 3 = 0 &nbsp;&rarr;&nbsp; <b>x = 3/2</b></p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.2 - પ્રશ્ન 1 (iii)",
+                question: "અવયવીકરણથી ઉકેલ મેળવો: &radic;2x² + 7x + 5&radic;2 = 0",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>પ્રથમ પદ અને અંતિમ પદનો ગુણાકાર:<br>
+                        &radic;2 × 5&radic;2 = 5 × 2 = 10<br>
+                        હવે 10 ના એવા ભાગ પાડો જેનો સરવાળો 7 થાય: (5 અને 2)</p>
+                        
+                        <p>સમીકરણમાં મૂકતા:<br>
+                        &radic;2x² + 2x + 5x + 5&radic;2 = 0</p>
+                        
+                        <p><b>નોંધ:</b> 2 ની જગ્યાએ (&radic;2 × &radic;2) વિચારીને સામાન્ય કાઢો:<br>
+                        &radic;2x (x + &radic;2) + 5 (x + &radic;2) = 0<br>
+                        (x + &radic;2) (&radic;2x + 5) = 0</p>
+                        
+                        <p>તેથી, x + &radic;2 = 0 &nbsp;&rarr;&nbsp; <b>x = -&radic;2</b><br>
+                        અને &radic;2x + 5 = 0 &nbsp;&rarr;&nbsp; <b>x = -5 / &radic;2</b></p>
+                        
+                        <p style="background:#ecfdf5; padding:8px; border-radius:5px; font-weight:bold; color:#047857; text-align:center;">
+                        આમ, બીજ -&radic;2 અને -5/&radic;2 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.2 - પ્રશ્ન 1 (iv & v)",
+                question: "અવયવીકરણથી ઉકેલ મેળવો:<br>(iv) 2x² - x + 1/8 = 0 <br>(v) 100x² - 20x + 1 = 0",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>દાખલો (iv): 2x² - x + 1/8 = 0</b></p>
+                        <p>પહેલા છેદમાં રહેલા 8 નો લ.સા.અ. લેતા (બધા પદને 8 વડે ગુણતા):<br>
+                        16x² - 8x + 1 = 0</p>
+                        <p>આ પૂર્ણવર્ગ પદાવલિ છે: (4x)² - 2(4x)(1) + (1)² = 0<br>
+                        (4x - 1)² = 0<br>
+                        તેથી, 4x - 1 = 0 &nbsp;&rarr;&nbsp; <b>x = 1/4</b> (બંને બીજ સમાન છે: 1/4, 1/4)</p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>દાખલો (v): 100x² - 20x + 1 = 0</b></p>
+                        <p>આ પણ પૂર્ણવર્ગ પદાવલિ છે: (10x)² - 2(10x)(1) + (1)² = 0<br>
+                        (10x - 1)² = 0<br>
+                        તેથી, 10x - 1 = 0 &nbsp;&rarr;&nbsp; <b>x = 1/10</b></p>
+                        <p style="background:#fef3c7; padding:8px; border-radius:5px; font-weight:bold; color:#b45309; text-align:center;">
+                        આમ, બીજ 1/10 અને 1/10 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.2 - પ્રશ્ન 3 (અગત્યનો કૂટપ્રશ્ન)",
+                question: "બે એવી સંખ્યાઓ શોધો કે જેમનો સરવાળો 27 અને ગુણાકાર 182 હોય.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે એક સંખ્યા <b>x</b> છે.<br>
+                        બંનેનો સરવાળો 27 હોવાથી, બીજી સંખ્યા <b>(27 - x)</b> થાય.</p>
+                        
+                        <p>શરત મુજબ બંનેનો ગુણાકાર 182 છે:<br>
+                        x (27 - x) = 182<br>
+                        27x - x² = 182<br>
+                        બધા પદો જમણી બાજુ લઈ જતાં:<br>
+                        <b>x² - 27x + 182 = 0</b></p>
+                        
+                        <p><b>અવયવીકરણ:</b><br>
+                        182 ના એવા ભાગ જેનો સરવાળો 27 થાય: (-13 અને -14).<br>
+                        x² - 13x - 14x + 182 = 0<br>
+                        x(x - 13) - 14(x - 13) = 0<br>
+                        (x - 13) (x - 14) = 0</p>
+                        
+                        <p>તેથી, <b>x = 13</b> અથવા <b>x = 14</b>.</p>
+                        
+                        <p style="background:#ede9fe; padding:8px; border-radius:5px; font-weight:bold; color:#5b21b6; text-align:center;">
+                        જવાબ: માંગેલ બંને સંખ્યાઓ 13 અને 14 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.2 - પ્રશ્ન 4 (અગત્યનો કૂટપ્રશ્ન)",
+                question: "જેમના વર્ગોનો સરવાળો 365 થાય એવી બે ક્રમિક ધન પૂર્ણાંક સંખ્યાઓ શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે બે ક્રમિક ધન પૂર્ણાંકો <b>x</b> અને <b>(x + 1)</b> છે.</p>
+                        
+                        <p>શરત મુજબ તેમના વર્ગોનો સરવાળો 365 છે:<br>
+                        x² + (x + 1)² = 365<br>
+                        x² + (x² + 2x + 1) = 365<br>
+                        2x² + 2x + 1 - 365 = 0<br>
+                        2x² + 2x - 364 = 0</p>
+                        
+                        <p>આખા સમીકરણને 2 વડે ભાગતા સમીકરણ સરળ બનશે:<br>
+                        <b>x² + x - 182 = 0</b></p>
+                        
+                        <p><b>અવયવીકરણ:</b><br>
+                        -182 ના એવા ભાગ જેની બાદબાકી 1 થાય: (+14 અને -13).<br>
+                        x² + 14x - 13x - 182 = 0<br>
+                        x(x + 14) - 13(x + 14) = 0<br>
+                        (x + 14) (x - 13) = 0</p>
+                        
+                        <p>તેથી, x = -14 અથવા <b>x = 13</b>.<br>
+                        પરંતુ, આપણને <b>ધન પૂર્ણાંક</b> કહ્યા છે, તેથી x = -14 શક્ય નથી. <b>x = 13</b> જ લેવું પડે.</p>
+                        
+                        <p style="background:#fce7f3; padding:8px; border-radius:5px; font-weight:bold; color:#be123c; text-align:center;">
+                        જવાબ: પ્રથમ સંખ્યા 13 અને બીજી સંખ્યા (13+1) = 14 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.2 - પ્રશ્ન 5 (પાયથાગોરસ પર આધારિત)",
+                question: "એક કાટકોણ ત્રિકોણનો વેધ તેના પાયા કરતા 7 સેમી નાનો છે. જો કર્ણની લંબાઈ 13 સેમી હોય, તો બાકીની બે બાજુઓના માપ શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #14b8a6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે કાટકોણ ત્રિકોણનો પાયો = <b>x</b> સેમી છે.<br>
+                        વેધ પાયા કરતા 7 સેમી નાનો છે, તેથી વેધ = <b>(x - 7)</b> સેમી.<br>
+                        કર્ણ = 13 સેમી આપેલ છે.</p>
+                        
+                        <p><b>પાયથાગોરસના પ્રમેય મુજબ:</b><br>
+                        (પાયો)² + (વેધ)² = (કર્ણ)²<br>
+                        x² + (x - 7)² = (13)²<br>
+                        x² + (x² - 14x + 49) = 169<br>
+                        2x² - 14x + 49 - 169 = 0<br>
+                        2x² - 14x - 120 = 0</p>
+                        
+                        <p>સમીકરણને 2 વડે ભાગતા:<br>
+                        <b>x² - 7x - 60 = 0</b></p>
+                        
+                        <p><b>અવયવીકરણ:</b><br>
+                        -60 ના એવા ભાગ જેની બાદબાકી 7 થાય: (-12 અને +5).<br>
+                        (x - 12) (x + 5) = 0<br>
+                        તેથી, <b>x = 12</b> અથવા x = -5.<br>
+                        લંબાઈ ક્યારેય ઋણ ન હોઈ શકે, તેથી x = -5 શક્ય નથી.</p>
+                        
+                        <p style="background:#ccfbf1; padding:8px; border-radius:5px; font-weight:bold; color:#0f766e; text-align:center;">
+                        જવાબ: ત્રિકોણનો પાયો = 12 સેમી અને વેધ (12 - 7) = 5 સેમી છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.2 - પ્રશ્ન 6 (કુટીર ઉદ્યોગ)",
+                question: "એક કુટીર ઉદ્યોગ એક દિવસમાં કેટલીક માટીની વસ્તુઓ બનાવે છે. એક નિશ્ચિત દિવસે જણાયું કે પ્રત્યેક વસ્તુની ઉત્પાદન કિંમત તે દિવસે ઉત્પાદિત વસ્તુઓની સંખ્યાના બમણા કરતા 3 વધુ હતી. જો તે દિવસનો કુલ ઉત્પાદન ખર્ચ રૂપિયા 90 હોય, તો ઉત્પાદિત વસ્તુઓની સંખ્યા અને પ્રત્યેક વસ્તુની ઉત્પાદન કિંમત શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f43f5e; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે એક દિવસમાં ઉત્પાદિત વસ્તુઓની સંખ્યા = <b>x</b> છે.</p>
+                        <p>શરત મુજબ પ્રત્યેક વસ્તુની કિંમત, વસ્તુની સંખ્યાના બમણાથી 3 વધુ છે.<br>
+                        તેથી, 1 વસ્તુની કિંમત = <b>(2x + 3)</b> રૂપિયા.</p>
+                        
+                        <p>કુલ ખર્ચ = વસ્તુની સંખ્યા × 1 વસ્તુની કિંમત<br>
+                        90 = x (2x + 3)<br>
+                        90 = 2x² + 3x<br>
+                        <b>2x² + 3x - 90 = 0</b></p>
+                        
+                        <p><b>અવયવીકરણ:</b><br>
+                        પ્રથમ અને અંતિમ પદનો ગુણાકાર = 2 × (-90) = -180.<br>
+                        -180 ના એવા ભાગ જેની બાદબાકી +3 થાય: (+15 અને -12).<br>
+                        2x² - 12x + 15x - 90 = 0<br>
+                        2x(x - 6) + 15(x - 6) = 0<br>
+                        (x - 6) (2x + 15) = 0</p>
+                        
+                        <p>તેથી, <b>x = 6</b> અથવા x = -15/2.<br>
+                        વસ્તુઓની સંખ્યા ઋણ કે અપૂર્ણાંક ન હોઈ શકે, તેથી x = 6.</p>
+                        
+                        <p style="background:#ffe4e6; padding:8px; border-radius:5px; font-weight:bold; color:#be123c; text-align:center;">
+                        જવાબ: ઉત્પાદિત વસ્તુઓની સંખ્યા 6 છે અને પ્રત્યેક વસ્તુની કિંમત 2(6) + 3 = 15 રૂપિયા છે.
+                        </p>
+                    </div>`
+            },
+                     
+            {
+                title: "સ્વાધ્યાય 4.3 - પ્રશ્ન 1",
+                question: "નીચે આપેલા દ્વિઘાત સમીકરણના બીજના સ્વરૂપ શોધો. જો તેમને વાસ્તવિક બીજ હોય, તો તે શોધો:<br>(i) 2x² - 3x + 5 = 0 <br>(ii) 3x² - 4&radic;3x + 4 = 0",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>દાખલો (i): 2x² - 3x + 5 = 0</b></p>
+                        <p>અહીં a = 2, b = -3, c = 5<br>
+                        વિવેચક D = b² - 4ac<br>
+                        D = (-3)² - 4(2)(5) = 9 - 40 = <b>-31</b></p>
+                        <p style="background:#fef2f2; padding:5px 8px; border-radius:5px; font-weight:bold; color:#b91c1c;">અહીં D &lt; 0 (ઋણ) હોવાથી સમીકરણને વાસ્તવિક બીજ નથી.</p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>દાખલો (ii): 3x² - 4&radic;3x + 4 = 0</b></p>
+                        <p>અહીં a = 3, b = -4&radic;3, c = 4<br>
+                        D = (-4&radic;3)² - 4(3)(4)<br>
+                        D = 48 - 48 = <b>0</b></p>
+                        <p style="background:#fef3c7; padding:5px 8px; border-radius:5px; font-weight:bold; color:#b45309;">અહીં D = 0 હોવાથી બે સમાન અને વાસ્તવિક બીજ મળે.</p>
+                        
+                        <p><b>સમાન બીજ શોધવાનું સૂત્ર:</b> x = -b / 2a<br>
+                        x = -(-4&radic;3) / 2(3)<br>
+                        x = 4&radic;3 / 6<br>
+                        <b>x = 2&radic;3 / 3</b> (બંને બીજ સમાન છે)</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.3 - પ્રશ્ન 1 (iii)",
+                question: "બીજનું સ્વરૂપ શોધો: 2x² - 6x + 3 = 0. જો વાસ્તવિક બીજ હોય તો શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>અહીં a = 2, b = -6, c = 3<br>
+                        D = b² - 4ac<br>
+                        D = (-6)² - 4(2)(3)<br>
+                        D = 36 - 24 = <b>12</b></p>
+                        <p style="background:#ecfdf5; padding:5px 8px; border-radius:5px; font-weight:bold; color:#047857;">અહીં D &gt; 0 (ધન) હોવાથી બે ભિન્ન અને વાસ્તવિક બીજ મળશે.</p>
+
+                        <p><b>દ્વિઘાત સૂત્ર:</b> x = [-b &plusmn; &radic;D] / 2a<br>
+                        x = [-(-6) &plusmn; &radic;12] / 2(2)<br>
+                        અહીં &radic;12 = &radic;(4 × 3) = 2&radic;3 થાય.<br>
+                        x = [6 &plusmn; 2&radic;3] / 4</p>
+                        
+                        <p>અંશમાંથી 2 સામાન્ય કાઢતા:<br>
+                        x = 2[3 &plusmn; &radic;3] / 4<br>
+                        x = (3 &plusmn; &radic;3) / 2</p>
+                        
+                        <p>તેથી બીજ <b>(3 + &radic;3)/2</b> અને <b>(3 - &radic;3)/2</b> છે.</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.3 - પ્રશ્ન 2",
+                question: "જો નીચેના દ્વિઘાત સમીકરણના બીજ સમાન હોય તો 'k' નું મૂલ્ય શોધો: <br>(i) 2x² + kx + 3 = 0 <br>(ii) kx(x - 2) + 6 = 0",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>નોંધ:</b> જ્યારે બીજ સમાન હોય ત્યારે હંમેશા <b>વિવેચક D = 0</b> થાય.</p>
+                        <hr style="border:0; border-top:1px solid #cbd5e1; margin:10px 0;">
+                        
+                        <p><b>દાખલો (i): 2x² + kx + 3 = 0</b></p>
+                        <p>a = 2, b = k, c = 3<br>
+                        D = b² - 4ac = 0<br>
+                        (k)² - 4(2)(3) = 0<br>
+                        k² - 24 = 0<br>
+                        k² = 24<br>
+                        k = &plusmn;&radic;24 <br>
+                        <b>k = &plusmn;2&radic;6</b> (k ની બે કિંમતો મળે: +2&radic;6 અને -2&radic;6)</p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>દાખલો (ii): kx(x - 2) + 6 = 0</b></p>
+                        <p>કૌંસ છોડતા: <b>kx² - 2kx + 6 = 0</b><br>
+                        અહીં a = k, b = -2k, c = 6<br>
+                        D = b² - 4ac = 0<br>
+                        (-2k)² - 4(k)(6) = 0<br>
+                        4k² - 24k = 0</p>
+                        <p>4k સામાન્ય કાઢતા:<br>
+                        4k(k - 6) = 0<br>
+                        તેથી, 4k = 0 અથવા k - 6 = 0<br>
+                        k = 0 અથવા <b>k = 6</b></p>
+                        <p style="background:#fef3c7; padding:5px 8px; border-radius:5px; font-weight:bold; color:#b45309;">જો k=0 લઈએ તો સમીકરણ દ્વિઘાત રહે નહિ, તેથી માંગેલ જવાબ <b>k = 6</b> છે.</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.3 - પ્રશ્ન 3 (કૂટપ્રશ્ન)",
+                question: "જેની લંબાઈ પહોળાઈ કરતા બમણી હોય અને ક્ષેત્રફળ 800 મી² હોય એવી લંબચોરસ આંબાવાડી બનાવવી શક્ય છે? જો હા, તો તેની લંબાઈ અને પહોળાઈ શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે લંબચોરસની પહોળાઈ = <b>x</b> મીટર.<br>
+                        તેથી લંબાઈ બમણી હોવાથી = <b>2x</b> મીટર.</p>
+                        
+                        <p>ક્ષેત્રફળ = લંબાઈ × પહોળાઈ<br>
+                        800 = (2x) × x<br>
+                        800 = 2x²<br>
+                        2x² - 800 = 0<br>
+                        સમીકરણને 2 વડે ભાગતા:<br>
+                        <b>x² - 400 = 0</b></p>
+                        
+                        <p>આ સમીકરણને ચકાસીએ (અહી a=1, b=0, c=-400):<br>
+                        D = b² - 4ac = 0 - 4(1)(-400) = 1600<br>
+                        D > 0 છે, તેથી વાસ્તવિક બીજ મળશે. <b>આથી આંબાવાડી બનાવવી શક્ય છે.</b></p>
+                        
+                        <p>હવે ઉકેલ: x² = 400<br>
+                        x = &plusmn;20<br>
+                        લંબાઈ ઋણ ન હોઈ શકે, તેથી <b>x = 20</b>.</p>
+                        
+                        <p style="background:#ede9fe; padding:8px; border-radius:5px; font-weight:bold; color:#5b21b6; text-align:center;">
+                        જવાબ: હા, શક્ય છે. પહોળાઈ = 20 મીટર અને લંબાઈ (20×2) = 40 મીટર થશે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.3 - પ્રશ્ન 4 (કૂટપ્રશ્ન)",
+                question: "શું નીચેની પરિસ્થિતિ શક્ય છે? બે મિત્રોની ઉંમરનો સરવાળો 20 વર્ષ છે. 4 વર્ષ પહેલાં તેમની ઉંમર દર્શાવતી સંખ્યાઓનો ગુણાકાર 48 હતો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે પહેલા મિત્રની હાલની ઉંમર = <b>x</b> વર્ષ.<br>
+                        બંનેનો સરવાળો 20 હોવાથી બીજા મિત્રની ઉંમર = <b>(20 - x)</b> વર્ષ.</p>
+                        
+                        <p><b>4 વર્ષ પહેલાં:</b><br>
+                        પ્રથમ મિત્રની ઉંમર = x - 4<br>
+                        બીજા મિત્રની ઉંમર = (20 - x) - 4 = <b>16 - x</b></p>
+                        
+                        <p>શરત મુજબ બંનેનો ગુણાકાર 48 હતો:<br>
+                        (x - 4)(16 - x) = 48<br>
+                        16x - x² - 64 + 4x = 48<br>
+                        -x² + 20x - 64 - 48 = 0<br>
+                        -x² + 20x - 112 = 0</p>
+                        
+                        <p>નિશાની બદલતા: <b>x² - 20x + 112 = 0</b></p>
+                        
+                        <p>હવે શક્યતા તપાસવા વિવેચક D શોધીએ:<br>
+                        અહીં a = 1, b = -20, c = 112<br>
+                        D = b² - 4ac<br>
+                        D = (-20)² - 4(1)(112)<br>
+                        D = 400 - 448 = <b>-48</b></p>
+                        
+                        <p style="background:#fce7f3; padding:8px; border-radius:5px; font-weight:bold; color:#be123c; text-align:center;">
+                        અહીં D &lt; 0 (ઋણ) છે, તેથી વાસ્તવિક બીજ નથી. <br>આમ, આપેલી પરિસ્થિતિ <b>શક્ય નથી</b>.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 4.3 - પ્રશ્ન 5 (કૂટપ્રશ્ન)",
+                question: "જેની પરિમિતિ 80 મીટર અને ક્ષેત્રફળ 400 મી² હોય તેવો લંબચોરસ બગીચો બનાવવો શક્ય છે? જો તે શક્ય હોય, તો તેની લંબાઈ અને પહોળાઈ શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #14b8a6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>ધારો કે લંબચોરસની લંબાઈ = <b>x</b> મીટર છે.<br>
+                        પરિમિતિ = 2(લંબાઈ + પહોળાઈ) = 80<br>
+                        લંબાઈ + પહોળાઈ = 40<br>
+                        તેથી, પહોળાઈ = <b>(40 - x)</b> મીટર થાય.</p>
+                        
+                        <p>ક્ષેત્રફળ = 400 મી² આપેલ છે.<br>
+                        લંબાઈ × પહોળાઈ = 400<br>
+                        x (40 - x) = 400<br>
+                        40x - x² = 400<br>
+                        સમીકરણને યોગ્ય રીતે ગોઠવતા:<br>
+                        <b>x² - 40x + 400 = 0</b></p>
+                        
+                        <p>વિવેચક D ચકાસીએ:<br>
+                        D = (-40)² - 4(1)(400) = 1600 - 1600 = <b>0</b><br>
+                        D = 0 હોવાથી બે સમાન વાસ્તવિક બીજ મળશે. <b>આથી બગીચો બનાવવો શક્ય છે.</b></p>
+                        
+                        <p>આ સમીકરણ પૂર્ણવર્ગ છે: (x - 20)² = 0<br>
+                        તેથી, <b>x = 20</b>.</p>
+                        
+                        <p style="background:#ccfbf1; padding:8px; border-radius:5px; font-weight:bold; color:#0f766e; text-align:center;">
+                        જવાબ: હા, શક્ય છે. લંબાઈ = 20 મીટર અને પહોળાઈ (40-20) = 20 મીટર હશે. (વાસ્તવમાં આ એક ચોરસ બગીચો છે).
+                        </p>
+                    </div>`
+            }
+        ] // અહી પ્રકરણ 4 ના સ્વાધ્યાયનો એરે (Array) પૂરો થાય છે
+    } // અહી પ્રકરણ 4 નો ડેટા પૂરો થાય છે        
+         
 }; // અહી આખો njMathsSolutions નો ડેટાબેઝ પૂરો થાય છે
 
