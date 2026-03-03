@@ -591,85 +591,196 @@
                     </div>`
             }
         ],
-             // અહી ઉપરના examples પૂરા થાય છે, એટલે અલ્પવિરામ (,) મૂક્યા પછી આ નીચેનો કોડ એડ કરવો:
-        
+                     // ------------------------------------
+        // અહીથી બહુપદીના સ્વાધ્યાય શરૂ થાય છે 
+        // ------------------------------------
         "exercise": [
             {
-                title: "સ્વાધ્યાય 2.1 - પ્રશ્ન 1",
-                question: "નીચે આકૃતિમાં કોઈ બહુપદી p(x) માટે y = p(x) ના 3 અલગ-અલગ આલેખ આપેલ છે. દરેક કિસ્સામાં p(x) ના શૂન્યોની સંખ્યા શોધો.",
+                title: "સ્વાધ્યાય 2.1 - પ્રશ્ન 1 (i)",
+                question: "નીચે આકૃતિમાં કોઈ બહુપદી p(x) માટે y = p(x) નો આલેખ આપેલ છે. p(x) ના શૂન્યોની સંખ્યા શોધો.",
                 answer: `
                     <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
-                        <p><b>નિયમ:</b> આલેખ <b>X-અક્ષને</b> જેટલા બિંદુમાં છેદે, તેટલા શૂન્યો હોય.</p>
-                        
-                        <div style="display:flex; flex-wrap:wrap; gap:15px; justify-content:center; margin-top:15px;">
-                            <div style="text-align:center; background:#fff; padding:10px; border:1px solid #cbd5e1; border-radius:8px;">
-                                <svg viewBox="0 0 150 100" style="width:120px;">
-                                    <line x1="10" y1="50" x2="140" y2="50" stroke="#000" stroke-width="1.5" />
-                                    <line x1="75" y1="10" x2="75" y2="90" stroke="#000" stroke-width="1.5" />
-                                    <line x1="10" y1="25" x2="140" y2="25" stroke="#ef4444" stroke-width="2" />
-                                </svg>
-                                <p style="margin-top:5px; font-weight:bold; color:#be123c;">(i) શૂન્યો = 0</p>
-                                <p style="font-size:11px; color:#64748b;">(રેખા X-અક્ષને છેદતી નથી)</p>
-                            </div>
-
-                            <div style="text-align:center; background:#fff; padding:10px; border:1px solid #cbd5e1; border-radius:8px;">
-                                <svg viewBox="0 0 150 100" style="width:120px;">
-                                    <line x1="10" y1="50" x2="140" y2="50" stroke="#000" stroke-width="1.5" />
-                                    <line x1="75" y1="10" x2="75" y2="90" stroke="#000" stroke-width="1.5" />
-                                    <path d="M 20 90 Q 50 10 130 90" fill="none" stroke="#2563eb" stroke-width="2" />
-                                    <circle cx="50" cy="50" r="4" fill="#ef4444" />
-                                </svg>
-                                <p style="margin-top:5px; font-weight:bold; color:#1d4ed8;">(ii) શૂન્યો = 1</p>
-                                <p style="font-size:11px; color:#64748b;">(માત્ર 1 બિંદુમાં છેદે છે)</p>
-                            </div>
-
-                            <div style="text-align:center; background:#fff; padding:10px; border:1px solid #cbd5e1; border-radius:8px;">
-                                <svg viewBox="0 0 150 100" style="width:120px;">
-                                    <line x1="10" y1="50" x2="140" y2="50" stroke="#000" stroke-width="1.5" />
-                                    <line x1="75" y1="10" x2="75" y2="90" stroke="#000" stroke-width="1.5" />
-                                    <path d="M 10 80 Q 40 10 75 50 T 140 20" fill="none" stroke="#10b981" stroke-width="2" />
-                                    <circle cx="34" cy="50" r="4" fill="#ef4444" />
-                                    <circle cx="75" cy="50" r="4" fill="#ef4444" />
-                                    <circle cx="116" cy="50" r="4" fill="#ef4444" />
-                                </svg>
-                                <p style="margin-top:5px; font-weight:bold; color:#047857;">(iii) શૂન્યો = 3</p>
-                                <p style="font-size:11px; color:#64748b;">(3 બિંદુમાં છેદે છે)</p>
-                            </div>
+                        <div style="display:flex; justify-content:center; margin:15px 0;">
+                            <svg viewBox="0 0 200 120" style="width:100%; max-width:250px; background:#fff; border:1px solid #cbd5e1; border-radius:5px;">
+                                <line x1="10" y1="60" x2="190" y2="60" stroke="#334155" stroke-width="1.5" />
+                                <line x1="100" y1="10" x2="100" y2="110" stroke="#334155" stroke-width="1.5" />
+                                <text x="180" y="75" font-size="10" font-weight="bold">X</text>
+                                <text x="105" y="20" font-size="10" font-weight="bold">Y</text>
+                                <line x1="20" y1="30" x2="180" y2="30" stroke="#2563eb" stroke-width="2.5" />
+                            </svg>
                         </div>
+                        <p><b>સમજૂતી:</b> અહીં આપેલ આલેખની રેખા X-અક્ષને સમાંતર છે. તે X-અક્ષને એક પણ બિંદુમાં છેદતી નથી.</p>
+                        <p style="background:#eff6ff; padding:10px; border-radius:5px; font-weight:bold; color:#1e40af; text-align:center;">
+                        જવાબ: શૂન્યોની સંખ્યા = 0 છે.
+                        </p>
                     </div>`
             },
             {
-                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 1 (i)",
-                question: "દ્વિઘાત બહુપદી x² - 2x - 8 ના શૂન્યો શોધો અને તેમના શૂન્યો અને સહગુણકો વચ્ચેનો સંબંધ ચકાસો.",
+                title: "સ્વાધ્યાય 2.1 - પ્રશ્ન 1 (ii)",
+                question: "આપેલ y = p(x) ના આલેખ પરથી p(x) ના શૂન્યોની સંખ્યા શોધો.",
                 answer: `
                     <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
-                        <p><b>ઉકેલ (Step 1: શૂન્યો શોધવા):</b></p>
-                        <p>p(x) = x² - 2x - 8 = 0</p>
+                        <div style="display:flex; justify-content:center; margin:15px 0;">
+                            <svg viewBox="0 0 200 120" style="width:100%; max-width:250px; background:#fff; border:1px solid #cbd5e1; border-radius:5px;">
+                                <line x1="10" y1="60" x2="190" y2="60" stroke="#334155" stroke-width="1.5" />
+                                <line x1="100" y1="10" x2="100" y2="110" stroke="#334155" stroke-width="1.5" />
+                                <path d="M 40 80 Q 80 100 120 60 T 160 10" fill="none" stroke="#059669" stroke-width="2.5" />
+                                <circle cx="120" cy="60" r="4" fill="#ef4444" />
+                            </svg>
+                        </div>
+                        <p><b>સમજૂતી:</b> અહીં આપેલ આલેખ X-અક્ષને માત્ર 1 જ બિંદુમાં (લાલ ટપકું) છેદે છે.</p>
+                        <p style="background:#ecfdf5; padding:10px; border-radius:5px; font-weight:bold; color:#047857; text-align:center;">
+                        જવાબ: શૂન્યોની સંખ્યા = 1 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.1 - પ્રશ્ન 1 (iii)",
+                question: "આપેલ y = p(x) ના આલેખ પરથી p(x) ના શૂન્યોની સંખ્યા શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
+                        <div style="display:flex; justify-content:center; margin:15px 0;">
+                            <svg viewBox="0 0 200 120" style="width:100%; max-width:250px; background:#fff; border:1px solid #cbd5e1; border-radius:5px;">
+                                <line x1="10" y1="60" x2="190" y2="60" stroke="#334155" stroke-width="1.5" />
+                                <line x1="100" y1="10" x2="100" y2="110" stroke="#334155" stroke-width="1.5" />
+                                <path d="M 20 100 Q 50 -10 100 60 T 170 100" fill="none" stroke="#d97706" stroke-width="2.5" />
+                                <circle cx="39" cy="60" r="4" fill="#ef4444" />
+                                <circle cx="100" cy="60" r="4" fill="#ef4444" />
+                                <circle cx="147" cy="60" r="4" fill="#ef4444" />
+                            </svg>
+                        </div>
+                        <p><b>સમજૂતી:</b> અહીં આપેલ આલેખ X-અક્ષને 3 અલગ-અલગ બિંદુઓમાં કાપે છે.</p>
+                        <p style="background:#fef3c7; padding:10px; border-radius:5px; font-weight:bold; color:#b45309; text-align:center;">
+                        જવાબ: શૂન્યોની સંખ્યા = 3 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.1 - પ્રશ્ન 1 (iv)",
+                question: "આપેલ y = p(x) ના આલેખ પરથી p(x) ના શૂન્યોની સંખ્યા શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <div style="display:flex; justify-content:center; margin:15px 0;">
+                            <svg viewBox="0 0 200 120" style="width:100%; max-width:250px; background:#fff; border:1px solid #cbd5e1; border-radius:5px;">
+                                <line x1="10" y1="60" x2="190" y2="60" stroke="#334155" stroke-width="1.5" />
+                                <line x1="100" y1="10" x2="100" y2="110" stroke="#334155" stroke-width="1.5" />
+                                <path d="M 40 20 Q 70 100 100 20" fill="none" stroke="#6d28d9" stroke-width="2.5" />
+                                <circle cx="53" cy="60" r="4" fill="#ef4444" />
+                                <circle cx="87" cy="60" r="4" fill="#ef4444" />
+                            </svg>
+                        </div>
+                        <p><b>સમજૂતી:</b> આ પરવલય (U-આકાર) નો આલેખ X-અક્ષને 2 બિંદુઓમાં છેદે છે.</p>
+                        <p style="background:#ede9fe; padding:10px; border-radius:5px; font-weight:bold; color:#5b21b6; text-align:center;">
+                        જવાબ: શૂન્યોની સંખ્યા = 2 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.1 - પ્રશ્ન 1 (v)",
+                question: "આપેલ y = p(x) ના આલેખ પરથી p(x) ના શૂન્યોની સંખ્યા શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
+                        <div style="display:flex; justify-content:center; margin:15px 0;">
+                            <svg viewBox="0 0 200 120" style="width:100%; max-width:250px; background:#fff; border:1px solid #cbd5e1; border-radius:5px;">
+                                <line x1="10" y1="60" x2="190" y2="60" stroke="#334155" stroke-width="1.5" />
+                                <line x1="100" y1="10" x2="100" y2="110" stroke="#334155" stroke-width="1.5" />
+                                <path d="M 30 100 Q 50 10 80 60 T 130 60 T 170 100" fill="none" stroke="#be185d" stroke-width="2.5" />
+                                <circle cx="43" cy="60" r="4" fill="#ef4444" />
+                                <circle cx="80" cy="60" r="4" fill="#ef4444" />
+                                <circle cx="106" cy="60" r="4" fill="#ef4444" />
+                                <circle cx="152" cy="60" r="4" fill="#ef4444" />
+                            </svg>
+                        </div>
+                        <p><b>સમજૂતી:</b> આલેખની રેખા X-અક્ષને 4 અલગ-અલગ જગ્યાએ કાપે છે.</p>
+                        <p style="background:#fce7f3; padding:10px; border-radius:5px; font-weight:bold; color:#be123c; text-align:center;">
+                        જવાબ: શૂન્યોની સંખ્યા = 4 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.1 - પ્રશ્ન 1 (vi)",
+                question: "આપેલ y = p(x) ના આલેખ પરથી p(x) ના શૂન્યોની સંખ્યા શોધો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #14b8a6; font-size:14px; line-height:1.8; color:#334155;">
+                        <div style="display:flex; justify-content:center; margin:15px 0;">
+                            <svg viewBox="0 0 200 120" style="width:100%; max-width:250px; background:#fff; border:1px solid #cbd5e1; border-radius:5px;">
+                                <line x1="10" y1="80" x2="190" y2="80" stroke="#334155" stroke-width="1.5" />
+                                <line x1="100" y1="10" x2="100" y2="110" stroke="#334155" stroke-width="1.5" />
+                                <path d="M 20 110 Q 40 40 70 80 Q 90 20 120 80 Q 150 40 170 10" fill="none" stroke="#0f766e" stroke-width="2.5" />
+                                <circle cx="33" cy="80" r="4" fill="#ef4444" />
+                                <circle cx="70" cy="80" r="4" fill="#ef4444" />
+                                <circle cx="120" cy="80" r="4" fill="#ef4444" />
+                            </svg>
+                        </div>
+                        <p><b>સમજૂતી:</b> અહીં આલેખ X-અક્ષને એક બિંદુમાં છેદે છે અને અન્ય 2 બિંદુઓમાં માત્ર <b>સ્પર્શે</b> છે. (કુલ 3 જગ્યાએ X-અક્ષને અડે છે).</p>
+                        <p style="background:#ccfbf1; padding:10px; border-radius:5px; font-weight:bold; color:#0f766e; text-align:center;">
+                        જવાબ: શૂન્યોની સંખ્યા = 3 છે.
+                        </p>
+                    </div>`
+            },
+            
+            // ------------------------------------
+            // સ્વાધ્યાય 2.2 ની શરૂઆત
+            // ------------------------------------
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 1 (i)",
+                question: "દ્વિઘાત બહુપદી x² - 2x - 8 ના શૂન્યો શોધો અને તેમના શૂન્યો તથા સહગુણકો વચ્ચેનો સંબંધ ચકાસો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>Step 1: શૂન્યો શોધવા:</b></p>
+                        <p>p(x) = x² - 2x - 8 = 0 લેતા,</p>
                         <ul style="list-style-type:none; padding-left:10px;">
-                            <li>ગુણાકાર -8 અને સરવાળો -2 થાય તેવી સંખ્યાઓ: <b>-4 અને 2</b></li>
+                            <li>ગુણાકાર -8 અને બાદબાકી -2 થાય તેવા ભાગ: -4 અને +2</li>
                             <li>x² - 4x + 2x - 8 = 0</li>
                             <li>x(x - 4) + 2(x - 4) = 0</li>
                             <li>(x - 4) (x + 2) = 0</li>
                         </ul>
-                        <p>તેથી, <b>x = 4</b> અથવા <b>x = -2</b>. (બહુપદીના શૂન્યો 4 અને -2 છે.)</p>
+                        <p>તેથી, <b>x = 4</b> અથવા <b>x = -2</b> (શૂન્યો &alpha; = 4 અને &beta; = -2)</p>
 
-                        <div style="background:#ecfdf5; border:1px dashed #10b981; padding:10px; margin:10px 0; border-radius:5px;">
-                            <p style="margin:0; font-weight:bold; color:#047857;">💡 MCQ શોર્ટકટ ટ્રીક:</p>
-                            <p style="margin:0; font-size:13px;">-8 ના ભાગ પાડો જેનો સરવાળો -2 થાય &rarr; -4 અને +2. <br> બસ હવે ખાલી નિશાની બદલી નાખો &rarr; જવાબ: <b>+4 અને -2</b>.</p>
+                        <div style="background:#e0e7ff; padding:8px; margin:10px 0; border-radius:5px; font-size:13px;">
+                            <b>💡 શોર્ટકટ ટ્રીક:</b> સીધું જ વિચારો કે ગુણાકાર -8 અને સરવાળો -2 કોનો થાય? જ: -4 અને 2. હવે બંનેની નિશાની બદલી નાખો &rarr; <b>4 અને -2</b>. (આ જ તમારો જવાબ!)
                         </div>
 
-                        <hr style="border:0; border-top:1px solid #cbd5e1; margin:15px 0;">
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
 
                         <p><b>Step 2: સંબંધ ચકાસણી:</b></p>
-                        <p>અહીં a = 1, b = -2, c = -8 છે. શૂન્યો &alpha; = 4 અને &beta; = -2.</p>
-                        
+                        <p>બહુપદી x² - 2x - 8 ને ax² + bx + c સાથે સરખાવતા: <br>a = 1, b = -2, c = -8</p>
                         <p><b>1. શૂન્યોનો સરવાળો:</b><br>
                         &alpha; + &beta; = 4 + (-2) = 2<br>
-                        સૂત્ર મુજબ: -b/a = -(-2) / 1 = 2. <span style="color:#047857; font-weight:bold;">(ચકાસણી સાચી)</span></p>
-
+                        સૂત્ર મુજબ: -b/a = -(-2) / 1 = 2 (ચકાસણી સાચી છે)</p>
+                        
                         <p><b>2. શૂન્યોનો ગુણાકાર:</b><br>
-                        &alpha; &times; &beta; = 4 &times; (-2) = -8<br>
-                        સૂત્ર મુજબ: c/a = -8 / 1 = -8. <span style="color:#047857; font-weight:bold;">(ચકાસણી સાચી)</span></p>
+                        &alpha; &beta; = 4 × (-2) = -8<br>
+                        સૂત્ર મુજબ: c/a = -8 / 1 = -8 (ચકાસણી સાચી છે)</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 1 (ii)",
+                question: "દ્વિઘાત બહુપદી 4s² - 4s + 1 ના શૂન્યો શોધો અને સંબંધ ચકાસો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>Step 1: શૂન્યો શોધવા:</b></p>
+                        <p>p(s) = 4s² - 4s + 1 = 0</p>
+                        <p>અહીં આ પદાવલિ પૂર્ણવર્ગ છે: (2s - 1)² સ્વરૂપે પણ લખી શકાય, અથવા ભાગ પાડીએ:</p>
+                        <ul style="list-style-type:none; padding-left:10px;">
+                            <li>ગુણાકાર (4×1 = 4) અને સરવાળો -4 થાય તેવા ભાગ: -2 અને -2</li>
+                            <li>4s² - 2s - 2s + 1 = 0</li>
+                            <li>2s(2s - 1) - 1(2s - 1) = 0</li>
+                            <li>(2s - 1) (2s - 1) = 0</li>
+                        </ul>
+                        <p>તેથી, 2s = 1 &rarr; <b>s = 1/2</b> અને <b>s = 1/2</b> (બંને શૂન્યો સમાન છે)</p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>Step 2: સંબંધ ચકાસણી:</b></p>
+                        <p>અહીં a = 4, b = -4, c = 1</p>
+                        <p><b>1. શૂન્યોનો સરવાળો:</b><br>
+                        &alpha; + &beta; = (1/2) + (1/2) = 1<br>
+                        સૂત્ર મુજબ: -b/a = -(-4) / 4 = 4/4 = 1</p>
+                        
+                        <p><b>2. શૂન્યોનો ગુણાકાર:</b><br>
+                        &alpha; &beta; = (1/2) × (1/2) = 1/4<br>
+                        સૂત્ર મુજબ: c/a = 1/4</p>
                     </div>`
             },
             {
@@ -677,85 +788,242 @@
                 question: "દ્વિઘાત બહુપદી 6x² - 3 - 7x ના શૂન્યો શોધો અને સંબંધ ચકાસો.",
                 answer: `
                     <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
-                        <p><b>ઉકેલ:</b></p>
-                        <p>સૌપ્રથમ બહુપદીને પ્રમાણિત સ્વરૂપમાં ગોઠવતા (ઘાતના ઉતરતા ક્રમમાં):<br>
-                        <b>p(x) = 6x² - 7x - 3 = 0</b></p>
-                        
+                        <p><b>Step 1: બહુપદીને યોગ્ય ક્રમમાં ગોઠવી શૂન્યો શોધવા:</b></p>
+                        <p>પ્રમાણિત સ્વરૂપ: p(x) = 6x² - 7x - 3 = 0</p>
                         <ul style="list-style-type:none; padding-left:10px;">
-                            <li>ગુણાકાર (6 × -3 = -18) અને સરવાળો -7 થાય તેવી સંખ્યાઓ: <b>-9 અને +2</b></li>
+                            <li>ગુણાકાર (6×-3 = -18) અને બાદબાકી -7 થાય તેવા ભાગ: -9 અને +2</li>
                             <li>6x² - 9x + 2x - 3 = 0</li>
                             <li>3x(2x - 3) + 1(2x - 3) = 0</li>
                             <li>(2x - 3) (3x + 1) = 0</li>
                         </ul>
-                        <p>તેથી, 2x - 3 = 0 &rarr; <b>x = 3/2</b><br>
-                        અથવા 3x + 1 = 0 &rarr; <b>x = -1/3</b></p>
-                        <p>બહુપદીના શૂન્યો <b>3/2 અને -1/3</b> છે.</p>
+                        <p>તેથી, 2x = 3 &rarr; <b>x = 3/2</b><br>અને 3x = -1 &rarr; <b>x = -1/3</b></p>
 
-                        <hr style="border:0; border-top:1px solid #cbd5e1; margin:15px 0;">
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
 
-                        <p><b>સંબંધ ચકાસણી:</b> (a = 6, b = -7, c = -3)</p>
+                        <p><b>Step 2: સંબંધ ચકાસણી:</b></p>
+                        <p>અહીં a = 6, b = -7, c = -3</p>
                         <p><b>1. શૂન્યોનો સરવાળો:</b><br>
                         (3/2) + (-1/3) = (9 - 2) / 6 = 7/6<br>
-                        સૂત્ર મુજબ: -b/a = -(-7) / 6 = 7/6. <span style="color:#b45309; font-weight:bold;">(ચકાસણી સાચી)</span></p>
-
+                        સૂત્ર મુજબ: -b/a = -(-7) / 6 = 7/6</p>
+                        
                         <p><b>2. શૂન્યોનો ગુણાકાર:</b><br>
-                        (3/2) &times; (-1/3) = -3/6 = -1/2<br>
-                        સૂત્ર મુજબ: c/a = -3 / 6 = -1/2. <span style="color:#b45309; font-weight:bold;">(ચકાસણી સાચી)</span></p>
+                        (3/2) × (-1/3) = -3/6 = -1/2<br>
+                        સૂત્ર મુજબ: c/a = -3 / 6 = -1/2</p>
                     </div>`
             },
             {
-                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 2 (i)",
-                question: "જેના શૂન્યોનો સરવાળો 1/4 અને ગુણાકાર -1 હોય તેવી દ્વિઘાત બહુપદી મેળવો.",
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 1 (iv)",
+                question: "દ્વિઘાત બહુપદી 4u² + 8u ના શૂન્યો શોધો અને સંબંધ ચકાસો.",
                 answer: `
                     <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>Step 1: શૂન્યો શોધવા:</b></p>
+                        <p>p(u) = 4u² + 8u = 0</p>
+                        <p>અહીં અચળ પદ c નથી. તેથી સામાન્ય કાઢવાની રીત વાપરીશું.</p>
+                        <ul style="list-style-type:none; padding-left:10px;">
+                            <li>4u સામાન્ય કાઢતા: 4u(u + 2) = 0</li>
+                            <li>તેથી, 4u = 0 અથવા u + 2 = 0</li>
+                        </ul>
+                        <p>આથી <b>u = 0</b> અને <b>u = -2</b></p>
+
+                        <div style="background:#ede9fe; padding:8px; margin:10px 0; border-radius:5px; font-size:13px;">
+                            <b>💡 શોર્ટકટ નોંધ:</b> જ્યારે બહુપદીમાં અચળ પદ ન હોય (c=0), ત્યારે હંમેશા એક શૂન્ય <b>0 (શૂન્ય)</b> જ આવે છે!
+                        </div>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>Step 2: સંબંધ ચકાસણી:</b></p>
+                        <p>અહીં a = 4, b = 8, c = 0</p>
+                        <p><b>1. સરવાળો:</b> 0 + (-2) = -2 <br> સૂત્ર: -b/a = -8/4 = -2</p>
+                        <p><b>2. ગુણાકાર:</b> 0 × (-2) = 0 <br> સૂત્ર: c/a = 0/4 = 0</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 1 (v)",
+                question: "દ્વિઘાત બહુપદી t² - 15 ના શૂન્યો શોધો અને સંબંધ ચકાસો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>Step 1: શૂન્યો શોધવા:</b></p>
+                        <p>p(t) = t² - 15 = 0</p>
+                        <p>અહીં મધ્યમ પદ (t વાળું પદ) નથી. આપણે (a² - b²) ના નિત્યસમનો ઉપયોગ કરીશું.</p>
+                        <ul style="list-style-type:none; padding-left:10px;">
+                            <li>(t)² - (&radic;15)² = 0</li>
+                            <li>(t - &radic;15)(t + &radic;15) = 0</li>
+                        </ul>
+                        <p>તેથી, <b>t = &radic;15</b> અને <b>t = -&radic;15</b></p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>Step 2: સંબંધ ચકાસણી:</b></p>
+                        <p>પ્રમાણિત સ્વરૂપ t² + 0t - 15 સાથે સરખાવતા: <br>a = 1, b = 0, c = -15</p>
+                        <p><b>1. સરવાળો:</b> &radic;15 + (-&radic;15) = 0 <br> સૂત્ર: -b/a = -0/1 = 0</p>
+                        <p><b>2. ગુણાકાર:</b> (&radic;15) × (-&radic;15) = -15 <br> સૂત્ર: c/a = -15/1 = -15</p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 1 (vi)",
+                question: "દ્વિઘાત બહુપદી 3x² - x - 4 ના શૂન્યો શોધો અને સંબંધ ચકાસો.",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #14b8a6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>Step 1: શૂન્યો શોધવા:</b></p>
+                        <p>p(x) = 3x² - x - 4 = 0</p>
+                        <ul style="list-style-type:none; padding-left:10px;">
+                            <li>ગુણાકાર (3×-4 = -12) અને બાદબાકી -1 થાય તેવા ભાગ: -4 અને +3</li>
+                            <li>3x² - 4x + 3x - 4 = 0</li>
+                            <li>x(3x - 4) + 1(3x - 4) = 0</li>
+                            <li>(3x - 4)(x + 1) = 0</li>
+                        </ul>
+                        <p>તેથી, 3x = 4 &rarr; <b>x = 4/3</b><br>અને <b>x = -1</b></p>
+
+                        <hr style="border:0; border-top:1px dashed #cbd5e1; margin:15px 0;">
+
+                        <p><b>Step 2: સંબંધ ચકાસણી:</b></p>
+                        <p>અહીં a = 3, b = -1, c = -4</p>
+                        <p><b>1. સરવાળો:</b> (4/3) + (-1) = (4 - 3)/3 = 1/3 <br> સૂત્ર: -b/a = -(-1)/3 = 1/3</p>
+                        <p><b>2. ગુણાકાર:</b> (4/3) × (-1) = -4/3 <br> સૂત્ર: c/a = -4/3</p>
+                    </div>`
+            },
+                     ,
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 2 (i)",
+                question: "નીચે દર્શાવેલ સંખ્યાઓ અનુક્રમે દ્વિઘાત બહુપદીના શૂન્યોનો સરવાળો અને શૂન્યોનો ગુણાકાર છે. તે પરથી દ્વિઘાત બહુપદી મેળવો: 1/4, -1",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #3b82f6; font-size:14px; line-height:1.8; color:#334155;">
                         <p><b>ઉકેલ:</b></p>
-                        <p>અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = 1/4<br>
-                        શૂન્યોનો ગુણાકાર (&alpha; &times; &beta;) = -1</p>
+                        <p>અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>1/4</b><br>
+                        અને શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>-1</b></p>
                         
-                        <div style="background:#ede9fe; padding:10px; border-radius:5px; margin:10px 0;">
-                            <p style="margin:0; font-weight:bold; color:#5b21b6;">માગેલ દ્વિઘાત બહુપદીનું સૂત્ર:</p>
-                            <p style="margin:5px 0 0 0; font-size:16px; font-weight:bold; text-align:center;">k [x² - (&alpha; + &beta;)x + (&alpha; &times; &beta;)]</p>
-                            <p style="margin:0; font-size:12px; text-align:center;">(જ્યાં k એ શૂન્યેતર વાસ્તવિક સંખ્યા છે)</p>
+                        <div style="background:#e0e7ff; padding:10px; margin:10px 0; border-radius:5px;">
+                            <b>💡 અગત્યનું સૂત્ર:</b> માંગેલ દ્વિઘાત બહુપદી મેળવવાનું સીધું સૂત્ર:<br>
+                            <span style="font-size:16px; font-weight:bold; color:#1d4ed8;">p(x) = k [ x² - (&alpha; + &beta;)x + &alpha;&beta; ]</span>
                         </div>
 
-                        <p>કિંમતો મૂકતા:<br>
-                        = k [x² - (1/4)x + (-1)]<br>
-                        = k [x² - x/4 - 1]</p>
-
-                        <p>હવે છેદ સમાન કરવા 4 નો લ.સા.અ. લેતા:<br>
-                        = k [(4x² - x - 4) / 4]</p>
-                        <p>જો k = 4 લઈએ, તો માગેલ બહુપદી <b>4x² - x - 4</b> મળે.</p>
+                        <p>સૂત્રમાં કિંમત મૂકતા:<br>
+                        p(x) = k [ x² - (1/4)x + (-1) ]<br>
+                        p(x) = k [ x² - x/4 - 1 ]</p>
                         
-                        <div style="background:#fef3c7; border:1px dashed #f59e0b; padding:10px; margin:10px 0; border-radius:5px;">
-                            <p style="margin:0; font-weight:bold; color:#b45309;">💡 બીજી રીત (વિકલ્પ 2):</p>
-                            <p style="margin:0; font-size:13px;">
-                            &alpha; + &beta; = -b/a = 1/4 &nbsp; (તેથી <b>a=4, b=-1</b>)<br>
-                            &alpha;&beta; = c/a = -1 &rarr; c/4 = -1 &rarr; <b>c=-4</b><br>
-                            આ કિંમતો ax² + bx + c માં મૂકતા: <b>4x² - x - 4</b>
-                            </p>
-                        </div>
+                        <p>કૌંસમાં 4 નો લ.સા.અ. (LCM) લેતા:<br>
+                        p(x) = k [ (4x² - x - 4) / 4 ]<br>
+                        p(x) = (k/4) [ 4x² - x - 4 ]</p>
+                        
+                        <p style="background:#eff6ff; padding:8px; border-radius:5px; font-weight:bold; color:#1e40af; border:1px dashed #3b82f6;">
+                        તેથી, માંગેલ દ્વિઘાત બહુપદી: 4x² - x - 4 છે.
+                        </p>
                     </div>`
             },
             {
                 title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 2 (ii)",
-                question: "જેના શૂન્યોનો સરવાળો &radic;2 અને ગુણાકાર 1/3 હોય તેવી દ્વિઘાત બહુપદી મેળવો.",
+                question: "શૂન્યોનો સરવાળો અને ગુણાકાર પરથી બહુપદી મેળવો: &radic;2, 1/3",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #10b981; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>&radic;2</b><br>
+                        અને શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1/3</b></p>
+                        
+                        <p><b>સૂત્ર:</b> p(x) = k [ x² - (&alpha; + &beta;)x + &alpha;&beta; ]</p>
+                        
+                        <p>કિંમત મૂકતા:<br>
+                        p(x) = k [ x² - (&radic;2)x + (1/3) ]</p>
+                        
+                        <p>છેદમાં રહેલા 3 નો લ.સા.અ. લેતા (બધા પદને 3 વડે ગુણતા):<br>
+                        p(x) = k [ (3x² - 3&radic;2x + 1) / 3 ]<br>
+                        p(x) = (k/3) [ 3x² - 3&radic;2x + 1 ]</p>
+                        
+                        <p style="background:#ecfdf5; padding:8px; border-radius:5px; font-weight:bold; color:#047857; border:1px dashed #10b981;">
+                        તેથી, માંગેલ દ્વિઘાત બહુપદી: 3x² - 3&radic;2x + 1 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 2 (iii)",
+                question: "શૂન્યોનો સરવાળો અને ગુણાકાર પરથી બહુપદી મેળવો: 0, &radic;5",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #f59e0b; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>0</b><br>
+                        અને શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>&radic;5</b></p>
+                        
+                        <p><b>સૂત્ર:</b> p(x) = k [ x² - (&alpha; + &beta;)x + &alpha;&beta; ]</p>
+                        
+                        <p>કિંમત મૂકતા:<br>
+                        p(x) = k [ x² - (0)x + (&radic;5) ]<br>
+                        p(x) = k [ x² - 0 + &radic;5 ]<br>
+                        p(x) = k [ x² + &radic;5 ]</p>
+                        
+                        <p style="background:#fef3c7; padding:8px; border-radius:5px; font-weight:bold; color:#b45309; border:1px dashed #f59e0b;">
+                        તેથી, માંગેલ દ્વિઘાત બહુપદી: x² + &radic;5 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 2 (iv)",
+                question: "શૂન્યોનો સરવાળો અને ગુણાકાર પરથી બહુપદી મેળવો: 1, 1",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #8b5cf6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>1</b><br>
+                        અને શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1</b></p>
+                        
+                        <p><b>સૂત્ર:</b> p(x) = k [ x² - (&alpha; + &beta;)x + &alpha;&beta; ]</p>
+                        
+                        <p>કિંમત મૂકતા:<br>
+                        p(x) = k [ x² - (1)x + (1) ]<br>
+                        p(x) = k [ x² - x + 1 ]</p>
+                        
+                        <p style="background:#ede9fe; padding:8px; border-radius:5px; font-weight:bold; color:#5b21b6; border:1px dashed #8b5cf6;">
+                        તેથી, માંગેલ દ્વિઘાત બહુપદી: x² - x + 1 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 2 (v)",
+                question: "શૂન્યોનો સરવાળો અને ગુણાકાર પરથી બહુપદી મેળવો: -1/4, 1/4",
                 answer: `
                     <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #ec4899; font-size:14px; line-height:1.8; color:#334155;">
                         <p><b>ઉકેલ:</b></p>
-                        <p>અહીં, &alpha; + &beta; = &radic;2<br>
-                        &alpha; &times; &beta; = 1/3</p>
+                        <p>અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>-1/4</b><br>
+                        અને શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1/4</b></p>
                         
-                        <p>માગેલ બહુપદી = k [x² - (&alpha; + &beta;)x + (&alpha; &times; &beta;)]<br>
-                        = k [x² - (&radic;2)x + 1/3]<br>
-                        = k [x² - &radic;2x + 1/3]</p>
-
-                        <p>3 નો લ.સા.અ. લેતા:<br>
-                        = k [(3x² - 3&radic;2x + 1) / 3]</p>
-                        <p>જો k = 3 લઈએ, તો માગેલ બહુપદી <b>3x² - 3&radic;2x + 1</b> છે.</p>
+                        <p><b>સૂત્ર:</b> p(x) = k [ x² - (&alpha; + &beta;)x + &alpha;&beta; ]</p>
+                        
+                        <p>કિંમત મૂકતા:<br>
+                        p(x) = k [ x² - (-1/4)x + (1/4) ]<br>
+                        p(x) = k [ x² + x/4 + 1/4 ]</p>
+                        
+                        <p>છેદ સરખા હોવાથી 4 નો લ.સા.અ. લેતા:<br>
+                        p(x) = k [ (4x² + x + 1) / 4 ]<br>
+                        p(x) = (k/4) [ 4x² + x + 1 ]</p>
+                        
+                        <p style="background:#fce7f3; padding:8px; border-radius:5px; font-weight:bold; color:#be123c; border:1px dashed #ec4899;">
+                        તેથી, માંગેલ દ્વિઘાત બહુપદી: 4x² + x + 1 છે.
+                        </p>
+                    </div>`
+            },
+            {
+                title: "સ્વાધ્યાય 2.2 - પ્રશ્ન 2 (vi)",
+                question: "શૂન્યોનો સરવાળો અને ગુણાકાર પરથી બહુપદી મેળવો: 4, 1",
+                answer: `
+                    <div style="background:#f8fafc; padding:15px; border-radius:8px; border-left:4px solid #14b8a6; font-size:14px; line-height:1.8; color:#334155;">
+                        <p><b>ઉકેલ:</b></p>
+                        <p>અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>4</b><br>
+                        અને શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1</b></p>
+                        
+                        <p><b>સૂત્ર:</b> p(x) = k [ x² - (&alpha; + &beta;)x + &alpha;&beta; ]</p>
+                        
+                        <p>કિંમત મૂકતા:<br>
+                        p(x) = k [ x² - (4)x + (1) ]<br>
+                        p(x) = k [ x² - 4x + 1 ]</p>
+                        
+                        <p style="background:#ccfbf1; padding:8px; border-radius:5px; font-weight:bold; color:#0f766e; border:1px dashed #14b8a6;">
+                        તેથી, માંગેલ દ્વિઘાત બહુપદી: x² - 4x + 1 છે.
+                        </p>
                     </div>`
             }
-        ]
+        ] // અહી પ્રકરણ 2 ના સ્વાધ્યાયનો એરે (Array) પૂરો થાય છે
     } // અહી પ્રકરણ 2 નો ડેટા પૂરો થાય છે
-  
+}; // અહી આખો njMathsSolutions નો ડેટાબેઝ પૂરો થાય છે (જો તમે આના પછી પ્રકરણ 3 ઉમેરવા માંગતા ન હોવ તો)
+
+         
+        
+        
      
 }; // અહી આખો njMathsSolutions નો ડેટાબેઝ પૂરો થાય છે
