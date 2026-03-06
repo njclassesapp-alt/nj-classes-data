@@ -233,8 +233,137 @@ var njMathsTheory = {
                     </div>
                     <p style='text-align:right; font-weight:bold; margin-top:10px;'>...જે સાબિત થાય છે.</p>
                 </div>
+                
+            },            
+            { 
+                question: "🌟 અગત્યનો પ્રમેય: થેલ્સનો પ્રતિપ્રમેય (પ્રમેય 6.2)",
+                answer: `
+                <div style='border:2px solid #0891b2; padding:15px; border-radius:10px; background-color:#ffffff;'>
+                    <h3 style='color:#0f766e; text-align:center; border-bottom:2px dashed #0f766e; padding-bottom:5px;'>પ્રમેય 6.2: થેલ્સનો પ્રતિપ્રમેય</h3>
+                    
+                    <p style='background-color:#ccfbf1; padding:10px; border-radius:5px; font-weight:bold; color:#0f766e;'>
+                        📝 વિધાન: જો કોઈ રેખા ત્રિકોણની બે બાજુઓનું સમાન ગુણોત્તરમાં વિભાજન કરે, તો તે રેખા ત્રીજી બાજુને સમાંતર હોય છે.
+                    </p>
+
+                    <div style='text-align:center; margin: 20px 0;'>
+                        <svg width="250" height="220" viewBox="0 0 250 220" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="125,20 40,180 210,180" fill="none" stroke="#1d4ed8" stroke-width="2.5" />
+                            
+                            <line x1="75" y1="115" x2="175" y2="115" stroke="#be123c" stroke-width="2.5" />
+                            
+                            <line x1="75" y1="115" x2="185" y2="135" stroke="#047857" stroke-width="2" stroke-dasharray="5,5" />
+
+                            <text x="120" y="15" fill="black" font-weight="bold" font-size="16">A</text>
+                            <text x="25" y="195" fill="black" font-weight="bold" font-size="16">B</text>
+                            <text x="215" y="195" fill="black" font-weight="bold" font-size="16">C</text>
+                            <text x="55" y="115" fill="#be123c" font-weight="bold" font-size="16">D</text>
+                            <text x="175" y="105" fill="#be123c" font-weight="bold" font-size="16">E</text>
+                            <text x="190" y="140" fill="#047857" font-weight="bold" font-size="16">E'</text>
+                        </svg>
+                        <p style='font-size:12px; color:#6b7280;'>આકૃતિ 6.2: થેલ્સનો પ્રતિપ્રમેય</p>
+                    </div>
+
+                    <h4 style='color:#0369a1;'>🎯 પક્ષ:</h4>
+                    <p>ΔABC માં કોઈ રેખા બાજુઓ AB અને AC ને અનુક્રમે બિંદુ <b>D</b> અને <b>E</b> માં એવી રીતે છેદે છે કે જેથી,</p>
+                    <div style='font-size:18px; font-weight:bold; color:#0f766e; margin-left:20px; margin-bottom:10px;'>
+                        <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #0f766e; display:block; padding:0 5px;'>AD</span><span>DB</span></span> = 
+                        <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #0f766e; display:block; padding:0 5px;'>AE</span><span>EC</span></span>
+                    </div>
+
+                    <h4 style='color:#0369a1;'>🎯 સાધ્ય:</h4>
+                    <p style='font-size:18px; font-weight:bold; color:#b45309; margin-left:20px;'>DE || BC (રેખા DE એ BC ને સમાંતર છે.)</p>
+
+                    <h4 style='color:#0369a1; margin-top:20px;'>✍️ સાબિતી:</h4>
+                    <ul style='line-height:1.8;'>
+                        <li>ધારો કે <b>DE</b> એ <b>BC</b> ને સમાંતર નથી. (આપણે વિરોધાભાસની રીતનો ઉપયોગ કરીશું).</li>
+                        <li>જો DE સમાંતર ન હોય, તો D માંથી પસાર થતી અને BC ને સમાંતર હોય તેવી કોઈ બીજી રેખા <b>DE'</b> દોરો.</li>
+                        <li>તેથી, કલ્પના મુજબ: <b>DE' || BC</b></li>
+                    </ul>
+
+                    <div style='background-color:#f8fafc; padding:10px; border-radius:5px; margin:10px 0;'>
+                        <p>હવે પ્રમેય 6.1 (થેલ્સના પ્રમેય) મુજબ, જો DE' || BC હોય, તો:</p>
+                        <div style='font-size:16px; margin-left:15px; margin-bottom:10px;'>
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AD</span><span>DB</span></span> = 
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AE'</span><span>E'C</span></span> &nbsp; ...... (પરિણામ 1)
+                        </div>
+
+                        <p>પરંતુ, આપણને <b>પક્ષ</b>માં આપેલું છે કે:</p>
+                        <div style='font-size:16px; margin-left:15px;'>
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AD</span><span>DB</span></span> = 
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AE</span><span>EC</span></span> &nbsp; ...... (પરિણામ 2)
+                        </div>
+                    </div>
+
+                    <p>પરિણામ (1) અને (2) ને સરખાવતાં:</p>
+                    <div style='font-size:18px; font-weight:bold; color:#be123c; margin-left:20px; margin-bottom:15px;'>
+                        <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>AE'</span><span>E'C</span></span> = 
+                        <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>AE</span><span>EC</span></span>
+                    </div>
+
+                    <p>બંને બાજુ <b>1 ઉમેરતાં</b>:</p>
+                    <div style='background-color:#fef3c7; padding:10px; border-radius:5px; margin:10px 0;'>
+                        <p style='margin:5px 0;'><span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AE'</span><span>E'C</span></span> + 1 = <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AE</span><span>EC</span></span> + 1</p>
+                        <p style='margin:5px 0;'><span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AE' + E'C</span><span>E'C</span></span> = <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>AE + EC</span><span>EC</span></span></p>
+                        <p style='margin:5px 0;'>આકૃતિ પરથી સ્પષ્ટ છે કે AE' + E'C = AC અને AE + EC = AC</p>
+                        <p style='margin:5px 0; font-weight:bold; color:#047857;'><span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid #047857; display:block; padding:0 5px;'>AC</span><span>E'C</span></span> = <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid #047857; display:block; padding:0 5px;'>AC</span><span>EC</span></span></p>
+                    </div>
+
+                    <p>અંશ સમાન હોવાથી, છેદ પણ સમાન થાય. તેથી, <b>E'C = EC</b>.</p>
+                    <p style='font-weight:bold;'>આ ત્યારે જ શક્ય બને જો બિંદુ E અને E' બંને એક જ (સંપાતી) હોય.</p>
+                    
+                    <div style='background-color:#dcfce7; padding:15px; border-radius:5px; text-align:center; margin-top:20px; border:2px dashed #16a34a;'>
+                        <p style='margin:0; font-size:16px;'>આપણી ધારણા ખોટી છે. રેખા DE અને DE' અલગ નથી.</p>
+                        <p style='margin:10px 0 0 0; font-size:20px; font-weight:bold; color:#16a34a;'>આમ, DE || BC</p>
+                    </div>
+                    <p style='text-align:right; font-weight:bold; margin-top:10px;'>...જે સાબિત થાય છે.</p>
+                </div>
                 `
-            }
+            },
+            {
+                question: "ત્રિકોણોની સમરૂપતા માટેની અગત્યની શરતો",
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-radius:10px; border:2px solid #ea580c;'>
+                    <p>બે ત્રિકોણો સમરૂપ છે કે નહીં તે ચકાસવા માટે બધી જ બાજુઓ અને ખૂણાઓ ચકાસવાની જરૂર નથી. નીચેની શરતોનો ઉપયોગ કરી શકાય છે:</p>
+
+                    <div style='text-align:center; margin: 15px 0;'>
+                        <svg width="280" height="120" viewBox="0 0 280 120" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,10 10,100 90,100" fill="#fde047" stroke="#ca8a04" stroke-width="2" />
+                            <text x="45" y="25" font-weight="bold">A</text>
+                            <text x="15" y="95" font-weight="bold">B</text>
+                            <text x="75" y="95" font-weight="bold">C</text>
+
+                            <polygon points="190,10 130,100 250,100" fill="#86efac" stroke="#16a34a" stroke-width="2" />
+                            <text x="185" y="25" font-weight="bold">P</text>
+                            <text x="135" y="95" font-weight="bold">Q</text>
+                            <text x="235" y="95" font-weight="bold">R</text>
+                        </svg>
+                        <p style='font-size:12px; color:#6b7280;'>ΔABC અને ΔPQR</p>
+                    </div>
+
+                    <ul style='list-style-type:none; padding:0; margin:0;'>
+                        <li style='margin-bottom:15px; background-color:#ffffff; padding:10px; border-radius:5px; border-left:4px solid #f97316;'>
+                            <b style='color:#c2410c; font-size:16px;'>૧. ખૂ.ખૂ.ખૂ. (ખૂણો-ખૂણો-ખૂણો) શરત / AA શરત:</b><br>
+                            જો બે ત્રિકોણોના અનુરૂપ ખૂણાઓ સમાન હોય, તો તે બે ત્રિકોણો સમરૂપ છે.<br>
+                            <i>જો ∠A = ∠P, ∠B = ∠Q અને ∠C = ∠R હોય, તો ΔABC ~ ΔPQR.</i><br>
+                            <span style='font-size:12px; color:#475569;'>(નોંધ: જો માત્ર બે જ ખૂણા સમાન હોય તો પણ ત્રીજો ખૂણો સમાન જ થાય, તેથી તેને <b>ખૂ.ખૂ. શરત</b> પણ કહે છે.)</span>
+                        </li>
+
+                        <li style='margin-bottom:15px; background-color:#ffffff; padding:10px; border-radius:5px; border-left:4px solid #3b82f6;'>
+                            <b style='color:#1d4ed8; font-size:16px;'>૨. બા.બા.બા. (બાજુ-બાજુ-બાજુ) શરત:</b><br>
+                            જો બે ત્રિકોણોની અનુરૂપ બાજુઓનો ગુણોત્તર સમાન હોય (એટલે કે બાજુઓ સમપ્રમાણમાં હોય), તો તે બે ત્રિકોણો સમરૂપ છે.<br>
+                            <i>જો <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>BC</span><span>QR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AC</span><span>PR</span></span> હોય, તો ΔABC ~ ΔPQR.</i>
+                        </li>
+
+                        <li style='background-color:#ffffff; padding:10px; border-radius:5px; border-left:4px solid #10b981;'>
+                            <b style='color:#047857; font-size:16px;'>૩. બા.ખૂ.બા. (બાજુ-ખૂણો-બાજુ) શરત:</b><br>
+                            જો કોઈ ત્રિકોણનો એક ખૂણો બીજા ત્રિકોણના એક ખૂણાને સમાન હોય અને આ ખૂણાઓને સમાવતી બાજુઓ સમપ્રમાણમાં હોય, તો તે બે ત્રિકોણો સમરૂપ છે.<br>
+                            <i>દા.ત. જો ∠A = ∠P હોય અને <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AC</span><span>PR</span></span> હોય, તો ΔABC ~ ΔPQR.</i>
+                        </li>
+                    </ul>
+                </div>
+                `
+                    }
+                
         ]
     }
     
