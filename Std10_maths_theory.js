@@ -147,23 +147,93 @@ var njMathsTheory = {
         "qa_list": [
             { 
                 question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint)", 
-                answer: "<b>🏆 કુલ ગુણ: 8</b><br><br><ul><li><b>વિભાગ D (મોટા પ્રશ્નો / પ્રમેય):</b> 8 ગુણ (4 + 4 ગુણના 2 પ્રશ્નો)</li><li><b>બોર્ડના પેપરમાં પ્રશ્ન ક્રમાંક:</b> 47 અને 48</li></ul><br><span style='color:#be123c; font-weight:bold;'>💡 ખાસ નોંધ:</span> આ પ્રકરણમાંથી 4 ગુણમાં <b>થેલ્સનો પ્રમેય (સમપ્રમાણતાનું મૂળભૂત પ્રમેય)</b> પૂછાવાની શક્યતા સૌથી વધુ છે, તેથી તેને પાક્કો કરવો જ." 
+                answer: "<div style='background-color:#f0f9ff; padding:10px; border-left:5px solid #0284c7; border-radius:5px;'><b>🏆 કુલ ગુણ: 8</b><br><br><ul><li><b>વિભાગ D (મોટા પ્રશ્નો / પ્રમેય):</b> 8 ગુણ (4 + 4 ગુણના 2 પ્રશ્નો)</li><li><b>બોર્ડના પેપરમાં પ્રશ્ન ક્રમાંક:</b> 47 અને 48</li></ul><br><span style='color:#be123c;'><b>ખાસ નોંધ:</b> આ પ્રકરણમાંથી 4 ગુણનો એક પ્રમેય પૂછાવાની પૂરેપૂરી શક્યતા છે. (ખાસ કરીને થેલ્સનો પ્રમેય).</span></div>" 
             },
-            { 
-                question: "એકરૂપ (Congruent) અને સમરૂપ (Similar) આકૃતિઓ વચ્ચેનો તફાવત", 
-                answer: "<ul><li><b>એકરૂપ આકૃતિઓ (≅):</b> જે આકૃતિઓના <i>આકાર (Shape)</i> અને <i>કદ (Size - માપ)</i> બંને સમાન હોય તેને એકરૂપ આકૃતિઓ કહે છે. (દા.ત. સમાન ત્રિજ્યા વાળા બે વર્તુળ)</li><br><li><b>સમરૂપ આકૃતિઓ (~):</b> જે આકૃતિઓના <b>માત્ર આકાર સમાન</b> હોય, પરંતુ કદ સમાન હોવા જરૂરી નથી, તેને સમરૂપ આકૃતિઓ કહે છે. (દા.ત. બધા જ ચોરસ, બધા જ સમબાજુ ત્રિકોણો).</li></ul><br><i>યાદ રાખો: બધી જ એકરૂપ આકૃતિઓ સમરૂપ છે, પરંતુ બધી સમરૂપ આકૃતિઓ એકરૂપ હોવી જરૂરી નથી.</i>" 
+            {
+                question: "સમરૂપ આકૃતિઓ (Similar Figures) અને એકરૂપ આકૃતિઓ (Congruent Figures)",
+                answer: "<ul><li><b>એકરૂપ આકૃતિઓ:</b> જે આકૃતિઓના <b>આકાર અને કદ (માપ) બંને સમાન</b> હોય તેને એકરૂપ આકૃતિઓ કહે છે. (દા.ત. સમાન ત્રિજ્યાવાળા બે વર્તુળ).</li><li><b>સમરૂપ આકૃતિઓ:</b> જે આકૃતિઓના <b>માત્ર આકાર સમાન</b> હોય (કદ સમાન હોવા જરૂરી નથી) તેને સમરૂપ આકૃતિઓ કહે છે. (દા.ત. કોઈપણ બે ચોરસ અથવા કોઈપણ બે સમબાજુ ત્રિકોણ).</li></ul><br><i>* નોંધ: બધી જ એકરૂપ આકૃતિઓ સમરૂપ છે, પરંતુ બધી સમરૂપ આકૃતિઓ એકરૂપ હોવી જરૂરી નથી.</i>"
             },
-            { 
-                question: "🔥 MOST IMP: થેલ્સનો પ્રમેય (સમપ્રમાણતાનું મૂળભૂત પ્રમેય - BPT)", 
-                answer: "<div style='background-color:#f0fdf4; padding:10px; border-left:5px solid #16a34a; border-radius:5px;'><br><b>📌 પ્રમેયની પ્રતિજ્ઞા (વિધાન):</b><br>જો ત્રિકોણની કોઈ એક બાજુને સમાંતર દોરેલી રેખા બાકીની બે બાજુઓને ભિન્ન બિંદુઓમાં છેદે, તો તે બાજુઓ પર કપાતા રેખાખંડો તે બાજુઓનું <b>સમપ્રમાણમાં વિભાજન</b> કરે છે.<br><br><br><br><b>📐 ગાણિતિક સમજૂતી:</b><br>ધારો કે ΔABC માં, બાજુ BC ને સમાંતર હોય તેવી એક રેખા દોરી છે, જે AB ને 'D' બિંદુમાં અને AC ને 'E' બિંદુમાં છેદે છે.<br>(એટલે કે <b>DE || BC</b> આપેલ છે).<br><br>તો થેલ્સના નિયમ મુજબ નીચેનું સૂત્ર બને:<br><br><div style='text-align:center; font-size:18px; font-weight:bold; color:#1d4ed8; padding:10px; border:2px dashed #1d4ed8; display:inline-block; margin-top:5px; margin-bottom:5px;'>AD / DB = AE / EC</div><br><br><b>💡 દાખલા ગણવા માટેની શોર્ટ ટ્રીક:</b><br>ઉપરના અડધા ભાગના છેદમાં નીચેનો અડધો ભાગ = સામેની બાજુનો ઉપરનો અડધો ભાગ છેદમાં નીચેનો અડધો ભાગ.</div>" 
+            {
+                question: "બે ત્રિકોણોની સમરૂપતા માટેની શરતો",
+                answer: "જો બે ત્રિકોણો માટે નીચેની બે શરતોનું પાલન થાય, તો તે બે ત્રિકોણો સમરૂપ છે તેમ કહેવાય:<br><br><b>૧. અનુરૂપ ખૂણાઓ:</b> તેમના અનુરૂપ ખૂણાઓ સમાન હોય. <br>(દા.ત. ∠A = ∠P, ∠B = ∠Q, ∠C = ∠R)<br><br><b>૨. અનુરૂપ બાજુઓ:</b> તેમની અનુરૂપ બાજુઓનો ગુણોત્તર સમાન હોય (એટલે કે બાજુઓ સમપ્રમાણમાં હોય).<br><br><div style='text-align:center; font-size:18px; font-weight:bold; color:#047857; margin-top:10px;'><span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #047857; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #047857; display:block; padding:0 3px;'>BC</span><span>QR</span></span> = <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #047857; display:block; padding:0 3px;'>AC</span><span>PR</span></span></div>"
             },
-            { 
-                question: "થેલ્સના પ્રમેયનું પ્રતિપ્રમેય (Converse of BPT)", 
-                answer: "<b>વિધાન:</b> જો કોઈ રેખા ત્રિકોણની બે બાજુઓનું સમાન ગુણોત્તરમાં વિભાજન કરે, તો તે રેખા ત્રીજી બાજુને <b>સમાંતર</b> હોય છે.<br><br><b>સમજૂતી:</b> જો તમને ΔABC માં આપેલું હોય કે <b>(AD / DB) = (AE / EC)</b> છે, તો તમે સીધું જ કહી શકો કે <b>DE || BC</b> જ હોય." 
-            },
-            { 
-                question: "બે ત્રિકોણોની સમરૂપતા માટેની શરતો", 
-                answer: "બે ત્રિકોણો સમરૂપ થવા માટે નીચેની શરતોમાંથી કોઈ એકનું પાલન થવું જરૂરી છે:<br><br><ol><li><b>ખૂ.ખૂ.ખૂ. (અથવા ખૂ.ખૂ.) શરત (AAA / AA Similarity):</b> જો બે ત્રિકોણના અનુરૂપ ખૂણાઓ સમાન હોય, તો તે બે ત્રિકોણ સમરૂપ છે. (જો માત્ર 2 ખૂણા સમાન હોય તો ત્રીજો આપોઆપ સમાન થાય જ, એટલે 'ખૂ.ખૂ.' શરત પણ ચાલે).</li><br><li><b>બા.બા.બા. શરત (SSS Similarity):</b> જો એક ત્રિકોણની ત્રણેય બાજુઓ, બીજા ત્રિકોણની અનુરૂપ બાજુઓના સમપ્રમાણમાં હોય (ગુણોત્તર સમાન હોય), તો બંને ત્રિકોણ સમરૂપ કહેવાય.</li><br><li><b>બા.ખૂ.બા. શરત (SAS Similarity):</b> જો એક ત્રિકોણનો કોઈ એક ખૂણો બીજા ત્રિકોણના અનુરૂપ ખૂણાને સમાન હોય અને આ ખૂણાઓને સમાવતી બાજુઓ સમપ્રમાણમાં હોય, તો તે ત્રિકોણો સમરૂપ છે.</li></ol>" 
+            {
+                question: "🌟 મોસ્ટ IMP: થેલ્સનો પ્રમેય (સમપ્રમાણતાનું મૂળભૂત પ્રમેય - BPT)",
+                answer: `
+                <div style='border:2px solid #1d4ed8; padding:15px; border-radius:10px; background-color:#ffffff;'>
+                    <h3 style='color:#be123c; text-align:center; border-bottom:2px dashed #be123c; padding-bottom:5px;'>પ્રમેય 6.1: સમપ્રમાણતાનું મૂળભૂત પ્રમેય</h3>
+                    
+                    <p style='background-color:#fee2e2; padding:10px; border-radius:5px; font-weight:bold; color:#9f1239;'>
+                        📝 વિધાન: જો ત્રિકોણની કોઈ એક બાજુને સમાંતર દોરેલી રેખા બાકીની બે બાજુઓને ભિન્ન બિંદુઓમાં છેદે, તો તે બાજુઓ પર કપાતા રેખાખંડો તે બાજુઓનું સમપ્રમાણમાં વિભાજન કરે છે.
+                    </p>
+
+                    <div style='text-align:center; margin: 20px 0;'>
+                        <svg width="250" height="220" viewBox="0 0 250 220" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="125,20 40,180 210,180" fill="none" stroke="#1d4ed8" stroke-width="2.5" />
+                            
+                            <line x1="75" y1="115" x2="175" y2="115" stroke="#be123c" stroke-width="2.5" />
+                            
+                            <line x1="40" y1="180" x2="175" y2="115" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4,4" /> <line x1="210" y1="180" x2="75" y2="115" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4,4" /> <line x1="75" y1="115" x2="145" y2="55" stroke="#047857" stroke-width="1.5" stroke-dasharray="4,4" /> <line x1="175" y1="115" x2="105" y2="55" stroke="#047857" stroke-width="1.5" stroke-dasharray="4,4" /> <text x="120" y="15" fill="black" font-weight="bold" font-size="16">A</text>
+                            <text x="25" y="195" fill="black" font-weight="bold" font-size="16">B</text>
+                            <text x="215" y="195" fill="black" font-weight="bold" font-size="16">C</text>
+                            <text x="55" y="115" fill="#be123c" font-weight="bold" font-size="16">D</text>
+                            <text x="185" y="115" fill="#be123c" font-weight="bold" font-size="16">E</text>
+                            <text x="150" y="50" fill="#047857" font-weight="bold" font-size="14">M</text>
+                            <text x="90" y="50" fill="#047857" font-weight="bold" font-size="14">N</text>
+                        </svg>
+                        <p style='font-size:12px; color:#6b7280;'>આકૃતિ 6.1: થેલ્સનો પ્રમેય</p>
+                    </div>
+
+                    <h4 style='color:#0369a1;'>🎯 પક્ષ:</h4>
+                    <p>ΔABC માં બાજુ BC ને સમાંતર હોય તેવી રેખા દોરેલી છે, જે બાકીની બે બાજુઓ AB અને AC ને અનુક્રમે બિંદુ <b>D</b> અને <b>E</b> માં છેદે છે.</p>
+
+                    <h4 style='color:#0369a1;'>🎯 સાધ્ય:</h4>
+                    <div style='font-size:18px; font-weight:bold; color:#0f766e; margin-left:20px;'>
+                        <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #0f766e; display:block; padding:0 5px;'>AD</span><span>DB</span></span> = 
+                        <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #0f766e; display:block; padding:0 5px;'>AE</span><span>EC</span></span>
+                    </div>
+
+                    <h4 style='color:#0369a1; margin-top:20px;'>✍️ સાબિતી:</h4>
+                    <ul style='line-height:1.8;'>
+                        <li>સૌપ્રથમ બિંદુ <b>B અને E</b> તથા <b>C અને D</b> જોડો.</li>
+                        <li>ત્યારબાદ વેધ <b>DM ⊥ AC</b> અને <b>EN ⊥ AB</b> દોરો.</li>
+                        <li>આપણે જાણીએ છીએ કે, <b>ત્રિકોણનું ક્ષેત્રફળ = &frac12; × પાયો × વેધ</b>.</li>
+                    </ul>
+
+                    <div style='background-color:#f8fafc; padding:10px; border-radius:5px; margin:10px 0;'>
+                        <p><b>બાજુ AB માટે:</b></p>
+                        <p>ΔADE નું ક્ષેત્રફળ = &frac12; × AD × EN <br>ΔBDE નું ક્ષેત્રફળ = &frac12; × DB × EN</p>
+                        <p>ગુણોત્તર લેતા:</p>
+                        <div style='font-size:16px; margin-left:15px; margin-bottom:15px;'>
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>ક્ષેત્રફળ (ADE)</span><span>ક્ષેત્રફળ (BDE)</span></span> = 
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>&frac12; × AD × EN</span><span>&frac12; × DB × EN</span></span> = 
+                            <b style='color:#be123c;'><span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>AD</span><span>DB</span></span></b> &nbsp; ...... (પરિણામ 1)
+                        </div>
+
+                        <p><b>તે જ રીતે, બાજુ AC માટે:</b></p>
+                        <p>ΔADE નું ક્ષેત્રફળ = &frac12; × AE × DM <br>ΔCDE નું ક્ષેત્રફળ = &frac12; × EC × DM</p>
+                        <p>ગુણોત્તર લેતા:</p>
+                        <div style='font-size:16px; margin-left:15px;'>
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>ક્ષેત્રફળ (ADE)</span><span>ક્ષેત્રફળ (CDE)</span></span> = 
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>&frac12; × AE × DM</span><span>&frac12; × EC × DM</span></span> = 
+                            <b style='color:#be123c;'><span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>AE</span><span>EC</span></span></b> &nbsp; ...... (પરિણામ 2)
+                        </div>
+                    </div>
+
+                    <p>હવે, આકૃતિ પરથી સ્પષ્ટ છે કે <b>ΔBDE</b> અને <b>ΔCDE</b> એ <b>એક જ પાયા DE</b> પર અને સમાંતર રેખાઓની જોડ <b>BC અને DE</b> વચ્ચે આવેલા ત્રિકોણો છે.</p>
+                    <p style='font-weight:bold;'>તેથી તેમના ક્ષેત્રફળ સમાન થાય: ક્ષેત્રફળ (BDE) = ક્ષેત્રફળ (CDE) &nbsp; ...... (પરિણામ 3)</p>
+
+                    <div style='background-color:#dcfce7; padding:15px; border-radius:5px; text-align:center; margin-top:20px; border:2px dashed #16a34a;'>
+                        <p style='margin:0; font-size:16px;'>આમ, પરિણામ (1), (2) અને (3) પરથી આપણે કહી શકીએ કે,</p>
+                        <br>
+                        <div style='font-size:22px; font-weight:bold; color:#16a34a;'>
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:3px solid #16a34a; display:block; padding:0 8px;'>AD</span><span>DB</span></span> = 
+                            <span style='display:inline-block; text-align:center; vertical-align:middle;'><span style='border-bottom:3px solid #16a34a; display:block; padding:0 8px;'>AE</span><span>EC</span></span>
+                        </div>
+                    </div>
+                    <p style='text-align:right; font-weight:bold; margin-top:10px;'>...જે સાબિત થાય છે.</p>
+                </div>
+                `
             }
         ]
     }
