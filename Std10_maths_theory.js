@@ -924,10 +924,158 @@ var njMathsTheory = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 11: વર્તુળ સંબંધિત ક્ષેત્રફળ
+    // ------------------------------------
+    "11": {
+        "chapterName": "પ્રકરણ 11",
+        "chapterTitle": "વર્તુળ સંબંધિત ક્ષેત્રફળ",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint)", 
+                answer: "<div style='background-color:#fffbeb; padding:10px; border-left:5px solid #f59e0b; border-radius:5px;'><b>🏆 કુલ ગુણ: 2</b><br><br><ul><li><b>વિભાગ A (હેતુલક્ષી):</b> 2 ગુણ (જોડકા જોડો)</li><li><b>બોર્ડના પેપરમાં પ્રશ્ન ક્રમાંક:</b> 23 અને 24</li></ul><br><span style='color:#b45309;'><b>ખાસ નોંધ:</b> આ ચેપ્ટરમાંથી <b>કોઈ દાખલા ગણવાના નથી!</b> માત્ર સૂત્રો જ <b>'જોડકા'</b> સ્વરૂપે પૂછાશે. તેથી સૂત્રોના આકાર અને નામ વચ્ચેનો તફાવત બરાબર સમજવો જરૂરી છે.</span></div>" 
+            },
+            {
+                question: "વર્તુળના પાયાના સૂત્રો (Basic Formulas)",
+                answer: `
+                <p>આ બે સૂત્રો આપણે અગાઉના ધોરણથી શીખતા આવ્યા છીએ, જે જોડકામાં પૂછાઈ શકે છે:</p>
+                <div style='background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                    <ul style='margin:0; padding-left:20px; line-height:2;'>
+                        <li><b>વર્તુળનું ક્ષેત્રફળ (Area):</b> <b style='color:#1d4ed8; font-size:18px;'>πr²</b> (વર્તુળે રોકેલી કુલ જગ્યા)</li>
+                        <li><b>વર્તુળનો પરિઘ (Circumference):</b> <b style='color:#047857; font-size:18px;'>2πr</b> અથવા <b>πd</b> (વર્તુળની કિનારીની કુલ લંબાઈ)</li>
+                        <li><b>અર્ધવર્તુળનો પરિઘ (પરિમિતિ):</b> <b style='color:#be123c; font-size:18px;'>πr + 2r</b> (કારણ કે તેમાં વળાંક πr અને સીધો વ્યાસ 2r હોય છે).</li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "ચાપની લંબાઈ (Length of an Arc)",
+                answer: `
+                <p>વર્તુળના પરિઘના કોઈ નાના ભાગ (કટકા) ને <b>ચાપ</b> કહે છે.</p>
+
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="100" cy="100" r="80" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4,4" />
+                        <circle cx="100" cy="100" r="4" fill="#000" />
+                        <text x="90" y="115" font-weight="bold">O</text>
+                        <line x1="100" y1="100" x2="175" y2="70" stroke="#64748b" stroke-width="1.5" />
+                        <line x1="100" y1="100" x2="150" y2="162" stroke="#64748b" stroke-width="1.5" />
+                        <path d="M 125 90 A 30 30 0 0 1 115 118" fill="none" stroke="#dc2626" stroke-width="2" />
+                        <text x="130" y="110" fill="#dc2626" font-weight="bold">θ</text>
+                        
+                        <path d="M 175 70 A 80 80 0 0 1 150 162" fill="none" stroke="#ea580c" stroke-width="4" />
+                        <text x="180" y="130" fill="#ea580c" font-weight="bold">લઘુચાપ (l)</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#fff7ed; padding:15px; border-radius:8px; border:2px solid #ea580c;'>
+                    <p style='margin-top:0;'><b>૧. લઘુચાપની લંબાઈ (l):</b></p>
+                    <div style='font-size:18px; font-weight:bold; color:#c2410c; display:flex; align-items:center;'>
+                        l = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 10px;'><span style='border-bottom:2px solid #c2410c; display:block; padding:0 5px;'>θ</span><span>360°</span></span> × 2πr
+                    </div>
+                    <p style='margin-bottom:0; font-size:14px; color:#9a3412;'><i>(સમજૂતી: આખો પરિઘ 2πr હોય, આપણે તેમાંથી માત્ર θ ખૂણા જેટલો ભાગ જ લેવાનો છે.)</i></p>
+                    
+                    <hr style='border:0; border-top:1px dashed #fdba74; margin:15px 0;'>
+                    
+                    <p style='margin-top:0;'><b>૨. ગુરુચાપની લંબાઈ:</b></p>
+                    <b style='color:#9a3412;'>2πr - લઘુચાપની લંબાઈ</b> (આખા વર્તુળમાંથી નાની ચાપ કાઢી નાખો).
+                </div>
+                `
+            },
+            {
+                question: "વૃત્તાંશનું ક્ષેત્રફળ (Area of Sector) 🍕",
+                answer: `
+                <p><b>સરળ ઓળખ:</b> વૃત્તાંશ એટલે <b>'પિઝાનો ટુકડો'</b>. જે ભાગ <b>બે ત્રિજ્યા અને એક ચાપ</b> વચ્ચે ઘેરાયેલો હોય તેને વૃત્તાંશ કહે છે.</p>
+
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="110" cy="110" r="90" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" />
+                        <path d="M 110 110 L 190 65 A 90 90 0 1 0 180 165 Z" fill="#e0f2fe" />
+                        <text x="60" y="80" fill="#0369a1" font-weight="bold">ગુરુવૃત્તાંશ</text>
+                        
+                        <path d="M 110 110 L 190 65 A 90 90 0 0 1 180 165 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="2" />
+                        <text x="145" y="125" fill="#a16207" font-weight="bold">લઘુવૃત્તાંશ</text>
+                        
+                        <circle cx="110" cy="110" r="4" fill="#000" />
+                        <path d="M 135 95 A 30 30 0 0 1 130 125" fill="none" stroke="#dc2626" stroke-width="2" />
+                        <text x="120" y="115" fill="#dc2626" font-weight="bold">θ</text>
+                        
+                        <text x="150" y="80" font-weight="bold" fill="#0f172a">r</text>
+                        <text x="145" y="160" font-weight="bold" fill="#0f172a">r</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308;'>
+                    <p style='margin-top:0;'><b>૧. લઘુવૃત્તાંશનું ક્ષેત્રફળ:</b></p>
+                    <div style='font-size:18px; font-weight:bold; color:#a16207; display:flex; align-items:center;'>
+                        ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 10px;'><span style='border-bottom:2px solid #a16207; display:block; padding:0 5px;'>θ</span><span>360°</span></span> × πr²
+                    </div>
+                    <p style='font-size:14px; margin-top:10px;'><i>અન્ય સૂત્ર (જો ચાપની લંબાઈ l આપી હોય):</i> <b>½ × l × r</b></p>
+
+                    <hr style='border:0; border-top:1px dashed #fde047; margin:15px 0;'>
+
+                    <p style='margin-top:0;'><b>૨. ગુરુવૃત્તાંશનું ક્ષેત્રફળ:</b></p>
+                    <div style='font-size:16px; font-weight:bold; color:#0369a1;'>
+                        πr² - લઘુવૃત્તાંશનું ક્ષેત્રફળ
+                    </div>
+                    <p style='margin-bottom:0; font-size:14px; color:#0c4a6e;'>(આખા પિઝામાંથી કાઢેલો ટુકડો બાદ કરો એટલે બાકીનો મોટો ભાગ મળે).</p>
+                </div>
+                `
+            },
+            {
+                question: "વૃત્તખંડનું ક્ષેત્રફળ (Area of Segment) 🍉",
+                question_desc: "જોડકા માટે સૌથી અગત્યનું",
+                answer: `
+                <p><b>સરળ ઓળખ:</b> વૃત્તખંડ એટલે <b>'તરબૂચની ચીરી'</b>. જે ભાગ <b>જીવા અને ચાપ</b> વચ્ચે ઘેરાયેલો હોય તેને વૃત્તખંડ કહે છે.</p>
+
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="110" cy="110" r="90" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" />
+                        
+                        <path d="M 110 110 L 190 65 L 180 165 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4,4" />
+                        
+                        <line x1="190" y1="65" x2="180" y2="165" stroke="#be123c" stroke-width="2" />
+                        
+                        <path d="M 190 65 A 90 90 0 0 1 180 165 Z" fill="#fecdd3" stroke="#be123c" stroke-width="2" />
+                        <text x="180" y="115" fill="#9f1239" font-weight="bold" font-size="12" transform="rotate(-90 180 115)">લઘુવૃત્તખંડ</text>
+                        
+                        <text x="80" y="110" fill="#334155" font-weight="bold">ગુરુવૃત્તખંડ</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#fff1f2; padding:15px; border-radius:8px; border:2px solid #e11d48;'>
+                    <p style='margin-top:0;'><b>૧. લઘુવૃત્તખંડનું ક્ષેત્રફળ:</b></p>
+                    <p style='font-size:16px; font-weight:bold; color:#be123c;'>
+                        = (લઘુવૃત્તાંશનું ક્ષેત્રફળ) - (ત્રિકોણનું ક્ષેત્રફળ)
+                    </p>
+                    <p style='font-size:14px; margin-top:5px; color:#881337;'><i>(પિઝાના ટુકડામાંથી ત્રિકોણ કાપી લો, એટલે કિનારીની ચીરી વધે).</i></p>
+
+                    <hr style='border:0; border-top:1px dashed #fecdd3; margin:15px 0;'>
+
+                    <p style='margin-top:0;'><b>૨. ગુરુવૃત્તખંડનું ક્ષેત્રફળ:</b></p>
+                    <p style='font-size:16px; font-weight:bold; color:#be123c; margin-bottom:0;'>
+                        = πr² - (લઘુવૃત્તખંડનું ક્ષેત્રફળ)
+                    </p>
+                </div>
+                `
+            },
+            {
+                question: "🎯 જોડકા (Match the following) સોલ્વ કરવાની શોર્ટ-ટ્રીક",
+                answer: `
+                <div style='border-left:4px solid #10b981; padding:10px; background-color:#ecfdf5; border-radius:5px;'>
+                    પરીક્ષામાં જોડકા જોવતી વખતે નીચેના શબ્દો પકડવા:
+                    <ul style='margin-top:10px; line-height:1.8; font-size:16px;'>
+                        <li>જ્યારે <b>"લંબાઈ"</b> શબ્દ આવે, ત્યારે સૂત્રમાં પાછળ <b>2πr</b> જ આવે.</li>
+                        <li>જ્યારે <b>"ક્ષેત્રફળ"</b> શબ્દ આવે, ત્યારે સૂત્રમાં પાછળ <b>πr²</b> જ આવે.</li>
+                        <li>જ્યારે <b>"વૃત્તખંડ"</b> પૂછાય, ત્યારે સૂત્રમાં <b>બાદબાકી (-)</b> ની નિશાની ચોક્કસ હોય.</li>
+                        <li>જો વિકલ્પમાં <b>½×l×r</b> દેખાય, તો તે <b>વૃત્તાંશનું ક્ષેત્રફળ</b> જ હોય.</li>
+                    </ul>
+                </div>
+                `
+            }
+        ]
     }
-    
-    
-    
     
     
     
