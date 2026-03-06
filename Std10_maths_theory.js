@@ -1474,7 +1474,164 @@ var njMathsTheory = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 14: સંભાવના
+    // ------------------------------------
+    "14": {
+        "chapterName": "પ્રકરણ 14",
+        "chapterTitle": "સંભાવના",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint) - 🌟 સ્કોરિંગ ચેપ્ટર", 
+                answer: "<div style='background-color:#f0fdfa; padding:15px; border-left:6px solid #0d9488; border-radius:8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'><b>🏆 કુલ ગુણ: 14</b><br><br><ul style='line-height:1.8; margin-bottom:0;'><li><b>વિભાગ A (હેતુલક્ષી):</b> 3 ગુણ (1+1+1 ગુણના 3 પ્રશ્નો) <br><span style='color:#64748b;'>પ્રશ્ન ક્રમાંક: 9, 16 અને 19</span></li><li><b>વિભાગ C (મોટા દાખલા):</b> 3 ગુણ (1 દાખલો) <br><span style='color:#64748b;'>પ્રશ્ન ક્રમાંક: 46</span></li><li><b>વિભાગ D (ખૂબ મોટા દાખલા):</b> 8 ગુણ (4+4 ગુણના 2 દાખલા) <br><span style='color:#64748b;'>પ્રશ્ન ક્રમાંક: 53 અને 54</span></li></ul><br><div style='background-color:#ccfbf1; padding:8px; border-radius:5px; margin-top:10px;'><b style='color:#0f766e;'>ખાસ નોંધ:</b> આ પ્રકરણમાંથી 4 ગુણના બે મોટા દાખલા પૂછાવાના છે! તેથી પત્તા, પાસા અને સિક્કાના તમામ પરિણામો મોઢે હોવા ખૂબ જ જરૂરી છે.</div></div>" 
+            },
+            {
+                question: "સંભાવનાનું મુખ્ય સૂત્ર અને મૂળભૂત નિયમો",
+                answer: `
+                <div style='background-color:#eff6ff; border:2px solid #3b82f6; border-radius:10px; padding:15px; text-align:center; margin-bottom:15px;'>
+                    <b style='color:#1e40af; font-size:18px;'>કોઈપણ ઘટના E ની સંભાવના P(E):</b><br>
+                    <div style='font-size:20px; font-weight:bold; color:#1d4ed8; margin-top:10px;'>
+                        P(E) = 
+                        <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 10px;'>ઘટના E માટે અનુકૂળ પરિણામોની સંખ્યા</span>
+                            <span style='padding:5px 10px 0 10px;'>પ્રયોગના કુલ શક્ય પરિણામોની સંખ્યા</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                    <b style='color:#be123c; font-size:16px;'>🎯 હેતુલક્ષી (વિભાગ A) માટે ગોલ્ડન નિયમો:</b>
+                    <ul style='line-height:2; margin-bottom:0; font-size:15px;'>
+                        <li>કોઈપણ ઘટનાની સંભાવના <b>0 થી 1 ની વચ્ચે</b> જ હોય. (0 ≤ P(E) ≤ 1)</li>
+                        <li>સંભાવના ક્યારેય <b>ઋણ (માઇનસ) ન હોય</b> અને <b>1 થી મોટી ન હોય</b>. (દા.ત. 15% ચાલે પણ 1.5 ન ચાલે).</li>
+                        <li><b>ચોક્કસ (શક્ય) ઘટના:</b> સૂર્ય પૂર્વમાં ઊગે તેની સંભાવના હંમેશા <b>1</b> હોય.</li>
+                        <li><b>અશક્ય ઘટના:</b> સૂર્ય પશ્ચિમમાં ઊગે તેની સંભાવના હંમેશા <b>0</b> હોય.</li>
+                        <li><b>પૂરક ઘટના:</b> ઘટના બને P(E) અને ઘટના ન બને P(E̅) નો સરવાળો 1 થાય. <br> <b style='color:#047857;'>P(E) + P(E̅) = 1</b> (દા.ત. આજે વરસાદ પડવાની સંભાવના 0.6 હોય, તો ન પડવાની સંભાવના 1 - 0.6 = 0.4 થાય).</li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "૧. સિક્કા (Coins) ના પરિણામો 🪙",
+                answer: `
+                <p>સિક્કાને ઉછાળીએ ત્યારે બે જ શક્યતા હોય: <b>છાપ (Head - H)</b> અથવા <b>કાંટો (Tail - T)</b>.</p>
+                <div style='display:flex; flex-wrap:wrap; gap:10px;'>
+                    <div style='flex:1; background-color:#f8fafc; border:1px solid #94a3b8; padding:10px; border-radius:5px;'>
+                        <b style='color:#0f172a;'>૧ સિક્કો ઉછાળતા:</b><br>
+                        કુલ પરિણામો = 2<br>
+                        {H, T}
+                    </div>
+                    <div style='flex:1; background-color:#f0fdf4; border:1px solid #4ade80; padding:10px; border-radius:5px;'>
+                        <b style='color:#14532d;'>૨ સિક્કા ઉછાળતા:</b><br>
+                        કુલ પરિણામો = 4<br>
+                        <b style='color:#16a34a;'>{HH, HT, TH, TT}</b>
+                    </div>
+                    <div style='flex:1; background-color:#fffbeb; border:1px solid #fcd34d; padding:10px; border-radius:5px;'>
+                        <b style='color:#78350f;'>૩ સિક્કા ઉછાળતા:</b><br>
+                        કુલ પરિણામો = 8<br>
+                        <b style='color:#d97706;'>{HHH, HHT, HTH, HTT, THH, THT, TTH, TTT}</b>
+                    </div>
+                </div>
+                <p style='font-size:14px; color:#64748b; margin-top:5px;'><i>ટ્રીક: કુલ પરિણામો શોધવા <b>2<sup>n</sup></b> સૂત્ર વાપરવું (જ્યાં n = સિક્કા ઉછાળવાની સંખ્યા).</i></p>
+                `
+            },
+            {
+                question: "૨. પાસો (Dice) ના પરિણામો 🎲",
+                answer: `
+                <p>પાસા પર 1 થી 6 અંકો લખેલા હોય છે. </p>
+                
+                <div style='background-color:#ffffff; border:1px solid #cbd5e1; border-radius:8px; padding:15px; margin-bottom:10px;'>
+                    <b style='color:#0f172a; font-size:16px;'>૧ પાસો ફેંકતા:</b><br>
+                    કુલ પરિણામો = 6 <b>{1, 2, 3, 4, 5, 6}</b>
+                    <ul style='margin-bottom:0; font-size:14px; line-height:1.6;'>
+                        <li>અયુગ્મ (એકી) સંખ્યાઓ = 3 {1, 3, 5}</li>
+                        <li>યુગ્મ (બેકી) સંખ્યાઓ = 3 {2, 4, 6}</li>
+                        <li>અવિભાજ્ય સંખ્યાઓ = 3 <b style='color:#be123c;'>{2, 3, 5}</b> <i>(નોંધ: 1 અવિભાજ્ય નથી અને વિભાજ્ય પણ નથી)</i></li>
+                    </ul>
+                </div>
+
+                <div style='background-color:#fef2f2; border:2px solid #fca5a5; border-radius:8px; padding:15px;'>
+                    <b style='color:#9f1239; font-size:16px;'>૨ પાસા એકસાથે ફેંકતા (સૌથી વધુ પૂછાતો દાખલો):</b><br>
+                    કુલ શક્ય પરિણામો = 6 × 6 = <b>36</b> થાય.
+                    
+                    <div style='overflow-x:auto; margin-top:10px;'>
+                        <table style='width:100%; text-align:center; border-collapse:collapse; font-size:14px; background-color:#ffffff;'>
+                            <tr style='background-color:#fee2e2;'>
+                                <td style='border:1px solid #fca5a5; padding:5px;'>(1,1)</td><td style='border:1px solid #fca5a5; padding:5px;'>(1,2)</td><td style='border:1px solid #fca5a5; padding:5px;'>(1,3)</td><td style='border:1px solid #fca5a5; padding:5px;'>(1,4)</td><td style='border:1px solid #fca5a5; padding:5px;'>(1,5)</td><td style='border:1px solid #fca5a5; padding:5px;'>(1,6)</td>
+                            </tr>
+                            <tr>
+                                <td style='border:1px solid #fca5a5; padding:5px;'>(2,1)</td><td style='border:1px solid #fca5a5; padding:5px;'>(2,2)</td><td style='border:1px solid #fca5a5; padding:5px;'>(2,3)</td><td style='border:1px solid #fca5a5; padding:5px;'>(2,4)</td><td style='border:1px solid #fca5a5; padding:5px;'>(2,5)</td><td style='border:1px solid #fca5a5; padding:5px;'>(2,6)</td>
+                            </tr>
+                            <tr style='background-color:#fee2e2;'>
+                                <td style='border:1px solid #fca5a5; padding:5px;'>(3,1)</td><td style='border:1px solid #fca5a5; padding:5px;'>(3,2)</td><td style='border:1px solid #fca5a5; padding:5px;'>(3,3)</td><td style='border:1px solid #fca5a5; padding:5px;'>(3,4)</td><td style='border:1px solid #fca5a5; padding:5px;'>(3,5)</td><td style='border:1px solid #fca5a5; padding:5px;'>(3,6)</td>
+                            </tr>
+                            <tr>
+                                <td style='border:1px solid #fca5a5; padding:5px;'>(4,1)</td><td style='border:1px solid #fca5a5; padding:5px;'>(4,2)</td><td style='border:1px solid #fca5a5; padding:5px;'>(4,3)</td><td style='border:1px solid #fca5a5; padding:5px;'>(4,4)</td><td style='border:1px solid #fca5a5; padding:5px;'>(4,5)</td><td style='border:1px solid #fca5a5; padding:5px;'>(4,6)</td>
+                            </tr>
+                            <tr style='background-color:#fee2e2;'>
+                                <td style='border:1px solid #fca5a5; padding:5px;'>(5,1)</td><td style='border:1px solid #fca5a5; padding:5px;'>(5,2)</td><td style='border:1px solid #fca5a5; padding:5px;'>(5,3)</td><td style='border:1px solid #fca5a5; padding:5px;'>(5,4)</td><td style='border:1px solid #fca5a5; padding:5px;'>(5,5)</td><td style='border:1px solid #fca5a5; padding:5px;'>(5,6)</td>
+                            </tr>
+                            <tr>
+                                <td style='border:1px solid #fca5a5; padding:5px;'>(6,1)</td><td style='border:1px solid #fca5a5; padding:5px;'>(6,2)</td><td style='border:1px solid #fca5a5; padding:5px;'>(6,3)</td><td style='border:1px solid #fca5a5; padding:5px;'>(6,4)</td><td style='border:1px solid #fca5a5; padding:5px;'>(6,5)</td><td style='border:1px solid #fca5a5; padding:5px;'>(6,6)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <p style='font-size:14px; color:#be123c; margin-top:5px; margin-bottom:0;'><b>💡 ખાસ યાદ રાખો:</b> બંને પાસાના અંકોનો સરવાળો ઓછામાં ઓછો <b>2</b> (1+1) અને વધુમાં વધુ <b>12</b> (6+6) જ હોય. 12 થી મોટો કે 2 થી નાનો સરવાળો ક્યારેય ન મળે (તેની સંભાવના 0 થાય).</p>
+                </div>
+                `
+            },
+            {
+                question: "🌟 ૩. 52 પત્તાની સંપૂર્ણ સમજૂતી (Playing Cards) 🃏",
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-radius:8px; border:2px solid #ea580c;'>
+                    <p style='margin-top:0; font-size:15px;'>વિદ્યાર્થીઓને સૌથી વધુ કન્ફ્યુઝન "લાલ રંગ" અને "લાલ (હાર્ટ)" વચ્ચે થાય છે. નીચેનો ચાર્ટ મગજમાં છાપી લેવો:</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #fdba74; text-align:center;'>
+                        <div style='font-size:20px; font-weight:bold; background-color:#1e293b; color:white; padding:5px; border-radius:5px; margin-bottom:15px;'>
+                            કુલ પત્તા = 52
+                        </div>
+                        
+                        <div style='display:flex; justify-content:space-around; margin-bottom:15px;'>
+                            <div style='width:45%; background-color:#fecdd3; border:2px solid #e11d48; padding:5px; border-radius:5px; font-weight:bold; color:#be123c;'>
+                                લાલ રંગના પત્તા = 26 <br><span style='font-size:24px;'>♦️ ♥️</span>
+                            </div>
+                            <div style='width:45%; background-color:#e2e8f0; border:2px solid #334155; padding:5px; border-radius:5px; font-weight:bold; color:#0f172a;'>
+                                કાળા રંગના પત્તા = 26 <br><span style='font-size:24px;'>♣️ ♠️</span>
+                            </div>
+                        </div>
+
+                        <div style='display:flex; justify-content:space-between; gap:5px;'>
+                            <div style='flex:1; background-color:#fff1f2; border:1px solid #f43f5e; padding:5px; border-radius:5px; font-size:14px;'>
+                                <span style='font-size:20px; color:#e11d48;'>♦️</span><br><b>ચોકટ/ચરકટ</b><br>(13 પત્તા)
+                            </div>
+                            <div style='flex:1; background-color:#fff1f2; border:1px solid #f43f5e; padding:5px; border-radius:5px; font-size:14px;'>
+                                <span style='font-size:20px; color:#e11d48;'>♥️</span><br><b>લાલ</b><br>(13 પત્તા)
+                            </div>
+                            <div style='flex:1; background-color:#f8fafc; border:1px solid #475569; padding:5px; border-radius:5px; font-size:14px;'>
+                                <span style='font-size:20px; color:#0f172a;'>♣️</span><br><b>ફુલ્લી</b><br>(13 પત્તા)
+                            </div>
+                            <div style='flex:1; background-color:#f8fafc; border:1px solid #475569; padding:5px; border-radius:5px; font-size:14px;'>
+                                <span style='font-size:20px; color:#0f172a;'>♠️</span><br><b>કાળી</b><br>(13 પત્તા)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='margin-top:15px;'>
+                        <b style='color:#c2410c; font-size:16px;'>પ્રશ્નો સોલ્વ કરવાની ચાવીઓ:</b>
+                        <ul style='line-height:2; margin-bottom:0; font-size:15px;'>
+                            <li>જો <b>"લાલ રંગનું"</b> પૂછે તો <b>26</b> પત્તા લેવા, પણ જો ખાલી <b>"લાલનું"</b> પત્તું પૂછે તો <b>13</b> જ લેવા.</li>
+                            <li>તે જ રીતે <b>"કાળા રંગનું"</b> પૂછે તો <b>26</b> પત્તા, પણ માત્ર <b>"કાળીનું"</b> પૂછે તો <b>13</b> લેવા.</li>
+                            <li><b>મુખમુદ્રાવાળા (ચિત્રવાળા / Face Cards):</b> રાજા (K), રાણી (Q), ગુલામ (J). દરેકના 4 પત્તા હોય.<br>કુલ મુખમુદ્રાવાળા પત્તા = 3 × 4 = <b style='color:#1d4ed8; font-size:18px;'>12 પત્તા</b>. <i>(નોંધ: એક્કા (A) પર ચિત્ર હોતું નથી, તેથી તેને મુખમુદ્રાવાળું ન ગણવું).</i></li>
+                            <li><b>એક્કા (Aces):</b> કુલ 4 હોય (1 લાલનો, 1 ચોકટનો, 1 કાળીનો, 1 ફુલ્લીનો).</li>
+                        </ul>
+                    </div>
+                </div>
+                `
+            }
+        ]
     }
+    
     
     
      
