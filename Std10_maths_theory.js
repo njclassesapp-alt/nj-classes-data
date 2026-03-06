@@ -131,7 +131,7 @@ var njMathsTheory = {
                       { 
                 question: "સમાંતર શ્રેણીના પ્રથમ n પદોના સરવાળાનું સૂત્ર (Sum of n terms)", 
                 answer: "જ્યારે સમાંતર શ્રેણીના n પદોનો સરવાળો શોધવાનો હોય ત્યારે:<br><br><b>1. મુખ્ય સૂત્ર:</b><br><div style='font-size:18px; font-weight:bold; color:#be123c; margin: 10px 0;'>Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>n</span><span>2</span></span> [2a + (n - 1)d]</div><br><b>2. ટૂંકું સૂત્ર (જ્યારે અંતિમ પદ આપેલું હોય):</b><br>જો શ્રેણીનું પ્રથમ પદ 'a' અને અંતિમ પદ 'l' (અથવા aₙ) આપેલું હોય, તો:<br><div style='font-size:18px; font-weight:bold; color:#047857; margin: 10px 0;'>Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #047857; display:block; padding:0 5px;'>n</span><span>2</span></span> [a + l]</div>" 
-                      }
+                      },
             
             { 
                 question: "n-મું પદ (aₙ) અને n પદોના સરવાળા (Sₙ) વચ્ચેનો સંબંધ", 
