@@ -780,7 +780,152 @@ var njMathsTheory = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 10: વર્તુળ
+    // ------------------------------------
+    "10": {
+        "chapterName": "પ્રકરણ 10",
+        "chapterTitle": "વર્તુળ",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint)", 
+                answer: "<div style='background-color:#fef2f2; padding:10px; border-left:5px solid #ef4444; border-radius:5px;'><b>🏆 કુલ ગુણ: 8</b><br><br><ul><li><b>વિભાગ A (હેતુલક્ષી):</b> 2 ગુણ (1+1 ગુણના 2 પ્રશ્નો) <br><b>પ્રશ્ન ક્રમાંક:</b> 11 અને 18</li><br><li><b>વિભાગ C (મોટા દાખલા/પ્રમેય):</b> 6 ગુણ (3+3 ગુણના 2 પ્રશ્નો) <br><b>પ્રશ્ન ક્રમાંક:</b> 43 અને 44</li></ul><br><span style='color:#b91c1c;'><b>ખાસ નોંધ:</b> નવા અભ્યાસક્રમ મુજબ આ પ્રકરણમાંથી પ્રમેય 10.1 અથવા 10.2 સાબિતી સાથે પૂછાઈ શકે છે, અથવા તેના પર આધારિત પાયથાગોરસના દાખલા આવશે.</span></div>" 
+            },
+            {
+                question: "વર્તુળ અને રેખા વચ્ચેનો સંબંધ (છેદિકા અને સ્પર્શક)",
+                answer: `
+                <p>સમતલમાં આવેલું વર્તુળ અને કોઈ રેખા વચ્ચે મુખ્યત્વે 3 શક્યતાઓ હોઈ શકે છે:</p>
+                
+                <div style='text-align:center; margin: 20px 0;'>
+                    <svg width="280" height="120" viewBox="0 0 280 120" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="30" fill="none" stroke="#2563eb" stroke-width="2" />
+                        <line x1="10" y1="100" x2="90" y2="100" stroke="#475569" stroke-width="2" />
+                        <text x="50" y="115" font-size="10" text-anchor="middle">ન છેદતી રેખા</text>
+
+                        <circle cx="140" cy="50" r="30" fill="none" stroke="#16a34a" stroke-width="2" />
+                        <line x1="100" y1="30" x2="180" y2="70" stroke="#dc2626" stroke-width="2" />
+                        <circle cx="118" cy="38" r="3" fill="#000" />
+                        <circle cx="162" cy="62" r="3" fill="#000" />
+                        <text x="140" y="115" font-size="10" text-anchor="middle">છેદિકા (2 બિંદુ)</text>
+
+                        <circle cx="230" cy="50" r="30" fill="none" stroke="#9333ea" stroke-width="2" />
+                        <line x1="190" y1="80" x2="270" y2="80" stroke="#ea580c" stroke-width="2" />
+                        <circle cx="230" cy="80" r="4" fill="#000" />
+                        <text x="240" y="75" font-size="12" font-weight="bold">P</text>
+                        <text x="230" y="115" font-size="10" text-anchor="middle">સ્પર્શક (1 બિંદુ)</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                    <ul style='margin:0; padding-left:20px; line-height:1.8;'>
+                        <li><b>છેદિકા (Secant):</b> જે રેખા વર્તુળને <b>બે ભિન્ન બિંદુઓ</b>માં છેદે તેને વર્તુળની છેદિકા કહે છે.</li>
+                        <li><b>સ્પર્શક (Tangent):</b> જે રેખા વર્તુળને <b>માત્ર અને માત્ર એક જ બિંદુ</b>માં છેદે તેને વર્તુળનો સ્પર્શક કહે છે.</li>
+                        <li><b>સ્પર્શબિંદુ (Point of Contact):</b> વર્તુળ અને સ્પર્શકના <b>સામાન્ય બિંદુ</b> (જ્યાં તે બંને અડે છે) ને સ્પર્શબિંદુ (આકૃતિમાં બિંદુ P) કહે છે.</li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "🌟 પ્રમેય 10.1: સ્પર્શક અને ત્રિજ્યા વચ્ચેનો સંબંધ",
+                answer: `
+                <div style='border:2px solid #0284c7; padding:15px; border-radius:10px; background-color:#ffffff;'>
+                    <p style='background-color:#e0f2fe; padding:10px; border-radius:5px; font-weight:bold; color:#0369a1;'>
+                        📝 વિધાન: વર્તુળના કોઈ બિંદુએ દોરેલો સ્પર્શક, સ્પર્શબિંદુમાંથી પસાર થતી ત્રિજ્યાને લંબ હોય છે.
+                    </p>
+
+                    <div style='text-align:center; margin: 15px 0;'>
+                        <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="60" r="50" fill="#f1f5f9" stroke="#334155" stroke-width="2" />
+                            <circle cx="100" cy="60" r="4" fill="#dc2626" />
+                            <text x="100" y="50" font-weight="bold" text-anchor="middle">O</text>
+                            
+                            <line x1="30" y1="110" x2="170" y2="110" stroke="#059669" stroke-width="3" />
+                            <text x="20" y="115" font-weight="bold" fill="#059669">X</text>
+                            <text x="180" y="115" font-weight="bold" fill="#059669">Y</text>
+                            
+                            <line x1="100" y1="60" x2="100" y2="110" stroke="#2563eb" stroke-width="2" />
+                            <circle cx="100" cy="110" r="4" fill="#dc2626" />
+                            <text x="110" y="125" font-weight="bold">P (સ્પર્શબિંદુ)</text>
+                            
+                            <polyline points="90,110 90,100 100,100" fill="none" stroke="black" stroke-width="1.5" />
+                        </svg>
+                    </div>
+
+                    <p><b>સમજૂતી:</b> આકૃતિમાં <b>O</b> કેન્દ્રવાળા વર્તુળનો <b>P</b> બિંદુએ સ્પર્શક <b>XY</b> છે. <b>OP</b> એ સ્પર્શબિંદુ P માંથી પસાર થતી ત્રિજ્યા છે.</p>
+                    <p>તેથી પ્રમેય મુજબ, <b>OP ⊥ XY</b> થાય. (એટલે કે ત્રિજ્યા અને સ્પર્શક વચ્ચે હંમેશા <b>90° નો ખૂણો (કાટખૂણો)</b> બને).</p>
+                    <div style='background-color:#fffbeb; border:1px dashed #f59e0b; padding:8px; border-radius:5px;'>
+                        <b style='color:#b45309;'>💡 દાખલા માટે શોર્ટ-ટ્રીક:</b> જ્યાં પણ કાટખૂણો બને, ત્યાં <b>પાયથાગોરસનો પ્રમેય</b> વાપરી શકાય!
+                    </div>
+                </div>
+                `
+            },
+            {
+                question: "🌟 મોસ્ટ IMP પ્રમેય 10.2: બહારના બિંદુમાંથી દોરેલા સ્પર્શકો",
+                answer: `
+                <div style='border:2px solid #b91c1c; padding:15px; border-radius:10px; background-color:#ffffff;'>
+                    <p style='background-color:#fee2e2; padding:10px; border-radius:5px; font-weight:bold; color:#9f1239;'>
+                        📝 વિધાન: વર્તુળની બહારના બિંદુમાંથી વર્તુળને દોરેલા સ્પર્શકોની લંબાઈ સમાન હોય છે.
+                    </p>
+
+                    <div style='text-align:center; margin: 20px 0;'>
+                        <svg width="260" height="160" viewBox="0 0 260 160" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="80" cy="80" r="50" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+                            <circle cx="80" cy="80" r="4" fill="#000" />
+                            <text x="65" y="85" font-weight="bold">O</text>
+                            
+                            <circle cx="230" cy="80" r="5" fill="#2563eb" />
+                            <text x="240" y="85" font-weight="bold" fill="#2563eb">P</text>
+                            
+                            <line x1="230" y1="80" x2="105" y2="35" stroke="#be123c" stroke-width="2.5" />
+                            <line x1="230" y1="80" x2="105" y2="125" stroke="#be123c" stroke-width="2.5" />
+                            
+                            <circle cx="105" cy="35" r="4" fill="#000" />
+                            <text x="100" y="25" font-weight="bold">A</text>
+                            <circle cx="105" cy="125" r="4" fill="#000" />
+                            <text x="100" y="145" font-weight="bold">B</text>
+                            
+                            <line x1="80" y1="80" x2="105" y2="35" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4" />
+                            <line x1="80" y1="80" x2="105" y2="125" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4" />
+                            <line x1="80" y1="80" x2="230" y2="80" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4" />
+
+                            <path d="M 98 47 L 110 54 L 115 40" fill="none" stroke="black" stroke-width="1" />
+                            <path d="M 98 113 L 110 106 L 115 120" fill="none" stroke="black" stroke-width="1" />
+                        </svg>
+                    </div>
+
+                    <h4 style='color:#b91c1c; margin-bottom:5px;'>🎯 સાબિતી અને દાખલા માટે અગત્યનું:</h4>
+                    <p style='margin-top:0;'>આકૃતિમાં <b>P</b> બહારનું બિંદુ છે અને <b>PA</b> તથા <b>PB</b> સ્પર્શકો છે.</p>
+                    <div style='font-size:20px; font-weight:bold; color:#1d4ed8; text-align:center; padding:10px; background-color:#eff6ff; border-radius:8px; margin:10px 0;'>
+                        PA = PB
+                    </div>
+                    
+                    <ul style='line-height:1.8; margin-bottom:0;'>
+                        <li>પ્રમેય 10.1 મુજબ ખૂણો A અને ખૂણો B <b>કાટખૂણા (90°)</b> છે.</li>
+                        <li>તેથી, દાખલા ગણવા માટે <b>ΔOAP</b> માં <b>પાયથાગોરસનો પ્રમેય</b> વાપરવો: <br>
+                        <b style='color:#047857; font-size:16px;'>OP&sup2; = OA&sup2; + PA&sup2;</b> <br>
+                        <i>(જ્યાં OP = કેન્દ્રથી અંતર, OA = ત્રિજ્યા, PA = સ્પર્શકની લંબાઈ)</i></li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "હેતુલક્ષી પ્રશ્નો (વિભાગ A) માટે અગત્યના પરિણામો",
+                answer: `
+                <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; border-radius:5px;'>
+                    <ul style='margin:0; padding-left:20px; line-height:1.8; color:#4a044e;'>
+                        <li>વર્તુળની <b>અંદર</b> આવેલા બિંદુમાંથી વર્તુળને <b>એક પણ સ્પર્શક (0)</b> દોરી શકાય નહીં.</li>
+                        <li>વર્તુળ <b>પર</b> આવેલા બિંદુમાંથી વર્તુળને <b>માત્ર 1 જ સ્પર્શક</b> દોરી શકાય.</li>
+                        <li>વર્તુળની <b>બહાર</b> આવેલા બિંદુમાંથી વર્તુળને <b>વધુમાં વધુ 2 સ્પર્શકો</b> દોરી શકાય (જેની લંબાઈ સમાન હોય છે).</li>
+                        <li>વર્તુળને <b>અસંખ્ય સ્પર્શકો</b> હોઈ શકે છે. (કારણ કે વર્તુળ પર અસંખ્ય બિંદુઓ હોય છે).</li>
+                        <li>વર્તુળના કોઈ છેદિકાને <b>સમાંતર હોય તેવા વધુમાં વધુ 2 સ્પર્શકો</b> દોરી શકાય.</li>
+                    </ul>
+                </div>
+                `
+            }
+        ]
     }
+    
     
     
     
