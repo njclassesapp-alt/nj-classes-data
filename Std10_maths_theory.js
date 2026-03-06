@@ -1075,9 +1075,221 @@ var njMathsTheory = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 12: પૃષ્ઠફળ અને ઘનફળ
+    // ------------------------------------
+    "12": {
+        "chapterName": "પ્રકરણ 12",
+        "chapterTitle": "પૃષ્ઠફળ અને ઘનફળ",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint)", 
+                answer: "<div style='background-color:#fefce8; padding:10px; border-left:5px solid #eab308; border-radius:5px;'><b>🏆 કુલ ગુણ: 6</b><br><br><ul><li><b>વિભાગ A (હેતુલક્ષી):</b> 2 ગુણ (1+1 ગુણના 2 પ્રશ્નો) <br><b>પ્રશ્ન ક્રમાંક:</b> 21 અને 22</li><br><li><b>વિભાગ B (ટૂંકા દાખલા):</b> 4 ગુણ (2+2 ગુણના 2 દાખલા) <br><b>પ્રશ્ન ક્રમાંક:</b> 35 અને 36</li></ul><br><span style='color:#a16207;'><b>ખાસ નોંધ:</b> નવા અભ્યાસક્રમમાંથી <b>'શંકુનો આડછેદ'</b> નીકળી ગયો છે! હવે આ ચેપ્ટરમાંથી માત્ર 2 માર્ક્સના નાના અને સરળ દાખલા જ પૂછાશે, તેથી મોટા ભાગે કિંમતો મૂકીને સીધો જવાબ લાવવાના દાખલા હશે. સૂત્રો પાકા કરવા સૌથી વધુ જરૂરી છે.</span></div>" 
+            },
+            {
+                question: "પૃષ્ઠફળ અને ઘનફળ વચ્ચેનો મુખ્ય તફાવત",
+                answer: `
+                <div style='display:flex; gap:10px; flex-wrap:wrap;'>
+                    <div style='flex:1; background-color:#f0fdf4; border:1px solid #bbf7d0; padding:10px; border-radius:8px;'>
+                        <b style='color:#16a34a; font-size:16px;'>૧. પૃષ્ઠફળ (Surface Area):</b><br>
+                        કોઈપણ વસ્તુની <b>બહારની સપાટી (કિનારી)</b> ને રંગવા માટે, કાગળ વીંટાળવા માટે કે તેને બનાવવા માટે કેટલું મટીરીયલ જોઈએ, તે શોધવા માટે પૃષ્ઠફળ વપરાય છે.<br>
+                        <i style='color:#047857;'>એકમ: સેમી² અથવા મીટર²</i>
+                    </div>
+                    <div style='flex:1; background-color:#eff6ff; border:1px solid #bfdbfe; padding:10px; border-radius:8px;'>
+                        <b style='color:#2563eb; font-size:16px;'>૨. ઘનફળ (Volume / Capacity):</b><br>
+                        કોઈપણ વસ્તુની <b>અંદર કેટલી જગ્યા છે</b> (જેમ કે ટાંકીમાં કેટલું પાણી સમાય, હવામાં કેટલી જગ્યા રોકે), તે શોધવા ઘનફળ વપરાય છે.<br>
+                        <i style='color:#1d4ed8;'>એકમ: સેમી³ અથવા મીટર³</i>
+                    </div>
+                </div>
+                `
+            },
+            {
+                question: "૧. લંબઘન (Cuboid) અને સમઘન (Cube) ના સૂત્રો 📦",
+                answer: `
+                <div style='display:flex; justify-content:space-around; align-items:center; margin: 15px 0; flex-wrap:wrap;'>
+                    <div style='text-align:center;'>
+                        <svg width="140" height="120" viewBox="0 0 140 120" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="40" width="80" height="60" fill="none" stroke="#2563eb" stroke-width="2"/>
+                            <rect x="40" y="20" width="80" height="60" fill="none" stroke="#2563eb" stroke-width="2"/>
+                            <line x1="20" y1="40" x2="40" y2="20" stroke="#2563eb" stroke-width="2"/>
+                            <line x1="100" y1="40" x2="120" y2="20" stroke="#2563eb" stroke-width="2"/>
+                            <line x1="20" y1="100" x2="40" y2="80" stroke="#2563eb" stroke-width="2"/>
+                            <line x1="100" y1="100" x2="120" y2="80" stroke="#2563eb" stroke-width="2"/>
+                            <text x="50" y="115" font-weight="bold" fill="#1e40af">l (લંબાઈ)</text>
+                            <text x="125" y="65" font-weight="bold" fill="#1e40af">h (ઊંચાઈ)</text>
+                        </svg>
+                        <p style='margin:0; font-weight:bold; color:#1d4ed8;'>લંબઘન</p>
+                    </div>
+                    
+                    <div style='text-align:center;'>
+                        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="40" width="60" height="60" fill="none" stroke="#047857" stroke-width="2"/>
+                            <rect x="40" y="20" width="60" height="60" fill="none" stroke="#047857" stroke-width="2"/>
+                            <line x1="20" y1="40" x2="40" y2="20" stroke="#047857" stroke-width="2"/>
+                            <line x1="80" y1="40" x2="100" y2="20" stroke="#047857" stroke-width="2"/>
+                            <line x1="20" y1="100" x2="40" y2="80" stroke="#047857" stroke-width="2"/>
+                            <line x1="80" y1="100" x2="100" y2="80" stroke="#047857" stroke-width="2"/>
+                            <text x="45" y="115" font-weight="bold" fill="#065f46">l</text>
+                        </svg>
+                        <p style='margin:0; font-weight:bold; color:#047857;'>સમઘન</p>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; border:2px solid #94a3b8; border-radius:8px; padding:10px; margin-bottom:10px;'>
+                    <p style='margin-top:0; color:#1d4ed8; font-weight:bold; font-size:16px; border-bottom:1px solid #cbd5e1; padding-bottom:5px;'>લંબઘન માટે (લંબાઈ=l, પહોળાઈ=b, ઊંચાઈ=h):</p>
+                    <ul style='line-height:1.8; margin-bottom:0;'>
+                        <li>પાર્શ્વ પૃષ્ઠોનું ક્ષેત્રફળ (ફક્ત 4 દીવાલો): <b style='color:#b91c1c;'>2h(l + b)</b></li>
+                        <li>કુલ પૃષ્ઠફળ (6 બાજુઓ): <b style='color:#b91c1c;'>2(lb + bh + hl)</b></li>
+                        <li>લંબઘનનું ઘનફળ: <b style='color:#b91c1c;'>l × b × h</b></li>
+                    </ul>
+                </div>
+
+                <div style='background-color:#ffffff; border:2px solid #94a3b8; border-radius:8px; padding:10px;'>
+                    <p style='margin-top:0; color:#047857; font-weight:bold; font-size:16px; border-bottom:1px solid #cbd5e1; padding-bottom:5px;'>સમઘન માટે (દરેક બાજુ સમાન = l):</p>
+                    <ul style='line-height:1.8; margin-bottom:0;'>
+                        <li>પાર્શ્વ પૃષ્ઠોનું ક્ષેત્રફળ (4 દીવાલો): <b style='color:#b91c1c;'>4l²</b></li>
+                        <li>કુલ પૃષ્ઠફળ (6 બાજુઓ): <b style='color:#b91c1c;'>6l²</b></li>
+                        <li>સમઘનનું ઘનફળ: <b style='color:#b91c1c;'>l³</b></li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "૨. નળાકાર (Cylinder) ના સૂત્રો 🛢️",
+                answer: `
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="150" height="180" viewBox="0 0 150 180" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="75" cy="30" rx="40" ry="15" fill="#fce7f3" stroke="#be123c" stroke-width="2"/>
+                        <line x1="35" y1="30" x2="35" y2="150" stroke="#be123c" stroke-width="2"/>
+                        <line x1="115" y1="30" x2="115" y2="150" stroke="#be123c" stroke-width="2"/>
+                        <path d="M 35 150 A 40 15 0 0 0 115 150" fill="#fce7f3" stroke="#be123c" stroke-width="2"/>
+                        <path d="M 35 150 A 40 15 0 0 1 115 150" fill="none" stroke="#94a3b8" stroke-dasharray="4,4"/>
+                        <line x1="75" y1="30" x2="115" y2="30" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3"/>
+                        <text x="90" y="25" font-weight="bold">r</text>
+                        <line x1="75" y1="30" x2="75" y2="150" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3"/>
+                        <text x="60" y="90" font-weight="bold">h</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#fff1f2; border:2px solid #fda4af; border-radius:8px; padding:15px;'>
+                    <ul style='line-height:2; margin:0; padding-left:20px; font-size:16px;'>
+                        <li><b>નળાકારની વક્ર સપાટીનું ક્ષેત્રફળ (CSA):</b> <b style='color:#be123c; font-size:18px;'>2πrh</b> <br>
+                        <i style='font-size:14px; color:#881337;'>(જ્યારે પાઇપ યા ખુલ્લો નળાકાર હોય ત્યારે વપરાય)</i></li>
+                        
+                        <li><b>નળાકારનું કુલ પૃષ્ઠફળ (TSA):</b> <b style='color:#be123c; font-size:18px;'>2πr(r + h)</b> <br>
+                        <i style='font-size:14px; color:#881337;'>(જ્યારે નળાકાર બંને બાજુથી બંધ હોય એટલે કે ઢાંકણ અને તળિયું હોય)</i></li>
+                        
+                        <li><b>નળાકારનું ઘનફળ (Volume):</b> <b style='color:#be123c; font-size:18px;'>πr²h</b></li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "૩. શંકુ (Cone) ના સૂત્રો 🍦",
+                answer: `
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="150" height="180" viewBox="0 0 150 180" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M 35 140 A 40 15 0 0 0 115 140" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+                        <path d="M 35 140 A 40 15 0 0 1 115 140" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+                        <line x1="75" y1="20" x2="35" y2="140" stroke="#b45309" stroke-width="2"/>
+                        <line x1="75" y1="20" x2="115" y2="140" stroke="#b45309" stroke-width="2"/>
+                        <line x1="75" y1="20" x2="75" y2="140" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3"/>
+                        <text x="60" y="90" font-weight="bold">h</text>
+                        <line x1="75" y1="140" x2="115" y2="140" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3"/>
+                        <text x="90" y="155" font-weight="bold">r</text>
+                        <text x="105" y="80" font-weight="bold" fill="#b45309">l</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#fffbeb; border:2px solid #fcd34d; border-radius:8px; padding:15px;'>
+                    <p style='margin-top:0; color:#b45309; font-weight:bold;'>શંકુ માટે ખાસ સંબંધ: <b>l² = r² + h²</b> (પાયથાગોરસ પરથી ત્રાંસી ઊંચાઈ શોધવા)</p>
+                    <ul style='line-height:2; margin:0; padding-left:20px; font-size:16px;'>
+                        <li><b>શંકુની વક્ર સપાટીનું ક્ષેત્રફળ (CSA):</b> <b style='color:#b45309; font-size:18px;'>πrl</b> <br>
+                        <i style='font-size:14px; color:#78350f;'>(જોકરની ટોપી કે તંબુ માટે વપરાય)</i></li>
+                        
+                        <li><b>શંકુનું કુલ પૃષ્ઠફળ (TSA):</b> <b style='color:#b45309; font-size:18px;'>πr(l + r)</b> <br>
+                        <i style='font-size:14px; color:#78350f;'>(જ્યારે શંકુ નીચેથી બંધ હોય)</i></li>
+                        
+                        <li><b>શંકુનું ઘનફળ (Volume):</b> 
+                        <div style='font-size:18px; font-weight:bold; color:#b45309; display:inline-flex; align-items:center; vertical-align:middle;'>
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; margin-right:5px;'><span style='border-bottom:2px solid #b45309; display:block; padding:0 2px;'>1</span><span>3</span></span> πr²h
+                        </div>
+                        <br>
+                        <i style='font-size:14px; color:#78350f;'>(નળાકારના ઘનફળ કરતા ત્રીજા ભાગનું હોય છે)</i></li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "૪. ગોલક (Sphere) અને અર્ધગોલક (Hemisphere) ⚽",
+                answer: `
+                <div style='display:flex; justify-content:space-around; align-items:center; margin: 15px 0; flex-wrap:wrap;'>
+                    <div style='text-align:center;'>
+                        <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="60" cy="60" r="50" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+                            <ellipse cx="60" cy="60" rx="50" ry="15" fill="none" stroke="#4f46e5" stroke-dasharray="4,4"/>
+                            <line x1="60" y1="60" x2="110" y2="60" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3"/>
+                            <text x="80" y="55" font-weight="bold">r</text>
+                        </svg>
+                        <p style='margin:0; font-weight:bold; color:#4f46e5;'>ગોલક (દડો)</p>
+                    </div>
+                    
+                    <div style='text-align:center;'>
+                        <svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 10 30 A 50 50 0 0 0 110 30" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+                            <ellipse cx="60" cy="30" rx="50" ry="15" fill="#e0e7ff" stroke="#4f46e5" stroke-width="2"/>
+                            <line x1="60" y1="30" x2="110" y2="30" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3"/>
+                            <text x="80" y="25" font-weight="bold">r</text>
+                            <line x1="60" y1="30" x2="60" y2="80" stroke="#000" stroke-width="1.5" stroke-dasharray="3,3"/>
+                            <text x="45" y="65" font-weight="bold">r</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; font-weight:bold; color:#4f46e5;'>અર્ધગોલક (વાટકો)</p>
+                    </div>
+                </div>
+
+                <div style='background-color:#eef2ff; border:2px solid #818cf8; border-radius:8px; padding:10px; margin-bottom:10px;'>
+                    <p style='margin-top:0; color:#3730a3; font-weight:bold; border-bottom:1px solid #c7d2fe; padding-bottom:5px;'>આખા ગોલકના સૂત્રો:</p>
+                    <ul style='line-height:2; margin-bottom:0;'>
+                        <li>ગોલકનું પૃષ્ઠફળ (વક્ર અને કુલ બંને એક જ છે): <b style='color:#4f46e5; font-size:18px;'>4πr²</b></li>
+                        <li>ગોલકનું ઘનફળ: 
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; color:#4f46e5; font-size:18px;'>
+                                <span style='border-bottom:2px solid #4f46e5; display:block; padding:0 2px;'>4</span><span>3</span>
+                            </span> <b style='color:#4f46e5; font-size:18px;'>πr³</b>
+                        </li>
+                    </ul>
+                </div>
+
+                <div style='background-color:#eef2ff; border:2px solid #818cf8; border-radius:8px; padding:10px;'>
+                    <p style='margin-top:0; color:#3730a3; font-weight:bold; border-bottom:1px solid #c7d2fe; padding-bottom:5px;'>અર્ધગોલકના સૂત્રો:</p>
+                    <ul style='line-height:2; margin-bottom:0;'>
+                        <li>અર્ધગોલકની <b>વક્ર</b> સપાટીનું પૃષ્ઠફળ (ખુલ્લો વાટકો): <b style='color:#4f46e5; font-size:18px;'>2πr²</b></li>
+                        <li>અર્ધગોલકનું <b>કુલ</b> પૃષ્ઠફળ (બંધ વાટકો / નક્કર): <b style='color:#4f46e5; font-size:18px;'>3πr²</b></li>
+                        <li>અર્ધગોલકનું ઘનફળ: 
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; color:#4f46e5; font-size:18px;'>
+                                <span style='border-bottom:2px solid #4f46e5; display:block; padding:0 2px;'>2</span><span>3</span>
+                            </span> <b style='color:#4f46e5; font-size:18px;'>πr³</b>
+                        </li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "🎯 સંયોજિત ઘનાકારો (બે આકારો જોડાયેલા હોય) માટેની ખાસ ટ્રીક",
+                answer: `
+                <div style='border-left:5px solid #0d9488; padding:10px; background-color:#ccfbf1; border-radius:5px;'>
+                    પરીક્ષામાં મોટેભાગે 2 માર્ક્સમાં બે આકાર જોડાયેલા હોય તેવા દાખલા આવે છે (જેમ કે નળાકાર પર અર્ધગોલક, અથવા શંકુ અને અર્ધગોલકથી બનેલું રમકડું).
+                    <ul style='margin-top:10px; line-height:1.8; font-size:16px; color:#115e59;'>
+                        <li><b>જ્યારે પૃષ્ઠફળ શોધવાનું હોય:</b> ક્યારેય બંને આકારના કુલ પૃષ્ઠફળ (TSA) નો સરવાળો ન કરવો! મોટાભાગે બંને આકારના <b>વક્ર પૃષ્ઠફળ (CSA) નો જ સરવાળો</b> થાય છે. <br><i>(કારણ કે વચ્ચેનો જોડાણ વાળો ભાગ અંદર દબાઈ જાય છે, તેને રંગી શકાતો નથી).</i></li>
+                        <li><b>જ્યારે ઘનફળ શોધવાનું હોય:</b> તેમાં કોઈ જ ચિંતા નથી. બંને આકારના <b>ઘનફળના સૂત્રોનો સીધો સરવાળો</b> કરી દેવો.</li>
+                        <li>જો દાખલામાં પદાર્થ <b>નક્કર (Solid)</b> છે એવો શબ્દ આવે, તો સમજવું કે અંદરથી પોલો નથી, પણ સૂત્ર તો વક્ર સપાટીનું જ આવશે (જો 2 આકાર જોડાયેલા હોય તો).</li>
+                    </ul>
+                </div>
+                `
+            }
+        ]
     }
     
-    
-    
+     
 
 }; // અહી તમારો njMathsTheory ડેટાબેઝ પૂરો થાય છે
