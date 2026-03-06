@@ -128,10 +128,11 @@ var njMathsTheory = {
                 question: "સમાંતર શ્રેણીનું n-મું પદ શોધવાનું સૂત્ર", 
                 answer: "સમાંતર શ્રેણીનું કોઈપણ પદ (વ્યાપક પદ) શોધવા માટે નીચેના સૂત્રનો ઉપયોગ થાય છે:<br><br><span style='font-size:16px; font-weight:bold; color:#1d4ed8;'>aₙ = a + (n - 1)d</span><br><br>જ્યાં,<br><b>aₙ</b> = શ્રેણીનું n-મું પદ (અથવા છેલ્લું પદ 'l')<br><b>a</b> = પ્રથમ પદ<br><b>n</b> = પદોની સંખ્યા (પદનો ક્રમ)<br><b>d</b> = સામાન્ય તફાવત" 
             },
-            { 
+                      { 
                 question: "સમાંતર શ્રેણીના પ્રથમ n પદોના સરવાળાનું સૂત્ર (Sum of n terms)", 
-                answer: "જ્યારે સમાંતર શ્રેણીના n પદોનો સરવાળો શોધવાનો હોય ત્યારે:<br><br><b>1. મુખ્ય સૂત્ર:</b><br><span style='font-size:16px; font-weight:bold; color:#be123c;'>Sₙ = n/2 [2a + (n - 1)d]</span><br><br><b>2. ટૂંકું સૂત્ર (જ્યારે અંતિમ પદ આપેલું હોય):</b><br>જો શ્રેણીનું પ્રથમ પદ 'a' અને અંતિમ પદ 'l' (અથવા aₙ) આપેલું હોય, તો:<br><span style='font-size:16px; font-weight:bold; color:#047857;'>Sₙ = n/2 [a + l]</span>" 
-            },
+                answer: "જ્યારે સમાંતર શ્રેણીના n પદોનો સરવાળો શોધવાનો હોય ત્યારે:<br><br><b>1. મુખ્ય સૂત્ર:</b><br><div style='font-size:18px; font-weight:bold; color:#be123c; margin: 10px 0;'>Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>n</span><span>2</span></span> [2a + (n - 1)d]</div><br><b>2. ટૂંકું સૂત્ર (જ્યારે અંતિમ પદ આપેલું હોય):</b><br>જો શ્રેણીનું પ્રથમ પદ 'a' અને અંતિમ પદ 'l' (અથવા aₙ) આપેલું હોય, તો:<br><div style='font-size:18px; font-weight:bold; color:#047857; margin: 10px 0;'>Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #047857; display:block; padding:0 5px;'>n</span><span>2</span></span> [a + l]</div>" 
+                      }
+            
             { 
                 question: "n-મું પદ (aₙ) અને n પદોના સરવાળા (Sₙ) વચ્ચેનો સંબંધ", 
                 answer: "જો તમને પદોના સરવાળાનું સમીકરણ આપેલું હોય અને તેના પરથી કોઈ ચોક્કસ પદ શોધવું હોય, તો નીચેના સૂત્રનો ઉપયોગ થાય છે:<br><br><span style='font-size:16px; font-weight:bold; color:#b45309;'>aₙ = Sₙ - Sₙ₋₁</span><br><br><i>સમજૂતી:</i> n પદોના સરવાળામાંથી તેના આગળના (n-1) પદોનો સરવાળો બાદ કરવાથી બરાબર n-મું પદ મળે છે." 
