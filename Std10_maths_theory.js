@@ -1288,7 +1288,194 @@ var njMathsTheory = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 13: આંકડાશાસ્ત્ર
+    // ------------------------------------
+    "13": {
+        "chapterName": "પ્રકરણ 13",
+        "chapterTitle": "આંકડાશાસ્ત્ર",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint) - 🌟 સૌથી વધુ ગુણ", 
+                answer: "<div style='background-color:#fef2f2; padding:15px; border-left:6px solid #dc2626; border-radius:8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'><b>🏆 કુલ ગુણ: 16 (મોસ્ટ IMP)</b><br><br><ul style='line-height:1.8; margin-bottom:0;'><li><b>વિભાગ A (હેતુલક્ષી):</b> 3 ગુણ (1+1+1 ગુણના 3 પ્રશ્નો) <br><span style='color:#64748b;'>પ્રશ્ન ક્રમાંક: 6, 12, 20</span></li><li><b>વિભાગ B (ટૂંકા દાખલા):</b> 2 ગુણ <br><span style='color:#64748b;'>પ્રશ્ન ક્રમાંક: 37</span></li><li><b>વિભાગ C (મોટા દાખલા):</b> 3 ગુણ <br><span style='color:#64748b;'>પ્રશ્ન ક્રમાંક: 45</span></li><li><b>વિભાગ D (ખૂબ મોટા દાખલા):</b> 8 ગુણ (4+4 ગુણના 2 દાખલા) <br><span style='color:#64748b;'>પ્રશ્ન ક્રમાંક: 51 અને 52</span></li></ul><br><div style='background-color:#fee2e2; padding:8px; border-radius:5px; margin-top:10px;'><b style='color:#b91c1c;'>ખાસ નોંધ:</b> આ પ્રકરણ તમને સીધા 16 ગુણ અપાવી શકે છે. વિભાગ D ના 8 માર્ક્સ માટે મધ્યક, મધ્યસ્થ અને બહુલકના મોટા કોષ્ટકવાળા દાખલા જ પૂછાશે.</div></div>" 
+            },
+            {
+                question: "મૂળભૂત ખ્યાલો: મધ્યક, મધ્યસ્થ અને બહુલક એટલે શું?",
+                answer: `
+                <div style='display:flex; flex-direction:column; gap:10px;'>
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; border-radius:5px;'>
+                        <b style='color:#14532d; font-size:16px;'>૧. મધ્યક (Mean - <span style="text-decoration:overline;">x</span>):</b><br>
+                        મધ્યક એટલે <b>સરેરાશ (Average)</b>. બધા જ અવલોકનોનો સરવાળો કરી, તેને કુલ સંખ્યા વડે ભાગવાથી મધ્યક મળે છે.
+                    </div>
+                    <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; border-radius:5px;'>
+                        <b style='color:#1e3a8a; font-size:16px;'>૨. મધ્યસ્થ (Median - M):</b><br>
+                        આપેલા ડેટાને ચડતા (કે ઉતરતા) ક્રમમાં ગોઠવ્યા પછી <b>બરાબર વચ્ચે (મધ્યમાં)</b> આવતા અવલોકનને મધ્યસ્થ કહે છે. (ડેટાના બે સરખા ભાગ કરે).
+                    </div>
+                    <div style='background-color:#fffbeb; border-left:4px solid #d97706; padding:10px; border-radius:5px;'>
+                        <b style='color:#78350f; font-size:16px;'>૩. બહુલક (Mode - Z):</b><br>
+                        ડેટામાં <b>સૌથી વધુ વખત (વારંવાર)</b> આવતા અવલોકનને બહુલક કહે છે. (જેની આવૃત્તિ સૌથી મોટી હોય).
+                    </div>
+                </div>
+                `
+            },
+            {
+                question: "Σ (સિગ્મા) નો અર્થ શું થાય?",
+                answer: `
+                <div style='text-align:center; background-color:#f8fafc; border:2px dashed #94a3b8; padding:15px; border-radius:10px;'>
+                    <div style='font-size:50px; font-weight:bold; color:#be123c;'>&Sigma;</div>
+                    <b style='font-size:20px; color:#0f172a;'>આ નિશાનીને 'સિગ્મા' (Sigma) વંચાય છે.</b>
+                    <p style='font-size:16px; color:#334155; margin-top:10px;'>
+                        આ એક ગ્રીક મૂળાક્ષર છે. ગણિતમાં તેનો અર્થ <b>"સરવાળો" (Summation)</b> થાય છે.<br>
+                        દા.ત., જો <b>&Sigma;f<sub>i</sub></b> લખેલું હોય, તો તેનો અર્થ <i>"બધી જ આવૃત્તિઓ (f) નો સરવાળો"</i> એવો થાય.
+                    </p>
+                </div>
+                `
+            },
+            {
+                question: "૧. મધ્યક (<span style='text-decoration:overline;'>x</span>) શોધવાના 3 અગત્યના સૂત્રો",
+                answer: `
+                <p>ડેટા કેવો છે તેના આધારે મધ્યક શોધવાની 3 રીતો છે:</p>
+                
+                <div style='background-color:#ffffff; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:15px; overflow:hidden;'>
+                    <div style='padding:15px; border-bottom:1px solid #e2e8f0;'>
+                        <b style='color:#0f172a; font-size:16px;'>૧. સીધી રીત (Direct Method):</b><br>
+                        <i style='color:#64748b; font-size:14px;'>(જ્યારે આંકડાઓ ખૂબ નાના હોય ત્યારે વપરાય)</i>
+                        <div style='font-size:22px; font-weight:bold; color:#1d4ed8; margin: 10px 0;'>
+                            <span style="text-decoration:overline;">x</span> = 
+                            <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 5px;'>&Sigma;f<sub>i</sub>x<sub>i</sub></span>
+                                <span>&Sigma;f<sub>i</sub></span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div style='padding:15px; border-bottom:1px solid #e2e8f0; background-color:#f8fafc;'>
+                        <b style='color:#0f172a; font-size:16px;'>૨. ધારેલા મધ્યકની રીત (Assumed Mean Method):</b><br>
+                        <div style='font-size:22px; font-weight:bold; color:#047857; margin: 10px 0;'>
+                            <span style="text-decoration:overline;">x</span> = a + 
+                            <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <span style='border-bottom:2px solid #047857; display:block; padding:0 5px;'>&Sigma;f<sub>i</sub>d<sub>i</sub></span>
+                                <span>&Sigma;f<sub>i</sub></span>
+                            </span>
+                        </div>
+                        <p style='margin:0; font-size:14px; color:#064e3b;'>અહીં <b>d<sub>i</sub> = x<sub>i</sub> - a</b> (જ્યાં 'a' એ ધારેલો મધ્યક છે).</p>
+                    </div>
+
+                    <div style='padding:15px;'>
+                        <b style='color:#0f172a; font-size:16px;'>૩. પદ-વિચલનની રીત (Step-Deviation Method): 🌟 સૌથી વધુ પૂછાતી</b><br>
+                        <i style='color:#64748b; font-size:14px;'>(જ્યારે વર્ગલંબાઈ સમાન હોય અને આંકડા મોટા હોય ત્યારે)</i>
+                        <div style='font-size:22px; font-weight:bold; color:#be123c; margin: 10px 0;'>
+                            <span style="text-decoration:overline;">x</span> = a + 
+                            <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span>
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; padding:0 5px;'>
+                                <span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span>
+                                <span>&Sigma;f<sub>i</sub></span>
+                            </span>
+                            <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span>
+                            &times; h
+                        </div>
+                    </div>
+                </div>
+
+                <div style='background-color:#fff7ed; padding:10px; border-radius:5px; border-left:4px solid #f97316;'>
+                    <b style='color:#c2410c;'>સૂત્રના પદોની સમજૂતી:</b>
+                    <ul style='margin-bottom:0; font-size:14px;'>
+                        <li><b>x<sub>i</sub></b> = વર્ગની મધ્યકિંમત (નીચલી સીમા + ઉપલી સીમા) / 2</li>
+                        <li><b>f<sub>i</sub></b> = આવૃત્તિ (લોકો/વસ્તુઓની સંખ્યા)</li>
+                        <li><b>a</b> = ધારેલો મધ્યક (x<sub>i</sub> ના ખાનામાંથી વચમાં ધારેલી કિંમત)</li>
+                        <li><b>h</b> = વર્ગલંબાઈ (વર્ગો વચ્ચેનો તફાવત, દા.ત. 10-20 હોય તો h=10)</li>
+                        <li><b>u<sub>i</sub></b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>x<sub>i</sub> - a</span><span>h</span></span> (આ ખાનામાં સામાન્ય રીતે 0, 1, 2, 3.. અને ઉપર -1, -2.. લખાય છે)</li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "૨. બહુલક (Z) શોધવાનું સૂત્ર 📊",
+                answer: `
+                <p>બહુલક શોધવો સૌથી સહેલો છે, કારણ કે આમાં કોઈ નવું ખાનું બનાવવું પડતું નથી!</p>
+                
+                <div style='background-color:#faf5ff; border:2px solid #a855f7; border-radius:10px; padding:15px; text-align:center; margin-bottom:15px;'>
+                    <div style='font-size:24px; font-weight:bold; color:#7e22ce; display:inline-flex; align-items:center;'>
+                        Z = l + 
+                        <span style='font-size:40px; font-weight:normal; margin:0 5px;'>[</span>
+                        <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <span style='border-bottom:2px solid #7e22ce; display:block; padding:0 10px;'>f<sub>1</sub> - f<sub>0</sub></span>
+                            <span style='padding:5px 10px 0 10px;'>2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></span>
+                        </span>
+                        <span style='font-size:40px; font-weight:normal; margin:0 5px;'>]</span>
+                        &times; h
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:10px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <b style='color:#0f172a;'>સૂત્રના પદોની દેશી સમજૂતી:</b><br>
+                    સૌપ્રથમ રકમમાં સૌથી મોટી આવૃત્તિ શોધો. તેને <b>બહુલક વર્ગ</b> કહેવાય.
+                    <ul style='margin-bottom:0; font-size:15px; line-height:1.8;'>
+                        <li><b>l</b> = બહુલક વર્ગની અધઃસીમા (નીચલી હદ).</li>
+                        <li><b>f<sub>1</sub></b> = બહુલક વર્ગની પોતાની આવૃત્તિ (સૌથી મોટી સંખ્યા).</li>
+                        <li><b>f<sub>0</sub></b> = બહુલક વર્ગની <b>આગળના (ઉપરના)</b> વર્ગની આવૃત્તિ. (યાદ રાખો 0 એ 1 ની પહેલા આવે).</li>
+                        <li><b>f<sub>2</sub></b> = બહુલક વર્ગની <b>પાછળના (નીચેના)</b> વર્ગની આવૃત્તિ. (યાદ રાખો 2 એ 1 ની પછી આવે).</li>
+                        <li><b>h</b> = વર્ગલંબાઈ.</li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "૩. મધ્યસ્થ (M) શોધવાનું સૂત્ર 📈",
+                answer: `
+                <p>જ્યારે રકમમાં "મધ્યસ્થ" અથવા "ખૂટતી આવૃત્તિ" શોધવાનું કહે, ત્યારે આ સૂત્ર વપરાય છે. આના માટે <b>સંચયી આવૃત્તિ (cf)</b> નું ખાનું બનાવવું ફરજિયાત છે.</p>
+                
+                <div style='background-color:#f0fdf4; border:2px solid #22c55e; border-radius:10px; padding:15px; text-align:center; margin-bottom:15px;'>
+                    <div style='font-size:24px; font-weight:bold; color:#15803d; display:inline-flex; align-items:center;'>
+                        M = l + 
+                        <span style='font-size:40px; font-weight:normal; margin:0 5px;'>[</span>
+                        <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <span style='border-bottom:2px solid #15803d; display:block; padding:0 10px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin-right:5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 2px;'>n</span><span>2</span></span> - cf
+                            </span>
+                            <span style='padding:5px 0 0 0;'>f</span>
+                        </span>
+                        <span style='font-size:40px; font-weight:normal; margin:0 5px;'>]</span>
+                        &times; h
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:10px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <b style='color:#0f172a;'>સૂત્રના પદોની સમજૂતી:</b><br>
+                    સૌપ્રથમ n/2 (કુલ આવૃત્તિના અડધા) શોધો. ત્યારબાદ <b>cf</b> ના ખાનામાં n/2 કરતાં <i>તરત જ મોટી</i> સંખ્યા શોધો. તે આખી લાઈન તમારો <b>મધ્યસ્થ વર્ગ</b> બનશે.
+                    <ul style='margin-bottom:0; font-size:15px; line-height:1.8;'>
+                        <li><b>n</b> = અવલોકનોની કુલ સંખ્યા (&Sigma;f<sub>i</sub>).</li>
+                        <li><b>l</b> = મધ્યસ્થ વર્ગની અધઃસીમા (નીચલી હદ).</li>
+                        <li><b style='color:#be123c;'>cf</b> = મધ્યસ્થ વર્ગની <b>આગળના (ઉપરના) વર્ગની</b> સંચયી આવૃત્તિ. (ખાસ ધ્યાન રાખવું: cf હંમેશા ઉપરની લાઈનમાંથી જ લેવો).</li>
+                        <li><b>f</b> = મધ્યસ્થ વર્ગની પોતાની આવૃત્તિ.</li>
+                        <li><b>h</b> = વર્ગલંબાઈ.</li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "🌟 મોસ્ટ IMP: મધ્યવર્તી સ્થિતિમાન વચ્ચેનો આંતર-સંબંધ (Empirical Formula)",
+                question_desc: "વિભાગ A માં 1 માર્કમાં 100% પૂછાશે",
+                answer: `
+                <div style='background-color:#fefce8; border-left:5px solid #eab308; padding:15px; border-radius:8px; border-right:1px solid #fde047; border-top:1px solid #fde047; border-bottom:1px solid #fde047;'>
+                    <p style='margin-top:0;'>મધ્યક, મધ્યસ્થ અને બહુલકને એકબીજા સાથે જોડતું આ મુખ્ય સૂત્ર છે:</p>
+                    
+                    <div style='font-size:24px; font-weight:bold; color:#a16207; text-align:center; margin:15px 0; background-color:#fef08a; padding:10px; border-radius:5px;'>
+                        3M = Z + 2<span style="text-decoration:overline;">x</span>
+                    </div>
+                    
+                    <p style='margin-bottom:0; font-weight:bold;'>જેને આ રીતે પણ લખી શકાય:</p>
+                    <ul style='color:#713f12; font-size:16px;'>
+                        <li><b>Z = 3M - 2<span style="text-decoration:overline;">x</span></b> (બહુલક શોધવા માટે)</li>
+                    </ul>
+                    <p style='font-size:14px; color:#a16207; margin-bottom:0;'><i>(જો પરીક્ષામાં મધ્યક અને મધ્યસ્થની કિંમત આપેલી હોય અને બહુલક પૂછે, તો આ સૂત્રમાં કિંમત મૂકીને સીધો 1 માર્ક મેળવી શકાય!)</i></p>
+                </div>
+                `
+            }
+        ]
     }
+    
     
      
 
