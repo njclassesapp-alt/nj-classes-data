@@ -366,7 +366,161 @@ var njMathsTheory = {
                     }
                 
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 7: યામ ભૂમિતિ
+    // ------------------------------------
+    "7": {
+        "chapterName": "પ્રકરણ 7",
+        "chapterTitle": "યામ ભૂમિતિ",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint)", 
+                answer: "<div style='background-color:#f0fdf4; padding:10px; border-left:5px solid #16a34a; border-radius:5px;'><b>🏆 કુલ ગુણ: 11</b><br><br><ul><li><b>વિભાગ A (હેતુલક્ષી):</b> 1 ગુણ <br><b>પ્રશ્ન ક્રમાંક:</b> 4</li><br><li><b>વિભાગ B (ટૂંકા દાખલા):</b> 4 ગુણ (2+2 ગુણના 2 દાખલા) <br><b>પ્રશ્ન ક્રમાંક:</b> 30 અને 31</li><br><li><b>વિભાગ C (મોટા દાખલા):</b> 6 ગુણ (3+3 ગુણના 2 દાખલા) <br><b>પ્રશ્ન ક્રમાંક:</b> 41 અને 42</li></ul><br><span style='color:#047857;'><b>ખાસ નોંધ:</b> આ પ્રકરણમાંથી કુલ 4 દાખલા પૂછાશે, તેથી સૂત્રો અને શરતો એકદમ પાકી કરવી જરૂરી છે.</span></div>" 
+            },
+            {
+                question: "મૂળભૂત ખ્યાલો: X-અક્ષ, Y-અક્ષ અને ઉગમબિંદુ",
+                answer: "કોઈપણ બિંદુનું સ્થાન દર્શાવવા માટે <b>(x, y)</b> સ્વરૂપનો ઉપયોગ થાય છે.<br><ul><li><b>x-યામ:</b> તેને <b>'કોટિ'</b> પણ કહે છે. તે બિંદુનું Y-અક્ષથી લંબ અંતર દર્શાવે છે.</li><li><b>y-યામ:</b> તેને <b>'ભુજ'</b> પણ કહે છે. તે બિંદુનું X-અક્ષથી લંબ અંતર દર્શાવે છે.</li><li><b>ઉગમબિંદુ (Origin):</b> જ્યાં X-અક્ષ અને Y-અક્ષ એકબીજાને છેદે છે. ઉગમબિંદુના યામ હંમેશા <b>(0, 0)</b> હોય છે.</li></ul><br><div style='background-color:#fffbeb; padding:10px; border-radius:5px; border:1px dashed #f59e0b;'><b>અગત્યના મુદ્દા:</b><br>1. જો કોઈ બિંદુ <b>X-અક્ષ</b> પર આવેલું હોય, તો તેનો y-યામ શૂન્ય હોય. બિંદુ: <b>(x, 0)</b><br>2. જો કોઈ બિંદુ <b>Y-અક્ષ</b> પર આવેલું હોય, તો તેનો x-યામ શૂન્ય હોય. બિંદુ: <b>(0, y)</b></div>"
+            },
+            {
+                question: "અંતર સૂત્ર (Distance Formula)",
+                answer: `
+                <p>બે બિંદુઓ વચ્ચેનું સીધું અંતર શોધવા માટે અંતર સૂત્રનો ઉપયોગ થાય છે.</p>
+                
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="250" height="120" viewBox="0 0 250 120" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="40" y1="80" x2="200" y2="30" stroke="#2563eb" stroke-width="3" />
+                        <circle cx="40" cy="80" r="5" fill="#dc2626" />
+                        <circle cx="200" cy="30" r="5" fill="#dc2626" />
+                        <text x="15" y="105" font-weight="bold" fill="#0f172a">A (x₁, y₁)</text>
+                        <text x="175" y="20" font-weight="bold" fill="#0f172a">B (x₂, y₂)</text>
+                        <text x="110" y="45" font-weight="bold" fill="#2563eb">d (અંતર)</text>
+                    </svg>
+                </div>
+
+                <p>ધારો કે બે બિંદુઓ <b>A(x₁, y₁)</b> અને <b>B(x₂, y₂)</b> છે. તેમની વચ્ચેનું અંતર <b>AB</b> નીચે મુજબ મળે:</p>
+                <div style='font-size:18px; font-weight:bold; color:#be123c; margin: 15px 0; text-align:center; background-color:#ffe4e6; padding:10px; border-radius:8px;'>
+                    AB = &radic;[ (x₂ - x₁)² + (y₂ - y₁)² ]
+                </div>
+                <p><i>(નોંધ: ગણતરી સરળ કરવા માટે આપણે વર્ગમૂળ દૂર કરીને <b>AB² = (x₂ - x₁)² + (y₂ - y₁)²</b> સૂત્રનો પણ ઉપયોગ કરી શકીએ છીએ.)</i></p>
+
+                <p style='color:#047857; font-weight:bold;'>👉 ઉગમબિંદુથી અંતર:</p>
+                <p>જો કોઈ બિંદુ P(x, y) નું ઉગમબિંદુ O(0, 0) થી અંતર શોધવું હોય, તો સીધું જ સૂત્ર: <b style='color:#0f766e;'>OP = &radic;(x² + y²)</b> વાપરી શકાય.</p>
+                `
+            },
+            {
+                question: "વિભાજન સૂત્ર (Section Formula)",
+                answer: `
+                <p>જ્યારે કોઈ રેખાખંડની વચ્ચે આવેલું કોઈ બિંદુ તે રેખાખંડના બે ભાગ કરતું હોય (ચોક્કસ ગુણોત્તરમાં), ત્યારે તે બિંદુના યામ શોધવા આ સૂત્ર વપરાય છે.</p>
+
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="280" height="100" viewBox="0 0 280 100" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="30" y1="60" x2="250" y2="60" stroke="#059669" stroke-width="4" />
+                        <circle cx="30" cy="60" r="5" fill="#000" />
+                        <circle cx="160" cy="60" r="6" fill="#dc2626" />
+                        <circle cx="250" cy="60" r="5" fill="#000" />
+                        <text x="10" y="85" font-weight="bold">A (x₁, y₁)</text>
+                        <text x="140" y="85" font-weight="bold" fill="#dc2626">P (x, y)</text>
+                        <text x="230" y="85" font-weight="bold">B (x₂, y₂)</text>
+                        
+                        <path d="M 30 50 Q 95 20 160 50" fill="transparent" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4,4"/>
+                        <text x="90" y="30" font-weight="bold" fill="#2563eb">m₁</text>
+                        
+                        <path d="M 160 50 Q 205 20 250 50" fill="transparent" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4,4"/>
+                        <text x="200" y="30" font-weight="bold" fill="#2563eb">m₂</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#f0f9ff; padding:15px; border-radius:8px; border:2px solid #0284c7;'>
+                    <p style='margin-top:0;'>ધારો કે બિંદુ <b>P(x, y)</b> એ રેખાખંડ AB નું <b>m₁ : m₂</b> ગુણોત્તરમાં વિભાજન કરે છે.</p>
+                    
+                    <p><b>બિંદુ P ના યામ (x, y):</b></p>
+                    <div style='font-size:18px; font-weight:bold; color:#0369a1; margin: 15px 0; display:flex; gap:20px; flex-wrap:wrap;'>
+                        <div>
+                            x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #0369a1; display:block; padding:0 5px;'>m₁x₂ + m₂x₁</span><span>m₁ + m₂</span></span>
+                        </div>
+                        <div>
+                            y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #0369a1; display:block; padding:0 5px;'>m₁y₂ + m₂y₁</span><span>m₁ + m₂</span></span>
+                        </div>
+                    </div>
+
+                    <p><b>આ સૂત્રમાં વપરાયેલ પદોની સમજૂતી:</b></p>
+                    <ul style='margin-bottom:0;'>
+                        <li><b>A(x₁, y₁)</b> = રેખાખંડનું પહેલું બિંદુ (શરૂઆત).</li>
+                        <li><b>B(x₂, y₂)</b> = રેખાખંડનું બીજું બિંદુ (અંત).</li>
+                        <li><b>P(x, y)</b> = વિભાજન કરતું બિંદુ (જે આપણે શોધવાનું છે).</li>
+                        <li><b>m₁</b> = બિંદુ P ની ડાબી બાજુના ભાગનો ગુણોત્તર (A થી P નો ભાગ).</li>
+                        <li><b>m₂</b> = બિંદુ P ની જમણી બાજુના ભાગનો ગુણોત્તર (P થી B નો ભાગ).</li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "મધ્યબિંદુના યામ શોધવાનું સૂત્ર (Midpoint Formula)",
+                answer: `
+                <p>જ્યારે કોઈ બિંદુ રેખાખંડની <b>બરાબર મધ્યમાં (વચ્ચોવચ)</b> આવેલું હોય, ત્યારે તે રેખાખંડના સમાન 1:1 ગુણોત્તરમાં ભાગ કરે છે (એટલે કે m₁ = m₂ = 1).</p>
+                <p>જો P એ AB નું મધ્યબિંદુ હોય, તો તેના યામ સીધા જ આ ટૂંકા સૂત્રથી મળે:</p>
+
+                <div style='font-size:18px; font-weight:bold; color:#9333ea; margin: 15px 0; display:flex; gap:20px; background-color:#faf5ff; padding:15px; border-radius:8px; border:2px dashed #a855f7;'>
+                    <div>
+                        x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #9333ea; display:block; padding:0 5px;'>x₁ + x₂</span><span>2</span></span>
+                    </div>
+                    <div>
+                        y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #9333ea; display:block; padding:0 5px;'>y₁ + y₂</span><span>2</span></span>
+                    </div>
+                </div>
+                <p><i>સરળ ભાષામાં: બંને x-યામનો સરવાળો ભાગ્યા 2, અને બંને y-યામનો સરવાળો ભાગ્યા 2.</i></p>
+                `
+            },
+            {
+                question: "ભૌમિતિક આકૃતિઓ ચકાસવા માટેની શરતો (અંતર સૂત્રનો ઉપયોગ)",
+                answer: `
+                <p>બિંદુઓ આપેલા હોય અને તે કયો આકાર બનાવે છે તે નક્કી કરવા માટે <b>અંતર સૂત્ર</b> થી બધી બાજુઓ અને વિકર્ણો શોધવા પડે. ત્યારબાદ નીચેની શરતો ચકાસવી:</p>
+
+                <div style='background-color:#ffffff; border:1px solid #e2e8f0; border-radius:8px; overflow:hidden;'>
+                    <div style='padding:10px; border-bottom:1px solid #e2e8f0; background-color:#f8fafc;'>
+                        <b style='color:#0f172a; font-size:16px;'>૧. સમરેખ બિંદુઓ (Collinear Points):</b><br>
+                        ત્રણ બિંદુઓ A, B, C એક જ સીધી રેખામાં હોય તેની શરત:<br>
+                        <b style='color:#be123c;'>AB + BC = AC</b> (કોઈપણ બે નાનાં અંતરનો સરવાળો = સૌથી મોટું અંતર).
+                        
+                        <div style='margin-top:5px;'>
+                            <svg width="200" height="30" viewBox="0 0 200 30" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="15" x2="180" y2="15" stroke="#475569" stroke-width="2" />
+                                <circle cx="20" cy="15" r="4" fill="#000" /><text x="15" y="30" font-size="12">A</text>
+                                <circle cx="100" cy="15" r="4" fill="#000" /><text x="95" y="30" font-size="12">B</text>
+                                <circle cx="180" cy="15" r="4" fill="#000" /><text x="175" y="30" font-size="12">C</text>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div style='padding:10px; border-bottom:1px solid #e2e8f0;'>
+                        <b style='color:#0f172a; font-size:16px;'>૨. ત્રિકોણના પ્રકાર:</b>
+                        <ul style='margin-top:5px;'>
+                            <li><b>સમબાજુ ત્રિકોણ:</b> ત્રણેય બાજુઓ સમાન હોય. <b>(AB = BC = AC)</b></li>
+                            <li><b>સમદ્વિબાજુ ત્રિકોણ:</b> કોઈપણ બે બાજુઓ સમાન હોય. <b>(દા.ત. AB = AC)</b></li>
+                            <li><b>કાટકોણ ત્રિકોણ:</b> પાયથાગોરસના પ્રમેયનું પાલન થાય. <b>(AB² + BC² = AC²)</b></li>
+                        </ul>
+                    </div>
+
+                    <div style='padding:10px;'>
+                        <b style='color:#0f172a; font-size:16px;'>૩. ચતુષ્કોણના પ્રકાર (A, B, C, D બિંદુઓ માટે):</b><br>
+                        ચતુષ્કોણ માટે 4 બાજુઓ (AB, BC, CD, DA) અને 2 વિકર્ણો (AC, BD) શોધવા પડે.
+                        <ul style='margin-top:5px;'>
+                            <li><b>ચોરસ (Square):</b> ચારેય બાજુઓ સમાન હોય <u>અને</u> બંને વિકર્ણો પણ સમાન હોય.<br><span style='color:#047857;'>(AB = BC = CD = DA) અને (AC = BD)</span></li>
+                            <hr style='border:0; border-top:1px dashed #cbd5e1; margin:5px 0;'>
+                            <li><b>સમબાજુ ચતુષ્કોણ (Rhombus):</b> માત્ર ચારેય બાજુઓ સમાન હોય (વિકર્ણો સમાન ન હોય).<br><span style='color:#b45309;'>(AB = BC = CD = DA) પણ (AC ≠ BD)</span></li>
+                            <hr style='border:0; border-top:1px dashed #cbd5e1; margin:5px 0;'>
+                            <li><b>લંબચોરસ (Rectangle):</b> સામસામેની બાજુઓ સમાન હોય <u>અને</u> વિકર્ણો સમાન હોય.<br><span style='color:#1d4ed8;'>(AB = CD અને BC = DA) અને (AC = BD)</span></li>
+                            <hr style='border:0; border-top:1px dashed #cbd5e1; margin:5px 0;'>
+                            <li><b>સમાંતરબાજુ ચતુષ્કોણ (Parallelogram):</b> માત્ર સામસામેની બાજુઓ સમાન હોય (વિકર્ણો સમાન ન હોય). આના માટે <b>મધ્યબિંદુની રીત</b> સહેલી પડે:<br><b style='color:#7e22ce;'>વિકર્ણ AC નું મધ્યબિંદુ = વિકર્ણ BD નું મધ્યબિંદુ</b></li>
+                        </ul>
+                    </div>
+                </div>
+                `
+            }
+        ]
     }
+    
     
     
 
