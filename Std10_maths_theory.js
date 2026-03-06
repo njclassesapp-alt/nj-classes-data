@@ -519,7 +519,185 @@ var njMathsTheory = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 8: ત્રિકોણમિતિનો પરિચય
+    // ------------------------------------
+    "8": {
+        "chapterName": "પ્રકરણ 8",
+        "chapterTitle": "ત્રિકોણમિતિનો પરિચય",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint)", 
+                answer: "<div style='background-color:#eff6ff; padding:10px; border-left:5px solid #3b82f6; border-radius:5px;'><b>🏆 કુલ ગુણ: 6</b><br><br><ul><li><b>વિભાગ A (હેતુલક્ષી):</b> 2 ગુણ (1+1 ગુણના 2 પ્રશ્નો) <br><b>પ્રશ્ન ક્રમાંક:</b> 5 અને 10</li><br><li><b>વિભાગ B (ટૂંકા દાખલા):</b> 4 ગુણ (2+2 ગુણના 2 દાખલા) <br><b>પ્રશ્ન ક્રમાંક:</b> 32 અને 33</li></ul><br><span style='color:#be123c;'><b>ખાસ નોંધ:</b> આ પ્રકરણમાં મોટા દાખલા (વિભાગ C કે D) પૂછાતા નથી, તેથી માત્ર નાના સૂત્રો, કોષ્ટકની કિંમતો અને સાદા નિત્યસમો પર જ ધ્યાન કેન્દ્રિત કરવું.</span></div>" 
+            },
+            {
+                question: "ત્રિકોણમિતીય ગુણોત્તરો (Trigonometric Ratios) ની સમજૂતી",
+                answer: `
+                <p>ત્રિકોણમિતિ હંમેશા <b>કાટકોણ ત્રિકોણ</b> પર આધારિત છે. ચાલો ખૂણા &theta; (થીટા) માટે ગુણોત્તરો સમજીએ.</p>
+                
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="220" height="180" viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="50,20 50,150 180,150" fill="#fef08a" stroke="#ca8a04" stroke-width="2" />
+                        <polyline points="50,135 65,135 65,150" fill="none" stroke="black" stroke-width="1.5" />
+                        <path d="M 150 150 A 30 30 0 0 0 160 130" fill="none" stroke="#dc2626" stroke-width="2" />
+                        <text x="135" y="145" font-weight="bold" fill="#dc2626" font-size="18">&theta;</text>
+                        
+                        <text x="35" y="15" font-weight="bold">A</text>
+                        <text x="30" y="165" font-weight="bold">B</text>
+                        <text x="185" y="165" font-weight="bold">C</text>
+                        
+                        <text x="120" y="80" font-weight="bold" fill="#1d4ed8" transform="rotate(45 115 85)">કર્ણ</text>
+                        <text x="100" y="170" font-weight="bold" fill="#047857">પાસેની બાજુ (પા.બા.)</text>
+                        <text x="10" y="90" font-weight="bold" fill="#be123c" transform="rotate(-90 20 90)">સામેની બાજુ (સા.બા.)</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#ffffff; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                    <p style='margin-top:0; color:#0f172a;'><b>1. મુખ્ય 3 ગુણોત્તરો:</b></p>
+                    <ul style='line-height:2;'>
+                        <li><b>sin &theta;</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px; color:#be123c;'>સામેની બાજુ</span><span style='color:#1d4ed8;'>કર્ણ</span></span> &nbsp; &nbsp; <i style='color:#64748b;'>(AB / AC)</i></li>
+                        <li><b>cos &theta;</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px; color:#047857;'>પાસેની બાજુ</span><span style='color:#1d4ed8;'>કર્ણ</span></span> &nbsp; &nbsp; <i style='color:#64748b;'>(BC / AC)</i></li>
+                        <li><b>tan &theta;</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px; color:#be123c;'>સામેની બાજુ</span><span style='color:#047857;'>પાસેની બાજુ</span></span> &nbsp; &nbsp; <i style='color:#64748b;'>(AB / BC)</i></li>
+                    </ul>
+
+                    <p style='color:#0f172a; margin-top:15px;'><b>2. વ્યસ્ત ગુણોત્તરો:</b></p>
+                    <ul style='line-height:2; margin-bottom:0;'>
+                        <li><b>cosec &theta;</b> (sin નો વ્યસ્ત) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>કર્ણ</span><span>સામેની બાજુ</span></span></li>
+                        <li><b>sec &theta;</b> (cos નો વ્યસ્ત) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>કર્ણ</span><span>પાસેની બાજુ</span></span></li>
+                        <li><b>cot &theta;</b> (tan નો વ્યસ્ત) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>પાસેની બાજુ</span><span>સામેની બાજુ</span></span></li>
+                    </ul>
+                </div>
+                `
+            },
+            {
+                question: "વ્યસ્ત અને ભાગાકારના સંબંધો (અગત્યના સૂત્રો)",
+                answer: `
+                <div style='display:flex; flex-wrap:wrap; gap:10px;'>
+                    <div style='flex:1; background-color:#fdf4ff; border:2px dashed #c026d3; padding:10px; border-radius:8px;'>
+                        <b style='color:#86198f;'>વ્યસ્ત સંબંધ:</b>
+                        <ul style='padding-left:20px; margin-bottom:0;'>
+                            <li>sin &theta; × cosec &theta; = 1</li>
+                            <li>cos &theta; × sec &theta; = 1</li>
+                            <li>tan &theta; × cot &theta; = 1</li>
+                        </ul>
+                    </div>
+                    <div style='flex:1; background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px;'>
+                        <b style='color:#14532d;'>ભાગાકારનો સંબંધ:</b>
+                        <p style='margin:10px 0 5px 0;'><b>tan &theta;</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>sin &theta;</span><span>cos &theta;</span></span></p>
+                        <p style='margin:5px 0 0 0;'><b>cot &theta;</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>cos &theta;</span><span>sin &theta;</span></span></p>
+                    </div>
+                </div>
+                `
+            },
+            {
+                question: "🌟 મોસ્ટ IMP: ત્રિકોણમિતીય કોષ્ટક બનાવવાની ટ્રીક",
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-radius:8px; border:2px solid #ea580c; margin-bottom:15px;'>
+                    <h4 style='color:#c2410c; margin-top:0; text-align:center;'>કોષ્ટક યાદ રાખવાની શોર્ટ-ટ્રીક</h4>
+                    <p style='font-size:14px;'>પરીક્ષામાં જવાબવાહી મળે એટલે પાછળના પાને આ 4 સ્ટેપથી 1 મિનિટમાં કોષ્ટક બનાવી લેવું:</p>
+                    <ol style='font-size:14px; color:#431407; line-height:1.6;'>
+                        <li>સૌપ્રથમ ખૂણાઓ 0°, 30°, 45°, 60° અને 90° ના ખાનામાં અનુક્રમે <b>0, 1, 2, 3, 4</b> લખો.</li>
+                        <li>બધી જ સંખ્યાઓને <b>4 વડે ભાગો</b> (એટલે કે 0/4, 1/4, 2/4, 3/4, 4/4).</li>
+                        <li>હવે જે જવાબ આવે તેનું <b>વર્ગમૂળ (&radic;)</b> કાઢો. બસ! આ તમને <b>sin</b> ની લાઈન મળી ગઈ.</li>
+                        <li><b>cos</b> ની લાઈન લખવા માટે <b>sin ની લાઈનને પાછળથી (ઊંધી)</b> લખી દો. <b>tan</b> ની લાઈન માટે <b>sin ને cos વડે ભાગી</b> નાખો.</li>
+                    </ol>
+                </div>
+
+                <div style='overflow-x:auto;'>
+                    <table style='width:100%; border-collapse:collapse; text-align:center; font-size:16px; background-color:#ffffff;'>
+                        <tr style='background-color:#1e293b; color:#ffffff;'>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>∠ A</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>0&deg;</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>30&deg;</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>45&deg;</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>60&deg;</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>90&deg;</th>
+                        </tr>
+                        <tr style='background-color:#f1f5f9;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>sin A</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>0</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>2</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>&radic;2</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>&radic;3</span><span>2</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>1</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>cos A</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>1</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>&radic;3</span><span>2</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>&radic;2</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>2</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>0</td>
+                        </tr>
+                        <tr style='background-color:#f1f5f9;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0369a1;'>tan A</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>0</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>&radic;3</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>1</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>&radic;3</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-size:12px; font-weight:bold;'>અવ્યાખ્યાયિત <br>(∞)</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>cosec A</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-size:12px; font-weight:bold;'>અવ્યાખ્યાયિત</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>2</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>&radic;2</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>2</span><span>&radic;3</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>1</td>
+                        </tr>
+                        <tr style='background-color:#f1f5f9;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>sec A</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>1</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>2</span><span>&radic;3</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>&radic;2</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>2</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-size:12px; font-weight:bold;'>અવ્યાખ્યાયિત</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>cot A</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-size:12px; font-weight:bold;'>અવ્યાખ્યાયિત</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>&radic;3</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>1</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>&radic;3</span></span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>0</td>
+                        </tr>
+                    </table>
+                </div>
+                `
+            },
+            {
+                question: "ત્રિકોણમિતીય નિત્યસમો (Trigonometric Identities)",
+                answer: `
+                <p>આ નિત્યસમો સાબિતી વાળા દાખલા ગણવા માટે સૌથી અગત્યના છે. મુખ્ય 3 નિત્યસમો છે, જેમાંથી બીજા સૂત્રો બને છે:</p>
+                
+                <ul style='list-style-type:none; padding:0; margin:0;'>
+                    <li style='margin-bottom:15px; background-color:#e0f2fe; padding:15px; border-radius:8px; border-left:5px solid #0284c7;'>
+                        <div style='font-size:20px; font-weight:bold; color:#0f172a; margin-bottom:5px;'>1. sin&sup2;A + cos&sup2;A = 1</div>
+                        <span style='color:#334155; font-size:14px;'>આ પરથી મળતા સૂત્રો:</span><br>
+                        👉 <b>sin&sup2;A = 1 - cos&sup2;A</b><br>
+                        👉 <b>cos&sup2;A = 1 - sin&sup2;A</b>
+                    </li>
+
+                    <li style='margin-bottom:15px; background-color:#fce7f3; padding:15px; border-radius:8px; border-left:5px solid #db2777;'>
+                        <div style='font-size:20px; font-weight:bold; color:#0f172a; margin-bottom:5px;'>2. 1 + tan&sup2;A = sec&sup2;A</div>
+                        <span style='color:#334155; font-size:14px;'>આ પરથી મળતા સૂત્રો:</span><br>
+                        👉 <b>sec&sup2;A - tan&sup2;A = 1</b><br>
+                        👉 <b>tan&sup2;A = sec&sup2;A - 1</b>
+                    </li>
+
+                    <li style='background-color:#fef9c3; padding:15px; border-radius:8px; border-left:5px solid #ca8a04;'>
+                        <div style='font-size:20px; font-weight:bold; color:#0f172a; margin-bottom:5px;'>3. 1 + cot&sup2;A = cosec&sup2;A</div>
+                        <span style='color:#334155; font-size:14px;'>આ પરથી મળતા સૂત્રો:</span><br>
+                        👉 <b>cosec&sup2;A - cot&sup2;A = 1</b><br>
+                        👉 <b>cot&sup2;A = cosec&sup2;A - 1</b>
+                    </li>
+                </ul>
+                `
+            }
+        ]
     }
+    
     
     
     
