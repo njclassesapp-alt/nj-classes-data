@@ -233,7 +233,7 @@ var njMathsTheory = {
                     </div>
                     <p style='text-align:right; font-weight:bold; margin-top:10px;'>...જે સાબિત થાય છે.</p>
                 </div>
-                
+               `
             },            
             { 
                 question: "🌟 અગત્યનો પ્રમેય: થેલ્સનો પ્રતિપ્રમેય (પ્રમેય 6.2)",
