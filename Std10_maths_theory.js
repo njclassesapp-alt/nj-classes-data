@@ -696,7 +696,92 @@ var njMathsTheory = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 9: ત્રિકોણમિતિનો ઉપયોગ
+    // ------------------------------------
+    "9": {
+        "chapterName": "પ્રકરણ 9",
+        "chapterTitle": "ત્રિકોણમિતિનો ઉપયોગ",
+        "qa_list": [
+            { 
+                question: "બોર્ડ પરીક્ષાનું માળખું (Blueprint)", 
+                answer: "<div style='background-color:#f8fafc; padding:10px; border-left:5px solid #64748b; border-radius:5px;'><b>🏆 કુલ ગુણ: 2</b><br><br><ul><li><b>વિભાગ B (ટૂંકો દાખલો):</b> 2 ગુણ (માત્ર 1 જ દાખલો પૂછાશે)</li><li><b>બોર્ડના પેપરમાં પ્રશ્ન ક્રમાંક:</b> 34</li></ul><br><span style='color:#be123c;'><b>ખાસ નોંધ:</b> આ પ્રકરણમાંથી 2 ગુણનો એકદમ સરળ અને નાનો કૂટપ્રશ્ન આવશે. જેમાં કાટકોણ ત્રિકોણ દોરીને મોટેભાગે <b>tan &theta;</b> અથવા <b>sin &theta;</b> ના સૂત્રનો ઉપયોગ કરવાનો થશે.</span></div>" 
+            },
+            {
+                question: "મૂળભૂત વ્યાખ્યાઓ: ક્ષૈતિજ રેખા અને દ્રષ્ટિરેખા",
+                answer: "<ul><li style='margin-bottom:10px;'><b>દ્રષ્ટિરેખા (Line of Sight):</b> નિરીક્ષક (જોનાર વ્યક્તિ) ની આંખથી જે વસ્તુને જોવામાં આવી રહી છે, તે વસ્તુ સુધી દોરેલી કાલ્પનિક સીધી રેખાને દ્રષ્ટિરેખા કહે છે.</li><li><b>ક્ષૈતિજ રેખા (Horizontal Line):</b> નિરીક્ષકની આંખમાંથી પસાર થતી અને જમીનને બરાબર સમાંતર હોય તેવી કાલ્પનિક સીધી રેખાને ક્ષૈતિજ રેખા કહે છે.</li></ul><p style='background-color:#fffbeb; padding:8px; border-radius:5px; font-size:14px; color:#b45309;'><i>નોંધ: કોઈપણ ખૂણો (ઉત્સેધકોણ કે અવસેધકોણ) હંમેશા <b>ક્ષૈતિજ રેખા અને દ્રષ્ટિરેખાની વચ્ચે</b> જ બને છે. તેને ક્યારેય થાંભલા કે ઇમારત (ઊભી રેખા) સાથે બનાવવો નહીં.</i></p>"
+            },
+            {
+                question: "ઉત્સેધકોણ (Angle of Elevation) એટલે શું?",
+                answer: `
+                <p>જ્યારે આપણે <b>આપણી આંખની ઉપરના સ્તરે</b> આવેલી કોઈ વસ્તુ (જેમ કે આકાશમાં ઊડતો પતંગ કે ટાવરની ટોચ) ને જોઈએ છીએ, ત્યારે <b>ક્ષૈતિજ રેખા અને દ્રષ્ટિરેખા વચ્ચે ઉપરની તરફ</b> બનતા ખૂણાને ઉત્સેધકોણ કહે છે.</p>
+                <p style='color:#0f766e; font-weight:bold;'>💡 સરળ ભાષામાં: જ્યારે વસ્તુ જોવા માટે "માથું ઊંચું" કરવું પડે, ત્યારે ઉત્સેધકોણ બને.</p>
+
+                <div style='text-align:center; margin: 20px 0;'>
+                    <svg width="250" height="180" viewBox="0 0 250 180" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="20" y1="160" x2="230" y2="160" stroke="#475569" stroke-width="4" />
+                        <rect x="180" y="40" width="20" height="120" fill="#94a3b8" stroke="#475569" stroke-width="2" />
+                        <circle cx="190" cy="40" r="5" fill="#dc2626" />
+                        
+                        <circle cx="40" cy="140" r="4" fill="#2563eb" />
+                        <text x="15" y="145" font-size="12" font-weight="bold">આંખ</text>
+                        
+                        <line x1="40" y1="140" x2="200" y2="140" stroke="#16a34a" stroke-width="2" stroke-dasharray="5,5" />
+                        <text x="100" y="155" font-size="12" fill="#16a34a" font-weight="bold">ક્ષૈતિજ રેખા</text>
+                        
+                        <line x1="40" y1="140" x2="190" y2="40" stroke="#ea580c" stroke-width="2" />
+                        <text x="70" y="80" font-size="12" fill="#ea580c" font-weight="bold" transform="rotate(-33 70 80)">દ્રષ્ટિરેખા</text>
+                        
+                        <path d="M 80 140 A 40 40 0 0 0 75 115" fill="none" stroke="#be123c" stroke-width="2" />
+                        <text x="85" y="130" fill="#be123c" font-weight="bold">&theta;</text>
+                        <text x="100" y="125" fill="#be123c" font-size="12" font-weight="bold">ઉત્સેધકોણ</text>
+                    </svg>
+                </div>
+                `
+            },
+            {
+                question: "અવસેધકોણ (Angle of Depression) એટલે શું?",
+                answer: `
+                <p>જ્યારે આપણે કોઈ ઊંચી જગ્યાએ (જેમ કે બિલ્ડિંગની અગાસી પર) ઊભા હોઈએ અને <b>આપણી આંખની નીચેના સ્તરે</b> આવેલી કોઈ વસ્તુ (જેમ કે જમીન પર પડેલો દડો) ને જોઈએ છીએ, ત્યારે <b>ક્ષૈતિજ રેખા અને દ્રષ્ટિરેખા વચ્ચે નીચેની તરફ</b> બનતા ખૂણાને અવસેધકોણ કહે છે.</p>
+                <p style='color:#0f766e; font-weight:bold;'>💡 સરળ ભાષામાં: જ્યારે વસ્તુ જોવા માટે "માથું નીચું" કરવું પડે, ત્યારે અવસેધકોણ બને.</p>
+
+                <div style='text-align:center; margin: 20px 0;'>
+                    <svg width="250" height="200" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="20" y="40" width="30" height="140" fill="#cbd5e1" stroke="#475569" stroke-width="2" />
+                        <line x1="20" y1="180" x2="230" y2="180" stroke="#475569" stroke-width="4" />
+                        
+                        <circle cx="35" cy="35" r="4" fill="#2563eb" />
+                        <text x="10" y="30" font-size="12" font-weight="bold">આંખ</text>
+                        
+                        <circle cx="200" cy="180" r="6" fill="#dc2626" />
+                        <text x="210" y="175" font-size="12" font-weight="bold">વસ્તુ</text>
+                        
+                        <line x1="35" y1="35" x2="200" y2="35" stroke="#16a34a" stroke-width="2" stroke-dasharray="5,5" />
+                        <text x="100" y="25" font-size="12" fill="#16a34a" font-weight="bold">ક્ષૈતિજ રેખા</text>
+                        
+                        <line x1="35" y1="35" x2="200" y2="180" stroke="#ea580c" stroke-width="2" />
+                        <text x="120" y="100" font-size="12" fill="#ea580c" font-weight="bold" transform="rotate(40 120 100)">દ્રષ્ટિરેખા</text>
+                        
+                        <path d="M 75 35 A 40 40 0 0 1 65 60" fill="none" stroke="#be123c" stroke-width="2" />
+                        <text x="80" y="55" fill="#be123c" font-weight="bold">&theta;</text>
+                        <text x="95" y="50" fill="#be123c" font-size="12" font-weight="bold">અવસેધકોણ</text>
+
+                        <path d="M 35 35 L 200 35 L 200 180" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3" />
+                        <path d="M 160 180 A 40 40 0 0 1 170 155" fill="none" stroke="#9333ea" stroke-width="2" />
+                        <text x="150" y="170" fill="#9333ea" font-weight="bold">&theta;</text>
+                    </svg>
+                </div>
+
+                <div style='background-color:#faf5ff; padding:10px; border-radius:5px; border:2px dashed #a855f7; margin-top:10px;'>
+                    <b style='color:#7e22ce;'>🎯 દાખલા ગણવા માટેની અગત્યની ટ્રીક:</b><br>
+                    ઉપરની આકૃતિમાં ધ્યાનથી જુઓ. <b>Z (ઝેડ)</b> આકાર બને છે. ભૂમિતિના <b>યુગ્મકોણ (Alternate Angles)</b> ના નિયમ મુજબ, <b>ઉપર બનતો અવસેધકોણ અને નીચે જમીન સાથે બનતો ઉત્સેધકોણ હંમેશા સમાન હોય છે.</b> દાખલા ગણતી વખતે આપણે આ Z નો નિયમ વાપરીને ખૂણાને ત્રિકોણની અંદર લઈ લઈએ છીએ.
+                </div>
+                `
+            }
+        ]
     }
+    
     
     
     
