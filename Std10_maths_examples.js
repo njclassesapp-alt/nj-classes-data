@@ -4901,19 +4901,7 @@ var njMathsExamples = {
             ]
        }
                 
-        
-                
-        
-                
-        
-                
-        
-    
-                
-            
-    
-                
-    
+ 
     
 };
 
