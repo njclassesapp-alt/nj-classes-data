@@ -1446,7 +1446,91 @@ var njMathsExercise = {
                     `
                 },
             
-        
+
+                {
+                    question: "🌟 સ્વા. 3.1 પ્રશ્ન 5: લંબચોરસ બગીચાની અર્ધપરિમિતિ 36 મીટર છે...",
+                    question_desc: "બોર્ડમાં 3 માર્ક્સ માટે મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક લંબચોરસ બગીચાની અર્ધપરિમિતિ 36 મીટર છે. તેની લંબાઈ તેની પહોળાઈ કરતાં 4 મીટર વધુ છે. તો બગીચાની બાજુઓનાં માપ શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે બગીચાની લંબાઈ = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> મીટર અને પહોળાઈ = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> મીટર છે.<br>
+                            
+                            <ul style='line-height:2.2; margin-top:5px; font-size:16px; color:#0f172a;'>
+                                <li><b>શરત 1:</b> લંબાઈ એ પહોળાઈ કરતાં 4 વધુ છે.<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 4 &nbsp;&rArr;&nbsp; <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 4</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)</li>
+                                
+                                <li><b>શરત 2:</b> અર્ધપરિમિતિ 36 મીટર છે. (પરિમિતિ = 2(લંબાઈ + પહોળાઈ), તેથી અર્ધપરિમિતિ માત્ર લંબાઈ + પહોળાઈ થાય).<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 36</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી ઉકેલ</b><br>
+                            સમીકરણ 1 અને 2 નો સીધો સરવાળો કરતાં (કારણ કે એક <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> માઇનસ છે અને એક પ્લસ છે):<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp;<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 4<br>
+                                + &nbsp;<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 36<br>
+                                ----------------<br>
+                                &nbsp;&nbsp;&nbsp;2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> &nbsp;&nbsp;&nbsp;&nbsp;= 40<br>
+                                &nbsp;&nbsp;&nbsp;<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = 40 / 2<br>
+                                &nbsp;&nbsp;&nbsp;<b style='font-size:20px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:20px;'>x</i> = 20</b>
+                            </div>
+                            
+                            <div style='margin-top:15px;'>
+                                હવે <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ની આ કિંમત સમીકરણ 2 માં મૂકતાં:<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 36<br>
+                                20 + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 36<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 36 - 20<br>
+                                <b style='font-size:20px; color:#be123c;'><i style='font-family:"Times New Roman",serif; font-size:20px;'>y</i> = 16</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> બગીચાની <b style='color:#1d4ed8;'>લંબાઈ 20 મીટર</b> અને <b style='color:#be123c;'>પહોળાઈ 16 મીટર</b> છે.<br>
+                                <span style='font-size:14px; color:#64748b;'>(તાળો: 20 + 16 = 36 અર્ધપરિમિતિ થઈ ગઈ, અને 20 એ 16 કરતા 4 વધારે છે!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 3.1 પ્રશ્ન 6: સુરેખ સમીકરણ 2x + 3y - 8 = 0 આપેલ છે. એવું બીજું દ્વિચલ સુરેખ સમીકરણ લખો જેથી બનતી રેખાઓની ભૌમિતિક રજૂઆત...", 
+                    question_desc: "(i) છેદતી રેખાઓ, (ii) સમાંતર રેખાઓ, (iii) સંપાતી રેખાઓ હોય.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> સુરેખ સમીકરણ 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> - 8 = 0 આપેલ છે. એવું બીજું દ્વિચલ સુરેખ સમીકરણ લખો જેથી બનતી જોડની ભૌમિતિક રજૂઆત નીચે મુજબ હોય:</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>(i) છેદતી રેખાઓ હોય:</b><br>
+                            <span style='color:#64748b; font-size:14px;'>શરત: a<sub>1</sub>/a<sub>2</sub> &ne; b<sub>1</sub>/b<sub>2</sub> થવું જોઈએ. એટલે કે <i style='font-family:"Times New Roman",serif;'>x</i> અને <i style='font-family:"Times New Roman",serif;'>y</i> ના સહગુણકો આડાઅવળા કરી નાખવા.</span><br>
+                            આપેલ સમીકરણ: 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 8 = 0<br>
+                            <b style='color:#15803d; font-size:18px;'>જવાબ (ઉદાહરણ): 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i> - 8 = 0</b>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>(ii) સમાંતર રેખાઓ હોય:</b><br>
+                            <span style='color:#64748b; font-size:14px;'>શરત: a<sub>1</sub>/a<sub>2</sub> = b<sub>1</sub>/b<sub>2</sub> &ne; c<sub>1</sub>/c<sub>2</sub> થવું જોઈએ. એટલે કે <i style='font-family:"Times New Roman",serif;'>x</i> અને <i style='font-family:"Times New Roman",serif;'>y</i> ના પદો એવા જ રાખવા અથવા બમણા કરવા, પણ અચળ પદ અલગ રાખવું.</span><br>
+                            આપેલ સમીકરણ: 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 8 = 0<br>
+                            <i style='font-family:"Times New Roman",serif; font-size:16px;'>(x અને y ને 2 વડે ગુણતા, પણ અચળ પદ કોઈ બીજું લેતા)</i><br>
+                            <b style='color:#c2410c; font-size:18px;'>જવાબ (ઉદાહરણ): 4<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i> + 6<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i> - 15 = 0</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(iii) સંપાતી રેખાઓ હોય:</b><br>
+                            <span style='color:#64748b; font-size:14px;'>શરત: a<sub>1</sub>/a<sub>2</sub> = b<sub>1</sub>/b<sub>2</sub> = c<sub>1</sub>/c<sub>2</sub> થવું જોઈએ. એટલે કે આખા સમીકરણને કોઈ એક સંખ્યા (જેમ કે 2 અથવા 3) વડે ગુણી નાખવું.</span><br>
+                            આપેલ સમીકરણ: 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 8 = 0<br>
+                            <i style='font-family:"Times New Roman",serif; font-size:16px;'>(આખા સમીકરણને 2 વડે ગુણતા)</i><br>
+                            <b style='color:#1d4ed8; font-size:18px;'>જવાબ (ઉદાહરણ): 4<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i> + 6<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i> - 16 = 0</b>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        }
+                
                 
         
                 
