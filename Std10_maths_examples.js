@@ -4040,9 +4040,152 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: મધ્યસ્થ (M) શોધવાનું સૂત્ર અને 'cf' ની ટ્રીક",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>મધ્યસ્થ શોધવા માટે એક નવું ખાનું બનાવવું પડે: સંચયી આવૃત્તિ (cf - Cumulative Frequency).</p>
+                        
+                        <div style='background-color:#ffffff; border:1px solid #fde047; padding:10px; border-radius:5px; text-align:center;'>
+                            <b style='color:#be123c;'>મધ્યસ્થ (M) નું સૂત્ર:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:22px; font-weight:bold; color:#1d4ed8; padding:15px 0;'>
+                                M = l + 
+                                <span style='font-size:40px; font-weight:normal; margin:0 5px; vertical-align:middle;'>[</span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 10px;'>&nbsp;n/2 - cf&nbsp;</span>
+                                    <span style='padding:5px 10px 0 10px;'>f</span>
+                                </span>
+                                <span style='font-size:40px; font-weight:normal; margin:0 5px; vertical-align:middle;'>]</span>
+                                &times; h
+                            </div>
+                        </div>
+                        <ul style='line-height:2; margin-top:10px; font-size:15px; color:#0f172a;'>
+                            <li><b>n/2</b> = કુલ આવૃત્તિના અડધા કરવા.</li>
+                            <li><b>મધ્યસ્થ વર્ગ</b> = cf ના ખાનામાં <b>n/2</b> કરતાં <b>તરત જ મોટી</b> સંખ્યા ગોતો, તે આખો વર્ગ આપણો મધ્યસ્થ વર્ગ બનશે.</li>
+                            <li><b>cf</b> = મધ્યસ્થ વર્ગની બરાબર <b>ઉપરના</b> વર્ગની સંચયી આવૃત્તિ.</li>
+                            <li><b>f</b> = મધ્યસ્થ વર્ગની પોતાની આવૃત્તિ.</li>
+                        </ul>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 7: 51 છોકરીઓની ઊંચાઈનો મધ્યક ('થી ઓછા' પ્રકારનો દાખલો)", 
+                    question_desc: "કોષ્ટકને સીધું કરવાની ટ્રીક",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> એક શાળાના ધોરણ 10 ની 51 છોકરીઓની ઊંચાઈ (cm માં) નો સર્વે કરવામાં આવ્યો અને નીચેની માહિતી મેળવવામાં આવી:<br>
+                        <b>140 થી ઓછી:</b> 4<br>
+                        <b>145 થી ઓછી:</b> 11<br>
+                        <b>150 થી ઓછી:</b> 29<br>
+                        <b>155 થી ઓછી:</b> 40<br>
+                        <b>160 થી ઓછી:</b> 46<br>
+                        <b>165 થી ઓછી:</b> 51<br>
+                        આ માહિતીનો <b>મધ્યસ્થ</b> શોધો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>💡 માસ્ટર ચાવી (કોષ્ટકને સીધું કરવું):</b><br>
+                            જ્યારે રકમમાં <b>"થી ઓછી"</b> એવો શબ્દ હોય, ત્યારે આપેલી સંખ્યા <b>આવૃત્તિ (f) નથી, પણ સીધી cf જ છે!</b><br>
+                            સાચી આવૃત્તિ (f) શોધવા માટે આપણે <b>નીચેની cf માંથી ઉપરની cf બાદ (માઇનસ)</b> કરતા જઈશું.<br>
+                            ઉદાહરણ તરીકે: બીજી આવૃત્તિ = 11 - 4 = 7. ત્રીજી આવૃત્તિ = 29 - 11 = 18.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d;'>ગણતરીનું કોષ્ટક:</b><br>
+                            અહીં કુલ n = 51 છે. તેથી <b>n/2 = 51/2 = 25.5</b> થાય.<br>
+                            cf ના ખાનામાં <b>25.5 કરતાં તરત મોટી</b> સંખ્યા કઈ છે? <b>29</b>. <br>
+                            તેથી <b>145 - 150</b> એ આપણો <b>મધ્યસ્થ વર્ગ</b> બનશે.
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:450px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#dcfce7; font-weight:bold; color:#14532d;'>
+                                        <th style='border:1px solid #86efac; padding:8px;'>વર્ગ અંતરાલ (ઊંચાઈ)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>આવૃત્તિ (f) <i>(બાદબાકી કરીને)</i></th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>સંચયી આવૃત્તિ (cf)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>સમજૂતી</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>140 થી ઓછી</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>4</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>4</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>140 - 145</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>11 - 4 = <b>7</b></td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#be123c; font-weight:bold;'>11</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#64748b;'>&larr; આ આપણો <b>cf</b> બનશે</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a; border:2px solid #ca8a04;'>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold;'>145 - 150</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#1d4ed8;'>29 - 11 = <b>18</b></td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold;'>29</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#1d4ed8;'>&larr; આ આપણો <b>f</b> બનશે</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>150 - 155</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>40 - 29 = <b>11</b></td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>40</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>155 - 160</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>46 - 40 = <b>6</b></td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>46</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>160 - 165</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>51 - 46 = <b>5</b></td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>51</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr style='background-color:#bbf7d0; font-weight:bold;'>
+                                        <td style='border:1px solid #86efac; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'>n = 51</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'>-</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'></td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <ul style='margin-bottom:10px; font-size:16px; color:#0f172a; line-height:2;'>
+                                <li>બહુલક વર્ગની અધઃસીમા <b style='color:#047857;'>l = 145</b></li>
+                                <li><b style='color:#047857;'>n/2 = 25.5</b></li>
+                                <li>ઉપરના વર્ગની સંચયી આવૃત્તિ <b style='color:#be123c;'>cf = 11</b></li>
+                                <li>તે જ વર્ગની આવૃત્તિ <b style='color:#1d4ed8;'>f = 18</b></li>
+                                <li>વર્ગલંબાઈ <b style='color:#047857;'>h = 5</b></li>
+                            </ul>
+
+                            <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; border-radius:5px;'>
+                                <b style='color:#1e3a8a;'>સૂત્રમાં કિંમત મૂકવી:</b><br>
+                                <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                    M = l + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; h<br><br>
+                                    
+                                    M = 145 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25.5 - 11</span><span>18</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 5<br><br>
+                                    
+                                    M = 145 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14.5</span><span>18</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 5<br><br>
+                                    
+                                    <i style='color:#64748b;'>(14.5 ને 5 વડે ગુણતા 72.5 મળે)</i><br>
+                                    M = 145 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>72.5</span><span>18</span></span><br><br>
+                                    
+                                    <i style='color:#64748b;'>(72.5 ને 18 વડે ભાગતા આશરે 4.03 મળે)</i><br>
+                                    M = 145 + 4.03<br>
+                                    <b style='font-size:20px; color:#1d4ed8;'>M = 149.03 cm</b>
+                                </div>
+                                <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: છોકરીઓની ઊંચાઈનો મધ્યસ્થ 149.03 સેમી છે.</p>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
                 
         
