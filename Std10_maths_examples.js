@@ -627,7 +627,448 @@ var njMathsExamples = {
                 `
             }
         ]
-    }
+    },
+        // ------------------------------------
+    // પ્રકરણ 5: સમાંતર શ્રેણીઓ (ઉદાહરણ ભાગ 1)
+    // ------------------------------------
+    "5": {
+        "chapterName": "પ્રકરણ 5 (ઉદાહરણ)",
+        "chapterTitle": "સમાંતર શ્રેણીઓ - ઉદાહરણ (ભાગ 1)",
+        "qa_list": [
+            {
+                question: "🎯 સમાંતર શ્રેણી સમજવા માટેની શોર્ટ-ટ્રીક (પાયો)",
+                answer: `
+                <div style='background-color:#f8fafc; padding:15px; border-radius:8px; border:2px solid #cbd5e1;'>
+                    <p style='margin-top:0; color:#0f172a;'>સમાંતર શ્રેણી (AP) ને <b>'દાદરના પગથિયાં'</b> જેવી સમજવી. દરેક પગથિયાં વચ્ચેની ઊંચાઈ એકસરખી જ હોવી જોઈએ, તો જ તેને સમાંતર શ્રેણી કહેવાય!</p>
+                    
+                    <div style='text-align:center; margin: 15px 0;'>
+                        <svg width="250" height="150" viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg">
+                            <polyline points="20,130 60,130 60,100 110,100 110,70 160,70 160,40 210,40" fill="none" stroke="#2563eb" stroke-width="4"/>
+                            
+                            <text x="30" y="145" font-weight="bold" fill="#0f172a">a₁</text>
+                            <text x="80" y="115" font-weight="bold" fill="#0f172a">a₂</text>
+                            <text x="130" y="85" font-weight="bold" fill="#0f172a">a₃</text>
+                            <text x="180" y="55" font-weight="bold" fill="#0f172a">a₄</text>
+                            
+                            <line x1="65" y1="130" x2="65" y2="100" stroke="#be123c" stroke-width="2" stroke-dasharray="3,3"/>
+                            <text x="70" y="120" font-weight="bold" fill="#be123c">d</text>
+                            
+                            <line x1="115" y1="100" x2="115" y2="70" stroke="#be123c" stroke-width="2" stroke-dasharray="3,3"/>
+                            <text x="120" y="90" font-weight="bold" fill="#be123c">d</text>
+                        </svg>
+                    </div>
+
+                    <ul style='line-height:2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                        <li><b>a (પ્રથમ પદ):</b> જ્યાંથી શ્રેણી શરૂ થાય તે પહેલી સંખ્યા.</li>
+                        <li><b>d (સામાન્ય તફાવત):</b> કોઈપણ પદમાંથી તેની આગળનું પદ બાદ કરો <b style='color:#be123c;'>(d = a₂ - a₁)</b>.</li>
+                        <li><b>n (પદોની સંખ્યા):</b> શ્રેણીમાં કુલ કેટલા પદ છે તે ક્રમ (n હંમેશા પૂર્ણાંક જ હોય, ક્યારેય અપૂર્ણાંક કે ઋણ ન હોય).</li>
+                        <li><b>aₙ (n-મું પદ):</b> n-મા ક્રમે આવેલી સંખ્યા અથવા શ્રેણીનું છેલ્લું પદ.</li>
+                    </ul>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 1: પ્રથમ પદ (a) અને સામાન્ય તફાવત (d) શોધો", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> સમાંતર શ્રેણી <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>3</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>-1</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>-3</span><span>2</span></span> ... માટે પ્રથમ પદ <b>a</b> અને સામાન્ય તફાવત <b>d</b> લખો.</p>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#14532d;'>ઉકેલ:</b><br>
+                        શ્રેણીની શરૂઆતની સંખ્યાને પ્રથમ પદ કહેવાય.<br>
+                        <div style='overflow-x:auto; white-space:nowrap; padding:5px;'>
+                            <b style='font-size:18px; color:#15803d;'>પ્રથમ પદ (a) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>3</span><span>2</span></span></b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                        <b style='color:#1e3a8a;'>સામાન્ય તફાવત (d) શોધવા:</b><br>
+                        સૂત્ર: <b>d = બીજું પદ - પ્રથમ પદ (a₂ - a₁)</b><br>
+                        <div style='overflow-x:auto; white-space:nowrap; padding:5px; margin-top:5px; line-height:2.5;'>
+                            d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span><br>
+                            <i>(છેદ સમાન હોવાથી અંશની સીધી બાદબાકી થશે)</i><br>
+                            d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 - 3</span><span>2</span></span><br>
+                            d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-2</span><span>2</span></span><br>
+                            <b style='font-size:18px; color:#1d4ed8;'>d = -1</b>
+                        </div>
+                        <p style='margin-top:10px; color:#047857; font-weight:bold;'>જવાબ: a = 3/2 અને d = -1.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 3: સમાંતર શ્રેણીનું 10-મું પદ શોધો (સૂત્રનો ઉપયોગ)", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> સમાંતર શ્રેણી 2, 7, 12, ... નું <b>10-મું પદ</b> શોધો.</p>
+
+                    <div style='background-color:#fffbeb; border:1px dashed #f59e0b; padding:10px; border-radius:5px; margin-bottom:15px;'>
+                        <b style='color:#b45309;'>💡 સ્ટેપ 1: રકમમાંથી ડેટા કાઢવો</b><br>
+                        અહીં શ્રેણી પરથી:<br>
+                        પ્રથમ પદ <b style='color:#be123c;'>(a) = 2</b><br>
+                        સામાન્ય તફાવત <b style='color:#1d4ed8;'>(d) = 7 - 2 = 5</b><br>
+                        પદનો ક્રમ <b style='color:#047857;'>(n) = 10</b> (કારણ કે 10-મું પદ શોધવું છે)<br>
+                        શોધવાનું છે: <b style='color:#0f172a;'>a₁₀ = ?</b>
+                    </div>
+
+                    <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                        <b style='color:#0f172a;'>સ્ટેપ 2: n-માં પદનું સૂત્ર વાપરવું</b><br>
+                        <div style='overflow-x:auto; white-space:nowrap; padding:10px; background-color:#e2e8f0; border-radius:5px; margin-bottom:10px; text-align:center;'>
+                            <b style='font-size:20px; color:#be123c;'>aₙ = a + (n - 1)d</b>
+                        </div>
+                        
+                        <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; line-height:2;'>
+                            કિંમતો મૂકતાં:<br>
+                            a₁₀ = 2 + (10 - 1)5<br>
+                            a₁₀ = 2 + (9)5<br>
+                            a₁₀ = 2 + 45<br>
+                            <b style='font-size:20px; color:#16a34a;'>a₁₀ = 47</b>
+                        </div>
+                        <p style='margin-top:10px; color:#0f172a; font-weight:bold;'>આમ, આપેલ સમાંતર શ્રેણીનું 10-મું પદ 47 છે.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 4: શ્રેણીનું કયું પદ -81 હશે? (n શોધવાનો દાખલો)", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> સમાંતર શ્રેણી 21, 18, 15, ... નું કયું પદ <b>-81</b> હશે? વળી કોઈ પદ <b>0</b> હશે? સકારણ જવાબ આપો.</p>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#14532d;'>ભાગ 1: કયું પદ -81 હશે?</b><br>
+                        ડેટા: a = 21, d = 18 - 21 = <b>-3</b>.<br>
+                        ધારો કે <b>n-મું પદ -81 છે</b>. એટલે કે, <b>aₙ = -81</b> (અહીં આપણે n શોધવાનો છે).<br>
+                        
+                        <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                            aₙ = a + (n - 1)d<br>
+                            -81 = 21 + (n - 1)(-3)<br>
+                            <i style='color:#64748b;'>(21 ને ડાબી બાજુ લાવતાં)</i><br>
+                            -81 - 21 = (n - 1)(-3)<br>
+                            -102 = -3(n - 1)<br>
+                            <i style='color:#64748b;'>(હવે -3 ગુણાકારમાંથી ભાગાકારમાં જશે)</i><br>
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-102</span><span>-3</span></span> = n - 1<br>
+                            34 = n - 1<br>
+                            34 + 1 = n<br>
+                            <b style='font-size:18px; color:#15803d;'>n = 35</b>
+                        </div>
+                        <p style='margin-top:5px; color:#14532d;'>તેથી, આ શ્રેણીનું <b>35-મું પદ -81</b> છે.</p>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                        <b style='color:#1e3a8a;'>ભાગ 2: શું કોઈ પદ 0 હશે?</b><br>
+                        હવે ધારો કે કોઈ પદ 0 છે. <b>aₙ = 0</b> લેતાં:<br>
+                        <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2;'>
+                            0 = 21 + (n - 1)(-3)<br>
+                            -21 = -3(n - 1)<br>
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-21</span><span>-3</span></span> = n - 1<br>
+                            7 = n - 1<br>
+                            7 + 1 = n<br>
+                            <b style='font-size:18px; color:#1d4ed8;'>n = 8</b>
+                        </div>
+                        <p style='margin-top:5px; color:#1e3a8a;'>અહીં n = 8 (પૂર્ણાંક સંખ્યા) મળે છે. તેથી હા, આ શ્રેણીનું <b>8-મું પદ 0 હશે</b>.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 5: સમીકરણ બનાવીને સમાંતર શ્રેણી શોધવી", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> જેનું <b>3-જું પદ 5</b> અને <b>7-મું પદ 9</b> હોય તેવી સમાંતર શ્રેણી શોધો.</p>
+
+                    <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#b91c1c;'>સ્ટેપ 1: માહિતી પરથી સમીકરણ બનાવવા</b><br>
+                        સૂત્ર: aₙ = a + (n - 1)d મુજબ,<br>
+                        3-જું પદ (a₃) = a + 2d = 5 &nbsp;&nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br>
+                        7-મું પદ (a₇) = a + 6d = 9 &nbsp;&nbsp;&nbsp; <b>... (સમીકરણ 2)</b>
+                    </div>
+
+                    <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#0f172a;'>સ્ટેપ 2: લોપની રીત (ચેપ્ટર 3 નો ઉપયોગ!)</b><br>
+                        સમીકરણ (2) માંથી સમીકરણ (1) બાદ કરતાં:<br>
+                        <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:1.8;'>
+                            &nbsp;&nbsp;a + 6d = 9<br>
+                            (-)a + 2d = 5<br>
+                            <hr style='border:1px solid #cbd5e1; width:150px; margin:0;'>
+                            &nbsp;&nbsp;0 + 4d = 4<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d = 4/4<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style='color:#047857;'>d = 1</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px;'>
+                        <b style='color:#b45309;'>સ્ટેપ 3: 'a' શોધીને શ્રેણી બનાવવી</b><br>
+                        d = 1 ની કિંમત સમીકરણ (1) માં મૂકતાં:<br>
+                        <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px;'>
+                            a + 2(1) = 5<br>
+                            a + 2 = 5<br>
+                            a = 5 - 2<br>
+                            <b style='color:#b45309;'>a = 3</b>
+                        </div>
+                        <p style='margin-top:10px;'>આપણને પ્રથમ પદ a = 3 મળ્યું અને d = 1 છે (એટલે 1-1 ઉમેરતા જવાનું).<br>
+                        તેથી માંગેલ સમાંતર શ્રેણી: <b style='color:#1d4ed8; font-size:18px;'>3, 4, 5, 6, 7, ...</b> છે.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 7: 3 વડે વિભાજ્ય બે અંકોની સંખ્યાઓ કેટલી? (મોસ્ટ IMP)", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> બે અંકની કેટલી સંખ્યાઓ 3 વડે વિભાજ્ય હશે?</p>
+
+                    <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#86198f;'>સ્ટેપ 1: જાતે સમાંતર શ્રેણી બનાવવી</b><br>
+                        બે અંકની સંખ્યાઓ 10 થી ચાલુ થઈને 99 સુધી હોય છે.<br>
+                        આમાંથી 3 ના ઘડિયામાં આવતી (3 વડે ભગાતી) પહેલી સંખ્યા: <b>12</b> (3&times;4=12).<br>
+                        બીજી સંખ્યા: <b>15</b>, ત્રીજી: <b>18</b>.<br>
+                        છેલ્લી 2 અંકની સંખ્યા 99 છે, જે 3 વડે ભગાય છે (33&times;3=99).<br><br>
+                        આમ આપણી સમાંતર શ્રેણી બની: <b style='color:#c026d3;'>12, 15, 18, ..., 99</b>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                        <b style='color:#14532d;'>સ્ટેપ 2: n શોધવો (કુલ કેટલી સંખ્યાઓ છે?)</b><br>
+                        અહીં: <b>a = 12</b>, <b>d = 3</b> (કારણ કે 3 નો ઘડિયો છે), અને છેલ્લું પદ <b>aₙ = 99</b>.<br>
+                        
+                        <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                            aₙ = a + (n - 1)d<br>
+                            99 = 12 + (n - 1)(3)<br>
+                            99 - 12 = 3(n - 1)<br>
+                            87 = 3(n - 1)<br>
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>3</span></span> = n - 1<br>
+                            29 = n - 1<br>
+                            29 + 1 = n<br>
+                            <b style='font-size:18px; color:#15803d;'>n = 30</b>
+                        </div>
+                        <p style='margin-top:10px; color:#064e3b; font-weight:bold;'>જવાબ: 3 વડે વિભાજ્ય હોય તેવી બે અંકની કુલ 30 સંખ્યાઓ છે.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 8: શ્રેણીનું છેલ્લેથી પદ શોધવાની જાદુઈ ટ્રીક", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> સમાંતર શ્રેણી 10, 7, 4, ..., -62 નું <b>છેલ્લેથી 11-મું પદ</b> શોધો.</p>
+
+                    <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:15px; border-radius:8px;'>
+                        <b style='color:#b45309; font-size:16px;'>🎯 સૌથી સરળ શોર્ટકટ ટ્રીક (માસ્ટર કી):</b><br>
+                        ચોપડીની લાંબી રીત કરવા કરતા, <b>આખી સમાંતર શ્રેણીને ઊંધી (Reverse) કરી નાખો!</b><br>
+                        મૂળ શ્રેણીમાં d = 7 - 10 = <b>-3</b> છે.<br>
+                        જ્યારે શ્રેણીને ઊંધી કરીએ, ત્યારે છેલ્લું પદ (-62) એ પ્રથમ પદ બની જાય, અને d ની નિશાની બદલાઈ જાય (એટલે d = <b>+3</b> થઈ જાય).<br><br>
+                        
+                        <b>નવી શ્રેણી:</b> <span style='font-weight:bold; color:#be123c;'>-62, -59, -56, ...</span><br>
+                        અહીં <b>a = -62</b> અને <b>d = 3</b> છે.<br>
+                        હવે આપણે ખાલી આગળથી 11-મું પદ જ શોધવાનું છે!
+                    </div>
+
+                    <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-top:15px;'>
+                        <b style='color:#0f172a;'>ગણતરી:</b><br>
+                        <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2;'>
+                            n = 11 માટે,<br>
+                            a₁₁ = a + (11 - 1)d<br>
+                            a₁₁ = a + 10d<br>
+                            a₁₁ = -62 + 10(3)<br>
+                            a₁₁ = -62 + 30<br>
+                            <b style='font-size:20px; color:#1d4ed8;'>a₁₁ = -32</b>
+                        </div>
+                        <p style='margin-top:10px; color:#0f172a; font-weight:bold;'>જવાબ: આપેલ શ્રેણીનું છેલ્લેથી 11-મું પદ -32 છે. (આ રીત બોર્ડમાં 100% માન્ય છે અને ક્યારેય ભૂલ નહિ પડે!).</p>
+                    </div>
+                </div>
+                `
+            }
+        ]
+    },
+                {
+                    question: "🎯 n પદોના સરવાળા (Sₙ) ના સૂત્રો અને સમજૂતી",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold;'>જ્યારે શ્રેણીના બધા પદોનો સરવાળો (Total) કરવાનો હોય, ત્યારે Sₙ ના સૂત્રો વપરાય છે.</p>
+                        
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #fde047; margin-bottom:10px;'>
+                            <b style='color:#b45309;'>૧. મુખ્ય સૂત્ર (મોટાભાગે વપરાતું):</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:20px; font-weight:bold; color:#be123c; padding:10px 0; text-align:center;'>
+                                Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>n</span><span>2</span></span> [2a + (n - 1)d]
+                            </div>
+                        </div>
+
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #fde047;'>
+                            <b style='color:#b45309;'>૨. ટૂંકું સૂત્ર (જ્યારે છેલ્લું પદ આપેલું હોય):</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:20px; font-weight:bold; color:#047857; padding:10px 0; text-align:center;'>
+                                Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #047857; display:block; padding:0 3px;'>n</span><span>2</span></span> [a + l]
+                            </div>
+                            <p style='margin:0; font-size:14px; color:#064e3b; text-align:center;'><i>(અહીં l એટલે કે aₙ છેલ્લું પદ છે)</i></p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 9: સમાંતર શ્રેણીના પ્રથમ 22 પદોનો સરવાળો શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a;'><b>પ્રશ્ન:</b> સમાંતર શ્રેણી 8, 3, -2, ... ના પ્રથમ <b>22 પદોનો સરવાળો</b> શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: રકમમાંથી ડેટા અલગ કરવો</b><br>
+                            અહીં, <b style='color:#be123c;'>a = 8</b><br>
+                            <b style='color:#1d4ed8;'>d = 3 - 8 = -5</b><br>
+                            અને 22 પદો કીધા છે એટલે <b style='color:#047857;'>n = 22</b>.<br>
+                            શોધવાનું છે: <b>S₂₂ = ?</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકવી (મોટું સૂત્ર)</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [2a + (n - 1)d]<br>
+                                
+                                S₂₂ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>2</span></span> [2(8) + (22 - 1)(-5)]<br>
+                                
+                                S₂₂ = 11 [16 + (21)(-5)]<br>
+                                
+                                <i style='color:#be123c;'>(ખાસ ધ્યાન: પ્લસ ગુણ્યા માઇનસ બરાબર માઇનસ થાય, એટલે 21 &times; -5 = -105)</i><br>
+                                
+                                S₂₂ = 11 [16 - 105]<br>
+                                
+                                S₂₂ = 11 [-89]<br>
+                                
+                                <b style='font-size:20px; color:#1d4ed8;'>S₂₂ = -979</b>
+                            </div>
+                            <p style='margin-top:10px; color:#0f172a; font-weight:bold;'>જવાબ: આ શ્રેણીના પ્રથમ 22 પદોનો સરવાળો -979 થશે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 10: સરવાળો આપેલો હોય અને પદ શોધવાનું હોય (મોસ્ટ IMP)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> જો સમાંતર શ્રેણીના પ્રથમ <b>14 પદોનો સરવાળો 1050</b> હોય અને તેનું પ્રથમ પદ <b>10</b> હોય, તો તે શ્રેણીનું <b>20-મું પદ (a₂₀)</b> શોધો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>સ્ટેપ 1: d (સામાન્ય તફાવત) શોધવો</b><br>
+                            અહીં, <b>S₁₄ = 1050</b>, <b>n = 14</b>, અને <b>a = 10</b> આપેલ છે. આપણી પાસે d નથી.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.2;'>
+                                Sₙ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [2a + (n - 1)d]<br>
+                                
+                                1050 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14</span><span>2</span></span> [2(10) + (14 - 1)d]<br>
+                                
+                                1050 = 7 [20 + 13d]<br>
+                                
+                                <i style='color:#64748b;'>(7 ને ગુણાકારમાંથી ભાગાકારમાં ડાબી બાજુ લાવતાં)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1050</span><span>7</span></span> = 20 + 13d<br>
+                                
+                                150 = 20 + 13d<br>
+                                150 - 20 = 13d<br>
+                                130 = 13d<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>130</span><span>13</span></span> = d<br>
+                                <b style='font-size:20px; color:#be123c;'>d = 10</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>સ્ટેપ 2: 20-મું પદ (a₂₀) શોધવું</b><br>
+                            હવે આપણી પાસે <b>a = 10</b> અને <b>d = 10</b> બંને છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2;'>
+                                a₂₀ = a + 19d<br>
+                                a₂₀ = 10 + 19(10)<br>
+                                a₂₀ = 10 + 190<br>
+                                <b style='font-size:20px; color:#16a34a;'>a₂₀ = 200</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold;'>જવાબ: આ શ્રેણીનું 20-મું પદ 200 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 11: કેટલા પદોનો સરવાળો 78 થાય? (n ના 2 જવાબો કેમ?)", 
+                    question_desc: "બોર્ડમાં પૂછાતો સૌથી અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> સમાંતર શ્રેણી 24, 21, 18, ... ના <b>કેટલા પદોનો સરવાળો 78</b> થાય?</p>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>સ્ટેપ 1: સમીકરણ બનાવવું (n શોધવો છે)</b><br>
+                            અહીં, <b>a = 24</b>, <b>d = 21 - 24 = -3</b>, અને <b>Sₙ = 78</b> આપેલ છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.2;'>
+                                78 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [2(24) + (n - 1)(-3)]<br>
+                                
+                                <i style='color:#64748b;'>(છેદમાં રહેલા 2 ને સામે 78 સાથે ગુણાકારમાં લઈ જઈએ)</i><br>
+                                156 = n [48 - 3n + 3]<br>
+                                156 = n [51 - 3n]<br>
+                                156 = 51n - 3n&sup2;<br>
+                                
+                                <i style='color:#64748b;'>(બધા પદોને ડાબી બાજુ લાવતા સમીકરણ દ્વિઘાત બનશે)</i><br>
+                                <b style='color:#be123c;'>3n&sup2; - 51n + 156 = 0</b><br>
+                                <i style='color:#64748b;'>(બધામાંથી 3 સામાન્ય કાઢતાં સમીકરણ નાનું થઈ જશે)</i><br>
+                                <div style='font-size:20px; font-weight:bold; color:#1d4ed8; background-color:#e0f2fe; padding:10px; border-radius:5px; text-align:center; margin:10px 0;'>
+                                    n&sup2; - 17n + 52 = 0
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 2: અવયવ પાડીને n શોધવો</b><br>
+                            52 ના એવા બે ભાગ પાડો જેનો <b>સરવાળો 17</b> થાય.<br>
+                            <i style='color:#64748b;'>13 &times; 4 = 52 અને 13 + 4 = 17.</i><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2;'>
+                                n&sup2; - 13n - 4n + 52 = 0<br>
+                                n(n - 13) - 4(n - 13) = 0<br>
+                                (n - 13)(n - 4) = 0<br>
+                                <b style='font-size:20px; color:#047857;'>n = 13 &nbsp; અથવા &nbsp; n = 4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border:2px dashed #c026d3; padding:10px; border-radius:8px;'>
+                            <b style='color:#86198f; font-size:16px;'>🤔 માસ્ટર કી: અહી n ના બે જવાબો કેમ આવ્યા? શું બંને સાચા છે?</b><br>
+                            <p style='margin:5px 0 0 0; line-height:1.6;'>હા, બંને જવાબો સાચા છે! કારણ કે <b>d = -3 (ઋણ)</b> છે. તેથી શ્રેણી ઘટતી જાય છે.<br>
+                            શ્રેણીના <b>પ્રથમ 4 પદોનો સરવાળો 78</b> થાય છે. <br>
+                            ત્યારપછીના 5મા થી 13મા પદ સુધીની સંખ્યાઓમાં <b>ધન અને ઋણ સંખ્યાઓ એકબીજાને કાપી નાખે છે (સરવાળો 0 થઈ જાય છે)</b>, તેથી પ્રથમ 13 પદોનો સરવાળો પણ 78 જ રહે છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 12: 6 વડે વિભાજ્ય પ્રથમ 40 ધન પૂર્ણાંકોનો સરવાળો શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a;'><b>પ્રશ્ન:</b> 6 વડે વિભાજ્ય (6 ના ઘડિયામાં આવતા) પ્રથમ 40 ધન પૂર્ણાંકોનો સરવાળો શોધો.</p>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>સ્ટેપ 1: શ્રેણી બનાવવી</b><br>
+                            6 વડે વિભાજ્ય ધન સંખ્યાઓ: 6, 12, 18, 24, ...<br>
+                            આ શ્રેણીમાં:<br>
+                            <b style='color:#be123c;'>a = 6</b><br>
+                            <b style='color:#1d4ed8;'>d = 6</b> (6 નો ઘડિયો છે એટલે d=6 જ હોય)<br>
+                            <b style='color:#047857;'>n = 40</b> (કારણ કે 40 સંખ્યાઓ કીધી છે)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: સરવાળો (S₄₀) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                S₄₀ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>40</span><span>2</span></span> [2(6) + (40 - 1)6]<br>
+                                
+                                S₄₀ = 20 [12 + (39)6]<br>
+                                
+                                <i style='color:#64748b;'>(પહેલા ગુણાકાર 39 &times; 6 = 234)</i><br>
+                                S₄₀ = 20 [12 + 234]<br>
+                                
+                                S₄₀ = 20 [246]<br>
+                                
+                                <b style='font-size:20px; color:#1d4ed8;'>S₄₀ = 4920</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold;'>જવાબ: માંગેલ સરવાળો 4920 થશે.</p>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        }
+    
+    
     
     
     
