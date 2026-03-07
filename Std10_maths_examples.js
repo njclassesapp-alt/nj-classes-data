@@ -1809,7 +1809,464 @@ var njMathsExamples = {
                 }
             ]
         },
+            
+        // ------------------------------------
+        // પ્રકરણ 8: ત્રિકોણમિતિનો પરિચય (ઉદાહરણ ભાગ 1.1)
+        // ------------------------------------
+        "8": {
+            "chapterName": "પ્રકરણ 8 (ઉદાહરણ 1.1)",
+            "chapterTitle": "ત્રિકોણમિતિ - પાયાની સમજ અને ઉદાહરણ 1",
+            "qa_list": [
+                {
+                    question: "🎯 પાયાની સમજ: ત્રિકોણમિતિ શરૂ કરતા પહેલા આટલું મગજમાં છાપી લો!",
+                    answer: `
+                    <div style='background-color:#f8fafc; padding:15px; border-radius:8px; border:2px solid #94a3b8; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#0f172a;'>કોઈપણ દાખલો ગણતા પહેલા કાટકોણ ત્રિકોણ દોરીને આ 3 વસ્તુઓ નક્કી કરી લેવી:</p>
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="250" height="180" viewBox="0 0 250 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="50,20 50,150 180,150" fill="#fef08a" stroke="#ca8a04" stroke-width="2" />
+                                <polyline points="50,135 65,135 65,150" fill="none" stroke="black" stroke-width="1.5" />
+                                <path d="M 150 150 A 30 30 0 0 0 160 130" fill="none" stroke="#dc2626" stroke-width="2" />
+                                <text x="135" y="145" font-weight="bold" fill="#dc2626" font-size="18">A</text>
+                                
+                                <text x="35" y="15" font-weight="bold">C</text>
+                                <text x="30" y="165" font-weight="bold">B</text>
+                                <text x="185" y="165" font-weight="bold">A</text>
+                                
+                                <text x="120" y="80" font-weight="bold" fill="#1d4ed8" transform="rotate(45 115 85)">કર્ણ (સૌથી મોટી બાજુ)</text>
+                                <text x="90" y="170" font-weight="bold" fill="#047857">પાસેની બાજુ (પા.બા.)</text>
+                                <text x="10" y="90" font-weight="bold" fill="#be123c" transform="rotate(-90 20 90)">સામેની બાજુ (સા.બા.)</text>
+                            </svg>
+                        </div>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px dashed #cbd5e1;'>
+                            <b style='color:#be123c;'>મંત્રો યાદ રાખો:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; line-height:2;'>
+                                1. <b>sin A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>સા.બા.</span><span>કર્ણ</span></span><br>
+                                2. <b>cos A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>પા.બા.</span><span>કર્ણ</span></span><br>
+                                3. <b>tan A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>સા.બા.</span><span>પા.બા.</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 1: tan A આપેલ છે, બાકીના ગુણોત્તરો શોધો", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> જો <b>tan A = 4/3</b> હોય, તો ખૂણા A ના અન્ય ત્રિકોણમિતીય ગુણોત્તરો શોધો.</p>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>સ્ટેપ 1: આકૃતિ દોરો અને ધારો</b><br>
+                            આપણે જાણીએ છીએ કે <b>tan A = સા.બા. / પા.બા.</b><br>
+                            તેથી, tan A = BC / AB = 4 / 3<br>
+                            અહીં ગુણોત્તર છે, તેથી કોઈ અચળ 'k' ધારી લઈએ (જ્યાં k ધન સંખ્યા છે).<br>
+                            <b style='color:#be123c;'>BC (સા.બા.) = 4k</b> અને <b style='color:#047857;'>AB (પા.બા.) = 3k</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 2: પાયથાગોરસના પ્રમેયથી કર્ણ (AC) શોધવો</b><br>
+                            &Delta;ABC માં કાટખૂણો B છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                                AC&sup2; = AB&sup2; + BC&sup2;<br>
+                                AC&sup2; = (3k)&sup2; + (4k)&sup2;<br>
+                                AC&sup2; = 9k&sup2; + 16k&sup2;<br>
+                                AC&sup2; = 25k&sup2;<br>
+                                <i style='color:#64748b;'>(બંને બાજુ વર્ગમૂળ લેતાં)</i><br>
+                                <b style='font-size:20px; color:#15803d;'>AC (કર્ણ) = 5k</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 3: બાકીના ગુણોત્તરો શોધવા</b><br>
+                            હવે આપણી પાસે ત્રણેય બાજુઓ છે: સા.બા.=4k, પા.બા.=3k, કર્ણ=5k.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.5; font-size:16px;'>
+                                <ul>
+                                    <li><b>sin A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સા.બા.</span><span>કર્ણ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4k</span><span>5k</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>4</span><span>5</span></span></b></li>
+                                    
+                                    <li><b>cos A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>પા.બા.</span><span>કર્ણ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3k</span><span>5k</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>3</span><span>5</span></span></b></li>
+                                    
+                                    <li><b>cot A</b> (tan નો વ્યસ્ત) = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>3</span><span>4</span></span></b></li>
+                                    
+                                    <li><b>sec A</b> (cos નો વ્યસ્ત) = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>5</span><span>3</span></span></b></li>
+                                    
+                                    <li><b>cosec A</b> (sin નો વ્યસ્ત) = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>5</span><span>4</span></span></b></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+   },
+                { 
+                    question: "ઉદાહરણ 2: sin B = sin Q હોય, તો સાબિત કરો કે ∠B = ∠Q", 
+                    question_desc: "સાબિતી વાળો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> જો &angle;B અને &angle;Q એવા લઘુકોણો હોય કે જેથી <b>sin B = sin Q</b> થાય, તો સાબિત કરો કે <b>&angle;B = &angle;Q</b>.</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (કેવી રીતે ગણવો?):</b><br>
+                            અહીં આપણે 2 અલગ-અલગ કાટકોણ ત્રિકોણ ધારીશું: &Delta;ABC અને &Delta;PQR. જો આપણે આ બંને ત્રિકોણને <b>સમરૂપ (Similar)</b> સાબિત કરી દઈએ, તો તેમના ખૂણાઓ ઓટોમેટિક સરખા સાબિત થઈ જાય!
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>સ્ટેપ 1: ગુણોત્તર સરખાવવો</b><br>
+                            ધારો કે &Delta;ABC માં ખૂણો C કાટખૂણો છે, અને &Delta;PQR માં ખૂણો R કાટખૂણો છે.<br>
+                            રકમ મુજબ: sin B = sin Q<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PR</span><span>PQ</span></span><br>
+                                
+                                <i style='color:#64748b;'>(હવે આપણે AC ની નીચે PR અને AB ની ઉપર લાવીશું - ચોકડી ગુણાકારની જેમ ગોઠવણ)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>PR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <b style='color:#be123c;'>k (ધારો કે)</b> &nbsp;&nbsp; ... (સમીકરણ 1)
+                            </div>
+                            <p style='margin-top:5px; font-size:14px; color:#64748b;'>અહીંથી આપણને મળ્યું: AC = k(PR) અને AB = k(PQ)</p>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-top:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 2: પાયથાગોરસથી ત્રીજી બાજુ (BC અને QR) શોધવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                &Delta;ABC માં: BC = &radic;(AB&sup2; - AC&sup2;)<br>
+                                &Delta;PQR માં: QR = &radic;(PQ&sup2; - PR&sup2;)<br><br>
+                                
+                                હવે બંનેનો ગુણોત્તર લઈએ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;(AB&sup2; - AC&sup2;)</span><span>&radic;(PQ&sup2; - PR&sup2;)</span></span><br>
+                                
+                                <i style='color:#64748b;'>(AB ની જગ્યાએ k(PQ) અને AC ની જગ્યાએ k(PR) મૂકતાં)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;(k&sup2;PQ&sup2; - k&sup2;PR&sup2;)</span><span>&radic;(PQ&sup2; - PR&sup2;)</span></span><br>
+                                
+                                <i style='color:#64748b;'>(k² ને વર્ગમૂળની બહાર કાઢીએ એટલે k થઈ જાય)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>k &radic;(PQ&sup2; - PR&sup2;)</span><span>&radic;(PQ&sup2; - PR&sup2;)</span></span><br>
+                                
+                                <i style='color:#64748b;'>(બંને કૌંસ સરખા હોવાથી ઉડી જશે)</i><br>
+                                <b style='font-size:18px; color:#15803d;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>BC</span><span>QR</span></span> = k</b> &nbsp;&nbsp; ... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; padding:10px; border-radius:5px; margin-top:15px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 3: નિષ્કર્ષ</b><br>
+                            સમીકરણ (1) અને (2) પરથી:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin:10px 0;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>PR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span>
+                            </div>
+                            <p style='margin-bottom:0;'>બા.બા.બા. (SSS) સમરૂપતાની શરત મુજબ, ત્રણેય બાજુઓનો ગુણોત્તર સમાન હોવાથી <b>&Delta;ABC ~ &Delta;PQR</b> (બંને ત્રિકોણ સમરૂપ છે).<br>
+                            <b style='color:#be123c;'>તેથી, તેમના અનુરૂપ ખૂણાઓ સમાન થાય: &angle;B = &angle;Q. (સાબિત થાય છે).</b></p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 3: બે બાજુઓ પરથી sin²θ + cos²θ શોધવું", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> &Delta;ACB માં ખૂણો C કાટખૂણો છે. AB = 29, BC = 21 અને &angle;ABC = &theta; છે. તો (i) cos&sup2;&theta; + sin&sup2;&theta; અને (ii) cos&sup2;&theta; - sin&sup2;&theta; નું મૂલ્ય શોધો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>સ્ટેપ 1: પાયથાગોરસથી ત્રીજી બાજુ (AC) શોધવી</b><br>
+                            કર્ણ (AB) = 29, પાસેની બાજુ (BC) = 21, સામેની બાજુ (AC) = ?<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                AB&sup2; = AC&sup2; + BC&sup2;<br>
+                                (29)&sup2; = AC&sup2; + (21)&sup2;<br>
+                                841 = AC&sup2; + 441<br>
+                                AC&sup2; = 841 - 441 = 400<br>
+                                <b style='font-size:18px; color:#b91c1c;'>AC = 20</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 2: sin &theta; અને cos &theta; શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                sin &theta; = સા.બા./કર્ણ = AC/AB = <b style='color:#15803d;'>20/29</b><br>
+                                cos &theta; = પા.બા./કર્ણ = BC/AB = <b style='color:#15803d;'>21/29</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 3: માંગેલ મૂલ્યો શોધવા</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                <b style='color:#0f172a;'>(i) cos&sup2;&theta; + sin&sup2;&theta;</b><br>
+                                = (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>21</span><span>29</span></span>)&sup2; + (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>20</span><span>29</span></span>)&sup2;<br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>441</span><span>841</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>400</span><span>841</span></span><br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>441 + 400</span><span>841</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>841</span><span>841</span></span> = <b style='font-size:20px; color:#1d4ed8;'>1</b>
+                                
+                                <br><hr style='border:1px dashed #94a3b8; margin:15px 0;'><br>
+                                
+                                <b style='color:#0f172a;'>(ii) cos&sup2;&theta; - sin&sup2;&theta;</b><br>
+                                = (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>21</span><span>29</span></span>)&sup2; - (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>20</span><span>29</span></span>)&sup2;<br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>441</span><span>841</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>400</span><span>841</span></span><br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>441 - 400</span><span>841</span></span> = <b style='font-size:20px; color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>41</span><span>841</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        },
+                { 
+                    question: "🌟 ઉદાહરણ 4: ચકાસો કે 2 sin A cos A = 1 (બંને રીતો: ચોપડીની અને શોર્ટકટ ટ્રીક)", 
+                    question_desc: "બોર્ડમાં પૂછાતો ફેવરિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> કાટકોણ ત્રિકોણ ABC માં ખૂણો B કાટખૂણો છે. જો <b>tan A = 1</b> હોય, તો ચકાસો કે <b>2 sin A cos A = 1</b>.</p>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#0f172a; font-size:16px;'>રીત 1: પાયથાગોરસની લાંબી રીત (ચોપડી મુજબ)</b><br>
+                            tan A = BC / AB = 1 &rArr; <b>BC = AB</b>.<br>
+                            ધારો કે BC = AB = k.<br>
+                            પાયથાગોરસ મુજબ: AC&sup2; = AB&sup2; + BC&sup2; = k&sup2; + k&sup2; = 2k&sup2; &rArr; <b style='color:#047857;'>AC = &radic;2 k</b>.<br><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                હવે sin A = BC/AC = k / (&radic;2 k) = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;2</span></span></b><br>
+                                અને cos A = AB/AC = k / (&radic;2 k) = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;2</span></span></b><br><br>
+                                
+                                <b>ડાબી બાજુ (LHS):</b><br>
+                                = 2 sin A cos A<br>
+                                = 2 &times; (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;2</span></span>) &times; (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;2</span></span>)<br>
+                                = 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &nbsp;&nbsp; <i style='color:#64748b;'>(&radic;2 &times; &radic;2 = 2 થાય)</i><br>
+                                = <b>1</b> = જમણી બાજુ (RHS). (સાબિત થાય છે).
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:15px; border-radius:8px;'>
+                            <b style='color:#c2410c; font-size:18px;'>🚀 રીત 2: કોષ્ટકની સ્માર્ટ ટ્રીક (માત્ર 3 સ્ટેપમાં દાખલો પૂરો!)</b><br>
+                            આ રીત બોર્ડમાં 100% માન્ય છે અને તમારો ઘણો સમય બચાવશે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                રકમમાં આપેલ છે: <b>tan A = 1</b><br>
+                                કોષ્ટક યાદ કરો: tan માં કયા ખૂણાની કિંમત 1 થાય?<br>
+                                આપણે જાણીએ છીએ કે <b>tan 45&deg; = 1</b>.<br>
+                                તેથી, <b style='color:#be123c; font-size:18px;'>A = 45&deg;</b> મળે.<br><br>
+                                
+                                <b>હવે સીધી કિંમત ડાબી બાજુ (LHS) માં મૂકો:</b><br>
+                                = 2 sin A cos A<br>
+                                = 2 sin(45&deg;) cos(45&deg;)<br>
+                                = 2 &times; (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;2</span></span>) &times; (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;2</span></span>)<br>
+                                = 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><br>
+                                = <b style='font-size:20px; color:#15803d;'>1</b> = RHS. (સાબિત થાય છે).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 5: બીજગણિત + પાયથાગોરસનો સમન્વય (OQ - PQ = 1)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> &Delta;OPQ માં કાટખૂણો P છે. OP = 7 cm અને <b>OQ - PQ = 1 cm</b> છે. તો sin Q અને cos Q ના મૂલ્યો શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: સમીકરણને સેટ કરવું</b><br>
+                            આપણને OQ - PQ = 1 આપેલું છે.<br>
+                            PQ ને સામેની બાજુ લઈ જઈએ: <b style='color:#be123c;'>OQ = 1 + PQ</b> &nbsp; ... (સમીકરણ 1)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: પાયથાગોરસનો પ્રમેય વાપરવો</b><br>
+                            &Delta;OPQ માં OQ કર્ણ છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                OQ&sup2; = OP&sup2; + PQ&sup2;<br>
+                                
+                                <i style='color:#64748b;'>(OQ ની જગ્યાએ (1 + PQ) અને OP = 7 મૂકતાં)</i><br>
+                                (1 + PQ)&sup2; = (7)&sup2; + PQ&sup2;<br>
+                                
+                                <i style='color:#be123c;'>(અહીં (a+b)² નું સૂત્ર લાગશે: 1 + 2(1)(PQ) + PQ²)</i><br>
+                                1 + 2PQ + PQ&sup2; = 49 + PQ&sup2;<br>
+                                
+                                <i style='color:#64748b;'>(બંને બાજુથી PQ² ઉડી જશે)</i><br>
+                                1 + 2PQ = 49<br>
+                                2PQ = 49 - 1<br>
+                                2PQ = 48<br>
+                                PQ = 48 / 2 &rArr; <b style='font-size:18px; color:#1d4ed8;'>PQ = 24 cm</b>
+                            </div>
+                            
+                            <p style='margin-top:10px;'>હવે PQ ની કિંમત સમીકરણ 1 માં મૂકતાં:<br>
+                            OQ = 1 + 24 &rArr; <b style='font-size:18px; color:#047857;'>OQ = 25 cm</b></p>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f;'>સ્ટેપ 3: sin Q અને cos Q શોધવા</b><br>
+                            અહીં ખૂણો <b>Q</b> ધ્યાનમાં લેવાનો છે, તેથી Q ની <b>સામેની બાજુ OP (7)</b> થશે અને <b>પાસેની બાજુ PQ (24)</b> થશે. કર્ણ <b>OQ (25)</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                <ul>
+                                    <li><b>sin Q</b> = સા.બા./કર્ણ = OP/OQ = <b style='color:#be123c; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>7</span><span>25</span></span></b></li>
+                                    <li><b>cos Q</b> = પા.બા./કર્ણ = PQ/OQ = <b style='color:#be123c; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>24</span><span>25</span></span></b></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        },
         
+                { 
+                    question: "ઉદાહરણ 6: ખૂણો અને એક બાજુ આપેલ હોય, ત્યારે બીજી બાજુઓ શોધવી", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> &Delta;ABC માં કાટખૂણો B છે. <b>AB = 5 cm</b> અને <b>&angle;ACB = 30&deg;</b> છે. બાજુઓ <b>BC</b> અને <b>AC</b> ની લંબાઈ શોધો.</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,20 40,130 160,130" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+                                <polyline points="40,115 55,115 55,130" fill="none" stroke="black" stroke-width="1.5" />
+                                
+                                <path d="M 130 130 A 30 30 0 0 0 140 115" fill="none" stroke="#dc2626" stroke-width="2" />
+                                <text x="110" y="125" font-weight="bold" fill="#dc2626" font-size="14">30&deg;</text>
+                                
+                                <text x="25" y="15" font-weight="bold">A</text>
+                                <text x="20" y="140" font-weight="bold">B</text>
+                                <text x="170" y="140" font-weight="bold">C</text>
+                                
+                                <text x="10" y="80" font-weight="bold" fill="#be123c">5 cm</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (કેવી રીતે વિચારવું?):</b><br>
+                            અહીં ખૂણો C (30&deg;) છે. તેની <b>સામેની બાજુ (AB = 5)</b> આપેલી છે.<br>
+                            - આપણે <b>BC (પાસેની બાજુ)</b> શોધવી છે &rArr; સામેની બાજુ અને પાસેની બાજુનો સંબંધ કયા સૂત્રમાં આવે? <b>tan</b> માં!<br>
+                            - આપણે <b>AC (કર્ણ)</b> શોધવો છે &rArr; સામેની બાજુ અને કર્ણનો સંબંધ કયા સૂત્રમાં આવે? <b>sin</b> માં!
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>સ્ટેપ 1: BC શોધવા માટે tan નો ઉપયોગ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                tan C = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB (સા.બા.)</span><span>BC (પા.બા.)</span></span><br>
+                                
+                                tan 30&deg; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>BC</span></span><br>
+                                
+                                <i style='color:#64748b;'>(કોષ્ટક મુજબ tan 30&deg; ની કિંમત 1/&radic;3 છે)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;3</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>BC</span></span><br>
+                                
+                                <i style='color:#64748b;'>(ચોકડી ગુણાકાર કરતાં)</i><br>
+                                BC &times; 1 = 5 &times; &radic;3<br>
+                                <b style='font-size:20px; color:#1d4ed8;'>BC = 5&radic;3 cm</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: AC શોધવા માટે sin નો ઉપયોગ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                sin C = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB (સા.બા.)</span><span>AC (કર્ણ)</span></span><br>
+                                
+                                sin 30&deg; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>AC</span></span><br>
+                                
+                                <i style='color:#64748b;'>(કોષ્ટક મુજબ sin 30&deg; ની કિંમત 1/2 છે)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>AC</span></span><br>
+                                
+                                <i style='color:#64748b;'>(ચોકડી ગુણાકાર કરતાં)</i><br>
+                                AC &times; 1 = 5 &times; 2<br>
+                                <b style='font-size:20px; color:#047857;'>AC = 10 cm</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold;'>જવાબ: BC = 5&radic;3 cm અને AC = 10 cm.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 7: બે બાજુઓ પરથી ખૂણો શોધવો", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> &Delta;PQR માં ખૂણો Q કાટખૂણો છે. <b>PQ = 3 cm</b> અને <b>PR = 6 cm</b> છે. તો <b>&angle;QPR</b> અને <b>&angle;PRQ</b> શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: &angle;R (&angle;PRQ) શોધવો</b><br>
+                            આપણે ખૂણો R શોધવો છે. <b>સામેની બાજુ (PQ = 3)</b> અને <b>કર્ણ (PR = 6)</b> આપેલ છે.<br>
+                            સામેની બાજુ અને કર્ણ આવે તેવું સૂત્ર: <b>sin</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                                sin R = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PQ (સા.બા.)</span><span>PR (કર્ણ)</span></span><br>
+                                
+                                sin R = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span><br>
+                                
+                                sin R = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span>
+                            </div>
+                            
+                            <p style='margin-top:10px; color:#be123c; font-weight:bold;'>હવે કોષ્ટક યાદ કરો: sin માં કયા ખૂણાની કિંમત 1/2 થાય?</p>
+                            <p><b>sin 30&deg; = 1/2 થાય.</b></p>
+                            <div style='font-size:20px; font-weight:bold; color:#1d4ed8;'>તેથી, &angle;PRQ (એટલે કે &angle;R) = 30&deg;</div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: &angle;P (&angle;QPR) શોધવો</b><br>
+                            આપણે જાણીએ છીએ કે ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય છે.<br>
+                            &Delta;PQR માં &angle;Q = 90&deg; અને &angle;R = 30&deg; છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2;'>
+                                &angle;P + &angle;Q + &angle;R = 180&deg;<br>
+                                &angle;P + 90&deg; + 30&deg; = 180&deg;<br>
+                                &angle;P + 120&deg; = 180&deg;<br>
+                                &angle;P = 180&deg; - 120&deg;<br>
+                                <b style='font-size:20px; color:#047857;'>&angle;QPR (એટલે કે &angle;P) = 60&deg;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 8: સમીકરણ પરથી ખૂણા A અને B શોધવા", 
+                    question_desc: "બોર્ડમાં અચૂક પૂછાતો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> જો <b>sin(A - B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>2</span></span></b> અને <b>cos(A + B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>2</span></span></b> હોય, (જ્યાં A > B), તો A અને B શોધો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>સ્ટેપ 1: કોષ્ટક પરથી સમીકરણો બનાવવા</b><br>
+                            <p style='margin-bottom:5px;'><b>1) sin માટે:</b></p>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; line-height:2;'>
+                                sin(A - B) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><br>
+                                <i style='color:#64748b;'>(કોષ્ટકમાં sin 30&deg; = 1/2 થાય)</i><br>
+                                તેથી, <b style='color:#1d4ed8; font-size:18px;'>A - B = 30&deg; &nbsp; ... (સમીકરણ 1)</b>
+                            </div>
+                            
+                            <hr style='border:1px dashed #fca5a5; margin:10px 0;'>
+                            
+                            <p style='margin-bottom:5px;'><b>2) cos માટે:</b></p>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; line-height:2;'>
+                                cos(A + B) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><br>
+                                <i style='color:#64748b;'>(કોષ્ટકમાં cos 60&deg; = 1/2 થાય)</i><br>
+                                તેથી, <b style='color:#1d4ed8; font-size:18px;'>A + B = 60&deg; &nbsp; ... (સમીકરણ 2)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 2: લોપની રીત (ચેપ્ટર 3 નો ઉપયોગ!)</b><br>
+                            સમીકરણ 1 અને 2 નો સરવાળો કરતાં:<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:1.8; text-align:center; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp;A - B = 30&deg;<br>
+                                (+)A + B = 60&deg;<br>
+                                <hr style='border:1px solid #16a34a; width:150px; margin:auto;'>
+                                &nbsp;&nbsp;2A &nbsp;&nbsp;&nbsp; = 90&deg; &nbsp;&nbsp; <i style='font-size:14px; color:#64748b;'>(-B અને +B ઉડી જશે)</i><br>
+                                
+                                &nbsp;&nbsp;&nbsp;&nbsp;A = 90 / 2<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;<b style='color:#047857;'>A = 45&deg;</b>
+                            </div>
+                            
+                            <p style='margin-top:15px;'>હવે A ની કિંમત સમીકરણ 2 માં મૂકતાં:</p>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; line-height:2;'>
+                                A + B = 60&deg;<br>
+                                45&deg; + B = 60&deg;<br>
+                                B = 60&deg; - 45&deg;<br>
+                                <b style='font-size:20px; color:#be123c;'>B = 15&deg;</b>
+                            </div>
+                            
+                            <div style='background-color:#eff6ff; padding:10px; border-radius:5px; margin-top:10px;'>
+                                <b style='color:#1e40af;'>અંતિમ જવાબ:</b> A = 45&deg; અને B = 15&deg;. 
+                                <p style='margin-bottom:0; font-size:14px; color:#64748b;'><i>(તમે જોઈ શકો છો કે 45 > 15 છે, એટલે કે A > B ની શરત પણ પળાય છે).</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+      }
+                                
+
                                 
     
 };
