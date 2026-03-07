@@ -3806,9 +3806,247 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
+                },
+            
+                
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: બહુલક (Z) શોધવાનું સૂત્ર અને શોર્ટકટ",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>બહુલક શોધવા માટે કોઈ નવું ખાનું નથી બનાવવાનું. બસ, રકમમાંથી સૌથી મોટી આવૃત્તિ શોધો!</p>
+                        
+                        <div style='background-color:#ffffff; border:1px solid #fde047; padding:10px; border-radius:5px; text-align:center;'>
+                            <b style='color:#be123c;'>બહુલક (Z) નું સૂત્ર:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:22px; font-weight:bold; color:#1d4ed8; padding:15px 0;'>
+                                Z = l + 
+                                <span style='font-size:40px; font-weight:normal; margin:0 5px; vertical-align:middle;'>[</span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 10px;'>f<sub>1</sub> - f<sub>0</sub></span>
+                                    <span style='padding:5px 10px 0 10px;'>2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></span>
+                                </span>
+                                <span style='font-size:40px; font-weight:normal; margin:0 5px; vertical-align:middle;'>]</span>
+                                &times; h
+                            </div>
+                        </div>
+                        <ul style='line-height:2; margin-top:10px; font-size:15px; color:#0f172a;'>
+                            <li><b>f<sub>1</sub></b> = સૌથી મોટી આવૃત્તિ (બહુલક વર્ગની આવૃત્તિ)</li>
+                            <li><b>f<sub>0</sub></b> = તેની બરાબર <b>ઉપરના (આગળના)</b> વર્ગની આવૃત્તિ</li>
+                            <li><b>f<sub>2</sub></b> = તેની બરાબર <b>નીચેના (પાછળના)</b> વર્ગની આવૃત્તિ</li>
+                        </ul>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 4: અવર્ગીકૃત માહિતીનો બહુલક (વિભાગ A માટે IMP)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> એક બૉલરે 10 ક્રિકેટ મૅચોમાં નીચે પ્રમાણે વિકેટો લીધી છે:<br>
+                        <b>2, 6, 4, 5, 0, 2, 1, 3, 2, 3</b><br>
+                        આ માહિતીનો <b>બહુલક</b> શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d;'>ગણતરી:</b><br>
+                            આપેલી માહિતીને આવૃત્તિ વિતરણ કોષ્ટકમાં ગોઠવતાં:<br>
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:300px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#dcfce7; font-weight:bold; color:#14532d;'>
+                                        <th style='border:1px solid #86efac; padding:8px;'>વિકેટોની સંખ્યા</th>
+                                        <td style='border:1px solid #86efac; padding:5px;'>0</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>1</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>2</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>3</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>4</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>5</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>6</td>
+                                    </tr>
+                                    <tr>
+                                        <th style='border:1px solid #86efac; padding:8px; background-color:#f0fdf4;'>મૅચોની સંખ્યા</th>
+                                        <td style='border:1px solid #86efac; padding:5px;'>1</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>1</td>
+                                        <td style='border:1px solid #86efac; padding:5px; background-color:#fef08a; font-weight:bold; color:#be123c;'>3</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>2</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>1</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>1</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>1</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <p style='margin-top:10px;'>અહીં સ્પષ્ટ છે કે બૉલરે સૌથી વધુ વખત (3 વખત) <b>2 વિકેટ</b> લીધી છે.<br>
+                            તેથી, આ માહિતીનો <b>બહુલક = 2</b> છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+        
+                { 
+                    question: "ઉદાહરણ 5: કુટુંબની સભ્યસંખ્યાનો બહુલક (મોસ્ટ IMP)", 
+                    question_desc: "બોર્ડમાં 3 માર્ક્સ માટે પૂછાતો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> વિદ્યાર્થીઓના એક સમૂહે 20 પરિવારો પર સર્વેક્ષણ હાથ ધર્યું. તેનાથી પરિવારોના સભ્યોની સંખ્યા માટે નીચેનું આવૃત્તિ-વિતરણ કોષ્ટક મળ્યું. આ માહિતીનો <b>બહુલક</b> શોધો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>સ્ટેપ 1: કોષ્ટકમાંથી કિંમતો તારવવી</b><br>
+                            કોષ્ટકમાં જુઓ, સૌથી મોટી આવૃત્તિ કઈ છે? <b>8</b>. <br>
+                            તેથી <b>3-5</b> એ આપણો <b>બહુલક વર્ગ</b> બનશે.
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:400px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#fee2e2; font-weight:bold; color:#b91c1c;'>
+                                        <th style='border:1px solid #fca5a5; padding:8px;'>પરિવારની સભ્યસંખ્યા</th>
+                                        <th style='border:1px solid #fca5a5; padding:8px;'>પરિવારોની સંખ્યા (f)</th>
+                                        <th style='border:1px solid #fca5a5; padding:8px;'>સમજૂતી</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>1 - 3</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>7</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px; color:#64748b;'>&larr; f<sub>0</sub> (ઉપરનો વર્ગ)</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a; border:2px solid #ca8a04;'>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold;'>3 - 5</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#be123c;'>8</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#be123c;'>&larr; f<sub>1</sub> (સૌથી મોટી આવૃત્તિ)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>5 - 7</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>2</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px; color:#64748b;'>&larr; f<sub>2</sub> (નીચેનો વર્ગ)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>7 - 9</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>2</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>9 - 11</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'>1</td>
+                                        <td style='border:1px solid #fca5a5; padding:5px;'></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <ul style='margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li>બહુલક વર્ગની અધઃસીમા <b>l = 3</b></li>
+                                <li>વર્ગલંબાઈ <b>h = 2</b> (કારણ કે 5 - 3 = 2)</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                Z = l + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f<sub>1</sub> - f<sub>0</sub></span><span>2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; h<br><br>
+                                
+                                Z = 3 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8 - 7</span><span>2(8) - 7 - 2</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 2<br><br>
+                                
+                                Z = 3 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>16 - 9</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 2<br><br>
+                                
+                                Z = 3 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>7</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 2<br><br>
+                                
+                                Z = 3 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>7</span></span><br><br>
+                                
+                                <i style='color:#64748b;'>(2 ને 7 વડે ભાગતા 0.286 મળશે)</i><br>
+                                Z = 3 + 0.286<br>
+                                <b style='font-size:20px; color:#1d4ed8;'>Z = 3.286</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: આપેલ માહિતીનો બહુલક 3.286 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+            
+                
+    
+                { 
+                    question: "ઉદાહરણ 6: વિદ્યાર્થીઓના ગુણનો બહુલક શોધો (ઉદાહરણ 2 ની રકમ)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> ઉદાહરણ 2 માં આપેલા 30 વિદ્યાર્થીઓના ગુણના આવૃત્તિ-વિતરણ માટે <b>બહુલક</b> શોધો. (યાદ કરો, ત્યાં આપણે મધ્યક 62 શોધ્યો હતો).</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: કોષ્ટકમાંથી કિંમતો તારવવી</b><br>
+                            કોષ્ટકમાં સૌથી મોટી આવૃત્તિ કઈ છે? <b>7</b>. <br>
+                            તેથી <b>40-55</b> એ આપણો <b>બહુલક વર્ગ</b> બનશે.
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:400px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#dcfce7; font-weight:bold; color:#14532d;'>
+                                        <th style='border:1px solid #86efac; padding:8px;'>વર્ગ અંતરાલ (ગુણ)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>વિદ્યાર્થીઓની સંખ્યા (f)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>સમજૂતી</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>10 - 25</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>2</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>25 - 40</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>3</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#64748b;'>&larr; f<sub>0</sub> (ઉપરનો વર્ગ)</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a; border:2px solid #ca8a04;'>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold;'>40 - 55</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#be123c;'>7</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#be123c;'>&larr; f<sub>1</sub> (સૌથી મોટી આવૃત્તિ)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>55 - 70</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>6</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#64748b;'>&larr; f<sub>2</sub> (નીચેનો વર્ગ)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>70 - 85</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>6</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>85 - 100</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>6</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <ul style='margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li>બહુલક વર્ગની અધઃસીમા <b>l = 40</b></li>
+                                <li>વર્ગલંબાઈ <b>h = 15</b> (કારણ કે 55 - 40 = 15)</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                Z = l + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f<sub>1</sub> - f<sub>0</sub></span><span>2f<sub>1</sub> - f<sub>0</sub> - f<sub>2</sub></span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; h<br><br>
+                                
+                                Z = 40 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7 - 3</span><span>2(7) - 3 - 6</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 15<br><br>
+                                
+                                Z = 40 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>14 - 9</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 15<br><br>
+                                
+                                Z = 40 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>5</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 15<br><br>
+                                
+                                <i style='color:#64748b;'>(15 અને 5 નો છેદ ઉડતા 3 વધે: 15 / 5 = 3)</i><br>
+                                Z = 40 + (4 &times; 3)<br>
+                                Z = 40 + 12<br>
+                                <b style='font-size:20px; color:#1d4ed8;'>Z = 52</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:15px; border-radius:8px; margin-top:15px; border-left:6px solid #16a34a; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'>
+                                <b style='color:#15803d; font-size:18px;'>🏆 સરખામણી અને નિષ્કર્ષ:</b><br>
+                                આ જ દાખલામાં આપણે <b>મધ્યક 62</b> શોધ્યો હતો, જ્યારે <b>બહુલક 52</b> આવ્યો છે. <br>
+                                આનો અર્થ એ થાય કે મહત્તમ વિદ્યાર્થીઓએ <b>52 ની આસપાસ</b> ગુણ મેળવ્યા છે (બહુલક), પરંતુ બધા જ 30 વિદ્યાર્થીઓના ગુણની સરેરાશ કાઢીએ તો તે <b>62</b> થાય છે (મધ્યક).
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+                
+        
+                
                 
                 
         
