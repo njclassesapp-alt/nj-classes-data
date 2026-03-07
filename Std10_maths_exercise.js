@@ -1044,7 +1044,97 @@ var njMathsExercise = {
                     </div>
                     `
                 },
-            
+        
+                {
+                    question: "સ્વા. 3.1 પ્રશ્ન 3(i): નીચેના સુરેખ સમીકરણયુગ્મ સુસંગત છે કે સુસંગત નથી તે ગુણોત્તર પરથી નક્કી કરો.",
+                    question_desc: "3x + 2y = 5 અને 2x - 3y = 7",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 5  અને  2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 7</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>ગણતરી:</b><br>
+                            પહેલા બરાબરની જમણી બાજુના અચળ પદને ડાબી બાજુ લાવી પ્રમાણિત રૂપમાં ફેરવીએ:<br>
+                            3<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 5 = 0  &rArr; a<sub>1</sub> = 3, b<sub>1</sub> = 2, c<sub>1</sub> = -5<br>
+                            2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 7 = 0  &rArr; a<sub>2</sub> = 2, b<sub>2</sub> = -3, c<sub>2</sub> = -7<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>3</span><span>2</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>-3</span></span> = <b style='color:#1d4ed8;'>-<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>2</span><span>3</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#eff6ff; padding:10px; border-radius:5px; margin-top:10px;'>
+                                અહીં સ્પષ્ટ છે કે, <b style='color:#dc2626; font-size:18px;'><span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #dc2626; display:block;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> &ne; <span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #dc2626; display:block;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span></b><br>
+                                <b style='color:#1e3a8a;'>અંતિમ જવાબ:</b> આ સમીકરણ યુગ્મની રેખાઓ છેદતી રેખાઓ છે, તેથી તે <b>સુસંગત છે</b>.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 3.1 પ્રશ્ન 3(ii): 2x - 3y = 8 અને 4x - 6y = 9 સુસંગત છે કે નહિ?", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 8  અને  4<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 6<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 9</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>ગણતરી:</b><br>
+                            પ્રમાણિત રૂપ:<br>
+                            2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 8 = 0  &rArr; a<sub>1</sub> = 2, b<sub>1</sub> = -3, c<sub>1</sub> = -8<br>
+                            4<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 6<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 9 = 0  &rArr; a<sub>2</sub> = 4, b<sub>2</sub> = -6, c<sub>2</sub> = -9<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>4</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-3</span><span>-6</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>c<sub>1</sub></span><span>c<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-8</span><span>-9</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>8</span><span>9</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#fee2e2; padding:10px; border-radius:5px; margin-top:10px;'>
+                                અહીં જોઈ શકાય છે કે, <b style='color:#b91c1c; font-size:18px;'><span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #b91c1c; display:block;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #b91c1c; display:block;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span> &ne; <span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #b91c1c; display:block;'>c<sub>1</sub></span><span>c<sub>2</sub></span></span></b><br>
+                                <b style='color:#991b1b;'>અંતિમ જવાબ:</b> આપેલ સમીકરણ યુગ્મથી બનતી રેખાઓ સમાંતર છે, તેથી તેને કોઈ ઉકેલ નથી. એટલે કે તે <b>સુસંગત નથી</b>.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 3.1 પ્રશ્ન 3(iii): 3/2x + 5/3y = 7 અને 9x - 10y = 14 સુસંગત છે કે નહિ?", 
+                    question_desc: "બોર્ડમાં પૂછાવા માટે મોસ્ટ IMP (અપૂર્ણાંકની ટ્રીક સાથે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>3</span></span><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 7  અને  9<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 10<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 14</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 અંશ-છેદની ટ્રીક:</b> જ્યારે છેદની અંદર બીજો છેદ આવે, ત્યારે "અંશનો છેદ છેદમાં જાય" તે નિયમ વાપરવો.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>ગણતરી:</b><br>
+                            પ્રમાણિત રૂપ:<br>
+                            a<sub>1</sub> = 3/2, b<sub>1</sub> = 5/3, c<sub>1</sub> = -7<br>
+                            a<sub>2</sub> = 9, b<sub>2</sub> = -10, c<sub>2</sub> = -14<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3/2</span><span>9</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2 &times; 9</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>18</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>6</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5/3</span><span>-10</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>3 &times; (-10)</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>-30</span></span> = <b style='color:#1d4ed8;'>-<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>6</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <span style='color:#64748b; font-size:14px;'>(નોંધ: અહીં એક જવાબ 1/6 છે અને બીજો જવાબ -1/6 છે, એટલે કે બંને સરખા નથી!)</span><br>
+                                અહીં સ્પષ્ટ છે કે, <b style='color:#dc2626; font-size:18px;'><span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #dc2626; display:block;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> &ne; <span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #dc2626; display:block;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span></b><br>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> આ સમીકરણ યુગ્મ <b>સુસંગત છે</b> (કારણ કે તેને અનન્ય ઉકેલ છે).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        }
+                
         
                 
                       
