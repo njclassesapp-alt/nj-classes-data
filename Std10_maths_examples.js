@@ -2885,7 +2885,169 @@ var njMathsExamples = {
                     `
                 }
             ]
+        },
+            
+        // ------------------------------------
+        // પ્રકરણ 11: વર્તુળ સંબંધિત ક્ષેત્રફળ (ઉદાહરણના દાખલા)
+        // ------------------------------------
+        "11": {
+            "chapterName": "પ્રકરણ 11 (ઉદાહરણ)",
+            "chapterTitle": "વર્તુળ સંબંધિત ક્ષેત્રફળ - ઉદાહરણ",
+            "qa_list": [
+                { 
+                    question: "ઉદાહરણ 1: પિઝાનો ટુકડો (લઘુવૃત્તાંશ અને ગુરુવૃત્તાંશનું ક્ષેત્રફળ)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> <b>4 સેમી ત્રિજ્યાવાળા</b> અને કેન્દ્ર આગળ <b>30&deg; નો ખૂણો</b> બનાવતા વર્તુળના <b>વૃત્તાંશનું ક્ષેત્રફળ</b> શોધો. વળી, <b>ગુરુવૃત્તાંશનું ક્ષેત્રફળ</b> પણ શોધો. (&pi; = 3.14 લો).</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="110" cy="110" r="90" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" />
+                                
+                                <path d="M 110 110 L 196 85 A 90 90 0 1 0 196 135 Z" fill="#e0f2fe" />
+                                <text x="60" y="80" fill="#0369a1" font-weight="bold">ગુરુવૃત્તાંશ</text>
+                                
+                                <path d="M 110 110 L 196 85 A 90 90 0 0 1 196 135 Z" fill="#fef08a" stroke="#ca8a04" stroke-width="2" />
+                                <text x="145" y="115" fill="#a16207" font-weight="bold" font-size="12">લઘુવૃત્તાંશ</text>
+                                
+                                <circle cx="110" cy="110" r="4" fill="#000" />
+                                <text x="95" y="115" font-weight="bold">O</text>
+                                
+                                <path d="M 140 100 A 30 30 0 0 1 140 120" fill="none" stroke="#dc2626" stroke-width="2" />
+                                <text x="145" y="115" fill="#dc2626" font-weight="bold" font-size="12">30&deg;</text>
+                                
+                                <text x="150" y="90" font-weight="bold" fill="#0f172a" font-size="12">4 cm</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ડેટા અને સૂત્ર:</b><br>
+                            અહીં ત્રિજ્યા <b style='color:#1d4ed8;'>r = 4 cm</b> અને ખૂણો <b style='color:#be123c;'>&theta; = 30&deg;</b> છે.<br>
+                            લઘુવૃત્તાંશનું ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>&theta;</span><span>360&deg;</span></span> &times; &pi;r&sup2;
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: લઘુવૃત્તાંશનું ક્ષેત્રફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30</span><span>360</span></span> &times; 3.14 &times; (4)&sup2;<br>
+                                
+                                <i style='color:#64748b;'>(30 અને 360 નો છેદ ઉડાડતાં 1/12 વધે)</i><br>
+                                ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>12</span></span> &times; 3.14 &times; 16<br>
+                                
+                                <i style='color:#64748b;'>(12 અને 16 બંને 4 ના ઘડિયામાં આવે: 4&times;3=12, 4&times;4=16)</i><br>
+                                ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3.14 &times; 4</span><span>3</span></span><br>
+                                
+                                ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>12.56</span><span>3</span></span><br>
+                                
+                                <b style='font-size:20px; color:#15803d;'>લઘુવૃત્તાંશ = 4.19 cm&sup2; (આશરે)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: ગુરુવૃત્તાંશનું ક્ષેત્રફળ શોધવું</b><br>
+                            ગુરુવૃત્તાંશ = <b>આખા વર્તુળનું ક્ષેત્રફળ - લઘુવૃત્તાંશનું ક્ષેત્રફળ</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                વર્તુળનું ક્ષેત્રફળ = &pi;r&sup2; = 3.14 &times; (4)&sup2;<br>
+                                વર્તુળનું ક્ષેત્રફળ = 3.14 &times; 16 = <b style='color:#1d4ed8;'>50.24 cm&sup2;</b><br><br>
+                                
+                                ગુરુવૃત્તાંશ = 50.24 - 4.19<br>
+                                <b style='font-size:20px; color:#047857;'>ગુરુવૃત્તાંશ = 46.05 cm&sup2;</b>
+                            </div>
+                            <p style='margin-top:10px; color:#0f172a; font-weight:bold;'>જવાબ: લઘુવૃત્તાંશ 4.19 cm&sup2; અને ગુરુવૃત્તાંશ 46.05 cm&sup2; છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 2: તરબૂચની ચીરી (વૃત્તખંડનું ક્ષેત્રફળ અને ત્રિકોણની ગણતરી)", 
+                    question_desc: "બોર્ડની પરીક્ષા માટે મોસ્ટ IMP (ત્રિકોણમિતિનો ઉપયોગ)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> <b>21 સેમી ત્રિજ્યાવાળા</b> વર્તુળમાં કેન્દ્ર આગળ <b>120&deg; નો ખૂણો</b> બને છે. તો તેને અનુરૂપ <b>વૃત્તખંડ (Segment)</b> નું ક્ષેત્રફળ શોધો. (&pi; = 22/7 લો).</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="240" height="180" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 20 50 A 100 100 0 0 0 220 50" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" />
+                                
+                                <polygon points="120,150 40,50 200,50" fill="#ffffff" stroke="#334155" stroke-width="1.5" />
+                                
+                                <line x1="40" y1="50" x2="200" y2="50" stroke="#be123c" stroke-width="2" />
+                                
+                                <path d="M 40 50 A 100 100 0 0 0 200 50 Z" fill="#fecdd3" stroke="#be123c" stroke-width="2" />
+                                <text x="120" y="80" fill="#9f1239" font-weight="bold" font-size="12" text-anchor="middle">વૃત્તખંડ</text>
+                                
+                                <circle cx="120" cy="150" r="4" fill="#000" />
+                                <text x="115" y="165" font-weight="bold">O</text>
+                                <line x1="120" y1="150" x2="120" y2="50" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,4" />
+                                <text x="115" y="45" font-weight="bold" fill="#2563eb">M</text>
+                                
+                                <text x="25" y="45" font-weight="bold">A</text>
+                                <text x="205" y="45" font-weight="bold">B</text>
+                                
+                                <text x="60" y="115" font-weight="bold" fill="#0f172a" font-size="12">21 cm</text>
+                                <path d="M 105 130 A 25 25 0 0 1 135 130" fill="none" stroke="#dc2626" stroke-width="2" />
+                                <text x="120" y="125" fill="#dc2626" font-weight="bold" font-size="10" text-anchor="middle">120&deg;</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (સૂત્ર):</b><br>
+                            <b style='color:#be123c;'>વૃત્તખંડ = આખા પિઝાનો ટુકડો (વૃત્તાંશ) - ત્રિકોણની સાઈઝ (&Delta;AOB)</b><br>
+                            અહીં ખૂણો 120&deg; છે, એટલે ત્રિકોણનું ક્ષેત્રફળ શોધવા આપણે તેને વચ્ચેથી કાપીને બે 60&deg; ના કાટકોણ ત્રિકોણ બનાવીશું (ત્રિકોણમિતિનો ઉપયોગ કરીશું).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: આખા વૃત્તાંશ (OAPB) નું ક્ષેત્રફળ</b><br>
+                            અહીં r = 21 cm, &theta; = 120&deg;.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                વૃત્તાંશ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>120</span><span>360</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 21 &times; 21<br>
+                                
+                                <i style='color:#64748b;'>(120 અને 360 નો છેદ ઊડતા 1/3 વધશે)</i><br>
+                                વૃત્તાંશ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 21 &times; 21<br>
+                                
+                                <i style='color:#64748b;'>(છેદમાં 3 &times; 7 = 21 થાય, જે ઉપરના એક 21 સાથે ઉડી જશે)</i><br>
+                                વૃત્તાંશ = 22 &times; 21<br>
+                                <b style='font-size:18px; color:#15803d;'>વૃત્તાંશ = 462 cm&sup2;</b> &nbsp;&nbsp; ... (પરિણામ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: ત્રિકોણ AOB નું ક્ષેત્રફળ શોધવું (ત્રિકોણમિતિનો જાદુ)</b><br>
+                            કેન્દ્ર O માંથી જીવા AB પર લંબ OM દોરો. <br>
+                            આ લંબ ખૂણા 120&deg; ના બે સરખા ભાગ (60&deg; - 60&deg;) કરશે અને જીવા AB ના પણ 2 સરખા ભાગ (AM અને MB) કરશે.<br>
+                            હવે કાટકોણ ત્રિકોણ &Delta;OMA માં ખૂણો 60&deg; છે અને કર્ણ (OA) = 21 છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>પાયો (AM) શોધવા:</b><br>
+                                sin 60&deg; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AM</span><span>OA</span></span> &nbsp;&rArr;&nbsp; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AM</span><span>21</span></span> &nbsp;&rArr;&nbsp; <b style='color:#1d4ed8;'>AM = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>21&radic;3</span><span>2</span></span></b><br>
+                                આખી જીવા <b>AB</b> = 2 &times; AM = 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>21&radic;3</span><span>2</span></span> = <b style='color:#1d4ed8;'>21&radic;3 cm</b><br><br>
+                                
+                                <b style='color:#0f172a;'>વેધ (OM) શોધવા:</b><br>
+                                cos 60&deg; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OM</span><span>OA</span></span> &nbsp;&rArr;&nbsp; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OM</span><span>21</span></span> &nbsp;&rArr;&nbsp; <b style='color:#1d4ed8;'>OM = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>21</span><span>2</span></span> cm</b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                <b>ત્રિકોણ AOB નું ક્ષેત્રફળ</b> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; પાયો(AB) &times; વેધ(OM)<br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; (21&radic;3) &times; (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>21</span><span>2</span></span>)<br>
+                                <b style='font-size:18px; color:#1d4ed8;'>&Delta;AOB = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>441&radic;3</span><span>4</span></span> cm&sup2;</b> &nbsp;&nbsp; ... (પરિણામ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f;'>સ્ટેપ 3: ફાઇનલ જવાબ (વૃત્તખંડનું ક્ષેત્રફળ)</b><br>
+                            <p style='margin-top:5px;'>વૃત્તખંડ = વૃત્તાંશ - ત્રિકોણ AOB</p>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:22px; font-weight:bold; color:#be123c; background-color:#fce7f3; padding:15px; border-radius:8px; text-align:center;'>
+                                વૃત્તખંડ = 462 - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>441&radic;3</span><span>4</span></span> cm&sup2;
+                            </div>
+                            <p style='margin-top:10px; font-size:14px; color:#64748b; text-align:center;'>(નોંધ: બોર્ડની પરીક્ષામાં &radic;3 ની કિંમત ન આપી હોય તો અહીં જ દાખલો પૂરો કરી દેવો, પૂરા માર્ક્સ મળશે!)</p>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+    
     
                 
     
