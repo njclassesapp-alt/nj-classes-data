@@ -2671,7 +2671,222 @@ var njMathsExamples = {
                     `
                 }
             ]
+        },
+            ,
+        // ------------------------------------
+        // પ્રકરણ 10: વર્તુળ (ઉદાહરણના દાખલા)
+        // ------------------------------------
+        "10": {
+            "chapterName": "પ્રકરણ 10 (ઉદાહરણ)",
+            "chapterTitle": "વર્તુળ - ઉદાહરણના દાખલા",
+            "qa_list": [
+                { 
+                    question: "ઉદાહરણ 1: સમકેન્દ્રી વર્તુળોની જીવા (સાબિતી)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> સાબિત કરો કે બે સમકેન્દ્રી વર્તુળોમાં, મોટા વર્તુળની જીવા જે નાના વર્તુળને સ્પર્શે છે, તે સ્પર્શબિંદુએ દુભાગે છે (એટલે કે તેના બે સરખા ભાગ થાય છે).</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="240" height="200" viewBox="0 0 240 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="120" cy="100" r="80" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+                                <circle cx="120" cy="100" r="45" fill="#dcfce7" stroke="#047857" stroke-width="2" />
+                                
+                                <circle cx="120" cy="100" r="4" fill="#000" />
+                                <text x="115" y="90" font-weight="bold">O</text>
+                                
+                                <line x1="55" y1="145" x2="185" y2="145" stroke="#be123c" stroke-width="3" />
+                                <text x="40" y="150" font-weight="bold" fill="#be123c">A</text>
+                                <text x="195" y="150" font-weight="bold" fill="#be123c">B</text>
+                                
+                                <circle cx="120" cy="145" r="4" fill="#000" />
+                                <text x="115" y="165" font-weight="bold">P</text>
+                                
+                                <line x1="120" y1="100" x2="120" y2="145" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,4" />
+                                
+                                <polyline points="110,145 110,135 120,135" fill="none" stroke="black" stroke-width="1.5" />
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (ફક્ત 2 જ નિયમો યાદ રાખો):</b><br>
+                            1. <b>પ્રમેય 10.1:</b> સ્પર્શક અને ત્રિજ્યા હંમેશા કાટખૂણે (90&deg;) હોય. (OP &perp; AB).<br>
+                            2. <b>ધોરણ 9 નો પ્રમેય:</b> વર્તુળના કેન્દ્રમાંથી જીવા પર દોરેલો લંબ જીવાને દુભાગે છે! બસ દાખલો પૂરો.
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>✍️ સાબિતી:</b><br>
+                            <ul style='line-height:2; font-size:15px; margin-bottom:0;'>
+                                <li>અહીં કેન્દ્ર O વાળા બે સમકેન્દ્રી વર્તુળો C₁ (મોટું) અને C₂ (નાનું) છે.</li>
+                                <li>AB એ મોટા વર્તુળ C₁ ની જીવા છે, જે નાના વર્તુળ C₂ ને P બિંદુએ સ્પર્શે છે.</li>
+                                <li>તેથી, <b>AB એ નાના વર્તુળ C₂ નો સ્પર્શક બને</b> છે અને OP તેની ત્રિજ્યા છે.</li>
+                                <li>પ્રમેય 10.1 મુજબ, સ્પર્શક એ ત્રિજ્યાને લંબ હોય છે. તેથી <b style='color:#be123c;'>OP &perp; AB</b> થાય.</li>
+                                <li>હવે મોટા વર્તુળ C₁ માટે વિચારો: AB તેની જીવા છે અને OP એ કેન્દ્ર O માંથી દોરેલો લંબ છે.</li>
+                                <li>આપણે જાણીએ છીએ કે કેન્દ્રમાંથી જીવા પર દોરેલો લંબ જીવાને <b>દુભાગે (બે સમાન ભાગ કરે)</b> છે.</li>
+                            </ul>
+                            <div style='font-size:18px; font-weight:bold; color:#16a34a; text-align:center; padding:10px; background-color:#dcfce7; border-radius:5px; margin-top:10px;'>
+                                તેથી, AP = PB. (સાબિત થાય છે).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 2: ∠PTQ = 2∠OPQ સાબિત કરો", 
+                    question_desc: "બોર્ડમાં પૂછાતો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> કેન્દ્ર O વાળા વર્તુળના બહારના બિંદુ T માંથી વર્તુળને બે સ્પર્શકો TP અને TQ દોરેલા છે. સાબિત કરો કે <b>&angle;PTQ = 2&angle;OPQ</b>.</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="260" height="180" viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="80" cy="90" r="50" fill="#f1f5f9" stroke="#475569" stroke-width="2" />
+                                
+                                <circle cx="80" cy="90" r="4" fill="#000" />
+                                <text x="60" y="95" font-weight="bold">O</text>
+                                
+                                <circle cx="230" cy="90" r="4" fill="#dc2626" />
+                                <text x="240" y="95" font-weight="bold" fill="#dc2626">T</text>
+                                
+                                <line x1="230" y1="90" x2="105" y2="45" stroke="#2563eb" stroke-width="2.5" />
+                                <line x1="230" y1="90" x2="105" y2="135" stroke="#2563eb" stroke-width="2.5" />
+                                
+                                <circle cx="105" cy="45" r="4" fill="#000" />
+                                <text x="95" y="35" font-weight="bold">P</text>
+                                <circle cx="105" cy="135" r="4" fill="#000" />
+                                <text x="95" y="155" font-weight="bold">Q</text>
+                                
+                                <line x1="105" y1="45" x2="105" y2="135" stroke="#ea580c" stroke-width="2" />
+                                
+                                <line x1="80" y1="90" x2="105" y2="45" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4" />
+                                <line x1="80" y1="90" x2="105" y2="135" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4" />
+                                
+                                <path d="M 210 90 A 20 20 0 0 0 215 80" fill="none" stroke="#dc2626" stroke-width="2" />
+                                <path d="M 210 90 A 20 20 0 0 1 215 100" fill="none" stroke="#dc2626" stroke-width="2" />
+                                <text x="195" y="95" font-weight="bold" fill="#dc2626">&theta;</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>સ્ટેપ 1: &theta; ધારવો અને સમદ્વિબાજુ ત્રિકોણનો ઉપયોગ</b><br>
+                            ધારો કે બહારનો ખૂણો <b>&angle;PTQ = &theta;</b> છે.<br>
+                            પ્રમેય 10.2 મુજબ, બહારના બિંદુમાંથી દોરેલા સ્પર્શકો સમાન હોય છે, તેથી <b style='color:#1d4ed8;'>TP = TQ</b> થાય.<br>
+                            આમ, &Delta;TPQ એ <b>સમદ્વિબાજુ ત્રિકોણ</b> બને છે, જેમાં સમાન બાજુની સામેના ખૂણા સમાન હોય: <b>&angle;TPQ = &angle;TQP</b>.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 2: &angle;TPQ નું માપ શોધવું</b><br>
+                            ત્રિકોણના ત્રણેય ખૂણાનો સરવાળો 180&deg; થાય.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                &angle;TPQ + &angle;TQP + &angle;PTQ = 180&deg;<br>
+                                &angle;TPQ + &angle;TPQ + &theta; = 180&deg; <i style='color:#64748b;'>(બંને ખૂણા સરખા છે)</i><br>
+                                2&angle;TPQ = 180&deg; - &theta;<br>
+                                &angle;TPQ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>180&deg; - &theta;</span><span>2</span></span><br>
+                                <b style='color:#047857;'>&angle;TPQ = 90&deg; - &theta;/2</b> &nbsp;&nbsp; ... (પરિણામ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 3: પ્રમેય 10.1 લગાડી સાબિતી પૂરી કરવી</b><br>
+                            પ્રમેય 10.1 મુજબ, ત્રિજ્યા (OP) એ સ્પર્શક (TP) ને લંબ હોય છે.<br>
+                            તેથી, <b>આખો ખૂણો &angle;OPT = 90&deg;</b> થાય.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                હવે આકૃતિ પરથી જુઓ:<br>
+                                &angle;OPQ = આખો ખૂણો (&angle;OPT) - બહારનો ખૂણો (&angle;TPQ)<br>
+                                &angle;OPQ = 90&deg; - (90&deg; - &theta;/2) <i style='color:#64748b;'>(પરિણામ 1 પરથી)</i><br>
+                                &angle;OPQ = 90&deg; - 90&deg; + &theta;/2<br>
+                                &angle;OPQ = &theta;/2<br>
+                                
+                                <i style='color:#be123c;'>(2 ને સામે ગુણાકારમાં લઈ જતાં)</i><br>
+                                2&angle;OPQ = &theta;
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#be123c;'>પરંતુ આપણે &theta; = &angle;PTQ ધાર્યો હતો, તેથી:<br>
+                            <b style='font-size:18px; color:#1d4ed8;'>&angle;PTQ = 2&angle;OPQ</b> (સાબિત થાય છે).</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 3: સ્પર્શક TP ની લંબાઈ શોધવી (3 માર્ક્સનો લાંબો દાખલો)", 
+                    question_desc: "પાયથાગોરસ અને સમરૂપતાનો શ્રેષ્ઠ સમન્વય",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> <b>5 સેમી ત્રિજ્યાવાળા</b> વર્તુળની <b>8 સેમી લંબાઈની જીવા PQ</b> છે. P અને Q માંથી પસાર થતા સ્પર્શકો બિંદુ T માં છેદે છે. <b>સ્પર્શક TP ની લંબાઈ</b> શોધો.</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="260" height="180" viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="80" cy="90" r="50" fill="#fcf8ff" stroke="#6366f1" stroke-width="2" />
+                                
+                                <circle cx="80" cy="90" r="4" fill="#000" />
+                                <text x="60" y="95" font-weight="bold">O</text>
+                                
+                                <circle cx="240" cy="90" r="4" fill="#dc2626" />
+                                <text x="245" y="95" font-weight="bold" fill="#dc2626">T</text>
+                                
+                                <line x1="240" y1="90" x2="110" y2="50" stroke="#be123c" stroke-width="2.5" />
+                                <line x1="240" y1="90" x2="110" y2="130" stroke="#be123c" stroke-width="2.5" />
+                                
+                                <circle cx="110" cy="50" r="4" fill="#000" />
+                                <text x="100" y="40" font-weight="bold">P</text>
+                                <circle cx="110" cy="130" r="4" fill="#000" />
+                                <text x="100" y="150" font-weight="bold">Q</text>
+                                
+                                <line x1="110" y1="50" x2="110" y2="130" stroke="#16a34a" stroke-width="2" />
+                                
+                                <line x1="80" y1="90" x2="240" y2="90" stroke="#64748b" stroke-width="1.5" stroke-dasharray="5,5" />
+                                
+                                <circle cx="110" cy="90" r="4" fill="#2563eb" />
+                                <text x="115" y="85" font-weight="bold" fill="#2563eb">R</text>
+                                
+                                <line x1="80" y1="90" x2="110" y2="50" stroke="#000" stroke-width="1" />
+                                <text x="80" y="65" font-size="12" font-weight="bold">5 cm</text>
+                                <text x="115" y="70" font-size="12" fill="#16a34a" font-weight="bold">4 cm</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (શોર્ટકટ રીત વાપરો!):</b><br>
+                            આ દાખલાને ગણવાની બે રીતો છે: એક પાયથાગોરસની (જે ખૂબ લાંબી અને અઘરી છે) અને બીજી <b>સમરૂપતા (Similarity) ની શોર્ટકટ રીત</b>. આપણે બોર્ડમાં પૂરા માર્ક્સ અપાવે તેવી <b>સૌથી સહેલી શોર્ટકટ રીત</b> થી ગણીશું!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: નાનો કાટકોણ ત્રિકોણ &Delta;POR ઉકેલવો</b><br>
+                            અહીં OT એ જીવા PQ નો લંબદ્વિભાજક બને છે (એટલે કે 90&deg; નો ખૂણો બનાવે અને જીવાના બે સરખા ભાગ કરે).<br>
+                            આખી જીવા PQ = 8 છે, તેથી તેનો અડધો ભાગ <b style='color:#16a34a;'>PR = 4 cm</b> થાય.<br>
+                            ત્રિજ્યા <b style='color:#0f172a;'>OP = 5 cm</b> આપેલ છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                પાયથાગોરસ મુજબ &Delta;POR માં:<br>
+                                OR&sup2; = OP&sup2; - PR&sup2;<br>
+                                OR&sup2; = 5&sup2; - 4&sup2; = 25 - 16 = 9<br>
+                                <b style='font-size:18px; color:#15803d;'>OR = 3 cm</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 🚀 સમરૂપતાની શોર્ટકટ ટ્રીક (સીધો જવાબ!)</b><br>
+                            અહીં બે કાટકોણ ત્રિકોણ <b>&Delta;TPR</b> અને <b>&Delta;PRO</b> બંને <b>સમરૂપ ત્રિકોણો</b> છે (ખૂ.ખૂ. શરત મુજબ).<br>
+                            જ્યારે બે ત્રિકોણ સમરૂપ હોય, ત્યારે તેમની બાજુઓનો ગુણોત્તર સમાન થાય!<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>TP (મોટાનો કર્ણ)</span><span>OP (નાનાનો કર્ણ)</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PR (મોટાની બાજુ)</span><span>OR (નાનાની બાજુ)</span></span><br>
+                                
+                                <i style='color:#64748b;'>(કિંમતો મૂકતાં: OP=5, PR=4, OR=3)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>TP</span><span>5</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>3</span></span><br>
+                                
+                                <i style='color:#64748b;'>(5 ને સામે ગુણાકારમાં લઈ જતાં)</i><br>
+                                TP = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4 &times; 5</span><span>3</span></span><br>
+                                
+                                <b style='font-size:20px; color:#be123c;'>TP = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>20</span><span>3</span></span> cm</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: સ્પર્શક TP ની લંબાઈ 20/3 cm છે.</p>
+                            <p style='font-size:14px; color:#64748b; margin-bottom:0;'>(નોંધ: તમે આ દાખલો ચોપડીની x અને y ધારવા વાળી પાયથાગોરસની લાંબી રીતથી પણ ગણી શકો, પણ બોર્ડમાં આ સમરૂપતાની રીત સમય બચાવશે અને ભૂલ નહિ પડે).</p>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+    
                 
     
     
