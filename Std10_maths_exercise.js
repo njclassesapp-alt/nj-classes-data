@@ -1527,19 +1527,127 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                {
+                    question: "🌟 સ્વા. 3.1 પ્રશ્ન 7: સમીકરણો x - y + 1 = 0 અને 3x + 2y - 12 = 0 દ્વારા દર્શાવાતી રેખાઓના આલેખ દોરો.",
+                    question_desc: "આ રેખાઓ અને X-અક્ષ દ્વારા રચાતા ત્રિકોણના શિરોબિંદુઓના યામ શોધો અને ત્રિકોણાકાર પ્રદેશને છાયાંકિત કરો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> સમીકરણો <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> + 1 = 0 અને 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> - 12 = 0 દ્વારા દર્શાવાતી રેખાઓના આલેખ દોરો. આ રેખાઓ અને <b>X-અક્ષ દ્વારા રચાતા ત્રિકોણના</b> શિરોબિંદુઓના યામ શોધો અને ત્રિકોણાકાર પ્રદેશને છાયાંકિત (Shade) કરો.</p>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: આલેખ માટે કોષ્ટક તૈયાર કરવા</b><br>
+                            
+                            <div style='background-color:#ffffff; border:1px solid #bfdbfe; border-radius:5px; padding:10px; margin-top:10px;'>
+                                <b style='color:#2563eb;'>સમીકરણ 1: <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 1 = 0</b><br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> ને સામે લઈ જતાં (કર્તા બનાવતાં): <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 1</b><br>
+                                <div style='overflow-x:auto;'>
+                                    <table style='width:100%; max-width:300px; text-align:center; border-collapse:collapse; margin-top:10px;'>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>-1</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px; font-weight:bold; background-color:#fef08a;'>2</td>
+                                        </tr>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>1</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px; font-weight:bold; background-color:#fef08a;'>3</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <span style='font-size:13px; color:#64748b;'>* (નોંધ: x= -1 મુકવાથી y=0 મળે છે, જે X-અક્ષ પરનું બિંદુ છે).</span>
+                            </div>
+
+                            <div style='background-color:#ffffff; border:1px solid #bfdbfe; border-radius:5px; padding:10px; margin-top:15px;'>
+                                <b style='color:#2563eb;'>સમીકરણ 2: 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 12 = 0</b><br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> ને કર્તા બનાવતાં:<br>
+                                <div style='overflow-x:auto; margin:5px 0; font-size:18px; font-weight:bold; color:#dc2626;'>
+                                    <i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>12 - 3<i style='font-family:"Times New Roman",serif;'>x</i></span><span>2</span></span>
+                                </div>
+                                <div style='overflow-x:auto;'>
+                                    <table style='width:100%; max-width:300px; text-align:center; border-collapse:collapse; margin-top:10px;'>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px; font-weight:bold; background-color:#fef08a;'>2</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>4</td>
+                                        </tr>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>6</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px; font-weight:bold; background-color:#fef08a;'>3</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <span style='font-size:13px; color:#64748b;'>* (નોંધ: x= 4 મુકવાથી y=0 મળે છે, જે પણ X-અક્ષ પરનું બિંદુ છે).</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: આલેખની રચના અને ત્રિકોણ</b><br>
+                            
+                            
+                            <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                                <svg width="320" height="260" viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border:1px solid #cbd5e1; border-radius:5px;">
+                                    
+                                    <polygon points="50,200 200,200 140,110" fill="#fef08a" stroke="#ca8a04" stroke-width="1" fill-opacity="0.6"/>
+                                    <g stroke="#ca8a04" stroke-width="1" opacity="0.3">
+                                        <line x1="60" y1="200" x2="140" y2="120" /><line x1="80" y1="200" x2="145" y2="135" /><line x1="100" y1="200" x2="155" y2="145" /><line x1="120" y1="200" x2="165" y2="155" /><line x1="140" y1="200" x2="175" y2="165" /><line x1="160" y1="200" x2="185" y2="175" /><line x1="180" y1="200" x2="195" y2="185" />
+                                    </g>
+
+                                    <g stroke="#e2e8f0" stroke-width="1">
+                                        <line x1="0" y1="20" x2="320" y2="20" /><line x1="0" y1="50" x2="320" y2="50" /><line x1="0" y1="80" x2="320" y2="80" /><line x1="0" y1="110" x2="320" y2="110" /><line x1="0" y1="140" x2="320" y2="140" /><line x1="0" y1="170" x2="320" y2="170" /><line x1="0" y1="200" x2="320" y2="200" /><line x1="0" y1="230" x2="320" y2="230" />
+                                        <line x1="20" y1="0" x2="20" y2="260" /><line x1="50" y1="0" x2="50" y2="260" /><line x1="80" y1="0" x2="80" y2="260" /><line x1="110" y1="0" x2="110" y2="260" /><line x1="140" y1="0" x2="140" y2="260" /><line x1="170" y1="0" x2="170" y2="260" /><line x1="200" y1="0" x2="200" y2="260" /><line x1="230" y1="0" x2="230" y2="260" /><line x1="260" y1="0" x2="260" y2="260" /><line x1="290" y1="0" x2="290" y2="260" />
+                                    </g>
+                                    
+                                    <line x1="0" y1="200" x2="320" y2="200" stroke="#0f172a" stroke-width="2.5" /> <line x1="80" y1="0" x2="80" y2="260" stroke="#0f172a" stroke-width="2.5" /> <text x="305" y="195" font-weight="bold" font-size="12">X</text>
+                                    <text x="85" y="15" font-weight="bold" font-size="12">Y</text>
+                                    <text x="85" y="215" font-weight="bold" font-size="12">O</text>
+                                    
+                                    <text x="45" y="215" font-size="10">-1</text><text x="15" y="215" font-size="10">-2</text>
+                                    <text x="107" y="215" font-size="10">1</text><text x="137" y="215" font-size="10">2</text><text x="167" y="215" font-size="10">3</text><text x="197" y="215" font-size="10">4</text><text x="227" y="215" font-size="10">5</text><text x="257" y="215" font-size="10">6</text>
+                                    
+                                    <text x="65" y="175" font-size="10">1</text><text x="65" y="145" font-size="10">2</text><text x="65" y="115" font-size="10">3</text><text x="65" y="85" font-size="10">4</text><text x="65" y="55" font-size="10">5</text><text x="65" y="25" font-size="10">6</text>
+                                    
+                                    <line x1="10" y1="240" x2="230" y2="20" stroke="#2563eb" stroke-width="3" />
+                                    <text x="105" y="60" font-size="12" fill="#2563eb" font-weight="bold" transform="rotate(-45 105 60)">x - y + 1 = 0</text>
+                                    
+                                    <line x1="75" y1="12.5" x2="235" y2="252.5" stroke="#dc2626" stroke-width="3" />
+                                    <text x="190" y="150" font-size="12" fill="#dc2626" font-weight="bold" transform="rotate(56 190 150)">3x + 2y - 12 = 0</text>
+                                    
+                                    <circle cx="140" cy="110" r="5" fill="#0f172a" />
+                                    <text x="150" y="105" font-size="14" font-weight="bold" fill="#0f172a">A(2, 3)</text>
+                                    
+                                    <circle cx="50" cy="200" r="5" fill="#0f172a" />
+                                    <text x="25" y="190" font-size="14" font-weight="bold" fill="#0f172a">B(-1, 0)</text>
+                                    
+                                    <circle cx="200" cy="200" r="5" fill="#0f172a" />
+                                    <text x="190" y="190" font-size="14" font-weight="bold" fill="#0f172a">C(4, 0)</text>
+                                </svg>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:15px; border-radius:8px; margin-top:15px; border-left:6px solid #16a34a; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'>
+                                <b style='color:#15803d; font-size:18px;'>🏆 આલેખ પરથી નિષ્કર્ષ:</b><br>
+                                આલેખમાં જોઈ શકાય છે કે, બંને રેખાઓ અને X-અક્ષ દ્વારા એક સરસ મજાનો ત્રિકોણ <b>&Delta;ABC</b> બને છે (જે પીળા રંગથી દર્શાવેલ છે).<br><br>
+                                <b>અંતિમ જવાબ:</b> આ ત્રિકોણના શિરોબિંદુઓના યામ નીચે મુજબ છે:<br>
+                                <ul style='font-size:16px; margin-top:5px; margin-bottom:0;'>
+                                    <li><b>A (2, 3)</b> &nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'>(બંને રેખાઓનું છેદબિંદુ)</span></li>
+                                    <li><b>B (-1, 0)</b> &nbsp;<span style='color:#64748b; font-size:14px;'>(પહેલી રેખાનું X-અક્ષ સાથેનું છેદબિંદુ)</span></li>
+                                    <li><b>C (4, 0)</b> &nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'>(બીજી રેખાનું X-અક્ષ સાથેનું છેદબિંદુ)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
-                
-        
-                
-        
-                
             
-        
-                
-        
                 
                       
                     
