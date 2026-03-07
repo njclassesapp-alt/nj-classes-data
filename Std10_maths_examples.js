@@ -4180,26 +4180,134 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "🌟 ઉદાહરણ 8: ખૂટતી આવૃત્તિઓ x અને y શોધો (મોસ્ટ IMP)", 
+                    question_desc: "બોર્ડમાં 4 ગુણ માટે પૂછાતો સૌથી અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન (પાઠ્યપુસ્તક મુજબ):</b> નીચે આપેલ આવૃત્તિ-વિતરણનો <b>મધ્યસ્થ 28.5</b> છે. જો <b>કુલ આવૃત્તિ 60</b> હોય, તો <b>x અને y નાં મૂલ્યો શોધો.</b></p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: સંચયી આવૃત્તિ (cf) નું કોષ્ટક બનાવવું</b><br>
+                            આપણને કુલ આવૃત્તિ <b>n = 60</b> આપેલી છે. તેથી <b>n/2 = 30</b> થાય.
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:500px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#dcfce7; font-weight:bold; color:#14532d;'>
+                                        <th style='border:1px solid #86efac; padding:8px;'>વર્ગ અંતરાલ</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>આવૃત્તિ (f)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>સંચયી આવૃત્તિ (cf)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>સમજૂતી</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>0 - 10</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>5</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>5</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>10 - 20</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#be123c; font-weight:bold;'>x</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#be123c; font-weight:bold;'>5 + x</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#64748b;'>&larr; આ આપણો <b>cf</b> બનશે</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a; border:2px solid #ca8a04;'>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold;'>20 - 30</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#1d4ed8;'>20</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold;'>25 + x</td>
+                                        <td style='border:1px solid #ca8a04; padding:5px; font-weight:bold; color:#1d4ed8;'>&larr; આ આપણો <b>f</b> બનશે</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>30 - 40</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>15</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>40 + x</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>40 - 50</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#ea580c; font-weight:bold;'>y</td>
+                                        <td style='border:1px solid #86efac; padding:5px; color:#ea580c; font-weight:bold;'>40 + x + y</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #86efac; padding:5px;'>50 - 60</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'>5</td>
+                                        <td style='border:1px solid #86efac; padding:5px; font-weight:bold;'>45 + x + y</td>
+                                        <td style='border:1px solid #86efac; padding:5px;'></td>
+                                    </tr>
+                                    <tr style='background-color:#bbf7d0; font-weight:bold;'>
+                                        <td style='border:1px solid #86efac; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'>60</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'>-</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સ્ટેપ 2: પહેલું સમીકરણ બનાવવું</b><br>
+                            કોષ્ટકની છેલ્લી સંચયી આવૃત્તિ હંમેશા કુલ આવૃત્તિ (60) બરાબર જ થાય.<br>
+                            <div style='font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                45 + x + y = 60<br>
+                                x + y = 60 - 45<br>
+                                <b style='color:#1d4ed8; font-size:18px;'>x + y = 15</b> &nbsp;&nbsp; ... (સમીકરણ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 3: મધ્યસ્થ વર્ગ નક્કી કરવો અને કિંમતો તારવવી</b><br>
+                            આપણને <b>મધ્યસ્થ (M) = 28.5</b> આપેલો છે. આ કિંમત <b>20 અને 30 ની વચ્ચે</b> આવે છે.<br>
+                            તેથી <b>20-30</b> એ આપણો <b>મધ્યસ્થ વર્ગ</b> છે!
+                            <ul style='margin-bottom:0; margin-top:5px; font-size:16px; color:#0f172a; line-height:2;'>
+                                <li>અધઃસીમા <b style='color:#047857;'>l = 20</b></li>
+                                <li>વર્ગલંબાઈ <b style='color:#047857;'>h = 10</b></li>
+                                <li>ઉપરના વર્ગની સંચયી આવૃત્તિ <b><span style='color:#be123c;'>cf = (5 + x)</span></b></li>
+                                <li>તે જ વર્ગની આવૃત્તિ <b><span style='color:#1d4ed8;'>f = 20</span></b></li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>સ્ટેપ 4: સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                M = l + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; h<br><br>
+                                
+                                28.5 = 20 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30 - (5 + x)</span><span>20</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 10<br><br>
+                                
+                                <i style='color:#64748b;'>(પહેલા 20 ને ડાબી બાજુ માઇનસમાં લઈ જતાં અને કૌંસ ખોલતાં)</i><br>
+                                28.5 - 20 = <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30 - 5 - x</span><span>20</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 10<br><br>
+                                
+                                <i style='color:#64748b;'>(10 અને 20 નો છેદ ઉડતા છેદમાં 2 વધશે)</i><br>
+                                8.5 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25 - x</span><span>2</span></span><br><br>
+                                
+                                <i style='color:#64748b;'>(2 ને 8.5 સાથે ગુણાકારમાં લઈ જતાં)</i><br>
+                                8.5 &times; 2 = 25 - x<br>
+                                17 = 25 - x<br>
+                                x = 25 - 17<br>
+                                <b style='font-size:20px; color:#be123c;'>x = 8</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <b style='color:#15803d;'>સ્ટેપ 5: સમીકરણ 1 માં x ની કિંમત મૂકતાં (y શોધવા)</b><br>
+                                <div style='font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                    x + y = 15<br>
+                                    8 + y = 15<br>
+                                    y = 15 - 8<br>
+                                    <b style='font-size:20px; color:#ea580c;'>y = 7</b>
+                                </div>
+                                <p style='margin-top:10px; font-weight:bold; color:#0f172a; font-size:18px;'>અંતિમ જવાબ: ખૂટતી આવૃત્તિઓ x = 8 અને y = 7 છે.</p>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
             
-        
-                
-                
-        
-                
-                
-                
-        
-    
-                        
-                
-            
-        
-    
-    
     
                 
     
