@@ -1195,6 +1195,117 @@ var njMathsExercise = {
                     `
                 },
             
+                {
+                    question: "સ્વા. 3.1 પ્રશ્ન 4(i): નીચેના સુરેખ સમીકરણયુગ્મ સુસંગત છે કે સુસંગત નથી તે જણાવો. જો સુસંગત હોય, તો આલેખની રીતે ઉકેલ શોધો.",
+                    question_desc: "x + y = 5 અને 2x + 2y = 10",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 5  અને  2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 10</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સુસંગતતા ચકાસવી</b><br>
+                            પ્રમાણિત રૂપમાં ફેરવતાં:<br>
+                            <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 5 = 0  &rArr; a<sub>1</sub> = 1, b<sub>1</sub> = 1, c<sub>1</sub> = -5<br>
+                            2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 10 = 0  &rArr; a<sub>2</sub> = 2, b<sub>2</sub> = 2, c<sub>2</sub> = -10<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.8;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>c<sub>1</sub></span><span>c<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-5</span><span>-10</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px;'>
+                                અહીં ત્રણેય ગુણોત્તર સરખા છે. તેથી સમીકરણ યુગ્મથી બનતી રેખાઓ <b>સંપાતી (એકની ઉપર એક)</b> છે.<br>
+                                <b style='color:#15803d;'>નિષ્કર્ષ:</b> સમીકરણ યુગ્મ <b>સુસંગત છે</b>. (તેથી આપણે તેનો આલેખ દોરવો પડશે!)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: આલેખ માટે કોષ્ટક</b><br>
+                            અહીં સમીકરણ 2 માંથી 2 સામાન્ય કાઢીએ તો તે સમીકરણ 1 જેવું જ બની જાય છે. તેથી <b>બંને રેખાઓ માટે એક જ કોષ્ટક</b> બનશે.<br>
+                            <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 5 &rArr; <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 5 - <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i></b><br>
+                            
+                            <div style='overflow-x:auto;'>
+                                <table style='width:100%; max-width:300px; text-align:center; border-collapse:collapse; margin-top:10px;'>
+                                    <tr>
+                                        <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></th>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>3</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>5</td>
+                                    </tr>
+                                    <tr>
+                                        <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></th>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>5</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>2</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: આલેખની રજૂઆત</b><br>
+                            
+                            <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                                <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border:1px solid #cbd5e1; border-radius:5px;">
+                                    <g stroke="#e2e8f0" stroke-width="1">
+                                        <line x1="0" y1="30" x2="260" y2="30" /><line x1="0" y1="60" x2="260" y2="60" /><line x1="0" y1="90" x2="260" y2="90" /><line x1="0" y1="120" x2="260" y2="120" /><line x1="0" y1="150" x2="260" y2="150" /><line x1="0" y1="180" x2="260" y2="180" /><line x1="0" y1="210" x2="260" y2="210" /><line x1="0" y1="240" x2="260" y2="240" />
+                                        <line x1="40" y1="0" x2="40" y2="260" /><line x1="70" y1="0" x2="70" y2="260" /><line x1="100" y1="0" x2="100" y2="260" /><line x1="130" y1="0" x2="130" y2="260" /><line x1="160" y1="0" x2="160" y2="260" /><line x1="190" y1="0" x2="190" y2="260" /><line x1="220" y1="0" x2="220" y2="260" /><line x1="250" y1="0" x2="250" y2="260" />
+                                    </g>
+                                    
+                                    <line x1="0" y1="240" x2="260" y2="240" stroke="#0f172a" stroke-width="2" /> <line x1="40" y1="0" x2="40" y2="260" stroke="#0f172a" stroke-width="2" /> <text x="245" y="235" font-weight="bold" font-size="12">X</text><text x="25" y="15" font-weight="bold" font-size="12">Y</text><text x="25" y="255" font-weight="bold" font-size="12">O</text>
+                                    <text x="66" y="255" font-size="10">1</text><text x="96" y="255" font-size="10">2</text><text x="126" y="255" font-size="10">3</text><text x="156" y="255" font-size="10">4</text><text x="186" y="255" font-size="10">5</text><text x="216" y="255" font-size="10">6</text>
+                                    <text x="25" y="215" font-size="10">1</text><text x="25" y="185" font-size="10">2</text><text x="25" y="155" font-size="10">3</text><text x="25" y="125" font-size="10">4</text><text x="25" y="95" font-size="10">5</text><text x="25" y="65" font-size="10">6</text>
+                                    
+                                    <line x1="10" y1="60" x2="220" y2="270" stroke="#2563eb" stroke-width="4" />
+                                    <line x1="10" y1="60" x2="220" y2="270" stroke="#dc2626" stroke-width="2" stroke-dasharray="5,5" />
+                                    
+                                    <text x="120" y="140" font-size="12" fill="#0f172a" font-weight="bold" transform="rotate(45 120 140)">x + y = 5 (બંને રેખાઓ)</text>
+                                    
+                                    <circle cx="40" cy="90" r="5" fill="#0f172a" /><text x="50" y="85" font-size="12">(0, 5)</text>
+                                    <circle cx="130" cy="180" r="5" fill="#0f172a" /><text x="140" y="175" font-size="12">(3, 2)</text>
+                                    <circle cx="190" cy="240" r="5" fill="#0f172a" /><text x="195" y="235" font-size="12">(5, 0)</text>
+                                </svg>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>બંને સમીકરણો માટે એક જ રેખા મળે છે, તેથી આ સમીકરણના અનંત ઉકેલો મળે. (દા.ત. (0,5), (3,2), (5,0) વગેરે તમામ બિંદુઓ ઉકેલ છે).</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 3.1 પ્રશ્ન 4(ii): x - y = 8 અને 3x - 3y = 16 સુસંગત છે કે નહિ તે ચકાસો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 8  અને  3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 16</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>ગણતરી:</b><br>
+                            પ્રમાણિત રૂપમાં ફેરવતાં:<br>
+                            <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 8 = 0  &rArr; a<sub>1</sub> = 1, b<sub>1</sub> = -1, c<sub>1</sub> = -8<br>
+                            3<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 16 = 0  &rArr; a<sub>2</sub> = 3, b<sub>2</sub> = -3, c<sub>2</sub> = -16<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.8;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>3</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1</span><span>-3</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>3</span></span></b><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>c<sub>1</sub></span><span>c<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-8</span><span>-16</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#fee2e2; padding:10px; border-radius:5px; margin-top:10px;'>
+                                અહીં જોઈ શકાય છે કે, <b style='color:#b91c1c; font-size:18px;'><span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #b91c1c; display:block;'>a<sub>1</sub></span><span>a<sub>2</sub></span></span> = <span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #b91c1c; display:block;'>b<sub>1</sub></span><span>b<sub>2</sub></span></span> &ne; <span style='display:inline-block; vertical-align:middle;'><span style='border-bottom:1px solid #b91c1c; display:block;'>c<sub>1</sub></span><span>c<sub>2</sub></span></span></b><br>
+                                <b style='color:#991b1b;'>અંતિમ જવાબ:</b> આપેલ સમીકરણ યુગ્મથી બનતી રેખાઓ સમાંતર છે, તેથી તેને કોઈ ઉકેલ નથી. એટલે કે તે <b>સુસંગત નથી</b>. <br>
+                                <i>(સુસંગત નથી તેથી આલેખ દોરવાની જરૂર નથી!)</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+            
+        
+                
         
                 
             
