@@ -652,7 +652,157 @@ var njMathsExercise = {
                     `
                 }
             ]
-        }
+        },
+            
+        // ------------------------------------
+        // પ્રકરણ 3: દ્વિચલ સુરેખ સમીકરણ યુગ્મ (સ્વાધ્યાય 3.1 - ભાગ 1.1)
+        // ------------------------------------
+        "3": {
+            "chapterName": "પ્રકરણ 3 (સ્વાધ્યાય 3.1 - ભાગ 1.1)",
+            "chapterTitle": "દ્વિચલ સુરેખ સમીકરણ યુગ્મ (આલેખની રીતનો પાયો)",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: આલેખની રીત માટે કોષ્ટક કેવી રીતે બનાવવું?",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>કોઈપણ સમીકરણનો આલેખ દોરવા માટે ઓછામાં ઓછા 2 બિંદુઓ શોધવા પડે. (આપણે ભૂલ ન પડે તે માટે 3 બિંદુઓ શોધીશું).</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li><b>સ્ટેપ 1:</b> સમીકરણમાંથી <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અથવા <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> ને કર્તા બનાવો (એકલો પાડો).</li>
+                                <li><b>સ્ટેપ 2:</b> સામેના ચલની એવી કિંમતો ધારો કે જેથી જવાબ પૂર્ણાંક (આખી સંખ્યા) મળે. છેદમાં આવતી સંખ્યા વડે ભાગી શકાય તેવી જ કિંમત ધારવી, જેથી આલેખ દોરવામાં સરળતા રહે.</li>
+                                <li><b>સ્ટેપ 3:</b> બંને સમીકરણની રેખાઓ આલેખમાં જે બિંદુએ એકબીજાને છેદે (ક્રોસ થાય), તે બિંદુના યામ <b>(<i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i>, <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i>)</b> એ આપણો ફાઇનલ જવાબ કહેવાય.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                
+                { 
+                    question: "સ્વા. 3.1 પ્રશ્ન 1(i): નીચેની સમસ્યા પરથી સુરેખ સમીકરણયુગ્મ બનાવો અને આલેખની રીતે ઉકેલ શોધો.", 
+                    question_desc: "ધોરણ X ના 10 વિદ્યાર્થીઓ ગણિતના કોયડાની સ્પર્ધામાં...",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> ધોરણ X ના 10 વિદ્યાર્થીઓ ગણિતના કોયડાની સ્પર્ધામાં ભાગ લે છે. જો ભાગ લેનાર છોકરીઓની સંખ્યા છોકરાઓની સંખ્યા કરતાં 4 વધારે હોય, તો કેટલા છોકરાઓએ અને કેટલી છોકરીઓએ કોયડાની સ્પર્ધામાં ભાગ લીધો હશે તે શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ભાગ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે છોકરીઓની સંખ્યા = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અને છોકરાઓની સંખ્યા = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            
+                            <ul style='line-height:2.2; margin-top:5px; font-size:16px; color:#0f172a;'>
+                                <li>કુલ 10 વિદ્યાર્થીઓ છે. તેથી પહેલું સમીકરણ:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 10</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)</li>
+                                
+                                <li>છોકરીઓની સંખ્યા (<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i>) એ છોકરાઓ (<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i>) કરતાં 4 વધારે છે. તેથી બીજું સમીકરણ:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 4</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>ભાગ 2: આલેખ માટે કોષ્ટક તૈયાર કરવા</b><br>
+                            
+                            <div style='background-color:#ffffff; border:1px solid #bfdbfe; border-radius:5px; padding:10px; margin-top:10px;'>
+                                <b style='color:#2563eb;'>સમીકરણ 1: <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 10</b> પરથી <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ને કર્તા બનાવતાં: <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = 10 - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i></b><br>
+                                <span style='font-size:14px; color:#64748b;'>હવે આપણે <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> ની અલગ અલગ કિંમતો ધારીશું:</span>
+                                <ul style='font-size:15px; margin-top:5px; line-height:1.8;'>
+                                    <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 4 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = 10 - 4 = <b>6</b></li>
+                                    <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 5 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = 10 - 5 = <b>5</b></li>
+                                    <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 6 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = 10 - 6 = <b>4</b></li>
+                                </ul>
+                                <div style='overflow-x:auto;'>
+                                    <table style='width:100%; max-width:300px; text-align:center; border-collapse:collapse; margin-top:10px;'>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>6</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>5</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>4</td>
+                                        </tr>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>4</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>5</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>6</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div style='background-color:#ffffff; border:1px solid #bfdbfe; border-radius:5px; padding:10px; margin-top:15px;'>
+                                <b style='color:#2563eb;'>સમીકરણ 2: <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 4</b> (અહીં <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> પહેલેથી જ કર્તા છે).<br>
+                                <span style='font-size:14px; color:#64748b;'><i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> ની કિંમતો ધારતાં:</span>
+                                <ul style='font-size:15px; margin-top:5px; line-height:1.8;'>
+                                    <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 0 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = 0 + 4 = <b>4</b></li>
+                                    <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 1 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = 1 + 4 = <b>5</b></li>
+                                    <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 3 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = 3 + 4 = <b>7</b></li>
+                                </ul>
+                                <div style='overflow-x:auto;'>
+                                    <table style='width:100%; max-width:300px; text-align:center; border-collapse:collapse; margin-top:10px;'>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>4</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>5</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>7</td>
+                                        </tr>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>1</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>3</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>ભાગ 3: આલેખ અને ઉકેલ</b><br>
+                            આ બંને કોષ્ટકના બિંદુઓને આલેખપત્ર પર દર્શાવીએ:
+                            
+                            
+                            <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                                <svg width="300" height="300" viewBox="-20 -20 320 320" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border:1px solid #cbd5e1; border-radius:5px;">
+                                    <g stroke="#e2e8f0" stroke-width="1">
+                                        <line x1="0" y1="0" x2="300" y2="0" /><line x1="0" y1="30" x2="300" y2="30" /><line x1="0" y1="60" x2="300" y2="60" /><line x1="0" y1="90" x2="300" y2="90" /><line x1="0" y1="120" x2="300" y2="120" /><line x1="0" y1="150" x2="300" y2="150" /><line x1="0" y1="180" x2="300" y2="180" /><line x1="0" y1="210" x2="300" y2="210" /><line x1="0" y1="240" x2="300" y2="240" /><line x1="0" y1="270" x2="300" y2="270" /><line x1="0" y1="300" x2="300" y2="300" />
+                                        <line x1="0" y1="0" x2="0" y2="300" /><line x1="30" y1="0" x2="30" y2="300" /><line x1="60" y1="0" x2="60" y2="300" /><line x1="90" y1="0" x2="90" y2="300" /><line x1="120" y1="0" x2="120" y2="300" /><line x1="150" y1="0" x2="150" y2="300" /><line x1="180" y1="0" x2="180" y2="300" /><line x1="210" y1="0" x2="210" y2="300" /><line x1="240" y1="0" x2="240" y2="300" /><line x1="270" y1="0" x2="270" y2="300" /><line x1="300" y1="0" x2="300" y2="300" />
+                                    </g>
+                                    
+                                    <line x1="0" y1="270" x2="300" y2="270" stroke="#0f172a" stroke-width="2" />
+                                    <line x1="30" y1="0" x2="30" y2="300" stroke="#0f172a" stroke-width="2" />
+                                    
+                                    <text x="285" y="290" font-weight="bold" font-size="12">X</text>
+                                    <text x="10" y="15" font-weight="bold" font-size="12">Y</text>
+                                    <text x="15" y="285" font-weight="bold" font-size="12">O</text>
+                                    
+                                    <text x="55" y="285" font-size="10">1</text><text x="85" y="285" font-size="10">2</text><text x="115" y="285" font-size="10">3</text><text x="145" y="285" font-size="10">4</text><text x="175" y="285" font-size="10">5</text><text x="205" y="285" font-size="10">6</text><text x="235" y="285" font-size="10">7</text><text x="265" y="285" font-size="10">8</text>
+                                    <text x="15" y="245" font-size="10">1</text><text x="15" y="215" font-size="10">2</text><text x="15" y="185" font-size="10">3</text><text x="15" y="155" font-size="10">4</text><text x="15" y="125" font-size="10">5</text><text x="15" y="95" font-size="10">6</text><text x="15" y="65" font-size="10">7</text>
+                                    
+                                    <line x1="120" y1="60" x2="270" y2="210" stroke="#2563eb" stroke-width="3" /> 
+                                    <text x="200" y="130" font-size="12" fill="#2563eb" font-weight="bold" transform="rotate(45 200 130)">x + y = 10</text>
+                                    
+                                    <line x1="90" y1="330" x2="270" y2="150" stroke="#dc2626" stroke-width="3" />
+                                    <text x="250" y="185" font-size="12" fill="#dc2626" font-weight="bold" transform="rotate(-45 250 185)">x = y + 4</text>
+                                    
+                                    <circle cx="240" cy="180" r="6" fill="#0f172a" />
+                                    <text x="180" y="170" font-size="14" font-weight="bold" fill="#0f172a">(7, 3)</text>
+                                </svg>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:15px; border-radius:8px; margin-top:15px; border-left:6px solid #16a34a; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'>
+                                <b style='color:#15803d; font-size:18px;'>🏆 આલેખ પરથી ઉકેલ:</b><br>
+                                આલેખમાં બંને રેખાઓ એકબીજાને <b>(7, 3)</b> બિંદુએ છેદે છે.<br>
+                                તેથી, <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i> = 7 અને <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i> = 3.<br><br>
+                                <b>અંતિમ જવાબ:</b> સ્પર્ધામાં ભાગ લેનાર <b style='color:#1d4ed8;'>છોકરીઓની સંખ્યા 7</b> છે અને <b style='color:#be123c;'>છોકરાઓની સંખ્યા 3</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+            
+        
+                
+            
+        
+    
                 
                     
 };
