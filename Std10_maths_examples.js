@@ -213,7 +213,195 @@ var njMathsExamples = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 3: દ્વિચલ સુરેખ સમીકરણયુગ્મ (ઉદાહરણના દાખલા)
+    // ------------------------------------
+    "3": {
+        "chapterName": "પ્રકરણ 3 (ઉદાહરણ)",
+        "chapterTitle": "દ્વિચલ સુરેખ સમીકરણયુગ્મ - ઉદાહરણ",
+        "qa_list": [
+            { 
+                question: "ઉદાહરણ 1: આલેખની રીત (કોષ્ટક બનાવતા શીખવા માટે મોસ્ટ IMP)", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> અખિલા મેળામાં જાય છે. ચકડોળમાં બેસવાની અને હૂપલાની રમત રમવાની શરતો માટેના સમીકરણો: <b>x - 2y = 0</b> અને <b>3x + 4y = 20</b> છે. આલેખની રીતે ઉકેલ શોધો.</p>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#14532d;'>સ્ટેપ 1: સમીકરણ 1 માટે x અને y ની કિંમતો (કોષ્ટક) શોધવી</b><br>
+                        સમીકરણ 1: <span style='white-space:nowrap; font-weight:bold;'>x - 2y = 0</span><br>
+                        સૌથી સહેલું એ છે કે x ને કર્તા બનાવો: <span style='white-space:nowrap; font-weight:bold; color:#be123c;'>x = 2y</span><br><br>
+                        <i>ગણતરી:</i><br>
+                        - જો y = 0 લઈએ, તો x = 2(0) = 0.<br>
+                        - જો y = 1 લઈએ, તો x = 2(1) = 2.<br>
+                        - જો y = 2 લઈએ, તો x = 2(2) = 4.
+                        
+                        <table style='width:100%; text-align:center; border-collapse:collapse; margin-top:10px; background-color:#ffffff;'>
+                            <tr>
+                                <th style='border:1px solid #cbd5e1; padding:8px; background-color:#dcfce7;'>x</th>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>0</td>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>2</td>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>4</td>
+                            </tr>
+                            <tr>
+                                <th style='border:1px solid #cbd5e1; padding:8px; background-color:#dcfce7;'>y</th>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>0</td>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>1</td>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>2</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#1e3a8a;'>સ્ટેપ 2: સમીકરણ 2 માટે ગણતરી</b><br>
+                        સમીકરણ 2: <span style='white-space:nowrap; font-weight:bold;'>3x + 4y = 20</span><br>
+                        y ને કર્તા બનાવીએ: <span style='white-space:nowrap; font-weight:bold; color:#1d4ed8;'>4y = 20 - 3x</span>  &rArr;  
+                        <div style='font-size:16px; font-weight:bold; color:#1d4ed8; display:inline-flex; align-items:center; margin-left:5px;'>
+                            y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin-left:5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 5px;'>20 - 3x</span><span>4</span></span>
+                        </div>
+                        <br><br>
+                        <b style='color:#b91c1c;'>💡 ટ્રીક:</b> x ની એવી કિંમત ધારો કે જેથી અંશ 4 વડે ભગાઈ શકે અને જવાબ પૂર્ણાંકમાં આવે!<br>
+                        - જો x = 0 લઈએ, તો y = (20 - 0)/4 = 20/4 = <b style='color:#047857;'>5</b>.<br>
+                        - જો x = 4 લઈએ, તો y = (20 - 12)/4 = 8/4 = <b style='color:#047857;'>2</b>.
+                        
+                        <table style='width:100%; text-align:center; border-collapse:collapse; margin-top:10px; background-color:#ffffff;'>
+                            <tr>
+                                <th style='border:1px solid #cbd5e1; padding:8px; background-color:#dbeafe;'>x</th>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>0</td>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>4</td>
+                            </tr>
+                            <tr>
+                                <th style='border:1px solid #cbd5e1; padding:8px; background-color:#dbeafe;'>y</th>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>5</td>
+                                <td style='border:1px solid #cbd5e1; padding:8px;'>2</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <p style='color:#0f172a;'><b>સ્ટેપ 3: આલેખ દોરવો</b></p>
+                    <div style='text-align:center; margin: 15px 0;'>
+                        <svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+                            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+                            </pattern>
+                            <rect width="250" height="250" fill="url(#grid)" />
+                            
+                            <line x1="30" y1="220" x2="240" y2="220" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="30" y1="10" x2="30" y2="220" stroke="#0f172a" stroke-width="2"/>
+                            <text x="230" y="240" font-weight="bold">X</text>
+                            <text x="10" y="20" font-weight="bold">Y</text>
+                            <text x="15" y="235" font-size="12">0</text>
+
+                            <line x1="30" y1="220" x2="190" y2="140" stroke="#16a34a" stroke-width="3"/>
+                            
+                            <line x1="30" y1="120" x2="163" y2="220" stroke="#2563eb" stroke-width="3"/>
+
+                            <circle cx="110" cy="180" r="5" fill="#be123c"/>
+                            <text x="120" y="175" font-weight="bold" fill="#be123c">(4, 2)</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fffbeb; border:1px solid #fcd34d; padding:10px; border-radius:8px;'>
+                        <b style='color:#b45309;'>જવાબ:</b> આલેખ પરથી સ્પષ્ટ છે કે બંને રેખાઓ બિંદુ <b>(4, 2)</b> માં છેદે છે.<br>
+                        તેથી આપેલ સમીકરણયુગ્મનો ઉકેલ <b style='color:#b91c1c;'>x = 4 અને y = 2</b> મળે.
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 2: આદેશની રીત (Substitution Method)", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> નીચેના સમીકરણયુગ્મનો ઉકેલ આદેશની રીતે મેળવો.<br>
+                    <span style='white-space:nowrap; font-weight:bold; color:#be123c;'>7x - 15y = 2 ... (સમીકરણ 1)</span><br>
+                    <span style='white-space:nowrap; font-weight:bold; color:#1d4ed8;'>x + 2y = 3 ... (સમીકરણ 2)</span></p>
+
+                    <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#0f172a;'>સ્ટેપ 1: કોઈપણ એક સમીકરણમાંથી x કે y ને કર્તા બનાવો.</b><br>
+                        <b style='color:#047857;'>💡 ટ્રીક:</b> જે ચલનો સહગુણક 1 હોય (જેમ કે સમીકરણ 2 માં ખાલી x છે), તેને કર્તા બનાવવો સૌથી સહેલો પડે! અપૂર્ણાંક નહિ આવે.<br>
+                        સમીકરણ (2) પરથી:<br>
+                        <span style='white-space:nowrap; font-weight:bold; font-size:16px; background-color:#e2e8f0; padding:2px 5px;'>x = 3 - 2y ... (સમીકરણ 3)</span>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#1e3a8a;'>સ્ટેપ 2: આ કિંમત બીજા સમીકરણમાં મૂકવી (આદેશ લેવો)</b><br>
+                        સમીકરણ (1) માં x ની જગ્યાએ (3 - 2y) મૂકતાં:<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>7(3 - 2y) - 15y = 2</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>21 - 14y - 15y = 2</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>21 - 29y = 2</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>-29y = 2 - 21</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>-29y = -19</span> &nbsp;&nbsp; <i>(બંને બાજુથી માઈનસ કેન્સલ)</i><br><br>
+                        <div style='font-size:18px; font-weight:bold; color:#be123c; display:inline-flex; align-items:center;'>
+                            y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin-left:5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>19</span><span>29</span></span>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                        <b style='color:#86198f;'>સ્ટેપ 3: મળેલ y ની કિંમત સમીકરણ (3) માં મૂકી x શોધવો</b><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>x = 3 - 2y</span><br>
+                        
+                        <div style='font-family:monospace; font-size:15px; margin-top:5px; line-height:2;'>
+                            <span style='white-space:nowrap;'>x = 3 - 2(<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>19</span><span>29</span></span>)</span><br>
+                            <span style='white-space:nowrap;'>x = 3 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>38</span><span>29</span></span></span><br>
+                            <span style='color:#64748b;'><i>(29 નો લ.સા.અ. લેતાં: 29 &times; 3 = 87)</i></span><br>
+                            <span style='white-space:nowrap;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>87 - 38</span><span>29</span></span></span>
+                        </div>
+                        <br>
+                        <div style='font-size:18px; font-weight:bold; color:#047857; display:inline-flex; align-items:center;'>
+                            x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin-left:5px;'><span style='border-bottom:2px solid #047857; display:block; padding:0 5px;'>49</span><span>29</span></span>
+                        </div>
+                    </div>
+                    <p style='margin-top:10px; font-weight:bold; text-align:center;'>આમ, ઉકેલ: (x, y) = (<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>49</span><span>29</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>19</span><span>29</span></span>) છે.</p>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 3: લોપની રીત (Elimination Method) - પરીક્ષા માટે શ્રેષ્ઠ", 
+                question_desc: "સૌથી ઝડપી રીત",
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> બે વ્યક્તિની માસિક આવકનો ગુણોત્તર 9:7 અને ખર્ચનો ગુણોત્તર 4:3 છે. દરેક વ્યક્તિ માસિક ₹2000 બચાવે છે. તેમની માસિક આવક શોધો.</p>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#14532d;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                        ધારો કે આવક માટે ચલ <b>x</b> અને ખર્ચ માટે <b>y</b> છે.<br>
+                        બચત = આવક - ખર્ચ<br><br>
+                        પ્રથમ વ્યક્તિ માટે: <span style='white-space:nowrap; font-weight:bold; color:#be123c;'>9x - 4y = 2000 ... (સમીકરણ 1)</span><br>
+                        બીજી વ્યક્તિ માટે: <span style='white-space:nowrap; font-weight:bold; color:#1d4ed8;'>7x - 3y = 2000 ... (સમીકરણ 2)</span>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#1e3a8a;'>સ્ટેપ 2: સહગુણકો સમાન કરવા (લોપ કરવા માટે)</b><br>
+                        <b style='color:#b91c1c;'>💡 ટ્રીક:</b> આપણે 'y' નો લોપ કરીએ કારણ કે તેના સહગુણકો (4 અને 3) નાના છે.<br>
+                        સમીકરણ (1) ને <b>3</b> વડે અને સમીકરણ (2) ને <b>4</b> વડે ગુણતાં:<br><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>(9x - 4y = 2000) &times; 3 &rArr; <b style='color:#0f172a;'>27x - 12y = 6000 ... (સમીકરણ 3)</b></span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>(7x - 3y = 2000) &times; 4 &rArr; <b style='color:#0f172a;'>28x - 12y = 8000 ... (સમીકરણ 4)</b></span>
+                    </div>
+
+                    <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#86198f;'>સ્ટેપ 3: સમીકરણ 4 માંથી 3 ની બાદબાકી કરવી</b><br>
+                        <i style='color:#64748b;'>(કારણ કે બંને 12y ની નિશાની સમાન છે, એટલે બાદબાકી કરવી પડે)</i><br>
+                        <table style='font-family:monospace; font-size:16px; margin:10px 0;'>
+                            <tr><td style='text-align:right; padding-right:10px;'>28x</td><td>- 12y</td><td>= 8000</td></tr>
+                            <tr><td style='text-align:right; padding-right:10px;'>27x</td><td>- 12y</td><td>= 6000</td></tr>
+                            <tr><td style='text-align:right; padding-right:10px; border-bottom:1px solid black;'>(-)</td><td style='border-bottom:1px solid black;'>(+)</td><td style='border-bottom:1px solid black;'>(-)</td></tr>
+                            <tr><td style='text-align:right; padding-right:10px; font-weight:bold; color:#047857;'>1x</td><td style='font-weight:bold; color:#be123c;'>+ 0</td><td style='font-weight:bold; color:#047857;'>= 2000</td></tr>
+                        </table>
+                        <b style='font-size:18px; color:#16a34a;'>તેથી, x = 2000</b>
+                    </div>
+
+                    <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px;'>
+                        <b style='color:#b45309;'>સ્ટેપ 4: માસિક આવક શોધવી</b><br>
+                        પ્રશ્નમાં આપણને માત્ર "આવક" પૂછી છે, તેથી y શોધવામાં સમય બગાડવો નહિ!<br>
+                        પ્રથમ વ્યક્તિની આવક = 9x = 9(2000) = <b style='color:#be123c;'>₹ 18,000</b><br>
+                        બીજી વ્યક્તિની આવક = 7x = 7(2000) = <b style='color:#1d4ed8;'>₹ 14,000</b>
+                    </div>
+                </div>
+                `
+            }
+        ]
     }
+    
     
 };
 
