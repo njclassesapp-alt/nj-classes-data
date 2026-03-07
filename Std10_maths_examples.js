@@ -4305,7 +4305,256 @@ var njMathsExamples = {
                     `
                 }
             ]
+        },
+            
+        // ------------------------------------
+        // પ્રકરણ 14: સંભાવના (ઉદાહરણ ભાગ 1.1)
+        // ------------------------------------
+        "14": {
+            "chapterName": "પ્રકરણ 14 (ઉદાહરણ 1.1)",
+            "chapterTitle": "સંભાવના - પાયાના દાખલા (સૂત્ર, સિક્કો, દડા)",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: સંભાવના (Probability) નું એકમાત્ર સૂત્ર",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>આખા ચેપ્ટરમાં માત્ર આ એક જ સૂત્ર વાપરવાનું છે!</p>
+                        
+                        <div style='background-color:#ffffff; border:1px solid #fde047; padding:10px; border-radius:5px; text-align:center;'>
+                            <b style='color:#be123c; font-size:18px;'>ઘટના E ની સંભાવના P(E) =</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:18px; font-weight:bold; color:#1d4ed8; padding:10px 0;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 10px;'>ઘટના E માટે સાનુકૂળ પરિણામોની સંખ્યા</span>
+                                    <span style='padding:5px 10px 0 10px;'>પ્રયોગના કુલ શક્ય પરિણામોની સંખ્યા</span>
+                                </span>
+                            </div>
+                        </div>
+                        <ul style='line-height:2; margin-top:10px; font-size:15px; color:#0f172a;'>
+                            <li>કોઈપણ ઘટનાની સંભાવના હંમેશા <b>0 અને 1 ની વચ્ચે</b> જ હોય છે. (0 &le; P(E) &le; 1).</li>
+                            <li>ચોક્કસ ઘટનાની સંભાવના <b>1</b> અને અશક્ય ઘટનાની સંભાવના <b>0</b> હોય છે.</li>
+                            <li>P(E) + P(<span style="text-decoration:overline;">E</span>) = 1 (એટલે કે ઘટના બને + ઘટના ન બને = 1).</li>
+                        </ul>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 1: સિક્કો ઉછાળવાનો દાખલો (છાપ અને કાંટો)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> એક સિક્કાને એકવાર ઉછાળવામાં આવે, ત્યારે <b>છાપ (H)</b> મળવાની સંભાવના શોધો તથા <b>કાંટો (T)</b> મળવાની સંભાવના પણ શોધો.</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="40" fill="#fef08a" stroke="#ca8a04" stroke-width="3" />
+                                <text x="50" y="60" font-size="30" font-weight="bold" fill="#b45309" text-anchor="middle">H</text>
+                                <text x="50" y="10" font-size="14" font-weight="bold" fill="#1e3a8a" text-anchor="middle">છાપ (Head)</text>
+
+                                <circle cx="150" cy="50" r="40" fill="#e2e8f0" stroke="#94a3b8" stroke-width="3" />
+                                <text x="150" y="60" font-size="30" font-weight="bold" fill="#475569" text-anchor="middle">T</text>
+                                <text x="150" y="10" font-size="14" font-weight="bold" fill="#1e3a8a" text-anchor="middle">કાંટો (Tail)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a;'>સમજૂતી અને કુલ પરિણામો:</b><br>
+                            જ્યારે આપણે એક સિક્કો ઉછાળીએ છીએ, ત્યારે બે જ પરિણામો મળી શકે છે: છાપ (H) અથવા કાંટો (T).<br>
+                            તેથી, <b>કુલ શક્ય પરિણામોની સંખ્યા = 2</b>.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>૧. છાપ (H) મળવાની સંભાવના:</b><br>
+                            ધારો કે ઘટના E = સિક્કા પર છાપ (H) મળે.<br>
+                            છાપ (H) માત્ર 1 જ વાર હોય છે, તેથી સાનુકૂળ પરિણામોની સંખ્યા = 1.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(E) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામો</span><span>કુલ પરિણામો</span></span><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>P(E) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f;'>૨. કાંટો (T) મળવાની સંભાવના:</b><br>
+                            ધારો કે ઘટના F = સિક્કા પર કાંટો (T) મળે.<br>
+                            કાંટો (T) પણ માત્ર 1 જ વાર હોય છે, તેથી સાનુકૂળ પરિણામોની સંખ્યા = 1.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(F) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામો</span><span>કુલ પરિણામો</span></span><br>
+                                <b style='font-size:20px; color:#be123c;'>P(F) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 2: થેલામાં રંગીન દડાઓ ખેંચવાનો દાખલો", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> એક થેલામાં <b>લાલ, ભૂરો અને પીળો</b> એમ ત્રણ સમાન કદના દડા છે. કૃતિકા થેલામાં જોયા વગર એક દડો થેલામાંથી યાદચ્છિક રીતે પસંદ કરે છે. તેણે પસંદ કરેલ દડો <b>(i) પીળો હોય, (ii) લાલ હોય, (iii) ભૂરો હોય</b> તેની સંભાવના કેટલી?</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 40 40 Q 100 10 160 40 C 180 80 180 140 100 140 C 20 140 20 80 40 40 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="3" />
+                                
+                                <circle cx="100" cy="70" r="20" fill="#fef08a" stroke="#ca8a04" stroke-width="2" /> <circle cx="70" cy="100" r="20" fill="#fca5a5" stroke="#dc2626" stroke-width="2" /> <circle cx="130" cy="100" r="20" fill="#bfdbfe" stroke="#2563eb" stroke-width="2" /> </svg>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>કુલ પરિણામો:</b><br>
+                            થેલામાં 1 લાલ + 1 ભૂરો + 1 પીળો દડો છે.<br>
+                            તેથી <b>કુલ શક્ય પરિણામોની સંખ્યા = 3</b>.
+                        </div>
+
+                        <div style='background-color:#eff6ff; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.5; font-size:16px;'>
+                                <li>
+                                    <b style='color:#a16207;'>(i) દડો પીળો હોય તેની સંભાવના P(Y):</b><br>
+                                    થેલામાં પીળો દડો 1 છે. તેથી, <b style='color:#a16207;'>P(Y) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span></b>
+                                </li>
+                                <li>
+                                    <b style='color:#be123c;'>(ii) દડો લાલ હોય તેની સંભાવના P(R):</b><br>
+                                    થેલામાં લાલ દડો 1 છે. તેથી, <b style='color:#be123c;'>P(R) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span></b>
+                                </li>
+                                <li>
+                                    <b style='color:#1d4ed8;'>(iii) દડો ભૂરો હોય તેની સંભાવના P(B):</b><br>
+                                    થેલામાં ભૂરો દડો 1 છે. તેથી, <b style='color:#1d4ed8;'>P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span></b>
+                                </li>
+                            </ul>
+                            <p style='margin-top:10px; font-size:14px; color:#64748b;'><i>નોંધ: તમે જોઈ શકો છો કે P(Y) + P(R) + P(B) = 1/3 + 1/3 + 1/3 = 1 થાય છે. (તમામ પ્રાથમિક ઘટનાઓનો સરવાળો 1 થાય).</i></p>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+        
+                { 
+                    question: "ઉદાહરણ 3: પાસો (Dice) ફેંકવાનો દાખલો (મોસ્ટ IMP)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> ધારો કે આપણે પાસાને એકવાર ફેંકીએ છીએ.<br>
+                        (i) પાસાના ઉપરના પૃષ્ઠ પર <b>4 કરતાં મોટી</b> સંખ્યા મેળવવાની સંભાવના કેટલી?<br>
+                        (ii) <b>4 કે 4 થી નાની</b> સંખ્યા મેળવવાની સંભાવના કેટલી?</p>
+
+                        
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="250" height="80" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="20" width="30" height="30" rx="5" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+                                <circle cx="25" cy="35" r="3" fill="#000" />
+                                
+                                <rect x="50" y="20" width="30" height="30" rx="5" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+                                <circle cx="58" cy="28" r="3" fill="#000" /><circle cx="72" cy="42" r="3" fill="#000" />
+                                
+                                <rect x="90" y="20" width="30" height="30" rx="5" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+                                <circle cx="98" cy="28" r="3" fill="#000" /><circle cx="105" cy="35" r="3" fill="#000" /><circle cx="112" cy="42" r="3" fill="#000" />
+                                
+                                <rect x="130" y="20" width="30" height="30" rx="5" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+                                <circle cx="138" cy="28" r="3" fill="#000" /><circle cx="152" cy="28" r="3" fill="#000" /><circle cx="138" cy="42" r="3" fill="#000" /><circle cx="152" cy="42" r="3" fill="#000" />
+                                
+                                <rect x="170" y="20" width="30" height="30" rx="5" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+                                <circle cx="178" cy="28" r="3" fill="#000" /><circle cx="192" cy="28" r="3" fill="#000" /><circle cx="185" cy="35" r="3" fill="#000" /><circle cx="178" cy="42" r="3" fill="#000" /><circle cx="192" cy="42" r="3" fill="#000" />
+                                
+                                <rect x="210" y="20" width="30" height="30" rx="5" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+                                <circle cx="218" cy="25" r="3" fill="#000" /><circle cx="218" cy="35" r="3" fill="#000" /><circle cx="218" cy="45" r="3" fill="#000" />
+                                <circle cx="232" cy="25" r="3" fill="#000" /><circle cx="232" cy="35" r="3" fill="#000" /><circle cx="232" cy="45" r="3" fill="#000" />
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:1px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>કુલ પરિણામો:</b><br>
+                            પાસા પર 1, 2, 3, 4, 5 અને 6 અંકો હોય છે.<br>
+                            તેથી <b>કુલ શક્ય પરિણામોની સંખ્યા = 6</b>.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>(i) 4 કરતાં મોટી સંખ્યા મળે:</b><br>
+                            ધારો કે ઘટના E = પાસા પર 4 કરતાં મોટી સંખ્યા મળે.<br>
+                            4 કરતાં મોટી સંખ્યાઓ માત્ર બે જ છે: <b>5 અને 6</b>.<br>
+                            તેથી સાનુકૂળ પરિણામોની સંખ્યા = <b>2</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(E) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>6</span></span><br>
+                                <i style='color:#64748b;'>(2 અને 6 ના છેદ ઉડાડતા 1/3 વધે)</i><br>
+                                <b style='font-size:20px; color:#15803d;'>P(E) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>1</span><span>3</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>(ii) 4 કે 4 થી નાની સંખ્યા મળે:</b><br>
+                            ધારો કે ઘટના F = પાસા પર 4 કે 4 થી નાની સંખ્યા મળે.<br>
+                            અહીં 4 ને પણ ગણવાનો છે! સંખ્યાઓ: <b>1, 2, 3 અને 4</b>.<br>
+                            તેથી સાનુકૂળ પરિણામોની સંખ્યા = <b>4</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(F) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>6</span></span><br>
+                                <i style='color:#64748b;'>(બંને ને 2 વડે ભાગતા 2/3 વધે)</i><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>P(F) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>2</span><span>3</span></span></b>
+                            </div>
+                            <p style='margin-top:5px; font-size:14px; color:#64748b;'><i>નોંધ: ઘટના F એ ઘટના E ની પૂરક ઘટના છે. એટલે P(F) = 1 - P(E) = 1 - 1/3 = 2/3 થી પણ ગણી શકાય.</i></p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 4: પત્તાનો દાખલો (એક્કો હોય અને એક્કો ન હોય)", 
+                    question_desc: "બોર્ડનો ફેવરિટ અને કન્સેપ્ટ ક્લિયર કરતો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> સરખી રીતે ચીપેલા 52 પત્તાની થોકડીમાંથી એક પત્તું ખેંચવામાં આવે છે. ખેંચેલું પત્તું <b>(i) એક્કો હોય, (ii) એક્કો ન હોય</b> તેની સંભાવનાની ગણતરી કરો.</p>
+
+                        
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="80" y="10" width="60" height="90" rx="5" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+                                <text x="85" y="30" font-size="20" font-weight="bold" fill="#000">A</text>
+                                <text x="85" y="45" font-size="20" fill="#000">&spades;</text>
+                                <text x="110" y="65" font-size="30" fill="#000" text-anchor="middle">&spades;</text>
+                                <text x="135" y="95" font-size="20" font-weight="bold" fill="#000" transform="rotate(180 135 95)">A</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>કુલ પરિણામો:</b><br>
+                            પત્તાની થોકડીમાં કુલ 52 પત્તા હોય છે.<br>
+                            તેથી <b>કુલ શક્ય પરિણામોની સંખ્યા = 52</b>.
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>(i) પત્તું એક્કો હોય:</b><br>
+                            ધારો કે ઘટના E = ખેંચેલું પત્તું એક્કો હોય.<br>
+                            આખા પત્તાના ડબ્બામાં કુલ <b>4 એક્કા</b> (કાળી, ફુલ્લી, લાલ, ચરકટ) હોય છે.<br>
+                            તેથી સાનુકૂળ પરિણામોની સંખ્યા = <b>4</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(E) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>52</span></span><br>
+                                <i style='color:#64748b;'>(13 નો ઘડિયો: 13 &times; 4 = 52. તેથી છેદમાં 13 વધશે)</i><br>
+                                <b style='font-size:20px; color:#be123c;'>P(E) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>1</span><span>13</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>(ii) પત્તું એક્કો ન હોય (પૂરક ઘટના):</b><br>
+                            ધારો કે ઘટના <span style="text-decoration:overline;">E</span> = પત્તું એક્કો ન હોય.<br>
+                            આ દાખલાને આપણે "પૂરક ઘટના" ના ટૂંકા સૂત્રથી ગણીશું.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                P(<span style="text-decoration:overline;">E</span>) = 1 - P(E)<br>
+                                
+                                P(<span style="text-decoration:overline;">E</span>) = 1 - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>13</span></span><br>
+                                
+                                <i style='color:#64748b;'>(લ.સા.અ. લેતાં: 13 નો 1 સાથે ગુણાકાર)</i><br>
+                                P(<span style="text-decoration:overline;">E</span>) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13 - 1</span><span>13</span></span><br>
+                                
+                                <b style='font-size:20px; color:#1d4ed8;'>P(<span style="text-decoration:overline;">E</span>) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>12</span><span>13</span></span></b>
+                            </div>
+                            <p style='margin-top:5px; font-size:14px; color:#64748b;'><i>અથવા સીધી ગણતરી: 52 માંથી 4 એક્કા કાઢી નાખીએ તો 48 પત્તા વધે. તેથી સંભાવના = 48/52 = 12/13.</i></p>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+                
+        
+    
                 
             
     
