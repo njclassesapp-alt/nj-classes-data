@@ -400,7 +400,235 @@ var njMathsExamples = {
                 `
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 4: દ્વિઘાત સમીકરણ (ઉદાહરણના દાખલા)
+    // ------------------------------------
+    "4": {
+        "chapterName": "પ્રકરણ 4 (ઉદાહરણ)",
+        "chapterTitle": "દ્વિઘાત સમીકરણ - ઉદાહરણના દાખલા",
+        "qa_list": [
+            { 
+                question: "ઉદાહરણ 1: કૂટપ્રશ્ન પરથી દ્વિઘાત સમીકરણ બનાવવું", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> એક લંબચોરસ પ્લોટનું ક્ષેત્રફળ 528 મી&sup2; છે. પ્લોટની લંબાઈ (મીટરમાં) તેની પહોળાઈના બમણાથી એક મીટર જેટલી વધુ છે. આપણે પ્લોટની લંબાઈ અને પહોળાઈ શોધવી છે. (માત્ર સમીકરણ બનાવો).</p>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#14532d;'>સ્ટેપ 1: કોના બરાબર x ધારવું? (સૌથી મોટો પ્રશ્ન)</b><br>
+                        <b style='color:#047857;'>💡 ટ્રીક:</b> રકમમાં જેનાથી સરખામણી કરી હોય (જેના નામ પાછળ 'ના' કે 'થી' લાગેલું હોય) તેને જ હંમેશા x ધારવો. અહીં "પહોળાઈના" લખેલું છે, તેથી પહોળાઈ બરાબર x ધારીશું.<br><br>
+                        ધારો કે, લંબચોરસ પ્લોટની પહોળાઈ = <span style='font-weight:bold; color:#1d4ed8;'>x મીટર</span><br>
+                        રકમ મુજબ, લંબાઈ એ પહોળાઈના બમણા (2x) થી 1 વધુ (+1) છે.<br>
+                        તેથી, પ્લોટની લંબાઈ = <span style='font-weight:bold; color:#be123c;'>(2x + 1) મીટર</span>
+                    </div>
+
+                    <div style='text-align:center; margin: 15px 0;'>
+                        <svg width="250" height="150" viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="30" y="30" width="190" height="90" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+                            
+                            <text x="125" y="80" font-weight="bold" fill="#0369a1" text-anchor="middle">ક્ષેત્રફળ = 528 મી²</text>
+                            
+                            <text x="15" y="80" font-weight="bold" fill="#1d4ed8">x</text>
+                            
+                            <text x="125" y="20" font-weight="bold" fill="#be123c" text-anchor="middle">2x + 1</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                        <b style='color:#1e3a8a;'>સ્ટેપ 2: સૂત્ર મૂકીને સમીકરણ બનાવવું</b><br>
+                        આપણે જાણીએ છીએ કે, <span style='font-weight:bold;'>લંબચોરસનું ક્ષેત્રફળ = લંબાઈ &times; પહોળાઈ</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>528 = (2x + 1) &times; x</span><br>
+                        હવે x નો કૌંસની અંદર બંને પદો સાથે ગુણાકાર કરતાં:<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>528 = 2x&sup2; + x</span><br>
+                        528 ને બરાબરની જમણી બાજુ લઈ જતા નિશાની બદલાશે (-528 થશે).<br><br>
+                        <div style='font-size:20px; font-weight:bold; color:#b91c1c; text-align:center; background-color:#fef2f2; border:1px solid #fca5a5; padding:10px; border-radius:8px;'>
+                            2x&sup2; + x - 528 = 0
+                        </div>
+                        <p style='margin-top:10px; color:#0f172a; text-align:center;'>આ માંગેલ દ્વિઘાત સમીકરણ છે.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 2: આપેલ સમીકરણ દ્વિઘાત સમીકરણ છે કે નહિ તે ચકાસવું", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> ચકાસો કે <span style='white-space:nowrap; font-weight:bold;'>(x - 2)&sup2; + 1 = 2x - 3</span> એ દ્વિઘાત સમીકરણ છે કે નહિ?</p>
+
+                    <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                        <b style='color:#b45309;'>💡 પાયાનો નિયમ:</b> કોઈપણ સમીકરણનું સાદુરૂપ આપ્યા પછી જો તેમાં <b>ચલ (x) ની મહત્તમ ઘાત 2 જ વધે</b> (એટલે કે ax&sup2; + bx + c = 0 સ્વરૂપ બને), તો જ તે દ્વિઘાત સમીકરણ કહેવાય.
+                    </div>
+
+                    <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                        <b style='color:#0f172a;'>સ્ટેપ 1: કૌંસ છોડવો (સાદુરૂપ આપવું)</b><br>
+                        ડાબી બાજુ (x - 2)&sup2; છે, જેના માટે આપણે <b style='color:#be123c;'>(a - b)&sup2; = a&sup2; - 2ab + b&sup2;</b> નું નિત્યસમ વાપરીશું.<br>
+                        અહીં a=x અને b=2 છે.<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>(x&sup2; - 4x + 4) + 1 = 2x - 3</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>x&sup2; - 4x + 5 = 2x - 3</span>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-top:15px;'>
+                        <b style='color:#1e3a8a;'>સ્ટેપ 2: બધા પદોને ડાબી બાજુ ભેગા કરવા</b><br>
+                        જમણી બાજુના 2x અને -3 ને ડાબી બાજુ લાવતા તેમની નિશાનીઓ બદલાશે (-2x અને +3 થશે).<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:15px;'>x&sup2; - 4x + 5 - 2x + 3 = 0</span><br>
+                        હવે સમાન ચલ વાળા પદોનો સરવાળો/બાદબાકી કરીએ (-4x અને -2x = -6x, તથા 5 અને 3 = 8):<br><br>
+                        <div style='font-size:20px; font-weight:bold; color:#047857; text-align:center;'>
+                            x&sup2; - 6x + 8 = 0
+                        </div>
+                    </div>
+
+                    <p style='margin-top:15px; padding:10px; background-color:#fdf4ff; border-radius:5px;'><b>નિષ્કર્ષ:</b> અહીં સાદુરૂપ આપ્યા પછી સમીકરણમાં x ની મહત્તમ ઘાત 2 છે. તે <span style='white-space:nowrap;'>ax&sup2; + bx + c = 0</span> સ્વરૂપમાં છે (જ્યાં a=1, b=-6, c=8 છે). <b>તેથી આ દ્વિઘાત સમીકરણ છે.</b></p>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 3: અવયવીકરણની રીતે બીજ (ઉકેલ) શોધવા - મોસ્ટ IMP", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> અવયવીકરણની રીતે દ્વિઘાત સમીકરણ <span style='white-space:nowrap; font-weight:bold; color:#be123c;'>2x&sup2; - 5x + 3 = 0</span> ના બીજ શોધો.</p>
+
+                    <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#b91c1c;'>સ્ટેપ 1: મધ્યમ પદ (-5x) ના ભાગ પાડવાની શોર્ટકટ ટ્રીક</b><br>
+                        સૌપ્રથમ પહેલા પદના સહગુણક (2) અને છેલ્લા પદ (3) નો ગુણાકાર કરો.<br>
+                        <b style='color:#0f172a;'>ગુણાકાર: 2 &times; 3 = 6</b><br>
+                        હવે 6 ના એવા બે ઘડિયા (અવયવો) શોધો, જેનો <b>સરવાળો 5</b> (વચ્ચેનું પદ) થાય. (સરવાળો જ કેમ? કારણ કે છેલ્લું પદ +3 પ્લસ છે).<br>
+                        વિચારો: 2 &times; 3 = 6 થાય, અને 2 + 3 = 5 પણ થાય! બરાબર.<br>
+                        હવે નિશાની: વચ્ચેનું પદ માઇનસ (-5x) હોવાથી બંને ભાગને માઇનસ નિશાની આપીશું (-2x અને -3x).
+                    </div>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#14532d;'>સ્ટેપ 2: ભાગ પાડીને સામાન્ય (Common) કાઢવા</b><br>
+                        મધ્યમ પદ -5x ની જગ્યાએ -2x અને -3x લખતાં:<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>2x&sup2; <b style='color:#be123c;'>- 2x - 3x</b> + 3 = 0</span><br><br>
+                        પહેલા બે પદ અને છેલ્લા બે પદની જોડી બનાવો:<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'><u style='text-decoration-color:#3b82f6;'>(2x&sup2; - 2x)</u> <u style='text-decoration-color:#f59e0b;'>- (3x - 3)</u> = 0</span> &nbsp; <i>(કૌંસની બહાર માઇનસ હોવાથી અંદરની નિશાની બદલાઈ ગઈ +3 નું -3 થયું)</i><br><br>
+                        હવે બંનેમાંથી સામાન્ય કાઢો:<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'><b style='color:#3b82f6;'>2x</b>(x - 1) <b style='color:#f59e0b;'>- 3</b>(x - 1) = 0</span><br>
+                        જો બંને કૌંસ (x - 1) સરખા આવે, તો તમારી ગણતરી બિલકુલ સાચી છે!<br><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>(x - 1) (2x - 3) = 0</span>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                        <b style='color:#1e3a8a;'>સ્ટેપ 3: x ની કિંમત (બીજ) શોધવી</b><br>
+                        બંને કૌંસને વારાફરતી 0 સાથે સરખાવો:<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>x - 1 = 0</span> &nbsp; અથવા &nbsp; <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>2x - 3 = 0</span><br>
+                        <span style='white-space:nowrap; font-weight:bold; font-size:18px; color:#047857;'>x = 1</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; અથવા &nbsp; <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>2x = 3</span> &rArr; 
+                        <span style='white-space:nowrap; font-weight:bold; font-size:18px; color:#047857;'>
+                            x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin-left:3px;'><span style='border-bottom:2px solid #047857; display:block; padding:0 3px;'>3</span><span>2</span></span>
+                        </span>
+                        <p style='margin-top:10px; font-weight:bold;'>આપેલ દ્વિઘાત સમીકરણના બે બીજ 1 અને <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>3</span><span>2</span></span> છે.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 4: દ્વિઘાત સૂત્ર (શ્રીધર આચાર્યનું સૂત્ર) ની રીતે ઉકેલ", 
+                question_desc: "જ્યારે અવયવ ન પડે ત્યારે બ્રહ્માસ્ત્ર",
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> દ્વિઘાત સૂત્રનો ઉપયોગ કરીને <span style='white-space:nowrap; font-weight:bold; color:#1d4ed8;'>3x&sup2; - 5x + 2 = 0</span> ના બીજ શોધો.</p>
+
+                    <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#0f172a;'>સ્ટેપ 1: a, b, c ની કિંમત નક્કી કરવી અને વિવેચક (D) શોધવો.</b><br>
+                        સમીકરણને <span style='white-space:nowrap;'>ax&sup2; + bx + c = 0</span> સાથે સરખાવતાં:<br>
+                        <b style='color:#be123c;'>a = 3, b = -5, c = 2</b><br><br>
+                        
+                        હવે <b>વિવેચક (Discriminant - D)</b> શોધીએ, જેના પરથી ખબર પડશે કે દાખલો આગળ ગણવો કે નહિ.<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>D = b&sup2; - 4ac</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>D = (-5)&sup2; - 4(3)(2)</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>D = 25 - 24</span><br>
+                        <b style='color:#047857; font-size:18px;'>D = 1</b><br>
+                        અહીં D > 0 (ધન સંખ્યા) છે, તેથી <b>બે ભિન્ન અને વાસ્તવિક બીજ મળશે</b>. (દાખલો આગળ ગણાશે).
+                    </div>
+
+                    <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px;'>
+                        <b style='color:#b45309;'>સ્ટેપ 2: દ્વિઘાત સૂત્રમાં કિંમત મૂકવી</b><br>
+                        દ્વિઘાત સૂત્ર નીચે મુજબ છે:<br>
+                        
+                        <div style='font-size:20px; font-weight:bold; color:#1d4ed8; text-align:center; margin:15px 0;'>
+                            <span style='white-space:nowrap;'>
+                                x = 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 5px;'>-b &plusmn; &radic;D</span>
+                                    <span>2a</span>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div style='font-family:monospace; font-size:16px; line-height:2;'>
+                            <span style='white-space:nowrap;'>
+                                x = 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>-(-5) &plusmn; &radic;1</span>
+                                    <span>2(3)</span>
+                                </span>
+                            </span><br>
+                            <span style='white-space:nowrap;'>
+                                x = 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>5 &plusmn; 1</span>
+                                    <span>6</span>
+                                </span>
+                            </span>
+                        </div>
+
+                        <p style='margin-top:15px; font-weight:bold; color:#be123c;'>હવે &plusmn; ની નિશાની હોવાથી એકવાર પ્લસ (+) અને એકવાર માઇનસ (-) લેતાં:</p>
+
+                        <div style='display:flex; justify-content:space-around; background-color:#ffffff; border:1px solid #cbd5e1; padding:10px; border-radius:5px;'>
+                            <div>
+                                <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5 + 1</span><span>6</span></span></span><br><br>
+                                <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6</span><span>6</span></span></span><br><br>
+                                <b style='color:#047857; font-size:18px;'>x = 1</b>
+                            </div>
+                            <div style='border-left:2px solid #cbd5e1;'></div> <div>
+                                <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5 - 1</span><span>6</span></span></span><br><br>
+                                <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>6</span></span></span><br><br>
+                                <b style='color:#047857; font-size:18px;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #047857; display:block; padding:0 3px;'>2</span><span>3</span></span></b>
+                            </div>
+                        </div>
+                        <p style='margin-top:10px; font-weight:bold;'>આમ, માંગેલ બીજ 1 અને 2/3 છે.</p>
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 5: બીજ સમાન હોય ત્યારે 'k' ની કિંમત શોધવી (પરીક્ષાનો ફેવરિટ)", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='color:#0f172a;'><b>પ્રશ્ન:</b> નીચે આપેલા દ્વિઘાત સમીકરણના બીજ <b>સમાન</b> હોય, તો <b>k</b> નું મૂલ્ય શોધો.<br>
+                    <span style='white-space:nowrap; font-weight:bold; color:#be123c;'>2x&sup2; + kx + 3 = 0</span></p>
+
+                    <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                        <b style='color:#14532d;'>સ્ટેપ 1: શરત યાદ કરો</b><br>
+                        કોઈપણ દ્વિઘાત સમીકરણના બીજ સમાન ક્યારે હોય?<br>
+                        જ્યારે તેનો <b>વિવેચક D શૂન્ય (0)</b> હોય!<br>
+                        <b style='color:#047857;'>એટલે કે, D = b&sup2; - 4ac = 0 થવું જોઈએ.</b>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                        <b style='color:#1e3a8a;'>સ્ટેપ 2: કિંમતો મૂકીને k શોધવો</b><br>
+                        સમીકરણ સરખાવતાં: a = 2, <b>b = k</b>, c = 3.<br><br>
+                        હવે, b&sup2; - 4ac = 0 મૂકતાં,<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>(k)&sup2; - 4(2)(3) = 0</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>k&sup2; - 24 = 0</span><br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>k&sup2; = 24</span><br><br>
+                        
+                        હવે બંને બાજુ વર્ગમૂળ લેતાં (યાદ રાખો: વર્ગમૂળ લઈએ ત્યારે &plusmn; મૂકવું ફરજિયાત છે):<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>k = &plusmn;&radic;24</span><br><br>
+                        
+                        <b style='color:#b91c1c;'>💡 સાદુરૂપની ટ્રીક:</b> 24 નું સીધું વર્ગમૂળ નથી નીકળતું, પણ તેના એવા ભાગ પાડો જેમાંથી કોઈ એકનું વર્ગમૂળ નીકળતું હોય (જેમ કે 4 &times; 6 = 24. અહીં 4 નું વર્ગમૂળ 2 નીકળશે).<br>
+                        <span style='white-space:nowrap; font-family:monospace; font-size:16px;'>k = &plusmn;&radic;(4 &times; 6)</span><br>
+                        <div style='font-size:20px; font-weight:bold; color:#047857; text-align:center; padding:10px; background-color:#e2e8f0; border-radius:5px;'>
+                            k = &plusmn;2&radic;6
+                        </div>
+                        <p style='margin-top:10px; color:#0f172a;'>એટલે કે k ની કિંમત +2&radic;6 અથવા -2&radic;6 હોઈ શકે છે. આ બે માર્ક્સનો સૌથી અગત્યનો દાખલો છે!</p>
+                    </div>
+                </div>
+                `
+            }
+        ]
     }
+    
     
     
 };
