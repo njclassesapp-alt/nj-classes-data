@@ -1066,7 +1066,199 @@ var njMathsExamples = {
                     `
                 }
             ]
-        }
+        },
+        // ------------------------------------
+        // પ્રકરણ 6: ત્રિકોણ (ઉદાહરણના દાખલા)
+        // ------------------------------------
+        "6": {
+            "chapterName": "પ્રકરણ 6 (ઉદાહરણ)",
+            "chapterTitle": "ત્રિકોણ - ઉદાહરણના દાખલા",
+            "qa_list": [
+                { 
+                    question: "ઉદાહરણ 1: થેલ્સના પ્રમેયનો ઉપયોગ (સાબિતી વાળો દાખલો)", 
+                    question_desc: "પરીક્ષા માટે અગત્યનો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> જો કોઈ રેખા ત્રિકોણ ABC ની બાજુઓ AB અને AC ને અનુક્રમે D અને E માં છેદે તથા BC ને સમાંતર હોય, તો સાબિત કરો કે <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AD</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AE</span><span>AC</span></span> છે.</p>
+
+                        <div style='text-align:center; margin: 20px 0;'>
+                            <svg width="200" height="180" viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="100,20 20,160 180,160" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+                                <line x1="60" y1="90" x2="140" y2="90" stroke="#dc2626" stroke-width="2" />
+                                <text x="95" y="15" font-weight="bold">A</text>
+                                <text x="5" y="170" font-weight="bold">B</text>
+                                <text x="185" y="170" font-weight="bold">C</text>
+                                <text x="40" y="95" font-weight="bold" fill="#dc2626">D</text>
+                                <text x="150" y="95" font-weight="bold" fill="#dc2626">E</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a;'>🎯 પક્ષ:</b><br>
+                            &Delta;ABC માં રેખા DE <b>||</b> BC છે. (રેખા DE એ BC ને સમાંતર છે).
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>🎯 સાધ્ય:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:18px; font-weight:bold; color:#be123c; margin:5px 0;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>AD</span><span>AB</span></span> = 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>AE</span><span>AC</span></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>✍️ સાબિતી:</b><br>
+                            પ્રમેય 6.1 (થેલ્સના પ્રમેય) મુજબ, જો DE || BC હોય, તો:<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span><br>
+                                
+                                <i style='color:#047857;'>(સ્ટેપ 1: બંને બાજુ વ્યસ્ત કરતા એટલે કે પલટાવતા)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DB</span><span>AD</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>EC</span><span>AE</span></span><br>
+                                
+                                <i style='color:#047857;'>(સ્ટેપ 2: બંને બાજુ 1 ઉમેરતાં)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DB</span><span>AD</span></span> + 1 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>EC</span><span>AE</span></span> + 1<br>
+                                
+                                <i style='color:#047857;'>(લ.સા.અ. લેતાં)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DB + AD</span><span>AD</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>EC + AE</span><span>AE</span></span><br>
+                            </div>
+                            
+                            <p style='margin-top:10px;'>આકૃતિ પરથી સ્પષ્ટ છે કે <b>DB + AD = AB</b> અને <b>EC + AE = AC</b> થાય.</p>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; line-height:2.5;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>AD</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>AE</span></span><br>
+                                
+                                <i style='color:#be123c;'>(ફરીથી બંને બાજુ વ્યસ્ત કરતા આપણો જવાબ મળી જશે!)</i><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>AD</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>AE</span><span>AC</span></span>
+                                </b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#047857; text-align:right;'>... જે સાબિત થાય છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 2: સમલંબ ચતુષ્કોણમાં સમપ્રમાણતા (રચના વાળો દાખલો)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> સમલંબ ચતુષ્કોણ ABCD માં AB || DC છે. સમાંતર ન હોય તેવી બાજુઓ AD અને BC પર અનુક્રમે E અને F એવાં બિંદુઓ છે કે જેથી EF એ AB ને સમાંતર હોય. સાબિત કરો કે <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>BF</span><span>FC</span></span>.</p>
+
+                        <div style='text-align:center; margin: 20px 0;'>
+                            <svg width="250" height="150" viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="60,20 180,20 220,130 20,130" fill="#fff7ed" stroke="#ea580c" stroke-width="2" />
+                                <line x1="40" y1="75" x2="200" y2="75" stroke="#2563eb" stroke-width="2" />
+                                <line x1="60" y1="20" x2="220" y2="130" stroke="#047857" stroke-width="1.5" stroke-dasharray="4,4" />
+                                
+                                <text x="50" y="15" font-weight="bold">A</text>
+                                <text x="185" y="15" font-weight="bold">B</text>
+                                <text x="225" y="140" font-weight="bold">C</text>
+                                <text x="10" y="140" font-weight="bold">D</text>
+                                <text x="25" y="80" font-weight="bold" fill="#2563eb">E</text>
+                                <text x="205" y="80" font-weight="bold" fill="#2563eb">F</text>
+                                <text x="110" y="65" font-weight="bold" fill="#047857">G</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a;'>🎯 પક્ષ અને સાધ્ય:</b><br>
+                            પક્ષ: AB || DC અને EF || AB (તેથી ત્રણેય રેખાઓ એકબીજાને સમાંતર થાય: <b>AB || EF || DC</b>).<br>
+                            સાધ્ય: <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>BF</span><span>FC</span></span>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>✍️ સાબિતી અને રચના:</b><br>
+                            સૌપ્રથમ <b>વિકર્ણ AC દોરો</b>, જે રેખા EF ને <b>G</b> બિંદુમાં છેદે છે.<br>
+                            હવે આપણને 2 ત્રિકોણ મળશે. વારાફરતી બંનેમાં થેલ્સનો પ્રમેય વાપરીશું.<br>
+
+                            <div style='background-color:#f0fdf4; border:1px dashed #16a34a; padding:10px; border-radius:5px; margin:10px 0;'>
+                                <b>ત્રિકોણ 1: &Delta;ADC માં</b><br>
+                                EG || DC (કારણ કે આખી રેખા EF || DC છે)<br>
+                                તેથી થેલ્સના પ્રમેય મુજબ:<br>
+                                <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px;'>
+                                    <b style='color:#15803d;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>AG</span><span>GC</span></span> &nbsp;&nbsp;&nbsp; ... (પરિણામ 1)</b>
+                                </div>
+                            </div>
+
+                            <div style='background-color:#fffbeb; border:1px dashed #d97706; padding:10px; border-radius:5px; margin:10px 0;'>
+                                <b>ત્રિકોણ 2: &Delta;CAB માં</b><br>
+                                GF || AB (કારણ કે EF || AB છે)<br>
+                                અહીં ત્રિકોણ ઊંધો છે, તેથી C તરફથી ગુણોત્તર લઈશું:<br>
+                                <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px;'>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>CG</span><span>AG</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>CF</span><span>BF</span></span><br>
+                                    <i>(બંને બાજુ વ્યસ્ત કરતાં)</i><br>
+                                    <b style='color:#b45309;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #b45309; display:block; padding:0 3px;'>AG</span><span>GC</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #b45309; display:block; padding:0 3px;'>BF</span><span>FC</span></span> &nbsp;&nbsp;&nbsp; ... (પરિણામ 2)</b>
+                                </div>
+                            </div>
+
+                            <p style='margin-top:10px;'>પરિણામ (1) અને (2) ની સરખામણી કરતાં (બંનેમાં <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>AG</span><span>GC</span></span> સામાન્ય છે):</p>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:20px; font-weight:bold; color:#be123c; text-align:center; background-color:#ffe4e6; padding:10px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>BF</span><span>FC</span></span>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#047857; text-align:right;'>... જે સાબિત થાય છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 3: થેલ્સના પ્રતિપ્રમેય અને સમરૂપતાનો ઉપયોગ", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> &Delta;PQR માં બિંદુઓ S અને T અનુક્રમે બાજુઓ PQ અને PR પર આવેલા છે. જો <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>PS</span><span>SQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>PT</span><span>TR</span></span> અને <b>&angle;PST = &angle;PRQ</b> હોય, તો સાબિત કરો કે &Delta;PQR એ સમદ્વિબાજુ ત્રિકોણ છે.</p>
+
+                        <div style='text-align:center; margin: 20px 0;'>
+                            <svg width="200" height="180" viewBox="0 0 200 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="100,20 30,160 170,160" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+                                <line x1="65" y1="90" x2="135" y2="90" stroke="#be123c" stroke-width="2" />
+                                
+                                <text x="95" y="15" font-weight="bold">P</text>
+                                <text x="15" y="170" font-weight="bold">Q</text>
+                                <text x="175" y="170" font-weight="bold">R</text>
+                                <text x="45" y="95" font-weight="bold" fill="#be123c">S</text>
+                                <text x="145" y="95" font-weight="bold" fill="#be123c">T</text>
+                                
+                                <path d="M 60 100 A 15 15 0 0 0 75 90" fill="none" stroke="#2563eb" stroke-width="2"/>
+                                <path d="M 155 160 A 15 15 0 0 0 160 145" fill="none" stroke="#2563eb" stroke-width="2"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (વિચારો કેમ કરવું?):</b><br>
+                            કોઈપણ ત્રિકોણને 'સમદ્વિબાજુ' (બે બાજુ સરખી) સાબિત કરવો હોય, તો તેના <b>બે સામસામેના ખૂણા સરખા</b> સાબિત કરી દો! એટલે કે આપણે &angle;Q = &angle;R સાબિત કરવાનું છે.
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>✍️ સાબિતી:</b><br>
+                            <ul style='line-height:2; font-size:15px; margin-bottom:0;'>
+                                <li>આપણને પક્ષમાં આપેલ છે કે: <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>PS</span><span>SQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>PT</span><span>TR</span></span></li>
+                                <li>તેથી, <b>પ્રમેય 6.2 (થેલ્સના પ્રતિપ્રમેય)</b> મુજબ જો ગુણોત્તર સમાન હોય, તો રેખા સમાંતર થાય.<br>
+                                તેથી, <b style='color:#be123c;'>ST || QR</b>.</li>
+                                <li>હવે જો બે રેખાઓ સમાંતર હોય, તો તેમના અનુરૂપ ખૂણાઓ (F આકારના ખૂણા) સમાન થાય.<br>
+                                તેથી, <b style='color:#1d4ed8;'>&angle;PST = &angle;PQR &nbsp;&nbsp; ... (પરિણામ 1)</b></li>
+                                <li>પરંતુ રકમમાં (પક્ષમાં) આપેલું છે કે:<br>
+                                <b style='color:#047857;'>&angle;PST = &angle;PRQ &nbsp;&nbsp; ... (પરિણામ 2)</b></li>
+                            </ul>
+
+                            <div style='background-color:#eff6ff; padding:10px; border-radius:5px; margin-top:10px;'>
+                                પરિણામ (1) અને (2) ને ધ્યાનથી જુઓ. બંનેની ડાબી બાજુ (&angle;PST) સરખી છે. તેથી તેમની જમણી બાજુ પણ સરખી થાય!<br>
+                                <div style='font-size:18px; font-weight:bold; color:#be123c; text-align:center; margin:10px 0;'>
+                                    &angle;PQR = &angle;PRQ
+                                </div>
+                                
+                                <p style='margin-bottom:0;'>ધોરણ 9 ના પ્રમેય મુજબ: "ત્રિકોણમાં સમાન ખૂણાની સામેની બાજુઓ સમાન હોય છે."<br>
+                                &angle;R ની સામેની બાજુ PQ છે અને &angle;Q ની સામેની બાજુ PR છે.<br>
+                                તેથી, <b style='font-size:18px; color:#16a34a;'>PQ = PR</b> થાય.</p>
+                            </div>
+                            
+                            <p style='margin-top:10px; font-weight:bold; color:#047857; text-align:right;'>આમ, બે બાજુઓ સમાન હોવાથી &Delta;PQR એ સમદ્વિબાજુ ત્રિકોણ છે. (સાબિત થાય છે).</p>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+}
+
     
     
     
