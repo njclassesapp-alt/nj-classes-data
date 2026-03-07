@@ -3499,7 +3499,320 @@ var njMathsExamples = {
                     `
                 }
             ]
+        },
+            
+        // ------------------------------------
+        // પ્રકરણ 13: આંકડાશાસ્ત્ર (ઉદાહરણ ભાગ 1.1 - સીધી રીત)
+        // ------------------------------------
+        "13": {
+            "chapterName": "પ્રકરણ 13 (ઉદાહરણ 1.1)",
+            "chapterTitle": "આંકડાશાસ્ત્ર - મધ્યક (સીધી રીત)",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: મધ્યક (Mean) ની ત્રણેય રીતો સમજો",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>પરીક્ષામાં જો કોઈ રીતનું નામ ન આપ્યું હોય, તો તમે ત્રણમાંથી ગમે તે રીત વાપરી શકો છો. જવાબ હંમેશા સરખો જ આવશે!</p>
+                        <ul style='line-height:2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                            <li><b style='color:#be123c;'>૧. સીધી રીત:</b> જ્યારે આંકડા નાના હોય ત્યારે વાપરવી.</li>
+                            <li><b style='color:#1d4ed8;'>૨. ધારેલા મધ્યકની રીત:</b> જ્યારે આંકડા થોડા મોટા હોય ત્યારે (d<sub>i</sub> વાળું ખાનું).</li>
+                            <li><b style='color:#047857;'>૩. પદ-વિચલનની રીત (બેસ્ટ ટ્રીક 🚀):</b> બોર્ડની પરીક્ષામાં મોટાભાગે આ જ રીત વાપરવી, કારણ કે આમાં ગુણાકાર સૌથી સહેલા થઈ જાય છે! (u<sub>i</sub> વાળું ખાનું).</li>
+                        </ul>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 2 (રીત 1): આપેલ માહિતીનો મધ્યક શોધો (સીધી રીત)", 
+                    question_desc: "Direct Method",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> નીચે આપેલ માહિતી 30 વિદ્યાર્થીઓએ મેળવેલ ગુણ દર્શાવે છે. આ માહિતીનો <b>મધ્યક (<span style="text-decoration:overline;">x</span>)</b> સીધી રીતે શોધો.</p>
+
+                        <div style='overflow-x:auto; margin-bottom:15px; border:1px solid #cbd5e1; border-radius:5px;'>
+                            <table style='width:100%; min-width:400px; text-align:center; border-collapse:collapse; background-color:#f8fafc;'>
+                                <tr style='background-color:#e2e8f0; font-weight:bold;'>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>વર્ગ અંતરાલ</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>10-25</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>25-40</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>40-55</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>55-70</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>70-85</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>85-100</td>
+                                </tr>
+                                <tr>
+                                    <td style='border:1px solid #cbd5e1; padding:8px; font-weight:bold;'>વિદ્યાર્થીઓ (f<sub>i</sub>)</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>2</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>3</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>7</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>6</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>6</td>
+                                    <td style='border:1px solid #cbd5e1; padding:8px;'>6</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border:1px dashed #c026d3; padding:10px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 સૌથી પહેલું કામ: મધ્યકિંમત (x<sub>i</sub>) શોધવી</b><br>
+                            કોઈપણ રીત વાપરો, x<sub>i</sub> તો શોધવો જ પડશે.<br>
+                            સૂત્ર: <b>x<sub>i</sub> = (નીચલી સીમા + ઉપલી સીમા) / 2</b><br>
+                            પહેલા વર્ગ (10-25) માટે: x<sub>i</sub> = (10 + 25)/2 = 35/2 = <b style='color:#be123c;'>17.5</b><br>
+                            અહીં <b>વર્ગલંબાઈ (h) = 15</b> છે, તેથી બધામાં 15-15 ઉમેરતા જાવ! 
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરીનું કોષ્ટક:</b>
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:450px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#dcfce7; font-weight:bold; color:#14532d;'>
+                                        <th style='border:1px solid #86efac; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>આવૃત્તિ (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #86efac; padding:8px;'>f<sub>i</sub> &times; x<sub>i</sub></th>
+                                    </tr>
+                                    <tr><td style='border:1px solid #86efac; padding:5px;'>10-25</td><td style='border:1px solid #86efac; padding:5px;'>2</td><td style='border:1px solid #86efac; padding:5px;'>17.5</td><td style='border:1px solid #86efac; padding:5px;'>35.0</td></tr>
+                                    <tr><td style='border:1px solid #86efac; padding:5px;'>25-40</td><td style='border:1px solid #86efac; padding:5px;'>3</td><td style='border:1px solid #86efac; padding:5px;'>32.5</td><td style='border:1px solid #86efac; padding:5px;'>97.5</td></tr>
+                                    <tr><td style='border:1px solid #86efac; padding:5px;'>40-55</td><td style='border:1px solid #86efac; padding:5px;'>7</td><td style='border:1px solid #86efac; padding:5px;'>47.5</td><td style='border:1px solid #86efac; padding:5px;'>332.5</td></tr>
+                                    <tr><td style='border:1px solid #86efac; padding:5px;'>55-70</td><td style='border:1px solid #86efac; padding:5px;'>6</td><td style='border:1px solid #86efac; padding:5px;'>62.5</td><td style='border:1px solid #86efac; padding:5px;'>375.0</td></tr>
+                                    <tr><td style='border:1px solid #86efac; padding:5px;'>70-85</td><td style='border:1px solid #86efac; padding:5px;'>6</td><td style='border:1px solid #86efac; padding:5px;'>77.5</td><td style='border:1px solid #86efac; padding:5px;'>465.0</td></tr>
+                                    <tr><td style='border:1px solid #86efac; padding:5px;'>85-100</td><td style='border:1px solid #86efac; padding:5px;'>6</td><td style='border:1px solid #86efac; padding:5px;'>92.5</td><td style='border:1px solid #86efac; padding:5px;'>555.0</td></tr>
+                                    <tr style='background-color:#bbf7d0; font-weight:bold;'>
+                                        <td style='border:1px solid #86efac; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'>&Sigma;f<sub>i</sub> = 30</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'>-</td>
+                                        <td style='border:1px solid #86efac; padding:8px;'>&Sigma;f<sub>i</sub>x<sub>i</sub> = 1860.0</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                મધ્યક (<span style="text-decoration:overline;">x</span>) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>x<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br>
+                                <span style="text-decoration:overline;">x</span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1860</span><span>30</span></span> <br>
+                                <b style='font-size:20px; color:#15803d;'><span style="text-decoration:overline;">x</span> = 62</b> 
+                                <p style='color:#64748b; font-size:14px; margin-bottom:0;'><i>(નોંધ: આ રીતમાં ગુણાકાર બહુ મોટા થાય છે, એટલે જો આંકડા મોટા હોય તો આ રીત ટાળવી).</i></p>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+        
+                { 
+                    question: "ઉદાહરણ 2 (રીત 2): આપેલ માહિતીનો મધ્યક શોધો (ધારેલા મધ્યકની રીત)", 
+                    question_desc: "Assumed Mean Method",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> અગાઉના જ દાખલા (30 વિદ્યાર્થીઓના ગુણ) નો મધ્યક હવે <b>ધારેલા મધ્યકની રીત</b> થી શોધો.</p>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>💡 રીતની સમજૂતી:</b><br>
+                            જ્યારે x<sub>i</sub> અને f<sub>i</sub> ના આંકડા મોટા હોય ત્યારે તેમનો સીધો ગુણાકાર અઘરો પડે છે.<br>
+                            તેથી આપણે x<sub>i</sub> ના ખાનામાંથી બરાબર વચ્ચે આવતી કોઈ એક કિંમતને <b>'a' (ધારેલો મધ્યક)</b> ધારી લઈએ છીએ.<br>
+                            અહીં આપણે <b style='color:#be123c;'>a = 47.5</b> ધારીશું.
+                        </div>
+
+                        <div style='background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                            <b style='color:#0f172a; font-size:16px;'>ગણતરીનું કોષ્ટક:</b>
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:550px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#dbeafe; font-weight:bold; color:#1e3a8a;'>
+                                        <th style='border:1px solid #93c5fd; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #93c5fd; padding:8px;'>આવૃત્તિ (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #93c5fd; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #93c5fd; padding:8px;'>d<sub>i</sub> = x<sub>i</sub> - a</th>
+                                        <th style='border:1px solid #93c5fd; padding:8px;'>f<sub>i</sub> &times; d<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>10-25</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>2</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>17.5</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>17.5 - 47.5 = <b>-30</b></td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>2 &times; (-30) = <b style='color:#be123c;'>-60</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>25-40</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>3</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>32.5</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>32.5 - 47.5 = <b>-15</b></td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>3 &times; (-15) = <b style='color:#be123c;'>-45</b></td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>40-55</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>7</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'><b style='color:#b45309;'>a = 47.5</b></td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>47.5 - 47.5 = <b style='color:#047857;'>0</b></td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>7 &times; 0 = <b style='color:#047857;'>0</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>55-70</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>6</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>62.5</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>62.5 - 47.5 = <b>15</b></td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>6 &times; 15 = <b style='color:#1d4ed8;'>90</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>70-85</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>6</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>77.5</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>77.5 - 47.5 = <b>30</b></td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>6 &times; 30 = <b style='color:#1d4ed8;'>180</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>85-100</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>6</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>92.5</td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>92.5 - 47.5 = <b>45</b></td>
+                                        <td style='border:1px solid #93c5fd; padding:5px;'>6 &times; 45 = <b style='color:#1d4ed8;'>270</b></td>
+                                    </tr>
+                                    <tr style='background-color:#bfdbfe; font-weight:bold;'>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>&Sigma;f<sub>i</sub> = 30</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>-</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>-</td>
+                                        <td style='border:1px solid #93c5fd; padding:8px;'>&Sigma;f<sub>i</sub>d<sub>i</sub> = 435</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div style='background-color:#fffbeb; padding:10px; border-radius:5px; margin-top:10px;'>
+                                <b style='color:#b45309;'>&Sigma;f<sub>i</sub>d<sub>i</sub> શોધવાની ટ્રીક:</b><br>
+                                પહેલા માઇનસ વાળી સંખ્યાઓનો સરવાળો કરો: (-60) + (-45) = <b>-105</b><br>
+                                પછી પ્લસ વાળી સંખ્યાઓનો સરવાળો કરો: 90 + 180 + 270 = <b>540</b><br>
+                                છેલ્લે બંનેની બાદબાકી: 540 - 105 = <b style='color:#047857;'>435</b>. 
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:15px; line-height:2.5;'>
+                                <b style='color:#1e3a8a;'>સૂત્રમાં કિંમત મૂકતાં:</b><br>
+                                મધ્યક (<span style="text-decoration:overline;">x</span>) = a + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>d<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br><br>
+                                
+                                <span style="text-decoration:overline;">x</span> = 47.5 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>435</span><span>30</span></span><br><br>
+                                
+                                <i style='color:#64748b;'>(435 ને 30 વડે ભાગતાં 14.5 મળશે)</i><br>
+                                <span style="text-decoration:overline;">x</span> = 47.5 + 14.5<br><br>
+                                
+                                <b style='font-size:20px; color:#1d4ed8;'><span style="text-decoration:overline;">x</span> = 62</b> 
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+
+                { 
+                    question: "ઉદાહરણ 2 (રીત 3): આપેલ માહિતીનો મધ્યક શોધો (પદ-વિચલનની રીત 🚀)", 
+                    question_desc: "Step-Deviation Method (પરીક્ષા માટે બેસ્ટ)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> તે જ 30 વિદ્યાર્થીઓના ગુણનો મધ્યક હવે <b>પદ-વિચલનની રીત</b> થી શોધો.</p>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>💡 જાદુઈ ટ્રીક સમજો:</b><br>
+                            જ્યારે વર્ગલંબાઈ (h) સમાન હોય, ત્યારે ગણતરી કરવાની જરૂર જ નથી! <br>
+                            જેને <b>'a'</b> ધારો તેની સામે u<sub>i</sub> ના ખાનામાં સીધો <b>0</b> મૂકી દો. <br>
+                            0 ની ઉપર <b>-1, -2, -3...</b> અને નીચે <b>1, 2, 3...</b> સીધું જ લખી નાખવું! (અહીં <b>h = 15</b> અને <b>a = 47.5</b> છે).
+                        </div>
+
+                        <div style='background-color:#fcfaf8; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#9a3412; font-size:16px;'>ગણતરીનું કોષ્ટક:</b>
+                            
+                            <div style='overflow-x:auto; margin:10px 0;'>
+                                <table style='width:100%; min-width:550px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                    <tr style='background-color:#ffedd5; font-weight:bold; color:#c2410c;'>
+                                        <th style='border:1px solid #fdba74; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #fdba74; padding:8px;'>આવૃત્તિ (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #fdba74; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #fdba74; padding:8px;'>u<sub>i</sub> = (x<sub>i</sub> - a) / h</th>
+                                        <th style='border:1px solid #fdba74; padding:8px;'>f<sub>i</sub> &times; u<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>10-25</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>2</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>17.5</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'><b style='color:#be123c;'>-2</b></td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>2 &times; (-2) = <b style='color:#be123c;'>-4</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>25-40</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>3</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>32.5</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'><b style='color:#be123c;'>-1</b></td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>3 &times; (-1) = <b style='color:#be123c;'>-3</b></td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>40-55</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>7</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'><b style='color:#b45309;'>a = 47.5</b></td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'><b style='color:#047857;'>0</b></td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>7 &times; 0 = <b style='color:#047857;'>0</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>55-70</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>6</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>62.5</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'><b>1</b></td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>6 &times; 1 = <b>6</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>70-85</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>6</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>77.5</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'><b>2</b></td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>6 &times; 2 = <b>12</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>85-100</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>6</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>92.5</td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'><b>3</b></td>
+                                        <td style='border:1px solid #fdba74; padding:5px;'>6 &times; 3 = <b>18</b></td>
+                                    </tr>
+                                    <tr style='background-color:#fed7aa; font-weight:bold;'>
+                                        <td style='border:1px solid #fdba74; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #fdba74; padding:8px;'>&Sigma;f<sub>i</sub> = 30</td>
+                                        <td style='border:1px solid #fdba74; padding:8px;'>-</td>
+                                        <td style='border:1px solid #fdba74; padding:8px;'>-</td>
+                                        <td style='border:1px solid #fdba74; padding:8px;'>&Sigma;f<sub>i</sub>u<sub>i</sub> = 29</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div style='background-color:#fffbeb; padding:10px; border-radius:5px; margin-top:10px;'>
+                                <b style='color:#b45309;'>&Sigma;f<sub>i</sub>u<sub>i</sub> શોધવાની ટ્રીક:</b><br>
+                                માઇનસ વાળાનો સરવાળો: (-4) + (-3) = <b>-7</b><br>
+                                પ્લસ વાળાનો સરવાળો: 6 + 12 + 18 = <b>36</b><br>
+                                બાદબાકી: 36 - 7 = <b style='color:#047857;'>29</b>. (ગણતરી કેટલી સહેલી થઈ ગઈ!)
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:15px; line-height:2.5;'>
+                                <b style='color:#c2410c;'>સૂત્રમાં કિંમત મૂકતાં:</b><br>
+                                મધ્યક (<span style="text-decoration:overline;">x</span>) = a + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; h<br><br>
+                                
+                                <span style="text-decoration:overline;">x</span> = 47.5 + <span style='font-size:30px; font-weight:normal; vertical-align:middle;'>[</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>29</span><span>30</span></span><span style='font-size:30px; font-weight:normal; vertical-align:middle;'>]</span> &times; 15<br><br>
+                                
+                                <i style='color:#64748b;'>(15 અને 30 નો છેદ ઉડતા છેદમાં 2 વધશે: 15 &times; 2 = 30)</i><br>
+                                <span style="text-decoration:overline;">x</span> = 47.5 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>29</span><span>2</span></span><br><br>
+                                
+                                <i style='color:#64748b;'>(29 ના અડધા 14.5 થાય)</i><br>
+                                <span style="text-decoration:overline;">x</span> = 47.5 + 14.5<br><br>
+                                
+                                <b style='font-size:20px; color:#c2410c;'><span style="text-decoration:overline;">x</span> = 62</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#dcfce7; padding:15px; border-radius:8px; margin-top:20px; border-left:6px solid #16a34a; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'>
+                            <b style='color:#15803d; font-size:18px;'>🏆 વિદ્યાર્થીઓ માટે અંતિમ નિષ્કર્ષ:</b><br>
+                            તમે જોયું ને? આપણે 3 અલગ-અલગ રીતે ગણતરી કરી (સીધી રીત, ધારેલા મધ્યકની રીત અને પદ-વિચલનની રીત), પણ ત્રણેયમાં <b>જવાબ 62 જ આવ્યો!</b><br>
+                            બોર્ડની પરીક્ષામાં તમારે ત્રણમાંથી કોઈ <b>એક જ રીત</b> થી દાખલો ગણવાનો છે. અને બને ત્યાં સુધી <b>પદ-વિચલનની રીત</b> જ વાપરવી, જેથી ગુણાકારમાં ભૂલ પડે જ નહીં!
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+                
+                
+        
+    
                         
                 
             
