@@ -797,8 +797,129 @@ var njMathsExercise = {
                     </div>
                     `
                 },
+        
+                { 
+                    question: "સ્વા. 3.1 પ્રશ્ન 1(ii): 5 પેન્સિલ અને 7 પેનની કુલ કિંમત ₹50 છે...", 
+                    question_desc: "તે જ કિંમતવાળી 7 પેન્સિલ અને 5 પેનની કુલ કિંમત ₹46 છે...",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 5 પેન્સિલ અને 7 પેનની કુલ કિંમત ₹ 50 છે. અને તે જ કિંમતવાળી 7 પેન્સિલ અને 5 પેનની કુલ કિંમત ₹ 46 છે, તો એક પેન્સિલ અને એક પેનની કિંમત શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ભાગ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે 1 પેન્સિલની કિંમત = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અને 1 પેનની કિંમત = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            
+                            <ul style='line-height:2.2; margin-top:5px; font-size:16px; color:#0f172a;'>
+                                <li>5 પેન્સિલ અને 7 પેનની કિંમત 50 છે:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'>5<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 7<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 50</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)</li>
+                                
+                                <li>7 પેન્સિલ અને 5 પેનની કિંમત 46 છે:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'>7<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 5<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 46</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>ભાગ 2: આલેખ માટે કોષ્ટક તૈયાર કરવા (અંશ-છેદ વાળા)</b><br>
+                            
+                            <div style='background-color:#ffffff; border:1px solid #bfdbfe; border-radius:5px; padding:10px; margin-top:10px;'>
+                                <b style='color:#2563eb;'>સમીકરણ 1: 5<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 7<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 50</b> પરથી <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ને કર્તા બનાવતાં:<br>
+                                <div style='overflow-x:auto; margin:10px 0; font-size:18px; font-weight:bold; color:#dc2626;'>
+                                    <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>50 - 7<i style='font-family:"Times New Roman",serif;'>y</i></span><span>5</span></span>
+                                </div>
+                                <span style='font-size:14px; color:#64748b;'>અહીં છેદમાં 5 હોવાથી આપણે <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> ની એવી કિંમત ધારીશું કે અંશને 5 વડે ભાગી શકાય:</span>
+                                <div style='overflow-x:auto;'>
+                                    <ul style='font-size:15px; margin-top:5px; line-height:2.5; white-space:nowrap;'>
+                                        <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 5 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50 - 7(5)</span><span>5</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50 - 35</span><span>5</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>5</span></span> = <b>3</b></li>
+                                        <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 0 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50 - 7(0)</span><span>5</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50 - 0</span><span>5</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50</span><span>5</span></span> = <b>10</b></li>
+                                    </ul>
+                                </div>
+                                <div style='overflow-x:auto;'>
+                                    <table style='width:100%; max-width:300px; text-align:center; border-collapse:collapse; margin-top:10px;'>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>3</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>10</td>
+                                        </tr>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>5</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>0</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <div style='background-color:#ffffff; border:1px solid #bfdbfe; border-radius:5px; padding:10px; margin-top:15px;'>
+                                <b style='color:#2563eb;'>સમીકરણ 2: 7<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 5<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 46</b> પરથી <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ને કર્તા બનાવતાં:<br>
+                                <div style='overflow-x:auto; margin:10px 0; font-size:18px; font-weight:bold; color:#dc2626;'>
+                                    <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>46 - 5<i style='font-family:"Times New Roman",serif;'>y</i></span><span>7</span></span>
+                                </div>
+                                <span style='font-size:14px; color:#64748b;'>અહીં છેદમાં 7 હોવાથી આપણે <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> ની એવી કિંમત ધારીશું કે અંશને 7 વડે ભાગી શકાય:</span>
+                                <div style='overflow-x:auto;'>
+                                    <ul style='font-size:15px; margin-top:5px; line-height:2.5; white-space:nowrap;'>
+                                        <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = 5 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>46 - 5(5)</span><span>7</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>46 - 25</span><span>7</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>21</span><span>7</span></span> = <b>3</b></li>
+                                        <li>જો <i style='font-family:"Times New Roman",serif; font-size:16px;'>y</i> = -2 લઈએ, તો <i style='font-family:"Times New Roman",serif; font-size:16px;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>46 - 5(-2)</span><span>7</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>46 + 10</span><span>7</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>56</span><span>7</span></span> = <b>8</b></li>
+                                    </ul>
+                                </div>
+                                <div style='overflow-x:auto;'>
+                                    <table style='width:100%; max-width:300px; text-align:center; border-collapse:collapse; margin-top:10px;'>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>3</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>8</td>
+                                        </tr>
+                                        <tr>
+                                            <th style='border:1px solid #93c5fd; padding:8px; background-color:#dbeafe;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></th>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>5</td>
+                                            <td style='border:1px solid #93c5fd; padding:8px;'>-2</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>ભાગ 3: આલેખ અને ઉકેલ</b><br>
+                            આ બંને કોષ્ટકના બિંદુઓને આલેખપત્ર પર દર્શાવીએ:
+                            
+                            
+                            <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                                <svg width="340" height="280" viewBox="0 0 340 280" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border:1px solid #cbd5e1; border-radius:5px;">
+                                    <g stroke="#e2e8f0" stroke-width="1">
+                                        <line x1="0" y1="20" x2="340" y2="20" /><line x1="0" y1="40" x2="340" y2="40" /><line x1="0" y1="60" x2="340" y2="60" /><line x1="0" y1="80" x2="340" y2="80" /><line x1="0" y1="100" x2="340" y2="100" /><line x1="0" y1="120" x2="340" y2="120" /><line x1="0" y1="140" x2="340" y2="140" /><line x1="0" y1="160" x2="340" y2="160" /><line x1="0" y1="180" x2="340" y2="180" /><line x1="0" y1="200" x2="340" y2="200" /><line x1="0" y1="220" x2="340" y2="220" /><line x1="0" y1="240" x2="340" y2="240" /><line x1="0" y1="260" x2="340" y2="260" />
+                                        <line x1="20" y1="0" x2="20" y2="280" /><line x1="40" y1="0" x2="40" y2="280" /><line x1="60" y1="0" x2="60" y2="280" /><line x1="80" y1="0" x2="80" y2="280" /><line x1="100" y1="0" x2="100" y2="280" /><line x1="120" y1="0" x2="120" y2="280" /><line x1="140" y1="0" x2="140" y2="280" /><line x1="160" y1="0" x2="160" y2="280" /><line x1="180" y1="0" x2="180" y2="280" /><line x1="200" y1="0" x2="200" y2="280" /><line x1="220" y1="0" x2="220" y2="280" /><line x1="240" y1="0" x2="240" y2="280" /><line x1="260" y1="0" x2="260" y2="280" /><line x1="280" y1="0" x2="280" y2="280" /><line x1="300" y1="0" x2="300" y2="280" /><line x1="320" y1="0" x2="320" y2="280" />
+                                    </g>
+                                    
+                                    <line x1="0" y1="200" x2="340" y2="200" stroke="#0f172a" stroke-width="2" /> <line x1="40" y1="0" x2="40" y2="280" stroke="#0f172a" stroke-width="2" /> <text x="325" y="195" font-weight="bold" font-size="12">X</text>
+                                    <text x="25" y="15" font-weight="bold" font-size="12">Y</text>
+                                    <text x="25" y="215" font-weight="bold" font-size="12">O</text>
+                                    
+                                    <text x="60" y="215" font-size="10">1</text><text x="80" y="215" font-size="10">2</text><text x="100" y="215" font-size="10">3</text><text x="140" y="215" font-size="10">5</text><text x="200" y="215" font-size="10">8</text><text x="240" y="215" font-size="10">10</text>
+                                    <text x="25" y="185" font-size="10">1</text><text x="25" y="145" font-size="10">3</text><text x="25" y="105" font-size="10">5</text><text x="20" y="245" font-size="10">-2</text>
+                                    
+                                    <line x1="30" y1="50" x2="310" y2="250" stroke="#2563eb" stroke-width="3" />
+                                    
+                                    <line x1="50" y1="30" x2="225" y2="275" stroke="#dc2626" stroke-width="3" />
+                                    
+                                    <circle cx="100" cy="100" r="6" fill="#0f172a" />
+                                    <text x="115" y="95" font-size="14" font-weight="bold" fill="#0f172a">(3, 5)</text>
+                                </svg>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:15px; border-radius:8px; margin-top:15px; border-left:6px solid #16a34a; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'>
+                                <b style='color:#15803d; font-size:18px;'>🏆 આલેખ પરથી ઉકેલ:</b><br>
+                                આલેખમાં બંને રેખાઓ એકબીજાને <b>(3, 5)</b> બિંદુએ છેદે છે.<br>
+                                તેથી, <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i> = 3 અને <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i> = 5.<br><br>
+                                <b>અંતિમ જવાબ:</b> એક <b style='color:#1d4ed8;'>પેન્સિલની કિંમત ₹ 3</b> છે અને એક <b style='color:#be123c;'>પેનની કિંમત ₹ 5</b> છે. 
+                                <span style='font-size:14px; color:#64748b;'>(તાળો મેળવીએ: 5(3) + 7(5) = 15 + 35 = 50. જવાબ એકદમ સાચો છે!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
             
         
+                
                 
             
         
