@@ -1257,7 +1257,237 @@ var njMathsExamples = {
                     `
                 }
             ]
-        }
+        },
+        // ------------------------------------
+        // પ્રકરણ 7: યામ ભૂમિતિ (ઉદાહરણ ભાગ 1 - અંતર સૂત્ર)
+        // ------------------------------------
+        "7": {
+            "chapterName": "પ્રકરણ 7 (ઉદાહરણ ભાગ 1)",
+            "chapterTitle": "યામ ભૂમિતિ - ઉદાહરણના દાખલા",
+            "qa_list": [
+                {
+                    question: "🎯 પાયાની સમજૂતી: અંતર સૂત્ર અને x₁, y₁ નો ઉપયોગ",
+                    answer: `
+                    <div style='background-color:#f8fafc; padding:15px; border-radius:8px; border:2px solid #cbd5e1;'>
+                        <p style='margin-top:0; color:#0f172a;'>અંતર સૂત્રનો ઉપયોગ બે બિંદુઓ વચ્ચેનું અંતર શોધવા માટે થાય છે. પરીક્ષામાં ભૂલ ન પડે તે માટે પહેલા <b>x<sub>1</sub>, y<sub>1</sub></b> અને <b>x<sub>2</sub>, y<sub>2</sub></b> લખી લેવા.</p>
+                        
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #94a3b8; margin-bottom:10px;'>
+                            <b style='color:#be123c;'>અંતર સૂત્ર (Distance Formula):</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-size:20px; font-weight:bold; color:#1d4ed8; padding:10px 0; text-align:center;'>
+                                AB = &radic;[ (x<sub>2</sub> - x<sub>1</sub>)&sup2; + (y<sub>2</sub> - y<sub>1</sub>)&sup2; ]
+                            </div>
+                            <p style='margin:0; font-size:14px; color:#475569; text-align:center;'><i>(નોંધ: ગણતરી સહેલી કરવા આપણે વર્ગમૂળ દૂર કરીને <b>AB&sup2; = (x<sub>2</sub> - x<sub>1</sub>)&sup2; + (y<sub>2</sub> - y<sub>1</sub>)&sup2;</b> વાપરીશું).</i></p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 1: ત્રણ બિંદુઓ ત્રિકોણ બનાવે છે કે નહિ તે ચકાસવું", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a;'><b>પ્રશ્ન:</b> શું બિંદુઓ (3, 2), (-2, -3) અને (2, 3) ત્રિકોણ બનાવશે? જો હા, તો કયા પ્રકારનો ત્રિકોણ બનાવશે?</p>
+                        
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>સ્ટેપ 1: ધારો કે ત્રણ બિંદુઓ P, Q અને R છે.</b><br>
+                            P(3, 2) &rArr; <b>x<sub>1</sub> = 3, y<sub>1</sub> = 2</b><br>
+                            Q(-2, -3) &rArr; <b>x<sub>2</sub> = -2, y<sub>2</sub> = -3</b><br>
+                            R(2, 3) &rArr; <b>x<sub>3</sub> = 2, y<sub>3</sub> = 3</b><br><br>
+                            
+                            <b style='color:#16a34a;'>હવે ત્રણેય બાજુઓ (PQ, QR, PR) ના અંતર શોધીએ:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                                <b style='color:#15803d;'>1) PQ&sup2; શોધવા:</b><br>
+                                PQ&sup2; = (x<sub>2</sub> - x<sub>1</sub>)&sup2; + (y<sub>2</sub> - y<sub>1</sub>)&sup2;<br>
+                                PQ&sup2; = (-2 - 3)&sup2; + (-3 - 2)&sup2;<br>
+                                PQ&sup2; = (-5)&sup2; + (-5)&sup2;<br>
+                                PQ&sup2; = 25 + 25 = 50 &rArr; <b style='color:#047857;'>PQ = &radic;50 &approx; 7.07</b><br><br>
+                                
+                                <b style='color:#15803d;'>2) QR&sup2; શોધવા:</b><br>
+                                QR&sup2; = (x<sub>3</sub> - x<sub>2</sub>)&sup2; + (y<sub>3</sub> - y<sub>2</sub>)&sup2;<br>
+                                QR&sup2; = (2 - (-2))&sup2; + (3 - (-3))&sup2;<br>
+                                QR&sup2; = (2 + 2)&sup2; + (3 + 3)&sup2;<br>
+                                QR&sup2; = (4)&sup2; + (6)&sup2;<br>
+                                QR&sup2; = 16 + 36 = 52 &rArr; <b style='color:#047857;'>QR = &radic;52 &approx; 7.21</b><br><br>
+
+                                <b style='color:#15803d;'>3) PR&sup2; શોધવા:</b><br>
+                                PR&sup2; = (x<sub>3</sub> - x<sub>1</sub>)&sup2; + (y<sub>3</sub> - y<sub>1</sub>)&sup2;<br>
+                                PR&sup2; = (2 - 3)&sup2; + (3 - 2)&sup2;<br>
+                                PR&sup2; = (-1)&sup2; + (1)&sup2;<br>
+                                PR&sup2; = 1 + 1 = 2 &rArr; <b style='color:#047857;'>PR = &radic;2 &approx; 1.41</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>સ્ટેપ 2: ચકાસણી કરવી</b><br>
+                            અહીં, કોઈપણ બે બાજુઓનો સરવાળો ત્રીજી બાજુ કરતા મોટો છે (દા.ત. PQ + PR > QR). તેથી આ બિંદુઓ <b>ત્રિકોણ ચોક્કસ બનાવશે</b>.<br><br>
+                            
+                            <b style='color:#b91c1c;'>💡 ત્રિકોણનો પ્રકાર નક્કી કરવાની ટ્રીક:</b><br>
+                            ઉપરની ગણતરીમાં જુઓ: PQ&sup2; = 50, PR&sup2; = 2 અને QR&sup2; = 52.<br>
+                            <span style='white-space:nowrap; font-weight:bold;'>50 + 2 = 52</span> એટલે કે <b style='color:#be123c;'>PQ&sup2; + PR&sup2; = QR&sup2;</b> થાય છે.<br>
+                            પાયથાગોરસના પ્રમેય મુજબ, આ <b>કાટકોણ ત્રિકોણ</b> છે! (જેમાં ખૂણો P કાટખૂણો છે).
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 2: ચોરસના શિરોબિંદુઓ સાબિત કરવા (4 માર્ક્સ માટે IMP)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> સાબિત કરો કે બિંદુઓ (1, 7), (4, 2), (-1, -1) અને (-4, 4) એ <b>ચોરસના શિરોબિંદુઓ</b> છે.</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (ચોરસ સાબિત કરવા શું કરવું?):</b><br>
+                            કોઈપણ આકૃતિને ચોરસ સાબિત કરવા માટે <b>કુલ 6 અંતર</b> શોધવા પડે:<br>
+                            1. ચારેય બાજુઓ સમાન થવી જોઈએ (AB = BC = CD = DA).<br>
+                            2. બંને વિકર્ણો સમાન થવા જોઈએ (AC = BD).
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>સ્ટેપ 1: ધારો કે 4 બિંદુઓ A, B, C, D છે.</b><br>
+                            A(1, 7), B(4, 2), C(-1, -1), D(-4, 4)<br><br>
+                            
+                            <b style='color:#1d4ed8;'>ચારેય બાજુઓ શોધીએ (અંતર સૂત્ર: AB&sup2; = (x₂-x₁)&sup2; + (y₂-y₁)&sup2;):</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                AB&sup2; = (4 - 1)&sup2; + (2 - 7)&sup2; = (3)&sup2; + (-5)&sup2; = 9 + 25 = <b>34</b> &rArr; <b style='color:#16a34a;'>AB = &radic;34</b><br>
+                                BC&sup2; = (-1 - 4)&sup2; + (-1 - 2)&sup2; = (-5)&sup2; + (-3)&sup2; = 25 + 9 = <b>34</b> &rArr; <b style='color:#16a34a;'>BC = &radic;34</b><br>
+                                CD&sup2; = (-4 - (-1))&sup2; + (4 - (-1))&sup2; = (-3)&sup2; + (5)&sup2; = 9 + 25 = <b>34</b> &rArr; <b style='color:#16a34a;'>CD = &radic;34</b><br>
+                                DA&sup2; = (1 - (-4))&sup2; + (7 - 4)&sup2; = (5)&sup2; + (3)&sup2; = 25 + 9 = <b>34</b> &rArr; <b style='color:#16a34a;'>DA = &radic;34</b>
+                            </div>
+                            <p style='margin-top:5px;'>અહીં ચારેય બાજુઓ સમાન છે: <b>AB = BC = CD = DA</b>.</p>
+
+                            <hr style='border:1px solid #cbd5e1; margin:15px 0;'>
+
+                            <b style='color:#be123c;'>સ્ટેપ 2: બંને વિકર્ણો (AC અને BD) શોધીએ:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                AC&sup2; = (-1 - 1)&sup2; + (-1 - 7)&sup2; = (-2)&sup2; + (-8)&sup2; = 4 + 64 = <b>68</b> &rArr; <b style='color:#b91c1c;'>AC = &radic;68</b><br>
+                                BD&sup2; = (-4 - 4)&sup2; + (4 - 2)&sup2; = (-8)&sup2; + (2)&sup2; = 64 + 4 = <b>68</b> &rArr; <b style='color:#b91c1c;'>BD = &radic;68</b>
+                            </div>
+                            <p style='margin-top:5px;'>અહીં બંને વિકર્ણો પણ સમાન છે: <b>AC = BD</b>.</p>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px;'>
+                                <b style='color:#15803d;'>નિષ્કર્ષ:</b> ચારેય બાજુઓ સમાન છે અને વિકર્ણો પણ સમાન છે, તેથી ABCD <b>ચોરસ</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 3: ત્રણ બિંદુઓ સમરેખ છે કે નહિ? (એક જ રેખામાં)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> આકૃતિમાં દર્શાવ્યા મુજબ એક વર્ગખંડમાં ડેસ્ક ગોઠવેલા છે. આશિમા(A), ભારતી(B) અને કેમેલિયા(C) અનુક્રમે A(3, 1), B(6, 4) અને C(8, 6) સ્થાન પર બેઠેલા છે. શું તેઓ <b>એક જ રેખામાં (સમરેખ)</b> બેઠેલા છે?</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમરેખ સાબિત કરવાની શરત:</b><br>
+                            જો બે નાના અંતરનો સરવાળો સૌથી મોટા અંતર બરાબર થાય, તો બિંદુઓ સમરેખ કહેવાય.<br>
+                            એટલે કે <b style='color:#be123c;'>AB + BC = AC</b> થવું જોઈએ.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d;'>ગણતરી: ત્રણેય અંતર શોધીએ</b><br>
+                            A(3, 1), B(6, 4), C(8, 6)<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.2;'>
+                                AB&sup2; = (6 - 3)&sup2; + (4 - 1)&sup2; = (3)&sup2; + (3)&sup2; = 9 + 9 = 18 <br>
+                                <span style='color:#64748b;'><i>(18 ના ભાગ 9 &times; 2 પાડીએ, 9 નું વર્ગમૂળ 3 થાય)</i></span><br>
+                                <b style='color:#15803d;'>AB = 3&radic;2</b><br><br>
+
+                                BC&sup2; = (8 - 6)&sup2; + (6 - 4)&sup2; = (2)&sup2; + (2)&sup2; = 4 + 4 = 8 <br>
+                                <span style='color:#64748b;'><i>(8 ના ભાગ 4 &times; 2 પાડીએ, 4 નું વર્ગમૂળ 2 થાય)</i></span><br>
+                                <b style='color:#15803d;'>BC = 2&radic;2</b><br><br>
+
+                                AC&sup2; = (8 - 3)&sup2; + (6 - 1)&sup2; = (5)&sup2; + (5)&sup2; = 25 + 25 = 50 <br>
+                                <span style='color:#64748b;'><i>(50 ના ભાગ 25 &times; 2 પાડીએ, 25 નું વર્ગમૂળ 5 થાય)</i></span><br>
+                                <b style='color:#15803d;'>AC = 5&radic;2</b>
+                            </div>
+
+                            <div style='background-color:#eff6ff; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <b style='color:#1e3a8a;'>ચકાસણી:</b><br>
+                                બે નાના અંતરનો સરવાળો: AB + BC = 3&radic;2 + 2&radic;2 = <b>5&radic;2</b><br>
+                                અને મોટું અંતર AC પણ <b>5&radic;2</b> છે.<br>
+                                અહીં, <b style='color:#be123c;'>AB + BC = AC</b> થાય છે. <br>
+                                <b>જવાબ:</b> હા, આશિમા, ભારતી અને કેમેલિયા એક જ સીધી રેખામાં (સમરેખ) બેઠેલા છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 4: સમાન અંતરે (Equidistant) આવેલ બિંદુ માટેનો સંબંધ", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> બિંદુ P(x, y) એ બિંદુઓ A(7, 1) અને B(3, 5) થી સમાન અંતરે આવેલ છે, તો x અને y વચ્ચેનો સંબંધ દર્શાવતું સમીકરણ મેળવો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>સ્ટેપ 1: 'સમાન અંતર' ની શરત મૂકવી</b><br>
+                            રકમ મુજબ બિંદુ P નું A થી અંતર અને B થી અંતર સરખું છે.<br>
+                            તેથી, <b style='font-size:18px;'>PA = PB</b><br>
+                            ગણતરી સહેલી કરવા બંને બાજુ વર્ગ લઈએ:<br>
+                            <b style='font-size:18px; color:#be123c;'>PA&sup2; = PB&sup2;</b>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px;'>
+                            <b style='color:#0f172a;'>સ્ટેપ 2: અંતર સૂત્રમાં કિંમત મૂકી સાદુરૂપ આપવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.2;'>
+                                (x - 7)&sup2; + (y - 1)&sup2; = (x - 3)&sup2; + (y - 5)&sup2;<br>
+                                
+                                <i style='color:#64748b;'>(હવે (a-b)² ના સૂત્રથી કૌંસ છોડીશું)</i><br>
+                                (x&sup2; - 14x + 49) + (y&sup2; - 2y + 1) = (x&sup2; - 6x + 9) + (y&sup2; - 10y + 25)<br>
+                                
+                                <i style='color:#64748b;'>(બંને બાજુથી x² અને y² ઉડી જશે)</i><br>
+                                -14x - 2y + 50 = -6x - 10y + 34<br>
+                                
+                                <i style='color:#64748b;'>(બધા પદો એક બાજુ ભેગા કરતાં)</i><br>
+                                -14x + 6x - 2y + 10y + 50 - 34 = 0<br>
+                                -8x + 8y + 16 = 0<br>
+                                
+                                <i style='color:#64748b;'>(બધામાંથી -8 સામાન્ય કાઢતાં)</i><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>x - y - 2 = 0</b> &nbsp;&nbsp; અથવા &nbsp;&nbsp; <b style='font-size:20px; color:#1d4ed8;'>x - y = 2</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#047857;'>આ x અને y વચ્ચેનો માંગેલ સંબંધ છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 5: y-અક્ષ પર આવેલું સમાન અંતરે આવેલ બિંદુ શોધો", 
+                    question_desc: "2 માર્ક્સ માટે મોસ્ટ IMP",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> બિંદુઓ A(6, 5) અને B(-4, 3) થી સમાન અંતરે આવેલું <b>y-અક્ષ પરનું બિંદુ</b> શોધો.</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ગોલ્ડન ટ્રીક (શરૂઆત ક્યાંથી કરવી?):</b><br>
+                            જ્યારે પણ <b>"y-અક્ષ પરનું બિંદુ"</b> કહે, ત્યારે તેનો x-યામ હંમેશા <b>0</b> જ હોય! <br>
+                            તેથી ધારો કે y-અક્ષ પરનું માંગેલ બિંદુ <b style='color:#be123c;'>P(0, y)</b> છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d;'>ગણતરી: PA&sup2; = PB&sup2; મૂકતાં</b><br>
+                            P(0, y), A(6, 5), B(-4, 3)<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.2; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                                PA&sup2; = PB&sup2;<br>
+                                (0 - 6)&sup2; + (y - 5)&sup2; = (0 - (-4))&sup2; + (y - 3)&sup2;<br>
+                                (-6)&sup2; + (y&sup2; - 10y + 25) = (4)&sup2; + (y&sup2; - 6y + 9)<br>
+                                36 + y&sup2; - 10y + 25 = 16 + y&sup2; - 6y + 9<br>
+                                
+                                <i style='color:#64748b;'>(બંને બાજુથી y² ઉડી જશે)</i><br>
+                                -10y + 61 = -6y + 25<br>
+                                
+                                <i style='color:#64748b;'>(y વાળા પદ એક બાજુ, સંખ્યા બીજી બાજુ)</i><br>
+                                61 - 25 = -6y + 10y<br>
+                                36 = 4y<br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>36</span><span>4</span></span><br>
+                                <b style='font-size:20px; color:#15803d;'>y = 9</b>
+                            </div>
+                            <p style='margin-top:10px; color:#0f172a; font-weight:bold;'>જવાબ: y-અક્ષ પર આવેલું માંગેલ બિંદુ P(0, y) = <b style='color:#be123c;'>(0, 9)</b> છે.</p>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        },
+
 
     
     
