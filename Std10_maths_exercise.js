@@ -475,13 +475,184 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: શૂન્યોના સરવાળા અને ગુણાકાર પરથી દ્વિઘાત બહુપદી શોધવાનું સીધું સૂત્ર",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>જ્યારે રકમમાં શૂન્યોનો સરવાળો અને ગુણાકાર આપ્યો હોય, ત્યારે માત્ર આ એક જ સૂત્ર વાપરવું:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px; text-align:center;'>
+                            <b style='color:#be123c; font-size:18px;'>p(x) = k [ x&sup2; - (શૂન્યોનો સરવાળો)x + (શૂન્યોનો ગુણાકાર) ]</b><br><br>
+                            અથવા ટૂંકમાં:<br>
+                            <b style='color:#1d4ed8; font-size:20px;'>p(x) = k [ x&sup2; - (&alpha; + &beta;)x + &alpha;&beta; ]</b>
+                        </div>
+                        
+                        <div style='background-color:#fffbeb; padding:10px; border-radius:5px; margin-top:10px;'>
+                            <b style='color:#b45309;'>💡 છેદ ઉડાડવાની ટ્રીક:</b> કૌંસમાં કિંમતો મૂક્યા પછી, જો કોઈ સંખ્યા છેદમાં (નીચે) આવે, તો તે <b>છેદવાળી સંખ્યાનો આખા કૌંસ સાથે ગુણાકાર</b> કરી દેવો, એટલે છેદ ઉડી જશે અને સીધો જવાબ મળી જશે! (અહીં k એ શૂન્યેતર વાસ્તવિક સંખ્યા છે).
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 2.2 પ્રશ્ન 2(i): શૂન્યોનો સરવાળો 1/4 અને ગુણાકાર -1", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> નીચે દર્શાવેલ સંખ્યાઓ અનુક્રમે દ્વિઘાત બહુપદીના શૂન્યોનો સરવાળો અને શૂન્યોનો ગુણાકાર છે. તે પરથી દ્વિઘાત બહુપદી મેળવો: <b>1/4, -1</b></p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>ગણતરી:</b><br>
+                            અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>1/4</b><br>
+                            શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>-1</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                માંગેલ દ્વિઘાત બહુપદી:<br>
+                                p(x) = k [ x&sup2; - (&alpha; + &beta;)x + &alpha;&beta; ]<br>
+                                
+                                p(x) = k <span style='font-size:20px;'>[</span> x&sup2; - <span style='font-size:20px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span><span style='font-size:20px;'>)</span>x + (-1) <span style='font-size:20px;'>]</span><br>
+                                
+                                p(x) = k <span style='font-size:20px;'>[</span> x&sup2; - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>x</span><span>4</span></span> - 1 <span style='font-size:20px;'>]</span><br><br>
+                                
+                                <i style='color:#64748b;'>(અહીં છેદમાં 4 છે, તેથી આખા સમીકરણને 4 વડે ગુણતાં લ.સા.અ. લેવાશે)</i><br>
+                                <b style='font-size:20px; color:#15803d;'>p(x) = k ( 4x&sup2; - x - 4 )</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: માંગેલ દ્વિઘાત બહુપદી 4x&sup2; - x - 4 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 2.2 પ્રશ્ન 2(ii): શૂન્યોનો સરવાળો &radic;2 અને ગુણાકાર 1/3", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> શૂન્યોનો સરવાળો <b>&radic;2</b> અને ગુણાકાર <b>1/3</b> હોય તેવી દ્વિઘાત બહુપદી મેળવો.</p>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>ગણતરી:</b><br>
+                            અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>&radic;2</b><br>
+                            શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1/3</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                p(x) = k [ x&sup2; - (&alpha; + &beta;)x + &alpha;&beta; ]<br>
+                                
+                                p(x) = k <span style='font-size:20px;'>[</span> x&sup2; - (&radic;2)x + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> <span style='font-size:20px;'>]</span><br><br>
+                                
+                                <i style='color:#64748b;'>(અહીં છેદમાં 3 છે, તેથી આખા સમીકરણને 3 વડે ગુણતાં)</i><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>p(x) = k ( 3x&sup2; - 3&radic;2x + 1 )</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: માંગેલ દ્વિઘાત બહુપદી 3x&sup2; - 3&radic;2x + 1 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 2.2 પ્રશ્ન 2(iii): શૂન્યોનો સરવાળો 0 અને ગુણાકાર &radic;5", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> શૂન્યોનો સરવાળો <b>0</b> અને ગુણાકાર <b>&radic;5</b> હોય તેવી દ્વિઘાત બહુપદી મેળવો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c;'>ગણતરી:</b><br>
+                            અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>0</b><br>
+                            શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>&radic;5</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                p(x) = k [ x&sup2; - (&alpha; + &beta;)x + &alpha;&beta; ]<br>
+                                
+                                p(x) = k [ x&sup2; - (0)x + &radic;5 ]<br>
+                                
+                                <i style='color:#64748b;'>(વચ્ચેનું પદ 0 &times; x એટલે 0 થઈ જશે)</i><br>
+                                <b style='font-size:20px; color:#be123c;'>p(x) = k ( x&sup2; + &radic;5 )</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: માંગેલ દ્વિઘાત બહુપદી x&sup2; + &radic;5 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+            
+                
+
+                { 
+                    question: "સ્વા. 2.2 પ્રશ્ન 2(iv): શૂન્યોનો સરવાળો 1 અને ગુણાકાર 1", 
+                    question_desc: "સૌથી સહેલો અને ટૂંકો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> નીચે દર્શાવેલ સંખ્યાઓ અનુક્રમે દ્વિઘાત બહુપદીના શૂન્યોનો સરવાળો અને શૂન્યોનો ગુણાકાર છે. તે પરથી દ્વિઘાત બહુપદી મેળવો: <b>1, 1</b></p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>ગણતરી:</b><br>
+                            અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>1</b><br>
+                            શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                માંગેલ દ્વિઘાત બહુપદી:<br>
+                                p(x) = k [ x&sup2; - (&alpha; + &beta;)x + &alpha;&beta; ]<br>
+                                
+                                p(x) = k [ x&sup2; - (1)x + (1) ]<br>
+                                
+                                <b style='font-size:20px; color:#15803d;'>p(x) = k ( x&sup2; - x + 1 )</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: માંગેલ દ્વિઘાત બહુપદી x&sup2; - x + 1 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 2.2 પ્રશ્ન 2(v): શૂન્યોનો સરવાળો -1/4 અને ગુણાકાર 1/4", 
+                    question_desc: "બોર્ડની પરીક્ષા માટે મોસ્ટ IMP (અપૂર્ણાંક વાળો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> શૂન્યોનો સરવાળો <b>-1/4</b> અને ગુણાકાર <b>1/4</b> હોય તેવી દ્વિઘાત બહુપદી મેળવો.</p>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>ગણતરી:</b><br>
+                            અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>-1/4</b><br>
+                            શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1/4</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                p(x) = k [ x&sup2; - (&alpha; + &beta;)x + &alpha;&beta; ]<br>
+                                
+                                p(x) = k <span style='font-size:20px;'>[</span> x&sup2; - <span style='font-size:20px;'>(</span>-<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span><span style='font-size:20px;'>)</span>x + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> <span style='font-size:20px;'>]</span><br>
+                                
+                                <i style='color:#64748b;'>(માઇનસ માઇનસ પ્લસ થશે: - &times; - = +)</i><br>
+                                p(x) = k <span style='font-size:20px;'>[</span> x&sup2; + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>x</span><span>4</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> <span style='font-size:20px;'>]</span><br><br>
+                                
+                                <i style='color:#64748b;'>(બંને પદના છેદમાં 4 છે, તેથી આખા કૌંસને 4 વડે ગુણતાં / લ.સા.અ. લેતાં)</i><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>p(x) = k ( 4x&sup2; + x + 1 )</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: માંગેલ દ્વિઘાત બહુપદી 4x&sup2; + x + 1 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 2.2 પ્રશ્ન 2(vi): શૂન્યોનો સરવાળો 4 અને ગુણાકાર 1", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> શૂન્યોનો સરવાળો <b>4</b> અને ગુણાકાર <b>1</b> હોય તેવી દ્વિઘાત બહુપદી મેળવો.</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c;'>ગણતરી:</b><br>
+                            અહીં, શૂન્યોનો સરવાળો (&alpha; + &beta;) = <b>4</b><br>
+                            શૂન્યોનો ગુણાકાર (&alpha;&beta;) = <b>1</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.5;'>
+                                માંગેલ દ્વિઘાત બહુપદી:<br>
+                                p(x) = k [ x&sup2; - (&alpha; + &beta;)x + &alpha;&beta; ]<br>
+                                
+                                p(x) = k [ x&sup2; - (4)x + (1) ]<br>
+                                
+                                <b style='font-size:20px; color:#be123c;'>p(x) = k ( x&sup2; - 4x + 1 )</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: માંગેલ દ્વિઘાત બહુપદી x&sup2; - 4x + 1 છે.</p>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
-        
-                
-            
-        
-    
+                    
 };
