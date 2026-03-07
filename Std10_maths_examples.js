@@ -1257,7 +1257,7 @@ var njMathsExamples = {
                     `
                 }
             ]
-}
+        }
 
     
     
