@@ -35,6 +35,185 @@ var njMathsExamples = {
                 answer: "<b>ગણતરી:</b> ધારો કે 3√2 સંમેય સંખ્યા છે.<br>તેથી, 3√2 = a/b (જ્યાં a અને b પૂર્ણાંકો છે, b ≠ 0)<br><br>ફરીથી, √2 ને એકલું પાડીએ (સૂત્રનો કર્તા બનાવીએ):<br><b>√2 = a / 3b</b><br><br><b>સમજૂતી અને નિષ્કર્ષ:</b><br>અહીં 3, a અને b પૂર્ણાંકો છે, તેથી ડાબી બાજુ <i>(a / 3b)</i> સંમેય સંખ્યા બને. <br>જેનો અર્થ એ થાય કે <i>√2</i> પણ સંમેય હોવી જોઈએ. <br>પરંતુ આ સાર્વત્રિક સત્યનો વિરોધાભાસ છે કારણ કે આપણે જાણીએ છીએ કે <b>√2 અસંમેય છે</b>. <br>તેથી આપણી ધારણા ખોટી છે, અને <b>3√2 અસંમેય સંખ્યા છે</b>." 
             }
         ]
+    },
+        // ------------------------------------
+    // પ્રકરણ 2: બહુપદીઓ (ઉદાહરણના દાખલા)
+    // ------------------------------------
+    "2": {
+        "chapterName": "પ્રકરણ 2 (ઉદાહરણ)",
+        "chapterTitle": "બહુપદીઓ - ઉદાહરણના દાખલા",
+        "qa_list": [
+            { 
+                question: "ઉદાહરણ 1: આલેખ પરથી શૂન્યોની સંખ્યા શોધવી", 
+                answer: `
+                <div style='background-color:#f8fafc; padding:15px; border-radius:8px; border-left:5px solid #3b82f6;'>
+                    <p style='margin-top:0;'><b>પ્રશ્ન:</b> નીચે આપેલ આલેખ જુઓ. પ્રત્યેક આલેખ બહુપદી p(x) માટે y = p(x) ના આલેખ છે. પ્રત્યેક આલેખ માટે <b>p(x) ના શૂન્યોની સંખ્યા</b> શોધો.</p>
+
+                    <div style='display:flex; justify-content:space-around; flex-wrap:wrap; margin:20px 0;'>
+                        <div style='text-align:center;'>
+                            <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="10" y1="60" x2="110" y2="60" stroke="#94a3b8" stroke-width="2"/> <line x1="60" y1="10" x2="60" y2="110" stroke="#94a3b8" stroke-width="2"/> <text x="100" y="75" font-size="10">X</text>
+                                <text x="65" y="20" font-size="10">Y</text>
+                                <path d="M 30 20 Q 80 100 110 20" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <circle cx="88" cy="60" r="4" fill="#1d4ed8"/>
+                            </svg>
+                            <p style='margin:5px 0 0 0; font-size:14px; color:#1e293b;'><b>1 છેદબિંદુ = 1 શૂન્ય</b></p>
+                        </div>
+
+                        <div style='text-align:center;'>
+                            <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="10" y1="60" x2="110" y2="60" stroke="#94a3b8" stroke-width="2"/>
+                                <line x1="60" y1="10" x2="60" y2="110" stroke="#94a3b8" stroke-width="2"/>
+                                <path d="M 20 100 Q 60 -20 100 100" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <circle cx="35" cy="60" r="4" fill="#1d4ed8"/>
+                                <circle cx="85" cy="60" r="4" fill="#1d4ed8"/>
+                            </svg>
+                            <p style='margin:5px 0 0 0; font-size:14px; color:#1e293b;'><b>2 છેદબિંદુ = 2 શૂન્યો</b></p>
+                        </div>
+
+                        <div style='text-align:center;'>
+                            <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="10" y1="60" x2="110" y2="60" stroke="#94a3b8" stroke-width="2"/>
+                                <line x1="60" y1="10" x2="60" y2="110" stroke="#94a3b8" stroke-width="2"/>
+                                <path d="M 10 100 C 40 20, 80 120, 110 20" fill="none" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="28" cy="60" r="4" fill="#1d4ed8"/>
+                                <circle cx="60" cy="60" r="4" fill="#1d4ed8"/>
+                                <circle cx="93" cy="60" r="4" fill="#1d4ed8"/>
+                            </svg>
+                            <p style='margin:5px 0 0 0; font-size:14px; color:#1e293b;'><b>3 છેદબિંદુ = 3 શૂન્યો</b></p>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#eff6ff; border:2px dashed #2563eb; padding:10px; border-radius:8px; text-align:center;'>
+                        <b style='color:#1d4ed8;'>💡 યાદ રાખવાની ગોલ્ડન ટ્રીક (માસ્ટર ચાવી):</b><br>
+                        આલેખ (રેખા કે વળાંક) <b>X-અક્ષ (આડી ધરી) ને જેટલી વાર અડે કે કાપે</b>, તેટલા જ તેના શૂન્યો હોય! Y-અક્ષ પર કાપે તેને ગણતરીમાં લેવા નહીં.
+                    </div>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 2: દ્વિઘાત બહુપદી x² + 7x + 10 ના શૂન્યો શોધો અને સંબંધ ચકાસો.", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='font-size:16px; color:#0f172a;'><b>સ્ટેપ 1: બહુપદીના અવયવ પાડીને શૂન્યો શોધવા</b></p>
+                    <p>આપેલ બહુપદી: p(x) = x&sup2; + 7x + 10 = 0</p>
+                    
+                    <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin:10px 0;'>
+                        <b style='color:#b91c1c;'>મધ્યમ પદના ભાગ પાડવાની રીત:</b><br>
+                        છેલ્લું પદ (10) અને પ્રથમ પદના સહગુણક (1) નો ગુણાકાર = 10.<br>
+                        હવે, 10 ના એવા બે ભાગ પાડો કે જેનો <b>સરવાળો 7 (વચ્ચેનું પદ)</b> થાય.<br>
+                        <i style='color:#0f172a;'>વિચારો... 5 &times; 2 = 10 અને 5 + 2 = 7. બરાબર!</i>
+                    </div>
+
+                    <div style='font-family:monospace; font-size:16px; background-color:#f8fafc; padding:10px; border-radius:5px;'>
+                        &rArr; x&sup2; + 5x + 2x + 10 = 0 <br>
+                        &rArr; x(x + 5) + 2(x + 5) = 0 &nbsp;&nbsp; <i style='color:#64748b;'>(સામાન્ય કાઢ્યા)</i><br>
+                        &rArr; (x + 5)(x + 2) = 0 <br><br>
+                        તેથી, x + 5 = 0 &nbsp; અથવા &nbsp; x + 2 = 0 <br>
+                        <b>x = -5</b> &nbsp;&nbsp;&nbsp; અથવા &nbsp;&nbsp;&nbsp; <b>x = -2</b>
+                    </div>
+                    <p style='color:#047857; font-weight:bold;'>આમ, બહુપદીના બે શૂન્યો &alpha; = -5 અને &beta; = -2 મળ્યા.</p>
+
+                    <hr style='border:1px solid #e2e8f0; margin:15px 0;'>
+
+                    <p style='font-size:16px; color:#0f172a;'><b>સ્ટેપ 2: શૂન્યો અને સહગુણકો વચ્ચેનો સંબંધ ચકાસવો</b></p>
+                    <p>સમીકરણને ax&sup2; + bx + c સાથે સરખાવતા: a=1, b=7, c=10</p>
+                    
+                    <ul style='line-height:2;'>
+                        <li><b>શૂન્યોનો સરવાળો (&alpha; + &beta;):</b><br>
+                            સૂત્ર વગર: (-5) + (-2) = <b>-7</b><br>
+                            સૂત્ર મુજબ: -b / a = -7 / 1 = <b>-7</b> &nbsp; <span style='color:#16a34a;'>&check; (બંને સમાન છે)</span>
+                        </li>
+                        <li style='margin-top:10px;'><b>શૂન્યોનો ગુણાકાર (&alpha; &times; &beta;):</b><br>
+                            સૂત્ર વગર: (-5) &times; (-2) = <b>10</b> (ઓછે ઓછે વત્તા)<br>
+                            સૂત્ર મુજબ: c / a = 10 / 1 = <b>10</b> &nbsp; <span style='color:#16a34a;'>&check; (બંને સમાન છે)</span>
+                        </li>
+                    </ul>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 3: બહુપદી x² - 3 ના શૂન્યો શોધો અને સંબંધ ચકાસો.", 
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p style='font-size:16px; color:#0f172a;'><b>સ્ટેપ 1: અવયવ પાડીને શૂન્યો શોધવા</b></p>
+                    <p>આપેલ બહુપદી: p(x) = x&sup2; - 3 = 0</p>
+                    
+                    <div style='display:flex; flex-wrap:wrap; gap:10px; margin-bottom:15px;'>
+                        <div style='flex:1; background-color:#f0fdf4; border:1px solid #86efac; padding:10px; border-radius:8px;'>
+                            <b style='color:#16a34a;'>રીત 1 (પ્રમાણિત રીત): પૂર્ણવર્ગ તફાવત</b><br>
+                            સૂત્ર: <b>a&sup2; - b&sup2; = (a - b)(a + b)</b><br>
+                            અહીં 3 એ કોઈનો સીધો વર્ગ નથી, એટલે તેને (&radic;3)&sup2; લખી શકાય.<br>
+                            &rArr; (x)&sup2; - (&radic;3)&sup2; = 0<br>
+                            &rArr; (x - &radic;3)(x + &radic;3) = 0<br>
+                            <b>તેથી, x = &radic;3 અથવા x = -&radic;3</b>
+                        </div>
+                        
+                        <div style='flex:1; background-color:#fffbeb; border:1px solid #fcd34d; padding:10px; border-radius:8px;'>
+                            <b style='color:#d97706;'>રીત 2 (શોર્ટકટ ટ્રીક): સીધી ગણતરી</b><br>
+                            x&sup2; - 3 = 0<br>
+                            x&sup2; = 3 &nbsp; <i style='color:#64748b;'>(3 ને જમણી બાજુ લઈ જતા)</i><br>
+                            હવે બંને બાજુ વર્ગમૂળ લેતા,<br>
+                            <b>x = &plusmn;&radic;3</b> <br>
+                            <i style='font-size:12px; color:#b45309;'>(નોંધ: વર્ગમૂળ કાઢીએ ત્યારે જવાબ હંમેશા + અને - બંનેમાં આવે, તેથી &alpha; = &radic;3 અને &beta; = -&radic;3). આ રીત પરીક્ષામાં 100% માન્ય છે.</i>
+                        </div>
+                    </div>
+
+                    <p style='font-size:16px; color:#0f172a; margin-top:20px;'><b>સ્ટેપ 2: સંબંધ ચકાસવો</b></p>
+                    <p>x&sup2; - 3 ને ax&sup2; + bx + c સાથે સરખાવતા: <br>a = 1, <b style='color:#be123c;'>b = 0</b> (કારણ કે x વાળું પદ નથી), c = -3</p>
+                    
+                    <ul style='line-height:2;'>
+                        <li><b>શૂન્યોનો સરવાળો:</b><br>
+                            (&radic;3) + (-&radic;3) = <b>0</b><br>
+                            સૂત્ર: -b / a = -0 / 1 = <b>0</b> &nbsp; <span style='color:#16a34a;'>&check;</span>
+                        </li>
+                        <li><b>શૂન્યોનો ગુણાકાર:</b><br>
+                            (&radic;3) &times; (-&radic;3) = <b>-3</b><br>
+                            સૂત્ર: c / a = -3 / 1 = <b>-3</b> &nbsp; <span style='color:#16a34a;'>&check;</span>
+                        </li>
+                    </ul>
+                </div>
+                `
+            },
+            { 
+                question: "ઉદાહરણ 4: જેના શૂન્યોનો સરવાળો અને ગુણાકાર અનુક્રમે -3 અને 2 હોય તેવી દ્વિઘાત બહુપદી મેળવો.", 
+                question_desc: "મોસ્ટ IMP - 2 માર્ક્સ માટે",
+                answer: `
+                <div style='background-color:#ffffff; padding:10px;'>
+                    <p>અહીં આપણને આપેલું છે:<br>
+                    શૂન્યોનો સરવાળો (&alpha; + &beta;) = -3<br>
+                    શૂન્યોનો ગુણાકાર (&alpha;&beta;) = 2</p>
+
+                    <p>આ દાખલો ગણવા માટે બોર્ડમાં 2 રીતો માન્ય છે, પણ આપણે સીધી <b>"સૂત્ર વાળી ટ્રીક"</b> નો જ ઉપયોગ કરીશું, જે સૌથી સહેલી છે અને તેમાં ભૂલ પડવાની કોઈ શક્યતા નથી.</p>
+
+                    <div style='background-color:#f8fafc; border:2px solid #0ea5e9; border-radius:10px; padding:15px; margin:15px 0;'>
+                        <b style='color:#0284c7; font-size:16px;'>🎯 સૌથી સરળ રીત (માસ્ટર ફોર્મ્યુલા):</b><br>
+                        જ્યારે સરવાળો અને ગુણાકાર આપ્યો હોય, ત્યારે નીચેના સૂત્રમાં સીધી જ કિંમત મૂકી દેવી:<br><br>
+                        
+                        <div style='font-size:20px; font-weight:bold; color:#be123c; text-align:center; background-color:#ffe4e6; padding:10px; border-radius:5px;'>
+                            p(x) = k [ x&sup2; - (&alpha; + &beta;)x + (&alpha;&beta;) ]
+                        </div>
+                        
+                        <div style='font-size:16px; margin-top:15px; line-height:1.8; color:#0f172a;'>
+                            અહીં કિંમતો મૂકતાં,<br>
+                            p(x) = k [ x&sup2; - (-3)x + (2) ] <br>
+                            <b>p(x) = k [ x&sup2; + 3x + 2 ]</b> &nbsp; <i style='color:#64748b;'>(ઓછે ઓછે વત્તા થયા)</i>
+                        </div>
+                        <p style='margin-top:10px; color:#047857; font-weight:bold;'>આ જ આપણો ફાઇનલ જવાબ છે! (જ્યાં k એ શૂન્યેતર વાસ્તવિક સંખ્યા છે).</p>
+                    </div>
+
+                    <div style='background-color:#fff7ed; border-left:4px solid #f97316; padding:10px;'>
+                        <b style='color:#c2410c;'>ચોપડીની બીજી રીત (સરખામણીની રીત) - ફક્ત સમજવા માટે:</b><br>
+                        &alpha; + &beta; = -b / a = -3 / 1<br>
+                        &alpha;&beta; = c / a = 2 / 1<br>
+                        જો આપણે a = 1 ધારીએ, તો -b = -3 (એટલે કે b = 3) અને c = 2 મળે.<br>
+                        આ કિંમતો પ્રમાણિત સ્વરૂપ ax&sup2; + bx + c માં મૂકતા: <b>1x&sup2; + 3x + 2</b> બને.
+                    </div>
+                </div>
+                `
+            }
+        ]
     }
+    
 };
 
