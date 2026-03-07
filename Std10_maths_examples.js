@@ -4549,9 +4549,363 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
+                },
+                    
+        
+                { 
+                    question: "ઉદાહરણ 5: સંગીતા અને રેશ્માની મેચ (પૂરક ઘટનાનો બેસ્ટ દાખલો)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> બે ખેલાડીઓ સંગીતા અને રેશ્મા ટેનિસ મેચ રમે છે. સંગીતા મેચ જીતે તેની સંભાવના <b>0.62</b> આપેલ છે. તો <b>રેશ્મા મેચ જીતે</b> તેની સંભાવના શોધો.</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી:</b><br>
+                            કોઈપણ મેચમાં જો એક ખેલાડી જીતે, તો બીજો ખેલાડી ચોક્કસ હારે જ છે! (મેચ ટાઈ નથી પડતી તેમ માનીએ).<br>
+                            તેથી સંગીતાની જીત અને રેશ્માની જીત બંને <b>પૂરક ઘટનાઓ</b> છે.<br>
+                            <b>P(સંગીતા જીતે) + P(રેશ્મા જીતે) = 1</b> થાય.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d;'>ગણતરી:</b><br>
+                            ધારો કે: 
+                            <ul style='margin-top:5px; margin-bottom:10px;'>
+                                <li>S = સંગીતા મેચ જીતે તેની ઘટના</li>
+                                <li>R = રેશ્મા મેચ જીતે તેની ઘટના</li>
+                            </ul>
+                            આપણને <b>P(S) = 0.62</b> આપેલું છે.<br>
+                            આપણે <b>P(R)</b> શોધવાનું છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#ecfdf5; padding:10px; border-radius:5px;'>
+                                P(S) + P(R) = 1<br>
+                                0.62 + P(R) = 1<br>
+                                P(R) = 1 - 0.62<br>
+                                
+                                <i style='color:#64748b;'>(બાદબાકી સમજવા: 1.00 - 0.62 = 0.38)</i><br>
+                                <b style='font-size:20px; color:#15803d;'>P(R) = 0.38</b>
+                            </div>
+                            <p style='margin-top:10px; font-weight:bold; color:#0f172a;'>જવાબ: રેશ્મા મેચ જીતે તેની સંભાવના 0.38 છે.</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 6: સવિતા અને હમીદાનો જન્મદિવસ (લીપ વર્ષ ન હોય ત્યારે)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> સવિતા અને હમીદા મિત્રો છે. બંનેના <b>(i) જન્મદિવસ જુદા જુદા હોય, (ii) જન્મદિવસ એક જ હોય</b> તેની સંભાવના કેટલી થશે? (લીપ વર્ષની અવગણના કરવી).</p>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>કુલ પરિણામો:</b><br>
+                            અહીં સ્પષ્ટ કીધું છે કે લીપ વર્ષની અવગણના કરવી. એક સામાન્ય વર્ષમાં 365 દિવસ હોય છે.<br>
+                            તેથી <b>કુલ શક્ય પરિણામોની સંખ્યા = 365</b>.
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>(i) બંનેના જન્મદિવસ જુદા જુદા હોય:</b><br>
+                            ધારો કે સવિતાનો જન્મદિવસ વર્ષના 365 દિવસમાંથી કોઈ પણ એક દિવસે આવે છે. <br>
+                            હવે જો હમીદાનો જન્મદિવસ <b>જુદો</b> હોવો જોઈએ, તો તે સવિતાના જન્મદિવસ વાળા <b>1 દિવસ સિવાયના</b> બાકીના દિવસોમાંથી કોઈ એક દિવસે હોવો જોઈએ!<br>
+                            તેથી હમીદા માટે સાનુકૂળ દિવસો = 365 - 1 = <b>364 દિવસ</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(જુદા જુદા જન્મદિવસ) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામો</span><span>કુલ પરિણામો</span></span><br>
+                                <b style='font-size:20px; color:#be123c;'>= <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>364</span><span>365</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>(ii) બંનેના જન્મદિવસ એક જ હોય (સમાન હોય):</b><br>
+                            "જન્મદિવસ જુદા જુદા હોય" અને "જન્મદિવસ એક જ હોય" આ બંને <b>પૂરક ઘટનાઓ</b> છે.<br>
+                            તેથી આપણે સીધું 1 માંથી બાદ કરી શકીએ.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                P(સમાન જન્મદિવસ) = 1 - P(જુદા જુદા જન્મદિવસ)<br>
+                                
+                                = 1 - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>364</span><span>365</span></span><br>
+                                
+                                <i style='color:#64748b;'>(લ.સા.અ. લેતાં)</i><br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>365 - 364</span><span>365</span></span><br>
+                                
+                                <b style='font-size:20px; color:#1d4ed8;'>= <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>365</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+        
+                { 
+                    question: "ઉદાહરણ 7: વર્ગમાં વિદ્યાર્થીની પસંદગી (છોકરા અને છોકરીઓ)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> ધોરણ X ના એક વર્ગમાં <b>40 વિદ્યાર્થીઓ</b> છે, જેમાં <b>25 છોકરીઓ</b> અને <b>15 છોકરાઓ</b> છે. વર્ગશિક્ષકે એક વિદ્યાર્થીને વર્ગના પ્રતિનિધિ (મોનિટર) તરીકે પસંદ કરવાનો છે. તે દરેકના નામ સમાન ચિઠ્ઠી પર લખી પેટીમાં મૂકે છે. પસંદ કરેલી ચિઠ્ઠી પર <b>(i) છોકરીનું નામ હોય, (ii) છોકરાનું નામ હોય</b> તેની સંભાવના કેટલી?</p>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>કુલ પરિણામો:</b><br>
+                            વર્ગમાં કુલ 40 વિદ્યાર્થીઓ છે.<br>
+                            તેથી <b>કુલ શક્ય પરિણામોની સંખ્યા = 40</b>.
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>(i) ચિઠ્ઠી પર છોકરીનું નામ હોય:</b><br>
+                            વર્ગમાં કુલ છોકરીઓની સંખ્યા = 25 છે.<br>
+                            તેથી સાનુકૂળ પરિણામો = 25.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(છોકરી) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25</span><span>40</span></span><br>
+                                <i style='color:#64748b;'>(5 ના ઘડિયાથી છેદ ઉડાડતા: 5&times;5=25 અને 8&times;5=40)</i><br>
+                                <b style='font-size:20px; color:#be123c;'>P(છોકરી) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>5</span><span>8</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>(ii) ચિઠ્ઠી પર છોકરાનું નામ હોય:</b><br>
+                            વર્ગમાં કુલ છોકરાઓની સંખ્યા = 15 છે.<br>
+                            તેથી સાનુકૂળ પરિણામો = 15.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(છોકરો) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>40</span></span><br>
+                                <i style='color:#64748b;'>(5 ના ઘડિયાથી છેદ ઉડાડતા: 3&times;5=15 અને 8&times;5=40)</i><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>P(છોકરો) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>3</span><span>8</span></span></b>
+                            </div>
+                            <p style='margin-top:5px; font-size:14px; color:#64748b;'><i>અથવા પૂરક ઘટનાથી: P(છોકરો) = 1 - P(છોકરી) = 1 - 5/8 = 3/8.</i></p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "ઉદાહરણ 8: ડબ્બામાં રાખેલી રંગીન લખોટીઓ", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> એક ડબ્બામાં <b>3 ભૂરી, 2 સફેદ અને 4 લાલ</b> લખોટીઓ છે. જો ડબ્બામાંથી યાદચ્છિક રીતે એક લખોટી પસંદ કરવામાં આવે તો તે <b>(i) સફેદ હોય, (ii) ભૂરી હોય, (iii) લાલ હોય</b> તેની સંભાવના કેટલી?</p>
+
+                        
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="40" y="40" width="120" height="100" fill="#f8fafc" stroke="#64748b" stroke-width="3" rx="10"/>
+                                
+                                <circle cx="70" cy="110" r="12" fill="#3b82f6" /><circle cx="100" cy="80" r="12" fill="#3b82f6" /><circle cx="130" cy="110" r="12" fill="#3b82f6" />
+                                
+                                <circle cx="70" cy="70" r="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" /><circle cx="130" cy="70" r="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+                                
+                                <circle cx="100" cy="120" r="12" fill="#ef4444" /><circle cx="60" cy="90" r="12" fill="#ef4444" /><circle cx="140" cy="90" r="12" fill="#ef4444" /><circle cx="100" cy="50" r="12" fill="#ef4444" />
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>કુલ પરિણામો:</b><br>
+                            ડબ્બામાં 3 ભૂરી + 2 સફેદ + 4 લાલ = કુલ 9 લખોટીઓ છે.<br>
+                            તેથી <b>કુલ શક્ય પરિણામોની સંખ્યા = 9</b>.
+                        </div>
+
+                        <div style='background-color:#eff6ff; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.8; font-size:16px;'>
+                                <li>
+                                    <b style='color:#64748b;'>(i) લખોટી સફેદ હોય:</b> ડબ્બામાં સફેદ લખોટી 2 છે. <br>
+                                    <b style='color:#0f172a;'>સંભાવના = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>9</span></span></b>
+                                </li>
+                                <li>
+                                    <b style='color:#1d4ed8;'>(ii) લખોટી ભૂરી હોય:</b> ડબ્બામાં ભૂરી લખોટી 3 છે. <br>
+                                    <b style='color:#1d4ed8;'>સંભાવના = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>9</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>3</span></span></b>
+                                </li>
+                                <li>
+                                    <b style='color:#be123c;'>(iii) લખોટી લાલ હોય:</b> ડબ્બામાં લાલ લખોટી 4 છે. <br>
+                                    <b style='color:#be123c;'>સંભાવના = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>4</span><span>9</span></span></b>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 12: ખામીવાળા અને સારા ખમીસ (Shirt) નો દાખલો", 
+                    question_desc: "બોર્ડમાં પૂછાવા માટે મોસ્ટ IMP (થોડું ટ્રીકી)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> પૂંઠાની પેટીમાં રાખેલા <b>100 ખમીસ (Shirts)</b> પૈકી <b>88 ક્ષતિરહિત (સારા)</b> છે. તે પૈકી <b>8 માં નાની ખામીઓ</b> છે અને <b>4 માં મોટી ખામીઓ</b> છે.<br>
+                        વેપારી જીમી <b>માત્ર ક્ષતિરહિત (સારા)</b> ખમીસ જ સ્વીકારશે. પરંતુ અન્ય વેપારી સુજાતા <b>માત્ર મોટી ખામીવાળા જ ખમીસ નકારશે.</b><br>
+                        પેટીમાંથી એક ખમીસ પસંદ કરવામાં આવે તો, <b>(i) તે જીમીને સ્વીકાર્ય હોય, (ii) તે સુજાતાને સ્વીકાર્ય હોય</b> તેની સંભાવના કેટલી?</p>
+
+                        
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c;'>માહિતીને છૂટી પાડીએ:</b><br>
+                            કુલ શર્ટ = <b>100</b> (તેથી છેદમાં હંમેશા 100 આવશે).<br>
+                            - સારા શર્ટ = 88<br>
+                            - નાની ખામીવાળા = 8<br>
+                            - મોટી ખામીવાળા = 4
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>(i) ખમીસ જીમીને સ્વીકાર્ય હોય:</b><br>
+                            જીમી <b>માત્ર સારા (ક્ષતિરહિત)</b> શર્ટ જ લેશે.<br>
+                            સારા શર્ટની સંખ્યા = 88.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(જીમી) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ શર્ટ</span><span>કુલ શર્ટ</span></span><br>
+                                P(જીમી) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>88</span><span>100</span></span><br>
+                                <b style='font-size:20px; color:#15803d;'>P(જીમી) = 0.88</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>(ii) ખમીસ સુજાતાને સ્વીકાર્ય હોય:</b><br>
+                            સુજાતા <b>માત્ર મોટી ખામીવાળા નકારશે</b>. તેનો અર્થ એ કે તે સારા શર્ટ પણ લેશે અને નાની ખામીવાળા પણ લેશે!<br>
+                            સુજાતા માટે સાનુકૂળ શર્ટ = 88 (સારા) + 8 (નાની ખામી) = <b>96 શર્ટ</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                P(સુજાતા) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>96</span><span>100</span></span><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>P(સુજાતા) = 0.96</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+
+                {
+                    question: "🎯 માસ્ટર ચાવી: બે પાસાને એકસાથે ઉછાળતાં મળતા 36 પરિણામો",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>જ્યારે બે પાસાને એકસાથે ઉછાળવામાં આવે, ત્યારે કુલ 6 &times; 6 = 36 પરિણામો મળે છે. આ કોષ્ટક મગજમાં છાપી લેવું!</p>
+                        
+                        <div style='overflow-x:auto; margin:10px 0;'>
+                            <table style='width:100%; min-width:500px; text-align:center; border-collapse:collapse; background-color:#ffffff;'>
+                                <tr style='background-color:#fef08a; font-weight:bold; color:#b45309;'>
+                                    <th style='border:1px solid #fde047; padding:8px;'>પાસો 2 &rarr;<br>પાસો 1 &darr;</th>
+                                    <th style='border:1px solid #fde047; padding:8px;'>1</th>
+                                    <th style='border:1px solid #fde047; padding:8px;'>2</th>
+                                    <th style='border:1px solid #fde047; padding:8px;'>3</th>
+                                    <th style='border:1px solid #fde047; padding:8px;'>4</th>
+                                    <th style='border:1px solid #fde047; padding:8px;'>5</th>
+                                    <th style='border:1px solid #fde047; padding:8px;'>6</th>
+                                </tr>
+                                <tr>
+                                    <th style='background-color:#fef08a; border:1px solid #fde047; padding:8px; color:#b45309;'>1</th>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(1, 1)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(1, 2)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(1, 3)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(1, 4)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(1, 5)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(1, 6)</td>
+                                </tr>
+                                <tr>
+                                    <th style='background-color:#fef08a; border:1px solid #fde047; padding:8px; color:#b45309;'>2</th>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(2, 1)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(2, 2)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(2, 3)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(2, 4)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(2, 5)</td>
+                                    <td style='border:1px solid #fde047; padding:5px; background-color:#dcfce7; font-weight:bold; color:#15803d;'>(2, 6)</td>
+                                </tr>
+                                <tr>
+                                    <th style='background-color:#fef08a; border:1px solid #fde047; padding:8px; color:#b45309;'>3</th>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(3, 1)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(3, 2)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(3, 3)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(3, 4)</td>
+                                    <td style='border:1px solid #fde047; padding:5px; background-color:#dcfce7; font-weight:bold; color:#15803d;'>(3, 5)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(3, 6)</td>
+                                </tr>
+                                <tr>
+                                    <th style='background-color:#fef08a; border:1px solid #fde047; padding:8px; color:#b45309;'>4</th>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(4, 1)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(4, 2)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(4, 3)</td>
+                                    <td style='border:1px solid #fde047; padding:5px; background-color:#dcfce7; font-weight:bold; color:#15803d;'>(4, 4)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(4, 5)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(4, 6)</td>
+                                </tr>
+                                <tr>
+                                    <th style='background-color:#fef08a; border:1px solid #fde047; padding:8px; color:#b45309;'>5</th>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(5, 1)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(5, 2)</td>
+                                    <td style='border:1px solid #fde047; padding:5px; background-color:#dcfce7; font-weight:bold; color:#15803d;'>(5, 3)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(5, 4)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(5, 5)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(5, 6)</td>
+                                </tr>
+                                <tr>
+                                    <th style='background-color:#fef08a; border:1px solid #fde047; padding:8px; color:#b45309;'>6</th>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(6, 1)</td>
+                                    <td style='border:1px solid #fde047; padding:5px; background-color:#dcfce7; font-weight:bold; color:#15803d;'>(6, 2)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(6, 3)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(6, 4)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(6, 5)</td>
+                                    <td style='border:1px solid #fde047; padding:5px;'>(6, 6)</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <p style='font-size:14px; color:#64748b; margin-bottom:0;'>(લીલા રંગમાં દર્શાવેલ પરિણામો એવા છે જેમનો સરવાળો 8 થાય છે: 2+6, 3+5, 4+4, 5+3, 6+2)</p>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 13: બે પાસાને એકસાથે ઉછાળવાનો દાખલો (મોસ્ટ IMP)", 
+                    question_desc: "બોર્ડમાં 3 માર્ક્સ માટે વારંવાર પૂછાતો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>પ્રશ્ન:</b> એક <b>ભૂરો</b> અને એક <b>રાખોડી</b> એમ <b>બે પાસાને એકસાથે</b> ઉછાળવામાં આવે છે. તમામ શક્ય પરિણામો લખો.<br>પાસાની ઉપરની સપાટી પર દેખાતી સંખ્યાઓનો સરવાળો: <br><b>(i) 8 હોય, <br>(ii) 13 હોય, <br>(iii) 12 કે તેનાથી નાનો હોય</b> તેની સંભાવના કેટલી?</p>
+
+                        <div style='text-align:center; margin: 15px 0;'>
+                            <svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="30" y="20" width="60" height="60" rx="10" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/>
+                                <circle cx="50" cy="40" r="6" fill="#1e3a8a" /><circle cx="70" cy="60" r="6" fill="#1e3a8a" />
+                                
+                                <rect x="110" y="20" width="60" height="60" rx="10" fill="#e2e8f0" stroke="#475569" stroke-width="3"/>
+                                <circle cx="125" cy="35" r="5" fill="#0f172a" /><circle cx="155" cy="35" r="5" fill="#0f172a" />
+                                <circle cx="125" cy="50" r="5" fill="#0f172a" /><circle cx="155" cy="50" r="5" fill="#0f172a" />
+                                <circle cx="125" cy="65" r="5" fill="#0f172a" /><circle cx="155" cy="65" r="5" fill="#0f172a" />
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #64748b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>કુલ પરિણામો:</b><br>
+                            જ્યારે બે પાસા ઉછાળવામાં આવે, ત્યારે કુલ શક્ય પરિણામોની સંખ્યા 6 &times; 6 = <b>36</b> થાય છે. <br>(ઉપરની માસ્ટર ચાવીમાં દર્શાવ્યા મુજબ તમામ 36 પરિણામો લખી દેવા).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d;'>(i) બંને સંખ્યાઓનો સરવાળો 8 હોય:</b><br>
+                            ઉપરના કોષ્ટકમાં જુઓ, જેનો સરવાળો 8 થતો હોય તેવા પરિણામો: <b>(2,6), (3,5), (4,4), (5,3), (6,2)</b> છે.<br>
+                            તેથી સાનુકૂળ પરિણામોની સંખ્યા = <b>5</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                <b style='font-size:20px; color:#15803d;'>P(સરવાળો 8) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>5</span><span>36</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>(ii) બંને સંખ્યાઓનો સરવાળો 13 હોય (અશક્ય ઘટના):</b><br>
+                            પાસા પર મોટામાં મોટી સંખ્યા 6 છે. તેથી વધુમાં વધુ સરવાળો (6+6) = 12 જ થઈ શકે. <br>
+                            સરવાળો 13 ક્યારેય ન થઈ શકે! આ એક <b>અશક્ય ઘટના</b> છે.<br>
+                            તેથી સાનુકૂળ પરિણામોની સંખ્યા = <b>0</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(સરવાળો 13) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0</span><span>36</span></span><br>
+                                <b style='font-size:20px; color:#be123c;'>P(સરવાળો 13) = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a;'>(iii) બંને સંખ્યાઓનો સરવાળો 12 કે તેનાથી નાનો હોય (ચોક્કસ ઘટના):</b><br>
+                            બે પાસા ઉછાળીએ એટલે સરવાળો 2 થી લઈને 12 ની વચ્ચે જ આવવાનો છે. એટલે કે <b>બધા જ 36 પરિણામો</b> આ શરત પૂરી કરે છે! <br>
+                            આ એક <b>ચોક્કસ ઘટના</b> છે.<br>
+                            તેથી સાનુકૂળ પરિણામોની સંખ્યા = <b>36</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5;'>
+                                P(સરવાળો &le; 12) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>36</span><span>36</span></span><br>
+                                <b style='font-size:20px; color:#1d4ed8;'>P(સરવાળો &le; 12) = 1</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
-        }
+       }
+                
+        
+                
+        
+                
+        
                 
         
     
