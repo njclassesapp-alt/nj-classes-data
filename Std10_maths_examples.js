@@ -877,9 +877,7 @@ var njMathsExamples = {
                     </div>
                 </div>
                 `
-            }
-        ]
-    },
+            },
                 {
                     question: "🎯 n પદોના સરવાળા (Sₙ) ના સૂત્રો અને સમજૂતી",
                     answer: `
@@ -1484,9 +1482,8 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
-                }
-            ]
-        },
+                },
+        
                 {
                     question: "🎯 પાયાની સમજૂતી: વિભાજન સૂત્ર (Section Formula)",
                     answer: `
@@ -1620,9 +1617,8 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
-                }
-            ]
-        },
+                },
+        
                 { 
                     question: "ઉદાહરણ 8: ત્રિભાજક બિંદુઓ શોધવા (3 સરખા ભાગ)", 
                     answer: `
@@ -1895,9 +1891,8 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
-                }
-            ]
-   },
+                },       
+   
                 { 
                     question: "ઉદાહરણ 2: sin B = sin Q હોય, તો સાબિત કરો કે ∠B = ∠Q", 
                     question_desc: "સાબિતી વાળો અગત્યનો દાખલો",
@@ -2002,9 +1997,9 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
-                }
-            ]
-        },
+                },
+            
+        
                 { 
                     question: "🌟 ઉદાહરણ 4: ચકાસો કે 2 sin A cos A = 1 (બંને રીતો: ચોપડીની અને શોર્ટકટ ટ્રીક)", 
                     question_desc: "બોર્ડમાં પૂછાતો ફેવરિટ દાખલો",
@@ -2099,9 +2094,9 @@ var njMathsExamples = {
                         </div>
                     </div>
                     `
-                }
-            ]
-        },
+                },
+            
+        
         
                 { 
                     question: "ઉદાહરણ 6: ખૂણો અને એક બાજુ આપેલ હોય, ત્યારે બીજી બાજુઓ શોધવી", 
@@ -2264,10 +2259,7 @@ var njMathsExamples = {
                     `
                 }
             ]
-      }
-                                
-
-                                
+      }                                                            
     
 };
 
