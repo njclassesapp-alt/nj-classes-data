@@ -2366,9 +2366,94 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                { 
+                    question: "🌟 સ્વા. 3.2 પ્રશ્ન 3(vi): પાંચ વર્ષ પછી જેકબની ઉંમર તેના પુત્રની ઉંમર કરતાં 3 ગણી હશે...", 
+                    question_desc: "પાંચ વર્ષ પહેલાં જેકબની ઉંમર તેના પુત્રની ઉંમરથી 7 ગણી હોય, તો તેમની વર્તમાન ઉંમર શોધો. (મોસ્ટ IMP)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> પાંચ વર્ષ પછી જેકબની ઉંમર તેના પુત્રની ઉંમર કરતાં ત્રણ ગણી હશે. પાંચ વર્ષ પહેલાં જેકબની ઉંમર તેના પુત્રની ઉંમરથી સાત ગણી હોય, તો તેમની વર્તમાન (હાલની) ઉંમર શોધો.</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ઉંમરના દાખલાની ટ્રીક:</b><br>
+                            જ્યારે <b>"પછી"</b> કીધું હોય ત્યારે હાલની ઉંમરમાં <b>સરવાળો (+)</b> કરવો. <br>
+                            જ્યારે <b>"પહેલાં"</b> કીધું હોય ત્યારે હાલની ઉંમરમાંથી <b>બાદબાકી (-)</b> કરવી.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે જેકબની હાલની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> વર્ષ અને તેના પુત્રની હાલની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> વર્ષ છે.<br>
+                            
+                            <ul style='line-height:2.5; margin-top:5px; font-size:16px; color:#0f172a;'>
+                                <li><b>શરત 1: પાંચ વર્ષ પછી</b><br>
+                                જેકબની ઉંમર (<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 5) અને પુત્રની ઉંમર (<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 5) થશે.<br>
+                                જેકબની ઉંમર = 3 &times; પુત્રની ઉંમર<br>
+                                <div style='overflow-x:auto; white-space:nowrap; margin-top:5px;'>
+                                    <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 5 = 3(<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 5) &nbsp;&rArr;&nbsp; <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 5 = 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 15<br>
+                                    <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+5 ને સામે લઈ જતાં -5 થશે અને 3y ને આ બાજુ લાવતા -3y થશે)</i></span><br>
+                                    <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 10</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)
+                                </div>
+                                </li>
+                                
+                                <li style='margin-top:10px;'><b>શરત 2: પાંચ વર્ષ પહેલાં</b><br>
+                                જેકબની ઉંમર (<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 5) અને પુત્રની ઉંમર (<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 5) હતી.<br>
+                                જેકબની ઉંમર = 7 &times; પુત્રની ઉંમર<br>
+                                <div style='overflow-x:auto; white-space:nowrap; margin-top:5px;'>
+                                    <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 5 = 7(<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 5) &nbsp;&rArr;&nbsp; <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 5 = 7<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 35<br>
+                                    <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-5 ને સામે લઈ જતાં +5 થશે અને 7y ને આ બાજુ લાવતા -7y થશે)</i></span><br>
+                                    <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 7<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = -30</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)
+                                </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સમીકરણ 1 માંથી x ને કર્તા બનાવતાં (x એકલો છે એટલે સહેલું પડશે)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> <b style='color:#dc2626;'>- 3<i style='font-family:"Times New Roman",serif;'>y</i></b> = 10<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-3y) સામે જતાં પ્લસ (+3y) થશે</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 10 <span style='color:#16a34a;'>+ 3<i style='font-family:"Times New Roman",serif;'>y</i></span></b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 3)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>સ્ટેપ 3: આ x ની કિંમત સમીકરણ 2 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fae8ff; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> - 7<i style='font-family:"Times New Roman",serif;'>y</i> = -30<br>
+                                <span style='color:#64748b; font-size:14px;'><i>(x ની જગ્યાએ કૌંસમાં 10 + 3y મૂકો)</i></span><br>
+                                <b style='color:#1d4ed8;'>(10 + 3<i style='font-family:"Times New Roman",serif;'>y</i>)</b> - 7<i style='font-family:"Times New Roman",serif;'>y</i> = -30<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+3y - 7y) એટલે માઇનસ (-4y) વધશે</i></span><br>
+                                <b style='color:#dc2626;'>10</b> - 4<i style='font-family:"Times New Roman",serif;'>y</i> = -30<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+10) સામે જતાં માઇનસ (-10) થશે</i></span><br>
+                                -4<i style='font-family:"Times New Roman",serif;'>y</i> = -30 <b style='color:#dc2626;'>- 10</b><br>
+                                -4<i style='font-family:"Times New Roman",serif;'>y</i> = -40<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-4) છેદમાં જશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-40</span><span>-4</span></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 10</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 4: મળેલા y = 10 ને સમીકરણ 3 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 10 + 3<b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 10 + 3<b style='color:#be123c;'>(10)</b><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 10 + 30<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 40</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> જેકબની વર્તમાન ઉંમર <b style='color:#1d4ed8;'>40 વર્ષ</b> છે અને તેના પુત્રની વર્તમાન ઉંમર <b style='color:#be123c;'>10 વર્ષ</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
