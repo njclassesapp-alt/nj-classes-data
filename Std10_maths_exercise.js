@@ -3064,37 +3064,83 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+            
+                { 
+                    question: "🌟 સ્વા. 3.3 પ્રશ્ન 2(v): એક પ્રતિષ્ઠિત પુસ્તકાલય પ્રથમ 3 દિવસનું એક પુસ્તકનું નિશ્ચિત ભાડું લે છે...", 
+                    question_desc: "અને પછીના પ્રત્યેક દિવસ દીઠ અતિરિક્ત ભાડું લે છે. સરિતા 7 દિવસ માટે ₹27 અને સૂઝી 5 દિવસ માટે ₹21 ચૂકવે છે.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક પ્રતિષ્ઠિત પુસ્તકાલય પ્રથમ 3 દિવસનું એક પુસ્તકનું નિશ્ચિત ભાડું લે છે અને પછીના પ્રત્યેક દિવસ દીઠ અતિરિક્ત (વધારાનું) ભાડું લે છે. સરિતા 7 દિવસ પુસ્તક રાખવાના ₹ 27 ચૂકવે છે. સૂઝી 5 દિવસ પુસ્તક રાખવાના ₹ 21 ચૂકવે છે. તો નિશ્ચિત ભાડું અને પ્રત્યેક વધારાના દિવસનું ભાડું શોધો.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2020 અને મે 2021 માં પૂછાયેલ મોસ્ટ IMP દાખલો</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમીકરણની માસ્ટર ટ્રીક:</b><br>
+                            અહીં <b>પ્રથમ 3 દિવસનું ભાડું ફિક્સ (નિશ્ચિત)</b> છે. <br>
+                            એટલે જો કોઈ 7 દિવસ પુસ્તક રાખે, તો <b>(3 ફિક્સ દિવસ + 4 વધારાના દિવસ)</b> ગણાય!<br>
+                            જો કોઈ 5 દિવસ રાખે, તો <b>(3 ફિક્સ દિવસ + 2 વધારાના દિવસ)</b> ગણાય!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે પ્રથમ 3 દિવસનું નિશ્ચિત ભાડું = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> છે.<br>
+                            અને 3 દિવસ પછીના પ્રત્યેક વધારાના દિવસનું ભાડું = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <b style='color:#14532d;'>શરત 1: સરિતા 7 દિવસ માટે ₹ 27 ચૂકવે છે.</b><br>
+                                (3 દિવસનું ફિક્સ ભાડું) + (બાકીના 4 દિવસનું ભાડું) = 27<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 4<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 27</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px;'>
+                                <b style='color:#1e3a8a;'>શરત 2: સૂઝી 5 દિવસ માટે ₹ 21 ચૂકવે છે.</b><br>
+                                (3 દિવસનું ફિક્સ ભાડું) + (બાકીના 2 દિવસનું ભાડું) = 21<br>
+                                <b style='color:#1d4ed8; background-color:#dbeafe; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 21</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 2: લોપની રીત (સીધી બાદબાકી)</b><br>
+                            બંને સમીકરણમાં <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> સમાન છે, એટલે કોઈ ગુણાકારની જરૂર નથી.
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:10px; line-height:2.2; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#16a34a;'>+ 4<i style='font-family:"Times New Roman",serif;'>y</i></b> = 27 &nbsp;&nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 1 મોટું છે)</i></span><br>
+                                -&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#dc2626;'>- 2<i style='font-family:"Times New Roman",serif;'>y</i></b> = -21 &nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 2 ની નિશાની બદલી: -x, -2y, -21)</i></span><br>
+                                --------------------<br>
+                                &nbsp;&nbsp; 0 <b style='color:#16a34a;'>+ 2<i style='font-family:"Times New Roman",serif;'>y</i></b> = 6<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(2 ભાગાકારમાં જશે)</i></span><br>
+                                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<i style='font-family:"Times New Roman",serif;'>y</i> = 6 / 2<br>
+                                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 3</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 3: y ની કિંમત સમીકરણ 2 માં મૂકતાં (તે સહેલું છે)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + 2<b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b> = 21<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + 2<b style='color:#be123c;'>(3)</b> = 21<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + 6 = 21<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+6) સામે જતાં માઇનસ થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 21 <b style='color:#dc2626;'>- 6</b><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 15</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:15px; border-radius:8px; margin-top:15px; border-left:6px solid #16a34a; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);'>
+                                <b style='color:#15803d; font-size:18px;'>🏆 અંતિમ જવાબ:</b><br>
+                                પુસ્તકાલયનું <b>પ્રથમ 3 દિવસનું નિશ્ચિત ભાડું <span style='color:#1d4ed8;'>₹ 15</span></b> છે.<br>
+                                અને 3 દિવસ પછીના <b>પ્રત્યેક વધારાના દિવસનું ભાડું <span style='color:#be123c;'>₹ 3</span></b> છે.<br>
+                                <span style='font-size:14px; color:#64748b;'>(તાળો: સરિતાના 7 દિવસ = 15 + (4 &times; 3) = 15 + 12 = 27 રૂપિયા કમ્પ્લીટ!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
             
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                  
-                      
+                        
                     
 };
