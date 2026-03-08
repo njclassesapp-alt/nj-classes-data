@@ -2161,9 +2161,145 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 3.2 પ્રશ્ન 3(iii): ક્રિકેટ ટીમના કોચે 7 બેટ અને 6 દડા ₹3800 માં ખરીદ્યા...", 
+                    question_desc: "પછીથી તેણે તે જ કિંમતવાળા 3 બેટ અને 5 દડા ₹1750 માં ખરીદ્યા. તો 1 બેટ અને 1 દડાની કિંમત શોધો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> ક્રિકેટ ટીમના કોચે 7 બેટ અને 6 દડા ₹3800 માં ખરીદ્યા. પછીથી તેણે તે જ કિંમતવાળા 3 બેટ અને 5 દડા ₹1750 માં ખરીદ્યા. તો એક બેટની કિંમત અને એક દડાની કિંમત શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે 1 બેટની કિંમત = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અને 1 દડાની કિંમત = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            <ul style='line-height:2.2; margin-top:5px; font-size:16px; color:#0f172a;'>
+                                <li>7 બેટ અને 6 દડાની કિંમત ₹ 3800 છે:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'>7<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 6<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 3800</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)</li>
+                                <li>3 બેટ અને 5 દડાની કિંમત ₹ 1750 છે:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'>3<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 5<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 1750</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સમીકરણ 2 માંથી x ને કર્તા બનાવતાં (આંકડા નાના છે એટલે સહેલું પડશે)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                3<i style='font-family:"Times New Roman",serif;'>x</i> <b style='color:#dc2626;'>+ 5<i style='font-family:"Times New Roman",serif;'>y</i></b> = 1750<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+5y) સામે જતાં (-5y) થશે</i></span><br>
+                                3<i style='font-family:"Times New Roman",serif;'>x</i> = 1750 <b style='color:#dc2626;'>- 5<i style='font-family:"Times New Roman",serif;'>y</i></b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(3) ગુણાકારમાંથી છેદમાં જશે</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1750 - 5<i style='font-family:"Times New Roman",serif;'>y</i></span><span>3</span></span></b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 3)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>સ્ટેપ 3: આ x ની કિંમત સમીકરણ 1 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fae8ff; padding:10px; border-radius:5px;'>
+                                7<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> + 6<i style='font-family:"Times New Roman",serif;'>y</i> = 3800<br>
+                                7 <span style='font-size:22px;'>[</span> <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1750 - 5<i style='font-family:"Times New Roman",serif;'>y</i></span><span>3</span></span></b> <span style='font-size:22px;'>]</span> + 6<i style='font-family:"Times New Roman",serif;'>y</i> = 3800<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>અહીં છેદમાં 3 છે, તેને દૂર કરવા આખા સમીકરણને 3 વડે ગુણો! (લ.સા.અ.)</i></span><br>
+                                7 (1750 - 5<i style='font-family:"Times New Roman",serif;'>y</i>) + 18<i style='font-family:"Times New Roman",serif;'>y</i> = 11400<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>7 નો કૌંસમાં ગુણાકાર: 7 &times; 1750 = 12250 અને 7 &times; -5y = -35y</i></span><br>
+                                12250 <b style='color:#dc2626;'>- 35<i style='font-family:"Times New Roman",serif;'>y</i></b> + 18<i style='font-family:"Times New Roman",serif;'>y</i> = 11400<br>
+                                12250 <b style='color:#dc2626;'>- 17<i style='font-family:"Times New Roman",serif;'>y</i></b> = 11400<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+12250) સામે જતાં (-12250) થશે</i></span><br>
+                                -17<i style='font-family:"Times New Roman",serif;'>y</i> = 11400 <b style='color:#dc2626;'>- 12250</b><br>
+                                -17<i style='font-family:"Times New Roman",serif;'>y</i> = -850<br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-850</span><span>-17</span></span> <span style='color:#64748b; font-size:14px;'><i>(માઇનસ માઇનસ ઉડી જશે, 17 પંચા 85)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 50</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 4: મળેલા y = 50 ને સમીકરણ 3 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1750 - 5<b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b></span><span>3</span></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1750 - 5<b style='color:#be123c;'>(50)</b></span><span>3</span></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1750 - 250</span><span>3</span></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1500</span><span>3</span></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 500</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> એક <b style='color:#1d4ed8;'>બેટની કિંમત ₹ 500</b> છે અને એક <b style='color:#be123c;'>દડાની કિંમત ₹ 50</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 3.2 પ્રશ્ન 3(iv): એક શહેરમાં ટેક્સીનું ભાડું નિશ્ચિત ભાડા અને અંતરના પ્રમાણમાં સંયુક્ત રીતે લેવાય છે.", 
+                    question_desc: "10 કિમી માટે ₹105 અને 15 કિમી માટે ₹155. બોર્ડ માટે 3 માર્ક્સનો મોસ્ટ IMP દાખલો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક શહેરમાં ટેક્સીનું ભાડું નિશ્ચિત ભાડા અને અંતરના પ્રમાણમાં સંયુક્ત રીતે લેવાય છે. 10 કિમીના અંતર માટે ₹105 અને 15 કિમીની મુસાફરી માટે ₹155 ની ચૂકવણી કરવી પડે છે. તો નિશ્ચિત ભાડું અને પ્રતિ કિમી કેટલા દરે ભાડું ચૂકવવું પડે? મુસાફરે 25 કિમીની મુસાફરી માટે કેટલું ભાડું ચૂકવવું પડશે?</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે ટેક્સીનું નિશ્ચિત (ફિક્સ) ભાડું = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અને પ્રતિ કિલોમીટર દીઠ ભાડું = ₹ <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            <i>(કુલ ભાડું = ફિક્સ ભાડું + (કિમી &times; પ્રતિ કિમી ભાડું))</i>
+                            <ul style='line-height:2.2; margin-top:5px; font-size:16px; color:#0f172a;'>
+                                <li>10 કિમીની મુસાફરી માટે ₹ 105:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 10<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 105</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)</li>
+                                <li>15 કિમીની મુસાફરી માટે ₹ 155:<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 15<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 155</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સમીકરણ 1 માંથી x ને કર્તા બનાવતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> <b style='color:#dc2626;'>+ 10<i style='font-family:"Times New Roman",serif;'>y</i></b> = 105<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+10y) જમણી બાજુ જતાં (-10y) થશે</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 105 <span style='color:#dc2626;'>- 10<i style='font-family:"Times New Roman",serif;'>y</i></span></b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 3)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>સ્ટેપ 3: આ x ની કિંમત સમીકરણ 2 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#fae8ff; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> + 15<i style='font-family:"Times New Roman",serif;'>y</i> = 155<br>
+                                <b style='color:#1d4ed8;'>(105 - 10<i style='font-family:"Times New Roman",serif;'>y</i>)</b> + 15<i style='font-family:"Times New Roman",serif;'>y</i> = 155<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-10y + 15y) એટલે કે (+5y) વધશે</i></span><br>
+                                <b style='color:#dc2626;'>105</b> + 5<i style='font-family:"Times New Roman",serif;'>y</i> = 155<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+105) સામે જતાં માઇનસ (-105) થશે</i></span><br>
+                                5<i style='font-family:"Times New Roman",serif;'>y</i> = 155 <b style='color:#dc2626;'>- 105</b><br>
+                                5<i style='font-family:"Times New Roman",serif;'>y</i> = 50<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(5) ભાગાકારમાં જશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50</span><span>5</span></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 10</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 4: મળેલા y = 10 ને સમીકરણ 3 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 105 - 10<b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 105 - 10<b style='color:#be123c;'>(10)</b><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 105 - 100<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 5</b>
+                            </div>
+                            
+                            <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>સ્ટેપ 5: 25 કિમીની મુસાફરી માટેનું ભાડું</b><br>
+                                25 કિમી માટે ચૂકવવું પડતું ભાડું = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i> + 25<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i><br>
+                                = <b style='color:#1d4ed8;'>5</b> + 25<b style='color:#be123c;'>(10)</b><br>
+                                = 5 + 250<br>
+                                <b style='font-size:20px; color:#15803d;'>= ₹ 255</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> ટેક્સીનું <b style='color:#1d4ed8;'>નિશ્ચિત ભાડું ₹ 5</b> છે અને <b style='color:#be123c;'>પ્રતિ કિમી ભાડું ₹ 10</b> છે. 25 કિમી મુસાફરી કરવા માટે મુસાફરે <b>₹ 255</b> ચૂકવવા પડશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                   
                       
                     
