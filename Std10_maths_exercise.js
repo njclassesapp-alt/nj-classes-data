@@ -2448,9 +2448,108 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                {
+                    question: "🎯 માસ્ટર ચાવી: લોપની રીત (Elimination Method) ના 3 ગોલ્ડન સ્ટેપ્સ",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>'લોપ' કરવો એટલે કે ગાયબ કરવું! બસ આ 3 સ્ટેપ યાદ રાખો:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li><b style='color:#be123c;'>સ્ટેપ 1 (સરખા કરવા):</b> બંને સમીકરણમાંથી કોઈ એક ચલ (<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> અથવા <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i>) ને પસંદ કરો અને યોગ્ય સંખ્યા વડે ગુણાકાર કરી બંનેના <b>સહગુણકો (આગળના આંકડા) સરખા કરો</b>.</li>
+                                <li><b style='color:#1d4ed8;'>સ્ટેપ 2 (લોપ કરવો):</b> જો બંનેની નિશાની અલગ અલગ (+ અને -) હોય, તો સીધો <b>સરવાળો</b> કરો. જો નિશાની સરખી હોય, તો <b>બાદબાકી</b> કરો (એટલે કે નીચેના સમીકરણની નિશાનીઓ બદલી નાખો). આથી એક ચલ ગાયબ થઈ જશે અને બીજાનો જવાબ મળશે.</li>
+                                <li><b style='color:#16a34a;'>સ્ટેપ 3 (કિંમત મૂકવી):</b> મળેલા જવાબને સહેલા લાગતા કોઈપણ એક સમીકરણમાં મૂકી દો, એટલે બીજા ચલનો પણ જવાબ મળી જશે!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 3.3 પ્રશ્ન 1(i): નીચેના સુરેખ સમીકરણયુગ્મનો ઉકેલ લોપની રીતે અને આદેશની રીતે શોધો: x + y = 5 અને 2x - 3y = 4", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 5 &nbsp;&nbsp;અને&nbsp;&nbsp; 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> = 4</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:18px; border-bottom:2px solid #14532d; padding-bottom:2px;'>રીત 1: લોપની રીત</b><br><br>
+                            સમીકરણ 1: <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 5<br>
+                            સમીકરણ 2: 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 4<br><br>
+                            
+                            <b style='color:#16a34a; font-size:15px;'>સ્ટેપ 1: y નો લોપ કરવા સમીકરણ 1 ને 3 વડે ગુણતાં</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(કારણ કે સમીકરણ 2 માં -3y છે, તો સમીકરણ 1 માં +3y લાવીએ તો સીધો લોપ થઈ જાય)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                3 &times; (<i style='font-family:"Times New Roman",serif;'>x</i> + <i style='font-family:"Times New Roman",serif;'>y</i> = 5) &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b>3<i style='font-family:"Times New Roman",serif;'>x</i> + 3<i style='font-family:"Times New Roman",serif;'>y</i> = 15</b> &nbsp;&nbsp;&nbsp; ... (નવું સમીકરણ 3)
+                            </div>
+                            
+                            <b style='color:#16a34a; font-size:15px; display:block; margin-top:10px;'>સ્ટેપ 2: સમીકરણ 2 અને 3 નો સરવાળો કરતાં</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp; 3<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#16a34a;'>+ 3<i style='font-family:"Times New Roman",serif;'>y</i></b> = 15<br>
+                                +&nbsp; 2<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#dc2626;'>- 3<i style='font-family:"Times New Roman",serif;'>y</i></b> = 4<br>
+                                --------------------<br>
+                                &nbsp;&nbsp; 5<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 19<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(5 ગુણાકારમાંથી છેદમાં જશે)</i></span><br>
+                                &nbsp;&nbsp; <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>19</span><span>5</span></span></b>
+                            </div>
+                            
+                            <b style='color:#16a34a; font-size:15px; display:block; margin-top:10px;'>સ્ટેપ 3: x ની કિંમત સમીકરણ 1 માં મૂકતાં</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> + <i style='font-family:"Times New Roman",serif;'>y</i> = 5<br>
+                                <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>19</span><span>5</span></span></b> + <i style='font-family:"Times New Roman",serif;'>y</i> = 5<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(19/5) સામે જતાં માઇનસ થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = 5 <b style='color:#dc2626;'>- <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>19</span><span>5</span></span></b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>લ.સા.અ. લેતાં (5 &times; 5 = 25)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25 - 19</span><span>5</span></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>6</span><span>5</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:18px; border-bottom:2px solid #1e3a8a; padding-bottom:2px;'>રીત 2: આદેશની રીત</b><br><br>
+                            
+                            <b style='color:#2563eb; font-size:15px;'>સ્ટેપ 1: સમીકરણ 1 માંથી y ને કર્તા બનાવતાં</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> + <i style='font-family:"Times New Roman",serif;'>y</i> = 5<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+x) સામે જતાં (-x) થશે</i></span><br>
+                                <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 5 <span style='color:#dc2626;'>- <i style='font-family:"Times New Roman",serif;'>x</i></span></b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 3)
+                            </div>
+                            
+                            <b style='color:#2563eb; font-size:15px; display:block; margin-top:10px;'>સ્ટેપ 2: આ y ની કિંમત સમીકરણ 2 માં મૂકતાં</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i> - 3<b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b> = 4<br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i> - 3<b style='color:#be123c;'>(5 - <i style='font-family:"Times New Roman",serif;'>x</i>)</b> = 4<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-3) નો ગુણાકાર: -3 &times; 5 = -15 અને -3 &times; -x = +3x</i></span><br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i> <b style='color:#dc2626;'>- 15</b> <b style='color:#16a34a;'>+ 3<i style='font-family:"Times New Roman",serif;'>x</i></b> = 4<br>
+                                5<i style='font-family:"Times New Roman",serif;'>x</i> <b style='color:#dc2626;'>- 15</b> = 4<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-15) સામે જતાં પ્લસ (+15) થશે</i></span><br>
+                                5<i style='font-family:"Times New Roman",serif;'>x</i> = 4 <b style='color:#16a34a;'>+ 15</b><br>
+                                5<i style='font-family:"Times New Roman",serif;'>x</i> = 19<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>19</span><span>5</span></span></b>
+                            </div>
+
+                            <b style='color:#2563eb; font-size:15px; display:block; margin-top:10px;'>સ્ટેપ 3: x ની કિંમત સમીકરણ 3 માં મૂકતાં</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#bfdbfe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = 5 - <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b><br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = 5 - <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>19</span><span>5</span></span></b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>લ.સા.અ. લેતાં</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25 - 19</span><span>5</span></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>6</span><span>5</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fffbeb; padding:10px; border-radius:5px; border-left:4px solid #f59e0b;'>
+                            <b style='color:#b45309; font-size:16px;'>અંતિમ નિષ્કર્ષ:</b> તમે જોઈ શકો છો કે <b>બંને રીતથી જવાબ હંમેશા સરખો જ આવે છે!</b> <br>
+                            ઉકેલ: <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = 19/5</b> અને <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 6/5</b> છે.
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
