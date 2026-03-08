@@ -2294,9 +2294,84 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 3.2 પ્રશ્ન 3(v): એક અપૂર્ણાંકના અંશ અને છેદ બંનેમાં 2 ઉમેરતાં તે 9/11 બને છે...", 
+                    question_desc: "જો અંશ અને છેદ બંનેમાં 3 ઉમેરતાં તે 5/6 બને, તો તે અપૂર્ણાંક શોધો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક અપૂર્ણાંકના અંશ અને છેદ બંનેમાં 2 ઉમેરતાં તે 9/11 બને છે. જો અપૂર્ણાંકના અંશ અને છેદ બંનેમાં 3 ઉમેરતાં તે 5/6 બને, તો તે અપૂર્ણાંક શોધો.</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે માંગેલ અપૂર્ણાંકનો અંશ = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અને છેદ = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            તેથી મૂળ અપૂર્ણાંક = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i></span><span><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i></span></span> થાય.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.8;'>
+                                <b>શરત 1: બંનેમાં 2 ઉમેરતાં</b><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 2</span><span><i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>11</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>ચોકડી ગુણાકાર કરતાં: 11(x+2) = 9(y+2)</i></span><br>
+                                11<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 22 = 9<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 18<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'>11<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 9<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = -4</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)<br><br>
+
+                                <b>શરત 2: બંનેમાં 3 ઉમેરતાં</b><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 3</span><span><i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 3</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>6</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>ચોકડી ગુણાકાર કરતાં: 6(x+3) = 5(y+3)</i></span><br>
+                                6<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 18 = 5<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 15<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'>6<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 5<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = -3</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સમીકરણ 2 માંથી x ને કર્તા બનાવતાં (આંકડા નાના છે)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                6<i style='font-family:"Times New Roman",serif;'>x</i> <b style='color:#dc2626;'>- 5<i style='font-family:"Times New Roman",serif;'>y</i></b> = -3<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-5y) સામે જતાં પ્લસ (+5y) થશે</i></span><br>
+                                6<i style='font-family:"Times New Roman",serif;'>x</i> = -3 <b style='color:#16a34a;'>+ 5<i style='font-family:"Times New Roman",serif;'>y</i></b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(6) ગુણાકારમાંથી છેદમાં જશે</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>-3 + 5<i style='font-family:"Times New Roman",serif;'>y</i></span><span>6</span></span></b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 3)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>સ્ટેપ 3: આ x ની કિંમત સમીકરણ 1 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fae8ff; padding:10px; border-radius:5px;'>
+                                11<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> - 9<i style='font-family:"Times New Roman",serif;'>y</i> = -4<br>
+                                11 <span style='font-size:22px;'>[</span> <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>-3 + 5<i style='font-family:"Times New Roman",serif;'>y</i></span><span>6</span></span></b> <span style='font-size:22px;'>]</span> - 9<i style='font-family:"Times New Roman",serif;'>y</i> = -4<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>છેદના 6 દૂર કરવા આખા સમીકરણને 6 વડે ગુણો!</i></span><br>
+                                11 (-3 + 5<i style='font-family:"Times New Roman",serif;'>y</i>) - 54<i style='font-family:"Times New Roman",serif;'>y</i> = -24<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>11 નો અંદર ગુણાકાર: 11 &times; -3 = -33 અને 11 &times; 5y = 55y</i></span><br>
+                                <b style='color:#dc2626;'>-33</b> + 55<i style='font-family:"Times New Roman",serif;'>y</i> - 54<i style='font-family:"Times New Roman",serif;'>y</i> = -24<br>
+                                <b style='color:#dc2626;'>-33</b> + 1<i style='font-family:"Times New Roman",serif;'>y</i> = -24<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-33) સામે જતાં પ્લસ (+33) થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>y</i> = -24 <b style='color:#16a34a;'>+ 33</b><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 9</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 4: મળેલા y = 9 ને સમીકરણ 3 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-3 + 5<b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b></span><span>6</span></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-3 + 5<b style='color:#be123c;'>(9)</b></span><span>6</span></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-3 + 45</span><span>6</span></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>42</span><span>6</span></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 7</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> માંગેલ અપૂર્ણાંકનો અંશ 7 અને છેદ 9 છે. તેથી <b>માંગેલ અપૂર્ણાંક <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>9</span></span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
