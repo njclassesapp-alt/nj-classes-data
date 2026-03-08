@@ -2808,9 +2808,142 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+            
+                { 
+                    question: "સ્વા. 3.3 પ્રશ્ન 2(i): એક અપૂર્ણાંકના અંશમાં 1 ઉમેરતાં અને છેદમાંથી 1 બાદ કરતાં...", 
+                    question_desc: "અપૂર્ણાંક કિંમત 1 બને છે. માત્ર છેદમાં 1 ઉમેરતાં 1/2 બને, તો અપૂર્ણાંક શોધો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક અપૂર્ણાંકના અંશમાં 1 ઉમેરતાં અને છેદમાંથી 1 બાદ કરતાં અપૂર્ણાંક કિંમત 1 બને છે. જો માત્ર છેદમાં 1 ઉમેરતાં અપૂર્ણાંકનું અતિસંક્ષિપ્ત રૂપ 1/2 બને, તો તે અપૂર્ણાંક શોધો. (લોપની રીતે ઉકેલો)</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમીકરણ કેવી રીતે બનશે?</b><br>
+                            ધારો કે માંગેલ અપૂર્ણાંકનો અંશ = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અને છેદ = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            તેથી મૂળ અપૂર્ણાંક = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i></span><span><i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i></span></span> થાય.
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <b style='color:#14532d;'>શરત 1: અંશમાં 1 ઉમેરતાં (+1) અને છેદમાંથી 1 બાદ કરતાં (-1), જવાબ 1 મળે.</b><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 1</span><span><i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 1</span></span> = 1<br>
+                                <span style='color:#64748b; font-size:14px;'><i>(છેદનું પદ (y-1) સામે જતાં ગુણાકારમાં જશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 1 = 1(<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 1)<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 1 = <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 1<br>
+                                <span style='color:#64748b; font-size:14px;'><i>(+y આ બાજુ આવતાં -y થશે, અને +1 સામે જતાં -1 થશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = -1 - 1<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = -2</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px;'>
+                                <b style='color:#1e3a8a;'>શરત 2: માત્ર છેદમાં જ 1 ઉમેરતાં (+1), જવાબ 1/2 મળે. (અંશમાં કશું નથી કરવાનું)</b><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i></span><span><i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 1</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><br>
+                                <span style='color:#64748b; font-size:14px;'><i>(ચોકડી ગુણાકાર: 2 નો ગુણાકાર x સાથે અને (y+1) નો ગુણાકાર 1 સાથે)</i></span><br>
+                                2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = 1(<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 1)<br>
+                                2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 1<br>
+                                <span style='color:#64748b; font-size:14px;'><i>(+y આ બાજુ આવતાં -y થશે)</i></span><br>
+                                <b style='color:#1d4ed8; background-color:#dbeafe; padding:2px 8px; border-radius:4px;'>2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 1</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: લોપની રીત (સીધી બાદબાકી)</b><br>
+                            અહીં બંને સમીકરણમાં <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> ની નિશાની સમાન (-y) છે, તેથી કોઈપણ સમીકરણને ગુણવાની જરૂર નથી. સીધી <b>બાદબાકી (નિશાની બદલીને)</b> કરીશું.
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:10px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp; 2<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#dc2626;'>- &nbsp;<i style='font-family:"Times New Roman",serif;'>y</i></b> = 1 &nbsp;&nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 2 મોટું હોવાથી ઉપર રાખ્યું)</i></span><br>
+                                -&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#16a34a;'>+&nbsp; <i style='font-family:"Times New Roman",serif;'>y</i></b> = +2 &nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 1 ની નિશાની બદલી: -x, +y, +2)</i></span><br>
+                                --------------------<br>
+                                &nbsp;&nbsp; &nbsp;<b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> &nbsp;&nbsp;0 = 3<br>
+                                &nbsp;&nbsp; &nbsp;<b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 3</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: x ની કિંમત સમીકરણ 1 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> - <i style='font-family:"Times New Roman",serif;'>y</i> = -2<br>
+                                <b style='color:#1d4ed8;'>(3)</b> - <i style='font-family:"Times New Roman",serif;'>y</i> = -2<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+3) સામે જતાં માઇનસ (-3) થશે</i></span><br>
+                                -<i style='font-family:"Times New Roman",serif;'>y</i> = -2 <b style='color:#dc2626;'>- 3</b><br>
+                                -<i style='font-family:"Times New Roman",serif;'>y</i> = -5<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બંને બાજુથી માઇનસ દૂર કરતા)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 5</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> અંશ x=3 અને છેદ y=5 છે. તેથી <b>માંગેલ અપૂર્ણાંક <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>5</span></span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 3.3 પ્રશ્ન 2(ii): 5 વર્ષ પહેલાં નૂરીની ઉંમર સોનુની ઉંમરથી ત્રણ ગણી હતી...", 
+                    question_desc: "10 વર્ષ પછી નૂરીની ઉંમર સોનુની ઉંમરથી બે ગણી થશે. તેમની વર્તમાન ઉંમર શોધો. (ઉંમરનો મોસ્ટ IMP દાખલો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 5 વર્ષ પહેલાં નૂરીની ઉંમર સોનુની ઉંમરથી ત્રણ ગણી હતી. 10 વર્ષ પછી નૂરીની ઉંમર સોનુની ઉંમરથી બે ગણી થશે. નૂરી અને સોનુની વર્તમાન ઉંમર કેટલી હશે?</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમીકરણ કેવી રીતે બનશે?</b><br>
+                            ધારો કે નૂરીની હાલની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> વર્ષ અને સોનુની હાલની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> વર્ષ છે.
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <b style='color:#14532d;'>શરત 1: 5 વર્ષ પહેલાં (બંનેમાંથી 5 બાદ કરવા પડે)</b><br>
+                                નૂરીની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 5 &nbsp; અને &nbsp; સોનુની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 5<br>
+                                નૂરીની ઉંમર = 3 &times; સોનુની ઉંમર<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 5 = 3(<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 5)<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 5 = 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 15<br>
+                                <span style='color:#64748b; font-size:14px;'><i>(3y આ બાજુ લાવતાં -3y અને -5 સામે જતાં +5 થશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = -15 + 5<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 3<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = -10</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px;'>
+                                <b style='color:#1e3a8a;'>શરત 2: 10 વર્ષ પછી (બંનેમાં 10 ઉમેરવા પડે)</b><br>
+                                નૂરીની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 10 &nbsp; અને &nbsp; સોનુની ઉંમર = <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 10<br>
+                                નૂરીની ઉંમર = 2 &times; સોનુની ઉંમર<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 10 = 2(<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 10)<br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 10 = 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 20<br>
+                                <span style='color:#64748b; font-size:14px;'><i>(2y આ બાજુ લાવતાં -2y અને +10 સામે જતાં -10 થશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 20 - 10<br>
+                                <b style='color:#1d4ed8; background-color:#dbeafe; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 10</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: લોપની રીત (સીધી બાદબાકી)</b><br>
+                            અહીં બંને સમીકરણમાં <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> પહેલેથી જ સરખો છે, તેથી કોઈ ગુણાકારની જરૂર નથી. સીધી <b>બાદબાકી (નિશાની બદલીને)</b> કરીશું.
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:10px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#dc2626;'>- 2<i style='font-family:"Times New Roman",serif;'>y</i></b> = 10 &nbsp;&nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 2)</i></span><br>
+                                -&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#16a34a;'>+ 3<i style='font-family:"Times New Roman",serif;'>y</i></b> = +10 &nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 1 ની નિશાની બદલી: -x, +3y, +10)</i></span><br>
+                                --------------------<br>
+                                &nbsp;&nbsp; 0 <b style='color:#16a34a;'>+&nbsp; <i style='font-family:"Times New Roman",serif;'>y</i></b> = 20<br>
+                                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 20</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: y ની કિંમત સમીકરણ 2 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> - 2<b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b> = 10<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> - 2<b style='color:#be123c;'>(20)</b> = 10<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> - 40 = 10<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-40) સામે જતાં પ્લસ (+40) થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 10 <b style='color:#16a34a;'>+ 40</b><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 50</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> નૂરીની વર્તમાન ઉંમર <b style='color:#1d4ed8;'>50 વર્ષ</b> છે અને સોનુની વર્તમાન ઉંમર <b style='color:#be123c;'>20 વર્ષ</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
