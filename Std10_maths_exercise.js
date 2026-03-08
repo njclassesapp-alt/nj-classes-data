@@ -2938,9 +2938,138 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+        
+                { 
+                    question: "🌟 સ્વા. 3.3 પ્રશ્ન 2(iii): બે અંકોની સંખ્યાના અંકોનો સરવાળો 9 છે. વળી સંખ્યાના નવ ગણા કરતાં...", 
+                    question_desc: "મળતી સંખ્યા એ અંકોની અદલાબદલી કરતાં મળતી સંખ્યા કરતાં બે ગણી છે. તો તે સંખ્યા શોધો. (સુપર IMP)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> બે અંકોની સંખ્યાના અંકોનો સરવાળો 9 છે. વળી સંખ્યાના નવ ગણા કરતાં મળતી સંખ્યા એ અંકોની અદલાબદલી કરતાં મળતી સંખ્યા કરતાં બે ગણી છે. તો તે સંખ્યા શોધો.</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ચાવી (સ્થાન કિંમત):</b><br>
+                            બે અંકોની સંખ્યામાં એક <b>એકમનો અંક</b> અને બીજો <b>દશકનો અંક</b> હોય છે.<br>
+                            કોઈપણ સંખ્યા = (10 &times; દશકનો અંક) + એકમનો અંક.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે એકમનો અંક = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> અને દશકનો અંક = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            તેથી, <b>મૂળ સંખ્યા = 10<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i> + <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i></b><br>
+                            અંકોની અદલાબદલી કરતા બનતી <b>નવી સંખ્યા = 10<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c;'>y</i></b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <b style='color:#14532d;'>શરત 1: અંકોનો સરવાળો 9 છે.</b><br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 9</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px;'>
+                                <b style='color:#1e3a8a;'>શરત 2: મૂળ સંખ્યાના 9 ગણા = નવી સંખ્યાના 2 ગણા</b><br>
+                                9 &times; (મૂળ સંખ્યા) = 2 &times; (નવી સંખ્યા)<br>
+                                9(10<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>) = 2(10<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i>)<br>
+                                90<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> + 9<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> = 20<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>બધા પદો ડાબી બાજુ લાવતા (નિશાની બદલાશે)</i></span><br>
+                                9<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 20<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 90<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> - 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 0<br>
+                                -11<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 88<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>આખા સમીકરણને -11 વડે ભાગતાં</i></span><br>
+                                <b style='color:#1d4ed8; background-color:#dbeafe; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 8<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 0</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 2: લોપની રીત (સીધી બાદબાકી)</b><br>
+                            અહીં બંને સમીકરણમાં <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> સમાન છે, તેથી કોઈ ગુણાકારની જરૂર નથી.
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:10px; line-height:2.2; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#16a34a;'>+ &nbsp;<i style='font-family:"Times New Roman",serif;'>y</i></b> = 9 &nbsp;&nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 1)</i></span><br>
+                                -&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#16a34a;'>+ 8<i style='font-family:"Times New Roman",serif;'>y</i></b> = 0 &nbsp;&nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 2 ની નિશાની બદલી: -x, +8y, 0)</i></span><br>
+                                --------------------<br>
+                                &nbsp;&nbsp; 0 <b style='color:#16a34a;'>+ 9<i style='font-family:"Times New Roman",serif;'>y</i></b> = 9<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(9 છેદમાં જશે)</i></span><br>
+                                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<i style='font-family:"Times New Roman",serif;'>y</i> = 9 / 9<br>
+                                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 3: y ની કિંમત સમીકરણ 1 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b> = 9<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + <b style='color:#be123c;'>(1)</b> = 9<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+1) સામે જતાં માઇનસ થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 9 <b style='color:#dc2626;'>- 1</b><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 8</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> એકમનો અંક x = 8 અને દશકનો અંક y = 1 છે.<br>
+                                તેથી માંગેલ મૂળ સંખ્યા = 10<i style='font-family:"Times New Roman",serif;'>y</i> + <i style='font-family:"Times New Roman",serif;'>x</i> = 10(1) + 8 = <b>18</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 3.3 પ્રશ્ન 2(iv): મીના ₹2000 ઉપાડવા બેંકમાં ગઈ હતી. તેણે કેશિયરને કહ્યું હતું કે...", 
+                    question_desc: "મારે માત્ર ₹50 અને ₹100 ની નોટો જ જોઈએ છે. મીનાને કુલ 25 નોટો મળી હતી, તો કેટલી નોટો કઈ હશે?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> મીના ₹ 2000 ઉપાડવા બેંકમાં ગઈ હતી. તેણે કેશિયરને કહ્યું હતું કે મને માત્ર ₹ 50 અને ₹ 100 ની જ નોટો જોઈએ છે. મીનાને કુલ 25 નોટો મળી હતી, તો તેણે ₹ 50 અને ₹ 100 ની પ્રત્યેકની કેટલી નોટો મેળવી હશે?</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે ₹ 50 ની નોટોની સંખ્યા = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> છે અને ₹ 100 ની નોટોની સંખ્યા = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>y</i> છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <b style='color:#14532d;'>શરત 1: કુલ 25 નોટો મળી છે.</b><br>
+                                (50 ની નોટો + 100 ની નોટો = 25)<br>
+                                <b style='color:#15803d; background-color:#dcfce7; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 25</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px;'>
+                                <b style='color:#1e3a8a;'>શરત 2: કુલ રકમ ₹ 2000 છે.</b><br>
+                                (50 ની નોટોની કિંમત + 100 ની નોટોની કિંમત = 2000)<br>
+                                50<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 100<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 2000<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>આખા સમીકરણને 50 વડે ભાગીને નાનું બનાવતાં</i></span><br>
+                                <b style='color:#1d4ed8; background-color:#dbeafe; padding:2px 8px; border-radius:4px;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 2<i style='font-family:"Times New Roman",serif; font-size:18px;'>y</i> = 40</b> &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 2: લોપની રીત (સીધી બાદબાકી)</b><br>
+                            અહીં બંને સમીકરણમાં <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> સમાન છે, તેથી કોઈ ગુણાકારની જરૂર નથી. સમીકરણ 2 માંથી 1 બાદ કરીએ (જેથી જવાબ પ્લસમાં આવે).
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:10px; line-height:2.2; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#16a34a;'>+ 2<i style='font-family:"Times New Roman",serif;'>y</i></b> = 40 &nbsp;&nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 2 મોટું છે)</i></span><br>
+                                -&nbsp; &nbsp;<b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> <b style='color:#dc2626;'>- &nbsp;<i style='font-family:"Times New Roman",serif;'>y</i></b> = -25 &nbsp;&nbsp;<span style='color:#64748b; font-size:14px;'><i>(સમીકરણ 1 ની નિશાની બદલી: -x, -y, -25)</i></span><br>
+                                --------------------<br>
+                                &nbsp;&nbsp; 0 <b style='color:#16a34a;'>+ &nbsp;<i style='font-family:"Times New Roman",serif;'>y</i></b> = 15<br>
+                                &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i> = 15</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 3: y ની કિંમત સમીકરણ 1 માં મૂકતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>y</i></b> = 25<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + <b style='color:#be123c;'>(15)</b> = 25<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+15) સામે જતાં માઇનસ થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = 25 <b style='color:#dc2626;'>- 15</b><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 10</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> મીનાને <b style='color:#1d4ed8;'>₹ 50 ની 10 નોટો</b> અને <b style='color:#be123c;'>₹ 100 ની 15 નોટો</b> મળી હશે.<br>
+                                <span style='font-size:14px; color:#64748b;'>(તાળો: 10 + 15 = 25 નોટો થઈ ગઈ. રકમ: 50&times;10 = 500 અને 100&times;15 = 1500. 500+1500=2000 રૂપિયા પૂરા!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
