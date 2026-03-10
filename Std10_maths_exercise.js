@@ -6314,9 +6314,138 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 10: કોઈ સમાંતર શ્રેણીમાં 17મું પદ 10મા પદ કરતાં 7 વધુ છે. તેનો સામાન્ય તફાવત શોધો.", 
+                    question_desc: "2 માર્ક્સ માટે બોર્ડનો સૌથી સહેલો અને શોર્ટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 રમતવાત (Trick):</b><br>
+                            રકમમાં કહ્યું છે કે 17મું પદ એ 10મા પદ કરતાં 7 મોટું છે. <br>
+                            આનો સીધો મતલબ એ થાય કે જો <b>17મા પદમાંથી 10મું પદ બાદ કરીએ તો જવાબ 7 આવે!</b> <br>
+                            એટલે કે: <b style='color:#dc2626;'>a<sub>17</sub> - a<sub>10</sub> = 7</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણ બનાવી કિંમત મૂકવી</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(આપણે જાણીએ છીએ કે 17મું પદ = a + 16d અને 10મું પદ = a + 9d થાય)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                a<sub>17</sub> - a<sub>10</sub> = 7<br>
+                                (a + 16d) - (a + 9d) = 7<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કૌંસ છોડીએ ત્યારે પાછળની નિશાનીઓ માઇનસ થશે)</i></span><br>
+                                a + 16d - a - 9d = 7<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+a અને -a ઉડી જશે!)</i></span><br>
+                                16d - 9d = 7<br>
+                                7d = 7<br>
+                                d = 7 / 7 &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#1d4ed8;'>d = 1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>અંતિમ જવાબ:</b><br>
+                            આપેલી સમાંતર શ્રેણીનો <b>સામાન્ય તફાવત (d) = 1</b> છે. (હતો ને સાવ સહેલો દાખલો!)
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 11: સમાંતર શ્રેણી 3, 15, 27, 39, ... નું કયું પદ 54મા પદ કરતાં 132 વધુ હશે?", 
+                    question_desc: "'સીધો કુદકો મારવાની ટ્રીક' વાળો મોસ્ટ IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 "સીધો કુદકો મારવાની" દેશી ટ્રીક:</b><br>
+                            અહીં તફાવત <b>d = 12</b> છે. મતલબ કે દરેક પદે 12 નો વધારો થાય છે.<br>
+                            રકમમાં પૂછ્યું છે કે <b>132 વધુ</b> ક્યારે થશે? <br>
+                            સિમ્પલ! 132 ને 12 વડે ભાગી નાખો <b>(132 &divide; 12 = 11)</b>. એટલે કે આપણે 11 કુદકા આગળ મારવાના છે! <br>
+                            54મા પદથી 11 કુદકા આગળ એટલે <b>54 + 11 = 65મું પદ!</b> (જવાબ આવી ગયો, હવે આપણે તેને ગણતરીથી સાબિત કરીશું).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: 54મું પદ શોધવું</b><br>
+                            અહીં <b>a = 3</b> અને <b>d = 15 - 3 = 12</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                a<sub>54</sub> = a + 53d<br>
+                                a<sub>54</sub> = 3 + 53(12)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(ગુણાકાર: 53 &times; 12 = 636)</i></span><br>
+                                a<sub>54</sub> = 3 + 636<br>
+                                <b style='color:#1d4ed8;'>a<sub>54</sub> = 639</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: નવું પદ ધારીને n શોધવો</b><br>
+                            ધારો કે માંગેલું પદ n મું પદ (a<sub>n</sub>) છે. જે 54મા પદ (639) કરતાં 132 વધુ છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>n</sub> = 639 + 132<br>
+                                a<sub>n</sub> = <b style='color:#be123c;'>771</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે a<sub>n</sub> = 771 માટે n શોધીએ)</i></span><br>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                771 = 3 + (n - 1)(12)<br>
+                                771 - 3 = (n - 1)(12)<br>
+                                768 = (n - 1)(12)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>768</span><span>12</span></span> = n - 1<br>
+                                64 = n - 1<br>
+                                64 + 1 = n &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#16a34a;'>n = 65</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>અંતિમ જવાબ:</b><br>
+                            આપેલી સમાંતર શ્રેણીનું <b>65 મું પદ</b> 54મા પદ કરતાં 132 વધુ હશે!
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 12: બે સમાંતર શ્રેણીના સામાન્ય તફાવત સમાન છે. જો 100મા પદોનો તફાવત 100 હોય, તો 1000મા પદોનો તફાવત કેટલો હશે?", 
+                    question_desc: "બોર્ડમાં માત્ર 1 માર્કની ખાલી જગ્યામાં પૂછાતો 'ટ્રેન' વાળો કોન્સેપ્ટ",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 "સમાંતર ટ્રેન" ની 1 સેકન્ડવાળી ટ્રીક:</b><br>
+                            વિચારો કે બે ટ્રેન સમાંતર પાટા પર <b>એકસરખી સ્પીડથી (સામાન્ય તફાવત સમાન છે)</b> દોડી રહી છે.<br>
+                            જો 1 કલાક પછી તેમની વચ્ચે 100 મીટરનું અંતર હોય, તો 10 કલાક પછી પણ અંતર 100 મીટર જ રહેવાનું છે!<br>
+                            કારણ કે <b>સ્પીડ (d) સરખી છે!</b> તેથી 100મા પદનો તફાવત 100 હોય, તો 1000મા પદનો તફાવત પણ <b>100 જ રહે!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગાણિતિક ગણતરી (જો 2 માર્ક્સમાં પૂછાય તો):</b><br>
+                            ધારો કે બે સમાંતર શ્રેણીના પ્રથમ પદ <b>a</b> અને <b>A</b> છે. અને બંનેનો સામાન્ય તફાવત <b>d</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(પહેલી શરત: 100મા પદોનો તફાવત 100 છે)</i></span><br>
+                                (A + 99d) - (a + 99d) = 100<br>
+                                A + 99d - a - 99d = 100<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+99d અને -99d ઉડી જશે)</i></span><br>
+                                <b style='color:#1d4ed8;'>A - a = 100</b> &nbsp;&nbsp;&nbsp; ...(સમીકરણ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>1000મા પદોનો તફાવત શોધવા:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                1000મા પદોનો તફાવત = (A + 999d) - (a + 999d)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= A + 999d - a - 999d<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <b style='color:#1d4ed8;'>A - a</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(સમીકરણ 1 મુજબ A - a = 100 જ છે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <b style='font-size:22px; color:#be123c;'>100</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 1000મા પદોનો તફાવત પણ <b>100 જ થશે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
