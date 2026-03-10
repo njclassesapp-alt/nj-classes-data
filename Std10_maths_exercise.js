@@ -5550,9 +5550,138 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                {
+                    question: "🎯 માસ્ટર ચાવી: સમાંતર શ્રેણીનું n મું પદ શોધવાનું બ્રહ્માસ્ત્ર સૂત્ર!",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા સ્વાધ્યાય 5.2 ના બધા જ દાખલા માત્ર આ એક જ સૂત્રથી સોલ્વ થઈ જશે:</p>
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; text-align:center;'>
+                            <b style='font-size:24px; color:#1d4ed8; background-color:#e0f2fe; padding:5px 15px; border-radius:8px;'><i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i></b>
+                        </div>
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:10px; border-radius:5px; margin-top:10px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:16px; color:#0f172a;'>
+                                <li><b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i></b> = શ્રેણીનું n મું પદ (અથવા <b>છેલ્લું પદ</b>)</li>
+                                <li><b style='color:#16a34a;'><i style='font-family:"Times New Roman",serif;'>a</i></b> = પ્રથમ પદ (શરૂઆતનો આંકડો)</li>
+                                <li><b style='color:#ea580c;'><i style='font-family:"Times New Roman",serif;'>n</i></b> = પદોની <b>સંખ્યા</b> (જેમ કે 5મું પદ, 10મું પદ)</li>
+                                <li><b style='color:#8b5cf6;'><i style='font-family:"Times New Roman",serif;'>d</i></b> = સામાન્ય તફાવત (ગેપ)</li>
+                            </ul>
+                            <div style='margin-top:10px; font-size:14px; color:#64748b;'><i>(નોંધ: આ 4 માંથી કોઈપણ 3 ની કિંમત આપેલી હશે, અને આપણે ચોથી કિંમત શોધવાની છે!)</i></div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.2 પ્રશ્ન 1 (i & ii): સૂત્રની મદદથી ખાલી જગ્યા પૂરો.", 
+                    question_desc: "(i) a=7, d=3, n=8 તો an શોધો. (ii) a=-18, n=10, an=0 તો d શોધો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>દાખલો (i): a = 7, d = 3, n = 8, તો a<sub>n</sub> = ?</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(અહીં આપણે 8મું પદ શોધવાનું છે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>8</sub></i> = 7 + (8 - 1)3<br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>8</sub></i> = 7 + (7)3<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(પહેલા ગુણાકાર કરવાનો: 7 &times; 3 = 21)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>8</sub></i> = 7 + 21<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>a<sub>8</sub></i> = 28</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> a<sub>n</sub> ની કિંમત <b style='color:#1d4ed8;'>28</b> મળશે.</div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>દાખલો (ii): a = -18, n = 10, a<sub>n</sub> = 0, તો d = ?</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(અહીં આપણે તફાવત d શોધવાનો છે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                0 = -18 + (10 - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                0 = -18 + 9<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-18 ને ડાબી બાજુ લાવતાં પ્લસ +18 થશે)</i></span><br>
+                                18 = 9<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(9 ભાગાકારમાં જશે: 18 / 9 = 2)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>d</i> = 2</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> d ની કિંમત <b style='color:#be123c;'>2</b> મળશે.</div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 1 (iii & iv): સૂત્રની મદદથી ખાલી જગ્યા પૂરો.", 
+                    question_desc: "(iii) d=-3, n=18, an=-5 તો a શોધો. (iv) પોઈન્ટવાળો દાખલો n શોધો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>દાખલો (iii): d = -3, n = 18, a<sub>n</sub> = -5, તો a = ?</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(અહીં આપણે પ્રથમ પદ a શોધવાનું છે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                -5 = <i style='font-family:"Times New Roman",serif;'>a</i> + (18 - 1)(-3)<br>
+                                -5 = <i style='font-family:"Times New Roman",serif;'>a</i> + (17)(-3)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(પ્લસ-માઇનસ માઇનસ થશે: 17 &times; -3 = -51)</i></span><br>
+                                -5 = <i style='font-family:"Times New Roman",serif;'>a</i> - 51<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-51 ને ડાબી બાજુ લાવતાં પ્લસ +51 થશે)</i></span><br>
+                                -5 + 51 = <i style='font-family:"Times New Roman",serif;'>a</i><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>a</i> = 46</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> a ની કિંમત <b style='color:#1d4ed8;'>46</b> મળશે.</div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f; font-size:16px;'>દાખલો (iv): a = -18.9, d = 2.5, a<sub>n</sub> = 3.6, તો n = ?</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(બોર્ડમાં પૂછાવા લાયક પોઈન્ટવાળી ગણતરી)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#fae8ff; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                3.6 = -18.9 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(2.5)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(સૌથી પહેલા -18.9 ને ડાબી બાજુ લાવીએ એટલે પ્લસ થશે)</i></span><br>
+                                3.6 + 18.9 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(2.5)<br>
+                                22.5 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(2.5)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(હવે 2.5 છેદમાં એટલે કે ભાગાકારમાં જશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22.5</span><span>2.5</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બંનેમાં એક પોઈન્ટ છે, એટલે 225 / 25 કરીએ તો 9 આવે)</i></span><br>
+                                9 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-1 ડાબી બાજુ આવતા પ્લસ 1 થશે)</i></span><br>
+                                9 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>n</i> = 10</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> n ની કિંમત <b style='color:#be123c;'>10</b> મળશે.</div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.2 પ્રશ્ન 1 (v): a = 3.5, d = 0, n = 105, તો an શોધો.", 
+                    question_desc: "બોર્ડમાં ભૂલ કરાવવા માટેનો ટ્રિકી (Trick) દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર શોર્ટકટ:</b><br>
+                            જ્યારે પણ તફાવત <b>d = 0</b> હોય, ત્યારે શ્રેણીના બધા જ પદો સરખા હોય છે! એટલે ગણતરી કર્યા વગર જ કહી શકાય કે 105મું પદ પણ <b>3.5</b> જ હશે! ચાલો ગણતરી કરીને સાબિત કરીએ.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરીના સ્ટેપ્સ:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>105</sub></i> = 3.5 + (105 - 1)(0)<br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>105</sub></i> = 3.5 + (104)(0)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કોઈપણ સંખ્યાનો 0 સાથે ગુણાકાર 0 જ થાય)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>105</sub></i> = 3.5 + 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>a<sub>105</sub></i> = 3.5</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> a<sub>n</sub> ની કિંમત <b style='color:#1d4ed8;'>3.5</b> મળશે.</div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
