@@ -3709,9 +3709,116 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                {
+                    question: "🎯 માસ્ટર ચાવી: અવયવીકરણની રીત (વચ્ચેના પદના ભાગ પાડવાની રીત)",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>આ 3 સ્ટેપ યાદ રાખો એટલે કોઈ પણ દાખલો રમતા-રમતા આવડી જશે:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li><b style='color:#be123c;'>સ્ટેપ 1 (ગુણાકાર):</b> સમીકરણ <b>ax² + bx + c = 0</b> માં પ્રથમ પદના સહગુણક (a) અને છેલ્લા પદ (c) નો ગુણાકાર કરો.</li>
+                                <li><b style='color:#1d4ed8;'>સ્ટેપ 2 (ભાગ પાડવા):</b> આ ગુણાકારના એવા બે ભાગ (અવયવ) પાડો, જેનો સરવાળો કે બાદબાકી <b>વચ્ચેના પદ (b)</b> જેટલો થાય! <br>
+                                <span style='color:#64748b; font-size:14px;'><i>(ટ્રીક: જો છેલ્લું પદ + હોય તો સરવાળો કરીને વચ્ચેનું પદ લાવવું, અને જો છેલ્લું પદ - હોય તો બાદબાકી કરીને લાવવું.)</i></span></li>
+                                <li><b style='color:#16a34a;'>સ્ટેપ 3 (સામાન્ય કાઢવું):</b> વચ્ચેના પદની જગ્યાએ આ બે નવા ભાગ મૂકી દો. પછી બબ્બેની જોડી બનાવી સામાન્ય (Common) કાઢો એટલે બે કૌંસ મળશે. તેને 0 સાથે સરખાવી દો!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 4.2 પ્રશ્ન 1(i): નીચે આપેલ સમીકરણના ઉકેલ અવયવીકરણની રીતે મેળવો: x² - 3x - 10 = 0", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 10 = 0</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: વચ્ચેના પદના ભાગ પાડવા</b><br>
+                            અહીં પ્રથમ પદનો સહગુણક 1 છે અને છેલ્લું પદ -10 છે. (1 &times; 10 = 10).<br>
+                            આપણે <b>10 ના એવા ભાગ પાડવાના છે જેની બાદબાકી 3 આવે</b> (કારણ કે છેલ્લે માઇનસ છે).<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>10 ના ભાગ: 5 &times; 2 = 10, અને 5 માંથી 2 જાય તો 3 વધે!</i></span><br>
+                            હવે નિશાની: આપણે <b>-3<i style='font-family:"Times New Roman",serif;'>x</i></b> લાવવાના છે, તેથી મોટી સંખ્યાને માઇનસ અને નાનીને પ્લસ આપીશું: <b>-5<i style='font-family:"Times New Roman",serif;'>x</i> + 2<i style='font-family:"Times New Roman",serif;'>x</i></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કિંમત મૂકી સામાન્ય (Common) કાઢતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 3<i style='font-family:"Times New Roman",serif;'>x</i></b> - 10 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>વચ્ચેના પદની જગ્યાએ બે ભાગ મૂકતા</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 5<i style='font-family:"Times New Roman",serif;'>x</i> + 2<i style='font-family:"Times New Roman",serif;'>x</i></b> - 10 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી x સામાન્ય અને છેલ્લા બે માંથી 2 સામાન્ય કાઢતા</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b>(<i style='font-family:"Times New Roman",serif;'>x</i> - 5) <b style='color:#16a34a;'>+ 2</b>(<i style='font-family:"Times New Roman",serif;'>x</i> - 5) = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>બંને કૌંસ સરખા આવવા જ જોઈએ! હવે તે કૌંસને સામાન્ય કાઢો</i></span><br>
+                                <b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif;'>x</i> - 5)</b>(<i style='font-family:"Times New Roman",serif;'>x</i> + 2) = 0
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બંને કૌંસને 0 સાથે સરખાવી ઉકેલ મેળવવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> - 5) = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; (<i style='font-family:"Times New Roman",serif;'>x</i> + 2) = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-5) સામે જતાં પ્લસ થશે અને (+2) સામે જતાં માઇનસ થશે</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 5</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>x</i> = -2</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ દ્વિઘાત સમીકરણના ઉકેલ (બીજ) <b style='color:#1d4ed8;'>5</b> અને <b style='color:#be123c;'>-2</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.2 પ્રશ્ન 1(ii): અવયવીકરણની રીતે ઉકેલ મેળવો: 2x² + x - 6 = 0", 
+                    question_desc: "બોર્ડની પરીક્ષા માટે બેઝિક ગણિતનો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 6 = 0</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: વચ્ચેના પદના ભાગ પાડવા</b><br>
+                            અહીં પ્રથમ પદ 2 અને છેલ્લું પદ -6 છે. (2 &times; 6 = 12).<br>
+                            આપણે <b>12 ના એવા ભાગ પાડવાના છે જેની બાદબાકી 1 આવે</b> (કારણ કે વચ્ચે માત્ર +x છે એટલે કે 1x છે).<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>12 ના ભાગ: 4 &times; 3 = 12, અને 4 માંથી 3 જાય તો 1 વધે!</i></span><br>
+                            હવે નિશાની: આપણે <b>+1<i style='font-family:"Times New Roman",serif;'>x</i></b> લાવવાના છે, તેથી મોટી સંખ્યાને પ્લસ અને નાનીને માઇનસ આપીશું: <b>+4<i style='font-family:"Times New Roman",serif;'>x</i> - 3<i style='font-family:"Times New Roman",serif;'>x</i></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કિંમત મૂકી સામાન્ય (Common) કાઢતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#1d4ed8;'>+ <i style='font-family:"Times New Roman",serif;'>x</i></b> - 6 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>વચ્ચેના પદની જગ્યાએ બે ભાગ મૂકતા</i></span><br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#1d4ed8;'>+ 4<i style='font-family:"Times New Roman",serif;'>x</i> - 3<i style='font-family:"Times New Roman",serif;'>x</i></b> - 6 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી 2x સામાન્ય અને છેલ્લા બે માંથી -3 સામાન્ય કાઢતા</i></span><br>
+                                <b style='color:#1d4ed8;'>2<i style='font-family:"Times New Roman",serif;'>x</i></b>(<i style='font-family:"Times New Roman",serif;'>x</i> + 2) <b style='color:#dc2626;'>- 3</b>(<i style='font-family:"Times New Roman",serif;'>x</i> + 2) = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(નોંધ: બહાર માઇનસ કાઢ્યું એટલે અંદરની નિશાની પ્લસ થઈ ગઈ!)</i></span><br>
+                                <b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif;'>x</i> + 2)</b>(2<i style='font-family:"Times New Roman",serif;'>x</i> - 3) = 0
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બંને કૌંસને 0 સાથે સરખાવી ઉકેલ મેળવવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> + 2) = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; (2<i style='font-family:"Times New Roman",serif;'>x</i> - 3) = 0<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>x</i> = -2</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2<i style='font-family:"Times New Roman",serif;'>x</i> = 3<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&#10551; <i>(2 છેદમાં જશે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>3</span><span>2</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ દ્વિઘાત સમીકરણના ઉકેલ <b style='color:#be123c;'>-2</b> અને <b style='color:#1d4ed8;'>3/2</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
