@@ -3923,9 +3923,117 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+
+                { 
+                    question: "સ્વા. 4.2 પ્રશ્ન 1(v): અવયવીકરણની રીતે ઉકેલ મેળવો: 100x² - 20x + 1 = 0", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 100<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - 20<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 1 = 0</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: વચ્ચેના પદના ભાગ પાડવા</b><br>
+                            અહીં પ્રથમ પદ 100 અને છેલ્લું પદ 1 છે. (100 &times; 1 = 100).<br>
+                            આપણે <b>100 ના એવા ભાગ પાડવાના છે જેનો સરવાળો 20 આવે</b> (કારણ કે છેલ્લે પ્લસ છે).<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>100 ના ભાગ: 10 &times; 10 = 100, અને 10 + 10 = 20 થાય!</i></span><br>
+                            વચ્ચે -20 લાવવાના છે, તેથી બંનેને માઇનસ આપીશું: <b>-10<i style='font-family:"Times New Roman",serif;'>x</i> - 10<i style='font-family:"Times New Roman",serif;'>x</i></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કિંમત મૂકી સામાન્ય (Common) કાઢતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                100<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 20<i style='font-family:"Times New Roman",serif;'>x</i></b> + 1 = 0<br>
+                                100<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 10<i style='font-family:"Times New Roman",serif;'>x</i> - 10<i style='font-family:"Times New Roman",serif;'>x</i></b> + 1 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી 10x અને છેલ્લા બે માંથી -1 સામાન્ય કાઢતા</i></span><br>
+                                <b style='color:#1d4ed8;'>10<i style='font-family:"Times New Roman",serif;'>x</i></b>(10<i style='font-family:"Times New Roman",serif;'>x</i> - 1) <b style='color:#dc2626;'>- 1</b>(10<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ સામાન્ય કાઢ્યું એટલે અંદર નિશાની બદલાઈ ગઈ)</i></span><br>
+                                <b style='color:#be123c;'>(10<i style='font-family:"Times New Roman",serif;'>x</i> - 1)</b>(10<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બંને કૌંસને 0 સાથે સરખાવતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                (10<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; (10<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0<br>
+                                10<i style='font-family:"Times New Roman",serif;'>x</i> = 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10<i style='font-family:"Times New Roman",serif;'>x</i> = 1<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>10</span></span></b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>1</span><span>10</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ દ્વિઘાત સમીકરણના ઉકેલ <b style='color:#1d4ed8;'>1/10</b> અને <b style='color:#be123c;'>1/10</b> છે. 
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.2 પ્રશ્ન 3: બે એવી સંખ્યાઓ શોધો કે જેનો સરવાળો 27 અને ગુણાકાર 182 હોય.", 
+                    question_desc: "બોર્ડ પરીક્ષામાં અવારનવાર પૂછાતો 3 માર્ક્સનો કૂટપ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> બે એવી સંખ્યાઓ શોધો કે જેનો સરવાળો 27 અને ગુણાકાર 182 હોય.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 અને 2025 ની પેપર સ્ટાઈલ મુજબ બેઝિક ગણિત માટે મોસ્ટ IMP</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સંખ્યા ધારવાની માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે બે સંખ્યાનો "સરવાળો" આપ્યો હોય, ત્યારે <b>પહેલી સંખ્યા x ધારવી</b> અને <b>બીજી સંખ્યા (સરવાળો - x) ધારવી</b>. <br>
+                            દા.ત. સરવાળો 27 છે, તો બીજી સંખ્યા <b>(27 - x)</b> થાય!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણ બનાવવું</b><br>
+                            ધારો કે પહેલી સંખ્યા = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i></b> છે.<br>
+                            બંનેનો સરવાળો 27 હોવાથી, બીજી સંખ્યા = <b style='color:#be123c;'>(27 - <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>)</b> થશે.<br><br>
+                            રકમ મુજબ, તેમનો ગુણાકાર 182 છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                (પહેલી સંખ્યા) &times; (બીજી સંખ્યા) = 182<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> &times; <b style='color:#be123c;'>(27 - <i style='font-family:"Times New Roman",serif;'>x</i>)</b> = 182<br>
+                                27<i style='font-family:"Times New Roman",serif;'>x</i> - <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> = 182<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>બધા પદોને જમણી બાજુ લઈ જતાં (જેથી x<sup>2</sup> પ્લસ થઈ જાય)</i></span><br>
+                                0 = <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 27<i style='font-family:"Times New Roman",serif;'>x</i> + 182<br>
+                                <b style='color:#15803d;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 27<i style='font-family:"Times New Roman",serif;'>x</i> + 182 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અવયવીકરણથી ઉકેલ</b><br>
+                            આપણે <b>182 ના એવા ભાગ પાડવાના છે જેનો સરવાળો 27 આવે</b>.<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>182 ના ભાગ: 13 &times; 14 = 182, અને 13 + 14 = 27 થાય!</i></span><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 13<i style='font-family:"Times New Roman",serif;'>x</i> - 14<i style='font-family:"Times New Roman",serif;'>x</i></b> + 182 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી x અને છેલ્લા બે માંથી -14 સામાન્ય કાઢતા</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b>(<i style='font-family:"Times New Roman",serif;'>x</i> - 13) <b style='color:#dc2626;'>- 14</b>(<i style='font-family:"Times New Roman",serif;'>x</i> - 13) = 0<br>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> - 13)(<i style='font-family:"Times New Roman",serif;'>x</i> - 14) = 0
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બંને સંખ્યાઓ શોધવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> - 13 = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; <i style='font-family:"Times New Roman",serif;'>x</i> - 14 = 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 13</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>x</i> = 14</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                જો પહેલી સંખ્યા 13 હોય, તો બીજી સંખ્યા (27 - 13) = 14 થશે.<br>
+                                તેથી, <b>માંગેલ બે સંખ્યાઓ 13 અને 14 છે.</b>
+                                <span style='color:#64748b; font-size:14px;'>(તાળો: 13 + 14 = 27 અને 13 &times; 14 = 182 કમ્પ્લીટ!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
                   
