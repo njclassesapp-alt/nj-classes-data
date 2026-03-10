@@ -4103,16 +4103,24 @@ var njMathsExercise = {
 
                         
 
-                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px; text-align:center;'>
-                            <b style='color:#b45309;'>💡 આકૃતિથી સમજીએ (કાટકોણ ત્રિકોણ):</b><br>
-                            <div style='position:relative; width:150px; height:120px; margin:20px auto; border-left:3px solid #be123c; border-bottom:3px solid #1d4ed8;'>
-                                <div style='position:absolute; top:0; left:0; width:100%; height:100%; border-bottom:3px solid #16a34a; transform-origin:bottom left; transform:rotate(-38.6deg) scaleX(1.28);'></div>
-                                <div style='position:absolute; bottom:-25px; left:40%; color:#1d4ed8; font-weight:bold;'>પાયો (<i style='font-family:"Times New Roman",serif;'>x</i>)</div>
-                                <div style='position:absolute; top:40%; left:-70px; color:#be123c; font-weight:bold;'>વેધ (<i style='font-family:"Times New Roman",serif;'>x</i> - 7)</div>
-                                <div style='position:absolute; top:20%; left:60%; color:#16a34a; font-weight:bold;'>કર્ણ (13)</div>
-                                <div style='position:absolute; bottom:0; left:0; width:15px; height:15px; border-top:1px solid #0f172a; border-right:1px solid #0f172a;'></div>
-                            </div>
-                        </div>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:15px; border-radius:8px; margin-bottom:15px; text-align:center;'>
+    <b style='color:#b45309;'>💡 આકૃતિથી સમજીએ (કાટકોણ ત્રિકોણ):</b><br>
+    
+    <div style='position:relative; width:150px; height:120px; margin:40px auto 30px auto; border-left:3px solid #be123c; border-bottom:3px solid #1d4ed8;'>
+        
+        <div style='position:absolute; top:0; left:0; width:192px; border-top:3px solid #16a34a; transform-origin:top left; transform:rotate(38.66deg);'></div>
+        
+        <div style='position:absolute; top:100%; left:50%; margin-top:8px; transform:translateX(-50%); color:#1d4ed8; font-weight:bold; white-space:nowrap;'>પાયો (<i style='font-family:"Times New Roman",serif;'>x</i>)</div>
+        
+        <div style='position:absolute; top:50%; right:100%; margin-right:8px; transform:translateY(-50%); color:#be123c; font-weight:bold; white-space:nowrap;'>વેધ (<i style='font-family:"Times New Roman",serif;'>x</i> - 7)</div>
+        
+        <div style='position:absolute; top:40%; left:50%; margin-left:15px; color:#16a34a; font-weight:bold; white-space:nowrap;'>કર્ણ (13)</div>
+        
+        <div style='position:absolute; bottom:0; left:0; width:15px; height:15px; border-top:2px solid #0f172a; border-right:2px solid #0f172a;'></div>
+        
+    </div>
+</div>
+
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
                             <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પાયો અને વેધ ધારવો</b><br>
