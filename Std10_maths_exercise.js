@@ -3606,9 +3606,115 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 4.1 પ્રશ્ન 2(iii): રોહનની માતા તેના કરતાં 26 વર્ષ મોટા છે...", 
+                    question_desc: "આજથી 3 વર્ષ પછી તેમની ઉંમર દર્શાવતી સંખ્યાઓનો ગુણાકાર 360 હશે. તો સમીકરણ બનાવો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> રોહનની માતા તેના કરતાં 26 વર્ષ મોટા છે. આજથી 3 વર્ષ પછી તેમની ઉંમર (વર્ષમાં) દર્શાવતી સંખ્યાઓનો ગુણાકાર 360 હશે. આપણે રોહનની હાલની ઉંમર શોધવી છે. (આ પરિસ્થિતિ માટે દ્વિઘાત સમીકરણ બનાવો).</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#15803d; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2025 ની નવી પેપર સ્ટાઈલ મુજબ બેઝિક ગણિત માટે 3 માર્ક્સમાં પૂછાઈ શકે!</b>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: હાલની ઉંમર ધારવી</b><br>
+                            ધારો કે રોહનની હાલની ઉંમર = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> વર્ષ</b> છે.<br>
+                            રકમ મુજબ, માતા તેના કરતા 26 વર્ષ મોટા છે (એટલે કે પ્લસ 26 કરવાના).<br>
+                            તેથી, માતાની હાલની ઉંમર = <b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 26) વર્ષ</b> થશે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 3 વર્ષ પછીની ઉંમર શોધવી</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(3 વર્ષ પછી કીધું છે, એટલે બંનેની ઉંમરમાં 3 ઉમેરવા પડશે)</i></span><br>
+                            રોહનની ઉંમર = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 3</b> થશે.<br>
+                            માતાની ઉંમર = (<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 26) + 3 = <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 29</b> થશે.
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ગુણાકાર પરથી સમીકરણ બનાવવું</b><br>
+                            રકમ મુજબ 3 વર્ષ પછી બંનેની ઉંમરનો ગુણાકાર 360 થાય છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                (રોહનની નવી ઉંમર) &times; (માતાની નવી ઉંમર) = 360<br>
+                                <b style='color:#1d4ed8;'>(<i style='font-family:"Times New Roman",serif;'>x</i> + 3)</b><b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif;'>x</i> + 29)</b> = 360<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કૌંસનો ગુણાકાર: x નો આખા કૌંસ સાથે અને +3 નો આખા કૌંસ સાથે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i>(<i style='font-family:"Times New Roman",serif;'>x</i> + 29) + 3(<i style='font-family:"Times New Roman",serif;'>x</i> + 29) = 360<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 29<i style='font-family:"Times New Roman",serif;'>x</i> + 3<i style='font-family:"Times New Roman",serif;'>x</i> + 87 = 360<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(વચ્ચે 29x + 3x = 32x થશે, અને 360 ને ડાબી બાજુ લાવતાં -360 થશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 32<i style='font-family:"Times New Roman",serif;'>x</i> + 87 <b style='color:#dc2626;'>- 360</b> = 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 32<i style='font-family:"Times New Roman",serif;'>x</i> - 273 = 0</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ નિષ્કર્ષ:</b> આમ, માંગેલ દ્વિઘાત સમીકરણ <b><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i><sup>2</sup> + 32<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 273 = 0</b> છે. 
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.1 પ્રશ્ન 2(iv): એક ટ્રેન 480 કિમીનું અંતર અચળ ઝડપે કાપે છે...", 
+                    question_desc: "જો ઝડપ 8 કિમી/કલાક ઓછી હોય તો આટલું જ અંતર કાપવા 3 કલાક વધુ લે છે. (સુપર IMP ટ્રેન વાળો દાખલો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક ટ્રેન 480 કિમીનું અંતર અચળ ઝડપે કાપે છે. જો ઝડપ 8 કિમી/કલાક ઓછી હોય, તો આટલું જ અંતર કાપવા તે 3 કલાક વધુ લે છે. તો ટ્રેનની ઝડપ શોધવા માટે દ્વિઘાત સમીકરણની રચના કરો.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: સ્ટાન્ડર્ડ ગણિત (Standard Math) માટે શિક્ષકોનો સૌથી ફેવરિટ 3 અથવા 4 માર્ક્સનો દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ટ્રેનના દાખલાની માસ્ટર ટ્રીક (દેશી ભાષામાં):</b><br>
+                            આવા દાખલામાં હંમેશા <b>સમય = અંતર / ઝડપ</b> નું સૂત્ર વપરાય છે.<br>
+                            ટ્રીક યાદ રાખો: <b>"મોટો સમય - નાનો સમય = તફાવત (કલાક)"</b><br>
+                            <i>(જો ટ્રેન ધીમી ચાલે તો સમય મોટો થાય, અને જો ટ્રેન ફાસ્ટ ચાલે તો સમય નાનો થાય!)</i>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ઝડપ અને સમય ધારવો</b><br>
+                            કુલ અંતર = 480 કિમી.<br>
+                            ધારો કે ટ્રેનની સામાન્ય ઝડપ = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> કિમી/કલાક</b> છે.<br>
+                            તેથી, <b>સામાન્ય સમય (નાનો સમય)</b> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>અંતર</span><span>ઝડપ</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>480</span><span><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i></span></span></b><br><br>
+                            હવે, જો ઝડપ 8 કિમી/કલાક ઓછી થાય, તો નવી ઝડપ = <b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 8) કિમી/કલાક</b> થશે.<br>
+                            તેથી, <b>નવો સમય (મોટો સમય)</b> = <b style='color:#be123c;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>480</span><span><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 8</span></span></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: માસ્ટર ટ્રીક વાપરી સમીકરણ બનાવવું</b><br>
+                            રકમ મુજબ, ધીમી ટ્રેન 3 કલાક વધુ લે છે. એટલે કે (મોટો સમય - નાનો સમય = 3).
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#be123c;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>480</span><span><i style='font-family:"Times New Roman",serif;'>x</i> - 8</span></span></b> - <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>480</span><span><i style='font-family:"Times New Roman",serif;'>x</i></span></span></b> = 3<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>બંનેમાંથી 480 સામાન્ય (કોમન) કાઢતાં ગણતરી સહેલી થશે</i></span><br>
+                                480 <span style='font-size:24px;'>[</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span><i style='font-family:"Times New Roman",serif;'>x</i> - 8</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span><i style='font-family:"Times New Roman",serif;'>x</i></span></span> <span style='font-size:24px;'>]</span> = 3<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>કૌંસની અંદર ચોકડી ગુણાકાર અને છેદમાં બંનેનો ગુણાકાર કરતાં</i></span><br>
+                                480 <span style='font-size:24px;'>[</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif;'>x</i> - (<i style='font-family:"Times New Roman",serif;'>x</i> - 8)</span><span><i style='font-family:"Times New Roman",serif;'>x</i>(<i style='font-family:"Times New Roman",serif;'>x</i> - 8)</span></span> <span style='font-size:24px;'>]</span> = 3<br>
+                                480 <span style='font-size:24px;'>[</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><i style='font-family:"Times New Roman",serif;'>x</i> - <i style='font-family:"Times New Roman",serif;'>x</i> + 8</span><span><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 8<i style='font-family:"Times New Roman",serif;'>x</i></span></span> <span style='font-size:24px;'>]</span> = 3<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+x અને -x ઉડી જશે, ફક્ત 8 વધશે)</i></span><br>
+                                480 &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 8<i style='font-family:"Times New Roman",serif;'>x</i></span></span> = 3<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(480 ગુણ્યા 8 = 3840. અને છેદનું પદ સામે 3 ના ગુણાકારમાં જશે)</i></span><br>
+                                3840 = 3(<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 8<i style='font-family:"Times New Roman",serif;'>x</i>)<br>
+                                3840 = 3<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 24<i style='font-family:"Times New Roman",serif;'>x</i><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(આખા સમીકરણને 3 વડે ભાગતાં નાનું બનશે)</i></span><br>
+                                1280 = <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 8<i style='font-family:"Times New Roman",serif;'>x</i><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+1280 સામે લઈ જતાં -1280 થશે)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 8<i style='font-family:"Times New Roman",serif;'>x</i> - 1280 = 0</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ નિષ્કર્ષ:</b> આમ, માંગેલ દ્વિઘાત સમીકરણ <b><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i><sup>2</sup> - 8<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 1280 = 0</b> છે. 
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
