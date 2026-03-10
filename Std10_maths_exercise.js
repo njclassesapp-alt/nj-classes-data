@@ -3813,30 +3813,122 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 4.2 પ્રશ્ન 1(iii): અવયવીકરણની રીતે ઉકેલ મેળવો: &radic;2x² + 7x + 5&radic;2 = 0", 
+                    question_desc: "વર્ગમૂળ (&radic;) વાળો બોર્ડનો સૌથી ફેવરિટ અને મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> &radic;2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> + 7<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 5&radic;2 = 0</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2020 અને જુલાઈ 2022 માં પૂછાયેલ મોસ્ટ IMP દાખલો</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વર્ગમૂળની માસ્ટર ટ્રીક:</b><br>
+                            યાદ રાખો કે, <b>&radic;2 &times; &radic;2 = 2</b> થાય.<br>
+                            તેથી જો આપણે 2 માંથી સામાન્ય કાઢવું હોય, તો આપણે <b>2 ને (&radic;2 &times; &radic;2)</b> તરીકે વિચારી શકીએ!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ગુણાકાર કરી ભાગ પાડવા</b><br>
+                            પ્રથમ પદનો સહગુણક = &radic;2 અને છેલ્લું પદ = 5&radic;2<br>
+                            ગુણાકાર: &radic;2 &times; 5&radic;2 = 5 &times; (&radic;2 &times; &radic;2) = 5 &times; 2 = <b>10</b><br>
+                            હવે, <b>10 ના એવા ભાગ પાડો જેનો સરવાળો 7 થાય</b> (કારણ કે છેલ્લે પ્લસ છે).<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>10 ના ભાગ: 5 &times; 2 = 10, અને 5 + 2 = 7 થાય!</i></span><br>
+                            વચ્ચે +7 છે, એટલે બંને પદોને પ્લસ આપીશું: <b>+5<i style='font-family:"Times New Roman",serif;'>x</i> + 2<i style='font-family:"Times New Roman",serif;'>x</i></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કિંમત મૂકી સામાન્ય (Common) કાઢતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &radic;2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#1d4ed8;'>+ 7<i style='font-family:"Times New Roman",serif;'>x</i></b> + 5&radic;2 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>સરળતા માટે આપણે 2x ને આગળ અને 5x ને પાછળ લખીશું</i></span><br>
+                                &radic;2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#1d4ed8;'>+ 2<i style='font-family:"Times New Roman",serif;'>x</i> + 5<i style='font-family:"Times New Roman",serif;'>x</i></b> + 5&radic;2 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી &radic;2x સામાન્ય નીકળશે (કારણ કે 2 = &radic;2 &times; &radic;2) અને છેલ્લા બે માંથી 5 સામાન્ય નીકળશે</i></span><br>
+                                <b style='color:#be123c;'>&radic;2<i style='font-family:"Times New Roman",serif;'>x</i></b>(<i style='font-family:"Times New Roman",serif;'>x</i> + &radic;2) <b style='color:#16a34a;'>+ 5</b>(<i style='font-family:"Times New Roman",serif;'>x</i> + &radic;2) = 0<br>
+                                <b style='color:#dc2626;'>(<i style='font-family:"Times New Roman",serif;'>x</i> + &radic;2)</b>(&radic;2<i style='font-family:"Times New Roman",serif;'>x</i> + 5) = 0
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બંને કૌંસને 0 સાથે સરખાવતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> + &radic;2) = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; (&radic;2<i style='font-family:"Times New Roman",serif;'>x</i> + 5) = 0<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>x</i> = -&radic;2</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &radic;2<i style='font-family:"Times New Roman",serif;'>x</i> = -5<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&#10551; <i>(&radic;2 છેદમાં જશે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>-5</span><span>&radic;2</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ દ્વિઘાત સમીકરણના ઉકેલ <b style='color:#be123c;'>-&radic;2</b> અને <b style='color:#1d4ed8;'>-5 / &radic;2</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.2 પ્રશ્ન 1(iv): અવયવીકરણની રીતે ઉકેલ મેળવો: 2x² - x + 1/8 = 0", 
+                    question_desc: "છેદ ઉડાડવાની ટ્રીક વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>8</span></span> = 0</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 છેદ ઉડાડવાની ટ્રીક:</b><br>
+                            અહીં છેદમાં 8 છે. તેથી <b>આખા સમીકરણને 8 વડે ગુણી નાખો</b>, જેથી છેદ ગાયબ થઈ જાય અને સમીકરણ સાદું બની જાય!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણને સાદું બનાવવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                8 &times; (2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup>) - 8 &times; (<i style='font-family:"Times New Roman",serif;'>x</i>) + 8 &times; (<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>8</span></span>) = 8 &times; 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>16<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 8<i style='font-family:"Times New Roman",serif;'>x</i> + 1 = 0</b> &nbsp;&nbsp; <span style='color:#64748b; font-size:14px;'><i>(હવે આ નવું સમીકરણ ઉકેલીશું)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 2: વચ્ચેના પદના ભાગ પાડવા</b><br>
+                            પ્રથમ પદ 16 અને છેલ્લું પદ 1 છે. (16 &times; 1 = 16).<br>
+                            આપણે <b>16 ના એવા ભાગ પાડવાના છે જેનો સરવાળો 8 આવે</b> (કારણ કે છેલ્લે પ્લસ છે).<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>16 ના ભાગ: 4 &times; 4 = 16, અને 4 + 4 = 8 થાય!</i></span><br>
+                            વચ્ચે -8 લાવવાના છે, તેથી બંનેને માઇનસ આપીશું: <b>-4<i style='font-family:"Times New Roman",serif;'>x</i> - 4<i style='font-family:"Times New Roman",serif;'>x</i></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 3: કિંમત મૂકી સામાન્ય (Common) કાઢતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                16<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 8<i style='font-family:"Times New Roman",serif;'>x</i></b> + 1 = 0<br>
+                                16<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 4<i style='font-family:"Times New Roman",serif;'>x</i> - 4<i style='font-family:"Times New Roman",serif;'>x</i></b> + 1 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી 4x અને છેલ્લા બે માંથી -1 સામાન્ય કાઢતા</i></span><br>
+                                <b style='color:#1d4ed8;'>4<i style='font-family:"Times New Roman",serif;'>x</i></b>(4<i style='font-family:"Times New Roman",serif;'>x</i> - 1) <b style='color:#dc2626;'>- 1</b>(4<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0<br>
+                                <b style='color:#be123c;'>(4<i style='font-family:"Times New Roman",serif;'>x</i> - 1)</b>(4<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 4: બંને કૌંસને 0 સાથે સરખાવતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                (4<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; (4<i style='font-family:"Times New Roman",serif;'>x</i> - 1) = 0<br>
+                                4<i style='font-family:"Times New Roman",serif;'>x</i> = 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4<i style='font-family:"Times New Roman",serif;'>x</i> = 1<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>4</span></span></b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>1</span><span>4</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ દ્વિઘાત સમીકરણના ઉકેલ <b style='color:#1d4ed8;'>1/4</b> અને <b style='color:#be123c;'>1/4</b> છે. (બંને બીજ સમાન છે).
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
             
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-    
-                
-            
+                  
                         
                     
 };
