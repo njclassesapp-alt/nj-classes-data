@@ -4342,9 +4342,149 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "સ્વા. 4.3 પ્રશ્ન 1(iii): દ્વિઘાત સૂત્રની રીતે ઉકેલ મેળવો: 2x² - 6x + 3 = 0", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - 6<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 3 = 0</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, b અને c ની કિંમતો લખવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>a = 2</b>, &nbsp; <b style='color:#be123c;'>b = -6</b>, &nbsp; <b style='color:#16a34a;'>c = 3</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વિવેચક (D) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                D = b<sup>2</sup> - 4ac<br>
+                                D = (-6)<sup>2</sup> - 4(2)(3)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ 6 નો વર્ગ પ્લસ 36 થશે)</i></span><br>
+                                D = 36 - 24<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>D = 12</b>
+                            </div>
+                            <div style='margin-top:10px; font-size:15px;'>અહીં <b style='color:#1d4ed8;'>D > 0</b> છે (પ્લસમાં છે), તેથી સમીકરણને <b>બે ભિન્ન અને વાસ્તવિક બીજ</b> મળશે.</div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: દ્વિઘાત સૂત્ર વાપરીને બીજ શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-b &plusmn; <span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>D</span></span><span>2a</span></span><br><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-(-6) &plusmn; <span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>12</span></span><span>2(2)</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(&radic;12 ને આપણે &radic;(4 &times; 3) એટલે કે 2&radic;3 લખી શકીએ)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6 &plusmn; 2<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span><span>4</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(અંશમાંથી 2 સામાન્ય (Common) કાઢતા)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2(3 &plusmn; <span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span>)</span><span>4</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(છેદના 4 સાથે છેદ ઉડાડતા: 2 દૂ 4)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>3 &plusmn; <span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span><span>2</span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ દ્વિઘાત સમીકરણના બે બીજ નીચે મુજબ છે:<br>
+                                <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3 + <span style='font-size:16px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span><span>2</span></span></b> &nbsp; અને &nbsp; <b style='color:#be123c;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3 - <span style='font-size:16px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span><span>2</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.3 પ્રશ્ન 2(i): નીચેના દ્વિઘાત સમીકરણના બીજ સમાન હોય તો k નું મૂલ્ય શોધો: 2x² + kx + 3 = 0", 
+                    question_desc: "બોર્ડની પરીક્ષામાં 100% પૂછાતી k ની કિંમત શોધવાની રીત",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> + k<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>x</i> + 3 = 0</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 અને 2025 ની પેપર સ્ટાઈલ મુજબ હેતુલક્ષીમાં અવારનવાર પૂછાતો દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર શરત:</b><br>
+                            રકમમાં સ્પષ્ટ લખ્યું છે કે <b>"બીજ સમાન હોય"</b>. દ્વિઘાત સમીકરણના બીજ સમાન ત્યારે જ હોય જ્યારે <b>વિવેચક D = 0</b> હોય!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, b અને c ની કિંમતો લખવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>a = 2</b>, &nbsp; <b style='color:#be123c;'>b = k</b>, &nbsp; <b style='color:#16a34a;'>c = 3</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: D = 0 મૂકીને ગણતરી કરવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                b<sup>2</sup> - 4ac = 0<br>
+                                (k)<sup>2</sup> - 4(2)(3) = 0<br>
+                                k<sup>2</sup> - 24 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-24) સામે જતાં પ્લસ (+24) થશે</i></span><br>
+                                k<sup>2</sup> = 24<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(વર્ગ સામે જતાં વર્ગમૂળ &plusmn;&radic; થશે)</i></span><br>
+                                k = &plusmn; <span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>24</span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(24 ના ભાગ 4 &times; 6 પાડી શકાય, અને 4 નું વર્ગમૂળ 2 થાય)</i></span><br>
+                                k = &plusmn; <span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>(4 &times; 6)</span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'>k = &plusmn; 2<span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>6</span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> માંગેલ k ની કિંમત <b style='color:#1d4ed8;'>+2&radic;6</b> અથવા <b style='color:#be123c;'>-2&radic;6</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.3 પ્રશ્ન 2(ii): બીજ સમાન હોય તો k નું મૂલ્ય શોધો: kx(x - 2) + 6 = 0", 
+                    question_desc: "કૌંસવાળો અને બોર્ડમાં સૌથી વધુ ભૂલ કરાવતો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> k<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i>(<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 2) + 6 = 0</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણને સાદું બનાવવું</b><br>
+                            રકમ સીધી દ્વિઘાત સમીકરણ સ્વરૂપે નથી. પહેલા કૌંસની અંદર k<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> નો ગુણાકાર કરીશું.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                k<i style='font-family:"Times New Roman",serif;'>x</i>(<i style='font-family:"Times New Roman",serif;'>x</i>) - k<i style='font-family:"Times New Roman",serif;'>x</i>(2) + 6 = 0<br>
+                                <b style='color:#1d4ed8;'>k<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 2k<i style='font-family:"Times New Roman",serif;'>x</i> + 6 = 0</b>
+                            </div>
+                            હવે a, b અને c લખીએ:<br>
+                            <b style='color:#1d4ed8;'>a = k</b>, &nbsp; <b style='color:#be123c;'>b = -2k</b>, &nbsp; <b style='color:#16a34a;'>c = 6</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: D = 0 મૂકીને ગણતરી કરવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                b<sup>2</sup> - 4ac = 0<br>
+                                (-2k)<sup>2</sup> - 4(k)(6) = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-2k નો વર્ગ 4k<sup>2</sup> થાય)</i></span><br>
+                                4k<sup>2</sup> - 24k = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બંનેમાંથી 4k સામાન્ય (Common) કાઢતા)</i></span><br>
+                                <b style='color:#1d4ed8;'>4k(k - 6) = 0</b><br><br>
+                                4k = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; k - 6 = 0<br>
+                                <b style='font-size:22px; color:#dc2626;'>k = 0</b> &nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp; <b style='font-size:22px; color:#1d4ed8;'>k = 6</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ચકાસણી (માસ્ટર ટ્રીક)</b><br>
+                            જો આપણે k = 0 લઈએ, તો આપેલું સમીકરણ <b>k<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 2k<i style='font-family:"Times New Roman",serif;'>x</i> + 6 = 0</b> માં પ્રથમ પદ જ ઝીરો થઈ જાય, તેથી તે <b>દ્વિઘાત સમીકરણ રહે જ નહિ!</b> <br>
+                            આથી k = 0 <b>શક્ય નથી</b>.
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>k ની કિંમત 6</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
