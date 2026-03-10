@@ -6022,13 +6022,145 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "સ્વા. 5.2 પ્રશ્ન 5(i): નીચેની સમાંતર શ્રેણીમાં પદોની સંખ્યા શોધો: 7, 13, 19, ..., 205", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે પણ શ્રેણીની <b>સૌથી છેલ્લી સંખ્યા (જેમ કે 205)</b> આપેલી હોય, ત્યારે તેને <b>a<sub>n</sub> (અંતિમ પદ)</b> ધારી લેવું અને <b>n (પદોની સંખ્યા)</b> શોધવો!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને a<sub>n</sub> નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a)</b> = <b style='color:#1d4ed8;'>7</b><br>
+                                <b>તફાવત (d)</b> = a<sub>2</sub> - a<sub>1</sub> = 13 - 7 = <b style='color:#dc2626;'>6</b><br>
+                                <b>અંતિમ પદ (a<sub>n</sub>)</b> = <b style='color:#16a34a;'>205</b><br>
+                                <b>પદોની સંખ્યા (n)</b> = <b>?</b> 
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                205 = 7 + (n - 1)(6)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+7 ને ડાબી બાજુ લાવો એટલે માઇનસ થશે)</i></span><br>
+                                205 - 7 = (n - 1)(6)<br>
+                                198 = (n - 1)(6)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(હવે 6 ગુણાકારમાંથી ભાગાકારમાં જશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>198</span><span>6</span></span> = n - 1<br>
+                                33 = n - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-1 ડાબી બાજુ આવે એટલે પ્લસ 1 થશે)</i></span><br>
+                                33 + 1 = n<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>n = 34</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ સમાંતર શ્રેણીમાં <b>કુલ 34 પદો છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 5(ii): પદોની સંખ્યા શોધો: 18, 15 1/2, 13, ..., -47", 
+                    question_desc: "અપૂર્ણાંક વાળી બાદબાકીનો 100% IMP અને ભૂલ કરાવતો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 ની બ્લુપ્રિન્ટ મુજબ સ્ટાન્ડર્ડ ગણિત માટે 2 માર્ક્સનો ફેવરિટ દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને a<sub>n</sub> નક્કી કરવા (લ.સા.અ. ની ટ્રીક)</b><br>
+                            અહીં <b>a = 18</b> અને છેલ્લું પદ <b>a<sub>n</sub> = -47</b> છે.<br>
+                            બીજું પદ મિશ્ર અપૂર્ણાંકમાં 15&frac12; છે. (એટલે કે 31/2).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>તફાવત (d)</b> = a<sub>2</sub> - a<sub>1</sub> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>31</span><span>2</span></span> - 18<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(18 નો 2 સાથે ગુણાકાર કરી લ.સા.અ. લેતાં)</i></span><br>
+                                d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>31 - 36</span><span>2</span></span> = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>-5</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                -47 = 18 + (n - 1)<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-5</span><span>2</span></span><span style='font-size:24px;'>)</span><br>
+                                -47 - 18 = (n - 1)<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-5</span><span>2</span></span><span style='font-size:24px;'>)</span><br>
+                                -65 = (n - 1)<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-5</span><span>2</span></span><span style='font-size:24px;'>)</span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(હવે -5/2 ને ડાબી બાજુ લાવીશું તો તે ઉલટાઈને 2/-5 થઈ જશે!)</i></span><br>
+                                -65 &times; <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>-5</span></span><span style='font-size:24px;'>)</span> = n - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ માઇનસ પ્લસ થશે અને 13 પંચા 65 એટલે છેદ ઉડશે)</i></span><br>
+                                13 &times; 2 = n - 1<br>
+                                26 = n - 1<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>n = 27</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ સમાંતર શ્રેણીમાં <b>કુલ 27 પદો છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 6: શું સમાંતર શ્રેણી 11, 8, 5, 2... નું કોઈ પદ -150 હોઈ શકે? શા માટે?", 
+                    question_desc: "બોર્ડમાં પૂછાતો 'રોલ નંબર' ની દેશી ટ્રીક વાળો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 "રોલ નંબર વાળી દેશી ટ્રીક" સમજો:</b><br>
+                            શ્રેણીમાં પદનો ક્રમ એટલે કે <b>n</b> એ ક્લાસના <b>રોલ નંબર</b> જેવો હોય છે. કોઈ વિદ્યાર્થીનો રોલ નંબર 1, 2, 3... હોઈ શકે, પણ કોઈનો રોલ નંબર <b>5.5 (અપૂર્ણાંક) કે માઇનસમાં હોઈ શકે નહિ!</b><br>
+                            તેથી જો આપણો જવાબ <b>n અપૂર્ણાંકમાં આવે</b>, તો સમજી જવાનું કે આ સંખ્યા આ શ્રેણીમાં બેસી જ ન શકે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ધારી લઈએ કે -150 છેલ્લું પદ છે</b><br>
+                            આપણે ચેક કરવું છે એટલે ધારો કે <b>a<sub>n</sub> = -150</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = <b style='color:#1d4ed8;'>11</b><br>
+                                <b>d</b> = 8 - 11 = <b style='color:#dc2626;'>-3</b><br>
+                                <b>a<sub>n</sub></b> = <b style='color:#16a34a;'>-150</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: n ની કિંમત શોધીએ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                -150 = 11 + (n - 1)(-3)<br>
+                                -150 - 11 = (n - 1)(-3)<br>
+                                -161 = (n - 1)(-3)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-3 ભાગાકારમાં જશે. માઇનસ માઇનસ પ્લસ થશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>161</span><span>3</span></span> = n - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(161 ને 3 વડે નિશેષ ભાગી શકાય નહિ!)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>161</span><span>3</span></span> + 1 = n<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>161 + 3</span><span>3</span></span> = n &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#be123c;'>n = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>164</span><span>3</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ચકાસણી અને અંતિમ જવાબ</b><br>
+                            અહીં <b>n = 164/3</b> એ પૂર્ણાંક સંખ્યા નથી (અપૂર્ણાંક છે).<br>
+                            શ્રેણીમાં પદનો ક્રમાંક (n) હંમેશા <b>ધન પૂર્ણાંક (1, 2, 3...)</b> જ હોવો જોઈએ.
+                            
+                            <div style='margin-top:10px; background-color:#fee2e2; padding:10px; border-radius:4px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                ના, <b>-150 એ આપેલ સમાંતર શ્રેણીનું કોઈ પદ હોઈ શકે નહિ!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
-            
-        
-                
+                 
                                     
                     
 };
