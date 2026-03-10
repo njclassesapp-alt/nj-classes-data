@@ -3404,9 +3404,116 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                {
+                    question: "🎯 માસ્ટર ચાવી: 3 ઘાત (Cube) વાળા અગત્યના સૂત્રો",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આ દાખલા ગણતા પહેલા આ 2 સૂત્રો ખાસ યાદ રાખી લો:</p>
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:16px; color:#0f172a;'>
+                                <li><b style='color:#1d4ed8;'>સરવાળાનો ઘન:</b> <b>(a + b)<sup>3</sup> = a<sup>3</sup> + 3a<sup>2</sup>b + 3ab<sup>2</sup> + b<sup>3</sup></b></li>
+                                <li><b style='color:#be123c;'>બાદબાકીનો ઘન:</b> <b>(a - b)<sup>3</sup> = a<sup>3</sup> - 3a<sup>2</sup>b + 3ab<sup>2</sup> - b<sup>3</sup></b></li>
+                            </ul>
+                            <span style='color:#64748b; font-size:14px;'><i>(યાદ રાખવાની ટ્રીક: માઇનસ વાળા સૂત્રમાં પહેલું પદ પ્લસ, બીજું માઇનસ, ત્રીજું પ્લસ અને ચોથું પદ માઇનસ આવે છે.)</i></span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 4.1 પ્રશ્ન 1(vii): ચકાસો કે દ્વિઘાત સમીકરણ છે કે નહિ: (x + 2)³ = 2x(x² - 1)", 
+                    question_desc: "નવી પેપર સ્ટાઈલ મુજબ 1 માર્ક માટે અગત્યનો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> (<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 2)<sup>3</sup> = 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i>(<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - 1)</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 (નવી પેપર સ્ટાઈલ) માં હેતુલક્ષી પ્રશ્નમાં પૂછાયેલ મોડેલ દાખલો</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને બાજુ કૌંસ છોડીને સાદું રૂપ આપતાં</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>ડાબી બાજુ (a+b)<sup>3</sup> નું સૂત્ર અને જમણી બાજુ 2x નો અંદર ગુણાકાર</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i>)<sup>3</sup> + 3(<i style='font-family:"Times New Roman",serif;'>x</i>)<sup>2</sup>(2) + 3(<i style='font-family:"Times New Roman",serif;'>x</i>)(2)<sup>2</sup> + (2)<sup>3</sup> = 2<i style='font-family:"Times New Roman",serif;'>x</i>(<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup>) - 2<i style='font-family:"Times New Roman",serif;'>x</i>(1)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(ગણતરી: 3 &times; x<sup>2</sup> &times; 2 = 6x<sup>2</sup> અને 3 &times; x &times; 4 = 12x)</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> + 6<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 12<i style='font-family:"Times New Roman",serif;'>x</i> + 8</b> = <b style='color:#be123c;'>2<i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> - 2<i style='font-family:"Times New Roman",serif;'>x</i></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બધા પદોને ડાબી બાજુ લાવતાં (= 0 બનાવતાં)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>જમણી બાજુથી 2x<sup>3</sup> આ બાજુ આવતાં માઇનસ થશે અને -2x આ બાજુ આવતાં પ્લસ થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> + 6<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 12<i style='font-family:"Times New Roman",serif;'>x</i> + 8 <b style='color:#dc2626;'>- 2<i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> + 2<i style='font-family:"Times New Roman",serif;'>x</i></b> = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(1x<sup>3</sup> - 2x<sup>3</sup> = -1x<sup>3</sup> થશે, અને 12x + 2x = 14x થશે)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'>-<i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> + 6<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 14<i style='font-family:"Times New Roman",serif;'>x</i> + 8 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ચકાસણી</b><br>
+                            અહીં સાદું રૂપ આપ્યા પછી મળેલ સમીકરણમાં ચલ <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ની <b>સૌથી મોટી ઘાત 3 છે</b>. (યાદ રાખો, દ્વિઘાત સમીકરણમાં મોટી ઘાત 2 જ હોવી જોઈએ, 3 નહિ).
+                            
+                            <div style='background-color:#fee2e2; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:18px;'>અંતિમ જવાબ:</b> ના, અહીં ઘાત 3 હોવાથી તે <b>દ્વિઘાત સમીકરણ નથી</b>. (તે ત્રિઘાત સમીકરણ છે).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.1 પ્રશ્ન 1(viii): ચકાસો કે દ્વિઘાત સમીકરણ છે કે નહિ: x³ - 4x² - x + 1 = (x - 2)³", 
+                    question_desc: "બોર્ડની પરીક્ષાનો ફેવરિટ અને ટ્રીકી દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>3</sup> - 4<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 1 = (<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 2)<sup>3</sup></p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#15803d; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2025 ની બ્લુપ્રિન્ટ મુજબનો મોસ્ટ IMP ટ્રીકી દાખલો</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ક્યાં ભૂલ પડે છે?</b><br>
+                            વિદ્યાર્થીઓ રકમમાં ડાબી બાજુ <i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> જોઈને સીધું જ લખી નાખે છે કે "આ દ્વિઘાત સમીકરણ નથી". પણ ના! ગણતરી કર્યા પછી તે ઉડી જશે. ચાલો જોઈએ!
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: જમણી બાજુ (a-b)³ નું સૂત્ર વાપરતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> - 4<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - <i style='font-family:"Times New Roman",serif;'>x</i> + 1 = (<i style='font-family:"Times New Roman",serif;'>x</i>)<sup>3</sup> - 3(<i style='font-family:"Times New Roman",serif;'>x</i>)<sup>2</sup>(2) + 3(<i style='font-family:"Times New Roman",serif;'>x</i>)(2)<sup>2</sup> - (2)<sup>3</sup><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> - 4<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - <i style='font-family:"Times New Roman",serif;'>x</i> + 1</b> = <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> - 6<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 12<i style='font-family:"Times New Roman",serif;'>x</i> - 8</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બધા પદોને ડાબી બાજુ લાવતાં (= 0 બનાવતાં)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>જમણી બાજુના પદો ડાબી બાજુ આવતા બધાની નિશાનીઓ બદલાશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> - 4<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - <i style='font-family:"Times New Roman",serif;'>x</i> + 1 <b style='color:#dc2626;'>- <i style='font-family:"Times New Roman",serif;'>x</i><sup>3</sup> + 6<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 12<i style='font-family:"Times New Roman",serif;'>x</i> + 8</b> = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>જુઓ! અહીં શરૂઆતનો +x<sup>3</sup> અને પાછળનો -x<sup>3</sup> ઉડી જશે! 💥</i></span><br>
+                                (-4<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 6<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup>) + (-<i style='font-family:"Times New Roman",serif;'>x</i> - 12<i style='font-family:"Times New Roman",serif;'>x</i>) + (1 + 8) = 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 13<i style='font-family:"Times New Roman",serif;'>x</i> + 9 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f; font-size:16px;'>સ્ટેપ 3: ચકાસણી</b><br>
+                            અહીં 3 ઘાત વાળું પદ ઉડી ગયું અને છેલ્લે મળેલ સમીકરણ <b>2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 13<i style='font-family:"Times New Roman",serif;'>x</i> + 9 = 0</b> માં ચલ <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ની સૌથી મોટી ઘાત 2 છે.
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> હા, આપેલ સમીકરણ <b>દ્વિઘાત સમીકરણ છે</b>.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
