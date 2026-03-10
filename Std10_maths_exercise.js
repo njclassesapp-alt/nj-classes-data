@@ -4028,9 +4028,143 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 4.2 પ્રશ્ન 4: જેના વર્ગોનો સરવાળો 365 થાય એવી બે ક્રમિક ધન પૂર્ણાંક સંખ્યાઓ શોધો.", 
+                    question_desc: "બેઝિક ગણિત માટે 3 માર્ક્સનો સુપર IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> જેના <b>વર્ગોનો સરવાળો 365</b> થાય એવી બે <b>ક્રમિક</b> ધન પૂર્ણાંક સંખ્યાઓ શોધો.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 અને 2025 ની બ્લુપ્રિન્ટ મુજબ બેઝિક ગણિતમાં અવારનવાર પૂછાતો દાખલો</b>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: બે ક્રમિક સંખ્યાઓ ધારવી</b><br>
+                            આપણે અગાઉ શીખ્યા તેમ 'ક્રમિક' એટલે એક પછી એક તરત આવતી સંખ્યા.<br>
+                            ધારો કે પહેલી ધન પૂર્ણાંક સંખ્યા = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i></b> છે.<br>
+                            તેથી, તેની પછીની ક્રમિક ધન પૂર્ણાંક સંખ્યા = <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 1</b> થશે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વર્ગોના સરવાળા પરથી સમીકરણ બનાવવું</b><br>
+                            રકમ મુજબ, આ બંને સંખ્યાઓના <b>વર્ગોનો સરવાળો</b> 365 છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                (પહેલી સંખ્યા)<sup>2</sup> + (બીજી સંખ્યા)<sup>2</sup> = 365<br>
+                                <b style='color:#1d4ed8;'>(<i style='font-family:"Times New Roman",serif;'>x</i>)<sup>2</sup></b> + <b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif;'>x</i> + 1)<sup>2</sup></b> = 365<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>((a+b)<sup>2</sup> નું સૂત્ર વાપરતાં: a<sup>2</sup> + 2ab + b<sup>2</sup>)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + (<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 2<i style='font-family:"Times New Roman",serif;'>x</i> + 1) = 365<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(x<sup>2</sup> + x<sup>2</sup> = 2x<sup>2</sup> થશે, અને 365 આ બાજુ લાવતાં માઇનસ થશે)</i></span><br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 2<i style='font-family:"Times New Roman",serif;'>x</i> + 1 <b style='color:#dc2626;'>- 365</b> = 0<br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 2<i style='font-family:"Times New Roman",serif;'>x</i> - 364 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(સમીકરણને નાનું બનાવવા બધાને 2 વડે ભાગી નાખો!)</i></span><br>
+                                <b style='color:#15803d;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif;'>x</i> - 182 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: અવયવીકરણથી ઉકેલ (182 ના ભાગ)</b><br>
+                            આપણે 182 ના એવા ભાગ પાડવાના છે જેની બાદબાકી 1 આવે.<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>182 ના ભાગ: 14 &times; 13 = 182, અને 14 - 13 = 1 થાય!</i></span><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#1d4ed8;'>+ 14<i style='font-family:"Times New Roman",serif;'>x</i> - 13<i style='font-family:"Times New Roman",serif;'>x</i></b> - 182 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી x અને છેલ્લા બે માંથી -13 સામાન્ય કાઢતા</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i>(<i style='font-family:"Times New Roman",serif;'>x</i> + 14) - 13(<i style='font-family:"Times New Roman",serif;'>x</i> + 14) = 0<br>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> + 14)(<i style='font-family:"Times New Roman",serif;'>x</i> - 13) = 0<br><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> + 14 = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; <i style='font-family:"Times New Roman",serif;'>x</i> - 13 = 0<br>
+                                <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif;'>x</i> = -14</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 13</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                રકમમાં <b>ધન પૂર્ણાંક</b> કહ્યા છે, તેથી <i style='font-family:"Times New Roman",serif;'>x</i> = -14 શક્ય નથી.<br>
+                                તેથી પહેલી સંખ્યા <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 13</b> થશે.<br>
+                                અને બીજી ક્રમિક સંખ્યા <i style='font-family:"Times New Roman",serif;'>x</i> + 1 = 13 + 1 = <b style='color:#be123c;'>14</b> થશે.<br>
+                                <b>માંગેલ બે સંખ્યાઓ 13 અને 14 છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.2 પ્રશ્ન 5: એક કાટકોણ ત્રિકોણનો વેધ તેના પાયા કરતાં 7 સેમી નાનો છે...", 
+                    question_desc: "પાયથાગોરસના પ્રમેય અને આકૃતિવાળો 100% મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક કાટકોણ ત્રિકોણનો વેધ તેના પાયા કરતાં 7 સેમી નાનો છે. જો કર્ણની લંબાઈ 13 સેમી હોય, તો બાકીની બે બાજુનાં માપ શોધો.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2023, જુલાઈ 2024 માં પૂછાયેલ સ્ટાન્ડર્ડ ગણિતનો સૌથી ફેવરિટ દાખલો!</b>
+                        </div>
+
+                        
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px; text-align:center;'>
+                            <b style='color:#b45309;'>💡 આકૃતિથી સમજીએ (કાટકોણ ત્રિકોણ):</b><br>
+                            <div style='position:relative; width:150px; height:120px; margin:20px auto; border-left:3px solid #be123c; border-bottom:3px solid #1d4ed8;'>
+                                <div style='position:absolute; top:0; left:0; width:100%; height:100%; border-bottom:3px solid #16a34a; transform-origin:bottom left; transform:rotate(-38.6deg) scaleX(1.28);'></div>
+                                <div style='position:absolute; bottom:-25px; left:40%; color:#1d4ed8; font-weight:bold;'>પાયો (<i style='font-family:"Times New Roman",serif;'>x</i>)</div>
+                                <div style='position:absolute; top:40%; left:-70px; color:#be123c; font-weight:bold;'>વેધ (<i style='font-family:"Times New Roman",serif;'>x</i> - 7)</div>
+                                <div style='position:absolute; top:20%; left:60%; color:#16a34a; font-weight:bold;'>કર્ણ (13)</div>
+                                <div style='position:absolute; bottom:0; left:0; width:15px; height:15px; border-top:1px solid #0f172a; border-right:1px solid #0f172a;'></div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પાયો અને વેધ ધારવો</b><br>
+                            રકમમાં વેધની સરખામણી પાયા સાથે કરી છે, તેથી <b>પાયાને <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ધારીશું</b>.<br>
+                            ધારો કે કાટકોણ ત્રિકોણનો <b>પાયો = <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> સેમી</b> છે.<br>
+                            વેધ પાયા કરતાં 7 સેમી નાનો છે, તેથી <b>વેધ = (<i style='font-family:"Times New Roman",serif; font-size:18px; color:#be123c; font-weight:bold;'>x</i> - 7) સેમી</b> થશે.<br>
+                            અને <b>કર્ણ = 13 સેમી</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પાયથાગોરસનો પ્રમેય વાપરતાં</b><br>
+                            માસ્ટર સૂત્ર: <b>(પાયો)<sup>2</sup> + (વેધ)<sup>2</sup> = (કર્ણ)<sup>2</sup></b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>(<i style='font-family:"Times New Roman",serif;'>x</i>)<sup>2</sup></b> + <b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif;'>x</i> - 7)<sup>2</sup></b> = <b style='color:#16a34a;'>(13)<sup>2</sup></b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>((a-b)<sup>2</sup> નું સૂત્ર વાપરતાં: a<sup>2</sup> - 2ab + b<sup>2</sup>)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + (<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 14<i style='font-family:"Times New Roman",serif;'>x</i> + 49) = 169<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(x<sup>2</sup> + x<sup>2</sup> = 2x<sup>2</sup> થશે, અને 169 ને ડાબી બાજુ લાવતાં માઇનસ થશે)</i></span><br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 14<i style='font-family:"Times New Roman",serif;'>x</i> + 49 <b style='color:#dc2626;'>- 169</b> = 0<br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 14<i style='font-family:"Times New Roman",serif;'>x</i> - 120 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(સમીકરણને સહેલું બનાવવા આખા સમીકરણને 2 વડે ભાગી નાખો)</i></span><br>
+                                <b style='color:#15803d;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 7<i style='font-family:"Times New Roman",serif;'>x</i> - 60 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: અવયવીકરણથી ઉકેલ (60 ના ભાગ)</b><br>
+                            આપણે 60 ના એવા ભાગ પાડવાના છે જેની બાદબાકી 7 આવે.<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>60 ના ભાગ: 12 &times; 5 = 60, અને 12 - 5 = 7 થાય!</i></span><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#dc2626;'>- 12<i style='font-family:"Times New Roman",serif;'>x</i> + 5<i style='font-family:"Times New Roman",serif;'>x</i></b> - 60 = 0<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i>(<i style='font-family:"Times New Roman",serif;'>x</i> - 12) + 5(<i style='font-family:"Times New Roman",serif;'>x</i> - 12) = 0<br>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> - 12)(<i style='font-family:"Times New Roman",serif;'>x</i> + 5) = 0<br><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> - 12 = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; <i style='font-family:"Times New Roman",serif;'>x</i> + 5 = 0<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 12</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif;'>x</i> = -5</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                કોઈપણ ત્રિકોણની બાજુનું માપ ઋણ (માઇનસ) ન હોઈ શકે, તેથી <i style='font-family:"Times New Roman",serif;'>x</i> = -5 શક્ય નથી.<br>
+                                તેથી, <b>પાયો = <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='color:#1d4ed8;'>12 સેમી</span></b> થશે.<br>
+                                અને <b>વેધ = <i style='font-family:"Times New Roman",serif;'>x</i> - 7 = 12 - 7 = <span style='color:#be123c;'>5 સેમી</span></b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
