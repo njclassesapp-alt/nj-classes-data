@@ -6156,9 +6156,170 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+            
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 7: સમાંતર શ્રેણીનું 11મું પદ 38 અને 16મું પદ 73 હોય તો તેનું 31મું પદ શોધો.", 
+                    question_desc: "બોર્ડમાં 3 માર્ક્સ માટે પૂછાતો શિક્ષકોનો સૌથી ફેવરિટ દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 અને 2025 ની પેપર સ્ટાઈલમાં 3 માર્ક્સ માટે મોસ્ટ IMP!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બે સમીકરણો બનાવવા</b><br>
+                            અહીં <b>11મું પદ 38</b> છે &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8; background-color:#e0f2fe; padding:2px 6px;'>a + 10d = 38</b> &nbsp; ...(સમીકરણ 1)<br>
+                            અહીં <b>16મું પદ 73</b> છે &nbsp;&#10551;&nbsp; <b style='color:#be123c; background-color:#fee2e2; padding:2px 6px;'>a + 15d = 73</b> &nbsp; ...(સમીકરણ 2)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી d શોધવો</b><br>
+                            સમીકરણ 1 માંથી 2 ની બાદબાકી કરતાં (નીચેના પદોની નિશાની બદલવી):
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; a + 10d = 38<br>
+                                <u><b style='color:#dc2626;'>-</b> a <b style='color:#dc2626;'>-</b> 15d = <b style='color:#dc2626;'>-</b> 73</u><br>
+                                <span style='color:#047857; font-size:14px;'><i>(a ઉડી જશે. 10 માંથી 15 જાય તો -5 વધે, અને 38 માંથી 73 જાય તો -35 વધે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp; -5d = -35<br>
+                                &nbsp;&nbsp;&nbsp; d = -35 / -5 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = 7</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: સમીકરણ 1 માં d મૂકી a શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a + 10d = 38<br>
+                                a + 10(7) = 38<br>
+                                a + 70 = 38<br>
+                                <span style='color:#047857; font-size:14px;'><i>(+70 જમણી બાજુ જતાં માઇનસ થશે)</i></span><br>
+                                a = 38 - 70 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = -32</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f; font-size:16px;'>સ્ટેપ 4: 31મું પદ શોધવું</b><br>
+                            હવે આપણી પાસે a અને d બંને છે. 31માં પદનું સૂત્ર <b style='color:#16a34a;'>a + 30d</b> થાય.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fae8ff; padding:10px; border-radius:5px;'>
+                                a<sub>31</sub> = a + 30d<br>
+                                a<sub>31</sub> = (-32) + 30(7)<br>
+                                a<sub>31</sub> = -32 + 210<br>
+                                <span style='color:#047857; font-size:14px;'><i>(210 માંથી 32 બાદ કરવાના)</i></span><br>
+                                <b style='font-size:22px; color:#16a34a;'>a<sub>31</sub> = 178</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> શ્રેણીનું <b>31મું પદ 178 હશે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 8: સમાંતર શ્રેણીમાં 50 પદ છે. જો ત્રીજું પદ 12 અને છેલ્લું પદ 106 હોય તો 29મું પદ શોધો.", 
+                    question_desc: "છેલ્લા પદવાળી ટ્રીકનો ઉપયોગ કરી 3 માર્ક્સ મેળવો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            રકમમાં કહ્યું છે કે <b>કુલ 50 પદ છે</b>, અને <b>છેલ્લું પદ 106 છે</b>. <br>
+                            આનો સીધો અર્થ એ જ થયો કે <b>50મું પદ 106 છે!</b> (બસ આટલું પકડાઈ ગયું એટલે દાખલો પૂરો).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બે સમીકરણો બનાવવા</b><br>
+                            અહીં <b>ત્રીજું પદ 12</b> છે &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8; background-color:#e0f2fe; padding:2px 6px;'>a + 2d = 12</b> &nbsp; ...(સમીકરણ 1)<br>
+                            અહીં <b>50મું પદ 106</b> છે &nbsp;&#10551;&nbsp; <b style='color:#be123c; background-color:#fee2e2; padding:2px 6px;'>a + 49d = 106</b> &nbsp; ...(સમીકરણ 2)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી d અને a શોધવા</b><br>
+                            સમીકરણ 1 માંથી 2 ની બાદબાકી કરતાં:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; a + 2d = 12<br>
+                                <u><b style='color:#dc2626;'>-</b> a <b style='color:#dc2626;'>-</b> 49d = <b style='color:#dc2626;'>-</b> 106</u><br>
+                                <span style='color:#047857; font-size:14px;'><i>(a ઉડી જશે. 2 માંથી 49 જાય તો -47 વધે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp; -47d = -94<br>
+                                &nbsp;&nbsp;&nbsp; d = -94 / -47 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = 2</b>
+                            </div><br>
+                            <b>સમીકરણ 1 માં d = 2 મૂકતાં:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a + 2(2) = 12<br>
+                                a + 4 = 12<br>
+                                a = 12 - 4 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 8</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: 29મું પદ શોધવું</b><br>
+                            29માં પદનું સૂત્ર <b style='color:#16a34a;'>a + 28d</b> થાય.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a<sub>29</sub> = a + 28d<br>
+                                a<sub>29</sub> = (8) + 28(2)<br>
+                                a<sub>29</sub> = 8 + 56<br>
+                                <b style='font-size:22px; color:#16a34a;'>a<sub>29</sub> = 64</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> શ્રેણીનું <b>29મું પદ 64 હશે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 9: જો સમાંતર શ્રેણીનું ત્રીજું અને નવમું પદ અનુક્રમે 4 અને -8 હોય, તો કયું પદ 0 હશે?", 
+                    question_desc: "કયું પદ 0 હશે? વાળો મોસ્ટ IMP બોર્ડનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બે સમીકરણો બનાવવા</b><br>
+                            અહીં <b>ત્રીજું પદ 4</b> છે &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8; background-color:#e0f2fe; padding:2px 6px;'>a + 2d = 4</b> &nbsp; ...(સમીકરણ 1)<br>
+                            અહીં <b>નવમું પદ -8</b> છે &nbsp;&#10551;&nbsp; <b style='color:#be123c; background-color:#fee2e2; padding:2px 6px;'>a + 8d = -8</b> &nbsp; ...(સમીકરણ 2)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી d અને a શોધવા</b><br>
+                            સમીકરણ 1 માંથી 2 ની બાદબાકી કરતાં (નિશાની બદલતા -8 નું +8 થશે):<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; a + 2d = 4<br>
+                                <u><b style='color:#dc2626;'>-</b> a <b style='color:#dc2626;'>-</b> 8d = <b style='color:#16a34a;'>+</b> 8</u><br>
+                                &nbsp;&nbsp;&nbsp; -6d = 12<br>
+                                &nbsp;&nbsp;&nbsp; d = 12 / -6 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = -2</b>
+                            </div><br>
+                            <b>સમીકરણ 1 માં d = -2 મૂકતાં:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a + 2(-2) = 4<br>
+                                a - 4 = 4<br>
+                                a = 4 + 4 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 8</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: કયું પદ 0 હશે તે (n) શોધવો</b><br>
+                            ધારો કે n મું પદ 0 છે. એટલે કે <b>a<sub>n</sub> = 0</b> લેતાં.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                0 = 8 + (n - 1)(-2)<br>
+                                <span style='color:#047857; font-size:14px;'><i>(+8 ડાબી બાજુ આવે એટલે માઇનસ થશે)</i></span><br>
+                                -8 = (n - 1)(-2)<br>
+                                <span style='color:#047857; font-size:14px;'><i>(-2 ભાગાકારમાં જશે. માઇનસ માઇનસ પ્લસ થશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-8</span><span>-2</span></span> = n - 1<br>
+                                4 = n - 1<br>
+                                4 + 1 = n &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#16a34a;'>n = 5</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ સમાંતર શ્રેણીનું <b>5મું પદ શૂન્ય (0) હશે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
                  
                                     
