@@ -5676,9 +5676,84 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        ,
+        // ------------------------------------
+        // પ્રકરણ 5: સમાંતર શ્રેણી (સ્વાધ્યાય 5.2 - ભાગ 2A)
+        // ------------------------------------
+        "5_ex_5_2_part2_A": {
+            "chapterName": "પ્રકરણ 5 (સ્વાધ્યાય 5.2 - ભાગ 2A)",
+            "chapterTitle": "n મું પદ શોધવાના MCQ (પ્રશ્ન 2)",
+            "qa_list": [
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 2(i): સમાંતર શ્રેણી 10, 7, 4, ... નું 30 મું પદ શોધો.", 
+                    question_desc: "બોર્ડની પરીક્ષામાં સૌથી વધુ પૂછાતો 1 માર્કનો MCQ",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 ની નવી પેપર સ્ટાઈલ મુજબ 1 માર્કના હેતુલક્ષીમાં પૂછાયેલ મોસ્ટ IMP દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને n નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#1d4ed8;'>10</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બીજા પદમાંથી પહેલું પદ બાદ કરતાં)</i></span><br>
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = 7 - 10 = <b style='color:#dc2626;'>-3</b><br>
+                                <b>પદની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b style='color:#16a34a;'>30</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>30</sub></i> = 10 + (30 - 1)(-3)<br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>30</sub></i> = 10 + (29)(-3)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(પ્લસ-માઇનસ માઇનસ થશે: 29 &times; -3 = -87)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>30</sub></i> = 10 - 87<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>a<sub>30</sub></i> = -77</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> આ સમાંતર શ્રેણીનું 30મું પદ <b style='color:#be123c;'>-77</b> હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.2 પ્રશ્ન 2(ii): સમાંતર શ્રેણી -3, -1/2, 2, ... નું 11 મું પદ શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને n નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#1d4ed8;'>-3</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બીજા પદમાંથી પહેલું પદ બાદ કરીએ. માઇનસ માઇનસ પ્લસ થશે!)</i></span><br>
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1</span><span>2</span></span> - (-3) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1</span><span>2</span></span> + 3 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1 + 6</span><span>2</span></span> = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>5</span><span>2</span></span></b><br>
+                                <b>પદની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b style='color:#16a34a;'>11</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>11</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (11 - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>11</sub></i> = -3 + (10)<span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>2</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(10 અને 2 નો છેદ ઉડશે: 2 પંચા 10)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>11</sub></i> = -3 + (5 &times; 5)<br>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>11</sub></i> = -3 + 25<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>a<sub>11</sub></i> = 22</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
