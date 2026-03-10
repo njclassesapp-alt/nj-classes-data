@@ -5003,9 +5003,92 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ટ્રીક: પ્રથમ પદ (a) અને તફાવત (d) શોધવાની સૌથી સહેલી રીત",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>1 માર્કના પ્રશ્નો માટે આ ટ્રીક ગોખી જ લો:</p>
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li><b style='color:#1d4ed8;'>પ્રથમ પદ (a):</b> શ્રેણીમાં જે <b>સૌથી પહેલો આંકડો</b> દેખાય, તે જ આપણું પ્રથમ પદ!</li>
+                                <li><b style='color:#be123c;'>સામાન્ય તફાવત (d):</b> હંમેશા <b>બીજા પદમાંથી પહેલું પદ બાદ કરવું</b>. (ભલે પહેલું પદ મોટું હોય કે નાનું, નિયમ નહિ બદલવાનો!)<br>
+                                સૂત્ર: <b style='background-color:#fee2e2; padding:2px 6px; border-radius:4px; color:#dc2626;'>d = a<sub>2</sub> - a<sub>1</sub></b></li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 3(i) & (ii): નીચેની સમાંતર શ્રેણી માટે પ્રથમ પદ અને સામાન્ય તફાવત શોધો.", 
+                    question_desc: "(i) 3, 1, -1, -3,...  અને  (ii) -5, -1, 3, 7,...",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>દાખલો (i): 3, 1, -1, -3, ...</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(સૌથી પહેલી સંખ્યા 3 છે)</i></span><br>
+                                <b>પ્રથમ પદ (a)</b> = <b style='color:#1d4ed8;'>3</b><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(બીજું પદ 1 છે, અને પહેલું પદ 3 છે)</i></span><br>
+                                <b>સામાન્ય તફાવત (d)</b> = a<sub>2</sub> - a<sub>1</sub><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1 - 3 = <b style='color:#be123c;'>-2</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> a = <b style='color:#1d4ed8;'>3</b>, d = <b style='color:#be123c;'>-2</b></div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>દાખલો (ii): -5, -1, 3, 7, ...</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(આ દાખલામાં માઇનસની નિશાનીમાં ખાસ ધ્યાન રાખવું!)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a)</b> = <b style='color:#1d4ed8;'>-5</b><br><br>
+                                <b>સામાન્ય તફાવત (d)</b> = a<sub>2</sub> - a<sub>1</sub><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= -1 - (-5)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ માઇનસ પ્લસ 5 થશે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= -1 + 5 = <b style='color:#be123c;'>4</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> a = <b style='color:#1d4ed8;'>-5</b>, d = <b style='color:#be123c;'>4</b></div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.1 પ્રશ્ન 3(iii) & (iv): નીચેની સમાંતર શ્રેણી માટે પ્રથમ પદ અને સામાન્ય તફાવત શોધો.", 
+                    question_desc: "(iii) 1/3, 5/3, 9/3,...  અને  (iv) 0.6, 1.7, 2.8,...",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>દાખલો (iii): 1/3, 5/3, 9/3, 13/3, ...</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(અહીં છેદ સરખા છે, એટલે બાદબાકી બહુ જ સહેલી થશે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a)</b> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>3</span></span></b><br><br>
+                                
+                                <b>સામાન્ય તફાવત (d)</b> = a<sub>2</sub> - a<sub>1</sub><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>3</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5 - 1</span><span>3</span></span> = <b style='color:#be123c;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>4</span><span>3</span></span></b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> a = <b style='color:#1d4ed8;'>1/3</b>, d = <b style='color:#be123c;'>4/3</b></div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f; font-size:16px;'>દાખલો (iv): 0.6, 1.7, 2.8, 3.9, ...</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(પોઈન્ટ વાળી બાદબાકી)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#fae8ff; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a)</b> = <b style='color:#1d4ed8;'>0.6</b><br><br>
+                                <b>સામાન્ય તફાવત (d)</b> = a<sub>2</sub> - a<sub>1</sub><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= 1.7 - 0.6 = <b style='color:#be123c;'>1.1</b>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> a = <b style='color:#1d4ed8;'>0.6</b>, d = <b style='color:#be123c;'>1.1</b></div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
