@@ -4479,9 +4479,190 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 4.3 પ્રશ્ન 3: જેની લંબાઈ પહોળાઈ કરતાં બમણી હોય અને ક્ષેત્રફળ 800 મી² હોય...", 
+                    question_desc: "તેવું લંબચોરસ આંબાવાડિયું બનાવવું શક્ય છે? જો હા, તો લંબાઈ-પહોળાઈ શોધો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> શું એવું લંબચોરસ આંબાવાડિયું બનાવવું શક્ય છે, જેની લંબાઈ તેની પહોળાઈ કરતાં બમણી હોય અને ક્ષેત્રફળ 800 મી<sup>2</sup> હોય? જો તમારો ઉત્તર હામાં હોય, તો તેની લંબાઈ અને પહોળાઈ શોધો.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 ની નવી બ્લુપ્રિન્ટ મુજબ 2 કે 3 માર્ક્સમાં પૂછાતો સહેલો દાખલો</b>
+                        </div>
+
+                        
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: લંબાઈ અને પહોળાઈ ધારવી</b><br>
+                            આપણે અગાઉ શીખ્યા તેમ જે નાનું હોય તેને <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ધારવું.<br>
+                            ધારો કે આંબાવાડિયાની <b>પહોળાઈ = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> મીટર</b></b> છે.<br>
+                            રકમ મુજબ લંબાઈ એ પહોળાઈ કરતાં બમણી (ડબલ) છે.<br>
+                            તેથી <b>લંબાઈ = <b style='color:#be123c;'>2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> મીટર</b></b> થશે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ક્ષેત્રફળ પરથી સમીકરણ બનાવવું</b><br>
+                            લંબચોરસનું ક્ષેત્રફળ = 800 મી<sup>2</sup> આપેલ છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                લંબાઈ &times; પહોળાઈ = ક્ષેત્રફળ<br>
+                                <b style='color:#be123c;'>(2<i style='font-family:"Times New Roman",serif;'>x</i>)</b> &times; <b style='color:#1d4ed8;'>(<i style='font-family:"Times New Roman",serif;'>x</i>)</b> = 800<br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> = 800<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(2 છેદમાં જશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> = 800 / 2<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> = 400<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(વર્ગ સામે જાય તો વર્ગમૂળ થાય. 400 નું વર્ગમૂળ 20 થાય)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = &plusmn; 20
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: શક્યતા ચકાસવી અને જવાબ લખવો</b><br>
+                            <i style='font-family:"Times New Roman",serif;'>x</i> ની બે કિંમત મળી: +20 અને -20.<br>
+                            પરંતુ, લંબાઈ કે પહોળાઈ ક્યારેય ઋણ (માઇનસ) ન હોઈ શકે. તેથી <b><i style='font-family:"Times New Roman",serif;'>x</i> = -20 શક્ય નથી</b>. <br>
+                            આમ, <i style='font-family:"Times New Roman",serif;'>x</i> = 20 શક્ય છે, એટલે કે <b>આવું આંબાવાડિયું બનાવવું શક્ય છે!</b>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                આંબાવાડિયાની <b>પહોળાઈ = <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='color:#1d4ed8;'>20 મીટર</span></b><br>
+                                અને <b>લંબાઈ = 2<i style='font-family:"Times New Roman",serif;'>x</i> = 2(20) = <span style='color:#be123c;'>40 મીટર</span></b> થશે.
+                                <span style='color:#64748b; font-size:14px;'>(તાળો: 20 &times; 40 = 800 ક્ષેત્રફળ આવી ગયું!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.3 પ્રશ્ન 4: બે મિત્રોની ઉંમરનો સરવાળો 20 વર્ષ છે. 4 વર્ષ પહેલાં...", 
+                    question_desc: "તેમની ઉંમરનો ગુણાકાર 48 હતો. શું આ શક્ય છે? (માઇનસ D વાળો દાખલો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> બે મિત્રોની ઉંમરનો સરવાળો 20 વર્ષ છે. 4 વર્ષ પહેલાં તેમની ઉંમર દર્શાવતી સંખ્યાઓનો ગુણાકાર (વર્ષમાં) 48 હતો. શું આ પરિસ્થિતિ શક્ય છે? જો હોય, તો તેમની અત્યારની ઉંમર શોધો.</p>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક યાદ કરો:</b><br>
+                            જ્યારે "સરવાળો 20" આપ્યો હોય, ત્યારે <b>એકને <i style='font-family:"Times New Roman",serif;'>x</i></b> ધારવો અને <b>બીજાને (20 - <i style='font-family:"Times New Roman",serif;'>x</i>)</b> ધારવો!
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: ઉંમર ધારવી અને સમીકરણ બનાવવું</b><br>
+                            ધારો કે પ્રથમ મિત્રની હાલની ઉંમર = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> વર્ષ</b> છે.<br>
+                            તેથી બીજા મિત્રની હાલની ઉંમર = <b style='color:#be123c;'>(20 - <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>) વર્ષ</b> થશે.<br><br>
+                            
+                            <b>4 વર્ષ પહેલાં બંનેની ઉંમર:</b><br>
+                            પ્રથમ મિત્ર = (<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 4) વર્ષ<br>
+                            બીજો મિત્ર = (20 - <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>) - 4 = <b style='color:#16a34a;'>(16 - <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>) વર્ષ</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ગુણાકાર પરથી સમીકરણનું સાદું રૂપ</b><br>
+                            રકમ મુજબ 4 વર્ષ પહેલાં તેમની ઉંમરનો ગુણાકાર 48 હતો.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> - 4)(16 - <i style='font-family:"Times New Roman",serif;'>x</i>) = 48<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કૌંસનો ગુણાકાર: x નો બંને સાથે અને -4 નો બંને સાથે)</i></span><br>
+                                16<i style='font-family:"Times New Roman",serif;'>x</i> - <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 64 + 4<i style='font-family:"Times New Roman",serif;'>x</i> = 48<br>
+                                -<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 20<i style='font-family:"Times New Roman",serif;'>x</i> - 64 = 48<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(x<sup>2</sup> ને પ્લસ કરવા બધા પદોને જમણી બાજુ લઈ જતાં)</i></span><br>
+                                0 = <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 20<i style='font-family:"Times New Roman",serif;'>x</i> + 64 + 48<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 20<i style='font-family:"Times New Roman",serif;'>x</i> + 112 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: શક્યતા ચકાસવી (વિવેચક D)</b><br>
+                            અહીં a = 1, b = -20, c = 112 છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                D = b<sup>2</sup> - 4ac<br>
+                                D = (-20)<sup>2</sup> - 4(1)(112)<br>
+                                D = 400 - 448<br>
+                                <b style='font-size:22px; color:#dc2626;'>D = -48</b>
+                            </div>
+                            
+                            <div style='background-color:#fee2e2; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:18px;'>અંતિમ જવાબ:</b> અહીં વિવેચક D ઋણ (માઇનસ) મળે છે (D < 0).<br>
+                                આથી આ દ્વિઘાત સમીકરણના વાસ્તવિક બીજ શક્ય નથી. <br>
+                                તેથી <b>આપેલ પરિસ્થિતિ શક્ય નથી!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.3 પ્રશ્ન 5: જેની પરિમિતિ 80 મીટર અને ક્ષેત્રફળ 400 મી² હોય...", 
+                    question_desc: "તેવો લંબચોરસ બગીચો બનાવવો શક્ય છે? (પ્રકરણનો છેલ્લો દાખલો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> જેની પરિમિતિ 80 મીટર અને ક્ષેત્રફળ 400 મી<sup>2</sup> હોય તેવો લંબચોરસ બગીચો બનાવવો શક્ય છે? જો તે શક્ય હોય, તો તેની લંબાઈ અને પહોળાઈ શોધો.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 ની નવી પેપર સ્ટાઈલમાં 3 માર્ક્સનો સૌથી અગત્યનો દાખલો!</b>
+                        </div>
+
+                        
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પરિમિતિ પરથી લંબાઈ-પહોળાઈનો સંબંધ</b><br>
+                            લંબચોરસની પરિમિતિનું સૂત્ર: <b>2(લંબાઈ + પહોળાઈ) = પરિમિતિ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                2(લંબાઈ + પહોળાઈ) = 80<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(2 સામે ભાગાકારમાં જશે)</i></span><br>
+                                <b>લંબાઈ + પહોળાઈ = 40</b>
+                            </div>
+                            <br>
+                            ધારો કે લંબચોરસની <b>લંબાઈ = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> મીટર</b></b> છે.<br>
+                            બંનેનો સરવાળો 40 હોવાથી, <b>પહોળાઈ = <b style='color:#be123c;'>(40 - <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>) મીટર</b></b> થશે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ક્ષેત્રફળ પરથી સમીકરણ</b><br>
+                            બગીચાનું ક્ષેત્રફળ 400 મી<sup>2</sup> આપેલ છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                લંબાઈ &times; પહોળાઈ = ક્ષેત્રફળ<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> &times; <b style='color:#be123c;'>(40 - <i style='font-family:"Times New Roman",serif;'>x</i>)</b> = 400<br>
+                                40<i style='font-family:"Times New Roman",serif;'>x</i> - <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> = 400<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(x<sup>2</sup> ને પ્લસ કરવા બધા પદોને જમણી બાજુ લઈ જતાં)</i></span><br>
+                                0 = <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 40<i style='font-family:"Times New Roman",serif;'>x</i> + 400<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 40<i style='font-family:"Times New Roman",serif;'>x</i> + 400 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: શક્યતા ચકાસવી અને બીજ શોધવા</b><br>
+                            અહીં a = 1, b = -40, c = 400 છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                D = b<sup>2</sup> - 4ac<br>
+                                D = (-40)<sup>2</sup> - 4(1)(400)<br>
+                                D = 1600 - 1600<br>
+                                <b style='color:#16a34a;'>D = 0</b>
+                            </div>
+                            <span style='color:#0f172a; font-size:15px;'>અહીં D શૂન્ય છે, એટલે કે બીજ સમાન અને વાસ્તવિક મળશે. તેથી <b>આ પરિસ્થિતિ શક્ય છે!</b></span><br><br>
+                            
+                            <b style='color:#c2410c; font-size:16px;'>બીજ શોધવા (અવયવની રીત સૌથી સહેલી છે):</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(આ પૂર્ણવર્ગ પદાવલિ છે, a<sup>2</sup> - 2ab + b<sup>2</sup>)</i></span><br>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i> - 20)<sup>2</sup> = 0<br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> - 20 = 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 20</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>🏆 અંતિમ જવાબ:</b> <br>
+                                હા, આવો બગીચો બનાવવો શક્ય છે.<br>
+                                બગીચાની <b>લંબાઈ = <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='color:#1d4ed8;'>20 મીટર</span></b> થશે.<br>
+                                અને <b>પહોળાઈ = (40 - <i style='font-family:"Times New Roman",serif;'>x</i>) = 40 - 20 = <span style='color:#be123c;'>20 મીટર</span></b> થશે.<br>
+                                <span style='color:#64748b; font-size:14px;'>(નોંધ: લંબાઈ અને પહોળાઈ સમાન છે, એટલે કે આ લંબચોરસ વાસ્તવમાં એક "ચોરસ" છે!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
