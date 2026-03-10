@@ -4227,9 +4227,127 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                {
+                    question: "🎯 ગોલ્ડન માસ્ટર ચાવી: વિવેચક (D) અને દ્વિઘાત સૂત્ર (શ્રીધર આચાર્યનું સૂત્ર)",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા પ્રકરણના સૌથી સહેલા અને રોકડા માર્ક્સ આ 3 નિયમોમાં છુપાયેલા છે:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:10px; border-radius:5px;'>
+                            <b style='color:#be123c; font-size:16px;'>1. વિવેચક (Discriminant) શોધવાનું સૂત્ર:</b><br>
+                            <b style='font-size:20px; color:#1d4ed8; background-color:#e0f2fe; padding:2px 8px; border-radius:4px;'>D = b<sup>2</sup> - 4ac</b>
+                            <ul style='line-height:2.2; margin-top:10px; font-size:15px; color:#0f172a;'>
+                                <li>જો <b>D > 0</b> (D પ્લસમાં આવે): સમીકરણને બે <b>ભિન્ન અને વાસ્તવિક બીજ</b> મળે.</li>
+                                <li>જો <b>D = 0</b> (D ઝીરો આવે): સમીકરણને બે <b>સમાન અને વાસ્તવિક બીજ</b> મળે.</li>
+                                <li>જો <b>D < 0</b> (D માઇનસમાં આવે): સમીકરણને <b>વાસ્તવિક બીજ ન મળે</b>. (અહીં દાખલો પૂરો!)</li>
+                            </ul>
+                            
+                            <hr style='border-top:1px solid #f0abfc; margin:15px 0;'>
+                            
+                            <b style='color:#16a34a; font-size:16px;'>2. દ્વિઘાત સૂત્ર (જ્યારે D ની કિંમત 0 કે પ્લસ હોય ત્યારે):</b><br>
+                            <div style='font-size:22px; color:#15803d; background-color:#dcfce7; padding:10px; border-radius:4px; margin-top:5px; text-align:center;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>-b &plusmn; <span style='font-size:24px;'>&radic;</span><span style='text-decoration:overline;'>D</span></span><span>2a</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 4.3 પ્રશ્ન 1(i): નીચેના સમીકરણના બીજના સ્વરૂપ શોધો. જો વાસ્તવિક બીજ હોય તો તે શોધો: 2x² - 3x + 5 = 0", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 5 = 0</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, b અને c ની કિંમતો લખવી</b><br>
+                            સમીકરણને <b>a<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + b<i style='font-family:"Times New Roman",serif;'>x</i> + c = 0</b> સાથે સરખાવતાં:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>a = 2</b>, &nbsp; <b style='color:#be123c;'>b = -3</b>, &nbsp; <b style='color:#16a34a;'>c = 5</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વિવેચક (D) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                D = b<sup>2</sup> - 4ac<br>
+                                D = (-3)<sup>2</sup> - 4(2)(5)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કોઈપણ માઇનસ સંખ્યાનો વર્ગ હંમેશા પ્લસ જ થાય, એટલે (-3)<sup>2</sup> = 9)</i></span><br>
+                                D = 9 - 40<br>
+                                <b style='font-size:22px; color:#dc2626;'>D = -31</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બીજનું સ્વરૂપ નક્કી કરવું</b><br>
+                            અહીં વિવેચક <b style='color:#dc2626;'>D = -31</b> છે, જે શૂન્ય કરતાં નાનો છે (એટલે કે D < 0).
+                            
+                            <div style='background-color:#fee2e2; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:18px;'>અંતિમ જવાબ:</b> અહીં D ની કિંમત ઋણ (માઇનસ) હોવાથી આપેલ દ્વિઘાત સમીકરણના <b>વાસ્તવિક બીજ અસ્તિત્વ ધરાવતા નથી.</b> <span style='color:#64748b; font-size:14px;'>(દાખલો અહીં જ પૂરો!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.3 પ્રશ્ન 1(ii): બીજના સ્વરૂપ શોધો: 3x² - 4&radic;3x + 4 = 0", 
+                    question_desc: "વર્ગમૂળ અને સમાન બીજ વાળો 100% મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 3<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - 4<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span><i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 4 = 0</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 અને 2025 ની બ્લુપ્રિન્ટ મુજબ બેઝિક અને સ્ટાન્ડર્ડ બંને માટે મોસ્ટ IMP!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, b અને c ની કિંમતો લખવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>a = 3</b>, &nbsp; <b style='color:#be123c;'>b = -4<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span></b>, &nbsp; <b style='color:#16a34a;'>c = 4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વિવેચક (D) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                D = b<sup>2</sup> - 4ac<br>
+                                D = (-4<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span>)<sup>2</sup> - 4(3)(4)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(ધ્યાન આપો: 4 નો વર્ગ 16 થાય અને &radic;3 નો વર્ગ 3 થાય. તેથી 16 &times; 3 = 48)</i></span><br>
+                                D = 48 - 48<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>D = 0</b>
+                            </div>
+                            <div style='margin-top:10px; font-size:15px;'>અહીં <b style='color:#1d4ed8;'>D = 0</b> છે, તેથી સમીકરણને <b>બે સમાન અને વાસ્તવિક બીજ</b> મળશે.</div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: દ્વિઘાત સૂત્ર વાપરીને બીજ શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-b &plusmn; <span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>D</span></span><span>2a</span></span><br><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-(-4<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span>) &plusmn; <span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>0</span></span><span>2(3)</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ માઇનસ પ્લસ થાય અને ઝીરો નું વર્ગમૂળ ઝીરો જ થાય)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span><span>6</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(2 વડે છેદ ઉડાડતા: 2 દૂ 4 અને 2 તેરી 6)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span><span>3</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(છેદના 3 ને આપણે &radic;3 &times; &radic;3 લખી શકીએ, જેથી ઉપર-નીચે એક &radic;3 ઉડી જાય)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2<span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span><span><span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span> &times; <span style='font-size:18px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>2</span><span><span style='font-size:20px;'>&radic;</span><span style='text-decoration:overline;'>3</span></span></span></b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> અહીં D = 0 હોવાથી બંને બીજ સમાન હશે. <br>
+                                તેથી, આપેલ દ્વિઘાત સમીકરણના બીજ <b style='color:#1d4ed8;'>2 / &radic;<span style='text-decoration:overline;'>3</span></b> અને <b style='color:#be123c;'>2 / &radic;<span style='text-decoration:overline;'>3</span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
