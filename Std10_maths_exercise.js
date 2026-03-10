@@ -4925,9 +4925,90 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 2(iii): a = 4, d = -3 પરથી સમાંતર શ્રેણીના પ્રથમ 4 પદ શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરીના સ્ટેપ્સ:</b><br>
+                            અહીં d માઇનસમાં છે, તેથી પ્લસ-માઇનસ માઇનસ થશે (એટલે કે સંખ્યા ઘટતી જશે).
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a<sub>1</sub>)</b> = a = <b style='color:#1d4ed8;'>4</b><br>
+                                <b>બીજું પદ (a<sub>2</sub>)</b> = a<sub>1</sub> + d = 4 + (-3) = 4 - 3 = <b style='color:#1d4ed8;'>1</b><br>
+                                <b>ત્રીજું પદ (a<sub>3</sub>)</b> = a<sub>2</sub> + d = 1 + (-3) = 1 - 3 = <b style='color:#dc2626;'>-2</b><br>
+                                <b>ચોથું પદ (a<sub>4</sub>)</b> = a<sub>3</sub> + d = -2 + (-3) = -2 - 3 = <b style='color:#dc2626;'>-5</b><br>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ પ્રથમ 4 પદો: <b style='color:#1d4ed8;'>4, 1, -2, -5</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.1 પ્રશ્ન 2(iv): a = -1, d = 1/2 પરથી સમાંતર શ્રેણીના 4 પદ શોધો.", 
+                    question_desc: "અપૂર્ણાંક અને લ.સા.અ. ની ટ્રીક વાળો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 અપૂર્ણાંકના સરવાળાની દેશી ટ્રીક:</b><br>
+                            જ્યારે એક સંખ્યા સાદી હોય અને બીજી છેદવાળી હોય, ત્યારે સાદી સંખ્યાનો છેદ સાથે ગુણાકાર કરી આખાના છેદમાં તે સંખ્યા મૂકી દેવી! <br>
+                            જેમ કે: <b style='color:#dc2626;'>-1</b> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &nbsp;&#10551;&nbsp; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>-2</b> + 1</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1</span><span>2</span></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>ગણતરીના સ્ટેપ્સ:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a<sub>1</sub>)</b> = a = <b style='color:#dc2626;'>-1</b><br>
+                                
+                                <b>બીજું પદ (a<sub>2</sub>)</b> = a<sub>1</sub> + d = -1 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-2 + 1</span><span>2</span></span> = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>-1</span><span>2</span></span></b><br>
+                                
+                                <b>ત્રીજું પદ (a<sub>3</sub>)</b> = a<sub>2</sub> + d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1</span><span>2</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(અહીં છેદ સરખા છે, એટલે સીધો અંશનો સરવાળો)</i></span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1 + 1</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0</span><span>2</span></span> = <b style='color:#16a34a;'>0</b><br>
+                                
+                                <b>ચોથું પદ (a<sub>4</sub>)</b> = a<sub>3</sub> + d = 0 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b><br>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ પ્રથમ 4 પદો: <b style='color:#dc2626;'>-1</b>, <b style='color:#dc2626;'>-1/2</b>, <b style='color:#16a34a;'>0</b>, <b style='color:#1d4ed8;'>1/2</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 2(v): a = -1.25, d = -0.25 પરથી સમાંતર શ્રેણીના 4 પદ શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>ગણતરીના સ્ટેપ્સ:</b><br>
+                            અહીં બંને સંખ્યા માઇનસ છે, એટલે માઇનસ-માઇનસ નો સરવાળો થશે પણ નિશાની માઇનસની જ રહેશે!
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a<sub>1</sub>)</b> = a = <b style='color:#dc2626;'>-1.25</b><br>
+                                
+                                <b>બીજું પદ (a<sub>2</sub>)</b> = a<sub>1</sub> + d = -1.25 + (-0.25)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= -1.25 - 0.25 = <b style='color:#dc2626;'>-1.50</b><br>
+                                
+                                <b>ત્રીજું પદ (a<sub>3</sub>)</b> = a<sub>2</sub> + d = -1.50 + (-0.25)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= -1.50 - 0.25 = <b style='color:#dc2626;'>-1.75</b><br>
+                                
+                                <b>ચોથું પદ (a<sub>4</sub>)</b> = a<sub>3</sub> + d = -1.75 + (-0.25)<br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= -1.75 - 0.25 = <b style='color:#dc2626;'>-2.00</b><br>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ પ્રથમ 4 પદો: <b style='color:#dc2626;'>-1.25, -1.50, -1.75, -2.00</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
