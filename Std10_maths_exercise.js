@@ -5455,9 +5455,107 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 4(xiii): ચકાસો કે સમાંતર શ્રેણી છે કે નહિ: &radic;3, &radic;6, &radic;9, &radic;12, ...", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: તફાવત (d) ચકાસવો</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(અહીં &radic;6 માંથી &radic;3 સીધા બાદ ન થાય, એટલે આપણે સામાન્ય કાઢવા પડશે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = &radic;6 - &radic;3<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(&radic;6 એટલે &radic;3 &times; &radic;2. બંનેમાંથી &radic;3 સામાન્ય કાઢતા)</i></span><br>
+                                d = <b style='color:#1d4ed8;'>&radic;3(&radic;2 - 1)</b><br><br>
+                                
+                                d = a<sub>3</sub> - a<sub>2</sub> = &radic;9 - &radic;6<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(&radic;9 = 3 થાય. અને 3 એટલે &radic;3 &times; &radic;3)</i></span><br>
+                                d = 3 - &radic;6 = <b style='color:#dc2626;'>&radic;3(&radic;3 - &radic;2)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>અંતિમ જવાબ:</b><br>
+                            અહીં બંને તફાવત અલગ-અલગ છે. <b>(a<sub>2</sub> - a<sub>1</sub>) &ne; (a<sub>3</sub> - a<sub>2</sub>)</b><br>
+                            <div style='margin-top:5px; background-color:#fee2e2; padding:8px; border-radius:4px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c;'>તેથી, આપેલ શ્રેણી સમાંતર શ્રેણી નથી.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 4(xiv): ચકાસો કે સમાંતર શ્રેણી છે કે નહિ: 1², 3², 5², 7², ...", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે પણ વર્ગ (Square) આપ્યો હોય, ત્યારે <b>પહેલા તેનો વર્ગ કરીને સાદી સંખ્યામાં ફેરવી દેવું!</b><br>
+                            શ્રેણી 1<sup>2</sup>, 3<sup>2</sup>, 5<sup>2</sup>, 7<sup>2</sup>... વાસ્તવમાં <b>1, 9, 25, 49...</b> છે! (હવે બાદબાકી સહેલી થઈ જશે).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: તફાવત (d) ચકાસવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = 9 - 1 = <b style='color:#1d4ed8;'>8</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = 25 - 9 = <b style='color:#dc2626;'>16</b><br>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>અંતિમ જવાબ:</b><br>
+                            અહીં 8 અને 16 સરખા નથી. <b>(a<sub>2</sub> - a<sub>1</sub>) &ne; (a<sub>3</sub> - a<sub>2</sub>)</b><br>
+                            <div style='margin-top:5px; background-color:#fee2e2; padding:8px; border-radius:4px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c;'>તેથી, આપેલ શ્રેણી સમાંતર શ્રેણી નથી.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.1 પ્રશ્ન 4(xv): ચકાસો અને પછીના 3 પદ શોધો: 1², 5², 7², 73, ...", 
+                    question_desc: "બોર્ડમાં ભૂલ કરાવતો અને સ્વાધ્યાયનો છેલ્લો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            પહેલા વર્ગ છોડીને શ્રેણીને સાદી બનાવીએ: <br>
+                            1<sup>2</sup> = 1, &nbsp; 5<sup>2</sup> = 25, &nbsp; 7<sup>2</sup> = 49, &nbsp; 73 (આને એમ જ રાખીશું).<br>
+                            એટલે કે આપણી શ્રેણી <b>1, 25, 49, 73...</b> છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: તફાવત (d) ચકાસવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = 25 - 1 = <b style='color:#1d4ed8;'>24</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = 49 - 25 = <b style='color:#1d4ed8;'>24</b><br>
+                                d = a<sub>4</sub> - a<sub>3</sub> = 73 - 49 = <b style='color:#1d4ed8;'>24</b><br>
+                            </div>
+                            <span style='color:#047857; font-size:14px;'>અહીં તફાવત સમાન છે, તેથી <b>આ સમાંતર શ્રેણી છે</b> અને <b style='color:#1d4ed8;'>d = 24</b> છે.</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પછીના 3 પદો શોધવા</b><br>
+                            ચોથું પદ 73 છે. હવે તેમાં d (24) ઉમેરતા જઈએ:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>5મું પદ:</b> 73 + 24 = <b style='color:#be123c;'>97</b><br>
+                                <b>6ઠ્ઠું પદ:</b> 97 + 24 = <b style='color:#be123c;'>121</b><br>
+                                <b>7મું પદ:</b> 121 + 24 = <b style='color:#be123c;'>145</b><br>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ પછીના 3 પદો: <b style='color:#be123c;'>97, 121, 145</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
                                 
