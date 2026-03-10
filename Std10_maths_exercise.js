@@ -3138,7 +3138,109 @@ var njMathsExercise = {
                     `
                 }
             ]
+        },
+            
+        // ------------------------------------
+        // પ્રકરણ 4: દ્વિઘાત સમીકરણ
+        // ------------------------------------
+        "4": {
+            "chapterName": "પ્રકરણ 4 (સ્વાધ્યાય 4.1 - ભાગ 1)",
+            "chapterTitle": "દ્વિઘાત સમીકરણની ઓળખ (પ્રશ્ન 1 ના દાખલા 1 અને 2)",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: દ્વિઘાત સમીકરણ કોને કહેવાય? (પાયાની સમજૂતી)",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>પ્રકરણ 4 શરૂ કરતાં પહેલાં આટલું મગજમાં ફિટ કરી લો:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li><b style='color:#be123c;'>દ્વિઘાત એટલે શું?</b> જે સમીકરણમાં ચલ (જેમ કે x) ની <b>સૌથી મોટી ઘાત 2 હોય</b>, તેને દ્વિઘાત સમીકરણ કહેવાય. જો મોટી ઘાત 3 હોય કે માત્ર 1 જ હોય, તો તે દ્વિઘાત નથી!</li>
+                                <li><b style='color:#1d4ed8;'>પ્રમાણિત રૂપ:</b> <b>a<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i><sup>2</sup> + b<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + c = 0</b> (અહીં 'a' ક્યારેય ઝીરો ન હોવો જોઈએ, બાકી b કે c ઝીરો હોય તો ચાલે).</li>
+                                <li><b style='color:#16a34a;'>અગત્યના 2 સૂત્રો (જે વારંવાર આવશે):</b><br>
+                                1. (a + b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup><br>
+                                2. (a - b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 4.1 પ્રશ્ન 1(i): ચકાસો કે નીચે આપેલ સમીકરણ દ્વિઘાત સમીકરણ છે કે નહિ: (x + 1)² = 2(x - 3)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> (<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> + 1)<sup>2</sup> = 2(<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> - 3)</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કૌંસ છોડીને સાદું રૂપ આપતાં</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>ડાબી બાજુ (a+b)<sup>2</sup> નું સૂત્ર વાપરીશું અને જમણી બાજુ 2 નો અંદર ગુણાકાર કરીશું.</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                (<i style='font-family:"Times New Roman",serif;'>x</i>)<sup>2</sup> + 2(<i style='font-family:"Times New Roman",serif;'>x</i>)(1) + (1)<sup>2</sup> = 2(<i style='font-family:"Times New Roman",serif;'>x</i>) - 2(3)<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 2<i style='font-family:"Times New Roman",serif;'>x</i> + 1</b> = <b style='color:#be123c;'>2<i style='font-family:"Times New Roman",serif;'>x</i> - 6</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બધા પદોને ડાબી બાજુ ભેગા કરતાં (= 0 બનાવતાં)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>જમણી બાજુના (+2x) આ બાજુ આવતાં (-2x) થશે અને (-6) આ બાજુ આવતાં (+6) થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 2<i style='font-family:"Times New Roman",serif;'>x</i> + 1 <b style='color:#dc2626;'>- 2<i style='font-family:"Times New Roman",serif;'>x</i> + 6</b> = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(+2x અને -2x ઉડી જશે. અને 1 + 6 = 7 થશે)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 7 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ચકાસણી</b><br>
+                            અહીં મળેલા સમીકરણ <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i><sup>2</sup> + 7 = 0 માં ચલ <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ની <b>મહત્તમ (સૌથી મોટી) ઘાત 2 છે</b>. <br>
+                            આને પ્રમાણિત રૂપ મુજબ <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i><sup>2</sup> + 0<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 7 = 0 લખી શકાય.
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> હા, આપેલ સમીકરણ <b>દ્વિઘાત સમીકરણ છે</b>.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 4.1 પ્રશ્ન 1(ii): ચકાસો કે દ્વિઘાત સમીકરણ છે કે નહિ: x² - 2x = (-2)(3 - x)", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i><sup>2</sup> - 2<i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i> = (-2)(3 - <i style='font-family:"Times New Roman",serif; font-size:18px; color:#1d4ed8; font-weight:bold;'>x</i>)</p>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: જમણી બાજુ કૌંસનો ગુણાકાર કરતાં</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 2<i style='font-family:"Times New Roman",serif;'>x</i> = <b style='color:#dc2626;'>(-2)</b>(3) - <b style='color:#dc2626;'>(-2)</b>(<i style='font-family:"Times New Roman",serif;'>x</i>)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ ગુણ્યા માઇનસ પ્લસ થાય: -2 &times; -x = +2x)</i></span><br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 2<i style='font-family:"Times New Roman",serif;'>x</i></b> = <b style='color:#be123c;'>-6 + 2<i style='font-family:"Times New Roman",serif;'>x</i></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બધા પદોને ડાબી બાજુ લાવતાં (= 0 બનાવતાં)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>જમણી બાજુના (-6) આ બાજુ આવતાં (+6) થશે અને (+2x) આ બાજુ આવતાં (-2x) થશે</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 2<i style='font-family:"Times New Roman",serif;'>x</i> <b style='color:#16a34a;'>+ 6 - 2<i style='font-family:"Times New Roman",serif;'>x</i></b> = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-2x અને -2x ભેગા મળીને -4x થશે)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> - 4<i style='font-family:"Times New Roman",serif;'>x</i> + 6 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px;'>
+                            <b style='color:#86198f; font-size:16px;'>સ્ટેપ 3: ચકાસણી</b><br>
+                            અહીં મળેલા સમીકરણમાં <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ની સૌથી મોટી ઘાત 2 છે. <br>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> હા, આપેલ સમીકરણ <b>દ્વિઘાત સમીકરણ છે</b>.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+    
                 
             
                         
