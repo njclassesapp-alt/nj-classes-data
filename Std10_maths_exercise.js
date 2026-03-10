@@ -6569,9 +6569,216 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                    
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 16: એવી સમાંતર શ્રેણી શોધો જેનું 3જું પદ 16 અને 7મું પદ 5મા પદથી 12 વધુ હોય.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: 7મા અને 5મા પદની સરખામણી પરથી d શોધવો</b><br>
+                            રકમ મુજબ: 7મું પદ એ 5મા પદ કરતાં 12 મોટું છે. <br>
+                            એટલે કે 7મા પદમાંથી 5મું પદ બાદ કરીએ તો 12 આવે: <b>a<sub>7</sub> - a<sub>5</sub> = 12</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                (a + 6d) - (a + 4d) = 12<br>
+                                a + 6d - a - 4d = 12<br>
+                                <span style='color:#047857; font-size:14px;'><i>(+a અને -a ઉડી જશે)</i></span><br>
+                                6d - 4d = 12<br>
+                                2d = 12<br>
+                                d = 12 / 2 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>d = 6</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ત્રીજા પદ પરથી a શોધવો</b><br>
+                            રકમમાં 3જું પદ 16 આપેલ છે. એટલે કે <b>a + 2d = 16</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a + 2(6) = 16<br>
+                                a + 12 = 16<br>
+                                a = 16 - 12 &nbsp;&#10551;&nbsp; <b style='color:#be123c;'>a = 4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: સમાંતર શ્રેણી બનાવવી</b><br>
+                            આપણને a = 4 અને d = 6 મળી ગયા. હવે તેમાં 6-6 ઉમેરતા જઈએ:<br>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> માંગેલ સમાંતર શ્રેણી <b>4, 10, 16, 22...</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 17: સમાંતર શ્રેણી 3, 8, 13, ..., 253 હોય, તો તેનું છેલ્લેથી 20મું પદ શોધો.", 
+                    question_desc: "છેલ્લેથી પદ શોધવાની 100% IMP 'દેશી ટ્રીક' વાળો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 ની પેપર સ્ટાઈલમાં 2 માર્ક્સ માટે સૌથી ફેવરિટ અને કન્ફ્યુઝ કરતો દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 શ્રેણી ઉંધી કરવાની માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે પણ <b>"છેલ્લેથી"</b> પદ પૂછે, ત્યારે શ્રેણીને જ ઉંધી કરી નાખવાની! <br>
+                            અહીં શ્રેણી <b>3, 8, 13</b> છે એટલે કે <b>5</b> નો વધારો થાય છે. <br>
+                            તો ઉંધી શ્રેણીમાં <b>5 નો ઘટાડો</b> થશે! અને છેલ્લું પદ (253) આપણું <b>પહેલું પદ</b> બની જશે!<br>
+                            <b>નવી શ્રેણી:</b> 253, 248, 243, ...
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: નવી શ્રેણીના a અને d નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>નવો a</b> = <b style='color:#1d4ed8;'>253</b><br>
+                                <b>નવો d</b> = <b style='color:#dc2626;'>-5</b> <span style='color:#047857; font-size:14px;'><i>(કારણ કે શ્રેણી ઉંધી કરી છે)</i></span><br>
+                                <b>n</b> = <b>20</b> <span style='color:#047857; font-size:14px;'><i>(20મું પદ શોધવું છે)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 20મું પદ (a<sub>20</sub>) શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>20</sub> = a + 19d<br>
+                                a<sub>20</sub> = 253 + 19(-5)<br>
+                                a<sub>20</sub> = 253 - 95<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>a<sub>20</sub> = 158</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ સમાંતર શ્રેણીનું <b>છેલ્લેથી 20મું પદ 158</b> હશે. (હતી ને જોરદાર ટ્રીક!)
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 18: સમાંતર શ્રેણીના 4થા અને 8મા પદનો સરવાળો 24 છે, અને 6ઠ્ઠા અને 10મા પદનો સરવાળો 44 છે. તો પ્રથમ ત્રણ પદ શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બે સમીકરણો બનાવવા (લોપની રીત માટે)</b><br>
+                            <b>પહેલી શરત:</b> 4થું પદ + 8મું પદ = 24<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                (a + 3d) + (a + 7d) = 24<br>
+                                2a + 10d = 24<br>
+                                <span style='color:#047857; font-size:14px;'><i>(બધાને 2 વડે ભાગીને સમીકરણ નાનું બનાવીએ)</i></span><br>
+                                <b style='color:#1d4ed8;'>a + 5d = 12</b> &nbsp; ...(સમીકરણ 1)
+                            </div><br>
+                            <b>બીજી શરત:</b> 6ઠ્ઠું પદ + 10મું પદ = 44<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                (a + 5d) + (a + 9d) = 44<br>
+                                2a + 14d = 44<br>
+                                <span style='color:#047857; font-size:14px;'><i>(બધાને 2 વડે ભાગીએ)</i></span><br>
+                                <b style='color:#be123c;'>a + 7d = 22</b> &nbsp; ...(સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી d અને a શોધવા</b><br>
+                            સમીકરણ 2 માંથી 1 ની બાદબાકી કરતાં:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; a + 7d = 22<br>
+                                <u><b style='color:#dc2626;'>-</b> a <b style='color:#dc2626;'>-</b> 5d = <b style='color:#dc2626;'>-</b> 12</u><br>
+                                <span style='color:#047857; font-size:14px;'><i>(a ઉડી જશે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp; 2d = 10 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = 5</b>
+                            </div><br>
+                            <b>સમીકરણ 1 માં d = 5 મૂકતાં:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a + 5(5) = 12<br>
+                                a + 25 = 12<br>
+                                a = 12 - 25 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = -13</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: પ્રથમ ત્રણ પદો લખવા</b><br>
+                            a = -13 મળી ગયું, હવે તેમાં d (5) ઉમેરતા જઈએ:<br>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> માંગેલ પ્રથમ 3 પદો: <b style='color:#be123c;'>-13, -8, -3</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.2 પ્રશ્ન 19: સુબ્બારાવે 1995 માં ₹ 5000 ના વાર્ષિક વેતનથી કામ શરૂ કર્યું. દર વર્ષે ₹ 200 નો વધારો મળે છે. કયા વર્ષે તેમનું વેતન ₹ 7000 થશે?", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        [Image showing salary increments conceptually]
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમાંતર શ્રેણી બનાવવી</b><br>
+                            પ્રથમ વર્ષનો પગાર = ₹ 5000 <b>(a = 5000)</b><br>
+                            દર વર્ષે વધારો = ₹ 200 <b>(d = 200)</b><br>
+                            અંતિમ પગાર = ₹ 7000 <b>(a<sub>n</sub> = 7000)</b><br>
+                            કયા વર્ષે? એટલે કે <b>n = ?</b> શોધવાનો છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                7000 = 5000 + (n - 1)(200)<br>
+                                7000 - 5000 = (n - 1)(200)<br>
+                                2000 = (n - 1)(200)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2000</span><span>200</span></span> = n - 1<br>
+                                10 = n - 1<br>
+                                10 + 1 = n &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#1d4ed8;'>n = 11</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 11મા વર્ષે તેમનું વેતન ₹ 7000 થશે. (વર્ષ = 1995 + 10 = <b>વર્ષ 2005 માં</b>).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 20: રામકલી વર્ષના પ્રથમ અઠવાડિયે ₹ 5 ની બચત કરે છે અને પછી દર અઠવાડિયે ₹ 1.75 નો વધારો કરે છે. જો n મા અઠવાડિયે બચત ₹ 20.75 હોય, તો n શોધો.", 
+                    question_desc: "બોર્ડમાં પોઈન્ટવાળી ગણતરીથી વિદ્યાર્થીઓને ડરાવતો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 પોઈન્ટ કાઢવાની માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે ડાબી અને જમણી બંને બાજુ પોઈન્ટ પછી 2 આંકડા હોય (જેમ કે 15.75 અને 1.75), તો બંને બાજુથી <b>પોઈન્ટ સીધા જ કાઢી નાખવા!</b> અને સાદો ભાગાકાર કરી લેવો (1575 &divide; 175).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને a<sub>n</sub> લખવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = <b style='color:#1d4ed8;'>5</b> <span style='color:#047857; font-size:14px;'><i>(પ્રથમ બચત)</i></span><br>
+                                <b>d</b> = <b style='color:#dc2626;'>1.75</b> <span style='color:#047857; font-size:14px;'><i>(દર અઠવાડિયે વધારો)</i></span><br>
+                                <b>a<sub>n</sub></b> = <b style='color:#16a34a;'>20.75</b> <span style='color:#047857; font-size:14px;'><i>(અંતિમ બચત)</i></span><br>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                20.75 = 5 + (n - 1)(1.75)<br>
+                                20.75 - 5 = (n - 1)(1.75)<br>
+                                15.75 = (n - 1)(1.75)<br>
+                                <span style='color:#047857; font-size:14px;'><i>(1.75 ભાગાકારમાં જશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15.75</span><span>1.75</span></span> = n - 1<br>
+                                <span style='color:#047857; font-size:14px;'><i>(ટ્રીક મુજબ પોઈન્ટ કાઢી નાખીએ)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1575</span><span>175</span></span> = n - 1<br>
+                                <span style='color:#047857; font-size:14px;'><i>(175 &times; 9 = 1575 થાય)</i></span><br>
+                                9 = n - 1<br>
+                                9 + 1 = n &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#1d4ed8;'>n = 10</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> માંગેલ <b>n નું મૂલ્ય 10</b> છે. (એટલે કે 10મા અઠવાડિયે બચત 20.75 થશે).
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
