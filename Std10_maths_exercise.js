@@ -5748,9 +5748,147 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ટ્રીક: ખાલી બોક્સ [ ] વાળા દાખલા કેવી રીતે ગણવા?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>બોક્સ વાળા દાખલા માટેની સાવ દેશી ટ્રીક ગોખી લો:</p>
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li>જે બોક્સમાં <b>સંખ્યા આપેલી હોય</b>, તેનું સીધું સમીકરણ બનાવી લો!</li>
+                                <li><span style='color:#1d4ed8;'>ઉદાહરણ:</span> જો <b>ત્રીજા</b> બોક્સમાં 26 લખ્યું હોય, તો તેનું સમીકરણ <b>a + 2d = 26</b> બને.</li>
+                                <li>જો <b>પાંચમા</b> બોક્સમાં 50 લખ્યું હોય, તો સમીકરણ <b>a + 4d = 50</b> બને. (હંમેશા d નો આંકડો પદ કરતાં 1 નાનો લેવો).</li>
+                                <li>પછી આ સમીકરણોને <b>લોપની રીત (પ્રકરણ 3)</b> થી ઉકેલી a અને d શોધી લો એટલે બધા બોક્સ ભરાઈ જશે!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 3(i): સમાંતર શ્રેણીમાં ખાલી ખાનાના પદ શોધો: 2, [ ], 26", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આપેલ માહિતી પરથી સમીકરણ</b><br>
+                            અહીં પહેલું પદ આપેલ છે: <b style='color:#1d4ed8;'>a = 2</b><br>
+                            અને ત્રીજું પદ 26 આપેલ છે: <b style='color:#be123c;'>a<sub>3</sub> = 26</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(ત્રીજા પદનું સૂત્ર a + 2d વાપરીએ)</i></span><br>
+                                a + 2d = 26<br>
+                                <span style='color:#047857; font-size:14px;'><i>(આમાં a = 2 મૂકી દઈએ)</i></span><br>
+                                2 + 2d = 26<br>
+                                2d = 26 - 2<br>
+                                2d = 24<br>
+                                d = 24 / 2 &nbsp;&#10551;&nbsp; <b style='color:#16a34a;'>d = 12</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ખાલી બોક્સ (બીજું પદ) શોધવું</b><br>
+                            બીજા પદનું સૂત્ર: a<sub>2</sub> = a + d<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>2</sub> = 2 + 12 = <b style='color:#1d4ed8;'>14</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> શ્રેણી આ મુજબ બનશે:<br>
+                                2, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>14</span>, &nbsp; 26
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 3(ii): ખાલી ખાનાના પદ શોધો: [ ], 13, [ ], 3", 
+                    question_desc: "બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સૌથી ફેવરિટ દાખલો (લોપની રીત)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2025 ની પેપર સ્ટાઈલમાં 2 માર્ક્સમાં 100% પૂછાવા લાયક!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            અહીં <b>બીજું પદ 13</b> છે &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8; background-color:#e0f2fe; padding:2px 6px;'>a + d = 13</b> &nbsp; ...(સમીકરણ 1)<br>
+                            અહીં <b>ચોથું પદ 3</b> છે &nbsp;&#10551;&nbsp; <b style='color:#be123c; background-color:#fee2e2; padding:2px 6px;'>a + 3d = 3</b> &nbsp; ...(સમીકરણ 2)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી d શોધવો</b><br>
+                            સમીકરણ 1 માંથી 2 ની બાદબાકી કરતાં (નિશાની બદલવી):
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; a + d = 13<br>
+                                <u><b style='color:#dc2626;'>-</b> a <b style='color:#dc2626;'>-</b> 3d = <b style='color:#dc2626;'>-</b> 3</u><br>
+                                <span style='color:#047857; font-size:14px;'><i>(a અને -a ઉડી જશે. d માંથી 3d જાય તો -2d વધે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp; -2d = 10<br>
+                                &nbsp;&nbsp;&nbsp; d = 10 / -2 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = -5</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: a અને ખાલી બોક્સ શોધવા</b><br>
+                            d = -5 ને સમીકરણ 1 માં મૂકતાં:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a + d = 13<br>
+                                a + (-5) = 13<br>
+                                a - 5 = 13<br>
+                                a = 13 + 5 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 18</b> (આ આપણું પહેલું બોક્સ મળી ગયું!)<br><br>
+                                
+                                <b>ત્રીજું બોક્સ (a<sub>3</sub>) શોધવા:</b><br>
+                                a<sub>3</sub> = a + 2d = 18 + 2(-5) = 18 - 10 = <b style='color:#1d4ed8;'>8</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> શ્રેણી આ મુજબ બનશે:<br>
+                                <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#1d4ed8; background-color:#eff6ff;'>18</span>, &nbsp; 13, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#1d4ed8; background-color:#eff6ff;'>8</span>, &nbsp; 3
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.2 પ્રશ્ન 3(iii): ખાલી ખાનાના પદ શોધો: 5, [ ], [ ], 9 1/2", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણ બનાવવું</b><br>
+                            અહીં પહેલું પદ આપેલ છે: <b style='color:#1d4ed8;'>a = 5</b><br>
+                            અને <b>ચોથું પદ</b> મિશ્ર અપૂર્ણાંકમાં 9&frac12; છે. (9&frac12; એટલે <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>(9 &times; 2) + 1</span><span>2</span></span> = 19/2 થાય).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                a<sub>4</sub> = 19/2<br>
+                                a + 3d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>19</span><span>2</span></span><br>
+                                5 + 3d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>19</span><span>2</span></span><br>
+                                3d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>19</span><span>2</span></span> - 5<br>
+                                <span style='color:#047857; font-size:14px;'><i>(5 નો 2 સાથે લ.સા.અ. લેતાં)</i></span><br>
+                                3d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>19 - 10</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>2</span></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(3 ભાગાકારમાં એટલે કે 2 ની જોડે નીચે જશે)</i></span><br>
+                                d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>2 &times; 3</span></span> &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ખાલી બોક્સ શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>બીજું બોક્સ (a<sub>2</sub>):</b> a + d = 5 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10 + 3</span><span>2</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> (અથવા 6&frac12;)</b><br>
+                                
+                                <b>ત્રીજું બોક્સ (a<sub>3</sub>):</b> a<sub>2</sub> + d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>16</span><span>2</span></span> = <b style='color:#1d4ed8;'>8</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> શ્રેણી આ મુજબ બનશે:<br>
+                                5, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>6&frac12;</span>, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>8</span>, &nbsp; 9&frac12;
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
