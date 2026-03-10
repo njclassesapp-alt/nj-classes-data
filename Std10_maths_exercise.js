@@ -5883,6 +5883,145 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "સ્વા. 5.2 પ્રશ્ન 3(iv): ખાલી ખાનાના પદ શોધો: -4, [ ], [ ], [ ], [ ], 6", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આપેલ માહિતી પરથી સમીકરણ</b><br>
+                            અહીં પહેલું પદ આપેલ છે: <b style='color:#1d4ed8;'>a = -4</b><br>
+                            અને <b>છઠ્ઠું પદ</b> 6 આપેલ છે: <b style='color:#be123c;'>a<sub>6</sub> = 6</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(છઠ્ઠા પદનું સૂત્ર a + 5d વાપરીએ)</i></span><br>
+                                a + 5d = 6<br>
+                                <span style='color:#047857; font-size:14px;'><i>(આમાં a = -4 મૂકી દઈએ)</i></span><br>
+                                -4 + 5d = 6<br>
+                                <span style='color:#047857; font-size:14px;'><i>(-4 જમણી બાજુ જતાં પ્લસ થશે)</i></span><br>
+                                5d = 6 + 4<br>
+                                5d = 10<br>
+                                d = 10 / 5 &nbsp;&#10551;&nbsp; <b style='color:#16a34a;'>d = 2</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 4 ખાલી બોક્સ શોધવા</b><br>
+                            આપણને d = 2 મળી ગયો છે, એટલે કે પદમાં 2 ઉમેરતા જવાના છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>બીજું બોક્સ (a<sub>2</sub>):</b> a + d = -4 + 2 = <b style='color:#1d4ed8;'>-2</b><br>
+                                <b>ત્રીજું બોક્સ (a<sub>3</sub>):</b> a<sub>2</sub> + d = -2 + 2 = <b style='color:#1d4ed8;'>0</b><br>
+                                <b>ચોથું બોક્સ (a<sub>4</sub>):</b> a<sub>3</sub> + d = 0 + 2 = <b style='color:#1d4ed8;'>2</b><br>
+                                <b>પાંચમું બોક્સ (a<sub>5</sub>):</b> a<sub>4</sub> + d = 2 + 2 = <b style='color:#1d4ed8;'>4</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> શ્રેણી આ મુજબ બનશે:<br>
+                                -4, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>-2</span>, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>0</span>, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>2</span>, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>4</span>, &nbsp; 6
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 3(v): ખાલી ખાનાના પદ શોધો: [ ], 38, [ ], [ ], [ ], -22", 
+                    question_desc: "લોપની રીતવાળો અને બોર્ડમાં સૌથી વધુ પૂછાતો મોસ્ટ IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024-25 ની બ્લુપ્રિન્ટ મુજબ 3 માર્ક્સમાં પૂછાવા માટે સૌથી ફેવરિટ!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            અહીં <b>બીજું પદ 38</b> છે &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8; background-color:#e0f2fe; padding:2px 6px;'>a + d = 38</b> &nbsp; ...(સમીકરણ 1)<br>
+                            અહીં <b>છઠ્ઠું પદ -22</b> છે &nbsp;&#10551;&nbsp; <b style='color:#be123c; background-color:#fee2e2; padding:2px 6px;'>a + 5d = -22</b> &nbsp; ...(સમીકરણ 2)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી d શોધવો</b><br>
+                            સમીકરણ 1 માંથી 2 ની બાદબાકી કરતાં (નીચેના પદોની નિશાની બદલવી):
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; a + d = 38<br>
+                                <u><b style='color:#dc2626;'>-</b> a <b style='color:#dc2626;'>-</b> 5d = <b style='color:#16a34a;'>+</b> 22</u> &nbsp; <span style='color:#64748b; font-size:14px;'><i>(-22 નું +22 થઈ ગયું)</i></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(a ઉડી જશે. 1d માંથી 5d જાય તો -4d વધે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp; -4d = 60<br>
+                                &nbsp;&nbsp;&nbsp; d = 60 / -4 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = -15</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: a અને ખાલી બોક્સ શોધવા</b><br>
+                            d = -15 ને સમીકરણ 1 માં મૂકતાં:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a + d = 38<br>
+                                a + (-15) = 38<br>
+                                a - 15 = 38<br>
+                                a = 38 + 15 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 53</b> (આ આપણું પહેલું બોક્સ મળી ગયું!)<br><br>
+                                
+                                <b>બાકીના બોક્સ શોધવા (d = -15 ઉમેરતા જાવ):</b><br>
+                                <b>ત્રીજું બોક્સ (a<sub>3</sub>):</b> a<sub>2</sub> + d = 38 - 15 = <b style='color:#1d4ed8;'>23</b><br>
+                                <b>ચોથું બોક્સ (a<sub>4</sub>):</b> a<sub>3</sub> + d = 23 - 15 = <b style='color:#1d4ed8;'>8</b><br>
+                                <b>પાંચમું બોક્સ (a<sub>5</sub>):</b> a<sub>4</sub> + d = 8 - 15 = <b style='color:#1d4ed8;'>-7</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> શ્રેણી આ મુજબ બનશે:<br>
+                                <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>53</span>, &nbsp; 38, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>23</span>, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>8</span>, &nbsp; <span style='border:2px solid #0f172a; padding:4px 12px; display:inline-block; font-weight:bold; color:#be123c; background-color:#fef2f2;'>-7</span>, &nbsp; -22
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 4: સમાંતર શ્રેણી 3, 8, 13, 18, ... નું કેટલામું પદ 78 થાય?", 
+                    question_desc: "n શોધવાવાળો બોર્ડનો સૌથી ફેવરિટ અને બેઝિક ગણિત માટેનો IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> સમાંતર શ્રેણી 3, 8, 13, 18, ... નું કેટલામું પદ 78 થાય?</p>
+                        
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 માં બેઝિક ગણિતમાં 2 માર્ક્સ માટે પૂછાયેલ મોસ્ટ IMP દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે રકમમાં <b>"કેટલામું પદ"</b> પૂછ્યું હોય, ત્યારે સમજી લેવું કે આપણે <b>n શોધવાનો છે</b>. અને જે આંકડો (જેમ કે 78) આપ્યો હોય, તેને <b>a<sub>n</sub> (છેલ્લું પદ)</b> ધારી લેવું!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને a<sub>n</sub> નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#1d4ed8;'>3</b><br>
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = 8 - 3 = <b style='color:#dc2626;'>5</b><br>
+                                <b>અંતિમ પદ (<i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i>)</b> = <b style='color:#16a34a;'>78</b><br>
+                                <b>પદની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b>?</b> (આપણે શોધવાનું છે)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                78 = 3 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(5)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(પહેલા 3 ને ડાબી બાજુ લાવો એટલે માઇનસ થશે)</i></span><br>
+                                78 - 3 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(5)<br>
+                                75 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(5)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(હવે 5 ગુણાકારમાંથી ભાગાકારમાં જશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>75</span><span>5</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                15 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-1 ડાબી બાજુ આવે એટલે પ્લસ 1 થશે)</i></span><br>
+                                15 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>n</i> = 16</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                આપેલ સમાંતર શ્રેણીનું <b>16 મું પદ 78 થશે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -5890,16 +6029,6 @@ var njMathsExercise = {
             
         
                 
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-                                
+                                    
                     
 };
