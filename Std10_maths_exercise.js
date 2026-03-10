@@ -4159,9 +4159,80 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 4.2 પ્રશ્ન 6: એક કુટીર ઉદ્યોગ એક દિવસમાં કેટલાક માટીના વાસણો બનાવે છે...", 
+                    question_desc: "પ્રત્યેક વાસણની ઉત્પાદન કિંમત વાસણોની સંખ્યાના બમણા કરતાં 3 વધુ છે. બોર્ડ માટે 3 માર્ક્સનો IMP દાખલો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક કુટીર ઉદ્યોગ એક દિવસમાં કેટલાક માટીના વાસણો બનાવે છે. એક નિશ્ચિત દિવસે જણાયું કે પ્રત્યેક વાસણની ઉત્પાદન કિંમત (₹ માં) તે દિવસે ઉત્પાદિત વાસણોની સંખ્યાના બમણા કરતાં 3 વધુ હતી. જો તે દિવસે <b>કુલ ઉત્પાદન ખર્ચ ₹ 90</b> હોય, તો ઉત્પાદિત વાસણોની સંખ્યા અને પ્રત્યેક વાસણની ઉત્પાદન કિંમત શોધો.</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 અને 2025 ની બ્લુપ્રિન્ટ મુજબ સ્ટાન્ડર્ડ ગણિતમાં 3 માર્ક્સ માટે પૂછાતો મોસ્ટ IMP કૂટપ્રશ્ન!</b>
+                        </div>
+
+                        
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમીકરણની માસ્ટર ટ્રીક:</b><br>
+                            આવા દાખલામાં હંમેશા <b>કુલ ખર્ચ = (કુલ વસ્તુની સંખ્યા) &times; (એક વસ્તુની કિંમત)</b> આ સૂત્ર મગજમાં રાખવું. <br>
+                            (જેમ કે 5 પેન હોય અને એક પેન 10 રૂપિયાની હોય, તો કુલ ખર્ચ 5 &times; 10 = 50 થાય!)
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: વાસણની સંખ્યા અને કિંમત ધારવી</b><br>
+                            ધારો કે તે દિવસે ઉત્પાદિત <b>માટીના વાસણોની સંખ્યા = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i></b></b> છે.<br>
+                            હવે રકમ મુજબ, પ્રત્યેક વાસણની ઉત્પાદન કિંમત એ સંખ્યાના બમણા (2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>) કરતાં 3 વધુ (+3) છે.<br>
+                            તેથી, <b>એક વાસણની ઉત્પાદન કિંમત = <b style='color:#be123c;'>(2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 3) ₹</b></b> થશે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કુલ ખર્ચ પરથી સમીકરણ બનાવવું</b><br>
+                            રકમમાં આપેલ છે કે તે દિવસનો <b>કુલ ઉત્પાદન ખર્ચ ₹ 90</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                (વાસણોની સંખ્યા) &times; (એક વાસણની કિંમત) = કુલ ખર્ચ<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> &times; <b style='color:#be123c;'>(2<i style='font-family:"Times New Roman",serif;'>x</i> + 3)</b> = 90<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(x નો કૌંસમાં અંદર ગુણાકાર કરતાં)</i></span><br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 3<i style='font-family:"Times New Roman",serif;'>x</i> = 90<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(90 ને ડાબી બાજુ લાવતાં માઇનસ થશે)</i></span><br>
+                                <b style='color:#15803d;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + 3<i style='font-family:"Times New Roman",serif;'>x</i> - 90 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: અવયવીકરણથી ઉકેલ (180 ના ભાગ)</b><br>
+                            પ્રથમ પદ 2 અને છેલ્લું પદ -90 છે (2 &times; 90 = 180).<br>
+                            આપણે 180 ના એવા ભાગ પાડવાના છે જેની બાદબાકી 3 આવે.<br>
+                            <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>180 ના ભાગ: 15 &times; 12 = 180, અને 15 - 12 = 3 થાય!</i></span><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> <b style='color:#1d4ed8;'>+ 15<i style='font-family:"Times New Roman",serif;'>x</i> - 12<i style='font-family:"Times New Roman",serif;'>x</i></b> - 90 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>પહેલા બે માંથી માત્ર x અને છેલ્લા બે માંથી -6 સામાન્ય કાઢતા</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i>(2<i style='font-family:"Times New Roman",serif;'>x</i> + 15) - 6(2<i style='font-family:"Times New Roman",serif;'>x</i> + 15) = 0<br>
+                                (2<i style='font-family:"Times New Roman",serif;'>x</i> + 15)(<i style='font-family:"Times New Roman",serif;'>x</i> - 6) = 0<br><br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i> + 15 = 0 &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; <i style='font-family:"Times New Roman",serif;'>x</i> - 6 = 0<br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i> = -15 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i> = 6</b><br>
+                                <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif;'>x</i> = -15 / 2</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:15px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                વાસણોની સંખ્યા ક્યારેય ઋણ કે અપૂર્ણાંકમાં હોઈ શકે નહિ, તેથી <i style='font-family:"Times New Roman",serif;'>x</i> = -15/2 <b>શક્ય નથી</b>.<br>
+                                તેથી, <b>માટીના વાસણોની સંખ્યા = <i style='font-family:"Times New Roman",serif;'>x</i> = <span style='color:#1d4ed8;'>6</span></b> થશે.<br>
+                                અને <b>પ્રત્યેક વાસણની ઉત્પાદન કિંમત = 2<i style='font-family:"Times New Roman",serif;'>x</i> + 3 = 2(6) + 3 = 12 + 3 = <span style='color:#be123c;'>₹ 15</span></b> થશે.<br>
+                                <span style='color:#64748b; font-size:14px;'>(તાળો: 6 વાસણો &times; ₹ 15 = ₹ 90 કુલ ખર્ચ થઈ ગયો!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
