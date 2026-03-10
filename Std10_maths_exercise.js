@@ -3508,9 +3508,110 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                {
+                    question: "🎯 નોંધ: પ્રશ્ન 2 માટે ખાસ સૂચના",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>વિદ્યાર્થી મિત્રો ધ્યાન આપો:</p>
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <p style='margin:0; color:#0f172a; line-height:1.6;'>સ્વાધ્યાય 4.1 ના પ્રશ્ન 2 માં આપણે માત્ર આપેલ પરિસ્થિતિને <b>દ્વિઘાત સમીકરણ સ્વરૂપે દર્શાવવાની જ છે</b>. અહીં ઉકેલ (જવાબ) શોધવાની જરૂર નથી, ફક્ત સાચું સમીકરણ બની જાય એટલે દાખલો પૂરો!</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 4.1 પ્રશ્ન 2(i): એક લંબચોરસ પ્લોટનું ક્ષેત્રફળ 528 મી² છે. પ્લોટની લંબાઈ...", 
+                    question_desc: "તેની પહોળાઈના બમણાથી 1 મીટર જેટલી વધુ છે. આ માટે દ્વિઘાત સમીકરણની રચના કરો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> એક લંબચોરસ પ્લોટનું ક્ષેત્રફળ 528 મી<sup>2</sup> છે. પ્લોટની લંબાઈ (મીટરમાં) તેની પહોળાઈના બમણાથી 1 મીટર જેટલી વધુ છે. આપણે પ્લોટની લંબાઈ અને પહોળાઈ શોધવી છે. (આ પરિસ્થિતિ માટે દ્વિઘાત સમીકરણ બનાવો).</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 ની નવી પેપર સ્ટાઈલ મુજબ 2 માર્ક્સ માટે મોસ્ટ IMP</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમીકરણ કેવી રીતે બનશે? (માસ્ટર ટ્રીક)</b><br>
+                            આવા દાખલામાં જે વસ્તુ <b>નાની</b> હોય તેને હંમેશા <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ધારવી. અહીં લંબાઈ એ પહોળાઈ કરતાં મોટી છે, એટલે આપણે <b>પહોળાઈ ને <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> ધારીશું</b>. બીજું, લંબચોરસના ક્ષેત્રફળનું સૂત્ર (લંબાઈ &times; પહોળાઈ) યાદ રાખવું!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: લંબાઈ અને પહોળાઈ ધારવી</b><br>
+                            ધારો કે લંબચોરસ પ્લોટની પહોળાઈ = <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> મીટર</b> છે.<br>
+                            રકમ મુજબ, લંબાઈ એ પહોળાઈના બમણા (2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i>) થી 1 વધુ (+1) છે.<br>
+                            તેથી, પ્લોટની લંબાઈ = <b style='color:#1d4ed8;'>(2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 1) મીટર</b> થશે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ક્ષેત્રફળના સૂત્ર પરથી સમીકરણ બનાવવું</b><br>
+                            આપણને આપેલ છે કે પ્લોટનું ક્ષેત્રફળ 528 મી<sup>2</sup> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                લંબાઈ &times; પહોળાઈ = ક્ષેત્રફળ<br>
+                                <b style='color:#1d4ed8;'>(2<i style='font-family:"Times New Roman",serif;'>x</i> + 1)</b> &times; <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif;'>x</i></b> = 528<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(x નો કૌંસમાં ગુણાકાર: x &times; 2x = 2x<sup>2</sup> અને x &times; 1 = 1x)</i></span><br>
+                                2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif;'>x</i> = 528<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(528 ને ડાબી બાજુ લાવતાં નિશાની માઇનસ થશે)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'>2<i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif;'>x</i> - 528 = 0</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ નિષ્કર્ષ:</b> આમ, માંગેલ દ્વિઘાત સમીકરણ <b>2<i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 528 = 0</b> છે. 
+                                <span style='color:#64748b; font-size:14px;'>(અહીં દાખલો પૂરો થાય છે!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 4.1 પ્રશ્ન 2(ii): બે ક્રમિક ધન પૂર્ણાંકોનો ગુણાકાર 306 છે. આ માટે દ્વિઘાત સમીકરણ બનાવો.", 
+                    question_desc: "બેઝિક ગણિત માટે સૌથી સહેલો અને અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> બે <b>ક્રમિક</b> ધન પૂર્ણાંકોનો ગુણાકાર 306 છે. આપણે આ પૂર્ણાંકો શોધવા છે. (આ પરિસ્થિતિને દ્વિઘાત સમીકરણ સ્વરૂપે દર્શાવો).</p>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#15803d; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2025 ની બ્લુપ્રિન્ટ મુજબ બેઝિક ગણિત (Basic Math) માટે 100% પૂછાવા લાયક!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 'ક્રમિક' એટલે શું? (દેશી ભાષામાં):</b><br>
+                            'ક્રમિક' એટલે એક પછી તરત આવતી બીજી સંખ્યા. જેમ કે 5 પછી 6, 12 પછી 13. <br>
+                            કોઈપણ સંખ્યાની પછીની સંખ્યા જોઈતી હોય, તો તેમાં <b>1 ઉમેરવો પડે (+1)</b>.
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: ક્રમિક સંખ્યાઓ ધારવી</b><br>
+                            ધારો કે પહેલો ધન પૂર્ણાંક = <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i></b> છે.<br>
+                            તેથી, તેની પછીનો તરત આવતો ક્રમિક પૂર્ણાંક = <b style='color:#be123c;'><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> + 1</b> થશે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ગુણાકાર પરથી સમીકરણ બનાવવું</b><br>
+                            રકમ મુજબ આ બંને સંખ્યાઓનો ગુણાકાર 306 છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                (પહેલી સંખ્યા) &times; (બીજી સંખ્યા) = 306<br>
+                                <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i></b> &times; <b style='color:#be123c;'>(<i style='font-family:"Times New Roman",serif;'>x</i> + 1)</b> = 306<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(x નો કૌંસમાં ગુણાકાર: x &times; x = x<sup>2</sup> અને x &times; 1 = 1x)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif;'>x</i> = 306<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(306 ડાબી બાજુ લાવતાં માઇનસ થશે)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif;'>x</i> - 306 = 0</b>
+                            </div>
+                            
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ નિષ્કર્ષ:</b> આમ, માંગેલ દ્વિઘાત સમીકરણ <b><i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i><sup>2</sup> + <i style='font-family:"Times New Roman",serif; font-size:18px;'>x</i> - 306 = 0</b> છે. 
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
