@@ -5336,25 +5336,128 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 4(ix): ચકાસો કે સમાંતર શ્રેણી છે કે નહિ: 1, 3, 9, 27, ...", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: તફાવત (d) ચકાસવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = 3 - 1 = <b style='color:#1d4ed8;'>2</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = 9 - 3 = <b style='color:#dc2626;'>6</b><br>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>અંતિમ જવાબ:</b><br>
+                            અહીં 2 અને 6 સરખા નથી. <b>(a<sub>2</sub> - a<sub>1</sub>) &ne; (a<sub>3</sub> - a<sub>2</sub>)</b><br>
+                            <div style='margin-top:5px; background-color:#fee2e2; padding:8px; border-radius:4px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c;'>તેથી, આપેલ શ્રેણી સમાંતર શ્રેણી નથી.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 4(x): ચકાસો અને પછીના 3 પદ શોધો: a, 2a, 3a, 4a, ...", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: તફાવત (d) ચકાસવો</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(અહીં a એટલે એક વસ્તુ સમજવી. 2a માંથી 1a જાય તો 1a વધે!)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = 2a - a = <b style='color:#1d4ed8;'>a</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = 3a - 2a = <b style='color:#1d4ed8;'>a</b><br>
+                            </div>
+                            <span style='color:#047857; font-size:14px;'>અહીં તફાવત સમાન છે, તેથી <b>આ સમાંતર શ્રેણી છે</b> અને <b style='color:#1d4ed8;'>d = a</b> છે.</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પછીના 3 પદો શોધવા</b><br>
+                            ચોથું પદ 4a છે. હવે તેમાં d (એટલે કે a) ઉમેરતા જઈએ:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>5મું પદ:</b> 4a + a = <b style='color:#be123c;'>5a</b><br>
+                                <b>6ઠ્ઠું પદ:</b> 5a + a = <b style='color:#be123c;'>6a</b><br>
+                                <b>7મું પદ:</b> 6a + a = <b style='color:#be123c;'>7a</b><br>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ પછીના 3 પદો: <b style='color:#be123c;'>5a, 6a, 7a</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 4(xi): ચકાસો કે સમાંતર શ્રેણી છે કે નહિ: a, a², a³, a⁴, ...", 
+                    question_desc: "બોર્ડમાં ભૂલ કરાવતો દાખલો (ઘાત અને ગુણાકારનો ભેદ)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: તફાવત (d) ચકાસવો</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(નોંધ: ઘાતવાળા પદોની સીધી બાદબાકી ન થાય, સામાન્ય કાઢવું પડે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = a<sup>2</sup> - a = <b style='color:#1d4ed8;'>a(a - 1)</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = a<sup>3</sup> - a<sup>2</sup> = <b style='color:#dc2626;'>a<sup>2</sup>(a - 1)</b><br>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>અંતિમ જવાબ:</b><br>
+                            અહીં <b>a(a - 1)</b> અને <b>a<sup>2</sup>(a - 1)</b> સરખા નથી. <b>(a<sub>2</sub> - a<sub>1</sub>) &ne; (a<sub>3</sub> - a<sub>2</sub>)</b><br>
+                            <div style='margin-top:5px; background-color:#fee2e2; padding:8px; border-radius:4px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c;'>તેથી, આપેલ શ્રેણી સમાંતર શ્રેણી નથી.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.1 પ્રશ્ન 4(xii): ચકાસો અને પછીના 3 પદ શોધો: &radic;2, &radic;8, &radic;18, &radic;32, ...", 
+                    question_desc: "બોર્ડ પરીક્ષાનો ઑલ-ટાઈમ ફેવરિટ અને સુપર IMP વર્ગમૂળવાળો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (વર્ગમૂળને સાદું રૂપ આપો):</b><br>
+                            સીધી બાદબાકી ન કરો! પહેલા વર્ગમૂળની અંદર છુપાયેલા પૂર્ણવર્ગ (4, 9, 16) ને બહાર કાઢો.<br>
+                            • &radic;8 = &radic;(4 &times; 2) = <b>2&radic;2</b><br>
+                            • &radic;18 = &radic;(9 &times; 2) = <b>3&radic;2</b><br>
+                            • &radic;32 = &radic;(16 &times; 2) = <b>4&radic;2</b><br>
+                            એટલે કે આપણી શ્રેણી વાસ્તવમાં <b>&radic;2, 2&radic;2, 3&radic;2, 4&radic;2...</b> છે! (હવે સાવ સહેલું થઈ ગયું ને?)
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: તફાવત (d) ચકાસવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = 2&radic;2 - &radic;2 = <b style='color:#1d4ed8;'>&radic;2</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = 3&radic;2 - 2&radic;2 = <b style='color:#1d4ed8;'>&radic;2</b><br>
+                            </div>
+                            <span style='color:#047857; font-size:14px;'>અહીં તફાવત સમાન છે, તેથી <b>આ સમાંતર શ્રેણી છે</b> અને <b style='color:#1d4ed8;'>d = &radic;2</b> છે.</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પછીના 3 પદો શોધવા</b><br>
+                            ચોથું પદ 4&radic;2 છે. હવે તેમાં d (&radic;2) ઉમેરતા જઈએ, અને તેને ફરીથી આખા વર્ગમૂળમાં ફેરવીએ:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>5મું પદ:</b> 4&radic;2 + &radic;2 = <b style='color:#be123c;'>5&radic;2</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(5 ને વર્ગમૂળમાં લઈ જતાં 25 થાય: &radic;(25 &times; 2) = <b style='color:#be123c;'>&radic;50</b>)</i></span><br><br>
+                                
+                                <b>6ઠ્ઠું પદ:</b> 5&radic;2 + &radic;2 = <b style='color:#be123c;'>6&radic;2</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(6 અંદર જાય તો 36 થાય: &radic;(36 &times; 2) = <b style='color:#be123c;'>&radic;72</b>)</i></span><br><br>
+                                
+                                <b>7મું પદ:</b> 6&radic;2 + &radic;2 = <b style='color:#be123c;'>7&radic;2</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(7 અંદર જાય તો 49 થાય: &radic;(49 &times; 2) = <b style='color:#be123c;'>&radic;98</b>)</i></span><br>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ પછીના 3 પદો: <b style='color:#be123c;'>&radic;50, &radic;72, &radic;98</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-    
                 
             
                                 
