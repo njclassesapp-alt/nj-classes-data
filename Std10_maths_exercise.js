@@ -6440,9 +6440,141 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 13: 3 અંકની કેટલી સંખ્યા 7 વડે વિભાજ્ય હશે?", 
+                    question_desc: "બોર્ડમાં 3 માર્ક્સ માટે પૂછાતો શિક્ષકોનો ઑલ-ટાઈમ ફેવરિટ દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 ની બ્લુપ્રિન્ટ મુજબ બેઝિક અને સ્ટાન્ડર્ડ બંને માટે મોસ્ટ IMP દાખલો!</b>
+                        </div>
+
+                        [Image showing the first 3-digit number 105 and the last 3-digit number 994 divisible by 7]
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 શ્રેણી બનાવવાની દેશી ટ્રીક:</b><br>
+                            આપણને 3 અંકની સંખ્યા કહી છે. 3 અંક શરૂ થાય <b>100 થી</b> અને પૂરા થાય <b>999 એ</b>.<br>
+                            • <b>પહેલી સંખ્યા શોધવા:</b> 100 ને 7 વડે ભાગો. (14 &times; 7 = 98 થાય, જે 2 અંકની છે. તો 15 &times; 7 = <b>105</b>). મળી ગઈ પહેલી સંખ્યા!<br>
+                            • <b>છેલ્લી સંખ્યા શોધવા:</b> 999 ને 7 વડે ભાગો. શેષ 5 વધશે. બસ 999 માંથી એ 5 બાદ કરી દો (999 - 5 = <b>994</b>). મળી ગઈ છેલ્લી સંખ્યા!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: શ્રેણી અને પદો નક્કી કરવા</b><br>
+                            આપણી સમાંતર શ્રેણી બનશે: <b>105, 112, 119, ..., 994</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#1d4ed8;'>105</b><br>
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = <b style='color:#dc2626;'>7</b> <span style='color:#047857; font-size:14px;'><i>(કારણ કે 7 વડે વિભાજ્ય છે)</i></span><br>
+                                <b>અંતિમ પદ (<i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i>)</b> = <b style='color:#16a34a;'>994</b><br>
+                                <b>પદોની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b>?</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                994 = 105 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(7)<br>
+                                994 - 105 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(7)<br>
+                                889 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(7)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>889</span><span>7</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(889 નો 7 વડે ભાગાકાર: 127 આવે)</i></span><br>
+                                127 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                127 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>n</i> = 128</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 3 અંકની <b>કુલ 128 સંખ્યાઓ</b> 7 વડે વિભાજ્ય હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 14: 10 અને 250 વચ્ચે 4 ના કેટલા ગુણિત હશે?", 
+                    question_desc: "પ્રશ્ન 13 જેવો જ બીજો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: શ્રેણી બનાવવી</b><br>
+                            આપણે 10 અને 250 ની વચ્ચે 4 ના ઘડિયામાં આવતી (ગુણિત) સંખ્યાઓ શોધવાની છે.<br>
+                            • 10 પછી 4 ના ઘડિયામાં <b>12</b> આવે (4 &times; 3 = 12). તેથી <b>પહેલી સંખ્યા 12</b>.<br>
+                            • 250 ને 4 વડે ભાગીએ તો 2 શેષ વધે. 250 - 2 = <b>248</b>. તેથી <b>છેલ્લી સંખ્યા 248</b>.<br>
+                            <br>
+                            આપણી શ્રેણી: <b>12, 16, 20, ..., 248</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = <b style='color:#1d4ed8;'>12</b>, &nbsp; <b>d</b> = <b style='color:#dc2626;'>4</b>, &nbsp; <b>a<sub>n</sub></b> = <b style='color:#16a34a;'>248</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                248 = 12 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(4)<br>
+                                248 - 12 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(4)<br>
+                                236 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(4)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>236</span><span>4</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                59 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                59 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>n</i> = 60</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 10 અને 250 વચ્ચે 4 ના <b>કુલ 60 ગુણિત હશે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.2 પ્રશ્ન 15: n ના કયા મૂલ્ય માટે બે સમાંતર શ્રેણીઓ 63, 65, 67, ... અને 3, 10, 17, ... ના n માં પદ સમાન થાય?", 
+                    question_desc: "બે અલગ-અલગ શ્રેણીઓને સરખાવવાવાળો જોરદાર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને શ્રેણીના a અને d લખવા</b><br>
+                            <b>પહેલી શ્રેણી:</b> 63, 65, 67, ...<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                a = <b style='color:#1d4ed8;'>63</b>, &nbsp; d = 65 - 63 = <b style='color:#dc2626;'>2</b>
+                            </div><br>
+                            <b>બીજી શ્રેણી:</b> 3, 10, 17, ...<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                A = <b style='color:#1d4ed8;'>3</b>, &nbsp; D = 10 - 3 = <b style='color:#dc2626;'>7</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બંનેના n માં પદ સરખાવવા</b><br>
+                            રકમ મુજબ બંનેના n માં પદ (a<sub>n</sub>) સમાન છે. એટલે કે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1e3a8a;'>પહેલી શ્રેણીનું n મું પદ = બીજી શ્રેણીનું n મું પદ</b><br>
+                                a + (n - 1)d = A + (n - 1)D<br>
+                                63 + (n - 1)(2) = 3 + (n - 1)(7)<br>
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસનો ગુણાકાર કરીએ)</i></span><br>
+                                63 + 2n - 2 = 3 + 7n - 7<br>
+                                <span style='color:#047857; font-size:14px;'><i>(સાદુરૂપ આપીએ)</i></span><br>
+                                61 + 2n = -4 + 7n<br>
+                                <span style='color:#047857; font-size:14px;'><i>(n વાળા પદો એક બાજુ અને સંખ્યા બીજી બાજુ)</i></span><br>
+                                61 + 4 = 7n - 2n<br>
+                                65 = 5n<br>
+                                n = 65 / 5 &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#1d4ed8;'>n = 13</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> બંને શ્રેણીના <b>13 માં પદ</b> એકબીજાને સમાન હશે!
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
