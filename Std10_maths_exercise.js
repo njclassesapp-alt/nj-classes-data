@@ -4794,9 +4794,143 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 1(iii): પ્રત્યેક મીટરના ખોદકામ પછી, એક કૂવો ખોદવા માટે લાગતો ખર્ચ...", 
+                    question_desc: "પ્રથમ મીટરના ₹ 150 અને પછીના પ્રત્યેક મીટર દીઠ ₹ 50 વધતો જાય છે. (ચકાસો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> પ્રત્યેક મીટરના ખોદકામ પછી, એક કૂવો ખોદવા માટે લાગતો ખર્ચ, પ્રથમ મીટરના ₹ 150 અને પછીના પ્રત્યેક મીટર દીઠ ₹ 50 વધતો જાય છે. (શું આ સમાંતર શ્રેણી છે?)</p>
+
+                        
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: શ્રેણીના પદો (a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>) શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>પ્રથમ 1 મીટરનો ખર્ચ (a<sub>1</sub>)</b> = ₹ 150<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>હવે દર મીટરે ₹ 50 વધતા જશે</i></span><br>
+                                <b style='color:#1d4ed8;'>2 મીટરનો કુલ ખર્ચ (a<sub>2</sub>)</b> = 150 + 50 = <b style='color:#be123c;'>200</b><br>
+                                <b style='color:#1d4ed8;'>3 મીટરનો કુલ ખર્ચ (a<sub>3</sub>)</b> = 200 + 50 = <b style='color:#be123c;'>250</b><br>
+                                <b style='color:#1d4ed8;'>4 મીટરનો કુલ ખર્ચ (a<sub>4</sub>)</b> = 250 + 50 = <b style='color:#be123c;'>300</b><br>
+                            </div>
+                            <span style='font-size:15px;'>આમ, આપણને મળતી શ્રેણી: <b>150, 200, 250, 300, ...</b></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સામાન્ય તફાવત (d) ચકાસવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = 200 - 150 = <b style='color:#16a34a;'>50</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = 250 - 200 = <b style='color:#16a34a;'>50</b><br>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: કારણ અને અંતિમ જવાબ</b><br>
+                            <div style='background-color:#dcfce7; padding:10px; border-radius:5px; margin-top:5px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                અહીં ક્રમિક પદો વચ્ચેનો સામાન્ય તફાવત (d) <b>સમાન (50)</b> રહે છે. <br>
+                                તેથી, <b>હા, આ પરિસ્થિતિ સમાંતર શ્રેણી બનાવે છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.1 પ્રશ્ન 1(iv): 8 % ના વાર્ષિક ચક્રવૃદ્ધિ દરથી શરૂઆતની રકમ ₹ 10000 મુકેલ હોય...", 
+                    question_desc: "તો દર વર્ષે ખાતામાં જમા થતી રકમ સમાંતર શ્રેણી બનાવે છે કે નહિ? ચકાસો.",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <p style='color:#0f172a; line-height:1.6;'><b>રકમ:</b> 8 % ના વાર્ષિક ચક્રવૃદ્ધિ દરથી શરૂઆતની રકમ ₹ 10000 મુકેલ હોય, તો દર વર્ષે ખાતામાં જમા થતી રકમ. (શું આ સમાંતર શ્રેણી છે?)</p>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા શોર્ટકટ ટ્રીક: યાદ રાખો, 'ચક્રવૃદ્ધિ વ્યાજ' ક્યારેય સમાંતર શ્રેણી બનાવતું નથી! (માત્ર સાદું વ્યાજ જ બનાવે). ખાલી જગ્યા માટે આ ગોખી લેવું.</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પદો (a<sub>1</sub>, a<sub>2</sub>, a<sub>3</sub>) શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>શરૂઆતની રકમ (a<sub>1</sub>)</b> = <b style='color:#be123c;'>10000</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>1 વર્ષના અંતે વ્યાજ = (10000 &times; 8) / 100 = 800 ઉમેરાશે</i></span><br>
+                                <b style='color:#1d4ed8;'>1 વર્ષ પછી રકમ (a<sub>2</sub>)</b> = 10000 + 800 = <b style='color:#be123c;'>10800</b><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>ચક્રવૃદ્ધિ વ્યાજ એટલે વ્યાજનું વ્યાજ! હવે 10800 ના 8% વ્યાજ ગણાશે! (10800 &times; 8 / 100 = 864)</i></span><br>
+                                <b style='color:#1d4ed8;'>2 વર્ષ પછી રકમ (a<sub>3</sub>)</b> = 10800 + 864 = <b style='color:#be123c;'>11664</b>
+                            </div>
+                            <span style='font-size:15px;'>આમ, આપણને મળતી શ્રેણી: <b>10000, 10800, 11664, ...</b></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સામાન્ય તફાવત (d) ચકાસવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                d = a<sub>2</sub> - a<sub>1</sub> = 10800 - 10000 = <b style='color:#dc2626;'>800</b><br>
+                                d = a<sub>3</sub> - a<sub>2</sub> = 11664 - 10800 = <b style='color:#dc2626;'>864</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: કારણ અને અંતિમ જવાબ</b><br>
+                            અહીં તફાવત સમાન નથી. <b>800 &ne; 864</b> એટલે કે <b>(a<sub>2</sub> - a<sub>1</sub>) &ne; (a<sub>3</sub> - a<sub>2</sub>)</b>
+                            
+                            <div style='background-color:#fee2e2; padding:10px; border-radius:5px; margin-top:10px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:18px;'>અંતિમ જવાબ:</b> <br>
+                                અહીં ક્રમિક પદો વચ્ચેનો તફાવત સમાન રહેતો નથી. <br>
+                                તેથી, <b>ના, આ પરિસ્થિતિ સમાંતર શ્રેણી બનાવતી નથી.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                {
+                    question: "🎯 પ્રશ્ન 2 માટે માસ્ટર ટ્રીક: શ્રેણીના 4 પદો કેવી રીતે શોધવા?",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>પ્રશ્ન 2 ના દાખલા ગણવા માટેની સાવ દેશી ટ્રીક:</p>
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <p style='margin:0; color:#0f172a; line-height:1.6;'>જ્યારે પ્રથમ પદ (a) અને તફાવત (d) આપ્યો હોય, ત્યારે <b>આગળના પદમાં ફક્ત d ઉમેરતા જાવ!</b><br>
+                            - પહેલું પદ = a<br>
+                            - બીજું પદ = પહેલું પદ + d<br>
+                            - ત્રીજું પદ = બીજું પદ + d<br>
+                            બસ, આ રીતે સરવાળો કરતા જાવ એટલે નવી સંખ્યા મળતી જશે!</p>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.1 પ્રશ્ન 2(i) & (ii): a અને d ના મૂલ્યો પરથી સમાંતર શ્રેણીના પ્રથમ 4 પદ શોધો.", 
+                    question_desc: "(i) a = 10, d = 10  અને  (ii) a = -2, d = 0",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>દાખલો (i): a = 10, d = 10</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a<sub>1</sub>)</b> = a = <b style='color:#1d4ed8;'>10</b><br>
+                                <b>બીજું પદ (a<sub>2</sub>)</b> = a<sub>1</sub> + d = 10 + 10 = <b style='color:#1d4ed8;'>20</b><br>
+                                <b>ત્રીજું પદ (a<sub>3</sub>)</b> = a<sub>2</sub> + d = 20 + 10 = <b style='color:#1d4ed8;'>30</b><br>
+                                <b>ચોથું પદ (a<sub>4</sub>)</b> = a<sub>3</sub> + d = 30 + 10 = <b style='color:#1d4ed8;'>40</b><br>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> માંગેલ પ્રથમ 4 પદો: <b>10, 20, 30, 40</b> છે.</div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>દાખલો (ii): a = -2, d = 0</b><br>
+                            <span style='color:#64748b; font-size:14px;'><i>(અહીં તફાવત 0 છે, એટલે કે પદમાં કોઈ ફેરફાર થશે જ નહિ!)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a<sub>1</sub>)</b> = a = <b style='color:#be123c;'>-2</b><br>
+                                <b>બીજું પદ (a<sub>2</sub>)</b> = -2 + 0 = <b style='color:#be123c;'>-2</b><br>
+                                <b>ત્રીજું પદ (a<sub>3</sub>)</b> = -2 + 0 = <b style='color:#be123c;'>-2</b><br>
+                                <b>ચોથું પદ (a<sub>4</sub>)</b> = -2 + 0 = <b style='color:#be123c;'>-2</b><br>
+                            </div>
+                            <div style='margin-top:10px;'><b>જવાબ:</b> માંગેલ પ્રથમ 4 પદો: <b>-2, -2, -2, -2</b> છે.</div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
     
                 
             
