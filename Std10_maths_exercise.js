@@ -9706,9 +9706,203 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 9: આપેલ આકૃતિમાં &Delta;ABC અને &Delta;AMP એ કાટકોણ ત્રિકોણો છે, જ્યાં &ang;B અને &ang;M કાટખૂણા છે. સાબિત કરો કે: (i) &Delta;ABC &sim; &Delta;AMP (ii) CA/PA = BC/MP.", 
+                    question_desc: "2025 ની બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સૌથી સહેલો 'ખુ-ખુ' શરતનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="200" viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,160 160,160 160,40" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                                <polygon points="40,160 100,100 60,60" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <line x1="40" y1="160" x2="60" y2="60" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="60" y1="60" x2="100" y2="100" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <polyline points="150,160 150,150 160,150" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="93,107 86,100 93,93" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <text x="20" y="175" font-size="16" font-weight="bold">A</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="165" y="35" font-size="16" font-weight="bold">C</text>
+                                <text x="105" y="115" font-size="16" font-weight="bold">M</text>
+                                <text x="45" y="55" font-size="16" font-weight="bold">P</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            આ બંને ત્રિકોણોમાં <b>&ang;A તો સામાન્ય જ છે</b> (બંનેમાં આવે છે). અને બીજો એક-એક ખૂણો <b>કાટખૂણો (90&deg;)</b> આપેલો જ છે! બસ, <b>ખુ-ખુ શરત</b> લગાવો અને દાખલો પૂરો!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            &Delta;ABC માં <b>&ang;B = 90&deg;</b> છે, અને &Delta;AMP માં <b>&ang;M = 90&deg;</b> છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            (i) <b>&Delta;ABC &sim; &Delta;AMP</b><br>
+                            (ii) <b>CA / PA = BC / MP</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b style='color:#dc2626;'>ભાગ (i) ની સાબિતી:</b><br>
+                                <b>&Delta;ABC અને &Delta;AMP માં સરખામણી કરતા:</b><br>
+                                <b>1.</b> &ang;ABC = &ang;AMP = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષમાં આપેલ છે)</i></span><br>
+                                <b>2.</b> &ang;A = &ang;A <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br>
+                                <b>નિષ્કર્ષ:</b> બે ખૂણાઓ સમાન હોવાથી <b>ખુ-ખુ (AA) સમરૂપતાની શરત</b> મુજબ:<br>
+                                <b style='color:#16a34a; font-size:18px;'>&Delta;ABC &sim; &Delta;AMP</b> <i style='color:#15803d;'>(પરિણામ i સાબિત થયું)</i><br><br>
+                                
+                                <b style='color:#dc2626;'>ભાગ (ii) ની સાબિતી:</b><br>
+                                આપણે ઉપર સાબિત કર્યું કે <b>&Delta;ABC &sim; &Delta;AMP</b> છે.<br>
+                                આપણે જાણીએ છીએ કે <b>સમરૂપ ત્રિકોણોની અનુરૂપ બાજુઓનો ગુણોત્તર સમાન હોય છે.</b><br>
+                                તેથી નામ પરથી જ જોડીઓ બનાવતા:<br>
+                                <b style='color:#1d4ed8; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>CA</span><span>PA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>BC</span><span>MP</span></span></b><br>
+                                <i style='color:#15803d;'>(પરિણામ ii સાબિત થયું)</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 10: CD અને GH અનુક્રમે &ang;ACB અને &ang;EGF ના દ્વિભાજક છે અને બિંદુઓ D અને H અનુક્રમે &Delta;ABC અને &Delta;EFG ની બાજુઓ AB અને FE પર આવેલા છે. જો &Delta;ABC &sim; &Delta;FEG હોય, તો સાબિત કરો કે: (i) CD/GH = AC/FG (ii) &Delta;DCB &sim; &Delta;HGE (iii) &Delta;DCA &sim; &Delta;HGF.", 
+                    question_desc: "2 મોટા ત્રિકોણોની સમરૂપતા પરથી નાના ત્રિકોણોની સાબિતીનો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#fdf4ff; border:1px solid #f0abfc; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="150" viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="70,20 20,120 120,120" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="70" y1="20" x2="70" y2="120" stroke="#dc2626" stroke-width="2" stroke-dasharray="4,2"/>
+                                <text x="65" y="15" font-size="14" font-weight="bold">C</text>
+                                <text x="5" y="130" font-size="14" font-weight="bold">A</text>
+                                <text x="125" y="130" font-size="14" font-weight="bold">B</text>
+                                <text x="65" y="135" font-size="14" font-weight="bold" fill="#dc2626">D</text>
+
+                                <polygon points="210,20 160,120 260,120" fill="#fff7ed" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="210" y1="20" x2="210" y2="120" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="4,2"/>
+                                <text x="205" y="15" font-size="14" font-weight="bold">G</text>
+                                <text x="145" y="130" font-size="14" font-weight="bold">F</text>
+                                <text x="265" y="130" font-size="14" font-weight="bold">E</text>
+                                <text x="205" y="135" font-size="14" font-weight="bold" fill="#1d4ed8">H</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 કન્સેપ્ટ:</b><br>
+                            મોટા ત્રિકોણો પહેલાથી જ સમરૂપ આપેલા છે. એટલે તેમના ખૂણા સમાન જ હશે! <b>(&ang;A = &ang;F, &ang;B = &ang;E, &ang;C = &ang;G)</b>.<br>
+                            ખૂણા C અને G ના દ્વિભાજક (અડધા કટકા) કર્યા છે, તો <b>અડધા ખૂણા પણ એકબીજાને સમાન જ થાય!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            <b>&Delta;ABC &sim; &Delta;FEG</b> આપેલ છે. (ખાસ ધ્યાન: A જોડે F અને B જોડે E છે).<br>
+                            CD એ &ang;C નો અને GH એ &ang;G નો દ્વિભાજક છે.
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a; font-size:15px;'>પાયાની તૈયારી:</b><br>
+                                &Delta;ABC &sim; &Delta;FEG આપેલ હોવાથી: &ang;A = &ang;F, &ang;B = &ang;E અને &ang;C = &ang;G થાય.<br>
+                                હવે &ang;C = &ang;G હોવાથી, તેમના અડધા ખૂણા પણ સમાન થાય:<br>
+                                &ang;ACD = &ang;FGH <i>(ડાબી બાજુના અડધા ખૂણા)</i><br>
+                                &ang;DCB = &ang;HGE <i>(જમણી બાજુના અડધા ખૂણા)</i><br><br>
+
+                                <b style='color:#dc2626; font-size:16px;'>સાબિતી (iii) પહેલા ગણીશું (&Delta;DCA &sim; &Delta;HGF):</b><br>
+                                ડાબી બાજુના બે નાના ત્રિકોણો <b>&Delta;DCA</b> અને <b>&Delta;HGF</b> માં:<br>
+                                • &ang;A = &ang;F <span style='color:#047857; font-size:14px;'><i>(મોટા ત્રિકોણ સમરૂપ હોવાથી)</i></span><br>
+                                • &ang;ACD = &ang;FGH <span style='color:#047857; font-size:14px;'><i>(અડધા ખૂણા સમાન છે)</i></span><br>
+                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>&Delta;DCA &sim; &Delta;HGF</b> <i>(સાબિત થયું)</i><br><br>
+
+                                <b style='color:#1d4ed8; font-size:16px;'>સાબિતી (i):</b><br>
+                                ઉપર આપણે સાબિત કર્યું કે &Delta;DCA &sim; &Delta;HGF છે. તો તેમની બાજુઓનો ગુણોત્તર સમાન જ હોય:<br>
+                                <b style='color:#16a34a; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>CD</span><span>GH</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>FG</span></span></b> <i>(સાબિત થયું)</i><br><br>
+
+                                <b style='color:#ea580c; font-size:16px;'>સાબિતી (ii) (&Delta;DCB &sim; &Delta;HGE):</b><br>
+                                જમણી બાજુના બે નાના ત્રિકોણો <b>&Delta;DCB</b> અને <b>&Delta;HGE</b> માં:<br>
+                                • &ang;B = &ang;E <span style='color:#047857; font-size:14px;'><i>(મોટા ત્રિકોણ સમરૂપ હોવાથી)</i></span><br>
+                                • &ang;DCB = &ang;HGE <span style='color:#047857; font-size:14px;'><i>(અડધા ખૂણા સમાન છે)</i></span><br>
+                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>&Delta;DCB &sim; &Delta;HGE</b> <i>(સાબિત થયું)</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 11: આપેલ આકૃતિમાં AB = AC હોય તેવા સમદ્વિબાજુ ત્રિકોણ ABC ની લંબાવેલી બાજુ CB પર બિંદુ E આવેલું છે. જો AD &perp; BC અને EF &perp; AC હોય, તો સાબિત કરો કે &Delta;ABD &sim; &Delta;ECF.", 
+                    question_desc: "2024 બોર્ડમાં 2 માર્ક્સ માટે પૂછાઈ ગયેલો સુપર હિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 માં 2 માર્ક્સ માટે પૂછાયેલો સમદ્વિબાજુ ત્રિકોણનો દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="170" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="10" y1="140" x2="160" y2="140" stroke="#0f172a" stroke-width="2"/>
+                                <polygon points="100,20 50,140 150,140" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <line x1="100" y1="20" x2="100" y2="140" stroke="#dc2626" stroke-width="2"/>
+                                <line x1="10" y1="140" x2="129" y2="90" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <polyline points="100,130 110,130 110,140" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <polygon points="129,90 120,86 116,95 125,99" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <text x="95" y="15" font-size="16" font-weight="bold">A</text>
+                                <text x="45" y="160" font-size="16" font-weight="bold">B</text>
+                                <text x="155" y="160" font-size="16" font-weight="bold">C</text>
+                                <text x="95" y="160" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+                                <text x="5" y="160" font-size="16" font-weight="bold">E</text>
+                                <text x="135" y="85" font-size="16" font-weight="bold" fill="#1d4ed8">F</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (સમદ્વિબાજુ ત્રિકોણનો નિયમ):</b><br>
+                            આપણને પક્ષમાં <b>AB = AC</b> આપેલું છે. આપણે જાણીએ છીએ કે <b>"સમાન બાજુઓની સામેના ખૂણા સમાન હોય છે."</b><br>
+                            એટલે કે &ang;B = &ang;C થશે! બસ આ જ ટ્રીકનો ઉપયોગ સાબિતીમાં કરવાનો છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            &Delta;ABC સમદ્વિબાજુ છે જેમાં <b>AB = AC</b> છે.<br>
+                            <b>AD &perp; BC</b> (એટલે &ang;D = 90&deg;) અને <b>EF &perp; AC</b> (એટલે &ang;F = 90&deg;).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>&Delta;ABD &sim; &Delta;ECF</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1.</b> &Delta;ABC માં પક્ષ મુજબ AB = AC છે.<br>
+                                તેથી તેમના સામસામેના ખૂણા સમાન થાય: <b>&ang;B = &ang;C</b> &nbsp;&nbsp; <b>... (પરિણામ 1)</b><br><br>
+                                
+                                <b>2. ત્રિકોણ &Delta;ABD અને &Delta;ECF માં સરખામણી:</b><br>
+                                • &ang;ADB = &ang;EFC = 90&deg; <span style='color:#047857; font-size:14px;'><i>(બંને વેધ હોવાથી કાટખૂણા છે)</i></span><br>
+                                • &ang;ABD = &ang;ECF <span style='color:#047857; font-size:14px;'><i>(પરિણામ 1 મુજબ &ang;B = &ang;C)</i></span><br><br>
+                                
+                                <b>નિષ્કર્ષ:</b> બે ખૂણાઓ સમાન હોવાથી <b>ખુ-ખુ (AA) સમરૂપતાની શરત</b> મુજબ:<br>
+                                <b style='color:#16a34a; font-size:20px;'>&Delta;ABD &sim; &Delta;ECF</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
