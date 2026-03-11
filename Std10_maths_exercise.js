@@ -8173,9 +8173,122 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 19: લાકડાની 200 ભારીઓ (Logs) નીચે મુજબ ગોઠવેલ છે: તળિયાની હારમાં 20, તેની ઉપરની હારમાં 19, તેની ઉપર 18... આ 200 ભારીઓ ગોઠવવા કેટલી હાર (n) થશે અને સૌથી ઉપરની હારમાં કેટલી ભારીઓ (an) હશે?", 
+                    question_desc: "દ્વિઘાત સમીકરણ અને 2 જવાબો વાળો 4 માર્ક્સનો સુપર IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>લાકડાની ભારીઓની ગોઠવણીની સમજૂતી:</b><br>
+                            <div style='display:flex; flex-direction:column; align-items:center; margin-top:10px; gap:2px;'>
+                                <div style='display:flex; gap:2px;'><div style='width:20px; height:20px; background-color:#854d0e; border-radius:50%; border:2px solid #713f12;'></div><div style='width:20px; height:20px; background-color:#854d0e; border-radius:50%; border:2px solid #713f12;'></div><div style='width:20px; height:20px; background-color:#854d0e; border-radius:50%; border:2px solid #713f12;'></div></div>
+                                <div style='display:flex; gap:2px;'><div style='width:20px; height:20px; background-color:#a16207; border-radius:50%; border:2px solid #854d0e;'></div><div style='width:20px; height:20px; background-color:#a16207; border-radius:50%; border:2px solid #854d0e;'></div><div style='width:20px; height:20px; background-color:#a16207; border-radius:50%; border:2px solid #854d0e;'></div><div style='width:20px; height:20px; background-color:#a16207; border-radius:50%; border:2px solid #854d0e;'></div></div>
+                                <div style='display:flex; gap:2px;'><div style='width:20px; height:20px; background-color:#ca8a04; border-radius:50%; border:2px solid #a16207;'></div><div style='width:20px; height:20px; background-color:#ca8a04; border-radius:50%; border:2px solid #a16207;'></div><div style='width:20px; height:20px; background-color:#ca8a04; border-radius:50%; border:2px solid #a16207;'></div><div style='width:20px; height:20px; background-color:#ca8a04; border-radius:50%; border:2px solid #a16207;'></div><div style='width:20px; height:20px; background-color:#ca8a04; border-radius:50%; border:2px solid #a16207;'></div></div>
+                            </div>
+                            <span style='font-size:13px; color:#64748b;'><i>(ઉપર જતા લાકડા ઓછા થતા જાય છે)</i></span>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: શ્રેણી બનાવવી અને સમીકરણ મૂકવું</b><br>
+                            શ્રેણી: <b>20, 19, 18, ...</b><br>
+                            અહીં <b>a = 20</b>, <b>d = 19 - 20 = -1</b> અને કુલ ભારીઓ <b>S<sub>n</sub> = 200</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                200 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2(20) + (n - 1)(-1) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(છેદનો 2 ડાબી બાજુ જશે: 200 &times; 2 = 400)</i></span><br>
+                                400 = n [ 40 - n + 1 ]<br>
+                                400 = n [ 41 - n ]<br>
+                                400 = 41n - n<sup>2</sup><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બધાને ડાબી બાજુ લાવીએ જેથી n<sup>2</sup> પ્લસ થાય)</i></span><br>
+                                <b style='color:#dc2626;'>n<sup>2</sup> - 41n + 400 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અવયવ પાડી n શોધવો</b><br>
+                            400 ના એવા ભાગ પાડો કે સરવાળો 41 આવે! <b>(25 &times; 16 = 400)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                n<sup>2</sup> - 25n - 16n + 400 = 0<br>
+                                n(n - 25) - 16(n - 25) = 0<br>
+                                (n - 25)(n - 16) = 0<br><br>
+                                <b>n = 25</b> &nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; <b>n = 16</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: કયો જવાબ સાચો છે તે ચકાસવું (અને a<sub>n</sub> શોધવો)</b><br>
+                            <b>જો n = 25 લઈએ:</b><br>
+                            a<sub>25</sub> = a + 24d = 20 + 24(-1) = 20 - 24 = <b style='color:#dc2626;'>-4</b><br>
+                            <span style='color:#0f172a; font-size:14px;'><i>(લાકડાની ભારીઓ માઇનસમાં થોડી હોય? એટલે આ જવાબ શક્ય નથી!)</i></span><br><br>
+                            <b>જો n = 16 લઈએ:</b><br>
+                            a<sub>16</sub> = a + 15d = 20 + 15(-1) = 20 - 15 = <b style='color:#1d4ed8;'>5</b>
+                            
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> <br>
+                                ભારીઓની કુલ હાર <b style='color:#1d4ed8;'>16</b> થશે, અને સૌથી ઉપરની હારમાં <b style='color:#1d4ed8;'>5</b> ભારીઓ હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 20: એક બટાકા દોડની હરીફાઈમાં પ્રથમ બટાકું ડોલથી 5 મીટર અને બાકીના બટાકા 3-3 મીટરના અંતરે છે (કુલ 10 બટાકા છે). હરીફે દરેક વખતે ડોલથી દોડી બટાકું ઉપાડી પાછું ડોલમાં નાખવાનું છે. તો હરીફે કુલ કેટલું અંતર દોડવું પડશે?", 
+                    question_desc: "પ્રકરણ 5 નો સૌથી છેલ્લો અને મજેદાર કૂટપ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 બટાકા દોડની ડબલ અંતરવાળી ટ્રીક:</b><br>
+                            હરીફ બટાકું લેવા <b>જશે પણ ખરો અને લઈને ડોલ સુધી પાછો પણ આવશે!</b><br>
+                            એટલે જે અંતર હોય તેના <b>ડબલ (x 2)</b> કરી દેવાના.<br>
+                            <div style='display:flex; align-items:center; gap:10px; margin-top:10px; flex-wrap:wrap;'>
+                                <div style='width:30px; height:35px; border:3px solid #0f172a; border-top:none; border-bottom-left-radius:5px; border-bottom-right-radius:5px; background-color:#e2e8f0; position:relative;'>
+                                    <div style='position:absolute; top:-5px; left:-5px; right:-5px; height:10px; border:2px solid #0f172a; border-radius:50%;'></div>
+                                </div>
+                                <span style='color:#0f172a; font-weight:bold;'>&#8644;</span>
+                                <div style='width:15px; height:12px; background-color:#a16207; border-radius:50%;'></div> <span style='font-size:12px;'>5m</span>
+                                <div style='width:15px; height:12px; background-color:#a16207; border-radius:50%;'></div> <span style='font-size:12px;'>8m</span>
+                                <div style='width:15px; height:12px; background-color:#a16207; border-radius:50%;'></div> <span style='font-size:12px;'>11m</span>
+                                <span>... 10 બટાકા સુધી!</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: અંતરની શ્રેણી બનાવવી</b><br>
+                            • પ્રથમ બટાકા માટે દોડવું પડતું અંતર: 2 &times; (5) = <b style='color:#1d4ed8;'>10 મીટર</b><br>
+                            • બીજા બટાકા માટે: 2 &times; (5 + 3) = 2 &times; 8 = <b style='color:#dc2626;'>16 મીટર</b><br>
+                            • ત્રીજા બટાકા માટે: 2 &times; (8 + 3) = 2 &times; 11 = <b style='color:#dc2626;'>22 મીટર</b><br><br>
+                            <b>આપણી શ્રેણી:</b> 10, 16, 22, ... 10 પદો સુધી (કારણ કે 10 બટાકા છે).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = 10, &nbsp; <b>d</b> = 16 - 10 = 6, &nbsp; <b>n</b> = 10
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કુલ અંતર (S<sub>10</sub>) શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>2</span></span> [ 2(10) + (10 - 1)(6) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 5 [ 20 + (9)(6) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 5 [ 20 + 54 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 5 [ 74 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(74 &times; 5 = 370)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 370</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> હરીફે કુલ <b style='color:#be123c;'>370 મીટર</b> અંતર દોડવું પડશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
