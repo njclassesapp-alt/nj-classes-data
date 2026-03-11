@@ -10289,16 +10289,14 @@ var njMathsExercise = {
                     answer: `
                     <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
                         <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા સ્વાધ્યાય 7.1 માટે માત્ર આ એક જ સૂત્ર યાદ રાખવાનું છે!</p>
-                        
                         <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px;'>
                             <b style='color:#1d4ed8; font-size:18px;'>અંતર સૂત્ર (વર્ગમૂળ વાળું મેઈન સૂત્ર):</b><br>
                             
                             <div style='overflow-x:auto; white-space:nowrap; margin-top:15px; background-color:#fee2e2; padding:15px; border-radius:8px; text-align:center;'>
                                 <span style='font-size:24px; color:#be123c; font-weight:bold;'>
-                                    d = &radic;<span style='text-decoration:overline;'>&nbsp;(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>&nbsp;</span>
+                                    d = &radic;<span style='border-top:2.5px solid #be123c; display:inline-block; padding-top:2px;'>&nbsp;(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>&nbsp;</span>
                                 </span>
                             </div>
-
                         </div>
 
                         <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:15px; border-radius:5px;'>
