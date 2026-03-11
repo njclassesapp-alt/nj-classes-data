@@ -8674,9 +8674,140 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 3: આપેલ આકૃતિમાં જો LM || CB અને LN || CD હોય, તો સાબિત કરો કે AM / AB = AN / AD.", 
+                    question_desc: "2024 અને 2025 ની બોર્ડ પરીક્ષામાં 2 માર્ક્સ માટે પૂછાતો મોસ્ટ IMP સાબિતીનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024 અને 2025 માટે થેલ્સના પ્રમેય પર આધારિત 100% IMP સાબિતી!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="240" height="170" viewBox="0 0 240 170" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="20,80 120,20 220,80" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polygon points="20,80 120,140 220,80" fill="#fff7ed" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="20" y1="80" x2="220" y2="80" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="70" y1="50" x2="120" y2="80" stroke="#dc2626" stroke-width="3" stroke-dasharray="4,2"/>
+                                <line x1="120" y1="20" x2="220" y2="80" stroke="#dc2626" stroke-width="3"/>
+                                <line x1="70" y1="110" x2="120" y2="80" stroke="#16a34a" stroke-width="3" stroke-dasharray="4,2"/>
+                                <line x1="120" y1="140" x2="220" y2="80" stroke="#16a34a" stroke-width="3"/>
+                                
+                                <text x="5" y="85" font-size="16" font-weight="bold">A</text>
+                                <text x="115" y="15" font-size="16" font-weight="bold">B</text>
+                                <text x="225" y="85" font-size="16" font-weight="bold">C</text>
+                                <text x="115" y="158" font-size="16" font-weight="bold">D</text>
+                                <text x="55" y="45" font-size="16" font-weight="bold" fill="#dc2626">M</text>
+                                <text x="115" y="100" font-size="16" font-weight="bold">L</text>
+                                <text x="55" y="125" font-size="16" font-weight="bold" fill="#16a34a">N</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            આપેલ આકૃતિમાં <b>LM || CB</b> અને <b>LN || CD</b> છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>AM / AB = AN / AD</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='margin-bottom:10px; font-size:14px; color:#64748b;'><i>(માસ્ટર ટ્રીક: બંને ત્રિકોણમાં વારાફરતી થેલ્સનું પ્રમેય લગાવો)</i></div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1. ઉપરના ત્રિકોણ $\\Delta$ABC માં:</b><br>
+                                આપેલ છે કે LM || CB.<br>
+                                થેલ્સના પ્રમેય (ઉપપ્રમેય) મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AM</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AL</span><span>AC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2. નીચેના ત્રિકોણ $\\Delta$ADC માં:</b><br>
+                                આપેલ છે કે LN || CD.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AN</span><span>AD</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AL</span><span>AC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
+                                
+                                <b>3. સરખામણી:</b><br>
+                                સમીકરણ (1) અને (2) પરથી સ્પષ્ટ છે કે બંનેની જમણી બાજુ (AL/AC) સમાન છે. તેથી ડાબી બાજુ પણ સમાન થાય!<br>
+                                <b style='color:#1d4ed8; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>AM</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>AN</span><span>AD</span></span></b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 4: આપેલ આકૃતિમાં DE || AC અને DF || AE છે. સાબિત કરો કે BF / FE = BE / EC.", 
+                    question_desc: "'2 ત્રિકોણ પકડો' ની દેશી ટ્રીક વાળો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 "2 ત્રિકોણ પકડો" ની ટ્રીક:</b><br>
+                            આ દાખલામાં બે વાર સમાંતર રેખાઓ આપી છે. તમારે માત્ર એ જોવાનું છે કે કઈ લાઈન કયા ત્રિકોણમાં આવે છે! <br>
+                            • DE || AC માટે મોટો ત્રિકોણ <b>$\\Delta$ABC</b> પકડો.<br>
+                            • DF || AE માટે અડધો ત્રિકોણ <b>$\\Delta$ABE</b> પકડો. બસ, બંનેમાં થેલ્સ દાદાનો નિયમ લગાવી દો!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="240" height="170" viewBox="0 0 240 170" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="80,20 20,140 200,140" fill="#f0fdf4" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="80" y1="20" x2="200" y2="140" stroke="#dc2626" stroke-width="3"/>
+                                <line x1="60" y1="60" x2="140" y2="140" stroke="#dc2626" stroke-width="3" stroke-dasharray="5,3"/>
+                                
+                                <line x1="80" y1="20" x2="140" y2="140" stroke="#1d4ed8" stroke-width="3"/>
+                                <line x1="60" y1="60" x2="100" y2="140" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="5,3"/>
+                                
+                                <text x="75" y="15" font-size="16" font-weight="bold">A</text>
+                                <text x="5" y="145" font-size="16" font-weight="bold">B</text>
+                                <text x="210" y="145" font-size="16" font-weight="bold">C</text>
+                                <text x="35" y="55" font-size="16" font-weight="bold">D</text>
+                                <text x="95" y="160" font-size="16" font-weight="bold" fill="#1d4ed8">F</text>
+                                <text x="135" y="160" font-size="16" font-weight="bold" fill="#dc2626">E</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            $\\Delta$ABC માં <b>DE || AC</b> અને <b>DF || AE</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>BF / FE = BE / EC</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1. મોટા ત્રિકોણ $\\Delta$ABC માં:</b><br>
+                                આપેલ છે કે <b style='color:#dc2626;'>DE || AC</b>.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BD</span><span>DA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BE</span><span>EC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2. નાના ત્રિકોણ $\\Delta$ABE માં:</b><br>
+                                આપેલ છે કે <b style='color:#1d4ed8;'>DF || AE</b>.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BD</span><span>DA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BF</span><span>FE</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
+                                
+                                <b>3. સરખામણી:</b><br>
+                                સમીકરણ (1) અને (2) ની ડાબી બાજુ (BD/DA) સમાન છે. તેથી જમણી બાજુઓ પણ સમાન થાય!<br>
+                                <b style='color:#1d4ed8; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>BF</span><span>FE</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>BE</span><span>EC</span></span></b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i> (છે ને સાવ સિમ્પલ!)
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+                
+            
+        
                 
             
         
