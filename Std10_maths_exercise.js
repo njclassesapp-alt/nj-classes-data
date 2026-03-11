@@ -9516,10 +9516,10 @@ var njMathsExercise = {
                 },
             
         
-                
                         
+    
                 { 
-                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 6: આપેલ આકૃતિમાં જો $\\Delta$ABE $\\cong$ $\\Delta$ACD હોય, તો સાબિત કરો કે $\\Delta$ADE $\\sim$ $\\Delta$ABC.", 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 6: આપેલ આકૃતિમાં જો &Delta;ABE &cong; &Delta;ACD હોય, તો સાબિત કરો કે &Delta;ADE &sim; &Delta;ABC.", 
                     question_desc: "2025 ની બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો મોસ્ટ IMP 'એકરૂપતા પરથી સમરૂપતા' નો દાખલો",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px;'>
@@ -9540,26 +9540,26 @@ var njMathsExercise = {
 
                         <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
                             <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
-                            પક્ષમાં <b>$\\Delta$ABE $\\cong$ $\\Delta$ACD (એકરૂપ)</b> આપેલું છે. એકરૂપ ત્રિકોણના બધા અંગો સમાન હોય <b>(CPCT નિયમ)</b>.<br>
+                            પક્ષમાં <b>&Delta;ABE &cong; &Delta;ACD (એકરૂપ)</b> આપેલું છે. એકરૂપ ત્રિકોણના બધા અંગો સમાન હોય <b>(CPCT નિયમ)</b>.<br>
                             તેના પરથી આપણને બે વસ્તુ મળશે: (1) <b>AB = AC</b> અને (2) <b>AE = AD</b>.<br>
                             બસ, આ બે નો ભાગાકાર કરીને ગુણોત્તર સમાન બતાવી દો એટલે દાખલો પૂરો!
                         </div>
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
-                            આકૃતિમાં <b>$\\Delta$ABE $\\cong$ $\\Delta$ACD</b> આપેલ છે.
+                            આકૃતિમાં <b>&Delta;ABE &cong; &Delta;ACD</b> આપેલ છે.
                         </div>
 
                         <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
-                            સાબિત કરવાનું છે કે: <b>$\\Delta$ADE $\\sim$ $\\Delta$ABC</b>
+                            સાબિત કરવાનું છે કે: <b>&Delta;ADE &sim; &Delta;ABC</b>
                         </div>
 
                         <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
                             <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
                             <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
                                 <b>1. એકરૂપતાનો ઉપયોગ (CPCT):</b><br>
-                                આપેલ છે કે $\\Delta$ABE $\\cong$ $\\Delta$ACD.<br>
+                                આપેલ છે કે &Delta;ABE &cong; &Delta;ACD.<br>
                                 એકરૂપ ત્રિકોણની અનુરૂપ બાજુઓ સમાન હોય છે. તેથી:<br>
                                 <b style='color:#1d4ed8;'>AB = AC</b> &nbsp;&nbsp; <b>... (પરિણામ 1)</b><br>
                                 <b style='color:#dc2626;'>AE = AD</b> (તેને ઉલટાવીને <b>AD = AE</b> પણ લખાય) &nbsp;&nbsp; <b>... (પરિણામ 2)</b><br><br>
@@ -9567,14 +9567,14 @@ var njMathsExercise = {
                                 <b>2. ગુણોત્તર બનાવવો:</b><br>
                                 પરિણામ 2 નો પરિણામ 1 વડે ભાગાકાર કરતા:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>AC</span></span><br>
-                                <span style='color:#047857; font-size:14px;'><i>(આનો અર્થ એ થયો કે નાનો ત્રિકોણ $\\Delta$ADE અને મોટા ત્રિકોણ $\\Delta$ABC ની બાજુઓ સમપ્રમાણમાં છે).</i></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(આનો અર્થ એ થયો કે નાનો ત્રિકોણ &Delta;ADE અને મોટા ત્રિકોણ &Delta;ABC ની બાજુઓ સમપ્રમાણમાં છે).</i></span><br><br>
                                 
-                                <b>3. ત્રિકોણ $\\Delta$ADE અને $\\Delta$ABC ની સરખામણી:</b><br>
+                                <b>3. ત્રિકોણ &Delta;ADE અને &Delta;ABC ની સરખામણી:</b><br>
                                 • <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>AC</span></span> (ઉપર સાબિત કર્યું)<br>
-                                • $\\angle$A = $\\angle$A <span style='color:#047857; font-size:14px;'><i>(બંનેમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br><br>
+                                • &ang;A = &ang;A <span style='color:#047857; font-size:14px;'><i>(બંનેમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br><br>
                                 
                                 <b>નિષ્કર્ષ:</b> બે બાજુઓનું પ્રમાણ અને તેમની વચ્ચેનો 1 ખૂણો સમાન હોવાથી <b>બા-ખુ-બા (SAS)</b> શરત મુજબ:<br>
-                                <b style='color:#16a34a; font-size:20px;'>$\\Delta$ADE $\\sim$ $\\Delta$ABC</b><br>
+                                <b style='color:#16a34a; font-size:20px;'>&Delta;ADE &sim; &Delta;ABC</b><br>
                                 <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
                             </div>
                         </div>
@@ -9582,7 +9582,7 @@ var njMathsExercise = {
                     `
                 },
                 { 
-                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 7: આપેલ આકૃતિમાં $\\Delta$ABC ના વેધ AD અને CE એકબીજાને P બિંદુમાં છેદે છે. સાબિત કરો કે: (i) $\\Delta$AEP $\\sim$ $\\Delta$CDP, (ii) $\\Delta$ABD $\\sim$ $\\Delta$CBE, (iii) $\\Delta$AEP $\\sim$ $\\Delta$ADB, (iv) $\\Delta$PDC $\\sim$ $\\Delta$BEC.", 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 7: આપેલ આકૃતિમાં &Delta;ABC ના વેધ AD અને CE એકબીજાને P બિંદુમાં છેદે છે. સાબિત કરો કે: (i) &Delta;AEP &sim; &Delta;CDP, (ii) &Delta;ABD &sim; &Delta;CBE, (iii) &Delta;AEP &sim; &Delta;ADB, (iv) &Delta;PDC &sim; &Delta;BEC.", 
                     question_desc: "2024, 2025 બોર્ડ માટે 4 પરિણામ સાબિત કરતો 'વેધ' વાળો મોસ્ટ IMP માસ્ટર દાખલો",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px;'>
@@ -9596,7 +9596,7 @@ var njMathsExercise = {
                                 <line x1="120" y1="20" x2="120" y2="160" stroke="#dc2626" stroke-width="2"/>
                                 <line x1="220" y1="160" x2="80" y2="90" stroke="#1d4ed8" stroke-width="2"/>
                                 
-                                <circle cx="120" cy="115" r="4" fill="#0f172a"/>
+                                <circle cx="120" cy="110" r="4" fill="#0f172a"/>
                                 
                                 <polyline points="120,150 130,150 130,160" fill="none" stroke="#dc2626" stroke-width="2"/>
                                 <polygon points="80,90 85,98 93,93 88,85" fill="none" stroke="#1d4ed8" stroke-width="2"/>
@@ -9604,9 +9604,9 @@ var njMathsExercise = {
                                 <text x="115" y="15" font-size="16" font-weight="bold">A</text>
                                 <text x="25" y="165" font-size="16" font-weight="bold">B</text>
                                 <text x="225" y="165" font-size="16" font-weight="bold">C</text>
-                                <text x="115" y="175" font-size="16" font-weight="bold" fill="#dc2626">D</text>
-                                <text x="65" y="85" font-size="16" font-weight="bold" fill="#1d4ed8">E</text>
-                                <text x="128" y="115" font-size="16" font-weight="bold">P</text>
+                                <text x="115" y="178" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+                                <text x="60" y="85" font-size="16" font-weight="bold" fill="#1d4ed8">E</text>
+                                <text x="130" y="115" font-size="16" font-weight="bold">P</text>
                             </svg>
                         </div>
 
@@ -9619,31 +9619,31 @@ var njMathsExercise = {
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
-                            $\\Delta$ABC માં <b>AD $\\perp$ BC</b> (એટલે $\\angle$D = 90&deg;) અને <b>CE $\\perp$ AB</b> (એટલે $\\angle$E = 90&deg;) છે.
+                            &Delta;ABC માં <b>AD &perp; BC</b> (એટલે &ang;D = 90&deg;) અને <b>CE &perp; AB</b> (એટલે &ang;E = 90&deg;) છે.
                         </div>
 
                         <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
                             <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
                             <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
-                                <b style='color:#1d4ed8; font-size:16px;'>(i) $\\Delta$AEP અને $\\Delta$CDP ની સરખામણી:</b><br>
-                                • $\\angle$AEP = $\\angle$CDP = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ વેધ છે)</i></span><br>
-                                • $\\angle$APE = $\\angle$CPD <span style='color:#047857; font-size:14px;'><i>(અભિકોણો - બિંદુ P પાસે ચોકડી પડે છે)</i></span><br>
-                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>$\\Delta$AEP $\\sim$ $\\Delta$CDP</b> <i style='color:#15803d;'>(સાબિત થયું)</i><br><br>
+                                <b style='color:#1d4ed8; font-size:16px;'>(i) &Delta;AEP અને &Delta;CDP ની સરખામણી:</b><br>
+                                • &ang;AEP = &ang;CDP = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ વેધ છે)</i></span><br>
+                                • &ang;APE = &ang;CPD <span style='color:#047857; font-size:14px;'><i>(અભિકોણો - બિંદુ P પાસે ચોકડી પડે છે)</i></span><br>
+                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>&Delta;AEP &sim; &Delta;CDP</b> <i style='color:#15803d;'>(સાબિત થયું)</i><br><br>
 
-                                <b style='color:#1d4ed8; font-size:16px;'>(ii) $\\Delta$ABD અને $\\Delta$CBE ની સરખામણી:</b><br>
-                                • $\\angle$ADB = $\\angle$CEB = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ)</i></span><br>
-                                • $\\angle$B = $\\angle$B <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br>
-                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>$\\Delta$ABD $\\sim$ $\\Delta$CBE</b> <i style='color:#15803d;'>(સાબિત થયું)</i><br><br>
+                                <b style='color:#1d4ed8; font-size:16px;'>(ii) &Delta;ABD અને &Delta;CBE ની સરખામણી:</b><br>
+                                • &ang;ADB = &ang;CEB = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ)</i></span><br>
+                                • &ang;B = &ang;B <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br>
+                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>&Delta;ABD &sim; &Delta;CBE</b> <i style='color:#15803d;'>(સાબિત થયું)</i><br><br>
 
-                                <b style='color:#1d4ed8; font-size:16px;'>(iii) $\\Delta$AEP અને $\\Delta$ADB ની સરખામણી:</b><br>
-                                • $\\angle$AEP = $\\angle$ADB = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ)</i></span><br>
-                                • $\\angle$A = $\\angle$A <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br>
-                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>$\\Delta$AEP $\\sim$ $\\Delta$ADB</b> <i style='color:#15803d;'>(સાબિત થયું)</i><br><br>
+                                <b style='color:#1d4ed8; font-size:16px;'>(iii) &Delta;AEP અને &Delta;ADB ની સરખામણી:</b><br>
+                                • &ang;AEP = &ang;ADB = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ)</i></span><br>
+                                • &ang;A = &ang;A <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br>
+                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>&Delta;AEP &sim; &Delta;ADB</b> <i style='color:#15803d;'>(સાબિત થયું)</i><br><br>
 
-                                <b style='color:#1d4ed8; font-size:16px;'>(iv) $\\Delta$PDC અને $\\Delta$BEC ની સરખામણી:</b><br>
-                                • $\\angle$PDC = $\\angle$BEC = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ)</i></span><br>
-                                • $\\angle$C = $\\angle$C <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br>
-                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>$\\Delta$PDC $\\sim$ $\\Delta$BEC</b> <i style='color:#15803d;'>(સાબિત થયું)</i>
+                                <b style='color:#1d4ed8; font-size:16px;'>(iv) &Delta;PDC અને &Delta;BEC ની સરખામણી:</b><br>
+                                • &ang;PDC = &ang;BEC = 90&deg; <span style='color:#047857; font-size:14px;'><i>(પક્ષ મુજબ)</i></span><br>
+                                • &ang;C = &ang;C <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br>
+                                <b>ખુ-ખુ શરત મુજબ:</b> <b style='color:#16a34a;'>&Delta;PDC &sim; &Delta;BEC</b> <i style='color:#15803d;'>(સાબિત થયું)</i>
                             </div>
                         </div>
                     </div>
@@ -9652,8 +9652,6 @@ var njMathsExercise = {
             ]
         }
                 
-            
-        
                 
                                                          
                     
