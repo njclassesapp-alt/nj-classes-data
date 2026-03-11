@@ -10284,7 +10284,7 @@ var njMathsExercise = {
             "chapterName": "પ્રકરણ 7 (સ્વાધ્યાય 7.1 - ભાગ 1)",
             "chapterTitle": "અંતર સૂત્રની માસ્ટર ચાવી અને બિંદુઓ વચ્ચેનું અંતર (પ્રશ્ન 1)",
             "qa_list": [
-                                {
+              {
                     question: "🎯 માસ્ટર ચાવી: અંતર સૂત્ર (Distance Formula) શું છે અને તેને કેવી રીતે યાદ રાખવું?",
                     answer: `
                     <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
