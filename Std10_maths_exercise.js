@@ -10034,9 +10034,104 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 14: &Delta;ABC ની બાજુઓ AB, AC અને મધ્યગા AD એ &Delta;PQR ની અનુરૂપ બાજુઓ PQ, PR અને મધ્યગા PM ના સમપ્રમાણમાં છે. સાબિત કરો કે &Delta;ABC &sim; &Delta;PQR.", 
+                    question_desc: "2025 ની બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો સૌથી લાંબો અને ટ્વિસ્ટેડ દાખલો (રચના વાળો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 4 માર્ક્સ માટે પૂછાઈ શકે તેવો આખા પ્રકરણનો સૌથી લાંબો અને રચનાવાળો દાખલો. (પ્રશ્ન 12 અને આમાં બહુ મોટો તફાવત છે, ધ્યાન રાખવું!)</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#fdf4ff; border:1px solid #f0abfc; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="60,20 20,100 100,100" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="60" y1="20" x2="60" y2="100" stroke="#dc2626" stroke-width="2"/>
+                                <line x1="60" y1="100" x2="60" y2="180" stroke="#dc2626" stroke-width="2" stroke-dasharray="4,2"/>
+                                <line x1="20" y1="100" x2="60" y2="180" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,2"/>
+                                <line x1="100" y1="100" x2="60" y2="180" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,2"/>
+                                
+                                <text x="55" y="15" font-size="14" font-weight="bold">A</text>
+                                <text x="5" y="110" font-size="14" font-weight="bold">B</text>
+                                <text x="105" y="110" font-size="14" font-weight="bold">C</text>
+                                <text x="65" y="110" font-size="14" font-weight="bold" fill="#dc2626">D</text>
+                                <text x="65" y="195" font-size="14" font-weight="bold" fill="#dc2626">E</text>
+
+                                <polygon points="220,20 180,100 260,100" fill="#fff7ed" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="220" y1="20" x2="220" y2="100" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="220" y1="100" x2="220" y2="180" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="4,2"/>
+                                <line x1="180" y1="100" x2="220" y2="180" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,2"/>
+                                <line x1="260" y1="100" x2="220" y2="180" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,2"/>
+                                
+                                <text x="215" y="15" font-size="14" font-weight="bold">P</text>
+                                <text x="165" y="110" font-size="14" font-weight="bold">Q</text>
+                                <text x="265" y="110" font-size="14" font-weight="bold">R</text>
+                                <text x="225" y="110" font-size="14" font-weight="bold" fill="#1d4ed8">M</text>
+                                <text x="225" y="195" font-size="14" font-weight="bold" fill="#1d4ed8">N</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક અને રચના:</b><br>
+                            આ દાખલામાં પ્રશ્ન 12 ની જેમ સીધો જવાબ નહિ આવે, કારણ કે અહીં BC ની જગ્યાએ AC આપેલું છે! <br>
+                            <b>દેશી રચના:</b> આપણે મધ્યગા AD ને નીચે લંબાવીને જેટલી AD છે તેટલી જ DE બનાવવી પડશે <b>(AD = DE)</b>. અને PM ને લંબાવીને <b>PM = MN</b> બનાવવું પડશે. <br>
+                            આનાથી નીચે એક ચતુષ્કોણ બનશે જેના વિકર્ણો દુભાગતા હોવાથી તે <b>સમાંતરબાજુ ચતુષ્કોણ</b> કહેવાશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            &Delta;ABC અને &Delta;PQR માં AD અને PM મધ્યગાઓ છે. <br>
+                            તથા <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>PR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>PM</span></span> આપેલ છે. (આ આપણું પરિણામ 1 છે).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>&Delta;ABC &sim; &Delta;PQR</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>સ્ટેપ 1: રચના અને ચતુષ્કોણની સમજૂતી</b><br>
+                                AD ને E સુધી અને PM ને N સુધી એવી રીતે લંબાવો કે <b>AD = DE</b> અને <b>PM = MN</b> થાય. B ને E સાથે, C ને E સાથે, Q ને N સાથે અને R ને N સાથે જોડો.<br>
+                                હવે ચતુષ્કોણ ABEC માં વિકર્ણો AE અને BC એકબીજાને દુભાગે છે (કારણ કે AD=DE અને BD=DC). તેથી <b>ABEC સમાંતરબાજુ ચતુષ્કોણ છે.</b><br>
+                                સમાંતરબાજુ ચતુષ્કોણમાં સામસામેની બાજુઓ સરખી હોય, તેથી: <b style='color:#1d4ed8;'>AC = BE</b>.<br>
+                                એ જ રીતે, <b>PQNR પણ સમાંતરબાજુ ચતુષ્કોણ છે</b>, તેથી: <b style='color:#1d4ed8;'>PR = QN</b>.<br><br>
+                                
+                                <b>સ્ટેપ 2: પક્ષનો ઉપયોગ અને નાના ત્રિકોણની સમરૂપતા</b><br>
+                                પક્ષમાં આપેલ છે: <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>PR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>PM</span></span><br>
+                                આમાં AC ની જગ્યાએ BE, PR ની જગ્યાએ QN મૂકીએ, અને ત્રીજા પદને 2 વડે ગુણીએ (2AD = AE થાય):<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BE</span><span>QN</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2AD</span><span>2PM</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>PN</span></span><br>
+                                આનાથી બા-બા-બા શરત મુજબ <b>ડાબી બાજુના આખા લાંબા ત્રિકોણો સમરૂપ થયા:</b> <b style='color:#dc2626;'>&Delta;ABE &sim; &Delta;PQN</b>.<br><br>
+
+                                <b>સ્ટેપ 3: ખૂણાઓ સરખાવવા</b><br>
+                                &Delta;ABE &sim; &Delta;PQN હોવાથી તેમના અનુરૂપ ખૂણા સમાન થાય: <b>&ang;BAE = &ang;QPN</b> &nbsp;&nbsp; <b>... (A)</b><br>
+                                તે જ રીતે જમણી બાજુ સાબિત કરી શકાય કે &Delta;ACE &sim; &Delta;PRN, તેથી: <b>&ang;CAE = &ang;RPN</b> &nbsp;&nbsp; <b>... (B)</b><br>
+                                સમીકરણ (A) અને (B) નો સરવાળો કરતા આપણને <b>આખો ખૂણો A અને આખો ખૂણો P</b> સમાન મળે છે:<br>
+                                &ang;BAE + &ang;CAE = &ang;QPN + &ang;RPN <br>
+                                <b style='color:#16a34a;'>&ang;A = &ang;P</b> &nbsp;&nbsp; <b>... (પરિણામ 2)</b><br><br>
+
+                                <b>સ્ટેપ 4: અંતિમ સાબિતી</b><br>
+                                હવે આખા મોટા ત્રિકોણો &Delta;ABC અને &Delta;PQR માં:<br>
+                                • <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>PR</span></span> <span style='color:#047857; font-size:14px;'><i>(પક્ષમાં આપેલું છે)</i></span><br>
+                                • &ang;A = &ang;P <span style='color:#047857; font-size:14px;'><i>(પરિણામ 2 માં સાબિત કર્યું)</i></span><br>
+                                
+                                <b>નિષ્કર્ષ:</b> બે બાજુઓ અને તેમની વચ્ચેનો ખૂણો સમાન હોવાથી <b>બા-ખુ-બા (SAS)</b> શરત મુજબ:<br>
+                                <b style='color:#16a34a; font-size:20px;'>&Delta;ABC &sim; &Delta;PQR</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે! (થોડું લાંબુ, પણ સ્ટેપ મુજબ બહુ સરળ!)</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
