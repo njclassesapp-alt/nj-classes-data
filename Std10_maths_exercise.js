@@ -7620,9 +7620,165 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 7: જે સમાંતર શ્રેણીમાં d = 7 અને 22મું પદ 149 હોય, તેના પ્રથમ 22 પદોનો સરવાળો શોધો.", 
+                    question_desc: "બોર્ડમાં 2 માર્ક્સ માટે પૂછાતો સીધો અને સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પ્રથમ પદ (a) શોધવું</b><br>
+                            અહીં <b>d = 7</b> છે અને <b>22મું પદ (a<sub>22</sub>) = 149</b> આપેલ છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>22</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + 21<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                149 = <i style='font-family:"Times New Roman",serif;'>a</i> + 21(7)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(21 &times; 7 = 147)</i></span><br>
+                                149 = <i style='font-family:"Times New Roman",serif;'>a</i> + 147<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(147 ડાબી બાજુ આવે એટલે માઇનસ થશે)</i></span><br>
+                                149 - 147 = <i style='font-family:"Times New Roman",serif;'>a</i> &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>a</i> = 2</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 22 પદોનો સરવાળો (S<sub>22</sub>) શોધવો</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(આપણે 22 પદોનો સરવાળો શોધવો છે અને 22મું પદ 149 આપેલું જ છે, તેથી નાનું સૂત્ર વાપરીશું)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>22</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>2</span></span> [ 2 + 149 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(22 ને 2 વડે ભાગતા 11 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>22</sub></i> = 11 [ 151 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>22</sub></i> = 11 &times; 151<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>22</sub></i> = 1661</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> આ સમાંતર શ્રેણીના પ્રથમ 22 પદોનો સરવાળો <b style='color:#be123c;'>1661</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 8: સમાંતર શ્રેણીનું બીજું અને ત્રીજું પદ અનુક્રમે 14 અને 18 હોય, તો તેના પ્રથમ 51 પદોનો સરવાળો શોધો.", 
+                    question_desc: "સળંગ પદો પરથી સીધો તફાવત શોધવાની 3 માર્ક્સની ગણતરી",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સીધો કુદકો (Trick):</b><br>
+                            જ્યારે પણ બે <b>સળંગ પદો (બાજુ-બાજુના)</b> આપેલા હોય, ત્યારે તેમની સીધી બાદબાકી કરવાથી તફાવત (d) મળી જાય છે!<br>
+                            અહીં બીજું પદ 14 અને ત્રીજું પદ 18 છે. તો <b>d = 18 - 14 = 4</b>.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a અને d શોધવા</b><br>
+                            <b>તફાવત (d):</b> a<sub>3</sub> - a<sub>2</sub> = 18 - 14 = <b style='color:#dc2626;'>4</b><br>
+                            હવે, બીજું પદ <b>a<sub>2</sub> = 14</b> આપેલ છે. તેના પરથી પ્રથમ પદ (a) શોધીએ:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                a<sub>2</sub> = a + d<br>
+                                14 = a + 4<br>
+                                14 - 4 = a &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 10</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 51 પદોનો સરવાળો (S<sub>51</sub>) શોધવો</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(અહીં 51મું પદ ખબર નથી, એટલે મોટું સૂત્ર વાપરીશું)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>51</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>51</span><span>2</span></span> [ 2(10) + (51 - 1)(4) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>51</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>51</span><span>2</span></span> [ 20 + (50)(4) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>51</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>51</span><span>2</span></span> [ 20 + 200 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>51</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>51</span><span>2</span></span> [ 220 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(220 ને 2 વડે ભાગતા 110 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>51</sub></i> = 51 &times; 110<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>51</sub></i> = 5610</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> શ્રેણીના પ્રથમ 51 પદોનો સરવાળો <b style='color:#be123c;'>5610</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 9: સમાંતર શ્રેણીના પ્રથમ 7 પદોનો સરવાળો 49 અને 17 પદોનો સરવાળો 289 હોય, તો તેના પ્રથમ n પદોનો સરવાળો શોધો.", 
+                    question_desc: "3 માર્ક્સમાં વારંવાર પૂછાતો અને MCQ માટે સુપર શોર્ટકટ વાળો મોસ્ટ IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 ની નવી પેપર સ્ટાઈલ મુજબ 1 માર્કના MCQ માટે અને 3 માર્ક્સના મોટા દાખલા માટે બંનેમાં મોસ્ટ IMP!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 1 સેકન્ડવાળી માસ્ટર ટ્રીક (માત્ર MCQ માટે):</b><br>
+                            રકમ ધ્યાનથી જુઓ: <br>
+                            • 7 પદોનો સરવાળો = 49 (એટલે કે 7 નો વર્ગ 7<sup>2</sup>)<br>
+                            • 17 પદોનો સરવાળો = 289 (એટલે કે 17 નો વર્ગ 17<sup>2</sup>)<br>
+                            તો ભાઈ... <b>n પદોનો સરવાળો n નો વર્ગ (n<sup>2</sup>) જ થાય ને!</b> જવાબ આવી ગયો! (હવે આપણે તેને 3 માર્ક્સ માટે સાબિત કરીશું).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આપેલી માહિતી પરથી 2 સમીકરણ બનાવવા</b><br>
+                            <b>શરત 1: <i style='font-family:"Times New Roman",serif;'>S<sub>7</sub></i> = 49</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span> [ 2a + 6d ] = 49<br>
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસમાંથી 2 સામાન્ય કાઢતાં છેદનો 2 ઉડી જશે)</i></span><br>
+                                7 [ a + 3d ] = 49<br>
+                                a + 3d = 49 / 7 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a + 3d = 7</b> &nbsp; ...(સમીકરણ 1)
+                            </div><br>
+                            
+                            <b>શરત 2: <i style='font-family:"Times New Roman",serif;'>S<sub>17</sub></i> = 289</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>17</span><span>2</span></span> [ 2a + 16d ] = 289<br>
+                                <span style='color:#047857; font-size:14px;'><i>(અહીં પણ 2 સામાન્ય કાઢી છેદ ઉડાડતાં)</i></span><br>
+                                17 [ a + 8d ] = 289<br>
+                                a + 8d = 289 / 17 &nbsp;&#10551;&nbsp; <b style='color:#be123c;'>a + 8d = 17</b> &nbsp; ...(સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી a અને d શોધવા</b><br>
+                            સમીકરણ 2 માંથી 1 ની બાદબાકી કરતાં:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; a + 8d = 17<br>
+                                <u><b style='color:#dc2626;'>-</b> a <b style='color:#dc2626;'>-</b> 3d = <b style='color:#dc2626;'>-</b> 7</u><br>
+                                <span style='color:#047857; font-size:14px;'><i>(a ઉડી જશે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp; 5d = 10 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = 2</b>
+                            </div><br>
+                            <b>d = 2 સમીકરણ 1 માં મૂકતાં:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a + 3(2) = 7<br>
+                                a + 6 = 7<br>
+                                a = 7 - 6 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: n પદોનો સરવાળો (S<sub>n</sub>) શોધવો</b><br>
+                            હવે આપણી પાસે <b>a = 1</b> અને <b>d = 2</b> છે. તેને S<sub>n</sub> ના સૂત્રમાં મૂકીએ:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2(1) + (n - 1)(2) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2 + 2n - 2 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કૌંસમાં રહેલા +2 અને -2 ઉડી જશે, માત્ર 2n વધશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> &times; [ 2n ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(છેદનો 2 અને ગુણાકારનો 2 ઉડી જશે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = n &times; n<br>
+                                <b style='font-size:24px; color:#16a34a;'><i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = n<sup>2</sup></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> માંગેલ પ્રથમ n પદોનો સરવાળો <b style='color:#16a34a;'>n<sup>2</sup></b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
