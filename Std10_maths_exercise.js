@@ -7472,9 +7472,160 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 3(x): આપેલ સમાંતર શ્રેણી માટે l = 28, S = 144 હોય અને પદોની સંખ્યા 9 હોય, તો a શોધો.", 
+                    question_desc: "છેલ્લા પદવાળા શોર્ટકટ સૂત્રનો સૌથી સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરીના સ્ટેપ્સ:</b><br>
+                            અહીં છેલ્લું પદ <b>l = 28</b> આપેલું છે. પદોની સંખ્યા 9 છે, એટલે કે <b>n = 9</b>. અને <b>S<sub>9</sub> = 144</b> છે.<br>
+                            <span style='color:#047857; font-size:14px;'><i>(l આપેલું હોવાથી આપણે સીધું નાનું શોર્ટકટ સૂત્ર જ વાપરીશું)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                144 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>2</span></span> [ a + 28 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(9/2 ડાબી બાજુ આવશે એટલે ઉલટાઈને 2/9 થઈ જશે)</i></span><br>
+                                144 &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>9</span></span> = a + 28<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(16 નવા 144 થાય, એટલે 16 &times; 2 = 32 વધશે)</i></span><br>
+                                32 = a + 28<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(28 ડાબી બાજુ આવે એટલે માઇનસ થશે)</i></span><br>
+                                32 - 28 = a &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#1d4ed8;'>a = 4</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ પ્રથમ પદ <b style='color:#1d4ed8;'>a = 4</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 4: સમાંતર શ્રેણી 9, 17, 25, ... ના કેટલા પદોનો સરવાળો 636 થાય?", 
+                    question_desc: "મોટા આંકડાના અવયવ પાડતો બોર્ડનો સુપર IMP 3 માર્ક્સનો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2023 અને 2024 માં 3 માર્ક્સ માટે પૂછાયેલો ઑલ-ટાઈમ ફેવરિટ દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણ બનાવવું</b><br>
+                            અહીં <b>a = 9</b>, <b>d = 17 - 9 = 8</b>, અને સરવાળો <b>S<sub>n</sub> = 636</b> છે. આપણે <b>n</b> શોધવાનો છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                636 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2(9) + (n - 1)8 ]<br>
+                                636 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 18 + 8n - 8 ]<br>
+                                636 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 10 + 8n ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કૌંસમાંથી 2 સામાન્ય કાઢતાં જેથી છેદનો 2 ઉડી જાય)</i></span><br>
+                                636 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> &times; 2 [ 5 + 4n ]<br>
+                                636 = n [ 5 + 4n ]<br>
+                                636 = 5n + 4n<sup>2</sup><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બધા પદો એકબાજુ ગોઠવીએ)</i></span><br>
+                                <b style='color:#dc2626;'>4n<sup>2</sup> + 5n - 636 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 મોટા આંકડાના અવયવ પાડવાની દેશી ફેક્ટર ટ્રીક:</b><br>
+                            આપણે 4 &times; 636 ના એવા ભાગ પાડવા છે જેની બાદબાકી 5 આવે. ગુણાકાર બહુ મોટો થાય (2544). તો શું કરવું?<br>
+                            આપણે 636 ને તોડીએ: 636 = 6 &times; 106 = 12 &times; 53.<br>
+                            હવે આ 12 નો ગુણાકાર પહેલા 4 સાથે કરી દઈએ (12 &times; 4 = <b>48</b>).<br>
+                            તો આપણી પાસે બે ટુકડા મળ્યા: <b>53 અને 48</b>! ચેક કરો: 53 - 48 = 5 આવી ગયા ને!
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અવયવ પાડી n શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                4n<sup>2</sup> + 53n - 48n - 636 = 0<br>
+                                n(4n + 53) - 12(4n + 53) = 0<br>
+                                (4n + 53)(n - 12) = 0<br><br>
+                                4n + 53 = 0 &nbsp; <b>અથવા</b> &nbsp; n - 12 = 0<br>
+                                n = -53/4 <i>(જે શક્ય નથી)</i> &nbsp; <b>અથવા</b> &nbsp; <b style='font-size:22px; color:#1d4ed8;'>n = 12</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> શ્રેણીના <b>કુલ 12 પદોનો સરવાળો 636 થશે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 5: સમાંતર શ્રેણીનું પ્રથમ પદ 5, અંતિમ પદ 45 અને સરવાળો 400 છે. શ્રેણીના પદોની સંખ્યા અને સામાન્ય તફાવત શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: n શોધવો (સરવાળાના શોર્ટકટ સૂત્રથી)</b><br>
+                            અહીં પ્રથમ પદ <b>a = 5</b>, અંતિમ પદ <b>l (a<sub>n</sub>) = 45</b> અને <b>S<sub>n</sub> = 400</b> આપેલ છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                400 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 5 + 45 ]<br>
+                                400 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 50 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(50 ને 2 વડે ભાગતા 25 આવે)</i></span><br>
+                                400 = 25n<br>
+                                n = 400 / 25 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>n = 16</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સામાન્ય તફાવત d શોધવો</b><br>
+                            આપણને n = 16 મળી ગયો છે. અને છેલ્લું પદ 45 છે (એટલે કે 16મું પદ 45 છે).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>16</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + 15<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                45 = 5 + 15d<br>
+                                45 - 5 = 15d<br>
+                                40 = 15d<br>
+                                d = 40 / 15<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બંનેને 5 વડે છેદ ઉડાડતા: 8 પંચા 40 અને 3 પંચા 15)</i></span><br>
+                                <b style='color:#be123c;'>d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>8</span><span>3</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> પદોની સંખ્યા <b style='color:#1d4ed8;'>16</b> અને સામાન્ય તફાવત <b style='color:#be123c;'>8/3</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 6: સમાંતર શ્રેણીના પ્રથમ પદ અને અંતિમ પદ અનુક્રમે 17 અને 350 છે. જો સામાન્ય તફાવત 9 હોય, તો તેમાં કેટલા પદ હશે અને તેમનો સરવાળો કેટલો થશે?", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: n શોધવો (a<sub>n</sub> ના સૂત્રથી)</b><br>
+                            અહીં <b>a = 17</b>, <b>l (a<sub>n</sub>) = 350</b> અને <b>d = 9</b> આપેલ છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                350 = 17 + (n - 1)(9)<br>
+                                350 - 17 = (n - 1)(9)<br>
+                                333 = (n - 1)(9)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>333</span><span>9</span></span> = n - 1<br>
+                                37 = n - 1<br>
+                                37 + 1 = n &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>n = 38</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરવાળો (S<sub>38</sub>) શોધવો</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(છેલ્લું પદ 350 ખબર હોવાથી નાનું સૂત્ર વાપરીશું)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>38</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>38</span><span>2</span></span> [ 17 + 350 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>38</sub></i> = 19 [ 367 ]<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>38</sub></i> = 6973</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> આ શ્રેણીમાં <b style='color:#1d4ed8;'>38 પદો</b> છે અને તેમનો સરવાળો <b style='color:#be123c;'>6973</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
