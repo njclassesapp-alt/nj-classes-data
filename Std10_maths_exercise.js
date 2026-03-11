@@ -8548,9 +8548,138 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: રેખા સમાંતર (||) છે કે નહિ તે કેવી રીતે ચેક કરવું? (થેલ્સનો ઊંધો નિયમ)",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <div style='text-align:center; margin-bottom:15px;'>
+                            <svg width="220" height="160" viewBox="0 0 220 160" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="110,20 40,140 180,140" fill="#f8fafc" stroke="#334155" stroke-width="3" stroke-linejoin="round"/>
+                                <line x1="75" y1="80" x2="145" y2="80" stroke="#059669" stroke-width="4"/>
+                                <text x="105" y="15" font-size="16" font-weight="bold" fill="#0f172a">P</text>
+                                <text x="20" y="145" font-size="16" font-weight="bold" fill="#0f172a">Q</text>
+                                <text x="190" y="145" font-size="16" font-weight="bold" fill="#0f172a">R</text>
+                                <text x="55" y="75" font-size="16" font-weight="bold" fill="#059669">E</text>
+                                <text x="155" y="75" font-size="16" font-weight="bold" fill="#059669">F</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px;'>
+                            <b style='color:#0f172a; font-size:15px;'>ચેકિંગ કરવાની દેશી ટ્રીક:</b><br>
+                            <ul style='color:#0f172a; margin-top:5px; line-height:2.0;'>
+                                <li>આપણે ડાબી બાજુનો ગુણોત્તર <b>(PE / EQ)</b> અને જમણી બાજુનો ગુણોત્તર <b>(PF / FR)</b> અલગ-અલગ શોધવાનો.</li>
+                                <li>જો બંનેનો <b>જવાબ સરખો આવે</b>, તો રેખા સમાંતર છે <b style='color:#16a34a;'>(EF || QR છે)</b>.</li>
+                                <li>જો <b>જવાબ સરખો ન આવે</b>, તો રેખા સમાંતર નથી! બસ આટલું જ ચેક કરવાનું છે.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 6.2 પ્રશ્ન 2(i): બિંદુઓ E અને F એ ΔPQR ની બાજુઓ અનુક્રમે PQ અને PR પર આવેલા છે. જો PE = 3.9 cm, EQ = 3 cm, PF = 3.6 cm અને FR = 2.4 cm હોય, તો EF || QR છે કે નહિ તે જણાવો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ડાબી અને જમણી બાજુનો ગુણોત્તર શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(ડાબી બાજુનો ગુણોત્તર)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PE</span><span>EQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3.9</span><span>3</span></span> = <b style='color:#1d4ed8;'>1.3</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(જમણી બાજુનો ગુણોત્તર)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PF</span><span>FR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3.6</span><span>2.4</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>36</span><span>24</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span> = <b style='color:#dc2626;'>1.5</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: સરખામણી અને અંતિમ જવાબ</b><br>
+                            અહીં આપણે જોઈ શકીએ છીએ કે 1.3 અને 1.5 સરખા નથી.<br>
+                            એટલે કે: <b>PE / EQ &ne; PF / FR</b>
+                            
+                            <div style='margin-top:10px; background-color:#fee2e2; padding:10px; border-radius:4px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:16px;'>અંતિમ જવાબ:</b> <br>
+                                ગુણોત્તર સમાન ન હોવાથી, આપેલ શરત માટે <b>EF એ QR ને સમાંતર નથી!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 2(ii): જો PE = 4 cm, QE = 4.5 cm, PF = 8 cm અને RF = 9 cm હોય, તો EF || QR છે કે નહિ તે જણાવો.", 
+                    question_desc: "2024 ની પરીક્ષામાં પૂછાવા લાયક સહેલો ગુણોત્તર",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને બાજુના ગુણોત્તર શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(ડાબી બાજુ: પોઈન્ટ કાઢવા ઉપર મીંડું મૂકીશું)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PE</span><span>EQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>4.5</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>40</span><span>45</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(5 વડે છેદ ઉડાડતા: 8 પંચા 40 અને 9 પંચા 45)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PE</span><span>EQ</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>8</span><span>9</span></span></b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(જમણી બાજુ)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PF</span><span>FR</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>8</span><span>9</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરખામણી અને અંતિમ જવાબ</b><br>
+                            અહીં <b>PE / EQ = PF / FR = 8/9</b> છે. (બંને જવાબો એકદમ સરખા છે!)
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> <br>
+                                થેલ્સના પ્રમેયના પ્રતિપ મુજબ, ગુણોત્તર સમાન હોવાથી <b>EF || QR છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 2(iii): જો PQ = 1.28 cm, PR = 2.56 cm, PE = 0.18 cm અને PF = 0.36 cm હોય, તો EF || QR છે કે નહિ તે જણાવો.", 
+                    question_desc: "2025 ની બોર્ડ પરીક્ષા માટે આખી બાજુ વાળી શોર્ટકટ ટ્રીકનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 આખી બાજુવાળી માસ્ટર ટ્રીક:</b><br>
+                            આ દાખલામાં આપણને નાના કટકા (EQ) ની જગ્યાએ <b>આખી બાજુ (PQ)</b> આપેલી છે!<br>
+                            તો આપણે થેલ્સનું બીજું સૂત્ર વાપરીશું: <b>(ઉપરનો નાનો કટકો / આખી બાજુ)</b>.<br>
+                            એટલે કે <b>PE / PQ</b> અને <b>PF / PR</b> નો ગુણોત્તર ચેક કરીશું.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને બાજુના ગુણોત્તર શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(ડાબી બાજુ: બંનેમાં પોઈન્ટ પછી 2 આંકડા છે, એટલે પોઈન્ટ કાઢી નાખીએ)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PE</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0.18</span><span>1.28</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>18</span><span>128</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(2 વડે ભાગતા અડધા કરીએ)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PE</span><span>PQ</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>9</span><span>64</span></span></b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(જમણી બાજુ)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PF</span><span>PR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0.36</span><span>2.56</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>36</span><span>256</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(4 વડે ભાગતા)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PF</span><span>PR</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>9</span><span>64</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરખામણી અને અંતિમ જવાબ</b><br>
+                            અહીં <b>PE / PQ = PF / PR = 9/64</b> છે. (ગુણોત્તર સરખો મળ્યો).
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> <br>
+                                ગુણોત્તર સમાન હોવાથી, <b>EF || QR છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
