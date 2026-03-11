@@ -10126,9 +10126,159 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 15: એક 6 મીટર ઊંચા શિરોલંબ વાંસનો જમીન પર પડતો પડછાયો 4 મીટર લાંબો છે. એ જ વખતે એક ટાવરનો પડછાયો 28 મીટર લાંબો છે. તો ટાવરની ઊંચાઈ શોધો.", 
+                    question_desc: "બોર્ડમાં 2 માર્ક્સ માટે પૂછાતો પડછાયા વાળો મોસ્ટ IMP અને સૌથી સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024, 2025 અને 2026 માટે પ્રેક્ટિકલ લાઈફ આધારિત મોસ્ટ IMP દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="180" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="10" fill="#facc15"/>
+                                <line x1="20" y1="20" x2="50" y2="50" stroke="#facc15" stroke-width="2" stroke-dasharray="2,2"/>
+                                <line x1="20" y1="20" x2="180" y2="40" stroke="#facc15" stroke-width="2" stroke-dasharray="2,2"/>
+
+                                <polygon points="80,50 80,150 140,150" fill="#f0f9ff" stroke="#1d4ed8" stroke-width="2"/>
+                                <polyline points="80,140 90,140 90,150" fill="none" stroke="#1d4ed8" stroke-width="1.5"/>
+                                <text x="65" y="45" font-size="14" font-weight="bold">A</text>
+                                <text x="65" y="160" font-size="14" font-weight="bold">B</text>
+                                <text x="145" y="160" font-size="14" font-weight="bold">C</text>
+                                <text x="45" y="105" font-size="12" fill="#dc2626">6 m</text>
+                                <text x="100" y="165" font-size="12" fill="#0f172a">4 m</text>
+
+                                <polygon points="190,20 190,150 280,150" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+                                <polyline points="190,140 200,140 200,150" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="175" y="15" font-size="14" font-weight="bold">P</text>
+                                <text x="175" y="160" font-size="14" font-weight="bold">Q</text>
+                                <text x="285" y="160" font-size="14" font-weight="bold">R</text>
+                                <text x="170" y="85" font-size="14" font-weight="bold" fill="#dc2626">h</text>
+                                <text x="225" y="165" font-size="12" fill="#0f172a">28 m</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 પડછાયાની માસ્ટર ટ્રીક:</b><br>
+                            કોઈપણ વસ્તુ સીધી ઊભી હોય એટલે જમીન સાથે <b>90&deg; નો ખૂણો (કાટખૂણો)</b> જ બનાવે. <br>
+                            અને એક જ સમયે સૂર્યના કિરણો જમીન સાથે સરખો જ ખૂણો બનાવે છે. એટલે આ બંને ત્રિકોણો <b>ખુ-ખુ શરતથી સમરૂપ જ હોય!</b> આપણે સીધો ગુણોત્તર જ લેવાનો છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ત્રિકોણોની સમરૂપતા અને કિંમતો</b><br>
+                            ધારો કે વાંસ &Delta;ABC બનાવે છે અને ટાવર &Delta;PQR બનાવે છે.<br>
+                            અહીં, <b>&Delta;ABC &sim; &Delta;PQR</b> (કારણ કે બંને કાટકોણ છે અને સૂર્યનો ઉત્સેધકોણ સમાન છે).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                વાંસની ઊંચાઈ (AB) = 6 m<br>
+                                વાંસનો પડછાયો (BC) = 4 m<br>
+                                ટાવરની ઊંચાઈ (PQ) = <b>h (શોધવાની છે)</b><br>
+                                ટાવરનો પડછાયો (QR) = 28 m
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ગુણોત્તર લઈ કિંમત શોધવી</b><br>
+                            ત્રિકોણો સમરૂપ હોવાથી તેમની બાજુઓ સમપ્રમાણમાં હોય છે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6</span><span>h</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>28</span></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા)</i></span><br>
+                                h &times; 4 = 6 &times; 28<br>
+                                h = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6 &times; 28</span><span>4</span></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(4 સત્તા 28 થાય, એટલે છેદ ઊડી જશે)</i></span><br>
+                                h = 6 &times; 7<br>
+                                <b style='color:#be123c; font-size:22px;'>h = 42 m</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> માંગેલ ટાવરની ઊંચાઈ <b style='color:#be123c;'>42 મીટર</b> હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 16: જો AD અને PM એ અનુક્રમે &Delta;ABC અને &Delta;PQR ની મધ્યગાઓ હોય, તથા &Delta;ABC &sim; &Delta;PQR હોય, તો સાબિત કરો કે AB/PQ = AD/PM.", 
+                    question_desc: "બોર્ડમાં પૂછાતો સહેલો અને ટૂંકો મધ્યગાનો સાબિતીવાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="150" viewBox="0 0 280 150" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="60,20 20,120 100,120" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="60" y1="20" x2="60" y2="120" stroke="#dc2626" stroke-width="2"/>
+                                <text x="55" y="15" font-size="14" font-weight="bold">A</text>
+                                <text x="5" y="135" font-size="14" font-weight="bold">B</text>
+                                <text x="105" y="135" font-size="14" font-weight="bold">C</text>
+                                <text x="55" y="135" font-size="14" font-weight="bold" fill="#dc2626">D</text>
+
+                                <polygon points="210,20 170,120 250,120" fill="#fff7ed" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="210" y1="20" x2="210" y2="120" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="205" y="15" font-size="14" font-weight="bold">P</text>
+                                <text x="155" y="135" font-size="14" font-weight="bold">Q</text>
+                                <text x="255" y="135" font-size="14" font-weight="bold">R</text>
+                                <text x="205" y="135" font-size="14" font-weight="bold" fill="#1d4ed8">M</text>
+                                
+                                <path d="M 35 120 A 15 15 0 0 0 25 105" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 185 120 A 15 15 0 0 0 175 105" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 કન્સેપ્ટ (મધ્યગા એટલે અડધો કટકો):</b><br>
+                            અહીં મોટા ત્રિકોણ સમરૂપ <b>આપેલા જ છે!</b> એટલે &ang;B = &ang;Q તો આપેલું જ કહેવાય. અને BC/QR નો ગુણોત્તર પણ સરખો હોય.<br>
+                            AD અને PM મધ્યગા હોવાથી <b>BD એ BC નો અડધો</b> અને <b>QM એ QR નો અડધો</b> ભાગ છે. બસ આટલું લખીશું એટલે નાનો ત્રિકોણ સમરૂપ સાબિત થઈ જશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            <b>&Delta;ABC &sim; &Delta;PQR</b> આપેલ છે. અને AD તથા PM મધ્યગાઓ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>AB / PQ = AD / PM</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1. પક્ષ મુજબ મોટા ત્રિકોણની સમરૂપતાનો ઉપયોગ:</b><br>
+                                &Delta;ABC &sim; &Delta;PQR હોવાથી, તેમની બાજુઓ સમપ્રમાણમાં હોય અને અનુરૂપ ખૂણા સમાન હોય.<br>
+                                તેથી, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br>
+                                અને <b>&ang;B = &ang;Q</b> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
+                                
+                                <b>2. મધ્યગાનો ગુણધર્મ:</b><br>
+                                AD મધ્યગા હોવાથી: <b>BC = 2BD</b> થાય.<br>
+                                PM મધ્યગા હોવાથી: <b>QR = 2QM</b> થાય.<br>
+                                આ કિંમતો સમીકરણ 1 માં મૂકતાં:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2BD</span><span>2QM</span></span><br>
+                                <i>(2 અને 2 ઊડી જશે)</i><br>
+                                <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BD</span><span>QM</span></span></b> &nbsp;&nbsp; <b>... (સમીકરણ 3)</b><br><br>
+                                
+                                <b>3. નાના ત્રિકોણની સરખામણી (&Delta;ABD અને &Delta;PQM માં):</b><br>
+                                • <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BD</span><span>QM</span></span> <i>(સમીકરણ 3 પરથી)</i><br>
+                                • &ang;B = &ang;Q <i>(સમીકરણ 2 પરથી)</i><br><br>
+                                
+                                <b>બા-ખુ-બા (SAS)</b> શરત મુજબ, નાના ત્રિકોણો સમરૂપ સાબિત થાય છે:<br>
+                                <b>&Delta;ABD &sim; &Delta;PQM</b><br><br>
+                                
+                                <b>નિષ્કર્ષ:</b><br>
+                                જો નાના ત્રિકોણો સમરૂપ હોય, તો તેમની બધી જ બાજુઓ સમપ્રમાણમાં હોય! તેથી,<br>
+                                <b style='color:#16a34a; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>AD</span><span>PM</span></span></b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે.</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
