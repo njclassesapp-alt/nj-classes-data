@@ -11577,9 +11577,77 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 7.2 પ્રશ્ન 9: બિંદુઓ A(-2, 2) અને B(2, 8) ને જોડતા રેખાખંડનું ચાર સમાન ભાગમાં વિભાજન કરતા બિંદુઓના યામ શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો માત્ર મધ્યબિંદુ સૂત્રથી ગણાતો લાંબો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 4 સમાન ભાગ કરવા માટે આપણે વિભાજન સૂત્ર નહિ, પણ 3 વાર મધ્યબિંદુ સૂત્ર વાપરીને દાખલો સહેલો બનાવીશું!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="40" x2="280" y2="40" stroke="#0f172a" stroke-width="4"/>
+                                
+                                <circle cx="20" cy="40" r="5" fill="#dc2626"/> <circle cx="280" cy="40" r="5" fill="#dc2626"/> <circle cx="150" cy="40" r="6" fill="#0f172a"/> <circle cx="85" cy="40" r="5" fill="#1d4ed8"/> <circle cx="215" cy="40" r="5" fill="#16a34a"/> <text x="15" y="25" font-size="14" font-weight="bold">A</text>
+                                <text x="275" y="25" font-size="14" font-weight="bold">B</text>
+                                <text x="143" y="25" font-size="14" font-weight="bold">P₂</text>
+                                <text x="78" y="25" font-size="14" font-weight="bold" fill="#1d4ed8">P₁</text>
+                                <text x="208" y="25" font-size="14" font-weight="bold" fill="#16a34a">P₃</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (3 વખત મધ્યબિંદુ):</b><br>
+                            કોઈ દોરીના 4 કટકા કરવા હોય, તો પહેલા તેને <b>વચ્ચેથી અડધી (P₂)</b> કરો. <br>
+                            પછી <b>ડાબા ભાગને અડધો (P₁)</b> કરો, અને <b>જમણા ભાગને અડધો (P₃)</b> કરો! થઈ ગયા 4 કટકા સાવ સહેલાઈથી!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પહેલા આખા AB નું મધ્યબિંદુ P₂ શોધવું</b><br>
+                            A(-2, 2) અને B(2, 8) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                P₂ = <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-2 + 2</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2 + 8</span><span>2</span></span> <span style='font-size:24px;'>)</span><br><br>
+                                P₂ = <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>2</span></span> <span style='font-size:24px;'>)</span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#0f172a; font-size:18px;'>P₂ = (0, 5)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ડાબા ભાગ (AP₂) નું મધ્યબિંદુ P₁ શોધવું</b><br>
+                            A(-2, 2) અને P₂(0, 5) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                P₁ = <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-2 + 0</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2 + 5</span><span>2</span></span> <span style='font-size:24px;'>)</span><br><br>
+                                P₁ = <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-2</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span> <span style='font-size:24px;'>)</span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#1d4ed8; font-size:18px;'>P₁ = <span style='font-size:20px;'>(</span>-1, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>7</span><span>2</span></span><span style='font-size:20px;'>)</span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: જમણા ભાગ (P₂B) નું મધ્યબિંદુ P₃ શોધવું</b><br>
+                            P₂(0, 5) અને B(2, 8) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#f3e8ff; padding:10px; border-radius:5px;'>
+                                P₃ = <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0 + 2</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5 + 8</span><span>2</span></span> <span style='font-size:24px;'>)</span><br><br>
+                                P₃ = <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>2</span></span> , <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> <span style='font-size:24px;'>)</span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#9333ea; font-size:18px;'>P₃ = <span style='font-size:20px;'>(</span>1, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>13</span><span>2</span></span><span style='font-size:20px;'>)</span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ 4 સમાન ભાગ કરતા ત્રણેય બિંદુઓ: 
+                            <br><br><b><span style='color:#1d4ed8;'>P₁<span style='font-size:18px;'>(</span>-1, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>7</span><span>2</span></span><span style='font-size:18px;'>)</span></span></b>, &nbsp;
+                            <b><span style='color:#0f172a;'>P₂(0, 5)</span></b>, &nbsp;અને&nbsp; 
+                            <b><span style='color:#9333ea;'>P₃<span style='font-size:18px;'>(</span>1, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>13</span><span>2</span></span><span style='font-size:18px;'>)</span></span></b> છે.
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
