@@ -8801,9 +8801,144 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 5: આપેલ આકૃતિમાં DE || OQ અને DF || OR છે. સાબિત કરો કે EF || QR.", 
+                    question_desc: "2025 ની બોર્ડ પરીક્ષા માટે થેલ્સના પ્રતિપ પ્રમેયની મોસ્ટ IMP સાબિતી",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2 માર્ક્સની સાબિતી માટે 2025 અને 2026 નો ફેવરિટ દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="240" height="180" viewBox="0 0 240 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="120,20 40,160 200,160" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="120" y1="20" x2="120" y2="110" stroke="#0f172a" stroke-width="2"/> <line x1="40" y1="160" x2="120" y2="110" stroke="#0f172a" stroke-width="2"/> <line x1="200" y1="160" x2="120" y2="110" stroke="#0f172a" stroke-width="2"/> <line x1="120" y1="65" x2="80" y2="90" stroke="#dc2626" stroke-width="3"/> <line x1="120" y1="65" x2="160" y2="90" stroke="#1d4ed8" stroke-width="3"/> <line x1="80" y1="90" x2="160" y2="90" stroke="#16a34a" stroke-width="3" stroke-dasharray="5,3"/> <text x="115" y="15" font-size="16" font-weight="bold">P</text>
+                                <text x="25" y="165" font-size="16" font-weight="bold">Q</text>
+                                <text x="205" y="165" font-size="16" font-weight="bold">R</text>
+                                <text x="115" y="130" font-size="16" font-weight="bold">O</text>
+                                <text x="125" y="60" font-size="16" font-weight="bold">D</text>
+                                <text x="60" y="90" font-size="16" font-weight="bold" fill="#dc2626">E</text>
+                                <text x="170" y="90" font-size="16" font-weight="bold" fill="#1d4ed8">F</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 "2 ત્રિકોણ પકડો" ની ટ્રીક:</b><br>
+                            • લાલ લાઈન DE || OQ માટે ડાબી બાજુનો ત્રિકોણ <b>$\\Delta$PQO</b> પકડો.<br>
+                            • ભૂરી લાઈન DF || OR માટે જમણી બાજુનો ત્રિકોણ <b>$\\Delta$PRO</b> પકડો.<br>
+                            બંનેમાં થેલ્સ લગાવીને સરખાવી દો, એટલે નીચેની લીલી લાઈન EF || QR આપોઆપ સાબિત થઈ જશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            $\\Delta$PQR માં <b>DE || OQ</b> અને <b>DF || OR</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>EF || QR</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1. ડાબી બાજુના ત્રિકોણ $\\Delta$PQO માં:</b><br>
+                                આપેલ છે કે <b style='color:#dc2626;'>DE || OQ</b>.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PE</span><span>EQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PD</span><span>DO</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2. જમણી બાજુના ત્રિકોણ $\\Delta$PRO માં:</b><br>
+                                આપેલ છે કે <b style='color:#1d4ed8;'>DF || OR</b>.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PF</span><span>FR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PD</span><span>DO</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
+                                
+                                <b>3. સરખામણી:</b><br>
+                                સમીકરણ (1) અને (2) ની જમણી બાજુ (PD/DO) સમાન છે. તેથી ડાબી બાજુઓ પણ સમાન થાય!<br>
+                                <b style='color:#0f172a; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PE</span><span>EQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PF</span><span>FR</span></span></b><br><br>
+                                
+                                <b>4. અંતિમ તબક્કો (મોટો ત્રિકોણ $\\Delta$PQR):</b><br>
+                                હવે મોટા ત્રિકોણ $\\Delta$PQR માં આપણને મળ્યું કે PE/EQ = PF/FR છે.<br>
+                                તેથી <b>થેલ્સના પ્રતિપ પ્રમેય (Converse of Thales)</b> મુજબ:<br>
+                                <b style='color:#16a34a; font-size:20px;'>EF || QR</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 6: આપેલ આકૃતિમાં OP, OQ અને OR પર અનુક્રમે બિંદુઓ A, B અને C એવા છે કે જેથી AB || PQ અને AC || PR. તો સાબિત કરો કે BC || QR.", 
+                    question_desc: "પ્રશ્ન 5 નો જ જોડીયો ભાઈ! સેમ ગણતરી વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#fdf4ff; border:1px solid #f0abfc; border-radius:8px; padding:15px;'>
+                            <svg width="250" height="180" viewBox="0 0 250 180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="30" cy="90" r="3" fill="#0f172a"/>
+                                <line x1="30" y1="90" x2="160" y2="20" stroke="#94a3b8" stroke-width="2"/> <line x1="30" y1="90" x2="160" y2="160" stroke="#94a3b8" stroke-width="2"/> <line x1="30" y1="90" x2="220" y2="90" stroke="#94a3b8" stroke-width="2"/> <polygon points="160,20 160,160 220,90" fill="none" stroke="#0f172a" stroke-width="2"/>
+                                <polygon points="95,55 95,125 125,90" fill="#fce7f3" stroke="#be123c" stroke-width="2"/>
+                                
+                                <line x1="95" y1="55" x2="95" y2="125" stroke="#dc2626" stroke-width="3"/> <line x1="160" y1="20" x2="160" y2="160" stroke="#dc2626" stroke-width="3"/> <line x1="95" y1="55" x2="125" y2="90" stroke="#1d4ed8" stroke-width="3"/> <line x1="160" y1="20" x2="220" y2="90" stroke="#1d4ed8" stroke-width="3"/> <line x1="95" y1="125" x2="125" y2="90" stroke="#16a34a" stroke-width="3" stroke-dasharray="4,2"/> <line x1="160" y1="160" x2="220" y2="90" stroke="#16a34a" stroke-width="3" stroke-dasharray="4,2"/> <text x="15" y="95" font-size="14" font-weight="bold">O</text>
+                                <text x="165" y="15" font-size="14" font-weight="bold">P</text>
+                                <text x="165" y="175" font-size="14" font-weight="bold">Q</text>
+                                <text x="225" y="95" font-size="14" font-weight="bold">R</text>
+                                <text x="80" y="50" font-size="14" font-weight="bold" fill="#dc2626">A</text>
+                                <text x="80" y="135" font-size="14" font-weight="bold" fill="#dc2626">B</text>
+                                <text x="125" y="85" font-size="14" font-weight="bold" fill="#1d4ed8">C</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ટ્રીક:</b> આ દાખલો અગાઉના પ્રશ્ન 5 ની બિલકુલ 100% કોપી જ છે! માત્ર ત્રિકોણના નામ બદલાયા છે.<br>
+                            • AB || PQ માટે $\\Delta$OPQ પકડો.<br>
+                            • AC || PR માટે $\\Delta$OPR પકડો.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            આકૃતિમાં <b>AB || PQ</b> અને <b>AC || PR</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>BC || QR</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1. ડાબી બાજુના ત્રિકોણ $\\Delta$OPQ માં:</b><br>
+                                આપેલ છે કે <b style='color:#dc2626;'>AB || PQ</b>.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OA</span><span>AP</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OB</span><span>BQ</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2. ઉપરના ત્રિકોણ $\\Delta$OPR માં:</b><br>
+                                આપેલ છે કે <b style='color:#1d4ed8;'>AC || PR</b>.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OA</span><span>AP</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OC</span><span>CR</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
+                                
+                                <b>3. સરખામણી:</b><br>
+                                સમીકરણ (1) અને (2) ની ડાબી બાજુ (OA/AP) સમાન છે. તેથી જમણી બાજુઓ પણ સમાન થાય!<br>
+                                <b style='color:#0f172a; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OB</span><span>BQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>OC</span><span>CR</span></span></b><br><br>
+                                
+                                <b>4. અંતિમ તબક્કો (નીચેનો ત્રિકોણ $\\Delta$OQR):</b><br>
+                                હવે ત્રિકોણ $\\Delta$OQR માં આપણને મળ્યું કે OB/BQ = OC/CR છે.<br>
+                                તેથી <b>થેલ્સના પ્રતિપ પ્રમેય</b> મુજબ:<br>
+                                <b style='color:#16a34a; font-size:20px;'>BC || QR</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
                 
             
