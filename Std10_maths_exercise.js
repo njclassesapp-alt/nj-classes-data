@@ -10726,9 +10726,124 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 6(ii): નીચે દર્શાવેલા બિંદુઓથી જો ચતુષ્કોણ રચાતો હોય, તો તેનો પ્રકાર જણાવો: (-3, 5), (3, 1), (0, 3), (-1, -4)", 
+                    question_desc: "ચતુષ્કોણ ન બનતો હોય તેવો ખાસ ટ્વિસ્ટેડ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (મોટો ટ્વિસ્ટ):</b><br>
+                            આપણે શરૂઆતમાં અંતર શોધીશું, પણ જો <b>કોઈ બે નાના અંતરનો સરવાળો ત્રીજા મોટા અંતર જેટલો</b> થઈ જાય, તો તેનો અર્થ એ કે તે 3 બિંદુઓ એક જ સીધી રેખામાં (સમરેખ) છે. અને જો 3 બિંદુ એક જ લાઈનમાં હોય, તો 4 બાજુ વાળો ચતુષ્કોણ બની જ ન શકે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: અંતર શોધવાની શરૂઆત</b><br>
+                            ધારો કે બિંદુઓ <b>A(-3, 5), B(3, 1), C(0, 3) અને D(-1, -4)</b> છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>(1) AB ની ગણતરી:</b><br>
+                                AB<sup>2</sup> = (3 - (-3))<sup>2</sup> + (1 - 5)<sup>2</sup><br>
+                                AB<sup>2</sup> = (3 + 3)<sup>2</sup> + (-4)<sup>2</sup> = (6)<sup>2</sup> + 16 = 36 + 16 = 52<br>
+                                <b>AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;52&nbsp;</span></span></b> <span style='color:#047857; font-size:14px;'>(52 એટલે 13 &times; 4 થાય, તો <b>AB = 2<span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;13&nbsp;</span></span></b>)</span>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>(2) BC ની ગણતરી:</b><br>
+                                BC<sup>2</sup> = (0 - 3)<sup>2</sup> + (3 - 1)<sup>2</sup><br>
+                                BC<sup>2</sup> = (-3)<sup>2</sup> + (2)<sup>2</sup> = 9 + 4 = 13<br>
+                                <b>BC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;13&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>(3) AC ની ગણતરી (વિકર્ણ નહિ, પહેલા AC જ ચેક કરીએ):</b><br>
+                                AC<sup>2</sup> = (0 - (-3))<sup>2</sup> + (3 - 5)<sup>2</sup><br>
+                                AC<sup>2</sup> = (3)<sup>2</sup> + (-2)<sup>2</sup> = 9 + 4 = 13<br>
+                                <b>AC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;13&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 2: ટ્વિસ્ટ પકડાઈ ગયો!</b><br>
+                            અહીં ધ્યાનથી જુઓ: <br>
+                            BC + AC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;13&nbsp;</span></span> + <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;13&nbsp;</span></span> = <b>2<span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;13&nbsp;</span></span></b><br>
+                            જે AB ના માપ <b>(2<span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;13&nbsp;</span></span>)</b> જેટલું જ છે!<br>
+                            એટલે કે <b>AC + BC = AB</b> થાય છે.<br>
+                            આનો અર્થ એ થયો કે A, C અને B બિંદુઓ એક જ સીધી રેખા પર (સમરેખ) આવેલા છે.<br>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> ત્રણ બિંદુઓ સમરેખ હોવાથી, <b>અહીં કોઈપણ ચતુષ્કોણ રચાતો નથી!</b> (D શોધવાની જરૂર જ નથી).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 6(iii): નીચે દર્શાવેલા બિંદુઓથી જો ચતુષ્કોણ રચાતો હોય, તો તેનો પ્રકાર જણાવો: (4, 5), (7, 6), (4, 3), (1, 2)", 
+                    question_desc: "સમાંતરબાજુ ચતુષ્કોણ સાબિત કરતો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમાંતરબાજુ ચતુષ્કોણની શરત:</b><br>
+                            જો <b>સામસામેની બાજુઓ સરખી</b> હોય (AB = CD અને BC = DA), પણ <b>વિકર્ણો સરખા ન હોય</b> (AC &ne; BD), તો તેને 'સમાંતરબાજુ ચતુષ્કોણ (Parallelogram)' કહેવાય.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ચારેય બાજુઓની ગણતરી</b><br>
+                            ધારો કે બિંદુઓ <b>A(4, 5), B(7, 6), C(4, 3) અને D(1, 2)</b> છે.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>(1) AB:</b> AB<sup>2</sup> = (7 - 4)<sup>2</sup> + (6 - 5)<sup>2</sup><br>
+                                AB<sup>2</sup> = (3)<sup>2</sup> + (1)<sup>2</sup> = 9 + 1 = 10 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b>AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;10&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>(2) BC:</b> BC<sup>2</sup> = (4 - 7)<sup>2</sup> + (3 - 6)<sup>2</sup><br>
+                                BC<sup>2</sup> = (-3)<sup>2</sup> + (-3)<sup>2</sup> = 9 + 9 = 18 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b>BC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>(3) CD:</b> CD<sup>2</sup> = (1 - 4)<sup>2</sup> + (2 - 3)<sup>2</sup><br>
+                                CD<sup>2</sup> = (-3)<sup>2</sup> + (-1)<sup>2</sup> = 9 + 1 = 10 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b>CD = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;10&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#f3e8ff; padding:10px; border-radius:5px;'>
+                                <b>(4) DA:</b> DA<sup>2</sup> = (4 - 1)<sup>2</sup> + (5 - 2)<sup>2</sup><br>
+                                DA<sup>2</sup> = (3)<sup>2</sup> + (3)<sup>2</sup> = 9 + 9 = 18 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b>DA = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વિકર્ણોની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>(1) AC:</b> AC<sup>2</sup> = (4 - 4)<sup>2</sup> + (3 - 5)<sup>2</sup><br>
+                                AC<sup>2</sup> = (0)<sup>2</sup> + (-2)<sup>2</sup> = 0 + 4 = 4 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b>AC = 2</b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>(2) BD:</b> BD<sup>2</sup> = (1 - 7)<sup>2</sup> + (2 - 6)<sup>2</sup><br>
+                                BD<sup>2</sup> = (-6)<sup>2</sup> + (-4)<sup>2</sup> = 36 + 16 = 52 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b>BD = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;52&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: અંતિમ નિર્ણય</b><br>
+                            અહીં, <b>સામસામેની બાજુઓ સમાન છે:</b><br>
+                            AB = CD = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;10&nbsp;</span></span> અને BC = DA = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span>.<br>
+                            પરંતુ, <b>બંને વિકર્ણો સમાન નથી</b> (AC &ne; BD).<br>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> સામસામેની બાજુઓ સરખી છે પણ વિકર્ણો નથી, તેથી આ <b>સમાંતરબાજુ ચતુષ્કોણ (Parallelogram)</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
