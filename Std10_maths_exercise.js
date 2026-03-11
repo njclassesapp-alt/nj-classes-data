@@ -6939,9 +6939,105 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ટ્રીક: જ્યારે છેલ્લું પદ આપ્યું હોય પણ n ન આપ્યો હોય ત્યારે શું કરવું?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>પ્રશ્ન 2 ના દાખલા ગણવા માટેની સાવ દેશી '2-સ્ટેપ ટ્રીક':</p>
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li>અહીં આપણને છેલ્લો આંકડો (l) ખબર છે, પણ તે કેટલામા નંબરે છે (n) તે ખબર નથી!</li>
+                                <li><b style='color:#1d4ed8;'>સ્ટેપ 1:</b> પહેલા જૂના બ્રહ્માસ્ત્ર સૂત્ર <b style='background-color:#e0f2fe; padding:2px 6px; border-radius:4px;'>a<sub>n</sub> = a + (n - 1)d</b> થી <b>n</b> શોધી લો.</li>
+                                <li><b style='color:#be123c;'>સ્ટેપ 2:</b> હવે n મળી ગયો છે, તો સરવાળાનું શોર્ટકટ (નાનું) સૂત્ર <b style='background-color:#fee2e2; padding:2px 6px; border-radius:4px;'>S<sub>n</sub> = (n/2)[a + l]</b> વાપરીને સરવાળો શોધી લો! બસ આટલું જ!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 2(i): નીચેના સરવાળા શોધો: 7 + 10&frac12; + 14 + ... + 84", 
+                    question_desc: "બોર્ડમાં પૂછાતો અપૂર્ણાંકવાળો 3 માર્ક્સનો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: n શોધવો (a<sub>n</sub> ના સૂત્રથી)</b><br>
+                            અહીં <b>a = 7</b> અને છેલ્લું પદ <b>l (કે a<sub>n</sub>) = 84</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(બીજું પદ 10&frac12; એટલે કે 21/2 છે)</i></span><br>
+                                <b>તફાવત (d)</b> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>21</span><span>2</span></span> - 7 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>21 - 14</span><span>2</span></span> = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>7</span><span>2</span></span></b><br><br>
+                                
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                84 = 7 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span><span style='font-size:24px;'>)</span><br>
+                                84 - 7 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span><span style='font-size:24px;'>)</span><br>
+                                77 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span><span style='font-size:24px;'>)</span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(7/2 ડાબી બાજુ આવે એટલે ઉલટાઈને 2/7 થઈ જશે)</i></span><br>
+                                77 &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>7</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(11 સત્તા 77 છેદ ઉડશે, એટલે 11 &times; 2 = 22 વધશે)</i></span><br>
+                                22 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                22 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i> &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>n</i> = 23</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરવાળો (S<sub>n</sub>) શોધવો (નાના શોર્ટકટ સૂત્રથી)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>23</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>23</span><span>2</span></span> [ 7 + 84 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>23</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>23</span><span>2</span></span> [ 91 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>23</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2093</span><span>2</span></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>23</sub></i> = 1046.5 <span style='font-size:16px;'>&nbsp; (અથવા 1046&frac12;)</span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આ શ્રેણીનો સરવાળો <b style='color:#be123c;'>2093/2</b> અથવા <b style='color:#be123c;'>1046.5</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 2(ii): નીચેના સરવાળા શોધો: 34 + 32 + 30 + ... + 10", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: n શોધવો (a<sub>n</sub> ના સૂત્રથી)</b><br>
+                            અહીં <b>a = 34</b>, <b>d = 32 - 34 = -2</b>, અને છેલ્લું પદ <b>l (a<sub>n</sub>) = 10</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                10 = 34 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(-2)<br>
+                                10 - 34 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(-2)<br>
+                                -24 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(-2)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-24</span><span>-2</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ માઇનસ પ્લસ થાય અને 12 દૂ 24)</i></span><br>
+                                12 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                12 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i> &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>n</i> = 13</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરવાળો (S<sub>n</sub>) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> [ 34 + 10 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> [ 44 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(44 ને 2 વડે ભાગીએ તો 22 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = 13 &times; 22<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = 286</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> આ શ્રેણીનો સરવાળો <b style='color:#be123c;'>286</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
