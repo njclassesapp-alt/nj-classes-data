@@ -6857,9 +6857,94 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 1(iii): સમાંતર શ્રેણી 0.6, 1.7, 2.8, ... ના 100 પદો સુધીનો સરવાળો શોધો.", 
+                    question_desc: "બોર્ડ પરીક્ષામાં પૂછાતો પોઈન્ટવાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને n નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#1d4ed8;'>0.6</b><br>
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = 1.7 - 0.6 = <b style='color:#dc2626;'>1.1</b><br>
+                                <b>પદની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b style='color:#16a34a;'>100</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>100</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>100</span><span>2</span></span> [ 2(0.6) + (100 - 1)(1.1) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>100</sub></i> = 50 [ 1.2 + (99)(1.1) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(99 &times; 11 = 1089 થાય, 1 પોઈન્ટ કાપતાં 108.9 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>100</sub></i> = 50 [ 1.2 + 108.9 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>100</sub></i> = 50 [ 110.1 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(50 નો 0 અને 110.1 નો પોઈન્ટ ઉડી જશે, એટલે 5 &times; 1101 જ કરવાનું છે)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>S<sub>100</sub></i> = 5505</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 1(iv): સમાંતર શ્રેણી 1/15, 1/12, 1/10, ... ના 11 પદો સુધીનો સરવાળો શોધો.", 
+                    question_desc: "લ.સા.અ. અને અપૂર્ણાંક વાળી ગણતરીનો સૌથી મોસ્ટ IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 લ.સા.અ. લેવાની દેશી ટ્રીક:</b><br>
+                            આ દાખલામાં છેદમાં 12 અને 15 છે. બંનેના ઘડિયામાં આવતી સૌથી પહેલી રકમ 60 છે (12 પંચા 60 અને 15 ચોક 60). એટલે આપણો <b>લ.સા.અ. 60</b> આવશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને n નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>15</span></span></b><br>
+                                
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = a<sub>2</sub> - a<sub>1</sub> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>12</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>15</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(લ.સા.અ. 60 લાવવા 12 ને 5 વડે અને 15 ને 4 વડે ગુણતા)</i></span><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5 - 4</span><span>60</span></span> = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>1</span><span>60</span></span></b><br>
+                                
+                                <b>પદની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b style='color:#16a34a;'>11</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: મોટા સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br><br>
+                                
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>11</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>2</span></span> [ 2<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>15</span></span><span style='font-size:24px;'>)</span> + (11 - 1)<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>60</span></span><span style='font-size:24px;'>)</span> ]<br>
+                                
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>11</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>2</span></span> [ <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>15</span></span> + 10<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>60</span></span><span style='font-size:24px;'>)</span> ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(10 અને 60 નો છેદ ઉડાડતા: 10 છક 60, એટલે 1/6 વધે)</i></span><br>
+                                
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>11</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>2</span></span> [ <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>15</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>6</span></span> ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(15 અને 6 નો લ.સા.અ. 30 થાય: 15 દૂ 30 અને 6 પંચા 30)</i></span><br>
+                                
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>11</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>2</span></span> [ <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4 + 5</span><span>30</span></span> ]<br>
+                                
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>11</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>2</span></span> [ <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>30</span></span> ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(9 અને 30 બંને 3 ના ઘડિયામાં આવે: 3 તેરી 9 અને 3 દાન 30)</i></span><br>
+                                
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>11</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>10</span></span><br>
+                                
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(અંશનો અંશ સાથે અને છેદનો છેદ સાથે ગુણાકાર: 11 &times; 3 અને 2 &times; 10)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>S<sub>11</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>33</span><span>20</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
                                         
