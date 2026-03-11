@@ -7773,9 +7773,150 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 10: દર્શાવો કે a_n = 3 + 4n નીચે પ્રમાણે વ્યાખ્યાયિત છે, તે સમાંતર શ્રેણી બનાવે છે. વળી પ્રથમ 15 પદોનો સરવાળો શોધો.", 
+                    question_desc: "સૂત્ર પરથી જાતે જ શ્રેણી બનાવવાની ટ્રીક",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 શ્રેણી બનાવવાની માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે પણ <b style='color:#dc2626;'>a<sub>n</sub> = 3 + 4n</b> જેવું સૂત્ર આપ્યું હોય, ત્યારે તેમાં વારાફરતી <b style='color:#1d4ed8;'>n = 1, 2, 3</b> મૂકતા જાવ, એટલે તમને આપોઆપ સમાંતર શ્રેણીના પદો મળી જશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: શ્રેણી બનાવવી અને a, d શોધવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(n = 1 મૂકતાં)</i></span><br>
+                                a<sub>1</sub> = 3 + 4(1) = 3 + 4 = <b style='color:#1d4ed8;'>7</b> &nbsp;&nbsp;&nbsp; <b>(આપણું પ્રથમ પદ a)</b><br>
+                                <span style='color:#047857; font-size:14px;'><i>(n = 2 મૂકતાં)</i></span><br>
+                                a<sub>2</sub> = 3 + 4(2) = 3 + 8 = <b style='color:#1d4ed8;'>11</b><br>
+                                <span style='color:#047857; font-size:14px;'><i>(n = 3 મૂકતાં)</i></span><br>
+                                a<sub>3</sub> = 3 + 4(3) = 3 + 12 = <b style='color:#1d4ed8;'>15</b><br><br>
+                                <b>આપણી શ્રેણી:</b> 7, 11, 15, ...<br>
+                                <b>તફાવત (d):</b> 11 - 7 = <b style='color:#dc2626;'>4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 15 પદોનો સરવાળો (S<sub>15</sub>) શોધવો</b><br>
+                            અહીં <b>a = 7</b>, <b>d = 4</b> અને <b>n = 15</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 2(7) + (15 - 1)(4) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 14 + (14)(4) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 14 + 56 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 70 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(70 ને 2 વડે ભાગતા 35 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = 15 &times; 35<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = 525</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આપેલ શ્રેણીના પ્રથમ 15 પદોનો સરવાળો <b style='color:#be123c;'>525</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 11: જો સમાંતર શ્રેણીના પ્રથમ n પદોનો સરવાળો S_n = 4n - n^2 હોય, તો પ્રથમ પદ કયું હશે? પ્રથમ બે પદોનો સરવાળો, બીજું પદ, 3જું, 10મું અને n મું પદ શોધો.", 
+                    question_desc: "આખા પ્રકરણ 5 નો સૌથી કન્ફ્યુઝ કરતો 'બાપ' દાખલો (NJ Classes ની સ્પેશિયલ ટ્રીકથી સોલ્વ!)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 3 માર્ક્સમાં પૂછાતો સૌથી ટ્વિસ્ટેડ દાખલો! (આપણે તેને સાવ દેશી રીતે સોલ્વ કરીશું)</b>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 NJ Classes સ્પેશિયલ દેશી ટ્રીક:</b><br>
+                            • <b>પ્રથમ પદ (a<sub>1</sub>)</b> એટલે એક જ પદનો સરવાળો. તો <b>a<sub>1</sub> = S<sub>1</sub></b> થાય!<br>
+                            • <b>બીજું પદ (a<sub>2</sub>)</b> એટલે બે પદોના સરવાળા (S<sub>2</sub>) માંથી પહેલું પદ (S<sub>1</sub>) કાઢી નાખવાનું. <b>a<sub>2</sub> = S<sub>2</sub> - S<sub>1</sub></b>.<br>
+                            બસ, આપણને પહેલું પદ (a) અને બીજું પદ મળી જાય, એટલે <b>તફાવત (d)</b> મળી જશે. અને d મળી જાય પછી દુનિયાનું ગમે તે પદ પૂછે, આપણે શોધી શકીએ!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: S<sub>1</sub> અને S<sub>2</sub> શોધવા</b><br>
+                            અહીં <b>S<sub>n</sub> = 4n - n<sup>2</sup></b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(n = 1 મૂકતાં - આ આપણું પહેલું પદ જ છે)</i></span><br>
+                                <b>S<sub>1</sub></b> = 4(1) - (1)<sup>2</sup> = 4 - 1 = <b style='color:#1d4ed8;'>3</b> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; એટલે કે <b>પ્રથમ પદ (a) = 3</b>.<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(n = 2 મૂકતાં - આ બે પદોનો સરવાળો છે)</i></span><br>
+                                <b>S<sub>2</sub></b> = 4(2) - (2)<sup>2</sup> = 8 - 4 = <b style='color:#1d4ed8;'>4</b><br>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: બીજું પદ (a<sub>2</sub>) અને તફાવત (d) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>બીજું પદ (a<sub>2</sub>):</b> S<sub>2</sub> - S<sub>1</sub> = 4 - 3 = <b style='color:#dc2626;'>1</b><br>
+                                <b>તફાવત (d):</b> a<sub>2</sub> - a<sub>1</sub> = 1 - 3 = <b style='color:#be123c;'>-2</b>
+                            </div>
+                            <span style='color:#0f172a; font-size:15px;'>હવે આપણી પાસે બ્રહ્માસ્ત્ર છે: <b>a = 3</b> અને <b>d = -2</b>. હવે જે પૂછ્યું છે તે બધું ફટાફટ મળશે!</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 3: 3જું, 10મું અને n મું પદ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>ત્રીજું પદ (a<sub>3</sub>):</b> a + 2d = 3 + 2(-2) = 3 - 4 = <b style='color:#16a34a;'>-1</b><br>
+                                <b>10મું પદ (a<sub>10</sub>):</b> a + 9d = 3 + 9(-2) = 3 - 18 = <b style='color:#16a34a;'>-15</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(n મું પદ શોધવા માટે n એમના એમ રાખીશું)</i></span><br>
+                                <b>n મું પદ (a<sub>n</sub>):</b> a + (n - 1)d<br>
+                                a<sub>n</sub> = 3 + (n - 1)(-2)<br>
+                                <span style='color:#047857; font-size:14px;'><i>(-2 નો કૌંસમાં ગુણાકાર)</i></span><br>
+                                a<sub>n</sub> = 3 - 2n + 2<br>
+                                <b style='font-size:22px; color:#be123c;'>a<sub>n</sub> = 5 - 2n</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 12: 6 વડે વિભાજ્ય પ્રથમ 40 ધન પૂર્ણાંકોનો સરવાળો શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 શ્રેણી બનાવવાની ટ્રીક:</b><br>
+                            6 વડે વિભાજ્ય સંખ્યાઓ એટલે બીજું કાંઈ નહિ, <b>6 નો ઘડિયો!</b><br>
+                            શ્રેણી બનશે: <b>6, 12, 18, 24, ...</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને n લખવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = <b style='color:#1d4ed8;'>6</b><br>
+                                <b>d</b> = 12 - 6 = <b style='color:#dc2626;'>6</b><br>
+                                <b>n</b> = <b style='color:#16a34a;'>40</b> <span style='color:#047857; font-size:14px;'><i>(પ્રથમ 40 પૂર્ણાંકો કહ્યા છે)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરવાળો (S<sub>40</sub>) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>40</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>40</span><span>2</span></span> [ 2(6) + (40 - 1)(6) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>40</sub></i> = 20 [ 12 + (39)(6) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(39 &times; 6 = 234)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>40</sub></i> = 20 [ 12 + 234 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>40</sub></i> = 20 [ 246 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(246 ના ડબલ 492 થાય અને પાછળ એક મીંડું)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>40</sub></i> = 4920</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 6 વડે વિભાજ્ય પ્રથમ 40 ધન પૂર્ણાંકોનો સરવાળો <b style='color:#be123c;'>4920</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
