@@ -8677,7 +8677,7 @@ var njMathsExercise = {
                 },
                         
         
-                { 
+                             { 
                     question: "🌟 સ્વા. 6.2 પ્રશ્ન 3: આપેલ આકૃતિમાં જો LM || CB અને LN || CD હોય, તો સાબિત કરો કે AM / AB = AN / AD.", 
                     question_desc: "2024 અને 2025 ની બોર્ડ પરીક્ષામાં 2 માર્ક્સ માટે પૂછાતો મોસ્ટ IMP સાબિતીનો દાખલો",
                     answer: `
@@ -8721,12 +8721,12 @@ var njMathsExercise = {
                             <div style='margin-bottom:10px; font-size:14px; color:#64748b;'><i>(માસ્ટર ટ્રીક: બંને ત્રિકોણમાં વારાફરતી થેલ્સનું પ્રમેય લગાવો)</i></div>
                             
                             <div style='overflow-x:auto; white-space:nowrap; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
-                                <b>1. ઉપરના ત્રિકોણ $\\Delta$ABC માં:</b><br>
+                                <b>1. ઉપરના ત્રિકોણ &Delta;ABC માં:</b><br>
                                 આપેલ છે કે LM || CB.<br>
                                 થેલ્સના પ્રમેય (ઉપપ્રમેય) મુજબ:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AM</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AL</span><span>AC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
                                 
-                                <b>2. નીચેના ત્રિકોણ $\\Delta$ADC માં:</b><br>
+                                <b>2. નીચેના ત્રિકોણ &Delta;ADC માં:</b><br>
                                 આપેલ છે કે LN || CD.<br>
                                 થેલ્સના પ્રમેય મુજબ:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AN</span><span>AD</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AL</span><span>AC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
@@ -8748,8 +8748,8 @@ var njMathsExercise = {
                         <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
                             <b style='color:#86198f;'>💡 "2 ત્રિકોણ પકડો" ની ટ્રીક:</b><br>
                             આ દાખલામાં બે વાર સમાંતર રેખાઓ આપી છે. તમારે માત્ર એ જોવાનું છે કે કઈ લાઈન કયા ત્રિકોણમાં આવે છે! <br>
-                            • DE || AC માટે મોટો ત્રિકોણ <b>$\\Delta$ABC</b> પકડો.<br>
-                            • DF || AE માટે અડધો ત્રિકોણ <b>$\\Delta$ABE</b> પકડો. બસ, બંનેમાં થેલ્સ દાદાનો નિયમ લગાવી દો!
+                            • DE || AC માટે મોટો ત્રિકોણ <b>&Delta;ABC</b> પકડો.<br>
+                            • DF || AE માટે અડધો ત્રિકોણ <b>&Delta;ABE</b> પકડો. બસ, બંનેમાં થેલ્સ દાદાનો નિયમ લગાવી દો!
                         </div>
 
                         <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
@@ -8772,7 +8772,7 @@ var njMathsExercise = {
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
-                            $\\Delta$ABC માં <b>DE || AC</b> અને <b>DF || AE</b> આપેલ છે.
+                            &Delta;ABC માં <b>DE || AC</b> અને <b>DF || AE</b> આપેલ છે.
                         </div>
 
                         <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
@@ -8783,12 +8783,12 @@ var njMathsExercise = {
                         <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
                             <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
                             <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
-                                <b>1. મોટા ત્રિકોણ $\\Delta$ABC માં:</b><br>
+                                <b>1. મોટા ત્રિકોણ &Delta;ABC માં:</b><br>
                                 આપેલ છે કે <b style='color:#dc2626;'>DE || AC</b>.<br>
                                 થેલ્સના પ્રમેય મુજબ:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BD</span><span>DA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BE</span><span>EC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
                                 
-                                <b>2. નાના ત્રિકોણ $\\Delta$ABE માં:</b><br>
+                                <b>2. નાના ત્રિકોણ &Delta;ABE માં:</b><br>
                                 આપેલ છે કે <b style='color:#1d4ed8;'>DF || AE</b>.<br>
                                 થેલ્સના પ્રમેય મુજબ:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BD</span><span>DA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BF</span><span>FE</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
@@ -8802,6 +8802,8 @@ var njMathsExercise = {
                     </div>
                     `
                 },
+                
+                
                         
         
                 { 
