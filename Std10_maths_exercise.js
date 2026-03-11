@@ -11229,9 +11229,96 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+
+                { 
+                    question: "🌟 સ્વા. 7.2 પ્રશ્ન 3: તમારી શાળાના લંબચોરસ મેદાન ABCD માં રમતગમત દિવસની પ્રવૃત્તિઓ યોજાયેલ છે. ચૂનાના પાવડરથી 1 મીટરના અંતરે રેખાઓ દોરેલી છે. AD પર પ્રત્યેક 1 મીટરના અંતરે 100 ફૂલના કુંડાં મૂક્યા છે. નિહારિકા 2જી હરોળમાં દોડે છે અને AD નું 1/4 ભાગનું અંતર કાપે છે અને ત્યાં લીલો ધ્વજ ફરકાવે છે. પ્રીત 8મી હરોળમાં દોડે છે અને AD નું 1/5 ભાગનું અંતર કાપી ત્યાં લાલ ધ્વજ ફરકાવે છે. આ બંને ધ્વજ વચ્ચેનું અંતર કેટલું થશે? જો રશ્મિએ આ બંને ધ્વજને જોડતા રેખાખંડના મધ્યબિંદુ પર વાદળી ધ્વજ ફરકાવવાનો હોય, તો તે ધ્વજ ક્યાં ફરકાવશે?", 
+                    question_desc: "રકમ બહુ મોટી પણ ગણવામાં સાવ સહેલો પ્રેક્ટિકલ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: રકમ વાંચીને ડરી ન જતા, આ દાખલામાં માત્ર બે જ વસ્તુ શોધવાની છે: (1) અંતર અને (2) મધ્યબિંદુ!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 કન્સેપ્ટ સમજો (બિંદુઓ કેવી રીતે મળશે?):</b><br>
+                            કુંડાની કુલ સંખ્યા 100 છે, એટલે AD = 100 મીટર.<br>
+                            <b>નિહારિકા (લીલો ધ્વજ - N):</b> 2-જી લાઈનમાં (x=2), 100 ના 1/4 ભાગ પર. (100 &times; 1/4 = 25 મીટર). એટલે બિંદુ <b>N(2, 25)</b> મળે.<br>
+                            <b>પ્રીત (લાલ ધ્વજ - P):</b> 8-મી લાઈનમાં (x=8), 100 ના 1/5 ભાગ પર. (100 &times; 1/5 = 20 મીટર). એટલે બિંદુ <b>P(8, 20)</b> મળે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને ધ્વજ વચ્ચેનું અંતર શોધવું (અંતર સૂત્ર)</b><br>
+                            આપણી પાસે બે બિંદુઓ છે: N(2, 25) અને P(8, 20).
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                NP<sup>2</sup> = (8 - 2)<sup>2</sup> + (20 - 25)<sup>2</sup><br>
+                                NP<sup>2</sup> = (6)<sup>2</sup> + (-5)<sup>2</sup><br>
+                                NP<sup>2</sup> = 36 + 25 = 61<br>
+                                <b style='color:#1d4ed8;'>NP = &radic;<span style='border-top:1.5px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;61&nbsp;</span> મીટર</b>
+                            </div>
+                            <span style='color:#047857; font-size:14px;'><i>(તેથી લીલા અને લાલ ધ્વજ વચ્ચેનું અંતર &radic;<span style='border-top:1px solid #047857; display:inline-block; padding-top:1px;'>&nbsp;61&nbsp;</span> મીટર છે.)</i></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: રશ્મિ માટે વાદળી ધ્વજનું સ્થાન શોધવું (મધ્યબિંદુ સૂત્ર)</b><br>
+                            રશ્મિએ બરાબર વચ્ચે ધ્વજ ફરકાવવાનો છે, તેથી આપણે N(2, 25) અને P(8, 20) નું મધ્યબિંદુ M શોધવું પડશે.
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                M(x, y) = <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>x<sub>1</sub> + x<sub>2</sub></span><span>2</span></span>, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>y<sub>1</sub> + y<sub>2</sub></span><span>2</span></span><span style='font-size:24px;'>)</span><br><br>
+                                M(x, y) = <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2 + 8</span><span>2</span></span>, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25 + 20</span><span>2</span></span><span style='font-size:24px;'>)</span><br><br>
+                                M(x, y) = <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>2</span></span>, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>45</span><span>2</span></span><span style='font-size:24px;'>)</span><br><br>
+                                <b style='color:#ea580c; font-size:20px;'>M(x, y) = (5, 22.5)</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> રશ્મિએ વાદળી ધ્વજ <b>5-મી હરોળમાં (લાઈનમાં), 22.5 મીટરના અંતરે</b> ફરકાવવો જોઈએ.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.2 પ્રશ્ન 4: બિંદુ (-1, 6) એ બિંદુઓ (-3, 10) અને (6, -8) ને જોડતા રેખાખંડનું કયા ગુણોત્તરમાં વિભાજન કરશે?", 
+                    question_desc: "2024 અને 2025 બોર્ડ માટે 2 માર્ક્સનો k:1 ની ટ્રીક વાળો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ગુણોત્તર શોધવાની માસ્ટર ટ્રીક (k : 1 ધારો):</b><br>
+                            જ્યારે પણ દાખલામાં <b>"કયા ગુણોત્તરમાં વિભાજન કરે છે"</b> તેવું પૂછે, ત્યારે m<sub>1</sub> : m<sub>2</sub> ની જગ્યાએ <b>k : 1</b> ધારવું વધુ સહેલું પડે છે! અને માત્ર <b>x-યામ</b> ની જ ગણતરી કરો તો પણ આખો જવાબ મળી જાય!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કિંમતો મૂકવી</b><br>
+                            ધારો કે માંગેલ ગુણોત્તર <b>k : 1</b> છે. <i>(એટલે m<sub>1</sub> = k અને m<sub>2</sub> = 1)</i><br>
+                            અહીં વિભાજન કરતું બિંદુ P(-1, 6) છે. તેથી <b>x = -1</b> અને <b>y = 6</b>.<br>
+                            બિંદુઓ A(-3, 10) અને B(6, -8) છે.<br>
+                            <span style='color:#0f172a; font-size:14px;'>(x<sub>1</sub> = -3, y<sub>1</sub> = 10 અને x<sub>2</sub> = 6, y<sub>2</sub> = -8)</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ફક્ત x-યામના સૂત્રનો ઉપયોગ કરી ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>m<sub>1</sub>x<sub>2</sub> + m<sub>2</sub>x<sub>1</sub></span><span>m<sub>1</sub> + m<sub>2</sub></span></span><br><br>
+                                -1 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>k(6) + 1(-3)</span><span>k + 1</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(k+1 ને સામે -1 સાથે ગુણાકારમાં મોકલતા)</i></span><br>
+                                -1(k + 1) = 6k - 3<br>
+                                -k - 1 = 6k - 3<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(બધા k એક બાજુ અને સંખ્યા બીજી બાજુ લેતા)</i></span><br>
+                                -1 + 3 = 6k + k<br>
+                                2 = 7k<br>
+                                <b>k = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>7</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ ગુણોત્તર (k : 1) = (2/7 : 1) = <b style='color:#dc2626; font-size:18px;'>2 : 7</b> છે.<br>
+                                <span style='color:#64748b; font-size:13px;'><i>(નોંધ: જો તમે y-યામ લઈને ગણતરી કરશો તો પણ જવાબ 2:7 જ આવશે!)</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
