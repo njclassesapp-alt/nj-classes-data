@@ -7195,9 +7195,165 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 3(iv): સમાંતર શ્રેણીમાં a3 = 15 અને S10 = 125 આપેલ હોય, તો d અને a10 શોધો.", 
+                    question_desc: "બે અલગ-અલગ સૂત્રો પરથી લોપની રીતનો ઉપયોગ કરતો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 3 માર્ક્સમાં પૂછાતો માસ્ટર માઇન્ડ દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આપેલી માહિતી પરથી 2 સમીકરણ બનાવવા</b><br>
+                            <b>પહેલી માહિતી: <i style='font-family:"Times New Roman",serif;'>a<sub>3</sub></i> = 15</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>a + 2d = 15</b> &nbsp; ...(સમીકરણ 1)
+                            </div><br>
+                            
+                            <b>બીજી માહિતી: <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 125</b> (સરવાળાનું મોટું સૂત્ર વાપરીએ)
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                125 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>2</span></span> [ 2a + 9d ]<br>
+                                125 = 5 [ 2a + 9d ]<br>
+                                <span style='color:#047857; font-size:14px;'><i>(5 ભાગાકારમાં જશે: 125 / 5 = 25)</i></span><br>
+                                25 = 2a + 9d &nbsp;&#10551;&nbsp; <b style='color:#be123c;'>2a + 9d = 25</b> &nbsp; ...(સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લોપની રીતથી d શોધવો</b><br>
+                            સમીકરણ 1 માં માત્ર 'a' છે અને સમીકરણ 2 માં '2a' છે. તેથી <b>સમીકરણ 1 ને 2 વડે ગુણીએ:</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>નવું સમીકરણ 1: <b>2a + 4d = 30</b></span><br>
+                            હવે સમીકરણ 2 માંથી નવું સમીકરણ 1 બાદ કરતા:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                &nbsp;&nbsp;&nbsp; 2a + 9d = 25<br>
+                                <u><b style='color:#dc2626;'>-</b> 2a <b style='color:#dc2626;'>-</b> 4d = <b style='color:#dc2626;'>-</b> 30</u><br>
+                                <span style='color:#047857; font-size:14px;'><i>(2a ઉડી જશે. 9d માંથી 4d જાય તો 5d વધે)</i></span><br>
+                                &nbsp;&nbsp;&nbsp; 5d = -5<br>
+                                &nbsp;&nbsp;&nbsp; d = -5 / 5 &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>d = -1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: a અને 10મું પદ (a<sub>10</sub>) શોધવું</b><br>
+                            <b>d = -1 ને સમીકરણ 1 (a + 2d = 15) માં મૂકતા:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.2; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a + 2(-1) = 15<br>
+                                a - 2 = 15<br>
+                                a = 15 + 2 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 17</b>
+                            </div><br>
+                            <b>હવે 10મું પદ (a<sub>10</sub>):</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a<sub>10</sub> = a + 9d<br>
+                                a<sub>10</sub> = 17 + 9(-1)<br>
+                                a<sub>10</sub> = 17 - 9 = <b style='color:#16a34a;'>8</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#dc2626;'>d = -1</b> અને <b style='color:#16a34a;'>a<sub>10</sub> = 8</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 3(v): d = 5 અને S9 = 75 આપેલ હોય, તો a અને a9 શોધો.", 
+                    question_desc: "સરવાળાના સૂત્રમાંથી સીધો a શોધવાની ગણતરી",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a શોધવો (S<sub>9</sub> ના સૂત્રથી)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>9</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (9 - 1)d ]<br>
+                                75 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>2</span></span> [ 2a + 8(5) ]<br>
+                                75 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>2</span></span> [ 2a + 40 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કૌંસમાંથી 2 સામાન્ય (Common) કાઢતાં, જેથી છેદનો 2 ઉડી જાય!)</i></span><br>
+                                75 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>2</span></span> &times; 2 [ a + 20 ]<br>
+                                75 = 9 [ a + 20 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(9 ભાગાકારમાં જશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>75</span><span>9</span></span> = a + 20<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(3 વડે છેદ ઉડાડતા: 25 તેરી 75 અને 3 તેરી 9)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25</span><span>3</span></span> = a + 20<br>
+                                a = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25</span><span>3</span></span> - 20<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(લ.સા.અ. લેતાં: 20 &times; 3 = 60)</i></span><br>
+                                a = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25 - 60</span><span>3</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>-35</span><span>3</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 9મું પદ (a<sub>9</sub>) શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>9</sub> = a + 8d<br>
+                                a<sub>9</sub> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-35</span><span>3</span></span> + 8(5)<br>
+                                a<sub>9</sub> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-35</span><span>3</span></span> + 40<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(લ.સા.અ. લેતાં: 40 &times; 3 = 120)</i></span><br>
+                                a<sub>9</sub> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-35 + 120</span><span>3</span></span> = <b style='color:#be123c;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>85</span><span>3</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>a = -35/3</b> અને <b style='color:#be123c;'>a<sub>9</sub> = 85/3</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 3(vi): a = 2, d = 8 અને Sn = 90 આપેલ હોય, તો n અને an શોધો.", 
+                    question_desc: "દ્વિઘાત સમીકરણના અવયવવાળો મોસ્ટ IMP માસ્ટર દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 પ્રકરણ 4 ની યાદ તાજી કરો:</b><br>
+                            આ દાખલામાં <b>n</b> શોધવા માટે <b>દ્વિઘાત સમીકરણ</b> બનશે! અને આપણે પ્રકરણ 4 માં શીખ્યા તેમ તેના અવયવ પાડીને જ ઉકેલ મળશે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણ બનાવવું અને અવયવ પાડવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                90 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2(2) + (n - 1)8 ]<br>
+                                90 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 4 + 8n - 8 ]<br>
+                                90 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 8n - 4 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(કૌંસમાંથી 2 સામાન્ય કાઢતાં)</i></span><br>
+                                90 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> &times; 2 [ 4n - 2 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(2 અને 2 ઉડી જશે, n નો અંદર ગુણાકાર)</i></span><br>
+                                90 = 4n<sup>2</sup> - 2n<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(સમીકરણને 2 વડે ભાગીને નાનું બનાવીએ અને 90 ને જમણી બાજુ લઈ જઈએ)</i></span><br>
+                                <b style='color:#dc2626;'>2n<sup>2</sup> - n - 45 = 0</b>
+                            </div>
+                            
+                            <b style='color:#14532d; font-size:16px;'>અવયવની દેશી ટ્રીક:</b><br>
+                            પહેલું પદ 2 અને છેલ્લું 45 (2 &times; 45 = 90). 90 ના એવા ભાગ પાડો કે બાદબાકી 1 આવે! <b>(10 &times; 9 = 90)</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                2n<sup>2</sup> - 10n + 9n - 45 = 0<br>
+                                2n(n - 5) + 9(n - 5) = 0<br>
+                                (n - 5)(2n + 9) = 0<br><br>
+                                n - 5 = 0 &nbsp; <b>અથવા</b> &nbsp; 2n + 9 = 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>n = 5</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; n = -9/2 <i>(જે શક્ય નથી, કારણ કે પદ ઋણ ન હોય)</i>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: n મું પદ (a<sub>5</sub>) શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                a<sub>5</sub> = a + 4d<br>
+                                a<sub>5</sub> = 2 + 4(8)<br>
+                                a<sub>5</sub> = 2 + 32 = <b style='color:#be123c;'>34</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>n = 5</b> અને <b style='color:#be123c;'>a<sub>n</sub> = 34</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
