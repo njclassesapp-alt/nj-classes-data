@@ -9648,9 +9648,70 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 8: સમાંતરબાજુ ચતુષ્કોણ ABCD ની લંબાવેલી બાજુ AD પર બિંદુ E આવેલું છે અને BE એ CD ને F માં છેદે છે. સાબિત કરો કે &Delta;ABE &sim; &Delta;CFB.", 
+                    question_desc: "2026 ની બોર્ડ પરીક્ષા માટે 'Z' આકારના યુગ્મકોણ વાળો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="250" height="210" viewBox="0 0 250 210" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="20,180 160,180 200,100 60,100" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="60" y1="100" x2="100" y2="20" stroke="#0f172a" stroke-width="2" stroke-dasharray="4,2"/>
+                                <line x1="160" y1="180" x2="100" y2="20" stroke="#dc2626" stroke-width="3"/>
+                                
+                                <path d="M 20 180 L 100 20" stroke="#16a34a" stroke-width="3" stroke-dasharray="4,2"/> <path d="M 160 180 L 200 100" stroke="#16a34a" stroke-width="3"/> <text x="5" y="195" font-size="16" font-weight="bold">A</text>
+                                <text x="165" y="195" font-size="16" font-weight="bold">B</text>
+                                <text x="210" y="105" font-size="16" font-weight="bold">C</text>
+                                <text x="40" y="105" font-size="16" font-weight="bold">D</text>
+                                <text x="90" y="15" font-size="16" font-weight="bold">E</text>
+                                <text x="140" y="95" font-size="16" font-weight="bold" fill="#dc2626">F</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            આ દાખલામાં આપણે ફરીથી <b>ખુ-ખુ (AA) શરત</b> વાપરવાની છે. <br>
+                            1. સમાંતરબાજુ ચતુષ્કોણમાં <b>સામસામેના ખૂણા સરખા</b> હોય છે (&ang;A = &ang;C).<br>
+                            2. AE || BC હોવાથી અને BE તેની છેદિકા હોવાથી ત્યાં <b>"Z" આકારના યુગ્મકોણો</b> બને છે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            ABCD <b>સમાંતરબાજુ ચતુષ્કોણ</b> છે. બાજુ AD ને E સુધી લંબાવી છે અને BE એ CD ને <b>F</b> બિંદુમાં છેદે છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>&Delta;ABE &sim; &Delta;CFB</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>&Delta;ABE અને &Delta;CFB ની સરખામણી:</b><br><br>
+                                
+                                <b>1.</b> &ang;A = &ang;C <br>
+                                <span style='color:#047857; font-size:14px;'><i>(સમાંતરબાજુ ચતુષ્કોણ ABCD ના <b>સામસામેના ખૂણા</b> સમાન હોય છે)</i></span><br><br>
+                                
+                                <b>2.</b> &ang;AEB = &ang;CBF <br>
+                                <span style='color:#047857; font-size:14px;'><i>(AD || BC છે, તેથી AE || BC પણ થાય. અને BE તેમની છેદિકા હોવાથી <b>"Z" આકારના યુગ્મકોણો</b> સમાન થાય છે).</i></span><br><br>
+                                
+                                <b>નિષ્કર્ષ:</b> બે ખૂણાઓ સમાન હોવાથી <b>ખુ-ખુ (AA) સમરૂપતાની શરત</b> મુજબ:<br>
+                                <b style='color:#16a34a; font-size:20px;'>&Delta;ABE &sim; &Delta;CFB</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
                 
                                                          
