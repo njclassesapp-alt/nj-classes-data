@@ -9036,7 +9036,7 @@ var njMathsExercise = {
             
         
                 
-                        
+                                
         
                 { 
                     question: "🌟 સ્વા. 6.2 પ્રશ્ન 9: સમલંબ ચતુષ્કોણ ABCD માં AB || DC છે અને તેના વિકર્ણો એકબીજાને O બિંદુમાં છેદે છે. સાબિત કરો કે AO/BO = CO/DO.", 
@@ -9066,7 +9066,7 @@ var njMathsExercise = {
                         <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
                             <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (રચના):</b><br>
                             આ દાખલો ગણવા માટે આપણે જાતે એક લાલ તૂટક રેખા દોરવી પડશે. આપણે બિંદુ <b>O માંથી પસાર થતી અને AB ને સમાંતર હોય તેવી રેખા EO દોરીશું.</b><br>
-                            હવે આપણી જૂની ટ્રીક "2 ત્રિકોણ પકડો": એકવાર <b>$\\Delta$ADC</b> લો અને બીજીવાર <b>$\\Delta$ABD</b> લો.
+                            હવે આપણી જૂની ટ્રીક "2 ત્રિકોણ પકડો": એકવાર <b>&Delta;ADC</b> લો અને બીજીવાર <b>&Delta;ABD</b> લો.
                         </div>
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
@@ -9084,12 +9084,12 @@ var njMathsExercise = {
                             <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
                                 <b>રચના:</b> O માંથી પસાર થતી એવી રેખા <b>EO</b> દોરો જે <b>AB ને સમાંતર</b> હોય. (તેથી <b>EO || AB || DC</b> થશે).<br><br>
                                 
-                                <b>1. ત્રિકોણ $\\Delta$ADC માં:</b><br>
+                                <b>1. ત્રિકોણ &Delta;ADC માં:</b><br>
                                 અહીં <b style='color:#dc2626;'>EO || DC</b> છે.<br>
                                 થેલ્સના પ્રમેય મુજબ:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AO</span><span>OC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
                                 
-                                <b>2. ત્રિકોણ $\\Delta$ABD માં:</b><br>
+                                <b>2. ત્રિકોણ &Delta;ABD માં:</b><br>
                                 અહીં <b style='color:#1d4ed8;'>EO || AB</b> છે.<br>
                                 થેલ્સના પ્રમેય મુજબ (નીચેથી ઉપર જતા):<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DE</span><span>EA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DO</span><span>OB</span></span><br>
@@ -9128,7 +9128,7 @@ var njMathsExercise = {
                             <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
                                 <b>રચના:</b> બિંદુ O માંથી પસાર થતી માત્ર <b>EO || AB</b> દોરો. (આપણે હજુ જાણતા નથી કે તે DC ને સમાંતર છે કે નહિ).<br><br>
                                 
-                                <b>1. ત્રિકોણ $\\Delta$ABD માં:</b><br>
+                                <b>1. ત્રિકોણ &Delta;ABD માં:</b><br>
                                 આપણે <b>EO || AB</b> દોર્યું છે.<br>
                                 થેલ્સના પ્રમેય મુજબ:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BO</span><span>DO</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
@@ -9138,8 +9138,8 @@ var njMathsExercise = {
                                 આ કિંમત સમીકરણ 1 માં મૂકતાં:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>AO</span><span>CO</span></span></b><br><br>
                                 
-                                <b>3. ત્રિકોણ $\\Delta$ADC માં (થેલ્સનો પ્રતિપ પ્રમેય):</b><br>
-                                ઉપરના પરિણામ (AE/ED = AO/CO) પરથી સાબિત થાય છે કે રેખા EO એ ત્રિકોણ $\\Delta$ADC ની બાજુઓને સમાન ગુણોત્તરમાં વિભાજીત કરે છે.<br>
+                                <b>3. ત્રિકોણ &Delta;ADC માં (થેલ્સનો પ્રતિપ પ્રમેય):</b><br>
+                                ઉપરના પરિણામ (AE/ED = AO/CO) પરથી સાબિત થાય છે કે રેખા EO એ ત્રિકોણ &Delta;ADC ની બાજુઓને સમાન ગુણોત્તરમાં વિભાજીત કરે છે.<br>
                                 તેથી થેલ્સના પ્રતિપ પ્રમેય મુજબ: <b style='color:#1d4ed8;'>EO || DC</b>.<br><br>
                                 
                                 <b>નિષ્કર્ષ:</b><br>
@@ -9152,7 +9152,10 @@ var njMathsExercise = {
                     </div>
                     `
                 },
-                        
+            
+        
+                
+            
         
                 {
                     question: "🎯 માસ્ટર ચાવી: ત્રિકોણોની સમરૂપતા માટેની 3 ગોલ્ડન શરતો કઈ છે?",
