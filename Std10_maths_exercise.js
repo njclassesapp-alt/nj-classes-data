@@ -9182,6 +9182,7 @@ var njMathsExercise = {
                     </div>
                     `
                 },
+                
                 { 
                     question: "🌟 સ્વા. 6.3 પ્રશ્ન 1(i): આપેલ આકૃતિમાં ત્રિકોણો સમરૂપ છે કે નહિ તે જણાવો. જો હોય તો કઈ શરત મુજબ?", 
                     question_desc: "MCQ માટે ખુ-ખુ શરતનો દાખલો",
@@ -9210,12 +9211,12 @@ var njMathsExercise = {
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
                             <b style='color:#14532d; font-size:16px;'>ગણતરી અને જવાબ:</b><br>
                             આકૃતિમાં સ્પષ્ટ દેખાય છે કે:<br>
-                            • $\\angle$A = $\\angle$P = 60&deg;<br>
-                            • $\\angle$B = $\\angle$Q = 80&deg;<br>
-                            • $\\angle$C = $\\angle$R = 40&deg;<br><br>
+                            • &ang;A = &ang;P = 60&deg;<br>
+                            • &ang;B = &ang;Q = 80&deg;<br>
+                            • &ang;C = &ang;R = 40&deg;<br><br>
                             બધા જ અનુરૂપ ખૂણા સમાન છે.
                             <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
-                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> <b>ખુ-ખુ-ખુ (AAA) શરત</b> મુજબ <b>$\\Delta$ABC $\\sim$ $\\Delta$PQR</b> છે.
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> <b>ખુ-ખુ-ખુ (AAA) શરત</b> મુજબ <b>&Delta;ABC &sim; &Delta;PQR</b> છે.
                             </div>
                         </div>
                     </div>
@@ -9263,14 +9264,14 @@ var njMathsExercise = {
                                 અહીં, <b style='color:#dc2626;'>AB/QR = BC/PR = AC/PQ</b> છે.
                             </div>
                             <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
-                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> <b>બા-બા-બા (SSS) શરત</b> મુજબ <b>$\\Delta$ABC $\\sim$ $\\Delta$QRP</b> છે. (ખાસ ધ્યાન: અક્ષરોનો ક્રમ QRP આવશે).
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> <b>બા-બા-બા (SSS) શરત</b> મુજબ <b>&Delta;ABC &sim; &Delta;QRP</b> છે. (ખાસ ધ્યાન: અક્ષરોનો ક્રમ QRP આવશે).
                             </div>
                         </div>
                     </div>
                     `
                 },
                 { 
-                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 2: આપેલ આકૃતિમાં $\\Delta$ODC $\\sim$ $\\Delta$OBA છે. $\\angle$BOC = 125° અને $\\angle$CDO = 70° છે. તો $\\angle$DOC, $\\angle$DCO અને $\\angle$OAB શોધો.", 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 2: આપેલ આકૃતિમાં &Delta;ODC &sim; &Delta;OBA છે. &ang;BOC = 125° અને &ang;CDO = 70° છે. તો &ang;DOC, &ang;DCO અને &ang;OAB શોધો.", 
                     question_desc: "બોર્ડમાં 2 માર્ક્સ માટે પૂછાતો ખૂણાઓ શોધવાનો માસ્ટર-પીસ દાખલો!",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px;'>
@@ -9295,43 +9296,44 @@ var njMathsExercise = {
                         </div>
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
-                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: રેખિક જોડના ખૂણા પરથી $\\angle$DOC શોધવો</b><br>
-                            આકૃતિમાં લાઈન DB સીધી રેખા છે. તેથી $\\angle$DOC અને $\\angle$BOC <b>રેખિક જોડના ખૂણા</b> બનાવે છે (બંનેનો સરવાળો 180&deg; થાય).<br>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: રેખિક જોડના ખૂણા પરથી &ang;DOC શોધવો</b><br>
+                            આકૃતિમાં લાઈન DB સીધી રેખા છે. તેથી &ang;DOC અને &ang;BOC <b>રેખિક જોડના ખૂણા</b> બનાવે છે (બંનેનો સરવાળો 180&deg; થાય).<br>
                             <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
-                                $\\angle$DOC + $\\angle$BOC = 180&deg;<br>
-                                $\\angle$DOC + 125&deg; = 180&deg;<br>
-                                $\\angle$DOC = 180&deg; - 125&deg;<br>
-                                <b style='color:#1d4ed8;'>$\\angle$DOC = 55&deg;</b>
+                                &ang;DOC + &ang;BOC = 180&deg;<br>
+                                &ang;DOC + 125&deg; = 180&deg;<br>
+                                &ang;DOC = 180&deg; - 125&deg;<br>
+                                <b style='color:#1d4ed8;'>&ang;DOC = 55&deg;</b>
                             </div>
                         </div>
 
                         <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
-                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ત્રિકોણના ત્રણેય ખૂણાના સરવાળા પરથી $\\angle$DCO શોધવો</b><br>
-                            ઉપરના ત્રિકોણ $\\Delta$ODC માં: $\\angle$CDO = 70&deg; અને $\\angle$DOC = 55&deg; મળી ગયો.<br>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ત્રિકોણના ત્રણેય ખૂણાના સરવાળા પરથી &ang;DCO શોધવો</b><br>
+                            ઉપરના ત્રિકોણ &Delta;ODC માં: &ang;CDO = 70&deg; અને &ang;DOC = 55&deg; મળી ગયો.<br>
                             <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
-                                $\\angle$CDO + $\\angle$DOC + $\\angle$DCO = 180&deg;<br>
-                                70&deg; + 55&deg; + $\\angle$DCO = 180&deg;<br>
-                                125&deg; + $\\angle$DCO = 180&deg;<br>
-                                $\\angle$DCO = 180&deg; - 125&deg;<br>
-                                <b style='color:#be123c;'>$\\angle$DCO = 55&deg;</b>
+                                &ang;CDO + &ang;DOC + &ang;DCO = 180&deg;<br>
+                                70&deg; + 55&deg; + &ang;DCO = 180&deg;<br>
+                                125&deg; + &ang;DCO = 180&deg;<br>
+                                &ang;DCO = 180&deg; - 125&deg;<br>
+                                <b style='color:#be123c;'>&ang;DCO = 55&deg;</b>
                             </div>
                         </div>
 
                         <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
-                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: સમરૂપતાના નિયમ પરથી $\\angle$OAB શોધવો</b><br>
-                            પક્ષમાં આપેલું છે કે <b>$\\Delta$ODC $\\sim$ $\\Delta$OBA</b>.<br>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: સમરૂપતાના નિયમ પરથી &ang;OAB શોધવો</b><br>
+                            પક્ષમાં આપેલું છે કે <b>&Delta;ODC &sim; &Delta;OBA</b>.<br>
                             સમરૂપ ત્રિકોણમાં અનુરૂપ ખૂણાઓ સમાન હોય છે. <br>
-                            નામ પરથી જુઓ: C ની સાથે A આવે છે. તેથી <b>$\\angle$OAB = $\\angle$DCO</b> થાય!<br>
+                            નામ પરથી જુઓ: C ની સાથે A આવે છે. તેથી <b>&ang;OAB = &ang;DCO</b> થાય!<br>
                             <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
                                 <b style='color:#b45309; font-size:18px;'>અંતિમ જવાબો:</b> <br>
-                                <b>$\\angle$DOC = <span style='color:#1d4ed8;'>55&deg;</span></b><br>
-                                <b>$\\angle$DCO = <span style='color:#be123c;'>55&deg;</span></b><br>
-                                <b>$\\angle$OAB = <span style='color:#16a34a;'>55&deg;</span></b> (ત્રણેયનો જવાબ 55&deg; જ આવે છે!)
+                                <b>&ang;DOC = <span style='color:#1d4ed8;'>55&deg;</span></b><br>
+                                <b>&ang;DCO = <span style='color:#be123c;'>55&deg;</span></b><br>
+                                <b>&ang;OAB = <span style='color:#16a34a;'>55&deg;</span></b> (ત્રણેયનો જવાબ 55&deg; જ આવે છે!)
                             </div>
                         </div>
                     </div>
                     `
                 },
+                
                         
         
                 { 
