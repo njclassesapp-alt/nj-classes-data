@@ -10933,9 +10933,124 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 9: જો Q(0, 1) એ P(5, -3) અને R(x, 6) થી સમાન અંતરે હોય, તો x ની કિંમત શોધો. અંતર QR અને PR પણ શોધો.", 
+                    question_desc: "2024 બોર્ડમાં પૂછાયેલો 3 માર્ક્સનો લાંબો અને બે કિંમતો વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            સમાન અંતર આપેલું છે એટલે <b>PQ = QR</b> થશે. ગણતરી સહેલી કરવા માટે <b>PQ<sup>2</sup> = QR<sup>2</sup></b> લઈશું.<br>
+                            અહીં x નો વર્ગ આવશે, એટલે વર્ગમૂળ કાઢતી વખતે x ની <b>બે કિંમતો મળશે (+ અને -)</b>! એટલે પાછળથી અંતર પણ બે વાર શોધવું પડશે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: x ની કિંમત શોધવી</b><br>
+                            રકમ મુજબ <b>Q(0, 1)</b> એ <b>P(5, -3)</b> અને <b>R(x, 6)</b> થી સમાન અંતરે છે.<br>
+                            તેથી: <b style='color:#dc2626; font-size:18px;'>PQ<sup>2</sup> = QR<sup>2</sup></b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; line-height:2.8; background-color:#e0f2fe; padding:15px; border-radius:5px; margin-top:5px;'>
+                                (0 - 5)<sup>2</sup> + (1 - (-3))<sup>2</sup> = (0 - x)<sup>2</sup> + (1 - 6)<sup>2</sup><br>
+                                (-5)<sup>2</sup> + (1 + 3)<sup>2</sup> = (-x)<sup>2</sup> + (-5)<sup>2</sup><br>
+                                25 + (4)<sup>2</sup> = x<sup>2</sup> + 25<br>
+                                25 + 16 = x<sup>2</sup> + 25<br>
+                                41 = x<sup>2</sup> + 25<br>
+                                x<sup>2</sup> = 41 - 25<br>
+                                x<sup>2</sup> = 16<br>
+                                <span style='color:#047857; font-size:14px;'><i>(16 નું વર્ગમૂળ +4 અને -4 બંને થાય)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:22px;'>x = 4 &nbsp; અથવા &nbsp; x = -4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; border-radius:4px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વિકલ્પ 1 (જ્યારે x = 4 હોય ત્યારે)</b><br>
+                            તો બિંદુ <b>R(4, 6)</b> થશે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px; margin-top:5px;'>
+                                <b>(A) QR શોધવા માટે:</b> Q(0, 1) અને R(4, 6)<br>
+                                QR<sup>2</sup> = (4 - 0)<sup>2</sup> + (6 - 1)<sup>2</sup><br>
+                                QR<sup>2</sup> = (4)<sup>2</sup> + (5)<sup>2</sup> = 16 + 25 = 41<br>
+                                <b style='color:#ea580c;'>QR = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid #ea580c; display:inline-block; padding-top:1px;'>&nbsp;41&nbsp;</span></span></b><br><br>
+                                
+                                <b>(B) PR શોધવા માટે:</b> P(5, -3) અને R(4, 6)<br>
+                                PR<sup>2</sup> = (4 - 5)<sup>2</sup> + (6 - (-3))<sup>2</sup><br>
+                                PR<sup>2</sup> = (-1)<sup>2</sup> + (9)<sup>2</sup> = 1 + 81 = 82<br>
+                                <b style='color:#ea580c;'>PR = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid #ea580c; display:inline-block; padding-top:1px;'>&nbsp;82&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; border-radius:4px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: વિકલ્પ 2 (જ્યારે x = -4 હોય ત્યારે)</b><br>
+                            તો બિંદુ <b>R(-4, 6)</b> થશે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; line-height:2.5; background-color:#f3e8ff; padding:10px; border-radius:5px; margin-top:5px;'>
+                                <b>(A) QR શોધવા માટે:</b> Q(0, 1) અને R(-4, 6)<br>
+                                QR<sup>2</sup> = (-4 - 0)<sup>2</sup> + (6 - 1)<sup>2</sup><br>
+                                QR<sup>2</sup> = (-4)<sup>2</sup> + (5)<sup>2</sup> = 16 + 25 = 41<br>
+                                <b style='color:#9333ea;'>QR = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid #9333ea; display:inline-block; padding-top:1px;'>&nbsp;41&nbsp;</span></span></b><br><br>
+                                
+                                <b>(B) PR શોધવા માટે:</b> P(5, -3) અને R(-4, 6)<br>
+                                PR<sup>2</sup> = (-4 - 5)<sup>2</sup> + (6 - (-3))<sup>2</sup><br>
+                                PR<sup>2</sup> = (-9)<sup>2</sup> + (9)<sup>2</sup> = 81 + 81 = 162<br>
+                                PR = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;162&nbsp;</span></span><br>
+                                PR = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;81 &times; 2&nbsp;</span></span><br>
+                                <b style='color:#9333ea;'>PR = 9<span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid #9333ea; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 10: બિંદુ (x, y) એ બિંદુઓ (3, 6) અને (-3, 4) થી સમાન અંતરે હોય, તો x અને y વચ્ચેનો સંબંધ મેળવો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સમીકરણ (Equation) શોધવાનો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (સંબંધ એટલે સમીકરણ):</b><br>
+                            અહીં કોઈ એક આંકડો જવાબમાં નહિ આવે, પણ x અને y વાળું એક <b>સમીકરણ (Equation)</b> બનશે. <br>
+                            ફરીથી <b>PA<sup>2</sup> = PB<sup>2</sup></b> વાળો જ નિયમ વાપરવાનો છે! બસ કૌંસ છોડવામાં ભૂલ ન પડવી જોઈએ.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કિંમતો ધારવી અને ગણતરી શરૂ કરવી</b><br>
+                            ધારો કે બિંદુ <b>P(x, y)</b> છે.<br>
+                            અને આપેલા બિંદુઓ <b>A(3, 6)</b> અને <b>B(-3, 4)</b> છે.<br>
+                            સમાન અંતર હોવાથી: <b style='color:#dc2626; font-size:18px;'>PA<sup>2</sup> = PB<sup>2</sup></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંતર સૂત્ર અને કૌંસ છોડવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; line-height:2.8; background-color:#e0f2fe; padding:15px; border-radius:5px; margin-top:5px;'>
+                                (x - 3)<sup>2</sup> + (y - 6)<sup>2</sup> = (x - (-3))<sup>2</sup> + (y - 4)<sup>2</sup><br>
+                                (x - 3)<sup>2</sup> + (y - 6)<sup>2</sup> = (x + 3)<sup>2</sup> + (y - 4)<sup>2</sup><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>((a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup> નો ઉપયોગ કરતા)</i></span><br>
+                                (x<sup>2</sup> - 6x + 9) + (y<sup>2</sup> - 12y + 36) = (x<sup>2</sup> + 6x + 9) + (y<sup>2</sup> - 8y + 16)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુથી x<sup>2</sup>, y<sup>2</sup> અને 9 ઉડી જશે)</i></span><br>
+                                -6x - 12y + 36 = 6x - 8y + 16<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બધા પદોને એક બાજુ એટલે કે જમણી બાજુ લઈ જતા)</i></span><br>
+                                0 = 6x + 6x - 8y + 12y + 16 - 36<br>
+                                0 = 12x + 4y - 20<br>
+                                12x + 4y - 20 = 0<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બધા પદોને 4 વડે ભાગતા (સામાન્ય કાઢતા))</i></span><br>
+                                <b style='color:#1d4ed8; font-size:22px;'>3x + y - 5 = 0</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ x અને y વચ્ચેનો સંબંધ <b style='color:#1d4ed8; font-size:18px;'>3x + y - 5 = 0</b> (અથવા 3x + y = 5) છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
