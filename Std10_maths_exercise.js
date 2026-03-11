@@ -8413,9 +8413,147 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                {
+                    question: "🎯 માસ્ટર ચાવી: થેલ્સનું પ્રમેય (સમપ્રમાણતાનું મૂળભૂત પ્રમેય) શું છે?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા સ્વાધ્યાય 6.2 માટે 'થેલ્સ દાદા' ની આ એક જ શોર્ટકટ ટ્રીક યાદ રાખો:</p>
+                        
+                        <div style='text-align:center; margin-bottom:15px;'>
+                            <svg width="220" height="160" viewBox="0 0 220 160" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="110,20 40,140 180,140" fill="#f0f9ff" stroke="#1d4ed8" stroke-width="3" stroke-linejoin="round"/>
+                                <line x1="65" y1="80" x2="155" y2="80" stroke="#dc2626" stroke-width="4" stroke-dasharray="6,4"/>
+                                <polygon points="110,75 120,80 110,85" fill="#dc2626"/>
+                                <polygon points="110,135 120,140 110,145" fill="#1d4ed8"/>
+                                <text x="105" y="15" font-size="16" font-weight="bold" fill="#0f172a">A</text>
+                                <text x="20" y="145" font-size="16" font-weight="bold" fill="#0f172a">B</text>
+                                <text x="190" y="145" font-size="16" font-weight="bold" fill="#0f172a">C</text>
+                                <text x="45" y="75" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+                                <text x="165" y="75" font-size="16" font-weight="bold" fill="#dc2626">E</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px;'>
+                            <b style='color:#0f172a; font-size:15px;'>થેલ્સનો દેશી નિયમ:</b><br>
+                            જો કોઈ ત્રિકોણમાં એક લાઈન (DE) નીચેની લાઈન (BC) ને <b>સમાંતર (Parallel)</b> હોય, તો તે લાઈન ત્રિકોણની બંને બાજુઓના <b>સરખા કટકા</b> કરે છે!<br>
+                            <div style='margin-top:10px; font-size:22px; color:#be123c; background-color:#fee2e2; padding:10px; border-radius:8px; text-align:center; font-family:"Times New Roman",serif; font-weight:bold;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>AE</span><span>EC</span></span>
+                            </div>
+                            <div style='margin-top:5px; font-size:14px; color:#64748b; text-align:center;'><i>(ઉપરનો કટકો / નીચેનો કટકો = સામેનો ઉપરનો કટકો / સામેનો નીચેનો કટકો)</i></div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 1(i): આપેલ આકૃતિમાં DE || BC છે. તો EC શોધો.", 
+                    question_desc: "2024, 2025 અને 2026 ની બોર્ડ પરીક્ષામાં 2 માર્ક્સ માટે પૂછાતો સૌથી ફેવરિટ અને મોસ્ટ IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: નવી પેપર સ્ટાઈલ મુજબ 2024, 2025 અને 2026 માટે આકૃતિવાળો 100% પૂછાતો દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                            <svg width="220" height="170" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="110,20 30,140 190,140" fill="#f0fdf4" stroke="#14532d" stroke-width="2"/>
+                                <line x1="70" y1="80" x2="150" y2="80" stroke="#ea580c" stroke-width="3"/>
+                                <text x="105" y="15" font-size="14" font-weight="bold">A</text>
+                                <text x="15" y="145" font-size="14" font-weight="bold">B</text>
+                                <text x="195" y="145" font-size="14" font-weight="bold">C</text>
+                                <text x="50" y="75" font-size="14" font-weight="bold" fill="#ea580c">D</text>
+                                <text x="160" y="75" font-size="14" font-weight="bold" fill="#ea580c">E</text>
+                                <text x="55" y="45" font-size="12" fill="#1d4ed8">1.5 cm</text>
+                                <text x="140" y="45" font-size="12" fill="#1d4ed8">1 cm</text>
+                                <text x="25" y="110" font-size="12" fill="#1d4ed8">3 cm</text>
+                                <text x="165" y="110" font-size="14" font-weight="bold" fill="#dc2626">EC = ?</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: થેલ્સના પ્રમેય મુજબ કિંમત મૂકવી</b><br>
+                            અહીં <b>DE || BC</b> આપેલું હોવાથી, આપણે સમપ્રમાણતાનું મૂળભૂત પ્રમેય વાપરી શકીએ.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span><br><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1.5</span><span>3</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>EC</span></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ચોકડી ગુણાકાર કરી EC શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                1.5 &times; EC = 3 &times; 1<br>
+                                1.5 &times; EC = 3<br>
+                                EC = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>1.5</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(દોઢ ના ડબલ ત્રણ થાય! 1.5 &times; 2 = 3)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'>EC = 2 cm</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> માંગેલ <b style='color:#be123c;'>EC ની લંબાઈ 2 cm</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 1(ii): આપેલ આકૃતિમાં DE || BC છે. તો AD શોધો.", 
+                    question_desc: "2025 ની બોર્ડ પરીક્ષા માટે પોઈન્ટવાળો સુપર ડુપર હિટ દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: નવી પેપર સ્ટાઈલમાં જો પેપર અઘરું કાઢવું હોય તો આ પોઈન્ટવાળો દાખલો 100% પૂછાય છે! (2025 અને 2026 માટે IMP)</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#fdf4ff; border:1px solid #f0abfc; border-radius:8px; padding:10px;'>
+                            <svg width="220" height="170" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="110,20 30,140 190,140" fill="#faf5ff" stroke="#86198f" stroke-width="2"/>
+                                <line x1="70" y1="80" x2="150" y2="80" stroke="#1d4ed8" stroke-width="3"/>
+                                <text x="105" y="15" font-size="14" font-weight="bold">A</text>
+                                <text x="15" y="145" font-size="14" font-weight="bold">B</text>
+                                <text x="195" y="145" font-size="14" font-weight="bold">C</text>
+                                <text x="50" y="75" font-size="14" font-weight="bold" fill="#1d4ed8">D</text>
+                                <text x="160" y="75" font-size="14" font-weight="bold" fill="#1d4ed8">E</text>
+                                <text x="40" y="45" font-size="14" font-weight="bold" fill="#dc2626">AD = ?</text>
+                                <text x="140" y="45" font-size="12" fill="#0f172a">1.8 cm</text>
+                                <text x="20" y="110" font-size="12" fill="#0f172a">7.2 cm</text>
+                                <text x="165" y="110" font-size="12" fill="#0f172a">5.4 cm</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: થેલ્સના પ્રમેય મુજબ કિંમત મૂકવી</b><br>
+                            અહીં <b>DE || BC</b> આપેલ છે, તેથી:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span><br><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>7.2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1.8</span><span>5.4</span></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પોઈન્ટવાળી ગણતરીની શોર્ટકટ ટ્રીક</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(1.8 અને 5.4 બંનેમાં પોઈન્ટ પછી 1 આંકડો છે, તો પોઈન્ટ ભૂલી જાવ! 18 / 54 કરી દો)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>7.2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>18</span><span>54</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(18 તેરી 54 એટલે 1/3 વધશે)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>7.2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(7.2 ને સામે ગુણાકારમાં લઈ જાવ)</i></span><br>
+                                AD = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7.2</span><span>3</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(72 ને 3 વડે ભાગીએ તો 24 આવે, 1 પોઈન્ટ કાપતા 2.4)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'>AD = 2.4 cm</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>AD ની લંબાઈ 2.4 cm</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
     
         
                 
