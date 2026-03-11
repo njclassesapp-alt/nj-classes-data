@@ -9321,18 +9321,190 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 3: સમલંબ ચતુષ્કોણ ABCD માં AB || DC છે. તેના વિકર્ણો AC અને BD એકબીજાને બિંદુ O માં છેદે છે. બે ત્રિકોણોની સમરૂપતાનો ઉપયોગ કરી સાબિત કરો કે OA/OC = OB/OD.", 
+                    question_desc: "2026 ની બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સૌથી ફેવરિટ અને ટૂંકી સાબિતીવાળો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: સ્વાધ્યાય 6.2 નો દાખલો 9 અહીં માત્ર 3 સ્ટેપમાં (સમરૂપતાની રીતે) ગણેલો છે. બોર્ડમાં 2 માર્ક્સ માટે મોસ્ટ IMP!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="180" viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="80,30 180,30 230,140 30,140" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="80" y1="30" x2="230" y2="140" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="180" y1="30" x2="30" y2="140" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <path d="M 80 30 L 230 140" stroke="#16a34a" stroke-width="4" stroke-dasharray="5,5"/>
+                                <path d="M 180 30 L 30 140" stroke="#ea580c" stroke-width="4" stroke-dasharray="5,5"/>
+
+                                <text x="70" y="20" font-size="16" font-weight="bold">A</text>
+                                <text x="185" y="20" font-size="16" font-weight="bold">B</text>
+                                <text x="235" y="155" font-size="16" font-weight="bold">C</text>
+                                <text x="15" y="155" font-size="16" font-weight="bold">D</text>
+                                <text x="125" y="75" font-size="16" font-weight="bold">O</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક ("Z" આકારના યુગ્મકોણ):</b><br>
+                            આકૃતિમાં ધ્યાનથી જુઓ, બે સમાંતર રેખાઓ વચ્ચે એક <b>"Z"</b> આકાર બને છે! <br>
+                            આ Z ની અંદરના ખૂણા (યુગ્મકોણો) હંમેશા સરખા હોય છે. બસ આ જ ટ્રીકથી દાખલો પૂરો!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            સમલંબ ચતુષ્કોણ ABCD માં <b>AB || DC</b> છે અને વિકર્ણો AC અને BD બિંદુ O માં છેદે છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>OA / OC = OB / OD</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>ઉપરના $\\Delta$OAB અને નીચેના $\\Delta$OCD માં:</b><br><br>
+                                
+                                <b>1.</b> $\\angle$AOB = $\\angle$COD <span style='color:#047857; font-size:14px;'><i>(અભિકોણો - સામસામેના ખૂણા હંમેશા સરખા હોય)</i></span><br>
+                                
+                                <b>2.</b> $\\angle$OAB = $\\angle$OCD <span style='color:#047857; font-size:14px;'><i>(AB || DC હોવાથી બનતા "Z" આકારના યુગ્મકોણો)</i></span><br>
+                                
+                                <b>3.</b> $\\angle$OBA = $\\angle$ODC <span style='color:#047857; font-size:14px;'><i>(બીજા "Z" આકારના યુગ્મકોણો)</i></span><br><br>
+                                
+                                તેથી, <b>ખુ-ખુ-ખુ (AAA) સમરૂપતાની શરત</b> મુજબ, બંને ત્રિકોણો સમરૂપ છે:<br>
+                                <b style='color:#dc2626;'>$\\Delta$OAB $\\sim$ $\\Delta$OCD</b><br><br>
+                                
+                                હવે જો બે ત્રિકોણો સમરૂપ હોય, તો તેમની અનુરૂપ બાજુઓનો ગુણોત્તર સમાન જ હોય!<br>
+                                <b style='color:#16a34a; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>OA</span><span>OC</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>OB</span><span>OD</span></span></b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે! (થઈ ગયો ને સાવ ટૂંકો દાખલો!)</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 4: આપેલ આકૃતિમાં QR/QS = QT/PR અને $\\angle$1 = $\\angle$2 છે. સાબિત કરો કે $\\Delta$PQS $\\sim$ $\\Delta$TQR.", 
+                    question_desc: "2024 અને 2025 ની બોર્ડ પરીક્ષામાં પૂછાતો 'બા-ખુ-બા' શરતનો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#fdf4ff; border:1px solid #f0abfc; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="100,20 40,160 220,160" fill="#f8fafc" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="75" y1="80" x2="220" y2="160" stroke="#dc2626" stroke-width="3"/>
+                                <line x1="75" y1="80" x2="100" y2="160" stroke="#1d4ed8" stroke-width="3"/>
+                                
+                                <path d="M 65 160 A 25 25 0 0 1 55 125" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 195 160 A 25 25 0 0 0 190 145" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <text x="100" y="15" font-size="16" font-weight="bold">T</text>
+                                <text x="60" y="75" font-size="16" font-weight="bold">P</text>
+                                <text x="25" y="165" font-size="16" font-weight="bold">Q</text>
+                                <text x="100" y="175" font-size="16" font-weight="bold">S</text>
+                                <text x="230" y="165" font-size="16" font-weight="bold">R</text>
+                                
+                                <text x="70" y="150" font-size="14" font-weight="bold" fill="#ea580c">1</text>
+                                <text x="175" y="150" font-size="14" font-weight="bold" fill="#ea580c">2</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 કન્ફ્યુઝન દૂર કરવાની ટ્રીક:</b><br>
+                            આપણને પ્રશ્નમાં <b>QT/PR</b> આપ્યું છે. પણ શરત લગાવવા માટે આપણે <b>QT/QP</b> જોઈએ! <br>
+                            તેથી આપણે માત્ર એટલું સાબિત કરવાનું છે કે <b>PR = PQ</b>. અને આકૃતિમાં $\\angle$1 = $\\angle$2 આપેલું જ છે, એટલે સમદ્વિબાજુ ત્રિકોણના નિયમથી તે સાબિત થઈ જશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            QR / QS = QT / PR આપેલ છે. અને <b>$\\angle$1 = $\\angle$2</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>$\\Delta$PQS $\\sim$ $\\Delta$TQR</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1.</b> ત્રિકોણ $\\Delta$PQR માં, આપેલ છે કે $\\angle$1 = $\\angle$2 (એટલે કે $\\angle$PQR = $\\angle$PRQ).<br>
+                                જો ત્રિકોણના બે ખૂણા સમાન હોય, તો તેમની સામેની બાજુઓ પણ સમાન થાય!<br>
+                                તેથી, <b style='color:#dc2626;'>PQ = PR</b> &nbsp;&nbsp; <b>... (પરિણામ 1)</b><br><br>
+                                
+                                <b>2.</b> હવે પક્ષમાં આપેલું ગુણોત્તર લઈએ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>QR</span><span>QS</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>QT</span><span>PR</span></span><br>
+                                <i>(અહીં PR ની જગ્યાએ આપણે શોધેલું PQ મૂકી દઈએ)</i><br>
+                                <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>QR</span><span>QS</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>QT</span><span>PQ</span></span></b> &nbsp;&nbsp; <b>... (પરિણામ 2)</b><br><br>
+                                
+                                <b>3. બે ત્રિકોણો $\\Delta$PQS અને $\\Delta$TQR ની સરખામણી:</b><br>
+                                • <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>QR</span><span>QS</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>QT</span><span>PQ</span></span> <i>(પરિણામ 2 મુજબ - એટલે કે 2 બાજુઓનો ગુણોત્તર સમાન છે)</i><br>
+                                • $\\angle$Q = $\\angle$Q <i>(બંને ત્રિકોણમાં આવતો સામાન્ય ખૂણો)</i><br><br>
+                                
+                                <b>નિષ્કર્ષ:</b> 2 બાજુઓનું પ્રમાણ અને તેમની વચ્ચેનો 1 ખૂણો સમાન હોવાથી <b>બા-ખુ-બા (SAS)</b> શરત મુજબ:<br>
+                                <b style='color:#16a34a; font-size:20px;'>$\\Delta$PQS $\\sim$ $\\Delta$TQR</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે.</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 6.3 પ્રશ્ન 5: $\\Delta$PQR ની બાજુઓ PR અને QR પર અનુક્રમે બિંદુઓ S અને T એવા છે કે જેથી $\\angle$P = $\\angle$RTS થાય. સાબિત કરો કે $\\Delta$RPQ $\\sim$ $\\Delta$RTS.", 
+                    question_desc: "2 માર્ક્સ માટે સાવ સહેલી અને ટૂંકી સાબિતી",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="180" viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="110,20 40,150 180,150" fill="#f0f9ff" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="145" y1="85" x2="110" y2="150" stroke="#dc2626" stroke-width="3"/>
+                                
+                                <path d="M 100 40 A 20 20 0 0 0 95 50" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                <path d="M 125 105 A 25 25 0 0 0 115 125" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                
+                                <text x="105" y="15" font-size="16" font-weight="bold">P</text>
+                                <text x="25" y="160" font-size="16" font-weight="bold">Q</text>
+                                <text x="185" y="160" font-size="16" font-weight="bold">R</text>
+                                <text x="155" y="80" font-size="16" font-weight="bold">S</text>
+                                <text x="105" y="170" font-size="16" font-weight="bold">T</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            $\\Delta$PQR માં બિંદુઓ S અને T આપેલા છે અને <b>$\\angle$P = $\\angle$RTS</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>$\\Delta$RPQ $\\sim$ $\\Delta$RTS</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>મોટા ત્રિકોણ $\\Delta$RPQ અને નાના ત્રિકોણ $\\Delta$RTS ની સરખામણી:</b><br><br>
+                                
+                                <b>1.</b> $\\angle$RPQ = $\\angle$RTS <span style='color:#047857; font-size:14px;'><i>(આ તો રકમમાં જ પક્ષ તરીકે આપેલું છે!)</i></span><br>
+                                
+                                <b>2.</b> $\\angle$R = $\\angle$R <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણોમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br><br>
+                                
+                                જો બે ત્રિકોણમાં બે ખૂણાઓ સરખા મળી જાય, તો ત્રીજો ખૂણો આપોઆપ સરખો જ હોય!<br>
+                                <b>નિષ્કર્ષ:</b> <b>ખુ-ખુ (AA) સમરૂપતાની શરત</b> મુજબ બંને ત્રિકોણો સમરૂપ છે.<br>
+                                <b style='color:#16a34a; font-size:20px;'>$\\Delta$RPQ $\\sim$ $\\Delta$RTS</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે.</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
-            
-        
-                
-            
-        
-                
-            
-                 
                                                          
                     
 };
