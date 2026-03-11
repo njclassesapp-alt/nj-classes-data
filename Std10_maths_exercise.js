@@ -10284,30 +10284,39 @@ var njMathsExercise = {
             "chapterName": "પ્રકરણ 7 (સ્વાધ્યાય 7.1 - ભાગ 1)",
             "chapterTitle": "અંતર સૂત્રની માસ્ટર ચાવી અને બિંદુઓ વચ્ચેનું અંતર (પ્રશ્ન 1)",
             "qa_list": [
-                {
+                                {
                     question: "🎯 માસ્ટર ચાવી: અંતર સૂત્ર (Distance Formula) શું છે અને તેને કેવી રીતે યાદ રાખવું?",
                     answer: `
                     <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
                         <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા સ્વાધ્યાય 7.1 માટે માત્ર આ એક જ સૂત્ર યાદ રાખવાનું છે!</p>
                         
-                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px; text-align:center;'>
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px;'>
                             <b style='color:#1d4ed8; font-size:18px;'>અંતર સૂત્ર (વર્ગમૂળ વાળું મેઈન સૂત્ર):</b><br>
-                            <div style='margin-top:15px; font-size:22px; color:#be123c; background-color:#fee2e2; padding:15px; border-radius:8px; display:inline-block;'>
-                                <b>d = </b> <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #be123c; display:inline-block; padding-top:2px;'>&nbsp;(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>&nbsp;</span></span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px; background-color:#fee2e2; padding:15px; border-radius:8px; text-align:center;'>
+                                <span style='font-size:24px; color:#be123c; font-weight:bold;'>
+                                    d = &radic;<span style='text-decoration:overline;'>&nbsp;(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>&nbsp;</span>
+                                </span>
                             </div>
+
                         </div>
 
                         <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:15px; border-radius:5px;'>
                             <b style='color:#b45309; font-size:16px;'>💡 NJ Classes ની દેશી ટ્રીક (વર્ગમૂળ વગરનું સહેલું સૂત્ર):</b><br>
                             <span style='color:#0f172a; font-size:15px;'>વર્ગમૂળની નિશાનીથી ગભરામણ થતી હોય, તો બંને બાજુ <b>વર્ગ (Square)</b> કરી દેવાનો! એટલે વર્ગમૂળ ઉડી જશે. દાખલા ગણતી વખતે આપણે આ જ સહેલા સૂત્રનો ઉપયોગ કરીશું:</span>
-                            <div style='margin-top:10px; font-size:22px; color:#16a34a; background-color:#dcfce7; padding:10px; border-radius:8px; text-align:center;'>
-                                <b>AB<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup></b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px; background-color:#dcfce7; padding:15px; border-radius:8px; text-align:center;'>
+                                <span style='font-size:22px; color:#16a34a; font-weight:bold;'>
+                                    AB<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>
+                                </span>
                             </div>
-                            <span style='color:#047857; font-size:14px; display:block; text-align:center; margin-top:5px;'><i>(યાદ રાખવાની ટ્રીક: પહેલામાંથી પહેલું બાદ કરો, અને બીજામાંથી બીજું બાદ કરો, પછી બંનેનો વર્ગ કરી સરવાળો કરો!)</i></span>
+                            
+                            <span style='color:#047857; font-size:14px; display:block; text-align:center; margin-top:10px; white-space:normal;'><i>(યાદ રાખવાની ટ્રીક: પહેલામાંથી પહેલું બાદ કરો, અને બીજામાંથી બીજું બાદ કરો, પછી બંનેનો વર્ગ કરી સરવાળો કરો!)</i></span>
                         </div>
                     </div>
                     `
-                },
+              },
+                
                 { 
                     question: "🌟 સ્વા. 7.1 પ્રશ્ન 1(i): નીચે આપેલ બિંદુઓની જોડ વચ્ચેનું અંતર શોધો: (2, 3) અને (4, 1)", 
                     question_desc: "2024 બોર્ડ માટે 2 માર્ક્સમાં પૂછાયેલો સૌથી સહેલો દાખલો",
