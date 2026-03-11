@@ -10838,9 +10838,107 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 7: જે (2, -5) અને (-2, 9) થી સમાન અંતરે હોય તેવું x-અક્ષ પરનું બિંદુ શોધો.", 
+                    question_desc: "2024 અને 2025 બોર્ડ માટે 2 માર્ક્સનો સૌથી મોસ્ટ IMP સમાન અંતર વાળો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 માં 2 માર્ક્સ માટે પૂછાયેલો દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (x-અક્ષ પરનું બિંદુ):</b><br>
+                            જ્યારે પણ એમ કહે કે <b>"x-અક્ષ પરનું બિંદુ"</b>, ત્યારે તેનો y-યામ હંમેશા <b>0 (શૂન્ય)</b> જ હોય! <br>
+                            એટલે કે તે બિંદુ <b>(x, 0)</b> લેવું પડે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બિંદુઓ ધારવા અને શરત મૂકવી</b><br>
+                            ધારો કે માંગેલ x-અક્ષ પરનું બિંદુ <b>P(x, 0)</b> છે.<br>
+                            આપેલા બિંદુઓ <b>A(2, -5)</b> અને <b>B(-2, 9)</b> છે.<br>
+                            રકમ મુજબ બિંદુ P એ A અને B થી <b>સમાન અંતરે</b> છે.<br>
+                            તેથી: <b style='color:#1d4ed8; font-size:18px;'>PA = PB</b><br>
+                            બંને બાજુ વર્ગ કરતા: <b style='color:#dc2626; font-size:18px;'>PA<sup>2</sup> = PB<sup>2</sup></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંતર સૂત્ર મૂકી ગણતરી કરવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; line-height:2.8; background-color:#e0f2fe; padding:15px; border-radius:5px; margin-top:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(PA<sup>2</sup> ની ગણતરી) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (PB<sup>2</sup> ની ગણતરી)</i></span><br>
+                                (x - 2)<sup>2</sup> + (0 - (-5))<sup>2</sup> &nbsp;=&nbsp; (x - (-2))<sup>2</sup> + (0 - 9)<sup>2</sup><br>
+                                (x - 2)<sup>2</sup> + (5)<sup>2</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp; (x + 2)<sup>2</sup> + (-9)<sup>2</sup><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસ છોડતા: (a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup>)</i></span><br>
+                                (x<sup>2</sup> - 4x + 4) + 25 &nbsp;&nbsp;&nbsp;&nbsp;=&nbsp; (x<sup>2</sup> + 4x + 4) + 81<br>
+                                x<sup>2</sup> - 4x + 29 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp; x<sup>2</sup> + 4x + 85<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુથી x<sup>2</sup> ઉડી જશે)</i></span><br>
+                                -4x + 29 = 4x + 85<br>
+                                -4x - 4x = 85 - 29<br>
+                                -8x = 56<br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>56</span><span>-8</span></span><br>
+                                <b style='color:#be123c; font-size:22px;'>x = -7</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ x-અક્ષ પરનું બિંદુ P(x, 0) હોવાથી તે <b style='color:#be123c; font-size:18px;'>(-7, 0)</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 8: બિંદુઓ P(2, -3) અને Q(10, y) વચ્ચેનું અંતર 10 એકમ હોય, તો y ની કિંમત શોધો.", 
+                    question_desc: "બોર્ડમાં પૂછાયેલો અજ્ઞાત કિંમત શોધવાનો સુપર ડુપર હિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            અહીં આપણને <b>અંતર = 10</b> આપી દીધું છે. એટલે કે PQ = 10.<br>
+                            ગણતરી સહેલી કરવા માટે <b>બંને બાજુ વર્ગ</b> કરી દેવાનો! એટલે <b>PQ<sup>2</sup> = 100</b> થઈ જાય. આનાથી વર્ગમૂળની નિશાની મૂકવી નહિ પડે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કિંમતો લખવી</b><br>
+                            બિંદુઓ: <b>P(2, -3)</b> અને <b>Q(10, y)</b> છે.<br>
+                            રકમ મુજબ: PQ = 10<br>
+                            તેથી: <b style='color:#dc2626; font-size:18px;'>PQ<sup>2</sup> = 100</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંતર સૂત્ર મૂકી ગણતરી કરવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; line-height:2.8; background-color:#e0f2fe; padding:15px; border-radius:5px; margin-top:5px;'>
+                                (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup> = PQ<sup>2</sup><br>
+                                (10 - 2)<sup>2</sup> + (y - (-3))<sup>2</sup> = 100<br>
+                                (8)<sup>2</sup> + (y + 3)<sup>2</sup> = 100<br>
+                                64 + (y<sup>2</sup> + 6y + 9) = 100<br>
+                                y<sup>2</sup> + 6y + 73 = 100<br>
+                                y<sup>2</sup> + 6y + 73 - 100 = 0<br>
+                                <b style='color:#1d4ed8;'>y<sup>2</sup> + 6y - 27 = 0</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે અવયવ પાડીએ: ગુણાકાર -27 અને બાદબાકી +6 લાવવાની છે. એટલે 9 &times; 3 = 27)</i></span><br>
+                                y<sup>2</sup> + 9y - 3y - 27 = 0<br>
+                                y(y + 9) - 3(y + 9) = 0<br>
+                                (y + 9) (y - 3) = 0<br><br>
+                                
+                                તેથી, y + 9 = 0 &nbsp; અથવા &nbsp; y - 3 = 0<br>
+                                <b style='color:#be123c; font-size:22px;'>y = -9</b> &nbsp;&nbsp;&nbsp; અથવા &nbsp;&nbsp;&nbsp; <b style='color:#16a34a; font-size:22px;'>y = 3</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309; font-size:16px;'>અંતિમ જવાબ:</b> y ની શક્ય કિંમતો <b style='color:#be123c;'>-9</b> અથવા <b style='color:#16a34a;'>3</b> છે. (અહીં બંને જવાબ સાચા કહેવાય).
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
