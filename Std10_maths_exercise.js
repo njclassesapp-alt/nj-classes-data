@@ -10423,9 +10423,164 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "સ્વા. 7.1 પ્રશ્ન 2: બિંદુઓ (0, 0) અને (36, 15) વચ્ચેનું અંતર શોધો. હવે તમે વિભાગ 7.2 માં ચર્ચા કરેલ બે શહેરો A અને B વચ્ચેનું અંતર શોધી શકો છો?", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ઉગમબિંદુની દેશી ટ્રીક:</b><br>
+                            જ્યારે એક બિંદુ <b>(0, 0) એટલે કે ઉગમબિંદુ</b> હોય, ત્યારે અંતર શોધવું સાવ સહેલું છે! સીધો જ આપેલા બંને આંકડાઓનો વર્ગ કરીને સરવાળો કરી દેવાનો.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કિંમતો લખવી</b><br>
+                            ધારો કે શહેર A(0, 0) અને શહેર B(36, 15) છે.<br>
+                            x<sub>1</sub> = 0, y<sub>1</sub> = 0<br>
+                            x<sub>2</sub> = 36, y<sub>2</sub> = 15
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંતર સૂત્ર મૂકી ગણતરી કરવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                AB<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup><br>
+                                AB<sup>2</sup> = (36 - 0)<sup>2</sup> + (15 - 0)<sup>2</sup><br>
+                                AB<sup>2</sup> = (36)<sup>2</sup> + (15)<sup>2</sup><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(36 નો વર્ગ 1296 અને 15 નો વર્ગ 225 થાય)</i></span><br>
+                                AB<sup>2</sup> = 1296 + 225<br>
+                                AB<sup>2</sup> = 1521<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે 1521 નું વર્ગમૂળ કાઢીએ, જે 39 થાય છે)</i></span><br>
+                                AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;1521&nbsp;</span></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'>AB = 39</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> બે શહેરો A અને B વચ્ચેનું અંતર <b style='color:#1d4ed8;'>39 કિમી</b> થશે. (હા, આપણે તે અંતર શોધી શકીએ છીએ).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 3: બિંદુઓ (1, 5), (2, 3) અને (-2, -11) સમરેખ છે કે નહીં તે નક્કી કરો.", 
+                    question_desc: "2026 બોર્ડ માટે 3 માર્ક્સમાં પૂછાઈ શકે તેવો લાંબો અને IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 સમરેખ (Collinear) ચેક કરવાની માસ્ટર ટ્રીક:</b><br>
+                            સમરેખ એટલે ત્રણેય બિંદુઓ એક જ સીધી લાઈનમાં હોવા જોઈએ.<br>
+                            <b>શરત:</b> કોઈપણ બે નાના અંતરનો સરવાળો, મોટા અંતર જેટલો થવો જોઈએ! <b>(AB + BC = AC)</b><br>
+                            આ માટે આપણે ત્રણ વાર અંતર સૂત્ર વાપરવું પડશે: <b>AB, BC અને AC</b> શોધવા માટે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: AB શોધવું</b><br>
+                            A(1, 5) અને B(2, 3) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AB<sup>2</sup> = (2 - 1)<sup>2</sup> + (3 - 5)<sup>2</sup><br>
+                                AB<sup>2</sup> = (1)<sup>2</sup> + (-2)<sup>2</sup><br>
+                                AB<sup>2</sup> = 1 + 4 = 5<br>
+                                <b style='color:#1d4ed8;'>AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;5&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: BC શોધવું</b><br>
+                            B(2, 3) અને C(-2, -11) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                BC<sup>2</sup> = (-2 - 2)<sup>2</sup> + (-11 - 3)<sup>2</sup><br>
+                                BC<sup>2</sup> = (-4)<sup>2</sup> + (-14)<sup>2</sup><br>
+                                BC<sup>2</sup> = 16 + 196 = 212<br>
+                                <b style='color:#1d4ed8;'>BC = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;212&nbsp;</span></span></b> <i>(જે 2<span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;53&nbsp;</span></span> થાય છે)</i>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: AC શોધવું</b><br>
+                            A(1, 5) અને C(-2, -11) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                AC<sup>2</sup> = (-2 - 1)<sup>2</sup> + (-11 - 5)<sup>2</sup><br>
+                                AC<sup>2</sup> = (-3)<sup>2</sup> + (-16)<sup>2</sup><br>
+                                AC<sup>2</sup> = 9 + 256 = 265<br>
+                                <b style='color:#1d4ed8;'>AC = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;265&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 4: શરત ચેક કરવી</b><br>
+                            અહીં, AB + BC &ne; AC <br>
+                            <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;5&nbsp;</span></span> + <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;212&nbsp;</span></span> એ <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;265&nbsp;</span></span> જેટલા થતા નથી.<br>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> તેથી, આપેલ બિંદુઓ <b>સમરેખ નથી.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 4: ચકાસો કે (5, -2), (6, 4) અને (7, -2) એ સમદ્વિબાજુ ત્રિકોણનાં શિરોબિંદુઓ છે.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો મોસ્ટ IMP ચેકિંગ વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમદ્વિબાજુ (Isosceles) ની શરત:</b><br>
+                            જે ત્રિકોણની <b>કોઈપણ બે બાજુઓના માપ સરખા</b> હોય તેને સમદ્વિબાજુ ત્રિકોણ કહેવાય.<br>
+                            આપણે ત્રણેય બાજુઓ (AB, BC અને AC) શોધીશું અને જોઈશું કે કોઈ બે ના જવાબ સરખા આવે છે કે નહિ!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: AB શોધવું</b><br>
+                            ધારો કે A(5, -2), B(6, 4) અને C(7, -2) છે.<br>
+                            A(5, -2) અને B(6, 4) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AB<sup>2</sup> = (6 - 5)<sup>2</sup> + (4 - (-2))<sup>2</sup><br>
+                                AB<sup>2</sup> = (1)<sup>2</sup> + (4 + 2)<sup>2</sup><br>
+                                AB<sup>2</sup> = 1 + (6)<sup>2</sup><br>
+                                AB<sup>2</sup> = 1 + 36 = 37<br>
+                                <b style='color:#1d4ed8;'>AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;37&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: BC શોધવું</b><br>
+                            B(6, 4) અને C(7, -2) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                BC<sup>2</sup> = (7 - 6)<sup>2</sup> + (-2 - 4)<sup>2</sup><br>
+                                BC<sup>2</sup> = (1)<sup>2</sup> + (-6)<sup>2</sup><br>
+                                BC<sup>2</sup> = 1 + 36 = 37<br>
+                                <b style='color:#1d4ed8;'>BC = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;37&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: AC શોધવું</b><br>
+                            A(5, -2) અને C(7, -2) માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                AC<sup>2</sup> = (7 - 5)<sup>2</sup> + (-2 - (-2))<sup>2</sup><br>
+                                AC<sup>2</sup> = (2)<sup>2</sup> + (-2 + 2)<sup>2</sup><br>
+                                AC<sup>2</sup> = (2)<sup>2</sup> + (0)<sup>2</sup><br>
+                                AC<sup>2</sup> = 4 + 0 = 4<br>
+                                AC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;4&nbsp;</span></span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#dc2626;'>AC = 2</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 4: સરખામણી અને નિષ્કર્ષ</b><br>
+                            અહીં, <b>AB = BC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;37&nbsp;</span></span></b> મળ્યું છે.<br>
+                            બે બાજુઓ સમાન હોવાથી સાબિત થાય છે કે આ ત્રિકોણ સમદ્વિબાજુ છે.<br>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> હા, આપેલ બિંદુઓ <b>સમદ્વિબાજુ ત્રિકોણનાં શિરોબિંદુઓ છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
     
                 
             
