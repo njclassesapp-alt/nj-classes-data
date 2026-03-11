@@ -10275,7 +10275,158 @@ var njMathsExercise = {
                     `
                 }
             ]
+        },
+            ,
+        // ------------------------------------
+        // પ્રકરણ 7: યામ ભૂમિતિ (સ્વાધ્યાય 7.1 - ભાગ 1)
+        // ------------------------------------
+        "7": {
+            "chapterName": "પ્રકરણ 7 (સ્વાધ્યાય 7.1 - ભાગ 1)",
+            "chapterTitle": "અંતર સૂત્રની માસ્ટર ચાવી અને બિંદુઓ વચ્ચેનું અંતર (પ્રશ્ન 1)",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: અંતર સૂત્ર (Distance Formula) શું છે અને તેને કેવી રીતે યાદ રાખવું?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા સ્વાધ્યાય 7.1 માટે માત્ર આ એક જ સૂત્ર યાદ રાખવાનું છે!</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px; text-align:center;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>અંતર સૂત્ર (વર્ગમૂળ વાળું મેઈન સૂત્ર):</b><br>
+                            <div style='margin-top:15px; font-size:22px; color:#be123c; background-color:#fee2e2; padding:15px; border-radius:8px; display:inline-block;'>
+                                <b>d = </b> <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #be123c; display:inline-block; padding-top:2px;'>&nbsp;(x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup>&nbsp;</span></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:15px; border-radius:5px;'>
+                            <b style='color:#b45309; font-size:16px;'>💡 NJ Classes ની દેશી ટ્રીક (વર્ગમૂળ વગરનું સહેલું સૂત્ર):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>વર્ગમૂળની નિશાનીથી ગભરામણ થતી હોય, તો બંને બાજુ <b>વર્ગ (Square)</b> કરી દેવાનો! એટલે વર્ગમૂળ ઉડી જશે. દાખલા ગણતી વખતે આપણે આ જ સહેલા સૂત્રનો ઉપયોગ કરીશું:</span>
+                            <div style='margin-top:10px; font-size:22px; color:#16a34a; background-color:#dcfce7; padding:10px; border-radius:8px; text-align:center;'>
+                                <b>AB<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup></b>
+                            </div>
+                            <span style='color:#047857; font-size:14px; display:block; text-align:center; margin-top:5px;'><i>(યાદ રાખવાની ટ્રીક: પહેલામાંથી પહેલું બાદ કરો, અને બીજામાંથી બીજું બાદ કરો, પછી બંનેનો વર્ગ કરી સરવાળો કરો!)</i></span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 1(i): નીચે આપેલ બિંદુઓની જોડ વચ્ચેનું અંતર શોધો: (2, 3) અને (4, 1)", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સમાં પૂછાયેલો સૌથી સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બિંદુઓને નામ આપવા</b><br>
+                            ધારો કે આપેલ બિંદુઓ <b>A(2, 3)</b> અને <b>B(4, 1)</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                x<sub>1</sub> = <b style='color:#1d4ed8;'>2</b>, &nbsp;&nbsp; y<sub>1</sub> = <b style='color:#dc2626;'>3</b><br>
+                                x<sub>2</sub> = <b style='color:#1d4ed8;'>4</b>, &nbsp;&nbsp; y<sub>2</sub> = <b style='color:#dc2626;'>1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંતર સૂત્ર મૂકી ગણતરી કરવી</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(વર્ગમૂળ વગરનું સહેલું સૂત્ર વાપરીશું)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                AB<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup><br>
+                                AB<sup>2</sup> = (4 - 2)<sup>2</sup> + (1 - 3)<sup>2</sup><br>
+                                AB<sup>2</sup> = (2)<sup>2</sup> + (-2)<sup>2</sup><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ 2 નો વર્ગ પણ પ્લસ 4 જ થાય)</i></span><br>
+                                AB<sup>2</sup> = 4 + 4<br>
+                                AB<sup>2</sup> = 8<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે છેલ્લે વર્ગમૂળ કાઢીએ: 8 ના ભાગ પાડો 4 &times; 2)</i></span><br>
+                                AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;8&nbsp;</span></span><br>
+                                AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;4 &times; 2&nbsp;</span></span><br>
+                                <b style='font-size:22px; color:#be123c;'>AB = 2<span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #be123c; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> આપેલ બિંદુઓ વચ્ચેનું અંતર <b style='color:#be123c;'>2<span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid #be123c; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span></b> એકમ છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 1(ii): નીચે આપેલ બિંદુઓની જોડ વચ્ચેનું અંતર શોધો: (-5, 7) અને (-1, 3)", 
+                    question_desc: "માઇનસ વાળી નિશાનીઓમાં ભૂલ કરાવતો દાખલો (ટ્રીક સાથે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 નિશાનીની માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે બાદબાકી કરવાની હોય અને બીજું પદ માઇનસ (-) માં હોય, ત્યારે માઇનસ-માઇનસ <b>પ્લસ (+)</b> થઈ જાય છે!<br>
+                            જેમ કે: (-1) - (-5) = -1 + 5 = 4.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કિંમતો લખવી</b><br>
+                            ધારો કે <b>P(-5, 7)</b> અને <b>Q(-1, 3)</b> છે.<br>
+                            x<sub>1</sub> = -5, y<sub>1</sub> = 7<br>
+                            x<sub>2</sub> = -1, y<sub>2</sub> = 3
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંતર સૂત્ર મૂકી ગણતરી કરવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                PQ<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup><br>
+                                PQ<sup>2</sup> = (-1 - (-5))<sup>2</sup> + (3 - 7)<sup>2</sup><br>
+                                PQ<sup>2</sup> = (-1 + 5)<sup>2</sup> + (-4)<sup>2</sup><br>
+                                PQ<sup>2</sup> = (4)<sup>2</sup> + (-4)<sup>2</sup><br>
+                                PQ<sup>2</sup> = 16 + 16<br>
+                                PQ<sup>2</sup> = 32<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેલ્લે વર્ગમૂળ કાઢીએ: 32 ના ભાગ પાડો 16 &times; 2)</i></span><br>
+                                PQ = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;32&nbsp;</span></span><br>
+                                PQ = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;16 &times; 2&nbsp;</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(16 નું વર્ગમૂળ 4 થાય)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'>PQ = 4<span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> બિંદુઓ વચ્ચેનું અંતર <b style='color:#1d4ed8;'>4<span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span></b> એકમ છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 1(iii): નીચે આપેલ બિંદુઓની જોડ વચ્ચેનું અંતર શોધો: (a, b) અને (-a, -b)", 
+                    question_desc: "2025 બોર્ડ માટે 2 માર્ક્સમાં પૂછાઈ શકે તેવો ચલ (Variables) વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2025 માટે આ a અને b વાળો દાખલો મોસ્ટ IMP છે!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કિંમતો લખવી</b><br>
+                            ધારો કે <b>A(a, b)</b> અને <b>B(-a, -b)</b> છે.<br>
+                            x<sub>1</sub> = a, y<sub>1</sub> = b<br>
+                            x<sub>2</sub> = -a, y<sub>2</sub> = -b
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંતર સૂત્ર મૂકી ગણતરી કરવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                AB<sup>2</sup> = (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup><br>
+                                AB<sup>2</sup> = (-a - a)<sup>2</sup> + (-b - b)<sup>2</sup><br>
+                                AB<sup>2</sup> = (-2a)<sup>2</sup> + (-2b)<sup>2</sup><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ 2 નો વર્ગ પ્લસ 4 થાય)</i></span><br>
+                                AB<sup>2</sup> = 4a<sup>2</sup> + 4b<sup>2</sup><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બંનેમાંથી 4 સામાન્ય (Common) કાઢતાં)</i></span><br>
+                                AB<sup>2</sup> = 4(a<sup>2</sup> + b<sup>2</sup>)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે વર્ગમૂળ લઈએ. 4 નું વર્ગમૂળ 2 બહાર આવી જશે, બાકીનું વર્ગમૂળમાં જ રહેશે)</i></span><br>
+                                AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;4(a<sup>2</sup> + b<sup>2</sup>)&nbsp;</span></span><br>
+                                <b style='font-size:22px; color:#be123c;'>AB = 2<span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid #be123c; display:inline-block; padding-top:1px;'>&nbsp;a<sup>2</sup> + b<sup>2</sup>&nbsp;</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> બિંદુઓ વચ્ચેનું અંતર <b style='color:#be123c;'>2<span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid #be123c; display:inline-block; padding-top:1px;'>&nbsp;a<sup>2</sup> + b<sup>2</sup>&nbsp;</span></span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+    
                 
             
         
