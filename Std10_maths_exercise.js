@@ -11642,9 +11642,90 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 7.2 પ્રશ્ન 10: સમબાજુ ચતુષ્કોણનાં ક્રમિક શિરોબિંદુઓ (3, 0), (4, 5), (-1, 4) અને (-2, -1) હોય, તો તેનું ક્ષેત્રફળ શોધો. [સૂચન: સમબાજુ ચતુષ્કોણનું ક્ષેત્રફળ = 1/2 &times; (તેના વિકર્ણોનો ગુણાકાર)]", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો અંતર સૂત્ર અને ક્ષેત્રફળ આધારિત મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલામાં કોઈ નવું સૂત્ર નથી ગોખવાનું, માત્ર બે વિકર્ણો શોધીને તેમનો ગુણાકાર અડધો કરવાનો છે!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="110,20 200,110 110,200 20,110" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <line x1="110" y1="20" x2="110" y2="200" stroke="#dc2626" stroke-width="2" stroke-dasharray="4,2"/>
+                                <line x1="20" y1="110" x2="200" y2="110" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="4,2"/>
+                                
+                                <circle cx="110" cy="20" r="4" fill="#0f172a"/> <circle cx="200" cy="110" r="4" fill="#0f172a"/> <circle cx="110" cy="200" r="4" fill="#0f172a"/> <circle cx="20" cy="110" r="4" fill="#0f172a"/> <text x="90" y="15" font-size="14" font-weight="bold">A(3, 0)</text>
+                                <text x="205" y="115" font-size="14" font-weight="bold">B(4, 5)</text>
+                                <text x="80" y="215" font-size="14" font-weight="bold">C(-1, 4)</text>
+                                <text x="5" y="105" font-size="14" font-weight="bold">D(-2, -1)</text>
+                                
+                                <text x="115" y="65" font-size="14" font-weight="bold" fill="#dc2626">d₁</text>
+                                <text x="155" y="105" font-size="14" font-weight="bold" fill="#1d4ed8">d₂</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 દાખલાની માસ્ટર ચાવી:</b><br>
+                            સમબાજુ ચતુષ્કોણનું ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; (પહેલો વિકર્ણ AC) &times; (બીજો વિકર્ણ BD)<br>
+                            આથી આપણે <b>અંતર સૂત્રની મદદથી માત્ર બે વિકર્ણો (AC અને BD) ની લંબાઈ</b> શોધવાની છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને વિકર્ણો શોધવા (અંતર સૂત્રથી)</b><br>
+                            ધારો કે શિરોબિંદુઓ A(3, 0), B(4, 5), C(-1, 4) અને D(-2, -1) છે.
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>વિકર્ણ AC ની લંબાઈ:</b> A(3, 0) અને C(-1, 4)<br><br>
+                                AC<sup>2</sup> = (-1 - 3)<sup>2</sup> + (4 - 0)<sup>2</sup><br>
+                                AC<sup>2</sup> = (-4)<sup>2</sup> + (4)<sup>2</sup><br>
+                                AC<sup>2</sup> = 16 + 16 = 32<br>
+                                AC = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;32&nbsp;</span><br>
+                                AC = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;16 &times; 2&nbsp;</span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#dc2626; font-size:18px;'>AC = 4&radic;<span style='border-top:2.5px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b style='color:#ea580c;'>વિકર્ણ BD ની લંબાઈ:</b> B(4, 5) અને D(-2, -1)<br><br>
+                                BD<sup>2</sup> = (-2 - 4)<sup>2</sup> + (-1 - 5)<sup>2</sup><br>
+                                BD<sup>2</sup> = (-6)<sup>2</sup> + (-6)<sup>2</sup><br>
+                                BD<sup>2</sup> = 36 + 36 = 72<br>
+                                BD = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;72&nbsp;</span><br>
+                                BD = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;36 &times; 2&nbsp;</span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#dc2626; font-size:18px;'>BD = 6&radic;<span style='border-top:2.5px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ક્ષેત્રફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#f3e8ff; padding:15px; border-radius:5px;'>
+                                ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; (AC) &times; (BD)<br><br>
+                                
+                                ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; (4&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span>) &times; (6&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span>)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બહારના અંકોનો ગુણાકાર: 4 &times; 6 = 24. અને વર્ગમૂળનો: &radic;2 &times; &radic;2 = 2)</i></span><br>
+                                ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; (24 &times; 2)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદના 2 અને ગુણાકારના 2 ઉડી જશે)</i></span><br>
+                                <b style='color:#9333ea; font-size:24px;'>ક્ષેત્રફળ = 24</b>
+                            </div>
+
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> આપેલ સમબાજુ ચતુષ્કોણનું ક્ષેત્રફળ <b style='color:#be123c; font-size:18px;'>24 ચોરસ એકમ</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
