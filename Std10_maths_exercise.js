@@ -7074,9 +7074,133 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                {
+                    question: "🎯 માસ્ટર ટ્રીક: પ્રશ્ન 3 ના 10 દાખલાઓ કેવી રીતે સોલ્વ કરવા?",
+                    answer: `
+                    <div style='background-color:#fefce8; padding:15px; border-radius:8px; border:2px solid #eab308; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#854d0e; font-weight:bold; font-size:16px;'>પ્રશ્ન 3 એ ખરેખર સ્વાધ્યાય 5.2 અને 5.3 નું મિક્સિંગ છે!</p>
+                        <div style='background-color:#ffffff; border:1px dashed #fde047; padding:10px; border-radius:5px;'>
+                            <ul style='line-height:2.2; margin-bottom:0; font-size:15px; color:#0f172a;'>
+                                <li>આ દાખલાઓમાં મોટાભાગે બે વસ્તુઓ શોધવાની હશે.</li>
+                                <li><b>ટ્રીક:</b> જેની કિંમત આપેલી હોય (જેમ કે a<sub>n</sub> ની કિંમત આપી હોય), તો પહેલા <b>તેનું જ સૂત્ર મૂકી દો!</b> તેનાથી તમને એક ખૂટતી કિંમત (જેમ કે n કે d) મળી જશે.</li>
+                                <li>પછી બીજી વસ્તુ શોધવા માટે સરવાળાનું સૂત્ર <b>(S<sub>n</sub>)</b> વાપરો. એટલે દાખલો પૂરો!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 3(i): સમાંતર શ્રેણીમાં a = 5, d = 3 અને an = 50 આપેલ હોય, તો n અને Sn શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: n શોધવો (a<sub>n</sub> ના સૂત્રથી)</b><br>
+                            અહીં <b>a<sub>n</sub> = 50</b> આપેલ છે, તો આપણે શરૂઆત પણ તેના સૂત્રથી જ કરીશું.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                50 = 5 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(3)<br>
+                                50 - 5 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(3)<br>
+                                45 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(3)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>45</span><span>3</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                15 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                15 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i> &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>n</i> = 16</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: S<sub>n</sub> શોધવો (શોર્ટકટ સૂત્રથી)</b><br>
+                            આપણી પાસે છેલ્લું પદ <b>l (a<sub>n</sub>) = 50</b> અને <b>n = 16</b> છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>16</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>16</span><span>2</span></span> [ 5 + 50 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>16</sub></i> = 8 [ 55 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(55 &times; 8 = 440)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>16</sub></i> = 440</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>n = 16</b> અને <b style='color:#be123c;'>S<sub>16</sub> = 440</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 3(ii): a = 7 અને a13 = 35 આપેલ હોય, તો d અને S13 શોધો.", 
+                    question_desc: "2 માર્ક્સ માટે બોર્ડમાં ખૂબ જ પૂછાતો સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: d શોધવો (a<sub>13</sub> ના સૂત્રથી)</b><br>
+                            અહીં <b>13મું પદ (a<sub>13</sub>) 35</b> આપેલ છે. (એટલે કે n = 13 છે).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>13</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + 12<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                35 = 7 + 12<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                35 - 7 = 12<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                28 = 12<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>28</span><span>12</span></span> = <i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બંને 4 ના ઘડિયામાં આવે: 4 સત્તા 28 અને 4 તેરી 12)</i></span><br>
+                                <b style='color:#dc2626;'><i style='font-family:"Times New Roman",serif;'>d</i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>7</span><span>3</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: S<sub>13</sub> શોધવો (શોર્ટકટ સૂત્રથી)</b><br>
+                            આપણને 13 પદોનો સરવાળો પૂછ્યો છે, અને 13મું પદ (છેલ્લું પદ l) પહેલેથી જ 35 આપેલું છે!<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> [ 7 + 35 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> [ 42 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(42 ને 2 વડે ભાગતા 21 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = 13 &times; 21<br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = 273</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#dc2626;'>d = 7/3</b> અને <b style='color:#1d4ed8;'>S<sub>13</sub> = 273</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 3(iii): a12 = 37 અને d = 3 આપેલ હોય, તો a અને S12 શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a શોધવો (a<sub>12</sub> ના સૂત્રથી)</b><br>
+                            અહીં <b>12મું પદ (a<sub>12</sub>) 37</b> આપેલ છે. (એટલે કે n = 12 છે).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>12</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + 11<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                37 = <i style='font-family:"Times New Roman",serif;'>a</i> + 11(3)<br>
+                                37 = <i style='font-family:"Times New Roman",serif;'>a</i> + 33<br>
+                                37 - 33 = <i style='font-family:"Times New Roman",serif;'>a</i> &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>a</i> = 4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: S<sub>12</sub> શોધવો (શોર્ટકટ સૂત્રથી)</b><br>
+                            અહીં 12 પદોનો સરવાળો શોધવો છે અને 12મું પદ (l) 37 છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>12</span><span>2</span></span> [ 4 + 37 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = 6 [ 41 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(41 &times; 6 = 246)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = 246</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>a = 4</b> અને <b style='color:#be123c;'>S<sub>12</sub> = 246</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
