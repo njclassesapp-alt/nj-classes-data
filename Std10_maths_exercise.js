@@ -8939,8 +8939,7 @@ var njMathsExercise = {
             
         
                 
-                
-        
+    
                 { 
                     question: "🌟 સ્વા. 6.2 પ્રશ્ન 7: પ્રમેય 6.1 (થેલ્સના પ્રમેય) નો ઉપયોગ કરીને સાબિત કરો કે ત્રિકોણની એક બાજુના મધ્યબિંદુમાંથી પસાર થતી અને બીજી બાજુને સમાંતર રેખા ત્રીજી બાજુને દુભાગે છે.", 
                     question_desc: "2024 ની બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સહેલો દાખલો",
@@ -8962,7 +8961,7 @@ var njMathsExercise = {
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
-                            $\\Delta$ABC માં બિંદુ D એ AB નું <b>મધ્યબિંદુ</b> છે (તેથી AD = DB).<br>
+                            &Delta;ABC માં બિંદુ D એ AB નું <b>મધ્યબિંદુ</b> છે (તેથી AD = DB).<br>
                             અને રેખા <b>DE || BC</b> આપેલ છે.
                         </div>
 
@@ -8975,7 +8974,7 @@ var njMathsExercise = {
                         <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
                             <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
                             <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
-                                <b>1.</b> આપેલ છે કે $\\Delta$ABC માં <b>DE || BC</b>.<br>
+                                <b>1.</b> આપેલ છે કે &Delta;ABC માં <b>DE || BC</b>.<br>
                                 તેથી થેલ્સના પ્રમેય મુજબ:<br>
                                 <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
                                 
@@ -9002,7 +9001,7 @@ var njMathsExercise = {
                     <div style='background-color:#ffffff; padding:10px;'>
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
-                            $\\Delta$ABC માં બિંદુ <b>D</b> એ AB નું મધ્યબિંદુ છે (AD = DB).<br>
+                            &Delta;ABC માં બિંદુ <b>D</b> એ AB નું મધ્યબિંદુ છે (AD = DB).<br>
                             અને બિંદુ <b>E</b> એ AC નું મધ્યબિંદુ છે (AE = EC).
                         </div>
 
@@ -9034,6 +9033,9 @@ var njMathsExercise = {
                     </div>
                     `
                 },
+            
+        
+                
                         
         
                 { 
