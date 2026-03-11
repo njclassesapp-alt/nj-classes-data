@@ -10575,9 +10575,163 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 5: એક વર્ગખંડમાં ચાર મિત્રો આકૃતિમાં દર્શાવેલ બિંદુઓ A, B, C અને D દ્વારા દર્શાવેલ સ્થાન પર બેઠા છે. ચંપા અને ચમેલી વર્ગમાં આવે છે. ચંપા ચમેલીને પૂછે છે કે, 'શું તું એવું માને છે કે ABCD ચોરસ છે?' ચમેલી અસહમત થાય છે. અંતર સૂત્રનો ઉપયોગ કરી કોણ સાચું છે તે શોધો.", 
+                    question_desc: "2025 ની બોર્ડ પરીક્ષા માટે 3 અથવા 4 માર્ક્સનો સૌથી મોસ્ટ IMP ચોરસ ચેક કરવાનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 3 કે 4 માર્ક્સ માટે ચોરસ સાબિત કરવાનો સૌથી ફેવરિટ દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ચોરસ સાબિત કરવાની માસ્ટર ટ્રીક:</b><br>
+                            કોઈપણ ચતુષ્કોણને ચોરસ સાબિત કરવા માટે આપણે <b>કુલ 6 અંતર</b> શોધવા પડે!<br>
+                            1. ચારેય બાજુઓ સમાન હોવી જોઈએ <b>(AB = BC = CD = DA)</b><br>
+                            2. બંને વિકર્ણો પણ સમાન હોવા જોઈએ <b>(AC = BD)</b><br>
+                            જો આ બે શરતો પળાય, તો જ તે ચોરસ કહેવાય!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આલેખ પરથી બિંદુઓના યામ (Coordinates) લખવા</b><br>
+                            (પાઠ્યપુસ્તકની આકૃતિ જોતાં આપણને નીચે મુજબના યામ મળશે):<br>
+                            <b>A(3, 4), B(6, 7), C(9, 4), અને D(6, 1)</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ચારેય બાજુઓ શોધવી (અંતર સૂત્રથી)</b><br>
+                            
+                            <div style='margin-top:10px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>(1) AB ની ગણતરી:</b> A(3, 4) અને B(6, 7)<br>
+                                AB<sup>2</sup> = (6 - 3)<sup>2</sup> + (7 - 4)<sup>2</sup><br>
+                                AB<sup>2</sup> = (3)<sup>2</sup> + (3)<sup>2</sup> = 9 + 9 = 18<br>
+                                <b>AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>(2) BC ની ગણતરી:</b> B(6, 7) અને C(9, 4)<br>
+                                BC<sup>2</sup> = (9 - 6)<sup>2</sup> + (4 - 7)<sup>2</sup><br>
+                                BC<sup>2</sup> = (3)<sup>2</sup> + (-3)<sup>2</sup> = 9 + 9 = 18<br>
+                                <b>BC = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>(3) CD ની ગણતરી:</b> C(9, 4) અને D(6, 1)<br>
+                                CD<sup>2</sup> = (6 - 9)<sup>2</sup> + (1 - 4)<sup>2</sup><br>
+                                CD<sup>2</sup> = (-3)<sup>2</sup> + (-3)<sup>2</sup> = 9 + 9 = 18<br>
+                                <b>CD = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f3e8ff; padding:10px; border-radius:5px;'>
+                                <b>(4) DA ની ગણતરી:</b> D(6, 1) અને A(3, 4)<br>
+                                DA<sup>2</sup> = (3 - 6)<sup>2</sup> + (4 - 1)<sup>2</sup><br>
+                                DA<sup>2</sup> = (-3)<sup>2</sup> + (3)<sup>2</sup> = 9 + 9 = 18<br>
+                                <b>DA = <span style='white-space:nowrap;'>&radic;<span style='border-top:2px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બંને વિકર્ણો (Diagonals) શોધવા</b><br>
+                            
+                            <div style='margin-top:10px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>(1) વિકર્ણ AC ની ગણતરી:</b> A(3, 4) અને C(9, 4)<br>
+                                AC<sup>2</sup> = (9 - 3)<sup>2</sup> + (4 - 4)<sup>2</sup><br>
+                                AC<sup>2</sup> = (6)<sup>2</sup> + (0)<sup>2</sup> = 36 + 0 = 36<br>
+                                AC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;36&nbsp;</span></span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#dc2626;'>AC = 6</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>(2) વિકર્ણ BD ની ગણતરી:</b> B(6, 7) અને D(6, 1)<br>
+                                BD<sup>2</sup> = (6 - 6)<sup>2</sup> + (1 - 7)<sup>2</sup><br>
+                                BD<sup>2</sup> = (0)<sup>2</sup> + (-6)<sup>2</sup> = 0 + 36 = 36<br>
+                                BD = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;36&nbsp;</span></span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#1d4ed8;'>BD = 6</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 4: અંતિમ નિર્ણય</b><br>
+                            અહીં, ચારેય બાજુઓ સમાન છે <b>(AB = BC = CD = DA = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;18&nbsp;</span></span>)</b>.<br>
+                            અને બંને વિકર્ણો પણ સમાન છે <b>(AC = BD = 6)</b>.<br>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> શરતોનું પાલન થતું હોવાથી <b>ABCD ચોરસ છે.</b> તેથી <b>ચંપાની વાત સાચી છે!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.1 પ્રશ્ન 6(i): નીચે દર્શાવેલા બિંદુઓથી જો ચતુષ્કોણ રચાતો હોય, તો તેનો પ્રકાર જણાવો: (-1, -2), (1, 0), (-1, 2), (-3, 0)", 
+                    question_desc: "2026 બોર્ડ માટે 3 માર્ક્સમાં પૂછાઈ શકે તેવો ચતુષ્કોણનો પ્રકાર નક્કી કરવાનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 કન્સેપ્ટ (ઉપરના પ્રશ્ન 5 જેવો જ છે):</b><br>
+                            ધારો કે બિંદુઓ <b>A(-1, -2), B(1, 0), C(-1, 2) અને D(-3, 0)</b> છે. <br>
+                            અહીં પણ આપણે 4 બાજુ અને 2 વિકર્ણ એમ કુલ 6 ગણતરીઓ કરવી પડશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ચારેય બાજુઓની ગણતરી</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>(1) AB:</b> AB<sup>2</sup> = (1 - (-1))<sup>2</sup> + (0 - (-2))<sup>2</sup><br>
+                                AB<sup>2</sup> = (1 + 1)<sup>2</sup> + (0 + 2)<sup>2</sup> = (2)<sup>2</sup> + (2)<sup>2</sup> = 4 + 4 = 8<br>
+                                <b>AB = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;8&nbsp;</span></span></b> <span style='color:#047857; font-size:14px;'>(અથવા 2<span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span>)</span>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>(2) BC:</b> BC<sup>2</sup> = (-1 - 1)<sup>2</sup> + (2 - 0)<sup>2</sup><br>
+                                BC<sup>2</sup> = (-2)<sup>2</sup> + (2)<sup>2</sup> = 4 + 4 = 8<br>
+                                <b>BC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;8&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>(3) CD:</b> CD<sup>2</sup> = (-3 - (-1))<sup>2</sup> + (0 - 2)<sup>2</sup><br>
+                                CD<sup>2</sup> = (-3 + 1)<sup>2</sup> + (-2)<sup>2</sup> = (-2)<sup>2</sup> + (-2)<sup>2</sup> = 4 + 4 = 8<br>
+                                <b>CD = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;8&nbsp;</span></span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#f3e8ff; padding:10px; border-radius:5px;'>
+                                <b>(4) DA:</b> DA<sup>2</sup> = (-1 - (-3))<sup>2</sup> + (-2 - 0)<sup>2</sup><br>
+                                DA<sup>2</sup> = (-1 + 3)<sup>2</sup> + (-2)<sup>2</sup> = (2)<sup>2</sup> + (-2)<sup>2</sup> = 4 + 4 = 8<br>
+                                <b>DA = <span style='white-space:nowrap;'>&radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;8&nbsp;</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વિકર્ણોની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.0; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>(1) AC:</b> AC<sup>2</sup> = (-1 - (-1))<sup>2</sup> + (2 - (-2))<sup>2</sup><br>
+                                AC<sup>2</sup> = (-1 + 1)<sup>2</sup> + (2 + 2)<sup>2</sup> = (0)<sup>2</sup> + (4)<sup>2</sup> = 0 + 16 = 16<br>
+                                AC = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;16&nbsp;</span></span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#dc2626;'>AC = 4</b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:10px; line-height:2.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>(2) BD:</b> BD<sup>2</sup> = (-3 - 1)<sup>2</sup> + (0 - 0)<sup>2</sup><br>
+                                BD<sup>2</sup> = (-4)<sup>2</sup> + (0)<sup>2</sup> = 16 + 0 = 16<br>
+                                BD = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;16&nbsp;</span></span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#1d4ed8;'>BD = 4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: અંતિમ નિર્ણય</b><br>
+                            અહીં, ચારેય બાજુઓ સમાન છે <b>(AB = BC = CD = DA = <span style='white-space:nowrap;'>&radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;8&nbsp;</span></span>)</b>.<br>
+                            અને બંને વિકર્ણો પણ સમાન છે <b>(AC = BD = 4)</b>.<br>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> આ શરતો પૂરી થતી હોવાથી, આપેલા બિંદુઓથી રચાતો ચતુષ્કોણ <b>ચોરસ (Square)</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
