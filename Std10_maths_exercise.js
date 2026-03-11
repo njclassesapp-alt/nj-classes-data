@@ -11052,9 +11052,189 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: વિભાજન સૂત્ર (Section Formula) અને મધ્યબિંદુ સૂત્ર શું છે?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>સ્વાધ્યાય 7.2 ના બધા જ દાખલા ગણવા માટે આ બે સૂત્રો મગજમાં ફિટ કરી લો!</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>1. વિભાજન સૂત્ર (Section Formula):</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>જો કોઈ બિંદુ P(x, y) એ રેખાખંડ AB નું <b>m<sub>1</sub> : m<sub>2</sub></b> ગુણોત્તરમાં વિભાજન કરતું હોય, તો તેના યામ શોધવા માટે:</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px; background-color:#eff6ff; padding:15px; border-radius:8px; text-align:center;'>
+                                <span style='font-size:20px; color:#1d4ed8; font-weight:bold;'>
+                                    P(x, y) = <span style='font-size:24px;'>(</span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'>
+                                        <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>m<sub>1</sub>x<sub>2</sub> + m<sub>2</sub>x<sub>1</sub></span>
+                                        <span>m<sub>1</sub> + m<sub>2</sub></span>
+                                    </span> , 
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'>
+                                        <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>m<sub>1</sub>y<sub>2</sub> + m<sub>2</sub>y<sub>1</sub></span>
+                                        <span>m<sub>1</sub> + m<sub>2</sub></span>
+                                    </span>
+                                    <span style='font-size:24px;'>)</span>
+                                </span>
+                            </div>
+                            <span style='color:#dc2626; font-size:13px; display:block; text-align:center; margin-top:8px;'><i>(યાદ રાખવાની ટ્રીક: ગુણોત્તર 1 હોય તો યામ 2 લેવાનો, અને ગુણોત્તર 2 હોય તો યામ 1 લેવાનો. છેદમાં બંનેનો સરવાળો!)</i></span>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:15px; border-radius:5px;'>
+                            <b style='color:#b45309; font-size:16px;'>2. મધ્યબિંદુ સૂત્ર (Midpoint Formula):</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>જ્યારે બિંદુ બરાબર <b>વચ્ચે (1:1 ના ગુણોત્તરમાં)</b> હોય, ત્યારે સીધી જ <b>સરેરાશ (Average)</b> કાઢી લેવાની!</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:15px; background-color:#ffedd5; padding:15px; border-radius:8px; text-align:center;'>
+                                <span style='font-size:20px; color:#ea580c; font-weight:bold;'>
+                                    M(x, y) = <span style='font-size:24px;'>(</span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'>
+                                        <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>x<sub>1</sub> + x<sub>2</sub></span>
+                                        <span>2</span>
+                                    </span> , 
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'>
+                                        <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>y<sub>1</sub> + y<sub>2</sub></span>
+                                        <span>2</span>
+                                    </span>
+                                    <span style='font-size:24px;'>)</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.2 પ્રશ્ન 1: બિંદુઓ (-1, 7) અને (4, -3) ને જોડતા રેખાખંડનું 2:3 ગુણોત્તરમાં વિભાજન કરતા બિંદુના યામ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સનો વિભાજન સૂત્રનો સૌથી બેઝિક અને IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="80" viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="40" y1="40" x2="240" y2="40" stroke="#0f172a" stroke-width="4"/>
+                                
+                                <circle cx="40" cy="40" r="5" fill="#dc2626"/>
+                                <circle cx="240" cy="40" r="5" fill="#dc2626"/>
+                                <circle cx="120" cy="40" r="5" fill="#1d4ed8"/> <text x="35" y="25" font-size="14" font-weight="bold">A</text>
+                                <text x="15" y="65" font-size="12" fill="#64748b">(-1, 7)</text>
+                                
+                                <text x="235" y="25" font-size="14" font-weight="bold">B</text>
+                                <text x="220" y="65" font-size="12" fill="#64748b">(4, -3)</text>
+                                
+                                <text x="115" y="25" font-size="14" font-weight="bold" fill="#1d4ed8">P(x,y)</text>
+                                
+                                <text x="75" y="32" font-size="14" font-weight="bold" fill="#ea580c">2</text>
+                                <text x="175" y="32" font-size="14" font-weight="bold" fill="#ea580c">3</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આપેલી માહિતી ગોઠવવી</b><br>
+                            ધારો કે માંગેલ બિંદુ <b>P(x, y)</b> છે, જે A(-1, 7) અને B(4, -3) નું વિભાજન કરે છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                x<sub>1</sub> = -1, &nbsp; y<sub>1</sub> = 7<br>
+                                x<sub>2</sub> = 4, &nbsp;&nbsp; y<sub>2</sub> = -3<br>
+                                ગુણોત્તર (m<sub>1</sub> : m<sub>2</sub>) = <b style='color:#ea580c;'>2 : 3</b><br>
+                                તેથી, m<sub>1</sub> = 2 અને m<sub>2</sub> = 3
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વિભાજન સૂત્રમાં કિંમત મૂકવી</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>x - યામની ગણતરી:</b><br><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>m<sub>1</sub>x<sub>2</sub> + m<sub>2</sub>x<sub>1</sub></span><span>m<sub>1</sub> + m<sub>2</sub></span></span><br><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2(4) + 3(-1)</span><span>2 + 3</span></span><br><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8 - 3</span><span>5</span></span><br><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>5</span></span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#dc2626; font-size:18px;'>x = 1</b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b style='color:#ea580c;'>y - યામની ગણતરી:</b><br><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>m<sub>1</sub>y<sub>2</sub> + m<sub>2</sub>y<sub>1</sub></span><span>m<sub>1</sub> + m<sub>2</sub></span></span><br><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2(-3) + 3(7)</span><span>2 + 3</span></span><br><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-6 + 21</span><span>5</span></span><br><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>5</span></span> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#dc2626; font-size:18px;'>y = 3</b>
+                            </div>
+
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ વિભાજન કરતા બિંદુના યામ <b>P(x, y) = <span style='color:#16a34a; font-size:18px;'>(1, 3)</span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 7.2 પ્રશ્ન 2: બિંદુઓ (4, -1) અને (-2, -3) ને જોડતા રેખાખંડના ત્રિભાજક બિંદુઓના યામ શોધો.", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સુપર ડુપર હિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 3 માર્ક્સ માટે 'ત્રિભાજક બિંદુઓ' વાળો સૌથી વારંવાર પૂછાતો પ્રખ્યાત દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="80" viewBox="0 0 280 80" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="30" y1="40" x2="250" y2="40" stroke="#0f172a" stroke-width="4"/>
+                                
+                                <circle cx="30" cy="40" r="5" fill="#dc2626"/> <circle cx="250" cy="40" r="5" fill="#dc2626"/> <circle cx="103" cy="40" r="5" fill="#1d4ed8"/> <circle cx="176" cy="40" r="5" fill="#16a34a"/> <text x="25" y="25" font-size="14" font-weight="bold">A</text>
+                                <text x="245" y="25" font-size="14" font-weight="bold">B</text>
+                                <text x="100" y="25" font-size="14" font-weight="bold" fill="#1d4ed8">P</text>
+                                <text x="170" y="25" font-size="14" font-weight="bold" fill="#16a34a">Q</text>
+                                
+                                <text x="60" y="65" font-size="12" fill="#64748b">ભાગ 1</text>
+                                <text x="135" y="65" font-size="12" fill="#64748b">ભાગ 1</text>
+                                <text x="205" y="65" font-size="12" fill="#64748b">ભાગ 1</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ત્રિભાજક (Trisection) ની માસ્ટર ટ્રીક:</b><br>
+                            ત્રિભાજક એટલે <b>3 સરખા કટકા</b>! 3 કટકા કરવા માટે વચ્ચે <b>2 બિંદુઓ (P અને Q)</b> મૂકવા પડે.<br>
+                            • બિંદુ <b>P</b> એ પહેલો કટકો પૂરો થતાં આવે છે, એટલે તેનો <b>ગુણોત્તર 1:2</b> થાય.<br>
+                            • બિંદુ <b>Q</b> એ બીજો કટકો પૂરો થતાં આવે છે, એટલે તેનો <b>ગુણોત્તર 2:1</b> થાય.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બિંદુ P ના યામ શોધવા (ગુણોત્તર 1:2)</b><br>
+                            અહીં A(4, -1) અને B(-2, -3) છે. m<sub>1</sub>=1 અને m<sub>2</sub>=2 લેતા:<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>P નો x-યામ:</b><br><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1(-2) + 2(4)</span><span>1 + 2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-2 + 8</span><span>3</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6</span><span>3</span></span> = <b style='color:#1d4ed8;'>2</b><br><br>
+                                
+                                <b>P નો y-યામ:</b><br><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1(-3) + 2(-1)</span><span>1 + 2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-3 - 2</span><span>3</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-5</span><span>3</span></span></b><br><br>
+                                <b>પહેલો જવાબ: બિંદુ P ના યામ <span style='color:#dc2626;'>(2, -5/3)</span> મળ્યા.</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બિંદુ Q ના યામ શોધવા (ગુણોત્તર 2:1)</b><br>
+                            અહીં A(4, -1) અને B(-2, -3) છે. m<sub>1</sub>=2 અને m<sub>2</sub>=1 લેતા:<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>Q નો x-યામ:</b><br><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2(-2) + 1(4)</span><span>2 + 1</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-4 + 4</span><span>3</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0</span><span>3</span></span> = <b style='color:#ea580c;'>0</b><br><br>
+                                
+                                <b>Q નો y-યામ:</b><br><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2(-3) + 1(-1)</span><span>2 + 1</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-6 - 1</span><span>3</span></span> = <b style='color:#ea580c;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-7</span><span>3</span></span></b><br><br>
+                                <b>બીજો જવાબ: બિંદુ Q ના યામ <span style='color:#dc2626;'>(0, -7/3)</span> મળ્યા.</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ ત્રિભાજક બિંદુઓના યામ <b><span style='color:#be123c;'>(2, -5/3)</span></b> અને <b><span style='color:#1d4ed8;'>(0, -7/3)</span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
