@@ -7911,9 +7911,138 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 13: 8 ના પ્રથમ 15 ગુણિતોનો સરવાળો શોધો.", 
+                    question_desc: "2 માર્ક્સ માટે બોર્ડનો સૌથી સહેલો અને ફેવરિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 શ્રેણી બનાવવાની ટ્રીક:</b><br>
+                            8 ના ગુણિતો એટલે બીજું કાંઈ નહિ, <b>8 નો ઘડિયો!</b><br>
+                            શ્રેણી બનશે: <b>8, 16, 24, ...</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને n લખવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = <b style='color:#1d4ed8;'>8</b><br>
+                                <b>d</b> = 16 - 8 = <b style='color:#dc2626;'>8</b><br>
+                                <b>n</b> = <b style='color:#16a34a;'>15</b> <span style='color:#047857; font-size:14px;'><i>(પ્રથમ 15 ગુણિત કહ્યા છે)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરવાળો (S<sub>15</sub>) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 2(8) + (15 - 1)(8) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 16 + (14)(8) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(14 &times; 8 = 112)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 16 + 112 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>2</span></span> [ 128 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(128 ને 2 વડે ભાગીએ તો 64 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = 15 &times; 64<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>15</sub></i> = 960</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 8 ના પ્રથમ 15 ગુણિતોનો સરવાળો <b style='color:#be123c;'>960</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 14: 0 અને 50 વચ્ચેના અયુગ્મ (એકી) ધન પૂર્ણાંકોનો સરવાળો શોધો.", 
+                    question_desc: "બોર્ડમાં હેતુલક્ષી અને 2 માર્ક્સ બંને માટે મોસ્ટ IMP (1 સેકન્ડની ટ્રીક સાથે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 1 સેકન્ડવાળી માસ્ટર ટ્રીક (માત્ર MCQ માટે):</b><br>
+                            કોઈપણ સળંગ પ્રથમ અયુગ્મ (એકી) સંખ્યાઓનો સરવાળો હંમેશા <b>n<sup>2</sup></b> જ થાય!<br>
+                            0 થી 50 ની વચ્ચે 25 એકી સંખ્યાઓ અને 25 બેકી સંખ્યાઓ આવેલી છે. એટલે કે <b>n = 25</b> છે.<br>
+                            તો આપણો સીધો જવાબ: <b>25 નો વર્ગ = 625!</b> (હવે આપણે તેને ગણતરીથી સાબિત કરીશું).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: શ્રેણી બનાવવી અને n શોધવો</b><br>
+                            0 અને 50 વચ્ચેની એકી સંખ્યાઓની શ્રેણી: <b>1, 3, 5, ..., 49</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = <b style='color:#1d4ed8;'>1</b><br>
+                                <b>d</b> = 3 - 1 = <b style='color:#dc2626;'>2</b><br>
+                                <b>અંતિમ પદ a<sub>n</sub> (અથવા l)</b> = <b style='color:#16a34a;'>49</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(પહેલા a<sub>n</sub> ના સૂત્રથી n શોધીએ)</i></span><br>
+                                a<sub>n</sub> = a + (n - 1)d<br>
+                                49 = 1 + (n - 1)(2)<br>
+                                49 - 1 = (n - 1)(2)<br>
+                                48 = (n - 1)(2)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>48</span><span>2</span></span> = n - 1<br>
+                                24 = n - 1<br>
+                                24 + 1 = n &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>n = 25</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરવાળો (S<sub>25</sub>) શોધવો (શોર્ટકટ સૂત્ર)</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(અહીં છેલ્લું પદ l = 49 ખબર છે, એટલે સીધું નાનું સૂત્ર વાપરીશું)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>25</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25</span><span>2</span></span> [ 1 + 49 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>25</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25</span><span>2</span></span> [ 50 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(50 ને 2 વડે ભાગીએ તો 25 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>25</sub></i> = 25 &times; 25<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>25</sub></i> = 625</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 0 અને 50 વચ્ચેના અયુગ્મ પૂર્ણાંકોનો સરવાળો <b style='color:#be123c;'>625</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 15: નિર્માણ કામ માટેના કરારમાં વિલંબથી પૂરું થતા કામ માટે દંડ છે: પ્રથમ દિવસ માટે ₹200, બીજા માટે ₹250... જો 30 દિવસનો વિલંબ થાય તો કેટલો દંડ ભરવો પડે?", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમાંતર શ્રેણી બનાવવી</b><br>
+                            અહીં દરરોજ દંડની રકમ ₹50 વધતી જાય છે. શ્રેણી બનશે: <b>200, 250, 300, ...</b><br>
+                            આપણે 30 દિવસનો <b>કુલ દંડ (સરવાળો)</b> શોધવાનો છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a)</b> = <b style='color:#1d4ed8;'>200</b><br>
+                                <b>તફાવત (d)</b> = 250 - 200 = <b style='color:#dc2626;'>50</b><br>
+                                <b>પદોની સંખ્યા (n)</b> = <b style='color:#16a34a;'>30</b> <span style='color:#047857; font-size:14px;'><i>(કારણ કે 30 દિવસ છે)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 30 પદોનો સરવાળો (S<sub>30</sub>) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>30</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30</span><span>2</span></span> [ 2(200) + (30 - 1)(50) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(30 ને 2 વડે ભાગતા 15 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>30</sub></i> = 15 [ 400 + (29)(50) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(29 &times; 5 = 145 થાય, પાછળ એક મીંડું લગાવતા 1450 મળે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>30</sub></i> = 15 [ 400 + 1450 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>30</sub></i> = 15 [ 1850 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(1850 &times; 15 નો ગુણાકાર)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>30</sub></i> = 27750</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 30 દિવસના વિલંબ માટે કોન્ટ્રાક્ટરે કુલ <b style='color:#be123c;'>₹ 27,750</b> દંડ ભરવો પડશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
                                                          
                     
