@@ -8933,31 +8933,107 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 7: પ્રમેય 6.1 (થેલ્સના પ્રમેય) નો ઉપયોગ કરીને સાબિત કરો કે ત્રિકોણની એક બાજુના મધ્યબિંદુમાંથી પસાર થતી અને બીજી બાજુને સમાંતર રેખા ત્રીજી બાજુને દુભાગે છે.", 
+                    question_desc: "2024 ની બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="180" viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="110,20 30,150 190,150" fill="#f0fdf4" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="70" y1="85" x2="150" y2="85" stroke="#dc2626" stroke-width="3"/>
+                                <line x1="60" y1="55" x2="80" y2="50" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="40" y1="120" x2="60" y2="115" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="105" y="15" font-size="16" font-weight="bold">A</text>
+                                <text x="15" y="160" font-size="16" font-weight="bold">B</text>
+                                <text x="195" y="160" font-size="16" font-weight="bold">C</text>
+                                <text x="50" y="80" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+                                <text x="155" y="80" font-size="16" font-weight="bold" fill="#dc2626">E</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            $\\Delta$ABC માં બિંદુ D એ AB નું <b>મધ્યબિંદુ</b> છે (તેથી AD = DB).<br>
+                            અને રેખા <b>DE || BC</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે રેખા DE એ બાજુ AC ને દુભાગે છે.<br>
+                            એટલે કે <b>E એ AC નું મધ્યબિંદુ છે (AE = EC)</b>.
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1.</b> આપેલ છે કે $\\Delta$ABC માં <b>DE || BC</b>.<br>
+                                તેથી થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2.</b> પરંતુ પક્ષ મુજબ D એ AB નું મધ્યબિંદુ છે. એટલે કે <b>AD = DB</b> છે.<br>
+                                તેથી જો AD અને DB સરખા હોય, તો તેમનો ભાગાકાર 1 થાય:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = 1<br><br>
+                                
+                                <b>3.</b> આ કિંમત સમીકરણ 1 માં મૂકતાં:<br>
+                                1 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(EC સામે ગુણાકારમાં જશે)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>EC = AE</b> (અથવા AE = EC)<br><br>
+                                
+                                <b>નિષ્કર્ષ:</b> AE અને EC સરખા હોવાથી સાબિત થાય છે કે <b>E એ AC નું મધ્યબિંદુ છે!</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે.</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 8: પ્રમેય 6.2 (થેલ્સના પ્રતિપ પ્રમેય) નો ઉપયોગ કરી સાબિત કરો કે ત્રિકોણની બે બાજુઓના મધ્યબિંદુઓને જોડતી રેખા ત્રીજી બાજુને સમાંતર છે.", 
+                    question_desc: "પ્રશ્ન 7 નો ઊંધો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            $\\Delta$ABC માં બિંદુ <b>D</b> એ AB નું મધ્યબિંદુ છે (AD = DB).<br>
+                            અને બિંદુ <b>E</b> એ AC નું મધ્યબિંદુ છે (AE = EC).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે <b>DE || BC</b>.
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1. ડાબી બાજુ માટે:</b><br>
+                                D એ AB નું મધ્યબિંદુ હોવાથી: AD = DB.<br>
+                                તેથી, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <b style='color:#1d4ed8;'>1</b> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2. જમણી બાજુ માટે:</b><br>
+                                E એ AC નું મધ્યબિંદુ હોવાથી: AE = EC.<br>
+                                તેથી, <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span> = <b style='color:#1d4ed8;'>1</b> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
+                                
+                                <b>3. સરખામણી:</b><br>
+                                સમીકરણ 1 અને 2 પરથી જોઈ શકાય છે કે બંનેનો ગુણોત્તર '1' આવે છે.<br>
+                                તેથી, <b style='color:#dc2626; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>DB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>EC</span></span></b><br><br>
+                                
+                                <b>નિષ્કર્ષ:</b> ગુણોત્તર સમાન હોવાથી <b>થેલ્સના પ્રતિપ પ્રમેય મુજબ</b> સાબિત થાય છે કે:<br>
+                                <b style='color:#16a34a; font-size:20px;'>DE || BC</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે.</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
                 
             
-        
-                
-                
-            
-        
-                
-            
-        
-                
-            
-        
-    
-        
-                
-            
-        
-                
-            
-        
-                
+                 
                                                          
                     
 };
