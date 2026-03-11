@@ -9897,9 +9897,149 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 12: &Delta;ABC ની બાજુઓ AB, BC અને મધ્યગા AD એ &Delta;PQR ની અનુરૂપ બાજુઓ PQ, QR અને મધ્યગા PM ના સમપ્રમાણમાં છે. સાબિત કરો કે &Delta;ABC &sim; &Delta;PQR.", 
+                    question_desc: "2024 બોર્ડમાં 3 માર્ક્સ માટે પૂછાયેલો મધ્યગા (Median) નો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 માં 3 માર્ક્સ માટે પૂછાઈ ગયેલો મધ્યગાનો દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="70,20 20,120 120,120" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="70" y1="20" x2="70" y2="120" stroke="#dc2626" stroke-width="2"/>
+                                <text x="65" y="15" font-size="14" font-weight="bold">A</text>
+                                <text x="5" y="135" font-size="14" font-weight="bold">B</text>
+                                <text x="125" y="135" font-size="14" font-weight="bold">C</text>
+                                <text x="65" y="135" font-size="14" font-weight="bold" fill="#dc2626">D</text>
+
+                                <polygon points="220,20 170,120 270,120" fill="#fff7ed" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="220" y1="20" x2="220" y2="120" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="215" y="15" font-size="14" font-weight="bold">P</text>
+                                <text x="155" y="135" font-size="14" font-weight="bold">Q</text>
+                                <text x="275" y="135" font-size="14" font-weight="bold">R</text>
+                                <text x="215" y="135" font-size="14" font-weight="bold" fill="#1d4ed8">M</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 મધ્યગાની દેશી ટ્રીક:</b><br>
+                            મધ્યગા એટલે એવી લાઈન જે સામેની <b>બાજુના બરાબર બે અડધા કટકા</b> કરી નાખે!<br>
+                            આપણી પાસે આખી બાજુનો ગુણોત્તર (BC / QR) છે, તો તેના અડધા કટકા (BD / QM) નો ગુણોત્તર પણ સમાન જ થાય! આનાથી નાના ત્રિકોણ સમરૂપ થઈ જશે, અને પછી &ang;B = &ang;Q મળી જશે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            &Delta;ABC અને &Delta;PQR માં અનુક્રમે AD અને PM મધ્યગાઓ છે. <br>
+                            તથા બાજુઓનો ગુણોત્તર સમાન છે: <br>
+                            <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>PM</span></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>&Delta;ABC &sim; &Delta;PQR</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>1. મધ્યગાના કારણે અડધા ભાગ:</b><br>
+                                AD મધ્યગા હોવાથી <b>BD = BC / 2</b> થાય.<br>
+                                PM મધ્યગા હોવાથી <b>QM = QR / 2</b> થાય.<br><br>
+                                
+                                <b>2. પક્ષમાં આપેલ ગુણોત્તરનો ઉપયોગ:</b><br>
+                                પક્ષમાં છે: <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>PM</span></span><br>
+                                જો BC અને QR ને ઉપર-નીચે 2 વડે ભાગીએ (અડધા કરીએ), તો સમીકરણ આવું બને:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BD</span><span>QM</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AD</span><span>PM</span></span><br><br>
+                                
+                                <b>3. નાના ત્રિકોણ સમરૂપ થયા:</b><br>
+                                ઉપરના ગુણોત્તર પરથી બા-બા-બા (SSS) શરત મુજબ નાના ત્રિકોણો સમરૂપ સાબિત થાય છે:<br>
+                                <b style='color:#dc2626;'>&Delta;ABD &sim; &Delta;PQM</b><br>
+                                તેથી તેમના અનુરૂપ ખૂણાઓ સમાન થાય: <b style='color:#1d4ed8;'>&ang;B = &ang;Q</b> &nbsp;&nbsp; <b>... (પરિણામ 1)</b><br><br>
+                                
+                                <b>4. અંતિમ સાબિતી (મોટા ત્રિકોણ માટે):</b><br>
+                                હવે મોટા ત્રિકોણો &Delta;ABC અને &Delta;PQR માં:<br>
+                                • <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>PQ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>QR</span></span> <span style='color:#047857; font-size:14px;'><i>(પક્ષમાં આપેલ છે)</i></span><br>
+                                • &ang;B = &ang;Q <span style='color:#047857; font-size:14px;'><i>(પરિણામ 1 મુજબ આપણે શોધ્યું)</i></span><br>
+                                તેથી <b>બા-ખુ-બા (SAS)</b> શરત મુજબ મોટા ત્રિકોણો સમરૂપ સાબિત થાય છે:<br>
+                                <b style='color:#16a34a; font-size:20px;'>&Delta;ABC &sim; &Delta;PQR</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે.</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 13: &Delta;ABC ની બાજુ BC પર બિંદુ D એવું છે કે જેથી &ang;ADC = &ang;BAC થાય. સાબિત કરો કે CA&sup2; = CB &times; CD.", 
+                    question_desc: "2026 ની બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સૌથી નાનો અને ટ્રીકી દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="150" viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="100,20 20,120 200,120" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="100" y1="20" x2="140" y2="120" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <path d="M 85 45 A 25 25 0 0 0 115 50" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                <path d="M 130 95 A 20 20 0 0 1 155 120" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                
+                                <text x="95" y="15" font-size="16" font-weight="bold">A</text>
+                                <text x="5" y="135" font-size="16" font-weight="bold">B</text>
+                                <text x="205" y="135" font-size="16" font-weight="bold">C</text>
+                                <text x="135" y="140" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            અહીં આપણે બે ત્રિકોણ લેવાના છે: એક <b>આખો મોટો ત્રિકોણ &Delta;ABC</b> અને એક <b>જમણી બાજુનો નાનો ત્રિકોણ &Delta;ADC</b>. <br>
+                            આ બંનેમાં <b>&ang;C એ સામાન્ય ખૂણો</b> છે (બંનેમાં આવે છે). અને એક-એક ખૂણો પક્ષમાં સરખો આપ્યો જ છે. તેથી ખુ-ખુ શરતથી દાખલો માત્ર 3 સ્ટેપમાં પૂરો થઈ જશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            &Delta;ABC ની બાજુ BC પર બિંદુ D છે અને <b>&ang;ADC = &ang;BAC</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>CA&sup2; = CB &times; CD</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>નાના ત્રિકોણ &Delta;ADC અને મોટા ત્રિકોણ &Delta;BAC માં સરખામણી:</b><br>
+                                <span style='color:#047857; font-size:13px;'><i>(નામ લખતી વખતે ધ્યાન રાખવું: D ની સામે A આવશે અને C ની સામે C જ આવશે)</i></span><br><br>
+                                
+                                <b>1.</b> &ang;ADC = &ang;BAC <span style='color:#047857; font-size:14px;'><i>(પક્ષમાં આપેલ છે)</i></span><br>
+                                <b>2.</b> &ang;C = &ang;C <span style='color:#047857; font-size:14px;'><i>(બંને ત્રિકોણમાં આવતો <b>સામાન્ય ખૂણો</b>)</i></span><br><br>
+                                
+                                બે ખૂણાઓ સમાન હોવાથી <b>ખુ-ખુ (AA) સમરૂપતાની શરત</b> મુજબ:<br>
+                                <b style='color:#dc2626;'>&Delta;ADC &sim; &Delta;BAC</b><br><br>
+                                
+                                હવે જો ત્રિકોણો સમરૂપ હોય, તો તેમની બાજુઓ સમપ્રમાણમાં હોય:<br>
+                                <i>(CA વાળી બાજુઓ જ લઈએ જેથી CA&sup2; બને)</i><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>CD</span><span>CA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>CA</span><span>CB</span></span><br><br>
+                                
+                                હવે ચોકડી ગુણાકાર કરતા (Cross Multiplication):<br>
+                                CA &times; CA = CB &times; CD<br>
+                                <b style='color:#16a34a; font-size:20px;'>CA&sup2; = CB &times; CD</b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
