@@ -8285,9 +8285,138 @@ var njMathsExercise = {
                     `
                 }
             ]
-        }
+        },
                 
-            
+              
+        // ------------------------------------
+        // પ્રકરણ 6: ત્રિકોણ (સ્વાધ્યાય 6.1)
+        // ------------------------------------
+        "6": {
+            "chapterName": "પ્રકરણ 6",
+            "chapterTitle": "સમરૂપ આકૃતિઓનો પાયો અને સ્વાધ્યાય 6.1 સંપૂર્ણ",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: સમરૂપ (Similar) અને એકરૂપ (Congruent) વચ્ચે શું તફાવત છે?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા પ્રકરણનો પાયો આ બે શબ્દોમાં છુપાયેલો છે:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#1d4ed8; font-size:16px;'>1. એકરૂપ (Congruent) આકૃતિઓ: "જોડિયા ભાઈઓ" 👯‍♂️</b><br>
+                            <ul style='color:#0f172a; margin-top:5px;'>
+                                <li>જેમનો <b>આકાર (Shape)</b> અને <b>કદ (Size)</b> બંને બિલકુલ સરખા હોય!</li>
+                                <li>એક આકૃતિને બીજી પર મૂકો તો તે પૂરેપૂરી ઢંકાઈ જાય.</li>
+                            </ul>
+                            <div style='display:flex; justify-content:center; gap:20px; align-items:center; margin-top:10px;'>
+                                <div style='width:50px; height:50px; background-color:#bfdbfe; border:2px solid #1d4ed8;'></div>
+                                <b style='color:#1d4ed8; font-size:20px;'>&#8773;</b>
+                                <div style='width:50px; height:50px; background-color:#bfdbfe; border:2px solid #1d4ed8;'></div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px;'>
+                            <b style='color:#be123c; font-size:16px;'>2. સમરૂપ (Similar) આકૃતિઓ: "પિતા અને પુત્ર" 👨‍👦</b><br>
+                            <ul style='color:#0f172a; margin-top:5px;'>
+                                <li>જેમનો <b>આકાર (Shape) સરખો હોય</b>, પણ કદ (Size) નાનું-મોટું હોઈ શકે! (જેમ કે મોબાઈલમાં ફોટો Zoom In કે Zoom Out કરીએ).</li>
+                                <li><b>શરત:</b> અનુરૂપ ખૂણા સમાન હોય અને બાજુઓનો ગુણોત્તર (પ્રમાણ) સરખો હોય.</li>
+                            </ul>
+                            <div style='display:flex; justify-content:center; gap:20px; align-items:flex-end; margin-top:10px;'>
+                                <div style='width:30px; height:30px; background-color:#fecdd3; border:2px solid #be123c;'></div>
+                                <b style='color:#be123c; font-size:20px;'>&#8764;</b>
+                                <div style='width:60px; height:60px; background-color:#fecdd3; border:2px solid #be123c;'></div>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 6.1 પ્રશ્ન 1: કૌંસમાં આપેલા શબ્દો પૈકી સાચા શબ્દનો ઉપયોગ કરી ખાલી જગ્યા પૂરો.", 
+                    question_desc: "બોર્ડ પરીક્ષામાં MCQ અને ખાલી જગ્યા માટે મોસ્ટ IMP કન્સેપ્ટ",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <ul style='line-height:2.5; font-size:16px; color:#0f172a; margin:0;'>
+                                <li><b>(i)</b> બધા જ વર્તુળો <b style='color:#1d4ed8; background-color:#e0f2fe; padding:2px 8px; border-radius:4px;'>સમરૂપ</b> છે. <span style='font-size:14px; color:#64748b;'>(એકરૂપ, સમરૂપ)</span></li>
+                                
+                                <li><b>(ii)</b> બધા જ ચોરસ <b style='color:#1d4ed8; background-color:#e0f2fe; padding:2px 8px; border-radius:4px;'>સમરૂપ</b> છે. <span style='font-size:14px; color:#64748b;'>(સમરૂપ, એકરૂપ)</span></li>
+                                
+                                <li><b>(iii)</b> બધા જ <b style='color:#be123c; background-color:#fee2e2; padding:2px 8px; border-radius:4px;'>સમબાજુ</b> ત્રિકોણો સમરૂપ છે. <span style='font-size:14px; color:#64748b;'>(સમદ્વિબાજુ, સમબાજુ)</span></li>
+                                
+                                <li><b>(iv)</b> જો બે બહુકોણના અનુરૂપ ખૂણાઓ <b>(a) <span style='color:#ea580c; border-bottom:2px solid #ea580c;'>સમાન</span></b> હોય અને તેમની અનુરૂપ બાજુઓ <b>(b) <span style='color:#ea580c; border-bottom:2px solid #ea580c;'>સમપ્રમાણમાં</span></b> હોય, તો સમાન સંખ્યાની બાજુવાળા બે બહુકોણો સમરૂપ છે. <span style='font-size:14px; color:#64748b;'>(સમાન, સમપ્રમાણમાં)</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 6.1 પ્રશ્ન 2: નીચેની જોડીઓના બે જુદા-જુદા ઉદાહરણ આપો: (i) સમરૂપ આકૃતિઓ (ii) સમરૂપ ન હોય તેવી આકૃતિઓ.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'> (i) સમરૂપ આકૃતિઓના ઉદાહરણ:</b><br>
+                            <ul style='color:#0f172a; margin-top:5px; line-height:1.8;'>
+                                <li>કોઈપણ બે <b>વર્તુળ</b> (ભલે તેમની ત્રિજ્યા અલગ અલગ હોય).</li>
+                                <li>કોઈપણ બે <b>સમબાજુ ત્રિકોણ</b>.</li>
+                            </ul>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'> (ii) સમરૂપ ન હોય તેવી આકૃતિઓના ઉદાહરણ:</b><br>
+                            <ul style='color:#0f172a; margin-top:5px; line-height:1.8;'>
+                                <li>એક <b>ત્રિકોણ</b> અને એક <b>ચોરસ</b> (બંનેનો આકાર સાવ અલગ છે).</li>
+                                <li>એક <b>સમબાજુ ત્રિકોણ</b> અને એક <b>કાટકોણ ત્રિકોણ</b>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.1 પ્રશ્ન 3: નીચેના ચતુષ્કોણો સમરૂપ છે કે નહિ તે જણાવો.", 
+                    question_desc: "2 માર્ક્સ માટેનો આકૃતિ આધારિત તાર્કિક પ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='overflow-x:auto; white-space:nowrap; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #cbd5e1; text-align:center; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>આપેલ આકૃતિઓ:</b><br><br>
+                            
+                            <div style='display:inline-block; vertical-align:bottom; margin-right:40px; text-align:center;'>
+                                <div style='width:60px; height:60px; border:2px solid #dc2626; transform:skewX(-20deg); margin:0 auto; display:flex; align-items:center; justify-content:center; background-color:#fee2e2;'></div>
+                                <div style='margin-top:10px; font-size:14px; font-weight:bold; color:#b91c1c;'>ચતુષ્કોણ PQRS<br>સમબાજુ ચતુષ્કોણ<br>(બાજુ = 1.5 cm)</div>
+                            </div>
+                            
+                            <div style='display:inline-block; vertical-align:bottom; text-align:center;'>
+                                <div style='width:100px; height:100px; border:2px solid #1d4ed8; margin:0 auto; position:relative; background-color:#e0f2fe;'>
+                                    <div style='position:absolute; top:0; left:0; width:10px; height:10px; border-right:1px solid #1e3a8a; border-bottom:1px solid #1e3a8a;'></div>
+                                    <div style='position:absolute; top:0; right:0; width:10px; height:10px; border-left:1px solid #1e3a8a; border-bottom:1px solid #1e3a8a;'></div>
+                                    <div style='position:absolute; bottom:0; left:0; width:10px; height:10px; border-right:1px solid #1e3a8a; border-top:1px solid #1e3a8a;'></div>
+                                    <div style='position:absolute; bottom:0; right:0; width:10px; height:10px; border-left:1px solid #1e3a8a; border-top:1px solid #1e3a8a;'></div>
+                                </div>
+                                <div style='margin-top:10px; font-size:14px; font-weight:bold; color:#1e3a8a;'>ચતુષ્કોણ ABCD<br>ચોરસ<br>(બાજુ = 3 cm)</div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમરૂપતા ચેક કરવાની બે શરતો:</b><br>
+                            1. બધી બાજુઓ સમપ્રમાણમાં હોવી જોઈએ.<br>
+                            2. બધા અનુરૂપ ખૂણાઓ સમાન હોવા જોઈએ.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>તાર્કિક જવાબ અને કારણ:</b><br>
+                            <ul style='color:#0f172a; margin-top:5px; line-height:1.8;'>
+                                <li>અહીં બાજુઓનો ગુણોત્તર સરખો છે (1.5 / 3 = 1/2). <b>(પહેલી શરત પાસ)</b></li>
+                                <li>પરંતુ, <b>ખૂણાઓ સમાન નથી!</b> ચોરસ ABCD ના બધા ખૂણા કાટખૂણા (90&deg;) છે, જ્યારે સમબાજુ ચતુષ્કોણ PQRS ના ખૂણા 90&deg; ના નથી. <b>(બીજી શરત ફેલ!)</b></li>
+                            </ul>
+                            <div style='margin-top:10px; background-color:#fee2e2; padding:10px; border-radius:4px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:16px;'>અંતિમ જવાબ:</b> <br>
+                                ના, આપેલ ચતુષ્કોણો <b>સમરૂપ નથી.</b> કારણ કે તેમના અનુરૂપ ખૂણાઓ સમાન નથી.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        }
+    
         
                 
             
