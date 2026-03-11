@@ -7348,6 +7348,130 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 3(vii): સમાંતર શ્રેણીમાં a = 8, an = 62 અને Sn = 210 આપેલ હોય, તો n અને d શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: n શોધવો (સરવાળાના નાના સૂત્રથી)</b><br>
+                            અહીં પહેલું પદ (a) અને છેલ્લું પદ (a<sub>n</sub>) બંને આપેલા છે. તેથી આપણે સીધું જ નાનું (શોર્ટકટ) સૂત્ર વાપરીશું.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> ]<br>
+                                210 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 8 + 62 ]<br>
+                                210 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 70 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(70 ને 2 વડે ભાગતા 35 આવે)</i></span><br>
+                                210 = 35n<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(35 ભાગાકારમાં જશે)</i></span><br>
+                                n = 210 / 35 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>n = 6</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: d શોધવો (a<sub>n</sub> ના સૂત્રથી)</b><br>
+                            આપણને n = 6 મળી ગયો છે. હવે તેને a<sub>n</sub> ના સૂત્રમાં મૂકીએ:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                62 = 8 + (6 - 1)d<br>
+                                62 - 8 = 5d<br>
+                                54 = 5d<br>
+                                <b style='color:#be123c;'>d = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>54</span><span>5</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>n = 6</b> અને <b style='color:#be123c;'>d = 54/5</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 3(viii): an = 4, d = 2 અને Sn = -14 આપેલ હોય, તો n અને a શોધો.", 
+                    question_desc: "દ્વિઘાત સમીકરણ બનાવતો બોર્ડનો સુપર IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2024 ની બ્લુપ્રિન્ટ મુજબ 3 માર્ક્સમાં પૂછાવાની 100% શક્યતા!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a ની કિંમત માટે સમીકરણ બનાવવું</b><br>
+                            અહીં a<sub>n</sub> = 4 છે. તેના સૂત્રમાં d ની કિંમત મૂકીને આપણે 'a' ને કર્તા બનાવીશું.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                4 = a + (n - 1)(2)<br>
+                                4 = a + 2n - 2<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-2 ને ડાબી બાજુ લાવીએ એટલે 4 + 2 = 6 થશે)</i></span><br>
+                                6 = a + 2n<br>
+                                <b style='color:#1d4ed8;'>a = 6 - 2n</b> &nbsp;&nbsp;&nbsp; ...(સમીકરણ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: S<sub>n</sub> ના સૂત્રમાં 'a' ની કિંમત મૂકી દ્વિઘાત સમીકરણ બનાવવું</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(નાનું શોર્ટકટ સૂત્ર વાપરીએ કારણ કે છેલ્લું પદ a<sub>n</sub> = 4 ખબર છે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> ]<br>
+                                -14 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ (6 - 2n) + 4 ] &nbsp;&nbsp; <span style='color:#047857; font-size:14px;'><i>(અહીં a ની જગ્યાએ 6 - 2n મૂક્યું)</i></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(છેદનો 2 સામે -14 સાથે ગુણાકારમાં જશે)</i></span><br>
+                                -28 = n [ 10 - 2n ]<br>
+                                -28 = 10n - 2n<sup>2</sup><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(બધા પદોને ડાબી બાજુ લાવીએ જેથી 2n<sup>2</sup> પ્લસ થઈ જાય)</i></span><br>
+                                2n<sup>2</sup> - 10n - 28 = 0<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(સમીકરણને 2 વડે ભાગીને નાનું બનાવીએ)</i></span><br>
+                                <b style='color:#dc2626;'>n<sup>2</sup> - 5n - 14 = 0</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: અવયવ પાડી n અને a શોધવા</b><br>
+                            14 ના એવા ભાગ પાડો કે બાદબાકી 5 આવે! <b>(7 &times; 2 = 14)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                n<sup>2</sup> - 7n + 2n - 14 = 0<br>
+                                n(n - 7) + 2(n - 7) = 0<br>
+                                (n - 7)(n + 2) = 0<br><br>
+                                n - 7 = 0 &nbsp; <b>અથવા</b> &nbsp; n + 2 = 0<br>
+                                <b style='font-size:22px; color:#1d4ed8;'>n = 7</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>અથવા</b> &nbsp;&nbsp;&nbsp; n = -2 <i>(જે શક્ય નથી)</i>
+                            </div><br>
+                            <b>હવે a શોધવા માટે સમીકરણ 1 માં n = 7 મૂકીએ:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                a = 6 - 2n<br>
+                                a = 6 - 2(7)<br>
+                                a = 6 - 14 &nbsp;&#10551;&nbsp; <b style='color:#be123c;'>a = -8</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ <b style='color:#1d4ed8;'>n = 7</b> અને <b style='color:#be123c;'>a = -8</b> છે. (હતો ને જોરદાર દાખલો!)
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 3(ix): a = 3, n = 8 અને S = 192 આપેલ હોય, તો d શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરીના સ્ટેપ્સ:</b><br>
+                            અહીં S એટલે S<sub>n</sub> (સરવાળો) જ સમજવો. મોટું સૂત્ર વાપરીશું કારણ કે છેલ્લું પદ આપેલું નથી.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                192 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span>2</span></span> [ 2(3) + (8 - 1)d ]<br>
+                                192 = 4 [ 6 + 7d ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(4 ને સામે ભાગાકારમાં મોકલીએ)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>192</span><span>4</span></span> = 6 + 7d<br>
+                                48 = 6 + 7d<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(6 ડાબી બાજુ આવે એટલે માઇનસ થશે)</i></span><br>
+                                48 - 6 = 7d<br>
+                                42 = 7d<br>
+                                d = 42 / 7 &nbsp;&#10551;&nbsp; <b style='font-size:22px; color:#1d4ed8;'>d = 6</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> માંગેલ સામાન્ય તફાવત <b style='color:#1d4ed8;'>d = 6</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -7358,16 +7482,6 @@ var njMathsExercise = {
             
         
                 
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-                                        
+                                                  
                     
 };
