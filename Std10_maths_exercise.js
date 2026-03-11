@@ -6767,8 +6767,101 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 ગોલ્ડન માસ્ટર ચાવી: સમાંતર શ્રેણીના n પદોનો સરવાળો (Sn) શોધવાનાં 2 સૂત્રો",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>આખા સ્વાધ્યાય 5.3 માં માત્ર આ 2 જ સૂત્રોનો ખેલ છે. ક્યારે કયું વાપરવું તે બરાબર સમજી લો:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#1d4ed8; font-size:16px;'>1. મોટું સૂત્ર (જ્યારે છેલ્લું પદ ન આપ્યું હોય ત્યારે):</b><br>
+                            <div style='margin-top:10px; font-size:22px; color:#1d4ed8; background-color:#e0f2fe; padding:10px; border-radius:8px; text-align:center; font-family:"Times New Roman",serif; font-weight:bold;'>
+                                S<sub>n</sub> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2a + (n - 1)d ]
+                            </div>
+                        </div>
+
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px;'>
+                            <b style='color:#be123c; font-size:16px;'>2. શોર્ટકટ નાનું સૂત્ર (જ્યારે છેલ્લું પદ 'l' અથવા 'a<sub>n</sub>' આપેલું હોય ત્યારે જ વપરાય):</b><br>
+                            <div style='margin-top:10px; font-size:22px; color:#be123c; background-color:#fee2e2; padding:10px; border-radius:8px; text-align:center; font-family:"Times New Roman",serif; font-weight:bold;'>
+                                S<sub>n</sub> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 3px;'>n</span><span>2</span></span> [ a + l ]
+                            </div>
+                            <div style='margin-top:5px; font-size:14px; color:#0f172a; text-align:center;'><i>(અહીં <b style='color:#be123c;'>l</b> એટલે લાસ્ટ ટર્મ (Last term) અથવા અંતિમ પદ).</i></div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 5.3 પ્રશ્ન 1(i): સમાંતર શ્રેણી 2, 7, 12, ... ના 10 પદો સુધીનો સરવાળો શોધો.", 
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, d અને n નક્કી કરવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#1d4ed8;'>2</b><br>
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = 7 - 2 = <b style='color:#dc2626;'>5</b><br>
+                                <b>પદની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b style='color:#16a34a;'>10</b> <span style='color:#047857; font-size:14px;'><i>(કારણ કે 10 પદોનો સરવાળો પૂછ્યો છે)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: મોટા સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>2</span></span> [ 2(2) + (10 - 1)(5) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(10 નો 2 વડે ભાગાકાર: 5 આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 5 [ 4 + (9)(5) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 5 [ 4 + 45 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 5 [ 49 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(49 &times; 5 = 245)</i></span><br>
+                                <b style='font-size:22px; color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>S<sub>10</sub></i> = 245</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> આપેલ શ્રેણીના 10 પદોનો સરવાળો <b style='color:#1d4ed8;'>245</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 1(ii): સમાંતર શ્રેણી -37, -33, -29, ... ના 12 પદો સુધીનો સરવાળો શોધો.", 
+                    question_desc: "માઇનસ વાળી ગણતરીનો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: a, d અને n નક્કી કરવા</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(માઇનસની બાદબાકીમાં નિશાની ખાસ જોવી: માઇનસ માઇનસ પ્લસ થાય)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (<i style='font-family:"Times New Roman",serif;'>a</i>)</b> = <b style='color:#dc2626;'>-37</b><br>
+                                <b>તફાવત (<i style='font-family:"Times New Roman",serif;'>d</i>)</b> = -33 - (-37) = -33 + 37 = <b style='color:#1d4ed8;'>4</b><br>
+                                <b>પદની સંખ્યા (<i style='font-family:"Times New Roman",serif;'>n</i>)</b> = <b style='color:#16a34a;'>12</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્રમાં કિંમત મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>12</span><span>2</span></span> [ 2(-37) + (12 - 1)(4) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = 6 [ -74 + (11)(4) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = 6 [ -74 + 44 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(74 માંથી 44 જાય તો 30 વધે, પણ મોટી સંખ્યાની નિશાની માઇનસ આવે)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = 6 [ -30 ]<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = -180</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>જવાબ:</b> આપેલ શ્રેણીના 12 પદોનો સરવાળો <b style='color:#be123c;'>-180</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
-        }                                  
+        }
+                
+            
+                                        
                     
 };
