@@ -8037,9 +8037,148 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 16: કોઈ શાળામાં વિદ્યાર્થીઓના સમગ્ર શૈક્ષણિક પ્રદર્શન માટે અપાતા 7 ઇનામો માટે કુલ ₹ 700 ની જોગવાઈ છે. જો પ્રત્યેક ઇનામ આગળના ઇનામ કરતાં ₹ 20 ઓછું હોય, તો પ્રત્યેક ઇનામની રકમ શોધો.", 
+                    question_desc: "બોર્ડમાં 3 માર્ક્સ માટે પૂછાતો 'ઇનામ વિતરણ' નો સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 રકમ સમજવાની માસ્ટર ટ્રીક:</b><br>
+                            અહીં કુલ 7 ઇનામો છે એટલે <b>n = 7</b>.<br>
+                            બધા ઇનામોના કુલ રૂપિયા 700 છે, એટલે કે સરવાળો <b>S<sub>7</sub> = 700</b>.<br>
+                            ખાસ ધ્યાન આપો: દરેક ઇનામ આગળના કરતા ₹20 <b>ઓછું</b> છે! ઓછું છે એટલે તફાવત <b>માઇનસ</b>માં લેવો પડે. <b>d = -20</b>. (જો ભૂલથી d = +20 લીધો તો દાખલો ખોટો પડશે!)
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પ્રથમ ઇનામ (a) ની રકમ શોધવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ 2<i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i> ]<br>
+                                700 = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span> [ 2a + (7 - 1)(-20) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(7/2 ડાબી બાજુ આવશે એટલે ઉલટાઈને 2/7 થઈ જશે)</i></span><br>
+                                700 &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>7</span></span> = 2a + 6(-20)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(100 સત્તા 700 થાય, એટલે 100 &times; 2 = 200 વધશે)</i></span><br>
+                                200 = 2a - 120<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-120 ડાબી બાજુ આવે એટલે પ્લસ 120 થશે)</i></span><br>
+                                200 + 120 = 2a<br>
+                                320 = 2a<br>
+                                a = 320 / 2 &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>a = 160</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બાકીના ઇનામોની રકમ લખવી</b><br>
+                            પહેલું ઇનામ ₹160 નું છે. હવે તેમાંથી બસ ₹20-20 ઓછા કરતા જાવ!<br>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a; font-size:18px;'>
+                                <b style='color:#15803d;'>7 ઇનામોની રકમ:</b> <br>
+                                <b style='color:#1d4ed8;'>₹ 160, ₹ 140, ₹ 120, ₹ 100, ₹ 80, ₹ 60, ₹ 40</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 17: એક શાળામાં વિદ્યાર્થીઓ વાયુ પ્રદૂષણ ઓછું કરવા વૃક્ષ વાવવાનું વિચારે છે. ધોરણ 1 નો વર્ગ 1 વૃક્ષ, ધોરણ 2 નો વર્ગ 2 વૃક્ષ એમ ધોરણ 12 સુધી ચાલશે. દરેક ધોરણના 3 વિભાગ (Sections) છે. તો વિદ્યાર્થીઓ દ્વારા કેટલા વૃક્ષ વવાશે?", 
+                    question_desc: "વાર્તા જેવો લાંબો રકમવાળો પણ ગણતરીમાં સાવ સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 શ્રેણી બનાવવાની દેશી ટ્રીક:</b><br>
+                            અહીં મોટાભાગના વિદ્યાર્થીઓ 1, 2, 3... ની શ્રેણી બનાવી દે છે, જે ખોટું છે! <br>
+                            કારણ કે દરેક ધોરણના <b>3 વિભાગ (A, B, C)</b> છે.<br>
+                            • ધોરણ 1 ના 3 વિભાગ: 1 &times; 3 = <b>3 વૃક્ષ</b><br>
+                            • ધોરણ 2 ના 3 વિભાગ: 2 &times; 3 = <b>6 વૃક્ષ</b><br>
+                            • ધોરણ 12 ના 3 વિભાગ: 12 &times; 3 = <b>36 વૃક્ષ</b><br>
+                            તો આપણી સાચી શ્રેણી બનશે: <b>3, 6, 9, ... , 36</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: a, n અને l લખવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>પ્રથમ પદ (a)</b> = <b style='color:#1d4ed8;'>3</b><br>
+                                <b>અંતિમ પદ (l)</b> = <b style='color:#dc2626;'>36</b> <span style='color:#047857; font-size:14px;'><i>(ધોરણ 12 ના વૃક્ષો)</i></span><br>
+                                <b>પદોની સંખ્યા (n)</b> = <b style='color:#16a34a;'>12</b> <span style='color:#047857; font-size:14px;'><i>(કારણ કે 1 થી 12 ધોરણ છે)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કુલ વૃક્ષો (S<sub>12</sub>) શોધવા (શોર્ટકટ સૂત્ર)</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(છેલ્લું પદ ખબર છે એટલે સીધું નાનું સૂત્ર વાપરીશું)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>12</span><span>2</span></span> [ 3 + 36 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = 6 [ 39 ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(39 &times; 6 = 234)</i></span><br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>12</sub></i> = 234</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> વિદ્યાર્થીઓ દ્વારા કુલ <b style='color:#be123c;'>234 વૃક્ષો</b> વવાશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 18: વારાફરતી A અને B કેન્દ્ર લઈ 0.5cm, 1.0cm, 1.5cm... ત્રિજ્યાવાળા 13 ક્રમિક અર્ધવર્તુળોથી બનતા કુંતલ (Spiral) ની કુલ લંબાઈ શોધો. (&pi; = 22/7)", 
+                    question_desc: "બોર્ડનો સૌથી હાર્ડકોર કૂટપ્રશ્ન (HTML આકૃતિ સાથે 100% સરળ સમજૂતી)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px;'>
+                            <b style='color:#0f172a;'>કુંતલ (Spiral) ના અર્ધવર્તુળોની સમજૂતી:</b><br>
+                            <div style='display:inline-block; position:relative; width:160px; height:80px; margin-top:20px;'>
+                                <div style='position:absolute; bottom:0; left:0; width:160px; height:80px; border-top-left-radius:80px; border-top-right-radius:80px; border:3px solid #dc2626; border-bottom:0; box-sizing:border-box;'></div>
+                                <div style='position:absolute; bottom:0; left:20px; width:120px; height:60px; border-top-left-radius:60px; border-top-right-radius:60px; border:3px solid #1d4ed8; border-bottom:0; box-sizing:border-box;'></div>
+                                <div style='position:absolute; bottom:0; left:40px; width:80px; height:40px; border-top-left-radius:40px; border-top-right-radius:40px; border:3px solid #16a34a; border-bottom:0; box-sizing:border-box;'></div>
+                                <div style='position:absolute; bottom:0; left:-10px; width:180px; height:2px; background-color:#0f172a;'></div>
+                            </div>
+                            <br><span style='font-size:13px; color:#64748b;'>(આવા કુલ 13 અર્ધવર્તુળો ભેગા થાય છે)</span>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 કુંતલની લંબાઈની માસ્ટર ટ્રીક:</b><br>
+                            અર્ધવર્તુળની લંબાઈ (પરિઘ) નું સૂત્ર <b>&pi;r</b> છે. <br>
+                            આપણી પાસે 13 ત્રિજ્યાઓ (r) છે: 0.5, 1.0, 1.5 ...<br>
+                            કુલ લંબાઈ = &pi;(0.5) + &pi;(1.0) + &pi;(1.5) ...<br>
+                            બધામાંથી <b>&pi; ને સામાન્ય (Common) કાઢી લઈએ</b>, તો કૌંસમાં એક મસ્ત સમાંતર શ્રેણી બની જશે: <br>
+                            <b>&pi; &times; (0.5 + 1.0 + 1.5 + ... 13 પદો સુધી)</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કૌંસમાં રહેલી શ્રેણીનો સરવાળો (S<sub>13</sub>) શોધવો</b><br>
+                            શ્રેણી 0.5, 1.0, 1.5... માટે:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a</b> = 0.5, &nbsp; <b>d</b> = 0.5, &nbsp; <b>n</b> = 13<br><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> [ 2(0.5) + (13 - 1)(0.5) ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> [ 1 + 12(0.5) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(12 ના અડધા 6 થાય)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> [ 1 + 6 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>13</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>2</span></span> &times; 7 = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>91</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કુંતલની કુલ લંબાઈ શોધવી</b><br>
+                            આપણે ઉપર જોયું કે કુલ લંબાઈ = <b>&pi; &times; (સરવાળો)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                કુલ લંબાઈ = &pi; &times; S<sub>13</sub><br>
+                                કુલ લંબાઈ = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>91</span><span>2</span></span><br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(છેદ ઉડાડતા: 11 દૂ 22 અને 13 સત્તા 91)</i></span><br>
+                                કુલ લંબાઈ = 11 &times; 13<br>
+                                <b style='font-size:22px; color:#be123c;'>કુલ લંબાઈ = 143 cm</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> 13 ક્રમિક અર્ધવર્તુળોથી બનતા આ કુંતલની કુલ લંબાઈ <b style='color:#be123c;'>143 cm</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
