@@ -9144,9 +9144,189 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: ત્રિકોણોની સમરૂપતા માટેની 3 ગોલ્ડન શરતો કઈ છે?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>સ્વાધ્યાય 6.3 ના બધા જ દાખલા ગણવા માટે માત્ર આ 3 શરતો (નિયમો) યાદ રાખો:</p>
+                        
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#1d4ed8; font-size:16px;'>1. ખુ-ખુ-ખુ (અથવા ખુ-ખુ) શરત (AAA / AA Similarity):</b><br>
+                            <span style='color:#0f172a;'>જો બે ત્રિકોણમાં અનુરૂપ <b>ખૂણાઓ સમાન</b> હોય, તો તે બે ત્રિકોણ સમરૂપ છે. <br>
+                            <i>(ટ્રીક: જો માત્ર 2 ખૂણા સરખા મળે તો ત્રીજો ખૂણો આપોઆપ સરખો જ હોય! તેથી 'ખુ-ખુ' શરત પણ ચાલે).</i></span>
+                        </div>
+
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#be123c; font-size:16px;'>2. બા-બા-બા શરત (SSS Similarity):</b><br>
+                            <span style='color:#0f172a;'>જો બે ત્રિકોણમાં <b>ત્રણેય બાજુઓનો ગુણોત્તર (ભાગાકાર) સમાન</b> હોય, તો તે સમરૂપ છે. <br>
+                            <i>(ટ્રીક: બધી બાજુઓ ડબલ કે અડધી હોય તેવું ચેક કરવું).</i></span>
+                        </div>
+
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:15px; border-radius:5px;'>
+                            <b style='color:#16a34a; font-size:16px;'>3. બા-ખુ-બા શરત (SAS Similarity):</b><br>
+                            <span style='color:#0f172a;'>જો બે ત્રિકોણમાં <b>કોઈ એક ખૂણો સમાન</b> હોય અને તે ખૂણાને બનાવતી <b>આજુબાજુની બે બાજુઓનો ગુણોત્તર સમાન</b> હોય, તો તે સમરૂપ છે.</span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 1(i): આપેલ આકૃતિમાં ત્રિકોણો સમરૂપ છે કે નહિ તે જણાવો. જો હોય તો કઈ શરત મુજબ?", 
+                    question_desc: "MCQ માટે ખુ-ખુ શરતનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                            <svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="50,20 10,120 90,120" fill="#f0f9ff" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="45" y="15" font-size="14" font-weight="bold">A</text>
+                                <text x="5" y="135" font-size="14" font-weight="bold">B</text>
+                                <text x="95" y="135" font-size="14" font-weight="bold">C</text>
+                                <text x="40" y="45" font-size="12" fill="#dc2626">60°</text>
+                                <text x="25" y="115" font-size="12" fill="#dc2626">80°</text>
+                                <text x="65" y="115" font-size="12" fill="#dc2626">40°</text>
+
+                                <polygon points="210,20 170,120 250,120" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+                                <text x="205" y="15" font-size="14" font-weight="bold">P</text>
+                                <text x="165" y="135" font-size="14" font-weight="bold">Q</text>
+                                <text x="255" y="135" font-size="14" font-weight="bold">R</text>
+                                <text x="200" y="45" font-size="12" fill="#dc2626">60°</text>
+                                <text x="185" y="115" font-size="12" fill="#dc2626">80°</text>
+                                <text x="225" y="115" font-size="12" fill="#dc2626">40°</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરી અને જવાબ:</b><br>
+                            આકૃતિમાં સ્પષ્ટ દેખાય છે કે:<br>
+                            • $\\angle$A = $\\angle$P = 60&deg;<br>
+                            • $\\angle$B = $\\angle$Q = 80&deg;<br>
+                            • $\\angle$C = $\\angle$R = 40&deg;<br><br>
+                            બધા જ અનુરૂપ ખૂણા સમાન છે.
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> <b>ખુ-ખુ-ખુ (AAA) શરત</b> મુજબ <b>$\\Delta$ABC $\\sim$ $\\Delta$PQR</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 1(ii): આપેલ આકૃતિમાં ત્રિકોણો સમરૂપ છે કે નહિ તે જણાવો. જો હોય તો કઈ શરત મુજબ?", 
+                    question_desc: "બા-બા-બા શરતની ઓળખ માટેનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:10px;'>
+                            <svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="50,20 20,100 80,100" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                                <text x="45" y="15" font-size="14" font-weight="bold">A</text>
+                                <text x="5" y="115" font-size="14" font-weight="bold">B</text>
+                                <text x="85" y="115" font-size="14" font-weight="bold">C</text>
+                                <text x="20" y="55" font-size="12" fill="#1e3a8a">AB=2</text>
+                                <text x="40" y="115" font-size="12" fill="#1e3a8a">BC=2.5</text>
+                                <text x="70" y="55" font-size="12" fill="#1e3a8a">AC=3</text>
+
+                                <polygon points="200,20 150,120 270,120" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+                                <text x="195" y="15" font-size="14" font-weight="bold">P</text>
+                                <text x="135" y="135" font-size="14" font-weight="bold">Q</text>
+                                <text x="275" y="135" font-size="14" font-weight="bold">R</text>
+                                <text x="155" y="65" font-size="12" fill="#1e3a8a">PQ=6</text>
+                                <text x="200" y="135" font-size="12" fill="#1e3a8a">QR=4</text>
+                                <text x="245" y="65" font-size="12" fill="#1e3a8a">PR=5</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 ક્રોસ ચેકિંગ ટ્રીક:</b><br>
+                            અહીં બાજુઓના માપ એવા છે કે સીધા નથી, પણ આડાઅવળા ડબલ થાય છે!<br>
+                            • AB (2) ના ડબલ <b>QR (4)</b> છે.<br>
+                            • BC (2.5) ના ડબલ <b>PR (5)</b> છે.<br>
+                            • AC (3) ના ડબલ <b>PQ (6)</b> છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગુણોત્તરની ગણતરી:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AB / QR = 2 / 4 = 1/2<br>
+                                BC / PR = 2.5 / 5 = 1/2<br>
+                                AC / PQ = 3 / 6 = 1/2<br><br>
+                                અહીં, <b style='color:#dc2626;'>AB/QR = BC/PR = AC/PQ</b> છે.
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> <b>બા-બા-બા (SSS) શરત</b> મુજબ <b>$\\Delta$ABC $\\sim$ $\\Delta$QRP</b> છે. (ખાસ ધ્યાન: અક્ષરોનો ક્રમ QRP આવશે).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.3 પ્રશ્ન 2: આપેલ આકૃતિમાં $\\Delta$ODC $\\sim$ $\\Delta$OBA છે. $\\angle$BOC = 125° અને $\\angle$CDO = 70° છે. તો $\\angle$DOC, $\\angle$DCO અને $\\angle$OAB શોધો.", 
+                    question_desc: "બોર્ડમાં 2 માર્ક્સ માટે પૂછાતો ખૂણાઓ શોધવાનો માસ્ટર-પીસ દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2024, 2025 માટે 2 માર્ક્સમાં ખૂણાઓ શોધવા માટેનો સૌથી ફેવરિટ અને વારંવાર પૂછાતો દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="40" y1="40" x2="220" y2="160" stroke="#0f172a" stroke-width="2"/> <line x1="220" y1="40" x2="40" y2="160" stroke="#0f172a" stroke-width="2"/> <line x1="40" y1="40" x2="220" y2="40" stroke="#1d4ed8" stroke-width="3"/> <line x1="40" y1="160" x2="220" y2="160" stroke="#dc2626" stroke-width="3"/> <path d="M 145 100 A 15 15 0 0 1 130 115" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 60 40 A 20 20 0 0 1 55 50" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                
+                                <text x="25" y="35" font-size="16" font-weight="bold">D</text>
+                                <text x="225" y="35" font-size="16" font-weight="bold">C</text>
+                                <text x="225" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">A</text>
+                                <text x="135" y="90" font-size="16" font-weight="bold">O</text>
+                                
+                                <text x="150" y="110" font-size="14" font-weight="bold" fill="#ea580c">125°</text>
+                                <text x="60" y="30" font-size="14" font-weight="bold" fill="#16a34a">70°</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: રેખિક જોડના ખૂણા પરથી $\\angle$DOC શોધવો</b><br>
+                            આકૃતિમાં લાઈન DB સીધી રેખા છે. તેથી $\\angle$DOC અને $\\angle$BOC <b>રેખિક જોડના ખૂણા</b> બનાવે છે (બંનેનો સરવાળો 180&deg; થાય).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                $\\angle$DOC + $\\angle$BOC = 180&deg;<br>
+                                $\\angle$DOC + 125&deg; = 180&deg;<br>
+                                $\\angle$DOC = 180&deg; - 125&deg;<br>
+                                <b style='color:#1d4ed8;'>$\\angle$DOC = 55&deg;</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ત્રિકોણના ત્રણેય ખૂણાના સરવાળા પરથી $\\angle$DCO શોધવો</b><br>
+                            ઉપરના ત્રિકોણ $\\Delta$ODC માં: $\\angle$CDO = 70&deg; અને $\\angle$DOC = 55&deg; મળી ગયો.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                $\\angle$CDO + $\\angle$DOC + $\\angle$DCO = 180&deg;<br>
+                                70&deg; + 55&deg; + $\\angle$DCO = 180&deg;<br>
+                                125&deg; + $\\angle$DCO = 180&deg;<br>
+                                $\\angle$DCO = 180&deg; - 125&deg;<br>
+                                <b style='color:#be123c;'>$\\angle$DCO = 55&deg;</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: સમરૂપતાના નિયમ પરથી $\\angle$OAB શોધવો</b><br>
+                            પક્ષમાં આપેલું છે કે <b>$\\Delta$ODC $\\sim$ $\\Delta$OBA</b>.<br>
+                            સમરૂપ ત્રિકોણમાં અનુરૂપ ખૂણાઓ સમાન હોય છે. <br>
+                            નામ પરથી જુઓ: C ની સાથે A આવે છે. તેથી <b>$\\angle$OAB = $\\angle$DCO</b> થાય!<br>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:10px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309; font-size:18px;'>અંતિમ જવાબો:</b> <br>
+                                <b>$\\angle$DOC = <span style='color:#1d4ed8;'>55&deg;</span></b><br>
+                                <b>$\\angle$DCO = <span style='color:#be123c;'>55&deg;</span></b><br>
+                                <b>$\\angle$OAB = <span style='color:#16a34a;'>55&deg;</span></b> (ત્રણેયનો જવાબ 55&deg; જ આવે છે!)
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
