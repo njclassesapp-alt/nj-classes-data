@@ -9028,9 +9028,128 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 9: સમલંબ ચતુષ્કોણ ABCD માં AB || DC છે અને તેના વિકર્ણો એકબીજાને O બિંદુમાં છેદે છે. સાબિત કરો કે AO/BO = CO/DO.", 
+                    question_desc: "2025 અને 2026 ની બોર્ડ પરીક્ષાનો સૌથી સુપર ડુપર હિટ 3 માર્ક્સનો દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: માર્ચ 2025 અને 2026 માટે પ્રકરણ 6 માંથી 3 માર્ક્સનો સૌથી મોસ્ટ IMP સાબિતીનો દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="180" viewBox="0 0 260 180" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="70,30 190,30 230,130 30,130" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="70" y1="30" x2="230" y2="130" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="190" y1="30" x2="30" y2="130" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="50" y1="80" x2="130" y2="80" stroke="#dc2626" stroke-width="3" stroke-dasharray="5,3"/>
+                                
+                                <text x="60" y="20" font-size="16" font-weight="bold">A</text>
+                                <text x="195" y="20" font-size="16" font-weight="bold">B</text>
+                                <text x="235" y="145" font-size="16" font-weight="bold">C</text>
+                                <text x="15" y="145" font-size="16" font-weight="bold">D</text>
+                                <text x="125" y="70" font-size="16" font-weight="bold">O</text>
+                                <text x="35" y="75" font-size="16" font-weight="bold" fill="#dc2626">E</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (રચના):</b><br>
+                            આ દાખલો ગણવા માટે આપણે જાતે એક લાલ તૂટક રેખા દોરવી પડશે. આપણે બિંદુ <b>O માંથી પસાર થતી અને AB ને સમાંતર હોય તેવી રેખા EO દોરીશું.</b><br>
+                            હવે આપણી જૂની ટ્રીક "2 ત્રિકોણ પકડો": એકવાર <b>$\\Delta$ADC</b> લો અને બીજીવાર <b>$\\Delta$ABD</b> લો.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            સમલંબ ચતુષ્કોણ ABCD માં <b>AB || DC</b> છે અને વિકર્ણો AC અને BD બિંદુ O માં છેદે છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે: <b>AO/BO = CO/DO</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>રચના:</b> O માંથી પસાર થતી એવી રેખા <b>EO</b> દોરો જે <b>AB ને સમાંતર</b> હોય. (તેથી <b>EO || AB || DC</b> થશે).<br><br>
+                                
+                                <b>1. ત્રિકોણ $\\Delta$ADC માં:</b><br>
+                                અહીં <b style='color:#dc2626;'>EO || DC</b> છે.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AO</span><span>OC</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2. ત્રિકોણ $\\Delta$ABD માં:</b><br>
+                                અહીં <b style='color:#1d4ed8;'>EO || AB</b> છે.<br>
+                                થેલ્સના પ્રમેય મુજબ (નીચેથી ઉપર જતા):<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DE</span><span>EA</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DO</span><span>OB</span></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(આને ઉલટાવી નાખીએ જેથી સમીકરણ 1 જેવું દેખાય)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BO</span><span>OD</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 2)</b><br><br>
+                                
+                                <b>3. સરખામણી:</b><br>
+                                સમીકરણ 1 અને 2 ની ડાબી બાજુ (AE/ED) સમાન છે, તેથી જમણી બાજુઓ સમાન થાય:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AO</span><span>OC</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BO</span><span>OD</span></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(હવે ચોકડી બદલા-બદલી કરીએ: BO ને નીચે લાવીએ અને OC ને ઉપર લઈ જઈએ)</i></span><br>
+                                <b style='color:#16a34a; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>AO</span><span>BO</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>CO</span><span>DO</span></span></b><br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે!</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 6.2 પ્રશ્ન 10: એક ચતુષ્કોણ ABCD ના વિકર્ણો એકબીજાને બિંદુ O માં એવી રીતે છેદે છે કે જેથી AO/BO = CO/DO થાય. સાબિત કરો કે ABCD સમલંબ ચતુષ્કોણ છે.", 
+                    question_desc: "પ્રશ્ન 9 નો બિલકુલ ઊંધો (પ્રતિપ) દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ (Given):</b><br>
+                            ચતુષ્કોણ ABCD ના વિકર્ણો O માં છેદે છે અને <b>AO/BO = CO/DO</b> આપેલ છે.<br>
+                            <span style='color:#047857; font-size:14px;'><i>(તેને ગોઠવીએ તો <b>AO/CO = BO/DO</b> લખી શકાય).</i></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            સાબિત કરવાનું છે કે <b>ABCD સમલંબ ચતુષ્કોણ છે</b> (એટલે કે સાબિત કરવું પડે કે <b>AB || DC</b>).
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; line-height:2.8; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>રચના:</b> બિંદુ O માંથી પસાર થતી માત્ર <b>EO || AB</b> દોરો. (આપણે હજુ જાણતા નથી કે તે DC ને સમાંતર છે કે નહિ).<br><br>
+                                
+                                <b>1. ત્રિકોણ $\\Delta$ABD માં:</b><br>
+                                આપણે <b>EO || AB</b> દોર્યું છે.<br>
+                                થેલ્સના પ્રમેય મુજબ:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BO</span><span>DO</span></span> &nbsp;&nbsp; <b>... (સમીકરણ 1)</b><br><br>
+                                
+                                <b>2. પક્ષનો ઉપયોગ:</b><br>
+                                આપણને પક્ષમાં આપેલું જ છે કે: <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AO</span><span>CO</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BO</span><span>DO</span></span><br>
+                                આ કિંમત સમીકરણ 1 માં મૂકતાં:<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AE</span><span>ED</span></span> = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>AO</span><span>CO</span></span></b><br><br>
+                                
+                                <b>3. ત્રિકોણ $\\Delta$ADC માં (થેલ્સનો પ્રતિપ પ્રમેય):</b><br>
+                                ઉપરના પરિણામ (AE/ED = AO/CO) પરથી સાબિત થાય છે કે રેખા EO એ ત્રિકોણ $\\Delta$ADC ની બાજુઓને સમાન ગુણોત્તરમાં વિભાજીત કરે છે.<br>
+                                તેથી થેલ્સના પ્રતિપ પ્રમેય મુજબ: <b style='color:#1d4ed8;'>EO || DC</b>.<br><br>
+                                
+                                <b>નિષ્કર્ષ:</b><br>
+                                આપણી રચના હતી <b>EO || AB</b>, અને સાબિત થયું <b>EO || DC</b>.<br>
+                                આનો મતલબ એ થયો કે <b>AB || DC</b> છે!<br>
+                                જો ચતુષ્કોણની સામસામેની એક જોડ સમાંતર હોય, તો તે <b>સમલંબ ચતુષ્કોણ</b> કહેવાય.<br>
+                                <i style='color:#15803d;'>જે સાબિત થાય છે.</i>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
                  
