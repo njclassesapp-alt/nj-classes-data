@@ -7032,9 +7032,54 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 5.3 પ્રશ્ન 2(iii): સરવાળો શોધો: (-5) + (-8) + (-11) + ... + (-230)", 
+                    question_desc: "બોર્ડમાં ભૂલ કરાવતો 100% IMP માઇનસ વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px;'>
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 1: n શોધવો (a<sub>n</sub> ના સૂત્રથી)</b><br>
+                            અહીં <b>a = -5</b> છે અને છેલ્લું પદ <b>l (a<sub>n</sub>) = -230</b> છે.<br>
+                            <b>તફાવત (d)</b> = -8 - (-5) = -8 + 5 = <b style='color:#dc2626;'>-3</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>a<sub>n</sub></i> = <i style='font-family:"Times New Roman",serif;'>a</i> + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)<i style='font-family:"Times New Roman",serif;'>d</i><br>
+                                -230 = -5 + (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(-3)<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(-5 ડાબી બાજુ આવે એટલે પ્લસ +5 થશે)</i></span><br>
+                                -230 + 5 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(-3)<br>
+                                -225 = (<i style='font-family:"Times New Roman",serif;'>n</i> - 1)(-3)<br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-225</span><span>-3</span></span> = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(માઇનસ માઇનસ પ્લસ થાય અને 75 તેરી 225)</i></span><br>
+                                75 = <i style='font-family:"Times New Roman",serif;'>n</i> - 1<br>
+                                75 + 1 = <i style='font-family:"Times New Roman",serif;'>n</i> &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'><i style='font-family:"Times New Roman",serif;'>n</i> = 76</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરવાળો (S<sub>n</sub>) શોધવો</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(હવે આપણી પાસે n = 76 છે, તો શોર્ટકટ સૂત્ર વાપરીએ)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:3.0; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>n</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n</span><span>2</span></span> [ <i style='font-family:"Times New Roman",serif;'>a</i> + <i style='font-family:"Times New Roman",serif;'>l</i> ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>76</sub></i> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>76</span><span>2</span></span> [ -5 + (-230) ]<br>
+                                <span style='color:#047857; font-size:14px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#10551; <i>(76 ને 2 વડે ભાગીએ તો 38 આવે, અને કૌંસમાં માઇનસ માઇનસ નો સરવાળો થાય)</i></span><br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>76</sub></i> = 38 [ -235 ]<br>
+                                <i style='font-family:"Times New Roman",serif;'>S<sub>76</sub></i> = 38 &times; (-235)<br>
+                                <b style='font-size:22px; color:#be123c;'><i style='font-family:"Times New Roman",serif;'>S<sub>76</sub></i> = -8930</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:18px;'>અંતિમ જવાબ:</b> આ શ્રેણીનો સરવાળો <b style='color:#be123c;'>-8930</b> થશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
