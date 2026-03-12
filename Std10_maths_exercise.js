@@ -11912,9 +11912,102 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 2: આપેલ આકૃતિમાં (જેમાં કાટકોણ &Delta;PQR છે), tan P - cot R શોધો. (આકૃતિમાં PQ = 12 સેમી અને PR = 13 સેમી આપેલ છે).", 
+                    question_desc: "બાદબાકીવાળો નાનો પણ ટ્રીકી દાખલો (0 જવાબ આવે છે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,20 40,160 160,160" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <text x="35" y="15" font-size="16" font-weight="bold">P</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">Q</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">R</text>
+                                
+                                <text x="5" y="95" font-size="14" fill="#1d4ed8" font-weight="bold">12</text>
+                                <text x="90" y="85" font-size="14" fill="#16a34a" font-weight="bold">13</text>
+                                <text x="90" y="180" font-size="14" fill="#ea580c" font-weight="bold">? (પાયો)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પાયથાગોરસ પ્રમેયથી QR શોધવી</b><br>
+                            અહીં, કર્ણ (PR) = 13 સેમી અને લંબ (PQ) = 12 સેમી છે. 
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                PR<sup>2</sup> = PQ<sup>2</sup> + QR<sup>2</sup><br>
+                                (13)<sup>2</sup> = (12)<sup>2</sup> + QR<sup>2</sup><br>
+                                169 = 144 + QR<sup>2</sup><br>
+                                QR<sup>2</sup> = 169 - 144<br>
+                                QR<sup>2</sup> = 25<br>
+                                QR = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;25&nbsp;</span><br>
+                                <b style='color:#16a34a; font-size:20px;'>QR = 5 સેમી</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: tan P અને cot R શોધવા</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='font-size:16px; color:#0f172a;'>ખૂણા <b>P</b> માટે: સાબા = QR = 5, પાબા = PQ = 12</span><br><br>
+                                <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'>tan P = </span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                    <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 5px;'>સાબા</span>
+                                    <span>પાબા</span>
+                                </span>
+                                <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                <b style='color:#dc2626; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>5</span>
+                                    <span>12</span>
+                                </span></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <span style='font-size:16px; color:#0f172a;'>ખૂણા <b>R</b> માટે: સાબા = PQ = 12, પાબા = QR = 5</span><br><br>
+                                <span style='font-size:18px; color:#ea580c; font-weight:bold;'>cot R = </span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                    <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>પાબા</span>
+                                    <span>સાબા</span>
+                                </span>
+                                <span style='font-size:18px; color:#ea580c; font-weight:bold;'> = </span>
+                                <b style='color:#dc2626; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>5</span>
+                                    <span>12</span>
+                                </span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: ગણતરી (tan P - cot R)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <span style='font-size:20px; font-weight:bold;'>tan P - cot R = </span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px; font-weight:bold;'>
+                                    <span style='border-bottom:2px solid black; display:block; padding:0 5px;'>5</span>
+                                    <span>12</span>
+                                </span>
+                                <span style='font-size:20px; font-weight:bold;'> - </span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px; font-weight:bold;'>
+                                    <span style='border-bottom:2px solid black; display:block; padding:0 5px;'>5</span>
+                                    <span>12</span>
+                                </span>
+                                <span style='font-size:20px; font-weight:bold;'> = </span>
+                                <b style='color:#be123c; font-size:24px;'>0</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> માંગેલ મૂલ્ય <b style='color:#be123c;'>0 (શૂન્ય)</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
     
                 
                       
