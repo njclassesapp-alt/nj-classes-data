@@ -13127,9 +13127,238 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 1(v): કિંમત શોધો: (5 cos² 60&deg; + 4 sec² 30&deg; - tan² 45&deg;) / (sin² 30&deg; + cos² 30&deg;)", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો છેદ ગાયબ કરવાની ટ્રીક વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (છેદ ગાયબ કરવાનો જાદુ):</b><br>
+                            આ દાખલામાં નીચે છેદમાં <b>sin² 30&deg; + cos² 30&deg;</b> આપેલ છે. ગણિતનો એક નિયમ છે: <b>sin² &theta; + cos² &theta; = 1</b> થાય. એટલે કે નીચેના આખા છેદનો જવાબ 1 જ આવશે! તેથી આપણે માત્ર ઉપરના અંશ (Numerator) ની જ ગણતરી કરવાની છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: છેદ (Denominator) ની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>છેદ = </b> sin² 30&deg; + cos² 30&deg;<br><br>
+                                <b>છેદ = </b> <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:24px;'>)</span>² + <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span><span style='font-size:24px;'>)</span>²<br><br>
+                                
+                                <b>છેદ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>4</span></span><br><br>
+                                
+                                <b>છેદ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>4</span></span> <b style='color:#16a34a; font-size:22px;'> = 1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અંશ (Numerator) માં કિંમતો મૂકવી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>હવે છેદ 1 થઈ ગયો હોવાથી, માત્ર અંશ જ ગણવાનો છે: <b>5 cos² 60&deg; + 4 sec² 30&deg; - tan² 45&deg;</b></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b> = </b> 5<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:24px;'>)</span>² &nbsp;+&nbsp; 4<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><span style='font-size:24px;'>)</span>² &nbsp;-&nbsp; <span style='font-size:24px;'>(</span>1<span style='font-size:24px;'>)</span>²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(વર્ગ કરતા)</i></span><br>
+                                <b> = </b> 5<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span><span style='font-size:24px;'>)</span> &nbsp;+&nbsp; 4<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>3</span></span><span style='font-size:24px;'>)</span> &nbsp;-&nbsp; 1<br><br>
+                                
+                                <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>4</span></span> &nbsp;+&nbsp; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>16</span><span>3</span></span> &nbsp;-&nbsp; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>1</span></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: લ.સા.અ. (LCM) લઈને સાદું રૂપ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>છેદમાં 4 અને 3 નો <b>લ.સા.અ. 12</b> થશે.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>5(3) + 16(4) - 1(12)</span>
+                                    <span>12</span>
+                                </span><br><br>
+
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>15 + 64 - 12</span>
+                                    <span>12</span>
+                                </span><br><br>
+
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>79 - 12</span>
+                                    <span>12</span>
+                                </span><br><br>
+
+                                <b> = <b style='color:#dc2626; font-size:24px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>67</span><span>12</span></span></b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> માંગેલ કિંમત <b><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>67</span><span>12</span></span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 2(i): સાચો વિકલ્પ પસંદ કરો: 2 tan 30&deg; / (1 + tan² 30&deg;) = ____", 
+                    question_desc: "વિકલ્પો: (A) sin 60&deg; (B) cos 60&deg; (C) tan 60&deg; (D) sin 30&deg;",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરી:</b><br>
+                            અહીં <b>tan 30&deg; = 1/&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b> મુકતા:
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 (1/&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span>)</span>
+                                    <span>1 + (1/&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span>)²</span>
+                                </span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2/&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                    <span>1 + 1/3</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદમાં લ.સા.અ. લેતા: 1 + 1/3 = 4/3 થાય)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 / &radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                    <span>4 / 3</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદનો છેદ અંશમાં જાય)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 &times; 3</span>
+                                    <span>4 &times; &radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                </span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>3</span>
+                                    <span>2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(3 એટલે &radic;3 &times; &radic;3 થાય, જેથી છેદ ઉડશે)</i></span><br>
+                                <b> = <b style='color:#dc2626; font-size:24px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>&radic;<span style='border-top:2px solid #dc2626; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span></b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; border-left:4px solid #f59e0b; padding:8px; border-radius:4px;'>
+                                <span style='color:#b45309;'>આપણે જાણીએ છીએ કે <b>sin 60&deg; = &radic;3/2</b> થાય. </span><br>
+                                <b style='color:#be123c;'>અંતિમ જવાબ: (A) sin 60&deg;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 2(ii): સાચો વિકલ્પ પસંદ કરો: (1 - tan² 45&deg;) / (1 + tan² 45&deg;) = ____", 
+                    question_desc: "વિકલ્પો: (A) tan 90&deg; (B) 1 (C) sin 45&deg; (D) 0",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>ગણતરી:</b><br>
+                            આપણને ખબર છે કે <b>tan 45&deg; = 1</b> થાય.
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - (1)²</span>
+                                    <span>1 + (1)²</span>
+                                </span><br><br>
+                                
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - 1</span>
+                                    <span>1 + 1</span>
+                                </span><br><br>
+                                
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>0</span>
+                                    <span>2</span>
+                                </span>
+                                <b> = <b style='color:#dc2626; font-size:24px;'>0</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ: (D) 0</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 2(iii): જ્યારે A = ____ હોય, ત્યારે sin 2A = 2 sin A સત્ય છે.", 
+                    question_desc: "વિકલ્પો: (A) 0&deg; (B) 30&deg; (C) 45&deg; (D) 60&deg;",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સમજૂતી:</b><br>
+                            અહીં આપણે વારાફરતી ખૂણાની કિંમત મૂકીને ચેક કરવું પડશે. ચાલો સૌથી પહેલો વિકલ્પ <b>A = 0&deg;</b> મૂકીએ.
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>ડાબી બાજુ (LHS):</b> sin 2(0&deg;) = sin 0&deg; = <b style='color:#1d4ed8;'>0</b><br><br>
+                                <b>જમણી બાજુ (RHS):</b> 2 sin(0&deg;) = 2(0) = <b style='color:#1d4ed8;'>0</b><br><br>
+                                અહીં LHS = RHS થાય છે! 
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ: (A) 0&deg;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 2(iv): સાચો વિકલ્પ પસંદ કરો: 2 tan 30&deg; / (1 - tan² 30&deg;) = ____", 
+                    question_desc: "વિકલ્પો: (A) cos 60&deg; (B) sin 60&deg; (C) tan 60&deg; (D) sin 30&deg;",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>ગણતરી:</b><br>
+                            આ દાખલો પહેલા MCQ જેવો જ છે, પણ છેદમાં માઇનસ (-) છે. <b>tan 30&deg; = 1/&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b> મુકતા:
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; border:1px solid #d8b4fe; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 (1/&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span>)</span>
+                                    <span>1 - (1/&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span>)²</span>
+                                </span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2/&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                    <span>1 - 1/3</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદમાં લ.સા.અ. લેતા: 1 - 1/3 = 2/3 થાય)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 / &radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                    <span>2 / 3</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદનો છેદ અંશમાં જાય)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 &times; 3</span>
+                                    <span>2 &times; &radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                </span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>3</span>
+                                    <span>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(3 એટલે &radic;3 &times; &radic;3 થાય, જેથી છેદ ઉડશે)</i></span><br>
+                                <b> = <b style='color:#dc2626; font-size:24px;'>&radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span></b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; border-left:4px solid #f59e0b; padding:8px; border-radius:4px;'>
+                                <span style='color:#b45309;'>આપણે જાણીએ છીએ કે <b>tan 60&deg; = &radic;3</b> થાય. </span><br>
+                                <b style='color:#be123c;'>અંતિમ જવાબ: (C) tan 60&deg;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
