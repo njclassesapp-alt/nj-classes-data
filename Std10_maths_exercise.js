@@ -11722,7 +11722,200 @@ var njMathsExercise = {
                     `
                 }
             ]
+        },
+            
+        // ------------------------------------
+        // પ્રકરણ 8: ત્રિકોણમિતિનો પરિચય 
+        // ------------------------------------
+        "8": {
+            "chapterName": "પ્રકરણ 8 (સ્વાધ્યાય 8.1 - ભાગ 1A)",
+            "chapterTitle": "ત્રિકોણમિતિની માસ્ટર ચાવી અને દાખલો 1",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: ત્રિકોણમિતિના 6 હીરો (સૂત્રો) કેવી રીતે યાદ રાખવા?",
+                    answer: `
+                    <div style='background-color:#fdf4ff; padding:15px; border-radius:8px; border:2px solid #d946ef; margin-bottom:15px; font-family:sans-serif;'>
+                        <p style='margin-top:0; color:#86198f; font-weight:bold; font-size:16px;'>કાટકોણ ત્રિકોણમાં ત્રિકોણમિતિના 6 હીરો (sin, cos, tan, cosec, sec, cot) ના સૂત્રો યાદ રાખવાની દેશી ટ્રીક!</p>
+                        
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:15px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#b45309; font-size:16px;'>💡 ટૂંકાક્ષરી ટ્રીક (સા, પા, ક):</b><br>
+                            • <b>સાબા</b> = સામેની બાજુ<br>
+                            • <b>પાબા</b> = પાસેની બાજુ<br>
+                            • <b>કર્ણ</b> = કાટખૂણાની સામેની સૌથી મોટી બાજુ
+                        </div>
+
+                        <div style='background-color:#ffffff; border:1px dashed #f0abfc; padding:10px; border-radius:5px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>ત્રણ મુખ્ય હીરો (Main Formulas):</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#eff6ff; padding:15px; border-radius:8px; display:flex; gap:20px;'>
+                                
+                                <div style='background-color:#e0f2fe; padding:10px; border-radius:8px; border:1px solid #bae6fd; min-width:120px; text-align:center;'>
+                                    <b style='color:#0369a1; font-size:18px;'>sin &theta; = </b>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; color:#0369a1; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #0369a1; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                </div>
+
+                                <div style='background-color:#dcfce7; padding:10px; border-radius:8px; border:1px solid #bbf7d0; min-width:120px; text-align:center;'>
+                                    <b style='color:#15803d; font-size:18px;'>cos &theta; = </b>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; color:#15803d; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #15803d; display:block; padding:0 5px;'>પાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                </div>
+
+                                <div style='background-color:#ffedd5; padding:10px; border-radius:8px; border:1px solid #fed7aa; min-width:120px; text-align:center;'>
+                                    <b style='color:#c2410c; font-size:18px;'>tan &theta; = </b>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; color:#c2410c; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #c2410c; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>પાબા</span>
+                                    </span>
+                                </div>
+                            </div>
+                            
+                            <div style='margin-top:15px; background-color:#fee2e2; padding:10px; border-radius:5px; border-left:4px solid #ef4444;'>
+                                <b style='color:#b91c1c; font-size:15px;'>નોંધ (બાકીના 3 હીરો માટે):</b><br>
+                                • <b>cosec</b> એ <b>sin</b> નો ઊલટો છે (કર્ણ / સાબા).<br>
+                                • <b>sec</b> એ <b>cos</b> નો ઊલટો છે (કર્ણ / પાબા).<br>
+                                • <b>cot</b> એ <b>tan</b> નો ઊલટો છે (પાબા / સાબા).<br>
+                                <span style='color:#0f172a; font-size:14px;'><i>(આ ચેપ્ટરમાં કોઈ પણ દાખલો ગણતા પહેલા <b>પાયથાગોરસના પ્રમેયથી</b> ત્રિકોણની ત્રણેય બાજુઓ શોધી લેવી ફરજિયાત છે!)</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 1: &Delta;ABC માં &ang;B કાટખૂણો છે. AB = 24 સેમી, BC = 7 સેમી હોય, તો નીચેના ગુણોત્તરોનું મૂલ્ય શોધો: (i) sin A, cos A (ii) sin C, cos C.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો ત્રિકોણમિતિનો સૌથી બેઝિક અને IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: 2 માર્ક્સ માટે પૂછાતો ત્રિકોણમિતિનો પહેલો અને સૌથી અગત્યનો દાખલો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="220" viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,20 40,180 140,180" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="40,170 50,170 50,180" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <text x="35" y="15" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="195" font-size="16" font-weight="bold">B</text>
+                                <text x="145" y="195" font-size="16" font-weight="bold">C</text>
+                                
+                                <text x="5" y="105" font-size="14" fill="#1d4ed8" font-weight="bold">24 cm</text>
+                                <text x="80" y="200" font-size="14" fill="#ea580c" font-weight="bold">7 cm</text>
+                                <text x="100" y="95" font-size="14" fill="#16a34a" font-weight="bold">? (કર્ણ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પાયથાગોરસના પ્રમેયથી કર્ણ (AC) શોધવો</b><br>
+                            કાટકોણ &Delta;ABC માં &ang;B = 90&deg; છે. <br>
+                            પાયથાગોરસ પ્રમેય મુજબ:
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AC<sup>2</sup> = AB<sup>2</sup> + BC<sup>2</sup><br>
+                                AC<sup>2</sup> = (24)<sup>2</sup> + (7)<sup>2</sup><br>
+                                AC<sup>2</sup> = 576 + 49<br>
+                                AC<sup>2</sup> = 625<br>
+                                AC = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;625&nbsp;</span><br>
+                                <b style='color:#16a34a; font-size:20px;'>AC = 25 સેમી</b> <span style='color:#047857; font-size:14px;'><i>(આપણને કર્ણ મળી ગયો!)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ખૂણા A માટે ગુણોત્તરો શોધવા (sin A, cos A)</b><br>
+                            ખૂણા <b>A</b> માટે વિચારતા:<br>
+                            • સામેની બાજુ (સાબા) = BC = 7<br>
+                            • પાસેની બાજુ (પાબા) = AB = 24<br>
+                            • કર્ણ = AC = 25<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#e0f2fe; padding:15px; border-radius:5px; display:flex; gap:30px;'>
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'>sin A = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold; color:#dc2626;'>
+                                        <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>BC</span>
+                                        <span>AC</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <b style='color:#be123c; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>7</span>
+                                        <span>25</span>
+                                    </span></b>
+                                </div>
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'>cos A = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 5px;'>પાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold; color:#dc2626;'>
+                                        <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>AB</span>
+                                        <span>AC</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <b style='color:#be123c; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>24</span>
+                                        <span>25</span>
+                                    </span></b>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ખૂણા C માટે ગુણોત્તરો શોધવા (sin C, cos C)</b><br>
+                            ખૂણા <b>C</b> માટે વિચારતા:<br>
+                            • સામેની બાજુ (સાબા) = AB = 24 <i>(ખૂણો બદલાયો એટલે સાબા/પાબા બદલાઈ ગયા!)</i><br>
+                            • પાસેની બાજુ (પાબા) = BC = 7<br>
+                            • કર્ણ = AC = 25<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px; display:flex; gap:30px;'>
+                                <div>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'>sin C = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold; color:#9333ea;'>
+                                        <span style='border-bottom:2px solid #9333ea; display:block; padding:0 5px;'>AB</span>
+                                        <span>AC</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'> = </span>
+                                    <b style='color:#7e22ce; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #7e22ce; display:block; padding:0 5px;'>24</span>
+                                        <span>25</span>
+                                    </span></b>
+                                </div>
+                                <div>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'>cos C = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>પાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold; color:#9333ea;'>
+                                        <span style='border-bottom:2px solid #9333ea; display:block; padding:0 5px;'>BC</span>
+                                        <span>AC</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'> = </span>
+                                    <b style='color:#7e22ce; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #7e22ce; display:block; padding:0 5px;'>7</span>
+                                        <span>25</span>
+                                    </span></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+    
                 
                       
         
