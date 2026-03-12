@@ -13837,9 +13837,177 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 4(i): સાબિત કરો કે: (cosec &theta; - cot &theta;)² = (1 - cos &theta;) / (1 + cos &theta;)", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો સૌથી બેઝિક અને અગત્યનો સાબિતીવાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર રૂલ:</b><br>
+                            આખા સ્વાધ્યાયનો આ <b>ગોલ્ડન રૂલ</b> છે: ડાબી બાજુ (LHS) માં જો <b>cosec, sec, tan કે cot</b> દેખાય, તો સૌથી પહેલા તેમને <b>sin અને cos માં ફેરવી નાખો!</b><br>
+                            અહીં cosec = 1/sin અને cot = cos/sin મૂકીશું.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ડાબી બાજુ (LHS) ને sin/cos માં ફેરવવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>LHS = </b> (cosec &theta; - cot &theta;)²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(સૂત્રો મૂકતા)</i></span><br>
+                                <b>LHS = </b> 
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>sin &theta;</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>cos &theta;</span><span>sin &theta;</span></span> <span style='font-size:24px;'>)</span>²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેના છેદમાં sin &theta; સમાન હોવાથી, છેદ એક જ વાર લખાશે)</i></span><br>
+                                <b>LHS = </b> 
+                                <span style='font-size:30px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - cos &theta;</span><span>sin &theta;</span></span> <span style='font-size:30px;'>)</span>²
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વર્ગ (Square) છૂટો પાડીને નિત્યસમ વાપરવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ અને છેદ બંનેને અલગ-અલગ વર્ગ આપતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(1 - cos &theta;)²</span>
+                                    <span>sin² &theta;</span>
+                                </span><br><br>
+
+                                <span style='background-color:#bae6fd; padding:5px; border-radius:3px; color:#0369a1; font-size:14px;'><i>(નિત્યસમ 1 નો ઉપયોગ: <b>sin² &theta; = 1 - cos² &theta;</b> થાય, તેને છેદમાં મૂકતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(1 - cos &theta;)²</span>
+                                    <span><b style='color:#dc2626;'>1 - cos² &theta;</b></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બીજગણિતનું સૂત્ર અને છેદ ઉડાડવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં વર્ગ છે એટલે કૌંસ 2 વાર લખાશે. છેદમાં <b>a² - b² = (a-b)(a+b)</b> નું સૂત્ર લાગશે)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(1 - cos &theta;) (1 - cos &theta;)</span>
+                                    <span>(1 - cos &theta;) (1 + cos &theta;)</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર અને નીચેથી માઇનસ વાળો એક સમાન કૌંસ <b>(1 - cos &theta;)</b> ઉડી જશે)</i></span><br>
+                                <b> = <b style='color:#dc2626; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>1 - cos &theta;</span><span>1 + cos &theta;</span></span></b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ નિર્ણય:</b> <b>LHS = RHS</b> (ડાબા = જબા) સાબિત થાય છે!
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 4(ii): સાબિત કરો કે: [cos A / (1 + sin A)] + [(1 + sin A) / cos A] = 2 sec A", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો ચોકડી ગુણાકાર (લ.સા.અ.) વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            અહીં રકમ પહેલેથી જ <b>sin અને cos</b> માં આપેલી છે! તો હવે શું કરવું? <br>
+                            જ્યારે રકમ sin/cos માં હોય અને અપૂર્ણાંકના સરવાળા/બાદબાકી હોય, ત્યારે સીધો <b>ચોકડી ગુણાકાર (લ.સા.અ.)</b> કરી દેવો! દાખલો આપમેળે દોડવા લાગશે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ડાબી બાજુ (LHS) નો ચોકડી ગુણાકાર કરવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>LHS = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 3px;'>cos A</span>
+                                    <span>1 + sin A</span>
+                                </span> 
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 + sin A</span>
+                                    <span>cos A</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર: ડાબી બાજુ cos A નો ગુણાકાર cos A સાથે, અને જમણી બાજુ (1+sin A) નો ગુણાકાર (1+sin A) સાથે. છેદમાં બંનેનો ગુણાકાર.)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>cos² A &nbsp;+&nbsp; (1 + sin A)²</span>
+                                    <span>(1 + sin A) cos A</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કૌંસ છોડવો અને નિત્યસમનો ઉપયોગ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં <b>(a+b)² = a² + b² + 2ab</b> ના સૂત્રથી કૌંસ છોડતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>cos² A &nbsp;+&nbsp; (1² + sin² A + 2 sin A)</span>
+                                    <span>(1 + sin A) cos A</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(cos² A અને sin² A ને જોડે લખીએ)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(cos² A + sin² A) + 1 + 2 sin A</span>
+                                    <span>(1 + sin A) cos A</span>
+                                </span><br><br>
+
+                                <span style='background-color:#bae6fd; padding:5px; border-radius:3px; color:#0369a1; font-size:14px;'><i>(નિત્યસમ 1 નો ઉપયોગ: <b>cos² A + sin² A = 1</b> થાય)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#dc2626;'>1</b> + 1 + 2 sin A</span>
+                                    <span>(1 + sin A) cos A</span>
+                                </span><br><br>
+
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 + 2 sin A</span>
+                                    <span>(1 + sin A) cos A</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: સામાન્ય (Common) કાઢીને છેદ ઉડાડવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાંથી <b>2</b> સામાન્ય કાઢતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 (1 + sin A)</span>
+                                    <span>(1 + sin A) cos A</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર અને નીચેથી <b>(1 + sin A)</b> નો આખો કૌંસ ઉડી જશે)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2</span>
+                                    <span>cos A</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(આપણે જાણીએ છીએ કે 1/cos A = sec A થાય)</i></span><br>
+                                <b> = <b style='color:#dc2626; font-size:22px;'>2 sec A</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ નિર્ણય:</b> <b>LHS = RHS</b> (ડાબા = જબા) સાબિત થાય છે!
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
-                }
+        }
+                
+            
+        
+                
+            
+                
                 
             
         
