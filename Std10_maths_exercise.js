@@ -12174,9 +12174,140 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 5: જો sec &theta; = 13/12 હોય, તો બાકીના બધા જ ત્રિકોણમિતિય ગુણોત્તરો શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો એકદમ સ્કોરિંગ દાખલો (બધા 5 હીરો શોધવાના છે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 કન્સેપ્ટ:</b><br>
+                            કોઈપણ એક ગુણોત્તર આપ્યો હોય એટલે પાયથાગોરસ પ્રમેય વાપરીને ત્રિકોણની <b>ત્રણેય બાજુઓ</b> શોધી લેવાની. ત્રણેય બાજુ મળી જાય એટલે ત્રિકોણમિતિના બાકીના 5 હીરો (sin, cos, tan, cosec, cot) આરામથી મળી જશે!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,40 40,160 160,160" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 135 160 A 25 25 0 0 0 142 142" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="125" y="150" font-size="16" font-weight="bold" fill="#1d4ed8">&theta;</text>
+                                
+                                <text x="35" y="30" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">C</text>
+                                
+                                <text x="110" y="95" font-size="14" fill="#dc2626" font-weight="bold">13 (કર્ણ)</text>
+                                <text x="90" y="180" font-size="14" fill="#16a34a" font-weight="bold">12 (પાબા)</text>
+                                <text x="5" y="105" font-size="14" fill="#ea580c" font-weight="bold">? (સાબા)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બાજુઓ નક્કી કરવી અને ત્રીજી બાજુ શોધવી</b><br>
+                            આપણને <b>sec &theta; = 13/12</b> આપેલ છે.<br>
+                            સૂત્ર મુજબ: sec &theta; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>કર્ણ</span><span>પાબા</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>BC</span></span><br>
+                            તેથી, <b>કર્ણ (AC) = 13</b> અને <b>પાસેની બાજુ (BC) = 12</b>.<br><br>
+                            
+                            <b>પાયથાગોરસ પ્રમેય મુજબ:</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AC<sup>2</sup> = AB<sup>2</sup> + BC<sup>2</sup><br>
+                                (13)<sup>2</sup> = AB<sup>2</sup> + (12)<sup>2</sup><br>
+                                169 = AB<sup>2</sup> + 144<br>
+                                AB<sup>2</sup> = 169 - 144<br>
+                                AB<sup>2</sup> = 25<br>
+                                AB = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;25&nbsp;</span><br>
+                                <b style='color:#16a34a; font-size:20px;'>AB = 5</b> <span style='color:#047857; font-size:14px;'><i>(સામેની બાજુ મળી ગઈ)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બાકીના 5 ગુણોત્તરો શોધવા</b><br>
+                            હવે આપણી પાસે છે: <b>સાબા = 5, પાબા = 12, કર્ણ = 13</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#e0f2fe; padding:15px; border-radius:5px; display:flex; flex-direction:column; gap:15px;'>
+                                
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold; display:inline-block; width:100px;'>sin &theta;</span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:16px;'>
+                                        <span style='border-bottom:1px solid #0f172a; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; font-weight:bold;'> = </span>
+                                    <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>5</span>
+                                        <span>13</span>
+                                    </span></b>
+                                </div>
+
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold; display:inline-block; width:100px;'>cos &theta;</span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:16px;'>
+                                        <span style='border-bottom:1px solid #0f172a; display:block; padding:0 5px;'>પાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; font-weight:bold;'> = </span>
+                                    <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>12</span>
+                                        <span>13</span>
+                                    </span></b>
+                                </div>
+
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold; display:inline-block; width:100px;'>tan &theta;</span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:16px;'>
+                                        <span style='border-bottom:1px solid #0f172a; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>પાબા</span>
+                                    </span>
+                                    <span style='font-size:18px; font-weight:bold;'> = </span>
+                                    <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>5</span>
+                                        <span>12</span>
+                                    </span></b>
+                                </div>
+
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold; display:inline-block; width:100px;'>cosec &theta;</span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:16px;'>
+                                        <span style='border-bottom:1px solid #0f172a; display:block; padding:0 5px;'>કર્ણ</span>
+                                        <span>સાબા</span>
+                                    </span>
+                                    <span style='font-size:18px; font-weight:bold;'> = </span>
+                                    <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>13</span>
+                                        <span>5</span>
+                                    </span></b>
+                                </div>
+
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold; display:inline-block; width:100px;'>cot &theta;</span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:16px;'>
+                                        <span style='border-bottom:1px solid #0f172a; display:block; padding:0 5px;'>પાબા</span>
+                                        <span>સાબા</span>
+                                    </span>
+                                    <span style='font-size:18px; font-weight:bold;'> = </span>
+                                    <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>12</span>
+                                        <span>5</span>
+                                    </span></b>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
