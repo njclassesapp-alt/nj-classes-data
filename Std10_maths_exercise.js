@@ -15041,9 +15041,180 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 5: એક પતંગ જમીનથી 60 મીટરની ઊંચાઈ પર ઊડી રહેલ છે. આ પતંગની દોરીનો એક છેડો ક્ષણભર માટે જમીન પરના એક બિંદુ સાથે બાંધેલ છે. આ સ્થિતિમાં દોરીનો જમીન સાથેનો ખૂણો 60&deg; છે. જો દોરીમાં કોઈ ઢીલ નથી તેવું માની લઈએ, તો દોરીની લંબાઈ શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 2 માર્ક્સનો sin ના સૂત્ર આધારિત બેઝિક દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            અહીં <b>પતંગની ઊંચાઈ (સામેની બાજુ)</b> 60 મીટર આપેલી છે. અને <b>દોરીની લંબાઈ એટલે કે 'કર્ણ'</b> શોધવાનો છે. સાબા આપેલ હોય અને કર્ણ શોધવો હોય ત્યારે હંમેશા <b>sin &theta;</b> નું સૂત્ર વપરાય!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="200" viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="170,40 170,160 40,160" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="160,150 160,160 170,150" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 65 160 A 25 25 0 0 0 55 145" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <text x="70" y="152" font-size="14" font-weight="bold" fill="#ea580c">60&deg;</text>
+                                
+                                <polygon points="170,20 180,35 170,55 160,35" fill="#ef4444" stroke="#b91c1c" stroke-width="1.5"/>
+                                
+                                <text x="165" y="15" font-size="16" font-weight="bold">A (પતંગ)</text>
+                                <text x="180" y="165" font-size="16" font-weight="bold">B</text>
+                                <text x="20" y="175" font-size="16" font-weight="bold">C (દોરી બાંધેલ છે)</text>
+                                
+                                <text x="180" y="105" font-size="14" fill="#dc2626" font-weight="bold">60 m (ઊંચાઈ)</text>
+                                <text x="60" y="90" font-size="14" fill="#1d4ed8" font-weight="bold">? (દોરી/કર્ણ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આકૃતિની સમજૂતી</b><br>
+                            ધારો કે, કાટકોણ &Delta;ABC માં,<br>
+                            • <b>AB</b> = પતંગની ઊંચાઈ (સાબા) = <b>60 મીટર</b><br>
+                            • <b>AC</b> = દોરીની લંબાઈ (કર્ણ) = <b>શોધવાની છે</b><br>
+                            • <b>&ang;C</b> = દોરીએ જમીન સાથે બનાવેલ ખૂણો = <b>60&deg;</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: sin ના સૂત્રથી ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>sin 60&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB (સાબા)</span><span>AC (કર્ણ)</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(કોષ્ટકમાંથી sin 60&deg; = &radic;3 / 2 મૂકતા)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>60</span><span>AC</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા: AC સામે જશે અને 2 પેલી બાજુ ગુણાશે)</i></span><br>
+                                AC &times; &radic;3 = 60 &times; 2<br>
+                                AC &times; &radic;3 = 120<br>
+                                <b>AC = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>120</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદમાંથી વર્ગમૂળ કાઢવા 120 ના ભાગ પાડીએ: 120 = 40 &times; 3 = 40 &times; &radic;3 &times; &radic;3)</i></span><br>
+                                <b>AC = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>40 &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(નીચેથી એક &radic;3 ઉડી જશે)</i></span><br>
+                                <b>AC = <b style='color:#dc2626; font-size:24px;'>40&radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span> મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> પતંગની દોરીની લંબાઈ <b style='color:#be123c;'>40&radic;3 મીટર</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 6: 1.5 મીટર ઊંચો એક છોકરો એક 30 મીટર ઊંચી ઇમારતથી કોઈક અંતરે ઊભેલ છે. જ્યારે તે ઇમારત તરફ ચાલવાનું શરૂ કરે છે, ત્યારે કેટલાંક સમય પછી તેની આંખથી ઇમારતની ટોચના ઉત્સેધકોણનું માપ 30&deg; થી વધીને 60&deg; થાય છે. તો તે ઇમારત તરફ કેટલું અંતર ચાલ્યો હશે તે શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 3 અથવા 4 માર્ક્સનો બે ત્રિકોણ વાળો સૌથી ટ્વિસ્ટેડ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા (સૌથી મોટી ભૂલ ક્યાં થાય છે?):</b><br>
+                            છોકરો પોતે 1.5 મીટર ઊંચો છે! એટલે તે <b>તેની આંખેથી</b> જુએ છે (પગથી નહિ). તેથી ત્રિકોણની ઊંચાઈ ગણવા માટે <b>ઇમારતની કુલ ઊંચાઈ (30) માંથી છોકરાની ઊંચાઈ (1.5) બાદ કરવી પડે!</b> (એટલે સાચી ઊંચાઈ 28.5 મીટર જ લેવાની છે).
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="190" x2="260" y2="190" stroke="#64748b" stroke-width="3"/>
+                                <line x1="20" y1="140" x2="240" y2="140" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                
+                                <rect x="230" y="30" width="20" height="160" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+                                <text x="255" y="100" font-size="12" font-weight="bold">30m</text>
+                                
+                                <line x1="240" y1="30" x2="240" y2="140" stroke="#dc2626" stroke-width="3"/>
+                                
+                                <line x1="40" y1="190" x2="40" y2="140" stroke="#1d4ed8" stroke-width="4"/> <line x1="140" y1="190" x2="140" y2="140" stroke="#1d4ed8" stroke-width="4" stroke-dasharray="4,4"/> <text x="15" y="170" font-size="10" font-weight="bold" fill="#1d4ed8">1.5m</text>
+
+                                <line x1="40" y1="140" x2="240" y2="30" stroke="#ea580c" stroke-width="1.5"/> <line x1="140" y1="140" x2="240" y2="30" stroke="#ea580c" stroke-width="1.5"/> <path d="M 70 140 A 30 30 0 0 0 65 125" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="75" y="135" font-size="12" font-weight="bold">30&deg;</text>
+                                <path d="M 160 140 A 20 20 0 0 0 152 125" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="165" y="135" font-size="12" font-weight="bold">60&deg;</text>
+
+                                <text x="235" y="20" font-size="14" font-weight="bold">A</text>
+                                <text x="245" y="145" font-size="14" font-weight="bold">B</text>
+                                <text x="255" y="185" font-size="12" font-weight="bold">જમીન</text>
+                                <text x="135" y="155" font-size="14" font-weight="bold">D</text>
+                                <text x="35" y="155" font-size="14" font-weight="bold">C</text>
+                                
+                                <path d="M 40 195 Q 90 210 140 195" fill="none" stroke="#10b981" stroke-width="2"/>
+                                <text x="75" y="215" font-size="12" font-weight="bold" fill="#10b981">ચાલ્યો (x)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ત્રિકોણ માટે સાચી ઊંચાઈ (AB) શોધવી</b><br>
+                            ઇમારતની કુલ ઊંચાઈ = 30 મીટર.<br>
+                            છોકરાની ઊંચાઈ = 1.5 મીટર.<br>
+                            ત્રિકોણની સામેની બાજુ (AB) = 30 - 1.5 = <b style='color:#dc2626;'>28.5 મીટર</b>.<br><br>
+                            ધારો કે છોકરો <b>C બિંદુથી D બિંદુ</b> સુધી ચાલે છે. <br>
+                            ચાલ્યો તે અંતર <b>CD = x</b> અને બાકીનું અંતર <b>DB = y</b> ધારો.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: નાના ત્રિકોણ (&Delta;ABD) માં tan 60&deg; નો ઉપયોગ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આ ત્રિકોણમાં સાબા = 28.5 અને પાબા = y છે.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>tan 60&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>DB</span></span><br><br>
+                                
+                                &radic;3 <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>28.5</span><span>y</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(y ને સૂત્રનો કર્તા બનાવતા)</i></span><br>
+                                <b style='color:#1d4ed8;'>y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>28.5</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></b> &nbsp;&nbsp;&nbsp;... (પરિણામ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: મોટા ત્રિકોણ (&Delta;ABC) માં tan 30&deg; નો ઉપયોગ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આખા મોટા ત્રિકોણમાં સાબા = 28.5 અને પાબા = <b>આખો પાયો (x + y)</b> લેવો પડે.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>CB</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>28.5</span><span>x + y</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા)</i></span><br>
+                                <b>x + y = 28.5&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b> &nbsp;&nbsp;&nbsp;... (પરિણામ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: ચાલ્યાનું અંતર (x) શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>પરિણામ 2 માં પરિણામ 1 પરથી y ની કિંમત મુકતા:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; border:1px solid #d8b4fe; padding:15px; border-radius:5px;'>
+                                x + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>28.5</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> = 28.5&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(y વાળા પદને સામે માઇનસમાં લઈ જતા)</i></span><br>
+                                x = 28.5&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>28.5</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(લ.સા.અ. લેવા &radic;3 નો ચોકડી ગુણાકાર કરતા: &radic;3 &times; &radic;3 = 3)</i></span><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>(28.5 &times; 3) - 28.5</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>85.5 - 28.5</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>57</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કરણી લેવા 57 ના ભાગ પાડીએ: 57 = 19 &times; 3 = 19 &times; &radic;3 &times; &radic;3)</i></span><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>19 &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+                                
+                                <b>x = <b style='color:#dc2626; font-size:24px;'>19&radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span> મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> છોકરો ઇમારત તરફ <b><span style='color:#be123c;'>19&radic;3 મીટર</span></b> ચાલ્યો હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
             
                         
 };
