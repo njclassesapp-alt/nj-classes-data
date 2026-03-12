@@ -12087,9 +12087,99 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 4: જો 15 cot A = 8 હોય, તો sin A અને sec A શોધો.", 
+                    question_desc: "બોર્ડમાં રકમ ફેરવીને પૂછાતો મોસ્ટ IMP દાખલો (15 ને છેદમાં લઈ જવાની ટ્રીક)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલામાં ઘણા વિદ્યાર્થીઓ 15 ને જોઈને ગભરાઈ જાય છે, પણ તેને બરાબર ની સામે છેદમાં લઈ જવાનો છે!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,40 40,160 140,160" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 40 65 A 25 25 0 0 0 55 58" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <text x="35" y="30" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="145" y="175" font-size="16" font-weight="bold">C</text>
+                                
+                                <text x="5" y="105" font-size="14" fill="#16a34a" font-weight="bold">8 (પાબા)</text>
+                                <text x="80" y="180" font-size="14" fill="#dc2626" font-weight="bold">15 (સાબા)</text>
+                                <text x="100" y="95" font-size="14" fill="#ea580c" font-weight="bold">? (કર્ણ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: રકમને સીધી કરવી અને બાજુઓ નક્કી કરવી</b><br>
+                            આપણને <b>15 cot A = 8</b> આપેલ છે.<br>
+                            15 ગુણાકારમાં છે, તેને સામે છેદમાં મોકલતા:<br>
+                            <div style='margin-top:5px; background-color:#dcfce7; padding:8px; border-radius:5px; display:inline-block;'>
+                                <b style='color:#15803d; font-size:18px;'>cot A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>8</span><span>15</span></span></b>
+                            </div><br><br>
+                            આપણે જાણીએ છીએ કે, cot A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>પાબા</span><span>સાબા</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>BC</span></span><br>
+                            તેથી, આકૃતિ મુજબ: <b>પાસેની બાજુ (AB) = 8</b> અને <b>સામેની બાજુ (BC) = 15</b> ધારો.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પાયથાગોરસ પ્રમેયથી કર્ણ (AC) શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                AC<sup>2</sup> = AB<sup>2</sup> + BC<sup>2</sup><br>
+                                AC<sup>2</sup> = (8)<sup>2</sup> + (15)<sup>2</sup><br>
+                                AC<sup>2</sup> = 64 + 225<br>
+                                AC<sup>2</sup> = 289<br>
+                                AC = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;289&nbsp;</span><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>AC = 17</b> <span style='color:#047857; font-size:14px;'><i>(કારણ કે 289 એ 17 નો વર્ગ છે. કર્ણ મળી ગયો!)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: sin A અને sec A શોધવા</b><br>
+                            હવે આપણી પાસે ત્રણેય બાજુઓ છે:<br>
+                            • સાબા (BC) = 15<br>
+                            • પાબા (AB) = 8<br>
+                            • કર્ણ (AC) = 17<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px; display:flex; gap:30px;'>
+                                <div>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'>sin A = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'> = </span>
+                                    <b style='color:#be123c; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>15</span>
+                                        <span>17</span>
+                                    </span></b>
+                                </div>
+                                <div>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'>sec A = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 5px;'>કર્ણ</span>
+                                        <span>પાબા</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#1d4ed8; font-weight:bold;'> = </span>
+                                    <b style='color:#be123c; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>17</span>
+                                        <span>8</span>
+                                    </span></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
