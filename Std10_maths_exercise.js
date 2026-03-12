@@ -13350,6 +13350,109 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 3: જો tan (A + B) = &radic;3 અને tan (A - B) = 1/&radic;3 હોય, (0&deg; < A + B &le; 90&deg;, A > B), તો A અને B શોધો.", 
+                    question_desc: "2024 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સૌથી મોસ્ટ IMP સમીકરણ વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલામાં tan ની કિંમત કયા ખૂણા માટે આવે છે તે કોષ્ટકમાંથી જોઈને બે સમીકરણ બનાવવાના છે!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પહેલું સમીકરણ બનાવવું</b><br>
+                            આપણને આપેલું છે: <b>tan (A + B) = &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b><br>
+                            આપણે કોષ્ટક પરથી જાણીએ છીએ કે <b>tan 60&deg; = &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b> થાય.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                તેથી, tan (A + B) = tan 60&deg;<br>
+                                <b style='color:#1d4ed8; font-size:18px;'>A + B = 60&deg; &nbsp;&nbsp;&nbsp; ... (સમીકરણ 1)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બીજું સમીકરણ બનાવવું</b><br>
+                            આપણને આપેલું છે: <b>tan (A - B) = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></b><br>
+                            આપણે કોષ્ટક પરથી જાણીએ છીએ કે <b>tan 30&deg; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></b> થાય.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                તેથી, tan (A - B) = tan 30&deg;<br>
+                                <b style='color:#ea580c; font-size:18px;'>A - B = 30&deg; &nbsp;&nbsp;&nbsp; ... (સમીકરણ 2)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: લોપની રીતથી A ની કિંમત શોધવી</b><br>
+                            સમીકરણ (1) અને (2) નો સરવાળો કરતા:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.0; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                &nbsp;&nbsp;A + B = 60&deg;<br>
+                                + A - B = 30&deg;<br>
+                                ----------------<br>
+                                &nbsp;&nbsp;2A &nbsp;&nbsp;&nbsp;= 90&deg; <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(+B અને -B ઉડી જશે)</i></span><br><br>
+                                &nbsp;&nbsp;A = 90&deg; / 2<br>
+                                &nbsp;&nbsp;<b style='color:#dc2626; font-size:22px;'>A = 45&deg;</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: B ની કિંમત શોધવી</b><br>
+                            A ની કિંમત સમીકરણ (1) માં મુકતા:<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                A + B = 60&deg;<br>
+                                45&deg; + B = 60&deg;<br>
+                                B = 60&deg; - 45&deg;<br>
+                                <b style='color:#1d4ed8; font-size:22px;'>B = 15&deg;</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ ખૂણાઓ <b style='color:#be123c;'>A = 45&deg;</b> અને <b style='color:#1d4ed8;'>B = 15&deg;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                
+                { 
+                    question: "સ્વા. 8.2 પ્રશ્ન 4: નીચેનાં વિધાનો સત્ય છે કે અસત્ય તે જણાવો. તમારા જવાબની યથાર્થતા ચકાસો.", 
+                    question_desc: "1 માર્કના હેતુલક્ષી પ્રશ્નો માટે ખૂબ જ અગત્યના ખરા-ખોટા",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='margin-bottom:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b>(i) sin (A + B) = sin A + sin B</b><br>
+                            <b style='color:#b91c1c;'>જવાબ: અસત્ય (False).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: ધારો કે A = 30&deg; અને B = 60&deg; લઈએ.<br>
+                            ડાબી બાજુ: sin(30+60) = sin 90&deg; = 1.<br>
+                            જમણી બાજુ: sin 30&deg; + sin 60&deg; = 1/2 + &radic;3/2 &ne; 1.<br>
+                            આથી બંને સરખા નથી.</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#dcfce7; border-left:4px solid #22c55e; padding:10px; border-radius:4px;'>
+                            <b>(ii) જેમ &theta; નું મૂલ્ય વધે તેમ sin &theta; નું મૂલ્ય વધે છે.</b><br>
+                            <b style='color:#15803d;'>જવાબ: સત્ય (True).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: કોષ્ટકમાં આપણે જોઈ શકીએ છીએ કે sin 0&deg; = 0 છે અને જેમ ખૂણો વધતો જાય તેમ મૂલ્ય વધીને sin 90&deg; = 1 થઈ જાય છે. (એટલે કે મૂલ્ય 0 થી વધીને 1 થાય છે).</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b>(iii) જેમ &theta; નું મૂલ્ય વધે તેમ cos &theta; નું મૂલ્ય વધે છે.</b><br>
+                            <b style='color:#b91c1c;'>જવાબ: અસત્ય (False).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: cos ની લાઈન sin કરતા ઊંધી હોય છે! cos 0&deg; = 1 હોય છે અને ખૂણો વધે તેમ મૂલ્ય ઘટીને cos 90&deg; = 0 થઈ જાય છે. (એટલે કે મૂલ્ય વધતું નથી, પણ ઘટે છે).</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b>(iv) &theta; ના દરેક મૂલ્ય માટે sin &theta; = cos &theta; થાય છે.</b><br>
+                            <b style='color:#b91c1c;'>જવાબ: અસત્ય (False).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: આ માત્ર અને માત્ર <b>&theta; = 45&deg;</b> માટે જ સાચું છે (બંનેનું મૂલ્ય 1/&radic;2 થાય). બાકીના કોઈ પણ ખૂણા માટે બંનેના મૂલ્યો અલગ અલગ હોય છે.</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#dcfce7; border-left:4px solid #22c55e; padding:10px; border-radius:4px;'>
+                            <b>(v) A = 0&deg; માટે cot A અવ્યાખ્યાયિત છે.</b><br>
+                            <b style='color:#15803d;'>જવાબ: સત્ય (True).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: cot A = (cos A) / (sin A). <br>
+                            જો A = 0&deg; લઈએ તો, cot 0&deg; = (cos 0&deg;) / (sin 0&deg;) = 1 / 0 થાય. અને ગણિતમાં કોઈપણ સંખ્યાના છેદમાં 0 આવે, તો તેને "અવ્યાખ્યાયિત (Undefined / &infin;)" કહેવાય છે.</span>
+                        </div>
+
+                    </div>
+                    `
                 }
             ]
         }
@@ -13361,11 +13464,6 @@ var njMathsExercise = {
         
                 
             
-        
-                
-            
-        
-                
-     
+    
                         
 };
