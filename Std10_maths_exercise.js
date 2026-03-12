@@ -16549,6 +16549,156 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 6: વર્તુળના કેન્દ્રથી 5 સેમી અંતરે આવેલા બિંદુ A થી દોરેલા સ્પર્શકની લંબાઈ 4 સેમી છે. વર્તુળની ત્રિજ્યા શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સનો સૌથી સ્કોરિંગ અને સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            આખા ચેપ્ટરમાં આ ગોલ્ડન રૂલ યાદ રાખો: <b>"કેન્દ્ર, ત્રિજ્યા અને સ્પર્શક"</b> આ 3 શબ્દો ભેગા થાય એટલે ત્યાં <b>કાટકોણ ત્રિકોણ</b> જ બને! અને કાટકોણ ત્રિકોણ આવે એટલે <b>પાયથાગોરસ દાદા</b> જ યાદ આવે. બસ સૂત્ર મૂકો એટલે જવાબ સીધો હાથમાં!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="150" viewBox="0 0 260 150" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 80 10 A 60 60 0 0 0 20 70 A 60 60 0 0 0 80 130" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                                
+                                <polygon points="80,70 80,20 240,20" fill="#eff6ff" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <polyline points="80,30 90,30 90,20" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <circle cx="80" cy="70" r="4" fill="#0f172a"/>
+                                <text x="60" y="85" font-size="14" font-weight="bold">O (કેન્દ્ર)</text>
+                                
+                                <circle cx="80" cy="20" r="4" fill="#0f172a"/>
+                                <text x="65" y="15" font-size="14" font-weight="bold">B</text>
+                                
+                                <circle cx="240" cy="20" r="4" fill="#0f172a"/>
+                                <text x="245" y="25" font-size="14" font-weight="bold">A</text>
+                                
+                                <text x="20" y="50" font-size="14" fill="#dc2626" font-weight="bold">r = ?</text>
+                                <text x="130" y="15" font-size="14" fill="#1d4ed8" font-weight="bold">4 cm (સ્પર્શક)</text>
+                                <text x="140" y="65" font-size="14" fill="#16a34a" font-weight="bold">5 cm (અંતર)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માહિતી ગોઠવવી</b><br>
+                            આકૃતિ મુજબ ધારો કે O કેન્દ્રિત વર્તુળ છે. <b>A એ બહારનું બિંદુ</b> છે.<br>
+                            • કેન્દ્રથી અંતર (કર્ણ) <b>OA = 5 સેમી</b><br>
+                            • સ્પર્શકની લંબાઈ (પાયો) <b>AB = 4 સેમી</b><br>
+                            • ત્રિજ્યા (વેધ) <b>OB = r (શોધવાની છે)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>પ્રમેય 10.1 મુજબ, ત્રિજ્યા સ્પર્શકને લંબ હોય છે, તેથી &ang;OBA = 90&deg; થાય.</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પાયથાગોરસના પ્રમેયથી ગણતરી</b><br>
+                            કાટકોણ &Delta;OBA માં પાયથાગોરસના નિયમ મુજબ:
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.0; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                કર્ણ² = પાબા² + વેધ²<br>
+                                OA² = AB² + OB²<br>
+                                (5)² = (4)² + r²<br>
+                                25 = 16 + r²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(16 ને ડાબી બાજુ લાવતા બાદબાકી થશે)</i></span><br>
+                                r² = 25 - 16<br>
+                                r² = 9<br><br>
+
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(9 નું વર્ગમૂળ કાઢતા)</i></span><br>
+                                r = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;9&nbsp;</span><br>
+                                <b style='color:#dc2626; font-size:22px;'>r = 3 સેમી</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> વર્તુળની ત્રિજ્યા <b><span style='color:#be123c;'>3 સેમી</span></b> છે. <span style='color:#0f172a; font-size:14px;'>(યાદ રાખો: 3-4-5 ની પાયથાગોરસ ત્રિપુટી છે!)</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+            
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 7: બે સમકેન્દ્રી વર્તુળોની ત્રિજ્યાઓ 5 સેમી અને 3 સેમી છે. મોટા વર્તુળની જીવા નાના વર્તુળને સ્પર્શે છે, તો તેની લંબાઈ શોધો.", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો 100% પૂછાતો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની માસ્ટર ટ્રીક:</b><br>
+                            <b>સમકેન્દ્રી વર્તુળો (Concentric Circles)</b> એટલે એકની અંદર બીજું વર્તુળ (જેમ કે ડુંગળીના પડ!). <br>
+                            અહીં મોટા વર્તુળની જીવા એ નાના વર્તુળ માટે 'સ્પર્શક' બની જાય છે. ધોરણ 9 ના નિયમ મુજબ, કેન્દ્રમાંથી દોરેલો લંબ જીવાના <b>બે સરખા ભાગ</b> કરે છે. એટલે આપણે પાયથાગોરસથી અડધો ભાગ શોધીને તેને બમણો (Double) કરીશું!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="150" cy="90" r="75" fill="#f0f9ff" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="150" cy="90" r="45" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+                                
+                                <circle cx="150" cy="90" r="4" fill="#0f172a"/>
+                                <text x="145" y="80" font-size="14" font-weight="bold">O</text>
+
+                                <line x1="90" y1="135" x2="210" y2="135" stroke="#dc2626" stroke-width="3"/>
+                                <circle cx="90" cy="135" r="4" fill="#dc2626"/>
+                                <circle cx="210" cy="135" r="4" fill="#dc2626"/>
+                                <circle cx="150" cy="135" r="4" fill="#0f172a"/>
+                                
+                                <text x="75" y="140" font-size="14" font-weight="bold" fill="#dc2626">A</text>
+                                <text x="220" y="140" font-size="14" font-weight="bold" fill="#dc2626">B</text>
+                                <text x="145" y="155" font-size="14" font-weight="bold">P (સ્પર્શબિંદુ)</text>
+
+                                <line x1="150" y1="90" x2="150" y2="135" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="150,125 160,125 160,135" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="155" y="115" font-size="14" font-weight="bold" fill="#16a34a">3</text>
+
+                                <line x1="150" y1="90" x2="90" y2="135" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="4,4"/>
+                                <text x="110" y="105" font-size="14" font-weight="bold" fill="#1d4ed8">5</text>
+
+                                <line x1="120" y1="130" x2="120" y2="140" stroke="#0f172a" stroke-width="2"/>
+                                <line x1="180" y1="130" x2="180" y2="140" stroke="#0f172a" stroke-width="2"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આકૃતિ પરથી માહિતી</b><br>
+                            ધારો કે O કેન્દ્રવાળા બે સમકેન્દ્રી વર્તુળો છે.<br>
+                            • નાના વર્તુળની ત્રિજ્યા <b>OP = 3 સેમી</b> છે.<br>
+                            • મોટા વર્તુળની ત્રિજ્યા (કર્ણ) <b>OA = 5 સેમી</b> છે.<br>
+                            • મોટા વર્તુળની જીવા <b>AB</b> એ નાના વર્તુળને બિંદુ <b>P</b> આગળ સ્પર્શે છે.<br>
+                            <span style='color:#0f172a; font-size:14px;'>પ્રમેય 10.1 મુજબ, ત્રિજ્યા OP એ સ્પર્શક AB ને લંબ છે. તેથી &ang;OPA = 90&deg; થાય.</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કાટકોણ ત્રિકોણમાં પાયથાગોરસ</b><br>
+                            કાટકોણ &Delta;OPA માં પાયથાગોરસના પ્રમેય મુજબ:
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.0; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                OA² = OP² + AP²<br>
+                                (5)² = (3)² + AP²<br>
+                                25 = 9 + AP²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(9 ને ડાબી બાજુ લાવતા બાદબાકી થશે)</i></span><br>
+                                AP² = 25 - 9<br>
+                                AP² = 16<br><br>
+
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(16 નું વર્ગમૂળ કાઢતા)</i></span><br>
+                                AP = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;16&nbsp;</span><br>
+                                <b style='color:#1d4ed8; font-size:22px;'>AP = 4 સેમી</b> <span style='color:#0f172a; font-size:14px; font-family:sans-serif;'>(આ જીવાનો અડધો ભાગ મળ્યો)</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: આખી જીવાની લંબાઈ શોધવી</b><br>
+                            ધોરણ 9 ના નિયમ મુજબ: કેન્દ્રમાંથી જીવા પર દોરેલો લંબ જીવાને દુભાગે છે (બે સરખા ભાગ કરે છે).<br>
+                            તેથી, <b>આખી જીવા AB = 2 &times; AP</b> થાય.
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                AB = 2 &times; 4<br>
+                                <b>AB = <b style='color:#dc2626; font-size:24px;'>8 સેમી</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> મોટા વર્તુળની જીવાની લંબાઈ <b style='color:#be123c;'>8 સેમી</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -16560,35 +16710,7 @@ var njMathsExercise = {
         
                 
             
-        
-                
-            
-        
-                
-            
-        
-    
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-          
+     
         
             
                         
