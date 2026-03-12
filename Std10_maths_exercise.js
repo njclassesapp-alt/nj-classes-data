@@ -16407,9 +16407,157 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 4: સાબિત કરો કે વર્તુળના વ્યાસના અંત્યબિંદુઓએ દોરેલા સ્પર્શકો પરસ્પર સમાંતર હોય છે.", 
+                    question_desc: "2025 બોર્ડ માટે 2 કે 3 માર્ક્સનો સૌથી વધુ પૂછાતો સાબિતીવાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            કોઈપણ બે રેખાઓને સમાંતર સાબિત કરવા માટે આપણે ધોરણ 9 નો નિયમ વાપરીશું: જો <b>અંતઃયુગ્મકોણો (Z આકારના ખૂણાઓ) સમાન થાય</b>, તો તે બે રેખાઓ એકબીજાને સમાંતર જ હોય! અહીં પ્રમેય 10.1 (ત્રિજ્યા અને સ્પર્શક વચ્ચે 90&deg; નો ખૂણો બને છે) નો ઉપયોગ થશે.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="220" viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="150" cy="110" r="70" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="150" cy="110" r="4" fill="#0f172a"/>
+                                <text x="145" y="95" font-size="14" font-weight="bold">O</text>
+
+                                <line x1="80" y1="110" x2="220" y2="110" stroke="#16a34a" stroke-width="2"/>
+                                <circle cx="80" cy="110" r="4" fill="#16a34a"/>
+                                <circle cx="220" cy="110" r="4" fill="#16a34a"/>
+                                <text x="65" y="105" font-size="14" font-weight="bold">A</text>
+                                <text x="230" y="105" font-size="14" font-weight="bold">B</text>
+
+                                <line x1="80" y1="30" x2="80" y2="190" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="65" y="40" font-size="14" font-weight="bold" fill="#1d4ed8">P</text>
+                                <text x="65" y="185" font-size="14" font-weight="bold" fill="#1d4ed8">Q</text>
+
+                                <line x1="220" y1="30" x2="220" y2="190" stroke="#dc2626" stroke-width="2"/>
+                                <text x="230" y="40" font-size="14" font-weight="bold" fill="#dc2626">R</text>
+                                <text x="230" y="185" font-size="14" font-weight="bold" fill="#dc2626">S</text>
+
+                                <polyline points="80,100 90,100 90,110" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <polyline points="220,120 210,120 210,110" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                
+                                <path d="M 80 40 L 80 110 L 220 110 L 220 180" fill="none" stroke="#ea580c" stroke-width="3" stroke-dasharray="4,4" opacity="0.6"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>પક્ષ (Given):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>ધારો કે O કેન્દ્રવાળા વર્તુળનો એક વ્યાસ AB છે. <b>AB ના અંત્યબિંદુઓ A અને B</b> આગળ દોરેલા સ્પર્શકો અનુક્રમે <b>PQ</b> અને <b>RS</b> છે.</span>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>સ્પર્શકો એકબીજાને સમાંતર છે, એટલે કે <b>PQ || RS</b></span>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; font-size:15px; line-height:1.8;'>
+                                1. આપણે જાણીએ છીએ કે, <b>વર્તુળના કોઈ બિંદુએ દોરેલો સ્પર્શક સ્પર્શબિંદુમાંથી પસાર થતી ત્રિજ્યાને લંબ (90&deg;) હોય છે. (પ્રમેય 10.1)</b><br><br>
+                                
+                                2. અહીં <b>OA</b> એ ત્રિજ્યા છે અને <b>PQ</b> એ A બિંદુએ સ્પર્શક છે.<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, OA &perp; PQ  &nbsp;&#10551;&nbsp; <b style='color:#1d4ed8;'>&ang;OAP = 90&deg;</b> &nbsp;... (પરિણામ 1)<br><br>
+
+                                3. તે જ રીતે, <b>OB</b> એ ત્રિજ્યા છે અને <b>RS</b> એ B બિંદુએ સ્પર્શક છે.<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, OB &perp; RS  &nbsp;&#10551;&nbsp; <b style='color:#dc2626;'>&ang;OBS = 90&deg;</b> &nbsp;... (પરિણામ 2)<br><br>
+
+                                4. પરિણામ 1 અને 2 પરથી કહી શકાય કે:<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#ea580c; font-size:18px;'>&ang;OAP = &ang;OBS (બંને 90&deg; છે)</b><br><br>
+
+                                5. આકૃતિમાં ધ્યાનથી જુઓ, રેખા PQ અને RS માટે <b>રેખા AB એ છેદિકા</b> તરીકે વર્તે છે.<br>
+                                &nbsp;&nbsp;&nbsp;અને &ang;OAP અને &ang;OBS એ છેદિકાની સામસામેની બાજુએ બનેલા <b>અંતઃયુગ્મકોણો (Z આકારના ખૂણા)</b> છે.<br><br>
+                                
+                                6. <b>નિયમ:</b> જ્યારે કોઈ બે રેખાઓની છેદિકાથી બનતા અંતઃયુગ્મકોણો સમાન હોય, તો તે બે <b>રેખાઓ હંમેશા સમાંતર હોય છે.</b><br><br>
+                                
+                                <b style='color:#15803d; font-size:18px;'>તેથી, PQ || RS સાબિત થાય છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 5: સાબિત કરો કે વર્તુળના સ્પર્શકના સ્પર્શબિંદુમાંથી દોરેલો લંબ વર્તુળના કેન્દ્રમાંથી પસાર થાય છે.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે વિરોધાભાસની રીત (Proof by Contradiction) વાળો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આ દાખલો <b>'વિરોધાભાસની રીત'</b> થી ગણાય છે. એટલે કે આપણે પહેલા એવું <b>ખોટું ધારીશું</b> કે લંબ કેન્દ્રમાંથી નહિ, પણ કોઈ બીજા બિંદુમાંથી પસાર થાય છે. પછી છેલ્લે આપણી જ ધારણા ખોટી સાબિત કરી દઈશું!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="140" cy="90" r="70" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <circle cx="140" cy="90" r="4" fill="#0f172a"/>
+                                <text x="125" y="85" font-size="14" font-weight="bold">O</text>
+
+                                <circle cx="170" cy="90" r="4" fill="#dc2626"/>
+                                <text x="175" y="85" font-size="14" font-weight="bold" fill="#dc2626">O'</text>
+
+                                <line x1="40" y1="160" x2="240" y2="160" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="45" y="180" font-size="14" font-weight="bold" fill="#1d4ed8">A</text>
+                                <text x="230" y="180" font-size="14" font-weight="bold" fill="#1d4ed8">B</text>
+
+                                <circle cx="140" cy="160" r="5" fill="#16a34a"/>
+                                <text x="145" y="185" font-size="14" font-weight="bold" fill="#16a34a">P</text>
+
+                                <line x1="140" y1="90" x2="140" y2="160" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="140,150 150,150 150,160" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+
+                                <line x1="170" y1="90" x2="140" y2="160" stroke="#dc2626" stroke-width="2" stroke-dasharray="5,5"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>પક્ષ (Given):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>ધારો કે <b>O કેન્દ્રવાળા</b> વર્તુળનો એક સ્પર્શક <b>AB</b> છે, અને તેનું <b>સ્પર્શબિંદુ P</b> છે.</span>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>સ્પર્શબિંદુ P આગળ દોરેલો લંબ વર્તુળના <b>કેન્દ્ર O માંથી જ પસાર થાય છે.</b></span>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; font-size:15px; line-height:1.8;'>
+                                1. ધારો કે સ્પર્શબિંદુ P આગળ દોરેલો <b>લંબ કેન્દ્ર O માંથી પસાર થતો નથી</b>, પરંતુ કોઈ બીજા <b>બિંદુ O'</b> માંથી પસાર થાય છે.<br><br>
+                                
+                                2. આપણી ધારણા મુજબ <b>O'P એ સ્પર્શક AB ને લંબ છે</b>.<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, <b style='color:#dc2626;'>&ang;O'PB = 90&deg;</b> &nbsp;... (પરિણામ 1)<br><br>
+
+                                3. પરંતુ, પ્રમેય 10.1 ના નિયમ મુજબ આપણે જાણીએ છીએ કે <b>સ્પર્શબિંદુમાંથી દોરેલી સાચી ત્રિજ્યા (OP) એ સ્પર્શકને લંબ હોય છે.</b><br>
+                                &nbsp;&nbsp;&nbsp;તેથી, <b style='color:#1d4ed8;'>&ang;OPB = 90&deg;</b> &nbsp;... (પરિણામ 2)<br><br>
+
+                                4. પરિણામ 1 અને 2 ને સરખાવતાં:<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#ea580c; font-size:18px;'>&ang;O'PB = &ang;OPB = 90&deg;</b><br><br>
+
+                                5. આકૃતિ જોતાં સ્પષ્ટ થાય છે કે &ang;O'PB એ &ang;OPB નો એક ભાગ છે. એક નાનો ખૂણો આખા 90&deg; ના ખૂણા બરાબર ક્યારેય ન હોઈ શકે!<br>
+                                &nbsp;&nbsp;&nbsp;આ <b>ફક્ત અને ફક્ત ત્યારે જ શક્ય બને, જ્યારે રેખા O'P અને OP એક જ હોય!</b> (એટલે કે O અને O' એક જ બિંદુ પર સંપાતી હોય).<br><br>
+                                
+                                6. તેથી, <b>આપણી ધારણા ખોટી છે.</b><br>
+                                <b style='color:#15803d; font-size:18px;'>આમ સાબિત થાય છે કે સ્પર્શબિંદુ આગળ દોરેલો લંબ હંમેશા કેન્દ્ર O માંથી જ પસાર થાય છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
