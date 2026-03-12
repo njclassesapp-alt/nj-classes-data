@@ -12002,9 +12002,97 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 3: જો sin A = 3/4 હોય, તો cos A અને tan A ની ગણતરી કરો.", 
+                    question_desc: "2025 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સૌથી વધુ પૂછાતો પાયથાગોરસ વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક (NJ Classes ની દેશી રીત):</b><br>
+                            જ્યારે પણ કોઈ એક ગુણોત્તર (જેમ કે sin A) આપેલો હોય, ત્યારે તરત જ કાટકોણ ત્રિકોણ દોરીને તેની <b>બે બાજુઓના માપ</b> લખી લેવા. અને ત્રીજી બાજુ હંમેશા <b>પાયથાગોરસના પ્રમેયથી</b> શોધી લેવી! ત્રીજી બાજુ મળી જાય એટલે કોઈ પણ હીરો (sin, cos, tan) મળી જાય!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,40 40,160 140,160" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 40 65 A 25 25 0 0 0 55 58" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <text x="35" y="30" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="145" y="175" font-size="16" font-weight="bold">C</text>
+                                
+                                <text x="85" y="180" font-size="14" fill="#1d4ed8" font-weight="bold">3 (સાબા)</text>
+                                <text x="100" y="95" font-size="14" fill="#dc2626" font-weight="bold">4 (કર્ણ)</text>
+                                <text x="5" y="105" font-size="14" fill="#ea580c" font-weight="bold">? (પાબા)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આકૃતિ પરથી બાજુઓના માપ નક્કી કરવા</b><br>
+                            આપણને <b>sin A = 3/4</b> આપેલ છે.<br>
+                            આપણે જાણીએ છીએ કે, sin A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાબા</span><span>કર્ણ</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>AC</span></span><br>
+                            તેથી, આકૃતિ મુજબ: <b>સામેની બાજુ (BC) = 3</b> અને <b>કર્ણ (AC) = 4</b> ધારો.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પાયથાગોરસ પ્રમેયથી ત્રીજી બાજુ (AB) શોધવી</b><br>
+                            કાટકોણ &Delta;ABC માં પાયથાગોરસ મુજબ:
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                AC<sup>2</sup> = AB<sup>2</sup> + BC<sup>2</sup><br>
+                                (4)<sup>2</sup> = AB<sup>2</sup> + (3)<sup>2</sup><br>
+                                16 = AB<sup>2</sup> + 9<br>
+                                AB<sup>2</sup> = 16 - 9<br>
+                                AB<sup>2</sup> = 7<br>
+                                <b style='color:#1d4ed8; font-size:20px;'>AB = &radic;<span style='border-top:1.5px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;7&nbsp;</span></b> <span style='color:#047857; font-size:14px;'><i>(પાસેની બાજુ મળી ગઈ)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: cos A અને tan A શોધવા</b><br>
+                            હવે આપણી પાસે ત્રણેય બાજુઓ છે:<br>
+                            • સાબા (BC) = 3<br>
+                            • પાબા (AB) = &radic;<span style='border-top:1px solid black; display:inline-block; padding-top:1px;'>&nbsp;7&nbsp;</span><br>
+                            • કર્ણ (AC) = 4<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px; display:flex; gap:30px;'>
+                                <div>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'>cos A = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>પાબા</span>
+                                        <span>કર્ણ</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#ea580c; font-weight:bold;'> = </span>
+                                    <b style='color:#be123c; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>&radic;<span style='border-top:2px solid #be123c; display:inline-block; padding-top:1px;'>&nbsp;7&nbsp;</span></span>
+                                        <span>4</span>
+                                    </span></b>
+                                </div>
+                                <div>
+                                    <span style='font-size:18px; color:#16a34a; font-weight:bold;'>tan A = </span>
+                                    <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                        <span style='border-bottom:2px solid #16a34a; display:block; padding:0 5px;'>સાબા</span>
+                                        <span>પાબા</span>
+                                    </span>
+                                    <span style='font-size:18px; color:#16a34a; font-weight:bold;'> = </span>
+                                    <b style='color:#be123c; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                        <span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>3</span>
+                                        <span>&radic;<span style='border-top:2px solid #be123c; display:inline-block; padding-top:1px;'>&nbsp;7&nbsp;</span></span>
+                                    </span></b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
