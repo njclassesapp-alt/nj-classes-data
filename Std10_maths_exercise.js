@@ -14531,9 +14531,184 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 4(ix): સાબિત કરો કે: (cosec A - sin A)(sec A - cos A) = 1 / (tan A + cot A)", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો ડાબી અને જમણી બંને બાજુ ઉકેલવા વાળો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર રૂલ:</b><br>
+                            જ્યારે ડાબી બાજુ ઉકેલતા ઉકેલતા આપણે અટકી જઈએ, ત્યારે તેને ત્યાં જ છોડી દેવી અને પછી <b>જમણી બાજુ (RHS)</b> ને પકડીને ઉકેલવી. બંનેનો જવાબ સરખો આવી જશે! અને હા, બધાને <b>sin અને cos</b> માં ફેરવવાનો નિયમ તો ભૂલવાનો જ નથી!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ડાબી બાજુ (LHS) નો ઉકેલ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>cosec ની જગ્યાએ 1/sin અને sec ની જગ્યાએ 1/cos મૂકતા:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>LHS = </b> 
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>sin A</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>sin A</span><span>1</span></span> <span style='font-size:24px;'>)</span>
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>cos A</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>cos A</span><span>1</span></span> <span style='font-size:24px;'>)</span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંને કૌંસમાં લ.સા.અ. લેતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - sin² A</span><span>sin A</span></span> <span style='font-size:24px;'>)</span>
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - cos² A</span><span>cos A</span></span> <span style='font-size:24px;'>)</span><br><br>
+
+                                <span style='background-color:#bae6fd; padding:5px; border-radius:3px; color:#0369a1; font-size:14px;'><i>(નિત્યસમ 1 વાપરતા: 1 - sin² = cos² અને 1 - cos² = sin²)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#dc2626;'>cos² A</b></span>
+                                    <span>sin A</span>
+                                </span>
+                                <b> &nbsp;&times;&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#dc2626;'>sin² A</b></span>
+                                    <span>cos A</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર અને નીચેથી એક-એક sin અને cos ઉડી જશે)</i></span><br>
+                                <b>LHS = <b style='color:#1d4ed8; font-size:22px;'>sin A &times; cos A</b></b> (આને સાચવી રાખો)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: જમણી બાજુ (RHS) નો ઉકેલ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>જમણી બાજુમાં <b>tan અને cot</b> આપેલા છે, તેને <b>sin અને cos</b> માં ફેરવી દઈએ.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>RHS = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1</span>
+                                    <span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>sin A</span><span>cos A</span></span> &nbsp;+&nbsp; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>cos A</span><span>sin A</span></span></span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(નીચેના છેદમાં ચોકડી ગુણાકાર (લ.સા.અ.) કરતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px; padding-bottom:5px;'>1</span>
+                                    <span style='padding-top:5px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>sin² A + cos² A</span><span>sin A cos A</span></span></span>
+                                </span><br><br>
+
+                                <span style='background-color:#bae6fd; padding:5px; border-radius:3px; color:#0369a1; font-size:14px;'><i>(નિત્યસમ 1: <b>sin² A + cos² A = 1</b> મૂકતા, અને <b>છેદનો છેદ અંશમાં</b> લઈ જતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 &times; (sin A cos A)</span>
+                                    <span><b style='color:#dc2626;'>1</b></span>
+                                </span><br><br>
+
+                                <b>RHS = <b style='color:#1d4ed8; font-size:22px;'>sin A &times; cos A</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ નિર્ણય:</b> <b>LHS = RHS</b> (બંનેનો જવાબ સમાન છે). સાબિત થાય છે!
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 4(x): સાબિત કરો કે: (1 + tan² A) / (1 + cot² A) = [(1 - tan A) / (1 - cot A)]² = tan² A", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો ત્રણ પદો વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: અહીં ડાબી બાજુ બે અલગ-અલગ પદો (ભાગ 1 અને ભાગ 2) આપ્યા છે. બંનેનો જવાબ આપણે ગણીને 'tan² A' જ લાવવાનો છે!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પહેલા પદની ગણતરી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આ પદ આપણે આગળ MCQ માં પણ ગણ્યું હતું! સીધા નિત્યસમો વાપરીશું.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>પહેલો ભાગ = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 + tan² A</span>
+                                    <span>1 + cot² A</span>
+                                </span><br><br>
+
+                                <span style='background-color:#bbf7d0; padding:5px; border-radius:3px; color:#15803d; font-size:14px;'><i>(નિત્યસમ 2 અને 3 નો સીધો ઉપયોગ કરતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#1d4ed8;'>sec² A</b></span>
+                                    <span><b style='color:#ea580c;'>cosec² A</b></span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેને sin અને cos માં ફેરવીને <b>છેદનો છેદ અંશમાં</b> લઈ જતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>cos² A</span></span></span>
+                                    <span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>sin² A</span></span></span>
+                                </span>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin² A</span>
+                                    <span>cos² A</span>
+                                </span>
+                                <b> = <b style='color:#dc2626; font-size:24px;'>tan² A</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બીજા પદની ગણતરી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં નીચેના <b>cot A ને 1/tan A</b> માં ફેરવીશું, જેથી આખો દાખલો tan માં આવી જાય!</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>બીજો ભાગ = </b> 
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>[</span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - tan A</span>
+                                    <span>1 - cot A</span>
+                                </span>
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>]</span>²<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(cot A ની જગ્યાએ 1/tan A મૂકતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>[</span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - tan A</span>
+                                    <span>1 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>tan A</span></span></span>
+                                </span>
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>]</span>²<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(નીચેના છેદમાં લ.સા.અ. લેતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>[</span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px; padding-bottom:5px;'>1 - tan A</span>
+                                    <span style='padding-top:5px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>tan A - 1</span><span>tan A</span></span></span>
+                                </span>
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>]</span>²<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(<b>છેદનો છેદ અંશમાં જાય</b>, એટલે સૌથી નીચેનો tan A ઉપર અંશમાં ગુણાકારમાં જશે)</i></span><br>
+                                <b> = </b> 
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>[</span>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>tan A (1 - tan A)</span>
+                                    <span>(tan A - 1)</span>
+                                </span>
+                                <span style='font-size:38px; font-weight:normal; position:relative; top:5px;'>]</span>²<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં <b>(1 - tan A)</b> છે અને છેદમાં <b>(tan A - 1)</b> છે. તેમને સરખા કરવા માટે અંશમાંથી માઇનસ <b>(-)</b> બહાર કાઢતા, બંને કૌંસ ઉડી જશે)</i></span><br>
+                                <b> = </b> 
+                                <span style='font-size:24px;'>(</span> <b style='color:#dc2626;'>-</b> tan A <span style='font-size:24px;'>)</span>²<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કોઈપણ માઇનસ (-) સંખ્યાનો વર્ગ હંમેશા પ્લસ (+) જ થાય!)</i></span><br>
+                                <b> = <b style='color:#dc2626; font-size:24px;'>tan² A</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ નિર્ણય:</b> બંને ભાગનો જવાબ <b>tan² A</b> આવે છે. તેથી સાબિત થાય છે કે ત્રણેય પદો સમાન છે!
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
