@@ -12937,24 +12937,111 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 1(iii): કિંમત શોધો: cos 45&deg; / (sec 30&deg; + cosec 30&deg;)", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો છેદમાં કરણી (Rationalization) લેવા વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            આ દાખલામાં ગણતરી બહુ લાંબી છે. બે નિયમ યાદ રાખવા:<br>
+                            1. <b>"છેદનો છેદ અંશમાં જાય"</b>.<br>
+                            2. <b>"કરણી લેવી"</b>: જો છેદમાં વર્ગમૂળ વાળી સરવાળાની કિંમત હોય, તો નિશાની બદલીને (પ્લસ ની જગ્યાએ માઇનસ) ઉપર-નીચે ગુણાકાર કરવો પડે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કોષ્ટકમાંથી કિંમતો મૂકવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>cos 45&deg;</span>
+                                    <span>sec 30&deg; + cosec 30&deg;</span>
+                                </span>
+                                <b> &nbsp;=&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span></span></span></span>
+                                    <span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>2</span><span>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> &nbsp;+&nbsp; 2</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: છેદમાં લ.સા.અ. (LCM) લેવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(નીચેના છેદમાં &radic;3 નો ચોકડી ગુણાકાર કરતા)</i></span><br><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px; padding-bottom:5px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span></span></span></span>
+                                    <span style='padding-top:5px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>2 + 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે છેદનો છેદ એટલે કે સૌથી નીચેનો &radic;3 સીધો ઉપર અંશમાં જશે, અને પેલો 1 ના છેદમાં રહેલો &radic;2 નીચે આવશે)</i></span><br><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                    <span>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span> (2 + 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span>)</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: છેદની કરણી (Rationalization) લેવી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>ગણિતના નિયમ મુજબ છેદમાં વર્ગમૂળ ક્યારેય ન રખાય. એટલે આપણે કૌંસ છોડીને કરણી લઈશું.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                    <span>2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span> + 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span></span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અહીં મોટી સંખ્યા આગળ રાખીએ જેથી બાદબાકી સહેલી પડે: 2&radic;6 ને આગળ લઈએ)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                    <span>2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span> + 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span></span>
+                                </span>
+                                <b> &nbsp;&times;&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span> - 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span></span>
+                                    <span>2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span> - 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span></span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપરનો ગુણાકાર: &radic;3 નો બંને સાથે. અને નીચે a² - b² નો નિયમ)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;18&nbsp;</span> - 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span></span>
+                                    <span>(2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span>)² - (2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span>)²</span>
+                                </span><br><br>
+
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2(3&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span>) - 2&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span></span>
+                                    <span>(4 &times; 6) - (4 &times; 2)</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાંથી 2 સામાન્ય કાઢતાં)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 (3&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span> - &radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span>)</span>
+                                    <span>24 - 8</span>
+                                </span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 (3&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;2&nbsp;</span> - &radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;6&nbsp;</span>)</span>
+                                    <span>16</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ અને છેદમાં 2 વડે છેદ ઉડાડતાં, 2 &times; 8 = 16)</i></span><br>
+                                <b> = <b style='color:#dc2626; font-size:24px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>3&radic;<span style='border-top:2px solid #dc2626; display:inline-block;'>&nbsp;2&nbsp;</span> - &radic;<span style='border-top:2px solid #dc2626; display:inline-block;'>&nbsp;6&nbsp;</span></span><span>8</span></span></b></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
                 
             
         
