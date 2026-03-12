@@ -16179,9 +16179,243 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: સ્વાધ્યાય 10.2 ના દાખલા ગણવા માટે કયો એક નિયમ (પ્રમેય 10.2) યાદ રાખવો?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 પ્રમેય 10.2 (આખા ચેપ્ટરનો બાપ!):</b><br>
+                            "વર્તુળની બહારના કોઈ પણ બિંદુમાંથી વર્તુળને <b>વધુમાં વધુ 2 સ્પર્શક</b> દોરી શકાય, અને આ <b>બંને સ્પર્શકોની લંબાઈ હંમેશા સમાન જ હોય છે!</b>"<br>
+                            વળી, પ્રમેય 10.1 મુજબ, ત્રિજ્યા હંમેશા સ્પર્શક સાથે <b>90&deg; નો ખૂણો (કાટખૂણો)</b> બનાવે છે.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="80" cy="100" r="60" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="80" cy="100" r="4" fill="#0f172a"/>
+                                <text x="65" y="105" font-size="14" font-weight="bold">O</text>
+
+                                <circle cx="250" cy="100" r="5" fill="#dc2626"/>
+                                <text x="255" y="105" font-size="14" font-weight="bold" fill="#dc2626">P</text>
+                                <text x="220" y="125" font-size="12" fill="#0f172a">બહારનું બિંદુ</text>
+
+                                <line x1="250" y1="100" x2="105" y2="45" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="250" y1="100" x2="105" y2="155" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <circle cx="105" cy="45" r="4" fill="#1d4ed8"/>
+                                <text x="100" y="35" font-size="14" font-weight="bold" fill="#1d4ed8">A</text>
+                                <circle cx="105" cy="155" r="4" fill="#1d4ed8"/>
+                                <text x="100" y="175" font-size="14" font-weight="bold" fill="#1d4ed8">B</text>
+
+                                <line x1="170" y1="65" x2="180" y2="80" stroke="#dc2626" stroke-width="2"/>
+                                <line x1="170" y1="135" x2="180" y2="120" stroke="#dc2626" stroke-width="2"/>
+                                <text x="185" y="105" font-size="14" font-weight="bold" fill="#dc2626">PA = PB</text>
+
+                                <line x1="80" y1="100" x2="105" y2="45" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                                <line x1="80" y1="100" x2="105" y2="155" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                                
+                                <polyline points="95,50 100,58 110,54" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+                                <polyline points="95,150 100,142 110,146" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>3 ગોલ્ડન રૂલ્સ:</b><br>
+                            1. સ્પર્શકો <b>PA = PB</b> થાય.<br>
+                            2. <b>&ang;A અને &ang;B બંને કાટખૂણા (90&deg;)</b> થાય.<br>
+                            3. ચતુષ્કોણ OAPB ના સામસામેના ખૂણા <b>(&ang;O અને &ang;P) નો સરવાળો હંમેશા 180&deg;</b> થાય!
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 1: બિંદુ Q માંથી દોરેલા વર્તુળના સ્પર્શકની લંબાઈ 24 સેમી અને વર્તુળના કેન્દ્રથી તેનું અંતર 25 સેમી હોય, તો વર્તુળની ત્રિજ્યા શોધો.", 
+                    question_desc: "વિકલ્પો: (A) 7 સેમી  (B) 12 સેમી  (C) 15 સેમી  (D) 24.5 સેમી (1 માર્કનો મોસ્ટ IMP)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            જ્યારે પણ 'કેન્દ્ર', 'સ્પર્શક' અને 'ત્રિજ્યા' આ 3 શબ્દો ભેગા થાય, એટલે સમજી લેવું કે ત્યાં <b>કાટકોણ ત્રિકોણ</b> બનશે! અને કાટકોણ ત્રિકોણ આવે એટલે <b>પાયથાગોરસનો પ્રમેય</b> જ વાપરવાનો હોય.
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="150" viewBox="0 0 260 150" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 80 10 A 60 60 0 0 0 20 70 A 60 60 0 0 0 80 130" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                                
+                                <polygon points="80,70 80,20 240,20" fill="#eff6ff" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <polyline points="80,30 90,30 90,20" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <circle cx="80" cy="70" r="4" fill="#0f172a"/>
+                                <text x="65" y="85" font-size="14" font-weight="bold">O</text>
+                                
+                                <circle cx="80" cy="20" r="4" fill="#0f172a"/>
+                                <text x="65" y="15" font-size="14" font-weight="bold">P</text>
+                                
+                                <circle cx="240" cy="20" r="4" fill="#0f172a"/>
+                                <text x="245" y="25" font-size="14" font-weight="bold">Q</text>
+                                
+                                <text x="20" y="50" font-size="14" fill="#dc2626" font-weight="bold">r (ત્રિજ્યા)</text>
+                                <text x="140" y="15" font-size="14" fill="#1d4ed8" font-weight="bold">24 cm (સ્પર્શક)</text>
+                                <text x="140" y="65" font-size="14" fill="#16a34a" font-weight="bold">25 cm (કર્ણ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરી (પાયથાગોરસના પ્રમેયથી):</b><br>
+                            આકૃતિમાં, &ang;OPQ = 90&deg; છે. (કારણ કે ત્રિજ્યા સ્પર્શકને લંબ હોય છે).<br>
+                            તેથી OQ કર્ણ બનશે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                OQ² = OP² + PQ²<br>
+                                (25)² = r² + (24)²<br>
+                                625 = r² + 576<br><br>
+                                
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(576 ને ડાબી બાજુ લાવતા બાદબાકી થશે)</i></span><br>
+                                r² = 625 - 576<br>
+                                r² = 49<br>
+                                <b>r = &radic;<span style='border-top:1.5px solid black; display:inline-block; padding-top:1px;'>&nbsp;49&nbsp;</span></b><br>
+                                <b style='color:#dc2626; font-size:22px;'>r = 7 સેમી</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; border-left:4px solid #f59e0b; padding:8px; border-radius:4px;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ: (A) 7 સેમી</b> (નોંધ: 7-24-25 ની પાયથાગોરસની ત્રિપુટી યાદ રાખવી)
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 2: આપેલ આકૃતિમાં, જો TP અને TQ એ O કેન્દ્રવાળા વર્તુળના સ્પર્શકો હોય અને &ang;POQ = 110&deg; હોય, તો &ang;PTQ શોધો.", 
+                    question_desc: "વિકલ્પો: (A) 60&deg;  (B) 70&deg;  (C) 80&deg;  (D) 90&deg;",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની જાદુઈ ટ્રીક:</b><br>
+                            કોઈ ગણતરી કરવાની જરૂર નથી! માત્ર એટલું યાદ રાખો કે કેન્દ્ર આગળ બનતો ખૂણો (અંદરનો) અને બહારના બિંદુ આગળ બનતો ખૂણો (બહારનો), આ બંનેનો <b>સરવાળો હંમેશા 180&deg;</b> થાય છે! (એટલે કે બંને એકબીજાના પૂરકકોણ હોય છે).
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="100" r="60" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="100" cy="100" r="4" fill="#0f172a"/>
+                                <text x="80" y="105" font-size="14" font-weight="bold">O</text>
+
+                                <circle cx="260" cy="100" r="5" fill="#dc2626"/>
+                                <text x="265" y="105" font-size="14" font-weight="bold" fill="#dc2626">T</text>
+
+                                <line x1="260" y1="100" x2="125" y2="45" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="260" y1="100" x2="125" y2="155" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <circle cx="125" cy="45" r="4" fill="#1d4ed8"/>
+                                <text x="120" y="35" font-size="14" font-weight="bold" fill="#1d4ed8">P</text>
+                                <circle cx="125" cy="155" r="4" fill="#1d4ed8"/>
+                                <text x="120" y="175" font-size="14" font-weight="bold" fill="#1d4ed8">Q</text>
+
+                                <line x1="100" y1="100" x2="125" y2="45" stroke="#16a34a" stroke-width="2"/>
+                                <line x1="100" y1="100" x2="125" y2="155" stroke="#16a34a" stroke-width="2"/>
+                                
+                                <path d="M 120 90 A 25 25 0 0 1 120 110" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <text x="125" y="105" font-size="12" font-weight="bold" fill="#ea580c">110&deg;</text>
+                                
+                                <path d="M 235 90 A 30 30 0 0 0 235 110" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="205" y="105" font-size="12" font-weight="bold" fill="#dc2626">?</text>
+                                
+                                <polyline points="115,50 120,58 130,54" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <polyline points="115,150 120,142 130,146" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરી (વગર પેન ઉપાડીને!):</b><br>
+                            આપણે જાણીએ છીએ કે ચતુષ્કોણ OPTQ માં <b>&ang;POQ + &ang;PTQ = 180&deg;</b> થાય.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                110&deg; + &ang;PTQ = 180&deg;<br><br>
+                                
+                                &ang;PTQ = 180&deg; - 110&deg;<br>
+                                <b style='color:#dc2626; font-size:22px;'>&ang;PTQ = 70&deg;</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; border-left:4px solid #f59e0b; padding:8px; border-radius:4px;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ: (B) 70&deg;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 3: જો O કેન્દ્રવાળા વર્તુળને બિંદુ P માંથી દોરેલા સ્પર્શકો PA અને PB વચ્ચે 80&deg; નો ખૂણો રચાતો હોય, તો &ang;POA = ____", 
+                    question_desc: "વિકલ્પો: (A) 50&deg;  (B) 60&deg;  (C) 70&deg;  (D) 80&deg; (અડધા ખૂણાવાળો ટ્વિસ્ટેડ દાખલો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            આ દાખલામાં આપણે આખો ખૂણો નહિ, પણ <b>અડધો ખૂણો (&ang;POA)</b> શોધવાનો છે! <br>
+                            કેન્દ્ર O અને બહારના બિંદુ P ને જોડતી લાઈન, બંને ખૂણાઓના બરાબર બે <b>અડધા-અડધા (સરખા)</b> ભાગ કરે છે.
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f3e8ff; border:1px solid #d8b4fe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="80" cy="100" r="60" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="80" cy="100" r="4" fill="#0f172a"/>
+                                <text x="65" y="105" font-size="14" font-weight="bold">O</text>
+
+                                <circle cx="250" cy="100" r="5" fill="#dc2626"/>
+                                <text x="255" y="105" font-size="14" font-weight="bold" fill="#dc2626">P</text>
+
+                                <line x1="250" y1="100" x2="105" y2="45" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="250" y1="100" x2="105" y2="155" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <circle cx="105" cy="45" r="4" fill="#1d4ed8"/>
+                                <text x="100" y="35" font-size="14" font-weight="bold" fill="#1d4ed8">A</text>
+                                <circle cx="105" cy="155" r="4" fill="#1d4ed8"/>
+                                <text x="100" y="175" font-size="14" font-weight="bold" fill="#1d4ed8">B</text>
+
+                                <line x1="80" y1="100" x2="105" y2="45" stroke="#16a34a" stroke-width="2"/>
+                                <line x1="80" y1="100" x2="105" y2="155" stroke="#16a34a" stroke-width="2"/>
+                                <line x1="80" y1="100" x2="250" y2="100" stroke="#ea580c" stroke-width="2" stroke-dasharray="5,5"/>
+
+                                <path d="M 215 85 A 40 40 0 0 0 215 115" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="225" y="105" font-size="12" font-weight="bold" fill="#dc2626">80&deg;</text>
+                                
+                                <path d="M 95 90 A 20 20 0 0 0 100 100" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="110" y="95" font-size="12" font-weight="bold" fill="#1d4ed8">?</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>ગણતરીનાં સ્ટેપ્સ:</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>1. આખો ખૂણો &ang;APB = 80&deg; છે. <br>
+                            2. <b>OP રેખા</b> તેના બરાબર બે અડધા ભાગ કરે છે, તેથી અડધો ખૂણો <b>&ang;APO = 80/2 = 40&deg;</b> થાય.<br>
+                            3. હવે ઉપરના નાના ત્રિકોણ &Delta;OAP માં ત્રણેય ખૂણાનો સરવાળો 180&deg; થાય.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                &ang;A + &ang;APO + &ang;POA = 180&deg;<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(&ang;A કાટખૂણો હોવાથી 90&deg; મૂકતા)</i></span><br>
+                                90&deg; + 40&deg; + &ang;POA = 180&deg;<br>
+                                130&deg; + &ang;POA = 180&deg;<br><br>
+
+                                &ang;POA = 180&deg; - 130&deg;<br>
+                                <b style='color:#dc2626; font-size:22px;'>&ang;POA = 50&deg;</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ: (A) 50&deg;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
