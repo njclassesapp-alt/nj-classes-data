@@ -13453,6 +13453,156 @@ var njMathsExercise = {
 
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: ત્રિકોણમિતિય નિત્યસમો (Trigonometric Identities) કઈ રીતે યાદ રાખવા?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 3 હીરો વાળા 3 માસ્ટર નિત્યસમો:</b><br>
+                            આખા સ્વાધ્યાય 8.3 ના બધા જ સાબિતી વાળા દાખલા માત્ર આ 3 સૂત્રો (નિત્યસમો) પર જ આધારિત છે. 
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px dashed #bfdbfe; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <div style='overflow-x:auto; white-space:nowrap; display:flex; flex-direction:column; gap:15px;'>
+                                
+                                <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; border-left:5px solid #0284c7;'>
+                                    <b style='color:#0369a1; font-size:18px;'>(1) sin અને cos ની દોસ્તી:</b><br>
+                                    <span style='font-size:22px; font-weight:bold; color:#0f172a; margin-top:5px; display:inline-block;'>sin² A + cos² A = 1</span><br>
+                                    <span style='color:#047857; font-size:14px;'><i>(આના પરથી 2 નવા સૂત્રો બને: sin² A = 1 - cos² A, અને cos² A = 1 - sin² A)</i></span>
+                                </div>
+
+                                <div style='background-color:#dcfce7; padding:10px; border-radius:5px; border-left:5px solid #16a34a;'>
+                                    <b style='color:#15803d; font-size:18px;'>(2) sec અને tan ની દુશ્મની:</b><br>
+                                    <span style='font-size:22px; font-weight:bold; color:#0f172a; margin-top:5px; display:inline-block;'>sec² A - tan² A = 1</span><br>
+                                    <span style='color:#047857; font-size:14px;'><i>(સૌથી વધુ વપરાતું સ્વરૂપ: <b>1 + tan² A = sec² A</b>)</i></span>
+                                </div>
+
+                                <div style='background-color:#ffedd5; padding:10px; border-radius:5px; border-left:5px solid #ea580c;'>
+                                    <b style='color:#c2410c; font-size:18px;'>(3) cosec અને cot ની દુશ્મની:</b><br>
+                                    <span style='font-size:22px; font-weight:bold; color:#0f172a; margin-top:5px; display:inline-block;'>cosec² A - cot² A = 1</span><br>
+                                    <span style='color:#047857; font-size:14px;'><i>(સૌથી વધુ વપરાતું સ્વરૂપ: <b>1 + cot² A = cosec² A</b>)</i></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 1: ત્રિકોણમિતિય ગુણોત્તરો sin A, sec A અને tan A ને cot A ના પદોમાં દર્શાવો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સૂત્રો પર આધારિત બેઝિક દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલામાં આપણે બધા જ જવાબોમાં માત્ર 'cot A' જ દેખાય તેવું સેટિંગ કરવાનું છે!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: tan A ને cot A માં ફેરવવું (સૌથી સહેલું)</b><br>
+                            આપણે જાણીએ છીએ કે tan એ cot નો વ્યસ્ત (ઉલટો) છે.
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#16a34a; font-size:20px;'>tan A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>1</span><span>cot A</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: sin A ને cot A માં ફેરવવું</b><br>
+                            આપણને નિત્યસમ 3 ખબર છે: <b>cosec² A = 1 + cot² A</b><br>
+                            અને sin એ cosec નો વ્યસ્ત છે (એટલે કે sin A = 1/cosec A).
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                sin² A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>cosec² A</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(cosec² A ની જગ્યાએ 1 + cot² A મૂકતા)</i></span><br>
+                                sin² A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>1 + cot² A</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુ વર્ગમૂળ લેતા, 1 નું વર્ગમૂળ 1 જ રહે)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>sin A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block;'>&nbsp;1 + cot² A&nbsp;</span></span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: sec A ને cot A માં ફેરવવું</b><br>
+                            આપણને નિત્યસમ 2 ખબર છે: <b>sec² A = 1 + tan² A</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                sec² A = 1 + <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>cot² A</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(લ.સા.અ. લેતા)</i></span><br>
+                                sec² A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>cot² A + 1</span><span>cot² A</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુ વર્ગમૂળ લેતા, અંશમાં વર્ગમૂળ રહેશે અને છેદમાં વર્ગ ઉડી જશે)</i></span><br>
+                                <b style='color:#ea580c; font-size:20px;'>sec A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #ea580c; display:block; padding:0 3px;'>&radic;<span style='border-top:2px solid #ea580c; display:inline-block;'>&nbsp;cot² A + 1&nbsp;</span></span><span>cot A</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 2: &ang;A ના અન્ય તમામ ત્રિકોણમિતિય ગુણોત્તરોને sec A ના પદોમાં લખો.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો બધા 5 ગુણોત્તરો શોધવાનો લાંબો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            આપણે sin, cos, tan, cot અને cosec આ 5 હીરોને એવી રીતે લખવાના છે કે તેમના જવાબમાં માત્ર <b>'sec A'</b> જ દેખાવો જોઈએ! 
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>(1) cos A (સૌથી સહેલું)</b><br>
+                            આપણે જાણીએ છીએ કે cos એ sec નો વ્યસ્ત છે.
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#16a34a; font-size:20px;'>cos A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #16a34a; display:block; padding:0 3px;'>1</span><span>sec A</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(2) sin A</b><br>
+                            નિત્યસમ 1: <b>sin² A + cos² A = 1</b> પરથી:
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                sin² A = 1 - cos² A<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(cos A ની જગ્યાએ 1/sec A મૂકતા)</i></span><br>
+                                sin² A = 1 - <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>sec² A</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(લ.સા.અ. લેતા)</i></span><br>
+                                sin² A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>sec² A - 1</span><span>sec² A</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(વર્ગમૂળ લેતા, છેદનો વર્ગ ઉડી જશે)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>sin A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block;'>&nbsp;sec² A - 1&nbsp;</span></span><span>sec A</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>(3) tan A</b><br>
+                            નિત્યસમ 2: <b>sec² A - tan² A = 1</b> પરથી:
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                tan² A = sec² A - 1<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુ વર્ગમૂળ લેતા)</i></span><br>
+                                <b style='color:#ea580c; font-size:20px;'>tan A = &radic;<span style='border-top:2px solid #ea580c; display:inline-block; padding-top:1px;'>&nbsp;sec² A - 1&nbsp;</span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>(4) cosec A</b><br>
+                            cosec એ sin નો વ્યસ્ત છે. એટલે ઉપર શોધેલા sin A ના જવાબને ઉલટાવી દો!
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; border:1px solid #d8b4fe; padding:15px; border-radius:5px;'>
+                                <b style='color:#9333ea; font-size:20px;'>cosec A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #9333ea; display:block; padding:0 3px;'>sec A</span><span>&radic;<span style='border-top:2px solid #9333ea; display:inline-block;'>&nbsp;sec² A - 1&nbsp;</span></span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(5) cot A</b><br>
+                            cot એ tan નો વ્યસ્ત છે. એટલે ઉપર શોધેલા tan A ના જવાબને ઉલટાવી દો! (છેદમાં કંઈ ન હોય તો 1 ગણાય).
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; border:1px solid #fca5a5; padding:15px; border-radius:5px;'>
+                                <b style='color:#dc2626; font-size:20px;'>cot A = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:2px solid #dc2626; display:inline-block;'>&nbsp;sec² A - 1&nbsp;</span></span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -13463,6 +13613,9 @@ var njMathsExercise = {
             
         
                 
+            
+        
+          
             
     
                         
