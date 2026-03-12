@@ -12302,9 +12302,72 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 6: જો &ang;A અને &ang;B એવા લઘુકોણો હોય કે જેથી cos A = cos B થાય, તો સાબિત કરો કે &ang;A = &ang;B.", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સનો માત્ર 4 સ્ટેપમાં ગણાતો સાબિતીવાળો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલો જોવામાં અઘરો લાગે છે, પણ ખરેખર સાવ સહેલો છે. માત્ર બે જ નિયમ વાપરવાના છે!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#fdf4ff; border:1px solid #f0abfc; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,20 40,160 160,160" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <path d="M 40 45 A 25 25 0 0 0 52 40" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 135 160 A 25 25 0 0 0 142 145" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <text x="35" y="15" font-size="16" font-weight="bold">A</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">C</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            રકમમાં A અને B લઘુકોણ (90&deg; થી નાના) આપ્યા છે. એટલે <b>ખૂણો C કાટખૂણો (90&deg;) હશે</b>. <br>
+                            આપણે cos A અને cos B ના સૂત્રો મૂકીશું, અને 'સમદ્વિબાજુ ત્રિકોણ' ના નિયમથી દાખલો પૂરો થઈ જશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સૂત્રો લખવા</b><br>
+                            ધારો કે &Delta;ABC કાટકોણ ત્રિકોણ છે, જેમાં &ang;C = 90&deg; છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='font-size:16px; color:#0f172a;'>• <b>cos A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>A ની પાસેની બાજુ</span><span>કર્ણ</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid #1d4ed8; display:block; padding:0 3px;'>AC</span><span>AB</span></span></b></span><br><br>
+                                <span style='font-size:16px; color:#0f172a;'>• <b>cos B</b> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>B ની પાસેની બાજુ</span><span>કર્ણ</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid #1d4ed8; display:block; padding:0 3px;'>BC</span><span>AB</span></span></b></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સરખામણી અને સાબિતી</b><br>
+                            પક્ષમાં આપેલ છે કે: <b>cos A = cos B</b>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AC</span><span>AB</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 5px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>AB</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુથી છેદમાં રહેલા સમાન કર્ણ AB ઉડી જશે)</i></span><br>
+                                <b style='color:#dc2626;'>AC = BC</b><br><br>
+                                <span style='color:#0f172a; font-size:16px; font-family:sans-serif;'>હવે, જો ત્રિકોણમાં <b>બે બાજુઓ સમાન હોય, તો તેમની સામેના ખૂણા પણ સમાન થાય!</b> (સમદ્વિબાજુ ત્રિકોણનો નિયમ)</span><br>
+                                બાજુ AC ની સામેનો ખૂણો = &ang;B<br>
+                                બાજુ BC ની સામેનો ખૂણો = &ang;A<br>
+                                
+                                તેથી, <b style='color:#16a34a; font-size:22px;'>&ang;A = &ang;B</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ:</b> જે સાબિત થાય છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
