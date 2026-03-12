@@ -14902,31 +14902,148 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 3: એક કોન્ટ્રાક્ટર બાળકોને રમવા માટે 2 લપસણીઓ બનાવે છે. 5 વર્ષથી ઓછી ઉંમરના બાળકો માટે 1.5 મીટર ઊંચાઈ અને 30&deg; નો ખૂણો હોય તેવી, અને મોટા બાળકો માટે 3 મીટર ઊંચાઈ અને 60&deg; નો ખૂણો હોય તેવી લપસણી પસંદ કરે છે. બંને લપસણીની લંબાઈ શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો બે દાખલા ભેગા કરેલો અગત્યનો પ્રશ્ન (NJ Classes ની ખાસ ટ્રીક સાથે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            લપસણી (Slide) હંમેશા ત્રાસી હોય છે, એટલે કે તે કાટકોણ ત્રિકોણનો <b>'કર્ણ'</b> બને છે. અહીં ઊંચાઈ (સામેની બાજુ) આપેલી છે અને કર્ણ શોધવાનો છે. <b>સાબા અને કર્ણ વચ્ચેનો સંબંધ એટલે 'sin &theta;'</b>. આ દાખલામાં આપણે sin ના સૂત્રથી 2 વાર ગણતરી કરવી પડશે.
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="20,100 20,160 100,160" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="20,150 30,150 30,160" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+                                <path d="M 85 160 A 15 15 0 0 0 92 148" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="65" y="155" font-size="12" font-weight="bold" fill="#ea580c">30&deg;</text>
+                                <text x="15" y="90" font-size="12" font-weight="bold">A</text>
+                                <text x="10" y="175" font-size="12" font-weight="bold">B</text>
+                                <text x="105" y="175" font-size="12" font-weight="bold">C</text>
+                                <text x="-5" y="135" font-size="12" fill="#1d4ed8" font-weight="bold">1.5</text>
+                                <text x="35" y="120" font-size="10" fill="#dc2626" font-weight="bold">લપસણી 1</text>
+                                
+                                <line x1="130" y1="20" x2="130" y2="180" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+                                <polygon points="150,40 150,160 250,160" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+                                <polyline points="150,150 160,150 160,160" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+                                <path d="M 230 160 A 20 20 0 0 0 238 144" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="200" y="155" font-size="12" font-weight="bold" fill="#ea580c">60&deg;</text>
+                                <text x="145" y="30" font-size="12" font-weight="bold">P</text>
+                                <text x="140" y="175" font-size="12" font-weight="bold">Q</text>
+                                <text x="255" y="175" font-size="12" font-weight="bold">R</text>
+                                <text x="135" y="105" font-size="12" fill="#1d4ed8" font-weight="bold">3</text>
+                                <text x="180" y="90" font-size="10" fill="#dc2626" font-weight="bold">લપસણી 2</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ભાગ 1: 5 વર્ષથી નાના બાળકો માટેની લપસણી (AC)</b><br>
+                            આકૃતિ 1 (&Delta;ABC) મુજબ: ઊંચાઈ (સાબા = AB) = 1.5 મીટર, ખૂણો &ang;C = 30&deg;.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>sin 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB (સાબા)</span><span>AC (કર્ણ)</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(કોષ્ટકમાંથી sin 30&deg; = 1/2 મૂકતા)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1.5</span><span>AC</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા)</i></span><br>
+                                AC &times; 1 = 1.5 &times; 2<br>
+                                <b style='color:#dc2626; font-size:20px;'>AC = 3 મીટર</b> &nbsp; <span style='color:#14532d;'>(આ નાની લપસણીની લંબાઈ છે)</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>ભાગ 2: મોટા બાળકો માટેની લપસણી (PR)</b><br>
+                            આકૃતિ 2 (&Delta;PQR) મુજબ: ઊંચાઈ (સાબા = PQ) = 3 મીટર, ખૂણો &ang;R = 60&deg;.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>sin 60&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>PQ (સાબા)</span><span>PR (કર્ણ)</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(કોષ્ટકમાંથી sin 60&deg; = &radic;3 / 2 મૂકતા)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>PR</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા)</i></span><br>
+                                &radic;3 &times; PR = 3 &times; 2<br>
+                                PR = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદમાં વર્ગમૂળ ન રખાય, 6 ના ભાગ પાડીએ: 6 = 2 &times; 3 = 2 &times; &radic;3 &times; &radic;3)</i></span><br>
+                                PR = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2 &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <b style='color:#1d4ed8; font-size:20px;'>PR = 2&radic;<span style='border-top:2px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span> મીટર</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> નાની લપસણીની લંબાઈ <b>3 મીટર</b> અને મોટી લપસણીની લંબાઈ <b style='color:#be123c;'>2&radic;3 મીટર</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 4: ટાવરના પાયાથી 30 મીટર દૂર રહેલા જમીન પરના એક બિંદુથી ટાવરની ટોચના ઉત્સેધકોણનું માપ 30&deg; છે, તો ટાવરની ઊંચાઈ શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો માત્ર tan ના સૂત્રથી ગણાતો સાવ સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ 9મા ચેપ્ટરનો સૌથી વધુ પૂછાતો અને સૌથી ટૂંકો દાખલો છે. બસ આકૃતિ દોરો અને tan 30&deg; નું સૂત્ર લગાવો!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="200" viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="50,40 50,160 180,160" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+                                <line x1="50" y1="40" x2="50" y2="160" stroke="#0f172a" stroke-width="8"/>
+                                <polyline points="50,150 60,150 60,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 155 160 A 25 25 0 0 0 162 143" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <text x="125" y="152" font-size="14" font-weight="bold" fill="#ea580c">30&deg;</text>
+                                
+                                <text x="40" y="30" font-size="16" font-weight="bold">A (ટોચ)</text>
+                                <text x="35" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="185" y="175" font-size="16" font-weight="bold">C (બિંદુ)</text>
+                                
+                                <text x="5" y="105" font-size="14" fill="#dc2626" font-weight="bold">h (ટાવર)</text>
+                                <text x="90" y="180" font-size="14" fill="#1d4ed8" font-weight="bold">30 m (અંતર)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આકૃતિની સમજૂતી</b><br>
+                            ધારો કે, કાટકોણ &Delta;ABC માં,<br>
+                            • <b>AB</b> = ટાવરની ઊંચાઈ (સાબા) = <b>h ધારો</b><br>
+                            • <b>BC</b> = ટાવરના પાયાથી બિંદુનું અંતર (પાબા) = <b>30 મીટર</b><br>
+                            • <b>&ang;C</b> = ઉત્સેધકોણ = <b>30&deg;</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: tan ના સૂત્રથી ગણતરી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં પાસેની બાજુ આપેલી છે અને સામેની બાજુ શોધવી છે. એટલે આપણે <b>tan</b> લઈશું.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB (સાબા)</span><span>BC (પાબા)</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(કોષ્ટકમાંથી tan 30&deg; = 1/&radic;3 મૂકતા)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>h</span><span>30</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(30 સામે અંશમાં ગુણાકારમાં જશે)</i></span><br>
+                                <b>h = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદમાં વર્ગમૂળ ન રખાય, એટલે 30 ના ભાગ પાડીએ: 30 = 10 &times; 3 = 10 &times; &radic;3 &times; &radic;3)</i></span><br>
+                                <b>h = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10 &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(નીચેથી એક &radic;3 ઉડી જશે)</i></span><br>
+                                <b>h = <b style='color:#dc2626; font-size:24px;'>10&radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span> મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> ટાવરની ઊંચાઈ <b style='color:#be123c;'>10&radic;3 મીટર</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
-                                }
-                                
+        }
             
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                 
-    
                         
 };
