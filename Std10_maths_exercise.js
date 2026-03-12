@@ -14394,6 +14394,143 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 4(vii): સાબિત કરો કે: (sin &theta; - 2 sin³ &theta;) / (2 cos³ &theta; - cos &theta;) = tan &theta;", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો 'સામાન્ય (Common)' કાઢવાની ટ્રીક વાળો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            રકમ ધ્યાનથી જુઓ! ઉપરના બંને પદોમાં <b>sin &theta;</b> છે અને નીચેના બંને પદોમાં <b>cos &theta;</b> છે.<br>
+                            સૌથી પહેલા તેમને <b>સામાન્ય (Common)</b> બહાર કાઢી લો. (અને આપણે જાણીએ છીએ કે sin/cos = tan થાય છે, એટલે જવાબ તો પહેલા સ્ટેપમાં જ આવી જશે, બસ કૌંસ ઉડાડવાના છે!)
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: અંશ અને છેદમાંથી સામાન્ય (Common) કાઢવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>LHS = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin &theta; - 2 sin³ &theta;</span>
+                                    <span>2 cos³ &theta; - cos &theta;</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાંથી sin &theta; અને છેદમાંથી cos &theta; બહાર કાઢતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#1d4ed8;'>sin &theta;</b> (1 - 2 sin² &theta;)</span>
+                                    <span><b style='color:#1d4ed8;'>cos &theta;</b> (2 cos² &theta; - 1)</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: નિત્યસમ વાપરીને કૌંસ સરખા કરવા</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આપણને જવાબ <b>tan &theta; (એટલે કે sin/cos)</b> મળી ગયો છે, બસ હવે પાછળના બંને કૌંસને સરખા કરીને ઉડાડવાના છે. અંશમાં <b>sin² &theta; ની જગ્યાએ (1 - cos² &theta;)</b> મૂકીએ.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin &theta; [ 1 - 2 <b style='color:#dc2626;'>(1 - cos² &theta;)</b> ]</span>
+                                    <span>cos &theta; (2 cos² &theta; - 1)</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(-2 નો અંદર ગુણાકાર કરતા)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin &theta; [ 1 - 2 + 2 cos² &theta; ]</span>
+                                    <span>cos &theta; (2 cos² &theta; - 1)</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(1 - 2 = -1 થાય)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin &theta; <b style='color:#ea580c;'>(2 cos² &theta; - 1)</b></span>
+                                    <span>cos &theta; <b style='color:#ea580c;'>(2 cos² &theta; - 1)</b></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: સમાન કૌંસ ઉડાડવા (અંતિમ જવાબ)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ અને છેદ બંનેમાંથી આખો કૌંસ <b>(2 cos² &theta; - 1)</b> ઉડી જશે)</i></span><br>
+                                <b> = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:22px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin &theta;</span>
+                                    <span>cos &theta;</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(અને આપણે જાણીએ છીએ કે sin/cos = tan થાય છે)</i></span><br>
+                                <b> = <b style='color:#dc2626; font-size:24px;'>tan &theta;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ નિર્ણય:</b> <b>LHS = RHS</b> (ડાબા = જબા) સાબિત થાય છે!
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 4(viii): સાબિત કરો કે: (sin A + cosec A)² + (cos A + sec A)² = 7 + tan² A + cot² A", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સૌથી વધુ પૂછાતો માસ્ટર દાખલો (Magic Number 7)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આખા સ્વાધ્યાયનો સૌથી મજેદાર દાખલો! આમાં આપણે '7' લાવીને જાદુ કરવાનો છે!</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            બંને કૌંસની ઉપર વર્ગ (Square) છે. તો સૌથી પહેલા બીજગણિતના <b>(a + b)² = a² + 2ab + b²</b> સૂત્રથી બંને કૌંસ ખોલી નાખો.<br>
+                            પછી ત્રિકોણમિતિની "દુશ્મની" યાદ કરો: sin અને cosec એકબીજાના વ્યસ્ત છે, એટલે તેમનો ગુણાકાર 1 થાય! બસ, આટલું કરશો એટલે 7 આપોઆપ બની જશે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને કૌંસનો વર્ગ (Square) છોડવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>LHS = </b> (sin A + cosec A)² &nbsp;+&nbsp; (cos A + sec A)²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>((a + b)² ના સૂત્રથી બંને કૌંસનું વિસ્તરણ કરતા)</i></span><br>
+                                <b> = </b> (sin² A + 2 sin A cosec A + cosec² A) &nbsp;+&nbsp; (cos² A + 2 cos A sec A + sec² A)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પદોને ગોઠવવા અને વ્યસ્તનો નિયમ વાપરવો</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>sin² A અને cos² A ને જોડે લાવીએ. તેમજ <b>(sin &times; cosec = 1)</b> અને <b>(cos &times; sec = 1)</b> મૂકીએ.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b> = </b> <b style='color:#1d4ed8;'>(sin² A + cos² A)</b> + 2<b style='color:#dc2626;'>(sin A &times; cosec A)</b> + 2<b style='color:#ea580c;'>(cos A &times; sec A)</b> + cosec² A + sec² A<br><br>
+
+                                <span style='background-color:#bae6fd; padding:5px; border-radius:3px; color:#0369a1; font-size:14px;'><i>(નિત્યસમ 1: <b>sin² A + cos² A = 1</b> થાય. અને વ્યસ્તનો ગુણાકાર 1 થાય)</i></span><br>
+                                <b> = </b> <b style='color:#1d4ed8;'>1</b> + 2<b style='color:#dc2626;'>(1)</b> + 2<b style='color:#ea580c;'>(1)</b> + cosec² A + sec² A<br><br>
+
+                                <b> = </b> 1 + 2 + 2 + cosec² A + sec² A<br>
+                                <b> = <b style='color:#9333ea; font-size:20px;'>5 + cosec² A + sec² A</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બાકીના બે નિત્યસમો વાપરીને '7' લાવવો</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આપણે જવાબમાં tan અને cot જોઈએ છે. તો ચાલો આપણા મેઈન નિત્યસમો વાપરીએ:<br>
+                            • <b>cosec² A = 1 + cot² A</b><br>
+                            • <b>sec² A = 1 + tan² A</b></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b> = </b> 5 &nbsp;+&nbsp; <b style='color:#dc2626;'>(1 + cot² A)</b> &nbsp;+&nbsp; <b style='color:#1d4ed8;'>(1 + tan² A)</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બધા આંકડાઓનો સરવાળો: 5 + 1 + 1 = 7)</i></span><br>
+                                <b> = <b style='color:#16a34a; font-size:24px;'>7 + tan² A + cot² A</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ નિર્ણય:</b> <b>LHS = RHS</b> (ડાબા = જબા) સાબિત થાય છે!
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -14406,32 +14543,7 @@ var njMathsExercise = {
                 
             
         
-                
-            
-        
-                
-            
-        
-                
-            
-                
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-          
-            
+                 
     
                         
 };
