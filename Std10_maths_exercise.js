@@ -12567,9 +12567,114 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 9: કાટકોણ &Delta;ABC માં, ખૂણો B કાટખૂણો છે. જો tan A = 1/&radic;3 હોય, તો નિમ્નલિખિત મૂલ્ય શોધો: (i) sin A cos C + cos A sin C (ii) cos A cos C - sin A sin C", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો લાંબો અને વર્ગમૂળની ગણતરી વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            આ દાખલામાં આપણે <b>બે ખૂણાઓ (A અને C)</b> માટે કિંમતો લેવાની છે! <br>
+                            જ્યારે ખૂણો A લઈએ, ત્યારે સાબા=BC અને પાબા=AB હોય.<br>
+                            જ્યારે ખૂણો C લઈએ, ત્યારે સાબા=AB અને પાબા=BC થઈ જશે!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,40 40,160 160,160" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 40 65 A 25 25 0 0 0 55 58" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <text x="35" y="30" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">C</text>
+                                
+                                <text x="90" y="180" font-size="14" fill="#dc2626" font-weight="bold">1 (સાબા)</text>
+                                <text x="5" y="105" font-size="14" fill="#16a34a" font-weight="bold">&radic;3 (પાબા)</text>
+                                <text x="100" y="95" font-size="14" fill="#ea580c" font-weight="bold">? (કર્ણ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બાજુઓ નક્કી કરવી અને પાયથાગોરસથી કર્ણ શોધવો</b><br>
+                            આપણને <b>tan A = 1 / &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b> આપેલ છે.<br>
+                            એટલે કે, સાબા (BC) = 1 અને પાબા (AB) = &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AC² = AB² + BC²<br>
+                                AC² = (&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span>)² + (1)²<br>
+                                <span style='color:#047857; font-size:14px;'><i>(વર્ગ કરવાથી વર્ગમૂળ ઊડી જશે)</i></span><br>
+                                AC² = 3 + 1 = 4<br>
+                                AC = &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;4&nbsp;</span><br>
+                                <b style='color:#16a34a; font-size:20px;'>AC = 2 (કર્ણ)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ચારેય કિંમતો (sin A, cos A, sin C, cos C) શોધવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='font-size:16px; color:#dc2626;'><b>ખૂણા A માટે:</b> (સાબા=1, પાબા=&radic;3, કર્ણ=2)</span><br>
+                                • <b style='color:#1d4ed8;'>sin A</b> = 1/2<br>
+                                • <b style='color:#1d4ed8;'>cos A</b> = &radic;3/2<br><br>
+                                
+                                <span style='font-size:16px; color:#ea580c;'><b>ખૂણા C માટે:</b> (સાબા=&radic;3, પાબા=1, કર્ણ=2)</span><br>
+                                • <b style='color:#1d4ed8;'>sin C</b> = &radic;3/2<br>
+                                • <b style='color:#1d4ed8;'>cos C</b> = 1/2
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ભાગ (i) ની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>sin A &times; cos C &nbsp;+&nbsp; cos A &times; sin C</b><br><br>
+                                
+                                <b> = </b>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:22px;'>)</span>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:22px;'>)</span>
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>2</span></span><span style='font-size:22px;'>)</span>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>2</span></span><span style='font-size:22px;'>)</span><br><br>
+                                
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span>
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>4</span></span> <span style='color:#047857; font-size:14px;'><i>(&radic;3 &times; &radic;3 = 3 થાય)</i></span><br><br>
+                                
+                                <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 + 3</span><span>4</span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>4</span></span> <b> = <span style='color:#dc2626; font-size:22px;'>1</span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: ભાગ (ii) ની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; padding:15px; border-radius:5px;'>
+                                <b>cos A &times; cos C &nbsp;-&nbsp; sin A &times; sin C</b><br><br>
+                                
+                                <b> = </b>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>2</span></span><span style='font-size:22px;'>)</span>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:22px;'>)</span>
+                                <b> &nbsp;-&nbsp; </b>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:22px;'>)</span>
+                                <span style='font-size:22px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>2</span></span><span style='font-size:22px;'>)</span><br><br>
+                                
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>4</span></span>
+                                <b> &nbsp;-&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>4</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંને પદો સમાન હોવાથી બાદબાકી શૂન્ય થશે)</i></span><br>
+                                <b> = <span style='color:#dc2626; font-size:22px;'>0</span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
