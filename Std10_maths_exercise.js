@@ -12779,9 +12779,77 @@ var njMathsExercise = {
 
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: ત્રિકોણમિતિ કોષ્ટક (0&deg; થી 90&deg; ના મૂલ્યો) કઈ રીતે બનાવવું અને યાદ રાખવું?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કોષ્ટક જાતે જ બનાવવાની "0, 1, 2, 3, 4" ની જાદુઈ ટ્રીક:</b><br>
+                            કોઈ કિંમત ગોખવાની જરૂર નથી! પરીક્ષામાં પાછળના પાને 1 મિનિટમાં આખું ટેબલ આ રીતે બનાવી લેવું:<br><br>
+                            <b>સ્ટેપ 1 (sin માટે):</b> 0, 1, 2, 3, 4 લખો. બધાને <b>4 વડે ભાગી દો</b> અને તેનું <b>વર્ગમૂળ</b> કાઢો!<br>
+                            <span style='color:#047857; font-size:14px;'>• 0/4 નું વર્ગમૂળ = <b>0</b> (આ sin 0&deg; ની કિંમત)</span><br>
+                            <span style='color:#047857; font-size:14px;'>• 1/4 નું વર્ગમૂળ = <b>1/2</b> (આ sin 30&deg; ની કિંમત)</span><br>
+                            <span style='color:#047857; font-size:14px;'>• 2/4 એટલે 1/2 નું વર્ગમૂળ = <b>1/&radic;2</b> (આ sin 45&deg; ની કિંમત)</span><br>
+                            <span style='color:#047857; font-size:14px;'>• 3/4 નું વર્ગમૂળ = <b>&radic;3/2</b> (આ sin 60&deg; ની કિંમત)</span><br>
+                            <span style='color:#047857; font-size:14px;'>• 4/4 એટલે 1 નું વર્ગમૂળ = <b>1</b> (આ sin 90&deg; ની કિંમત)</span><br><br>
+                            
+                            <b>સ્ટેપ 2 (cos માટે):</b> sin ની આખી લાઈનને <b>ઊંધી (Reverse)</b> લખી દો! (પાછળથી આગળ).<br>
+                            <b>સ્ટેપ 3 (tan માટે):</b> sin ની કિંમતને cos ની કિંમત વડે <b>ભાગી દો</b> (tan = sin/cos). છેદ સરખા હોય તે ઉડી જશે!
+                        </div>
+
+                        <div style='background-color:#f8fafc; border:1px solid #cbd5e1; padding:10px; border-radius:8px;'>
+                            <b style='color:#1e293b; font-size:16px;'>ત્રિકોણમિતિનું મુખ્ય કોષ્ટક (Table):</b>
+                            <div style='overflow-x:auto; margin-top:10px;'>
+                                <table style="width:100%; border-collapse:collapse; text-align:center; font-family:sans-serif; font-size:16px; min-width:350px;">
+                                    <tr style="background-color:#1e3a8a; color:white;">
+                                        <th style="padding:10px; border:1px solid #94a3b8;">ખૂણો (A)</th>
+                                        <th style="padding:10px; border:1px solid #94a3b8;">0&deg;</th>
+                                        <th style="padding:10px; border:1px solid #94a3b8;">30&deg;</th>
+                                        <th style="padding:10px; border:1px solid #94a3b8;">45&deg;</th>
+                                        <th style="padding:10px; border:1px solid #94a3b8;">60&deg;</th>
+                                        <th style="padding:10px; border:1px solid #94a3b8;">90&deg;</th>
+                                    </tr>
+                                    <tr style="background-color:#e0f2fe; color:#0369a1; font-weight:bold;">
+                                        <td style="padding:10px; border:1px solid #94a3b8;">sin A</td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;">0</td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;"><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #0369a1; display:block; padding:0 2px;'>1</span><span>2</span></span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;"><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #0369a1; display:block; padding:0 2px;'>1</span><span>&radic;<span style='border-top:1px solid #0369a1; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span></span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;"><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #0369a1; display:block; padding:0 2px;'>&radic;<span style='border-top:1px solid #0369a1; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span></span><span>2</span></span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;">1</td>
+                                    </tr>
+                                    <tr style="background-color:#dcfce7; color:#15803d; font-weight:bold;">
+                                        <td style="padding:10px; border:1px solid #94a3b8;">cos A</td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;">1</td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;"><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #15803d; display:block; padding:0 2px;'>&radic;<span style='border-top:1px solid #15803d; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span></span><span>2</span></span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;"><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #15803d; display:block; padding:0 2px;'>1</span><span>&radic;<span style='border-top:1px solid #15803d; display:inline-block; padding-top:1px;'>&nbsp;2&nbsp;</span></span></span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;"><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #15803d; display:block; padding:0 2px;'>1</span><span>2</span></span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;">0</td>
+                                    </tr>
+                                    <tr style="background-color:#ffedd5; color:#c2410c; font-weight:bold;">
+                                        <td style="padding:10px; border:1px solid #94a3b8;">tan A</td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;">0</td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;"><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #c2410c; display:block; padding:0 2px;'>1</span><span>&radic;<span style='border-top:1px solid #c2410c; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span></span></span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;">1</td>
+                                        <td style="padding:10px; border:1px solid #94a3b8;">&radic;<span style='border-top:1px solid #c2410c; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span></td>
+                                        <td style="padding:10px; border:1px solid #94a3b8; font-size:14px;">અવ્યાખ્યાયિત<br>(&infin;)</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:8px; border-radius:4px;'>
+                                <span style='color:#b91c1c; font-size:13px;'><b>નોંધ:</b> cosec એ sin નો, sec એ cos નો અને cot એ tan નો વ્યસ્ત (ઉલટો) છે. તેથી તેમને અલગથી યાદ રાખવાની જરૂર નથી, માત્ર ઉપરની કિંમતને ઉલટાવી દેવી!</span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
