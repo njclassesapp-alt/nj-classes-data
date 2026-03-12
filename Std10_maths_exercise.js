@@ -15987,7 +15987,103 @@ var njMathsExercise = {
                     `
                 }
             ]
+        },
+            
+        // ------------------------------------
+        // પ્રકરણ 10: વર્તુળ (સ્વાધ્યાય 10.1 - ભાગ 1A)
+        // ------------------------------------
+        "10": {
+            "chapterName": "પ્રકરણ 10 (સ્વાધ્યાય 10.1 - ભાગ 1A)",
+            "chapterTitle": "સ્પર્શક અને છેદિકાનો કન્સેપ્ટ અને પાયાના પ્રશ્નો (પ્રશ્ન 1 અને 2)",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: વર્તુળનો સ્પર્શક (Tangent) અને છેદિકા (Secant) કોને કહેવાય?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (સાવ દેશી ભાષામાં):</b><br>
+                            કોઈપણ રેખા અને વર્તુળ વચ્ચે ૩ પરિસ્થિતિ બની શકે:<br>
+                            1. <b>અસ્પર્શક રેખા:</b> જે વર્તુળને અડ્યા વગર જ દૂરથી જતી રહે.<br>
+                            2. <b>છેદિકા (Secant):</b> જે વર્તુળની આરપાર નીકળી જાય (વર્તુળને <b>2 બિંદુમાં</b> કાપે).<br>
+                            3. <b>સ્પર્શક (Tangent):</b> જે વર્તુળને માત્ર બહારથી હળવેકથી અડીને જતી રહે (વર્તુળને <b>માત્ર 1 જ બિંદુમાં</b> છેદે). જ્યાં અડે તેને <b>'સ્પર્શબિંદુ'</b> કહેવાય.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="160" cy="100" r="70" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="160" cy="100" r="4" fill="#0f172a"/>
+                                <text x="155" y="120" font-size="14" font-weight="bold">O (કેન્દ્ર)</text>
+
+                                <line x1="40" y1="60" x2="280" y2="60" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="102" cy="60" r="4" fill="#1d4ed8"/>
+                                <circle cx="218" cy="60" r="4" fill="#1d4ed8"/>
+                                <text x="285" y="65" font-size="14" font-weight="bold" fill="#1d4ed8">છેદિકા</text>
+
+                                <line x1="40" y1="170" x2="280" y2="170" stroke="#dc2626" stroke-width="2"/>
+                                <circle cx="160" cy="170" r="5" fill="#dc2626"/>
+                                <text x="145" y="190" font-size="14" font-weight="bold" fill="#dc2626">P (સ્પર્શબિંદુ)</text>
+                                <text x="285" y="175" font-size="14" font-weight="bold" fill="#dc2626">સ્પર્શક</text>
+
+                                <line x1="160" y1="100" x2="160" y2="170" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                                <polyline points="160,160 170,160 170,170" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <text x="165" y="140" font-size="12" font-weight="bold" fill="#16a34a">ત્રિજ્યા</text>
+                            </svg>
+                        </div>
+                        
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 પ્રમેય 10.1 (મોસ્ટ IMP નિયમ):</b> સ્પર્શબિંદુમાંથી દોરેલી ત્રિજ્યા, તે સ્પર્શકને <b>લંબ (90&deg; નો ખૂણો)</b> હોય છે! આ નિયમથી જ બધા દાખલા ગણાશે.
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 10.1 પ્રશ્ન 1: વર્તુળને કેટલા સ્પર્શક હોય છે?", 
+                    question_desc: "1 માર્ક માટે બોર્ડમાં વારંવાર પૂછાતો પ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:18px;'>જવાબ: અસંખ્ય (અનંત) સ્પર્શકો હોય છે.</b><br><br>
+                            <span style='color:#0f172a; font-size:14px;'><b>કારણ:</b> વર્તુળની કિનારી (પરિઘ) પર અસંખ્ય બિંદુઓ આવેલા હોય છે. અને દરેક એક બિંદુ પરથી એક સ્પર્શક દોરી શકાય. તેથી વર્તુળને કુલ <b>અસંખ્ય સ્પર્શકો</b> હોય છે.</span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 10.1 પ્રશ્ન 2: ખાલી જગ્યા પૂરો.", 
+                    question_desc: "બોર્ડની પરીક્ષા માટે હેતુલક્ષી પ્રશ્નો (MCQ) ની ખાલી જગ્યાઓ",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='margin-bottom:10px; background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; border-radius:4px;'>
+                            <b>(i) સ્પર્શક વર્તુળને _______ બિંદુમાં છેદે છે.</b><br>
+                            <b style='color:#1d4ed8; font-size:18px;'>જવાબ: 1 (એક અને માત્ર એક)</b><br>
+                            <span style='color:#0f172a; font-size:13px;'><i>(જે રેખા વર્તુળને માત્ર અડીને જાય તેને જ સ્પર્શક કહેવાય).</i></span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; border-radius:4px;'>
+                            <b>(ii) વર્તુળને બે બિંદુમાં છેદતી રેખાને _______ કહે છે.</b><br>
+                            <b style='color:#c2410c; font-size:18px;'>જવાબ: છેદિકા (Secant)</b><br>
+                            <span style='color:#0f172a; font-size:13px;'><i>(જે આરપાર નીકળી જાય તે છેદિકા).</i></span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px; border-radius:4px;'>
+                            <b>(iii) વર્તુળને વધુમાં વધુ _______ સમાંતર સ્પર્શક હોય.</b><br>
+                            <b style='color:#7e22ce; font-size:18px;'>જવાબ: 2 (બે)</b><br>
+                            <span style='color:#0f172a; font-size:13px;'><i>(જો એક સ્પર્શક નીચે હોય, તો તેને બરાબર સમાંતર હોય તેવો બીજો સ્પર્શક ઉપર જ દોરી શકાય, ત્રીજો નહિ).</i></span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:10px; border-radius:4px;'>
+                            <b>(iv) વર્તુળ અને સ્પર્શકના સામાન્ય બિંદુને _______ કહે છે.</b><br>
+                            <b style='color:#15803d; font-size:18px;'>જવાબ: સ્પર્શબિંદુ (Point of Contact)</b><br>
+                            <span style='color:#0f172a; font-size:13px;'><i>(જ્યાં વર્તુળ અને રેખા ભેગા થાય તે બિંદુ).</i></span>
+                        </div>
+
+                    </div>
+                    `
+                }
+            ]
         }
+    
                 
             
         
