@@ -15723,9 +15723,269 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                    
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 13: 75 મીટર ઊંચી દીવાદાંડી (Lighthouse) પરથી અવલોકન કરતાં સમુદ્રમાં રહેલા બે વહાણના અવસેધકોણનાં માપ 30&deg; અને 45&deg; માલૂમ પડે છે. જો એક વહાણ બીજાની બરાબર પાછળ હોય અને બંને વહાણ દીવાદાંડીની એક જ બાજુ પર આવેલા હોય, તો બંને વહાણ વચ્ચેનું અંતર શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો દીવાદાંડી અને 2 વહાણ વાળો સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            અવસેધકોણ (Depression Angle) આપેલા છે, જે નીચે બનતા ઉત્સેધકોણ (Elevation Angle) જેટલા જ થાય (Z આકારના યુગ્મકોણ). એટલે <b>નીચે 30&deg; અને 45&deg; ના બે ખૂણા</b> બનશે. જે વહાણ દૂર હશે તેનો ખૂણો નાનો (30&deg;) હશે, અને જે નજીક હશે તેનો ખૂણો મોટો (45&deg;) હશે.<br>
+                            આપણે બંને વહાણ વચ્ચેનું અંતર (CD) શોધવાનું છે.
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="10" y1="170" x2="260" y2="170" stroke="#0ea5e9" stroke-width="4"/>
+                                
+                                <rect x="220" y="40" width="20" height="130" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+                                <polygon points="215,40 245,40 230,20" fill="#ef4444" stroke="#b91c1c"/> <text x="245" y="110" font-size="12" font-weight="bold" fill="#dc2626">75m</text>
+                                
+                                <polygon points="40,165 60,165 50,155" fill="#1d4ed8"/>
+                                <polygon points="120,165 140,165 130,155" fill="#1d4ed8"/>
+                                <text x="35" y="190" font-size="12" font-weight="bold">D (વહાણ 1)</text>
+                                <text x="105" y="190" font-size="12" font-weight="bold">C (વહાણ 2)</text>
+                                
+                                <line x1="50" y1="165" x2="220" y2="40" stroke="#ea580c" stroke-width="1.5"/> <line x1="130" y1="165" x2="220" y2="40" stroke="#10b981" stroke-width="1.5"/> <path d="M 75 170 A 25 25 0 0 0 71 153" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="80" y="160" font-size="12" font-weight="bold" fill="#ea580c">30&deg;</text>
+                                <path d="M 155 170 A 25 25 0 0 0 148 150" fill="none" stroke="#10b981" stroke-width="1.5"/>
+                                <text x="160" y="155" font-size="12" font-weight="bold" fill="#10b981">45&deg;</text>
+                                
+                                <text x="210" y="30" font-size="14" font-weight="bold">A</text>
+                                <text x="210" y="190" font-size="14" font-weight="bold">B</text>
+                                <text x="70" y="185" font-size="12" font-weight="bold" fill="#1d4ed8">y (અંતર)</text>
+                                <text x="160" y="185" font-size="12" font-weight="bold" fill="#0f172a">x</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: 45&deg; વાળા નાના ત્રિકોણ (&Delta;ABC) ની ગણતરી</b><br>
+                            દીવાદાંડીની ઊંચાઈ <b>AB = 75m</b> છે. ધારો કે વહાણ C નું અંતર <b>BC = x</b> છે.<br>
+                            <span style='color:#0f172a; font-size:14px;'>(યાદ રાખો: 45&deg; હોય એટલે સાબા અને પાબા બંને સરખા જ થાય!)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>tan 45&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>BC</span></span><br><br>
+                                <b>1 = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>75</span><span>x</span></span><br><br>
+                                <b style='color:#1d4ed8; font-size:18px;'>x = 75 મીટર</b> &nbsp; <span style='color:#14532d;'>(આપણને BC મળી ગયું)</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 30&deg; વાળા મોટા ત્રિકોણ (&Delta;ABD) ની ગણતરી</b><br>
+                            મોટા ત્રિકોણનો આખો પાયો <b>DB = x + y</b> થશે. (જ્યાં y એ બંને વહાણ વચ્ચેનું અંતર છે).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>DB</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>75</span><span>x + y</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા)</i></span><br>
+                                x + y = 75&radic;3<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(સ્ટેપ 1 પરથી x = 75 મૂકતા)</i></span><br>
+                                75 + y = 75&radic;3<br><br>
+                                
+                                y = 75&radic;3 - 75<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેમાંથી 75 સામાન્ય કાઢતા)</i></span><br>
+                                <b>y = <b style='color:#dc2626; font-size:22px;'>75 (&radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span> - 1) મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> બંને વહાણ વચ્ચેનું અંતર <b style='color:#be123c;'>75 (&radic;3 - 1) મીટર</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 14: 1.2 મીટર ઊંચાઈવાળી એક છોકરીને, જમીનથી 88.2 મીટર ઊંચાઈ પર પવનને કારણે સમક્ષિતિજ રેખામાં ગતિ કરતો એક ફુગ્ગો જોવા મળે છે. કોઈ એક સમયે છોકરીની આંખથી ફુગ્ગાના ઉત્સેધકોણનું માપ 60&deg; છે. થોડા સમય બાદ ઉત્સેધકોણ 30&deg; થઈ જાય છે. તો આ સમયગાળા દરમિયાન ફુગ્ગાએ કાપેલું અંતર શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો સૌથી લાંબો અને ગૂંચવણ વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલામાં સૌથી મોટી ભૂલ 88.2m લેવામાં થાય છે. છોકરીની ઊંચાઈ (1.2m) એમાંથી બાદ કરવી પડે, એટલે સાચી ઊંચાઈ 87m જ લેવાની છે!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="10" y1="190" x2="270" y2="190" stroke="#64748b" stroke-width="3"/>
+                                <line x1="10" y1="160" x2="270" y2="160" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <text x="210" y="155" font-size="10" fill="#0f172a">આંખનું સ્તર</text>
+                                
+                                <line x1="30" y1="190" x2="30" y2="160" stroke="#dc2626" stroke-width="4"/>
+                                <text x="5" y="180" font-size="10" font-weight="bold" fill="#dc2626">1.2m</text>
+                                <text x="20" y="150" font-size="12" font-weight="bold">A</text>
+                                
+                                <circle cx="110" cy="40" r="12" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/>
+                                <circle cx="230" cy="40" r="12" fill="#ef4444" stroke="#b91c1c" stroke-width="2"/>
+                                <text x="145" y="35" font-size="12" font-weight="bold" fill="#dc2626">&rarr; પવન &rarr;</text>
+                                
+                                <line x1="110" y1="52" x2="110" y2="160" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="230" y1="52" x2="230" y2="160" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="230" y1="160" x2="230" y2="190" stroke="#1d4ed8" stroke-width="1" stroke-dasharray="2,2"/>
+                                
+                                <text x="240" y="100" font-size="12" font-weight="bold" fill="#1d4ed8">87m (સાચી ઊંચાઈ)</text>
+                                <text x="240" y="180" font-size="10" fill="#0f172a">1.2m</text>
+
+                                <line x1="30" y1="160" x2="110" y2="40" stroke="#ea580c" stroke-width="1.5"/> <line x1="30" y1="160" x2="230" y2="40" stroke="#10b981" stroke-width="1.5"/> <path d="M 55 160 A 25 25 0 0 0 45 137" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="50" y="130" font-size="12" font-weight="bold" fill="#ea580c">60&deg;</text>
+                                
+                                <path d="M 70 160 A 40 40 0 0 0 65 147" fill="none" stroke="#10b981" stroke-width="1.5"/>
+                                <text x="75" y="152" font-size="12" font-weight="bold" fill="#10b981">30&deg;</text>
+
+                                <text x="105" y="175" font-size="12" font-weight="bold">B</text>
+                                <text x="225" y="175" font-size="12" font-weight="bold">C</text>
+                                <text x="145" y="175" font-size="12" font-weight="bold" fill="#dc2626">y (કાપેલું અંતર)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સાચી ઊંચાઈ અને પાયાની ધારણા</b><br>
+                            ત્રિકોણ માટે સાચી ઊંચાઈ = 88.2 - 1.2 = <b>87 મીટર</b>.<br>
+                            ધારો કે પહેલી વાર ફુગ્ગાનું આંખથી આડું અંતર <b>AB = x</b> છે.<br>
+                            ફુગ્ગાએ કાપેલું અંતર <b>BC = y</b> છે. (આપણે આ y શોધવાનો છે!)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પહેલા ત્રિકોણમાં ગણતરી (60&deg; વાળો)</b><br>
+                            અહીં સાબા = 87 અને પાબા = x છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>tan 60&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>x</span></span><br><br>
+                                
+                                <b>&radic;3 = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>x</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(x અને &radic;3 ની જગ્યા બદલતા)</i></span><br>
+                                <b style='color:#1d4ed8;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></b> &nbsp;&nbsp;&nbsp;... (આમ જ રાખો)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બીજા ત્રિકોણમાં ગણતરી (30&deg; વાળો) અને અંતિમ જવાબ</b><br>
+                            આખા મોટા ત્રિકોણમાં સાબા = 87 અને આખો પાબા <b>AC = x + y</b> થશે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>x + y</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>x + y</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા)</i></span><br>
+                                <b>x + y = 87&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અહીં x ની કિંમત 87/&radic;3 મૂકતા)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> + y = 87&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(y ને કર્તા બનાવીએ)</i></span><br>
+                                y = 87&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(લ.સા.અ. લેતા: &radic;3 &times; &radic;3 = 3 થશે)</i></span><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>(87 &times; 3) - 87</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>261 - 87</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>174</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કરણી લેવા 174 ના ભાગ પાડીએ: 174 = 58 &times; 3 = 58 &times; &radic;3 &times; &radic;3)</i></span><br>
+                                y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>58 &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+                                
+                                <b>y = <b style='color:#dc2626; font-size:24px;'>58&radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span> મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> ફુગ્ગાએ કાપેલું અંતર <b style='color:#be123c;'>58&radic;3 મીટર</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 15: સુરેખ માર્ગ એક ટાવર તરફ જાય છે. ટાવરની ટોચ પર ઊભેલ એક વ્યક્તિ, એક કારને 30&deg; ના અવસેધકોણ હેઠળ જુએ છે, જે અચળ ઝડપથી ટાવર તરફ આવી રહી છે. 6 સેકન્ડ પછી કારનો અવસેધકોણ 60&deg; થાય છે. તો કારને આ બિંદુથી ટાવરના તળિયા સુધી પહોંચતા કેટલો સમય લાગશે?", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો અંતર અને સમયને ભેગો કરતો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: અહીં માપ મીટરમાં નહિ, પણ 'સેકન્ડ (Time)' માં આપેલ છે! પણ ગભરાવાની જરૂર નથી, આપણે સમય (t) ને જ અંતર તરીકે ધારીને ગણતરી કરીશું, જવાબ 100% આવી જશે.</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="180" x2="260" y2="180" stroke="#64748b" stroke-width="3"/>
+                                
+                                <rect x="230" y="40" width="15" height="140" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+                                <text x="250" y="110" font-size="14" font-weight="bold" fill="#dc2626">h</text>
+                                
+                                <line x1="230" y1="40" x2="50" y2="40" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                
+                                <rect x="40" y="170" width="25" height="10" fill="#1d4ed8"/> <rect x="140" y="170" width="25" height="10" fill="#1d4ed8"/> <text x="45" y="200" font-size="12" font-weight="bold">D</text>
+                                <text x="145" y="200" font-size="12" font-weight="bold">C</text>
+                                <text x="230" y="200" font-size="12" font-weight="bold">B</text>
+                                <text x="230" y="30" font-size="12" font-weight="bold">A</text>
+                                
+                                <text x="75" y="215" font-size="12" font-weight="bold" fill="#ea580c">6 સેકન્ડ</text>
+                                <text x="175" y="215" font-size="12" font-weight="bold" fill="#10b981">t સેકન્ડ</text>
+
+                                <line x1="50" y1="175" x2="230" y2="40" stroke="#ea580c" stroke-width="1.5"/> <line x1="150" y1="175" x2="230" y2="40" stroke="#10b981" stroke-width="1.5"/> <path d="M 80 180 A 30 30 0 0 0 75 163" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="85" y="170" font-size="12" font-weight="bold" fill="#ea580c">30&deg;</text>
+                                
+                                <path d="M 175 180 A 25 25 0 0 0 170 157" fill="none" stroke="#10b981" stroke-width="1.5"/>
+                                <text x="180" y="165" font-size="12" font-weight="bold" fill="#10b981">60&deg;</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમયને જ અંતર તરીકે ધારવો</b><br>
+                            ધારો કે કારની ઝડપ સમાન છે. કાર <b>D થી C</b> સુધી પહોંચતા <b>6 સેકન્ડ</b> લે છે. (તેથી CD અંતર માટે આપણે 6 નો ઉપયોગ કરીશું).<br>
+                            ધારો કે કારને <b>C થી B (ટાવર)</b> સુધી પહોંચતા <b>'t' સેકન્ડ</b> લાગે છે. (તેથી CB અંતર માટે આપણે t નો ઉપયોગ કરીશું).<br>
+                            ટાવરની ઊંચાઈ <b>AB = h</b> ધારો.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 60&deg; વાળા નાના ત્રિકોણ (&Delta;ABC) ની ગણતરી</b><br>
+                            અહીં સાબા = h અને પાબા (સમય) = t છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>tan 60&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>CB</span></span><br><br>
+                                
+                                <b>&radic;3 = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>h</span><span>t</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(t સામે ગુણાકારમાં જશે)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:18px;'>h = t&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b> &nbsp;&nbsp;&nbsp;... (પરિણામ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: 30&deg; વાળા મોટા ત્રિકોણ (&Delta;ABD) ની ગણતરી અને t શોધવો</b><br>
+                            આખા ત્રિકોણમાં કુલ સમય (પાયો) <b>DB = (6 + t)</b> થશે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>DB</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>h</span><span>6 + t</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે <b>h ની જગ્યાએ t&radic;3</b> મુકતા - પરિણામ 1 પરથી)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>t&radic;<span style='border-top:1px solid #dc2626; display:inline-block;'>&nbsp;3&nbsp;</span></b></span><span>6 + t</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા: ડાબી બાજુ 6+t અને જમણી બાજુ &radic;3 નો ગુણાકાર)</i></span><br>
+                                6 + t = (t&radic;3) &times; &radic;3<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(&radic;3 &times; &radic;3 = 3 થશે)</i></span><br>
+                                6 + t = 3t<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(t ને પેલી બાજુ લઈ જતા માઇનસ થશે)</i></span><br>
+                                6 = 3t - t<br>
+                                6 = 2t<br>
+                                t = 6 / 2<br>
+                                <b>t = <b style='color:#dc2626; font-size:24px;'>3 સેકન્ડ</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> કારને આ બિંદુથી ટાવરના તળિયા સુધી પહોંચતા માત્ર <b><span style='color:#be123c;'>3 સેકન્ડ</span></b> નો સમય લાગશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
