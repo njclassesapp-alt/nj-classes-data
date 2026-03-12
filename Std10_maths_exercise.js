@@ -14700,9 +14700,217 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: ઉત્સેધકોણ (Elevation) અને અવસેધકોણ (Depression) એટલે શું? દાખલા કેવી રીતે ગણવા?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (NJ Classes ની દેશી ટ્રીક):</b><br>
+                            આ ચેપ્ટરમાં બસ <b>2 જ વસ્તુ</b> યાદ રાખવાની છે:<br>
+                            1. <b>ઉત્સેધકોણ (ઉપર જોવું):</b> જ્યારે તમે નીચે ઊભા હોવ અને કોઈ ટાવર કે પતંગને જોવા માટે માથું <b>ઉપર</b> કરો, ત્યારે જે ખૂણો બને તે ઉત્સેધકોણ.<br>
+                            2. <b>અવસેધકોણ (નીચે જોવું):</b> જ્યારે તમે અગાસી પર ઊભા હોવ અને નીચે રોડ પર જતી ગાડીને જોવા માથું <b>નીચે</b> નમાવો, ત્યારે જે ખૂણો બને તે અવસેધકોણ.
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="100" x2="260" y2="100" stroke="#0f172a" stroke-width="2" stroke-dasharray="5,5"/>
+                                <text x="200" y="95" font-size="12" font-weight="bold" fill="#0f172a">ક્ષિતિજ રેખા (સીધી નજર)</text>
+                                
+                                <circle cx="40" cy="100" r="15" fill="#e2e8f0" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="45" cy="100" r="5" fill="#0f172a"/>
+                                <text x="15" y="130" font-size="14" font-weight="bold">આંખ</text>
+                                
+                                <line x1="40" y1="100" x2="180" y2="30" stroke="#dc2626" stroke-width="2"/>
+                                <circle cx="180" cy="30" r="8" fill="#ef4444"/>
+                                <text x="195" y="35" font-size="12" font-weight="bold" fill="#dc2626">પતંગ / ટોચ</text>
+                                <path d="M 80 100 A 40 40 0 0 0 75 82" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="85" y="80" font-size="12" font-weight="bold" fill="#dc2626">ઉત્સેધકોણ</text>
+
+                                <line x1="40" y1="100" x2="180" y2="170" stroke="#1d4ed8" stroke-width="2"/>
+                                <rect x="175" y="165" width="20" height="10" fill="#3b82f6"/>
+                                <text x="200" y="175" font-size="12" font-weight="bold" fill="#1d4ed8">ગાડી / તળિયું</text>
+                                <path d="M 80 100 A 40 40 0 0 1 75 118" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="85" y="125" font-size="12" font-weight="bold" fill="#1d4ed8">અવસેધકોણ</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>કયું સૂત્ર વાપરવું? (Golden Rule):</b><br>
+                            આખા ચેપ્ટરમાં માત્ર કાટકોણ ત્રિકોણ જ બનશે. <br>
+                            • જો <b>કર્ણ (નિસરણી, દોરડું, પતંગની દોરી)</b> શોધવાનો હોય કે આપ્યો હોય, તો <b>sin &theta;</b> (સાબા/કર્ણ) વાપરવું.<br>
+                            • જો <b>પાયો કે ઊંચાઈ (ટાવર, થાંભલો, ઝાડ)</b> શોધવાના હોય, તો <b>tan &theta;</b> (સાબા/પાબા) જ વાપરવું! (90% દાખલાઓમાં tan &theta; જ વપરાશે).
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 1: સર્કસના તંબુમાં જમીન સાથે શિરોલંબ સ્થિતિમાં રહેલા થાંભલાની ટોચથી જમીન સાથે ખેંચીને બાંધેલા 20 મીટર લાંબા દોરડા પર એક કલાકાર ચઢી રહ્યો છે. જો દોરડું જમીન સાથે 30&deg; માપનો ખૂણો બનાવે, તો થાંભલાની ઊંચાઈ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સનો સૌથી બેઝિક અને સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            અહીં <b>દોરડું એટલે ત્રિકોણનો 'કર્ણ'</b>. કર્ણ 20 મીટર આપેલો છે અને <b>થાંભલાની ઊંચાઈ એટલે 'સામેની બાજુ (સાબા)'</b> શોધવાની છે.<br>
+                            જ્યારે સાબા શોધવાની હોય અને કર્ણ આપ્યો હોય, ત્યારે <b>sin &theta;</b> નું સૂત્ર વાપરવું!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="200" viewBox="0 0 220 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="50,40 50,160 180,160" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="50,150 60,150 60,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 155 160 A 25 25 0 0 0 162 143" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <text x="125" y="152" font-size="14" font-weight="bold" fill="#ea580c">30&deg;</text>
+                                
+                                <text x="40" y="30" font-size="16" font-weight="bold">A (ટોચ)</text>
+                                <text x="35" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="185" y="175" font-size="16" font-weight="bold">C (જમીન)</text>
+                                
+                                <text x="5" y="105" font-size="14" fill="#dc2626" font-weight="bold">? (થાંભલો)</text>
+                                <text x="120" y="90" font-size="14" fill="#1d4ed8" font-weight="bold">20 m (દોરડું)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આકૃતિ પરથી વર્ણન</b><br>
+                            ધારો કે, કાટકોણ &Delta;ABC માં,<br>
+                            • <b>AB</b> = થાંભલાની ઊંચાઈ (સાબા) = શોધવાની છે<br>
+                            • <b>AC</b> = દોરડાની લંબાઈ (કર્ણ) = 20 મીટર<br>
+                            • <b>&ang;C</b> = દોરડાએ જમીન સાથે બનાવેલ ખૂણો = 30&deg;
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: sin નું સૂત્ર અને ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>sin C = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાબા</span><span>કર્ણ</span></span><br><br>
+                                
+                                <b>sin 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>AC</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(કોષ્ટક પરથી sin 30&deg; = 1/2 મૂકતા)</i></span><br>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>20</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(20 સામે ગુણાકારમાં અંશમાં જશે)</i></span><br>
+                                <b>AB = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>20</span><span>2</span></span><br><br>
+                                
+                                <b>AB = <b style='color:#dc2626; font-size:24px;'>10 મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> થાંભલાની ઊંચાઈ <b style='color:#be123c;'>10 મીટર</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 2: વાવાઝોડાને કારણે એક ઝાડ એ રીતે ભાંગીને વળી જાય છે, જેથી તેની ટોચ જમીન સાથે 30&deg; માપનો ખૂણો બનાવે તે રીતે જમીનને સ્પર્શે છે. ઝાડની જમીનને સ્પર્શતી ટોચ અને ઝાડના થડ વચ્ચેનું અંતર 8 મીટર હોય, તો ઝાડની ઊંચાઈ શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો બે આકૃતિઓ (ભાંગતા પહેલા અને પછી) વાળો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલો 90% વિદ્યાર્થીઓ ખોટો ગણે છે! કારણ કે તેઓ માત્ર ઊભો ભાગ જ શોધે છે. ખરેખર ઝાડની કુલ ઊંચાઈ = (ઊભો ભાગ) + (તૂટીને પડેલો કર્ણવાળો ભાગ) બંનેનો સરવાળો થાય!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="250" height="220" viewBox="0 0 250 220" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="50" y1="30" x2="50" y2="100" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4"/>
+                                <text x="55" y="60" font-size="12" fill="#64748b">તૂટેલો ભાગ (કર્ણ બનશે)</text>
+                                <text x="45" y="20" font-size="14" font-weight="bold">A (ટોચ)</text>
+
+                                <polygon points="50,100 50,180 190,180" fill="#f0f9ff" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="50,170 60,170 60,180" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <path d="M 160 180 A 25 25 0 0 0 167 167" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <text x="135" y="175" font-size="14" font-weight="bold" fill="#ea580c">30&deg;</text>
+                                
+                                <text x="25" y="105" font-size="14" font-weight="bold">B</text>
+                                <text x="35" y="195" font-size="14" font-weight="bold">C (થડ)</text>
+                                <text x="195" y="195" font-size="14" font-weight="bold">D (ટોચ જમીન પર)</text>
+                                
+                                <text x="110" y="195" font-size="14" fill="#1d4ed8" font-weight="bold">8 m (પાબા)</text>
+                                <text x="100" y="130" font-size="14" fill="#9333ea" font-weight="bold">કર્ણ (BD)</text>
+                                <text x="5" y="145" font-size="14" fill="#dc2626" font-weight="bold">સાબા</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આકૃતિની સમજૂતી</b><br>
+                            ધારો કે ઝાડની કુલ ઊંચાઈ <b>AC</b> હતી. તે બિંદુ <b>B</b> થી તૂટે છે. <br>
+                            તેની ટોચ A જમીન પર <b>D</b> બિંદુએ અડે છે. એટલે કે <b>AB = BD (કર્ણ)</b> થશે.<br>
+                            • <b>CD</b> = થડ અને ટોચ વચ્ચેનું અંતર (પાબા) = <b>8 મીટર</b><br>
+                            • <b>&ang;D</b> = <b>30&deg;</b><br>
+                            <b style='color:#dc2626;'>ઝાડની કુલ ઊંચાઈ = BC (સાબા) + BD (કર્ણ)</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ઊભો ભાગ (BC) શોધવો (tan નો ઉપયોગ)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આપણી પાસે પાસેની બાજુ (પાબા = 8) છે અને સામેની બાજુ (સાબા = BC) શોધવી છે. તેથી <b>tan &theta;</b> લઈશું.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC (સાબા)</span><span>CD (પાબા)</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>BC</span><span>8</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(8 સામે ગુણાકારમાં જશે)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:18px;'>BC = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></b> &nbsp; (આને પરિણામ 1 કહીશું)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: તૂટેલો ભાગ (કર્ણ BD) શોધવો (cos નો ઉપયોગ)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આપણી પાસે પાબા છે અને કર્ણ શોધવો છે, તેથી <b>cos &theta;</b> લઈશું.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>cos 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>CD (પાબા)</span><span>BD (કર્ણ)</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span>BD</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર કરતા)</i></span><br>
+                                &radic;3 &times; BD = 8 &times; 2 = 16<br>
+                                <b style='color:#9333ea; font-size:18px;'>BD = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>16</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></b> &nbsp; (આને પરિણામ 2 કહીશું)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: ઝાડની કુલ ઊંચાઈ શોધવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; border:1px solid #d8b4fe; padding:15px; border-radius:5px;'>
+                                <b>કુલ ઊંચાઈ = BC + BD</b><br><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span>
+                                    <span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                </span> 
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 3px;'>16</span>
+                                    <span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદ સમાન હોવાથી અંશનો સરવાળો)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8 + 16</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>24</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદમાં વર્ગમૂળ ન રખાય, એટલે કરણી લઈએ. 24 = 8 &times; 3)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8 &times; 3</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8 &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span> &times; &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(એક &radic;3 ઉડી જશે)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>8&radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;3&nbsp;</span> મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> ઝાડની કુલ ઊંચાઈ <b style='color:#be123c;'>8&radic;3 મીટર</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
-        }
+                                }
+                                
+            
+        
+                
+            
+        
                 
             
         
