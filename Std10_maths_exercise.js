@@ -12362,6 +12362,108 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 7: જો cot &theta; = 7/8 હોય, તો (i) (1 + sin &theta;)(1 - sin &theta;) / (1 + cos &theta;)(1 - cos &theta;) અને (ii) cot² &theta; શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો (a+b)(a-b) ની ટ્રીક વાળો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            અહીં પહેલા પ્રશ્નમાં <b>(a + b)(a - b) = a² - b²</b> વાળો નિયમ વાપરવાનો છે! એટલે કે <b>(1 + sin &theta;)(1 - sin &theta;) = 1 - sin² &theta;</b> થઈ જશે. આનાથી ગણતરી અડધી થઈ જશે!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,40 40,160 160,160" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 135 160 A 25 25 0 0 0 142 142" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="125" y="150" font-size="16" font-weight="bold" fill="#1d4ed8">&theta;</text>
+                                
+                                <text x="35" y="30" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">C</text>
+                                
+                                <text x="5" y="105" font-size="14" fill="#dc2626" font-weight="bold">8 (સાબા)</text>
+                                <text x="90" y="180" font-size="14" fill="#16a34a" font-weight="bold">7 (પાબા)</text>
+                                <text x="100" y="95" font-size="14" fill="#ea580c" font-weight="bold">? (કર્ણ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પાયથાગોરસથી કર્ણ શોધવો</b><br>
+                            આપણને આપેલ છે: <b>cot &theta; = 7/8</b><br>
+                            cot &theta; = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>પાબા</span><span>સાબા</span></span> હોવાથી, પાસેની બાજુ (BC) = 7 અને સામેની બાજુ (AB) = 8 લેતા.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AC² = AB² + BC²<br>
+                                AC² = (8)² + (7)²<br>
+                                AC² = 64 + 49 = 113<br>
+                                <b style='color:#16a34a; font-size:20px;'>AC = &radic;<span style='border-top:2px solid #16a34a; display:inline-block; padding-top:1px;'>&nbsp;113&nbsp;</span></b> <span style='color:#047857; font-size:14px;'><i>(113 નું વર્ગમૂળ ન નીકળે, એટલે આમ જ રાખીશું)</i></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: sin &theta; અને cos &theta; ની કિંમતો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <span style='font-size:18px;'><b>sin &theta;</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાબા</span><span>કર્ણ</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>8</span><span>&radic;<span style='border-top:1.5px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;113&nbsp;</span></span></span></b></span><br><br>
+                                <span style='font-size:18px;'><b>cos &theta;</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>પાબા</span><span>કર્ણ</span></span> = <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>7</span><span>&radic;<span style='border-top:1.5px solid #1d4ed8; display:inline-block; padding-top:1px;'>&nbsp;113&nbsp;</span></span></span></b></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ભાગ (i) ની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(1 + sin &theta;)(1 - sin &theta;)</span>
+                                    <span>(1 + cos &theta;)(1 - cos &theta;)</span>
+                                </span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - sin² &theta;</span>
+                                    <span>1 - cos² &theta;</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે કિંમતો મૂકીએ)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - (8 / &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;113&nbsp;</span>)²</span>
+                                    <span>1 - (7 / &radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;113&nbsp;</span>)²</span>
+                                </span><br><br>
+                                
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - (64 / 113)</span>
+                                    <span>1 - (49 / 113)</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(ચોકડી ગુણાકાર લ.સા.અ. લેતા)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(113 - 64) / 113</span>
+                                    <span>(113 - 49) / 113</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેના છેદમાં 113 છે, તે ઉડી જશે)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:22px; font-weight:bold; color:#dc2626;'>
+                                    <span style='border-bottom:2px solid #dc2626; display:block; padding:0 5px;'>49</span>
+                                    <span>64</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: ભાગ (ii) ની ગણતરી</b><br>
+                            આપણને cot &theta; = 7/8 પહેલેથી જ આપેલું છે. <br>
+                            cot² &theta; = (7/8)² = <b style='color:#9333ea; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:2px solid #9333ea; display:block; padding:0 3px;'>49</span><span>64</span></span></b>
+                            
+                            <div style='margin-top:10px; background-color:#e0f2fe; padding:8px; border-radius:4px; border-left:4px solid #1d4ed8;'>
+                                <b style='color:#1e3a8a;'>નોંધ:</b> બંનેના જવાબ એકદમ સરખા (49/64) જ આવે છે!
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -12369,20 +12471,6 @@ var njMathsExercise = {
             
         
                 
-            
-        
-                
-            
-        
-                
-            
-        
-                
-            
-        
-    
-                
-                      
-        
+     
                         
 };
