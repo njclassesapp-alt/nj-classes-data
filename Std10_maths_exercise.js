@@ -12464,9 +12464,115 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 8: જો 3 cot A = 4 હોય, તો નક્કી કરો કે (1 - tan² A) / (1 + tan² A) = cos² A - sin² A છે કે નહિ.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો ડાબા = જબા ચેક કરવાનો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ દાખલામાં આપણે ડાબી બાજુ (LHS) અને જમણી બાજુ (RHS) અલગ-અલગ ગણીને ચેક કરીશું કે જવાબ સરખો આવે છે કે નહિ.</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,40 40,160 160,160" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 40 65 A 25 25 0 0 0 55 58" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <text x="35" y="30" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">B</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">C</text>
+                                
+                                <text x="5" y="105" font-size="14" fill="#1d4ed8" font-weight="bold">4 (પાબા)</text>
+                                <text x="90" y="180" font-size="14" fill="#dc2626" font-weight="bold">3 (સાબા)</text>
+                                <text x="100" y="95" font-size="14" fill="#ea580c" font-weight="bold">? (કર્ણ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: 3-4-5 ની ત્રિપુટી (પાયથાગોરસ)</b><br>
+                            આપણને <b>3 cot A = 4</b> આપેલ છે, એટલે કે <b>cot A = 4/3</b>.<br>
+                            તેથી, પાસેની બાજુ (AB) = 4 અને સામેની બાજુ (BC) = 3.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.5; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                AC² = AB² + BC²<br>
+                                AC² = (4)² + (3)² = 16 + 9 = 25<br>
+                                <b style='color:#16a34a;'>AC = 5 (કર્ણ)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: જરૂરી 3 હીરોની કિંમતો (sin, cos, tan)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px; display:flex; gap:20px;'>
+                                <span><b style='color:#1d4ed8;'>tan A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>3</span><span>4</span></span></span>
+                                <span><b style='color:#dc2626;'>sin A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>3</span><span>5</span></span></span>
+                                <span><b style='color:#ea580c;'>cos A</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>4</span><span>5</span></span></span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ડાબી બાજુ (LHS) ની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>LHS = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - tan² A</span>
+                                    <span>1 + tan² A</span>
+                                </span><br><br>
+                                
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - (3/4)²</span>
+                                    <span>1 + (3/4)²</span>
+                                </span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 - 9/16</span>
+                                    <span>1 + 9/16</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(લ.સા.અ. લેતા, છેદના 16 ઉડી જશે)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(16 - 9) / 16</span>
+                                    <span>(16 + 9) / 16</span>
+                                </span>
+                                <b> = </b>
+                                <b style='color:#ea580c; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #ea580c; display:block; padding:0 5px;'>7</span>
+                                    <span>25</span>
+                                </span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: જમણી બાજુ (RHS) ની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; padding:15px; border-radius:5px;'>
+                                <b>RHS = cos² A - sin² A</b><br><br>
+                                <b>RHS = </b> (4/5)² - (3/5)²<br>
+                                <b>RHS = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:16px;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>16</span><span>25</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:16px;'><span style='border-bottom:1px solid black; display:block; padding:0 5px;'>9</span><span>25</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદ સમાન હોવાથી અંશની સીધી બાદબાકી: 16 - 9 = 7)</i></span><br>
+                                <b>RHS = </b>
+                                <b style='color:#9333ea; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                    <span style='border-bottom:2px solid #9333ea; display:block; padding:0 5px;'>7</span>
+                                    <span>25</span>
+                                </span></b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:10px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ નિર્ણય:</b> અહીં <b>LHS = RHS</b> થાય છે (બંનેનો જવાબ 7/25 છે). તેથી આપેલી શરત <b>સાચી છે!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
