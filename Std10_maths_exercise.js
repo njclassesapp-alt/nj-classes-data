@@ -13603,9 +13603,249 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 3(i): સાચો વિકલ્પ પસંદ કરો અને યથાર્થતા ચકાસો: 9 sec² A - 9 tan² A = ____", 
+                    question_desc: "વિકલ્પો: (A) 1 (B) 9 (C) 8 (D) 0",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            રકમ જોતાં જ ખબર પડે છે કે બંને પદોમાં <b>9</b> સમાન છે. તો સૌથી પહેલા 9 ને <b>સામાન્ય (Common)</b> બહાર કાઢી લો. પછી કૌંસમાં જે વધે તેને ધ્યાનથી જુઓ, તે આપણું એક મેઈન નિત્યસમ બની જશે!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>ગણતરી:</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px; line-height:2.0;'>
+                                રકમ: <b>9 sec² A - 9 tan² A</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેમાંથી 9 સામાન્ય કાઢતા)</i></span><br>
+                                <b> = 9 (sec² A - tan² A)</b><br><br>
+                                
+                                <span style='background-color:#bbf7d0; padding:5px; border-radius:3px; color:#15803d; font-size:14px;'><i>(નિત્યસમ 2 નો ઉપયોગ: આપણે જાણીએ છીએ કે <b>sec² A - tan² A = 1</b> થાય)</i></span><br>
+                                <b> = 9 (1)</b><br>
+                                <b style='color:#dc2626; font-size:24px;'> = 9</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; border-left:4px solid #f59e0b; padding:8px; border-radius:4px;'>
+                                <b style='color:#be123c;'>અંતિમ જવાબ: (B) 9</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 3(ii): સાચો વિકલ્પ પસંદ કરો: (1 + tan &theta; + sec &theta;) (1 + cot &theta; - cosec &theta;) = ____", 
+                    question_desc: "વિકલ્પો: (A) 0 (B) 1 (C) 2 (D) -1 (ખૂબ જ અગત્યનો અને લાંબો દાખલો)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આ માત્ર MCQ નથી, આ દાખલો 3 માર્ક્સમાં પણ ગણવા માટે પૂછાઈ શકે છે!</b>
+                        </div>
+
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f;'>💡 માસ્ટર રૂલ (The Golden Rule of Trigonometry):</b><br>
+                            જ્યારે પણ સાબિતીના દાખલામાં ખબર ન પડે કે શું કરવું, ત્યારે <b>બધા જ હીરો (tan, cot, sec, cosec) ને બદલીને તેમને sin અને cos માં ફેરવી નાખવા!</b> આ એક જ ટ્રીકથી તમારા 90% દાખલા સોલ્વ થઈ જશે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બધા પદોને sin અને cos માં ફેરવવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>રકમ: </b> (1 + tan &theta; + sec &theta;) (1 + cot &theta; - cosec &theta;)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(સૂત્રો: tan = sin/cos, sec = 1/cos, cot = cos/sin, cosec = 1/sin મુકતા)</i></span><br>
+                                <b>= </b> 
+                                <span style='font-size:24px;'>(</span> 1 + <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>sin &theta;</span><span>cos &theta;</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>cos &theta;</span></span> <span style='font-size:24px;'>)</span>
+                                <span style='font-size:24px;'>(</span> 1 + <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>cos &theta;</span><span>sin &theta;</span></span> - <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>sin &theta;</span></span> <span style='font-size:24px;'>)</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બંને કૌંસમાં લ.સા.અ. (LCM) લેવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(પહેલા કૌંસમાં છેદમાં cos &theta; છે, બીજા કૌંસમાં sin &theta; છે. તેનો ગુણાકાર 1 સાથે થશે)</i></span><br>
+                                <b>= </b> 
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>cos &theta; + sin &theta; + 1</span><span>cos &theta;</span></span> <span style='font-size:24px;'>)</span>
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>sin &theta; + cos &theta; - 1</span><span>sin &theta;</span></span> <span style='font-size:24px;'>)</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બંને કૌંસનો ગુણાકાર અને બીજગણિતનું સૂત્ર</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અંશમાં ધ્યાનથી જુઓ: બંનેમાં <b>(sin &theta; + cos &theta;)</b> સમાન છે. <br>
+                            એક વાર <b>+ 1</b> છે અને બીજી વાર <b>- 1</b> છે. <br>
+                            આ તો <b>(a + b)(a - b) = a² - b²</b> નું સૂત્ર બની ગયું! જ્યાં a = (sin &theta; + cos &theta;) અને b = 1.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(sin &theta; + cos &theta;)² - (1)²</span>
+                                    <span>cos &theta; &times; sin &theta;</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે (a + b)² = a² + b² + 2ab ના સૂત્રથી કૌંસ છોડતા)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin² &theta; + cos² &theta; + 2 sin &theta; cos &theta; - 1</span>
+                                    <span>cos &theta; sin &theta;</span>
+                                </span><br><br>
+
+                                <span style='background-color:#fed7aa; padding:5px; border-radius:3px; color:#c2410c; font-size:14px;'><i>(નિત્યસમ 1 નો ઉપયોગ: <b>sin² &theta; + cos² &theta; = 1</b> મૂકતા)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#dc2626;'>1</b> + 2 sin &theta; cos &theta; - 1</span>
+                                    <span>cos &theta; sin &theta;</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(+1 અને -1 ઉડી જશે)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>2 sin &theta; cos &theta;</span>
+                                    <span>cos &theta; sin &theta;</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ અને છેદમાંથી sin &theta; cos &theta; ઉડી જશે)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>2</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ: (C) 2</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 3(iii): સાચો વિકલ્પ પસંદ કરો: (sec A + tan A) (1 - sin A) = ____", 
+                    question_desc: "વિકલ્પો: (A) sec A (B) sin A (C) cosec A (D) cos A",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર રૂલ:</b><br>
+                            ફરીથી એ જ રૂલ લગાવો! અહીં <b>sec</b> અને <b>tan</b> દેખાય છે, તેને તરત જ <b>sin</b> અને <b>cos</b> માં ફેરવી દો. એટલે દાખલો આપમેળે સહેલો થઈ જશે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: sin અને cos માં ફેરવવા</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>રકમ: </b> (sec A + tan A) (1 - sin A)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(સૂત્રો: sec A = 1/cos A, અને tan A = sin A/cos A મુકતા)</i></span><br>
+                                <b>= </b> 
+                                <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>cos A</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>sin A</span><span>cos A</span></span> <span style='font-size:24px;'>)</span> (1 - sin A)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(પહેલા કૌંસમાં બંનેના છેદમાં cos A છે, એટલે અંશનો સીધો સરવાળો થશે)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 + sin A</span>
+                                    <span>cos A</span>
+                                </span> 
+                                &times; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>(1 - sin A)</span>
+                                    <span>1</span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ગુણાકાર અને નિત્યસમનો ઉપયોગ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અંશમાં <b>(1 + sin A) (1 - sin A)</b> ભેગા થશે. આ <b>(a + b)(a - b) = a² - b²</b> નું સ્વરૂપ છે!</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1² - sin² A</span>
+                                    <span>cos A</span>
+                                </span><br><br>
+
+                                <span style='background-color:#bae6fd; padding:5px; border-radius:3px; color:#0369a1; font-size:14px;'><i>(નિત્યસમ 1 નો ઉપયોગ: sin² A + cos² A = 1 થાય, તો <b>1 - sin² A = cos² A</b> થશે!)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#dc2626;'>cos² A</b></span>
+                                    <span>cos A</span>
+                                </span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર બે વાર cos A છે, નીચે એક વાર. એક-એક ઉડી જશે)</i></span><br>
+                                <b>= <b style='color:#1d4ed8; font-size:24px;'>cos A</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d;'>અંતિમ જવાબ: (D) cos A</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.3 પ્રશ્ન 3(iv): સાચો વિકલ્પ પસંદ કરો: (1 + tan² A) / (1 + cot² A) = ____", 
+                    question_desc: "વિકલ્પો: (A) sec² A (B) -1 (C) cot² A (D) tan² A",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - સીધા નિત્યસમો:</b><br>
+                            અહીં અંશ અને છેદ બંનેમાં સીધેસીધા આપણા <b>માસ્ટર નિત્યસમો (સૂત્રો)</b> જ આપેલા છે! એટલે કંઈ લાંબુ વિચાર્યા વગર ડાયરેક્ટ સૂત્રો મૂકી દેવા.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: નિત્યસમો મૂકવા</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આપણે જાણીએ છીએ કે:<br>
+                            • નિત્યસમ 2: <b>1 + tan² A = sec² A</b><br>
+                            • નિત્યસમ 3: <b>1 + cot² A = cosec² A</b></span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>1 + tan² A</span>
+                                    <span>1 + cot² A</span>
+                                </span>
+                                <b> &nbsp;&nbsp;&#10551;&nbsp;&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><b style='color:#1d4ed8;'>sec² A</b></span>
+                                    <span><b style='color:#ea580c;'>cosec² A</b></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: sin અને cos માં ફેરવવા (માસ્ટર રૂલ)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>હવે બંનેને sin અને cos માં ફેરવીએ: sec એટલે 1/cos અને cosec એટલે 1/sin.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>cos² A</span></span></span>
+                                    <span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>1</span><span>sin² A</span></span></span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(ગણિતનો નિયમ: <b>છેદનો છેદ અંશમાં જાય</b>, એટલે કે સૌથી નીચેનો sin² A સીધો ઉપર જશે!)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin² A &times; 1</span>
+                                    <span>cos² A &times; 1</span>
+                                </span>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'>
+                                    <span style='border-bottom:1px solid black; display:block; padding:0 5px;'>sin² A</span>
+                                    <span>cos² A</span>
+                                </span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(અને આપણે જાણીએ છીએ કે sin / cos = tan થાય!)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>tan² A</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; border-left:4px solid #f59e0b; padding:8px; border-radius:4px;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ: (D) tan² A</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
-        }
+                }
+                
+            
+        
+                
+            
+        
                 
             
         
