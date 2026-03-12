@@ -16080,9 +16080,111 @@ var njMathsExercise = {
 
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 10.1 પ્રશ્ન 3: 5 સેમી ત્રિજ્યાવાળા વર્તુળના કોઈ બિંદુ P આગળ દોરેલ એક સ્પર્શક PQ, કેન્દ્ર O માંથી પસાર થતી રેખાને Q બિંદુએ છેદે છે. જો OQ = 12 સેમી હોય, તો PQ ની લંબાઈ શોધો.", 
+                    question_desc: "2024 અને 2025 બોર્ડ માટે 2 માર્ક્સનો પાયથાગોરસના પ્રમેય વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની માસ્ટર ટ્રીક:</b><br>
+                            પ્રમેય 10.1 મુજબ, ત્રિજ્યા અને સ્પર્શક વચ્ચે હંમેશા <b>90&deg; નો કાટખૂણો</b> બને છે. એટલે અહીં કાટકોણ ત્રિકોણ બનશે, જેમાં આપણે માત્ર <b>પાયથાગોરસનો પ્રમેય</b> વાપરવાનો છે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 120 20 A 80 80 0 0 0 40 100 A 80 80 0 0 0 120 180" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                                
+                                <polygon points="120,100 120,180 230,180" fill="#eff6ff" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <polyline points="120,170 130,170 130,180" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <circle cx="120" cy="100" r="4" fill="#0f172a"/>
+                                <text x="105" y="95" font-size="14" font-weight="bold">O</text>
+                                
+                                <circle cx="120" cy="180" r="4" fill="#0f172a"/>
+                                <text x="105" y="195" font-size="14" font-weight="bold">P</text>
+                                
+                                <circle cx="230" cy="180" r="4" fill="#0f172a"/>
+                                <text x="235" y="195" font-size="14" font-weight="bold">Q</text>
+                                
+                                <text x="90" y="145" font-size="14" fill="#16a34a" font-weight="bold">5 cm</text>
+                                <text x="160" y="130" font-size="14" fill="#1d4ed8" font-weight="bold">12 cm (OQ)</text>
+                                <text x="160" y="195" font-size="14" fill="#dc2626" font-weight="bold">? (PQ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: માહિતી ગોઠવવી</b><br>
+                            અહીં, <b>ત્રિજ્યા OP = 5 સેમી</b> છે.<br>
+                            કેન્દ્રથી બિંદુ Q નું અંતર <b>OQ = 12 સેમી</b> છે. (જે કર્ણ બનશે).<br>
+                            પ્રમેય 10.1 મુજબ, &ang;OPQ = 90&deg; થાય.
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: પાયથાગોરસના પ્રમેયથી ગણતરી</b><br>
+                            કાટકોણ &Delta;OPQ માં પાયથાગોરસ મુજબ:
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                OQ² = OP² + PQ²<br>
+                                (12)² = (5)² + PQ²<br>
+                                144 = 25 + PQ²<br><br>
+
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(25 ને સામે માઇનસમાં લઈ જતા)</i></span><br>
+                                PQ² = 144 - 25<br>
+                                PQ² = 119<br><br>
+
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(119 નું કોઈ વર્ગમૂળ ન નીકળે, એટલે નિશાની એમને એમ રહેશે)</i></span><br>
+                                <b style='color:#dc2626; font-size:22px;'>PQ = &radic;<span style='border-top:2px solid #dc2626; display:inline-block; padding-top:1px;'>&nbsp;119&nbsp;</span> સેમી</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> સ્પર્શક PQ ની લંબાઈ <b style='color:#be123c;'>&radic;119 સેમી</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 10.1 પ્રશ્ન 4: એક વર્તુળ દોરો. વર્તુળના સમતલમાં આપેલી કોઈ એક રેખાને સમાંતર હોય તેવી બે રેખાઓ દોરો જે પૈકી એક વર્તુળનો સ્પર્શક હોય અને બીજી વર્તુળની છેદિકા હોય.", 
+                    question_desc: "ફક્ત આકૃતિ દ્વારા સમજૂતી આપતો પ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સમજૂતી:</b><br>
+                            આપણે એક એવી આકૃતિ બનાવવાની છે જેમાં 3 રેખાઓ હોય અને ત્રણેય એકબીજાને <b>સમાંતર (Parallel - રેલવેના પાટા જેવી)</b> હોય.<br>
+                            1. કાળા રંગની: <b>આપેલી રેખા</b> (વર્તુળની બહાર)<br>
+                            2. લીલા રંગની: <b>સ્પર્શક</b> (વર્તુળને 1 બિંદુમાં અડતી)<br>
+                            3. વાદળી રંગની: <b>છેદિકા</b> (વર્તુળની આરપાર જતી)
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="140" cy="120" r="80" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="140" cy="120" r="4" fill="#0f172a"/>
+                                <text x="135" y="110" font-size="14" font-weight="bold">O</text>
+
+                                <line x1="20" y1="240" x2="260" y2="240" stroke="#0f172a" stroke-width="3"/>
+                                <text x="270" y="245" font-size="12" font-weight="bold">આપેલી રેખા</text>
+
+                                <line x1="20" y1="200" x2="260" y2="200" stroke="#16a34a" stroke-width="3"/>
+                                <circle cx="140" cy="200" r="5" fill="#16a34a"/>
+                                <text x="270" y="205" font-size="12" font-weight="bold" fill="#16a34a">સ્પર્શક</text>
+
+                                <line x1="20" y1="150" x2="260" y2="150" stroke="#1d4ed8" stroke-width="3"/>
+                                <circle cx="65" cy="150" r="4" fill="#1d4ed8"/>
+                                <circle cx="215" cy="150" r="4" fill="#1d4ed8"/>
+                                <text x="270" y="155" font-size="12" font-weight="bold" fill="#1d4ed8">છેદિકા</text>
+                            </svg>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
     
                 
             
