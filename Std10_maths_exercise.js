@@ -12844,9 +12844,105 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 1(i): કિંમત શોધો: sin 60&deg; cos 30&deg; + sin 30&deg; cos 60&deg;", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો સૌથી વધુ પૂછાતો અને સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: ટેબલ પરથી કિંમત મૂકીને સાદું રૂપ આપવાનો સૌથી ફેવરિટ દાખલો!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કોષ્ટકમાંથી કિંમતો મૂકવી</b><br>
+                            રકમ: <b>sin 60&deg; &times; cos 30&deg; + sin 30&deg; &times; cos 60&deg;</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span><span style='font-size:24px;'>)</span>
+                                <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span><span style='font-size:24px;'>)</span>
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:24px;'>)</span>
+                                <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span><span style='font-size:24px;'>)</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સાદું રૂપ (ગણતરી)</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(&radic;3 &times; &radic;3 = 3 થાય, અને નીચે 2 &times; 2 = 4 થાય)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>4</span></span>
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(છેદ સમાન હોવાથી અંશનો સીધો સરવાળો)</i></span><br>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3 + 1</span><span>4</span></span>
+                                <b> = </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>4</span></span>
+                                <b> = <span style='color:#dc2626; font-size:24px;'>1</span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> માંગેલ કિંમત <b style='color:#be123c;'>1</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 8.2 પ્રશ્ન 1(ii): કિંમત શોધો: 2 tan² 45&deg; + cos² 30&deg; - sin² 60&deg;", 
+                    question_desc: "2025 બોર્ડ માટે 2 માર્ક્સનો માત્ર 3 સ્ટેપમાં ગણાતો સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે પણ ત્રિકોણમિતિ પર <b>વર્ગ (Square - દા.ત. tan²)</b> હોય, ત્યારે આખી કિંમત મૂકીને કૌંસની બહાર વર્ગ કરવો. અને ધ્યાન રાખવું: <b>tan 45&deg; ની કિંમત 1 છે</b> (જે ગણતરીમાં સૌથી સહેલી પડે!).
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: કોષ્ટકમાંથી કિંમતો મૂકવી</b><br>
+                            રકમ: <b>2(tan 45&deg;)² + (cos 30&deg;)² - (sin 60&deg;)²</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                2<span style='font-size:24px;'>(</span>1<span style='font-size:24px;'>)</span>²
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span><span style='font-size:24px;'>)</span>²
+                                <b> &nbsp;-&nbsp; </b>
+                                <span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;<span style='border-top:1.5px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span><span>2</span></span><span style='font-size:24px;'>)</span>²
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સાદું રૂપ (ગણતરી)</b><br>
+                            <span style='color:#047857; font-size:14px;'><i>(અહીં ધ્યાનથી જુઓ, પ્લસ વાળી કિંમત અને માઇનસ વાળી કિંમત એકદમ સરખી છે! એટલે એ બંને સીધા ઉડી જશે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b> = </b>
+                                2(1) 
+                                <b> &nbsp;+&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>4</span></span>
+                                <b> &nbsp;-&nbsp; </b>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:20px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>4</span></span><br><br>
+                                
+                                <b> = </b> 2 + 0<br>
+                                <b> = <span style='color:#dc2626; font-size:24px;'>2</span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> માંગેલ કિંમત <b style='color:#be123c;'>2</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
