@@ -12669,9 +12669,122 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 8.1 પ્રશ્ન 10: &Delta;PQR માં &ang;Q કાટખૂણો છે. જો PR + QR = 25 સેમી અને PQ = 5 સેમી હોય, તો sin P, cos P અને tan P શોધો.", 
+                    question_desc: "2024 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સૌથી અગત્યનો અને ટ્વિસ્ટેડ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આખા સ્વાધ્યાય 8.1 નો સૌથી વધુ પૂછાતો દાખલો. આમાં એક બાજુને 'x' ધારીને સમીકરણ બનાવવું પડશે!</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="40,20 40,160 160,160" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="40,150 50,150 50,160" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <text x="35" y="15" font-size="16" font-weight="bold">P</text>
+                                <text x="25" y="175" font-size="16" font-weight="bold">Q</text>
+                                <text x="165" y="175" font-size="16" font-weight="bold">R</text>
+                                
+                                <text x="5" y="95" font-size="14" fill="#1d4ed8" font-weight="bold">5 (PQ)</text>
+                                <text x="90" y="180" font-size="14" fill="#dc2626" font-weight="bold">x</text>
+                                <text x="100" y="95" font-size="14" fill="#ea580c" font-weight="bold">25 - x</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બાજુઓને ધારવી</b><br>
+                            આપણને PQ = 5 અને <b>PR + QR = 25</b> આપેલ છે.<br>
+                            ધારો કે <b style='color:#dc2626;'>QR = x</b> છે. <br>
+                            તેથી, <b style='color:#ea580c;'>PR = 25 - x</b> થશે. (કારણ કે બંનેનો સરવાળો 25 છે).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પાયથાગોરસ પ્રમેય વાપરીને x શોધવો</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.8; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                PR² = PQ² + QR²<br>
+                                (25 - x)² = (5)² + (x)²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>((a-b)² = a² - 2ab + b² ના નિયમ મુજબ કૌંસ છોડતા)</i></span><br>
+                                625 - 50x + x² = 25 + x²<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુથી x² ઉડી જશે)</i></span><br>
+                                625 - 50x = 25<br>
+                                625 - 25 = 50x<br>
+                                600 = 50x<br>
+                                x = 600 / 50<br>
+                                <b style='color:#dc2626; font-size:22px;'>x = 12</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ત્રણેય બાજુઓના સાચા માપ</b><br>
+                            • <b>PQ (પાસેની બાજુ)</b> = 5<br>
+                            • <b>QR (સામેની બાજુ)</b> = x = <b style='color:#16a34a;'>12</b><br>
+                            • <b>PR (કર્ણ)</b> = 25 - 12 = <b style='color:#16a34a;'>13</b>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: sin P, cos P અને tan P ની ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; padding:15px; border-radius:5px; display:flex; gap:20px;'>
+                                <span><b style='color:#1d4ed8;'>sin P</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>સાબા</span><span>કર્ણ</span></span> = <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 2px;'>12</span><span>13</span></span></b></span>
+                                
+                                <span><b style='color:#ea580c;'>cos P</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>પાબા</span><span>કર્ણ</span></span> = <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 2px;'>5</span><span>13</span></span></b></span>
+                                
+                                <span><b style='color:#16a34a;'>tan P</b> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>સાબા</span><span>પાબા</span></span> = <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 2px;'>12</span><span>5</span></span></b></span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "સ્વા. 8.1 પ્રશ્ન 11: નીચેનાં વિધાનો સત્ય છે કે અસત્ય તે જણાવો અને તમારા જવાબની યથાર્થતા ચકાસો.", 
+                    question_desc: "1 માર્કના હેતુલક્ષી પ્રશ્નો માટે ખૂબ જ અગત્યના ખરા-ખોટા",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='margin-bottom:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b>(i) tan A નું મૂલ્ય હંમેશા 1 કરતાં ઓછું હોય છે.</b><br>
+                            <b style='color:#b91c1c;'>જવાબ: અસત્ય (False).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: tan A = સાબા / પાબા. જો સામેની બાજુ પાસેની બાજુ કરતા મોટી હોય (દા.ત. સાબા=12, પાબા=5), તો જવાબ 12/5 = 2.4 આવે, જે 1 કરતા મોટો છે!</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#dcfce7; border-left:4px solid #22c55e; padding:10px; border-radius:4px;'>
+                            <b>(ii) A માપવાળા કોઈ ખૂણા માટે sec A = 12/5 સત્ય છે.</b><br>
+                            <b style='color:#15803d;'>જવાબ: સત્ય (True).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: sec A = કર્ણ / પાબા. કાટકોણ ત્રિકોણમાં કર્ણ હંમેશા સૌથી મોટી બાજુ હોય છે. અહીં અંશ (12) એ છેદ (5) કરતા મોટો છે, જે શક્ય છે.</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b>(iii) ખૂણા A ના cosecant ને સંક્ષિપ્તમાં cos A તરીકે લખાય છે.</b><br>
+                            <b style='color:#b91c1c;'>જવાબ: અસત્ય (False).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: cosecant નું ટૂંકું રૂપ 'cosec A' થાય છે. જ્યારે 'cos A' એ <b>cosine</b> નું ટૂંકું રૂપ છે.</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b>(iv) cot અને A નો ગુણાકાર cot A છે.</b><br>
+                            <b style='color:#b91c1c;'>જવાબ: અસત્ય (False).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: 'cot A' એ ખૂણા A માટેનો એક ત્રિકોણમિતિય ગુણોત્તર છે, તે કોઈ બે પદોનો ગુણાકાર નથી. ખૂણા વગર એકલા 'cot' નો કોઈ જ અર્થ નથી.</span>
+                        </div>
+
+                        <div style='margin-bottom:10px; background-color:#fee2e2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b>(v) &theta; માપવાળા કોઈ એક ખૂણા માટે sin &theta; = 4/3 શક્ય છે.</b><br>
+                            <b style='color:#b91c1c;'>જવાબ: અસત્ય (False).</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કારણ: sin &theta; = સાબા / કર્ણ. અહીં કર્ણ (3) એ સામેની બાજુ (4) કરતા નાનો દર્શાવ્યો છે, જે ગણિતના નિયમ મુજબ ક્યારેય શક્ય નથી! કર્ણ હંમેશા સૌથી મોટો જ હોવો જોઈએ.</span>
+                        </div>
+
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
                 
             
         
