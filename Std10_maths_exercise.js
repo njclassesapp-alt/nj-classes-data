@@ -15374,6 +15374,180 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+        
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 9: એક ટાવરના તળિયાથી એક ઇમારતની ટોચના ઉત્સેધકોણનું માપ 30&deg; છે અને ઇમારતના તળિયાથી ટાવરની ટોચના ઉત્સેધકોણનું માપ 60&deg; છે. જો ટાવરની ઊંચાઈ 50 મીટર હોય, તો ઇમારતની ઊંચાઈ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો એક જ પાયા પર બે ત્રિકોણ વાળો સુપર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            અહીં <b>બે કાટકોણ ત્રિકોણ</b> બને છે અને બંનેનો <b>પાયો (જમીન) સમાન</b> છે!<br>
+                            આપણને ટાવરની ઊંચાઈ (50m) આપેલી છે, તો સૌથી પહેલા <b>ટાવર વાળા ત્રિકોણ પરથી પાયો શોધી લો</b>. પછી એ જ પાયાની કિંમત ઇમારત વાળા ત્રિકોણમાં મૂકી દો, એટલે ઇમારતની ઊંચાઈ આપોઆપ મળી જશે!
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="170" x2="260" y2="170" stroke="#64748b" stroke-width="3"/>
+                                
+                                <rect x="30" y="80" width="20" height="90" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+                                <text x="15" y="70" font-size="14" font-weight="bold">A</text>
+                                <text x="15" y="185" font-size="14" font-weight="bold">B</text>
+                                <text x="10" y="130" font-size="14" font-weight="bold" fill="#dc2626">h</text>
+                                <text x="10" y="210" font-size="12" fill="#0f172a">ઇમારત</text>
+                                
+                                <rect x="230" y="30" width="15" height="140" fill="#fca5a5" stroke="#b91c1c" stroke-width="2"/>
+                                <text x="255" y="25" font-size="14" font-weight="bold">C</text>
+                                <text x="255" y="185" font-size="14" font-weight="bold">D</text>
+                                <text x="250" y="100" font-size="14" font-weight="bold" fill="#1d4ed8">50 m</text>
+                                <text x="235" y="210" font-size="12" fill="#0f172a">ટાવર</text>
+                                
+                                <line x1="230" y1="170" x2="50" y2="80" stroke="#ea580c" stroke-width="1.5"/> <line x1="50" y1="170" x2="230" y2="30" stroke="#10b981" stroke-width="1.5"/> <path d="M 210 170 A 30 30 0 0 1 205 160" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="175" y="165" font-size="12" font-weight="bold" fill="#ea580c">30&deg;</text>
+                                
+                                <path d="M 70 170 A 30 30 0 0 0 75 150" fill="none" stroke="#10b981" stroke-width="1.5"/>
+                                <text x="80" y="165" font-size="12" font-weight="bold" fill="#10b981">60&deg;</text>
+                                
+                                <text x="120" y="190" font-size="14" font-weight="bold">પાયો (BD)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ટાવરના ત્રિકોણ (&Delta;CDB) પરથી પાયો શોધવો</b><br>
+                            અહીં ટાવરની ઊંચાઈ <b>CD = 50 મીટર (સાબા)</b> છે અને ખૂણો &ang;B = 60&deg; છે. આપણે <b>પાયો BD</b> શોધીશું.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>tan 60&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>CD (ટાવર)</span><span>BD (પાયો)</span></span><br><br>
+                                
+                                <b>&radic;3 = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50</span><span>BD</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(BD અને &radic;3 ની જગ્યા બદલતા)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:18px;'>BD = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> મીટર</b> &nbsp; <span style='color:#14532d;'>(આપણને પાયો મળી ગયો!)</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ઇમારતના ત્રિકોણ (&Delta;ABD) પરથી ઊંચાઈ શોધવી</b><br>
+                            અહીં ઇમારતની ઊંચાઈ <b>AB = h (સાબા)</b> છે અને ખૂણો &ang;D = 30&deg; છે. પાયો BD આપણે ઉપર શોધ્યો તે જ મૂકીશું.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB (ઇમારત)</span><span>BD (પાયો)</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>h</span><span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>50</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદનો આખો ભાગ (50/&radic;3) સામે ઉપર ગુણાકારમાં જશે)</i></span><br>
+                                <b>h = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(નીચે &radic;3 &times; &radic;3 = 3 થઈ જશે)</i></span><br>
+                                <b>h = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:22px; color:#dc2626; font-weight:bold;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>50</span><span>3</span></span> મીટર</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(મિશ્ર અપૂર્ણાંકમાં ફેરવતા: 16 &times; 3 = 48, શેષ 2 વધે)</i></span><br>
+                                <b>h = <b style='color:#9333ea; font-size:22px;'>16 <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:2px solid #9333ea; display:block; padding:0 2px;'>2</span><span>3</span></span> મીટર</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#fffbeb; padding:8px; border-radius:4px; border-left:4px solid #f59e0b;'>
+                                <b style='color:#b45309;'>અંતિમ જવાબ:</b> ઇમારતની ઊંચાઈ <b style='color:#be123c;'>16 <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px;'><span style='border-bottom:1px solid #be123c; display:block; padding:0 2px;'>2</span><span>3</span></span> મીટર (અથવા 50/3 મીટર)</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 9.1 પ્રશ્ન 10: 80 મીટર પહોળા માર્ગની બંને બાજુએ સમાન ઊંચાઈના બે સ્તંભ (થાંભલા) શિરોલંબ સ્થિતિમાં છે. માર્ગ પર વચ્ચે આવેલા કોઈ એક બિંદુએથી બંને સ્તંભની ટોચના ઉત્સેધકોણનાં માપ 60&deg; અને 30&deg; જણાય છે. તો દરેક સ્તંભની ઊંચાઈ અને બંને સ્તંભનું નિરીક્ષણ બિંદુથી અંતર શોધો.", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો સૌથી મોસ્ટ IMP ટ્વિસ્ટેડ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષા: આખા ચેપ્ટરનો સૌથી લોકપ્રિય દાખલો! આમાં રસ્તાની કુલ પહોળાઈ 80 છે, એટલે બિંદુથી એક બાજુનું અંતર 'x' લેવાનું અને બીજી બાજુનું અંતર '80 - x' લેવાનું.</b>
+                        </div>
+
+                        <div style='text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="160" x2="260" y2="160" stroke="#0f172a" stroke-width="3"/>
+                                <text x="110" y="190" font-size="14" font-weight="bold">કુલ રસ્તો = 80 m</text>
+                                
+                                <rect x="20" y="40" width="10" height="120" fill="#dc2626" stroke="#b91c1c" stroke-width="2"/>
+                                <text x="5" y="30" font-size="14" font-weight="bold">A</text>
+                                <text x="5" y="175" font-size="14" font-weight="bold">B</text>
+                                <text x="10" y="100" font-size="14" font-weight="bold" fill="#dc2626">h</text>
+                                
+                                <rect x="250" y="40" width="10" height="120" fill="#dc2626" stroke="#b91c1c" stroke-width="2"/>
+                                <text x="265" y="30" font-size="14" font-weight="bold">D</text>
+                                <text x="265" y="175" font-size="14" font-weight="bold">E</text>
+                                <text x="265" y="100" font-size="14" font-weight="bold" fill="#dc2626">h</text>
+                                
+                                <circle cx="90" cy="160" r="4" fill="#1d4ed8"/>
+                                <text x="85" y="180" font-size="14" font-weight="bold" fill="#1d4ed8">C</text>
+                                
+                                <line x1="90" y1="160" x2="30" y2="40" stroke="#ea580c" stroke-width="1.5"/> <line x1="90" y1="160" x2="250" y2="40" stroke="#10b981" stroke-width="1.5"/> <path d="M 70 160 A 20 20 0 0 1 78 140" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="45" y="150" font-size="12" font-weight="bold" fill="#ea580c">60&deg;</text>
+                                
+                                <path d="M 120 160 A 30 30 0 0 0 115 145" fill="none" stroke="#10b981" stroke-width="1.5"/>
+                                <text x="125" y="145" font-size="12" font-weight="bold" fill="#10b981">30&deg;</text>
+
+                                <text x="50" y="175" font-size="12" font-weight="bold" fill="#1d4ed8">x</text>
+                                <text x="160" y="175" font-size="12" font-weight="bold" fill="#1d4ed8">80 - x</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: આકૃતિની સમજૂતી અને ધારણા</b><br>
+                            ધારો કે બંને સમાન થાંભલાની <b>ઊંચાઈ AB = DE = h</b> છે.<br>
+                            માર્ગની કુલ પહોળાઈ <b>BE = 80 મીટર</b> છે.<br>
+                            ધારો કે બિંદુ <b>C</b> થી પહેલા થાંભલાનું અંતર <b>BC = x</b> છે.<br>
+                            તો બીજા થાંભલાનું અંતર <b>CE = 80 - x</b> થાય.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પહેલા ત્રિકોણ (&Delta;ABC) માં ગણતરી (60&deg; વાળો)</b><br>
+                            અહીં સાબા = h અને પાબા = x છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:10px; border-radius:5px;'>
+                                <b>tan 60&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>AB</span><span>BC</span></span><br><br>
+                                
+                                <b>&radic;3 = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>h</span><span>x</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(x સામે ગુણાકારમાં જશે)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:18px;'>h = x&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></b> &nbsp;&nbsp;&nbsp;... (પરિણામ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બીજા ત્રિકોણ (&Delta;CDE) માં ગણતરી (30&deg; વાળો)</b><br>
+                            અહીં સાબા = h અને પાબા = (80 - x) છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                <b>tan 30&deg; = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>DE</span><span>CE</span></span><br><br>
+                                
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span> <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>h</span><span>80 - x</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>((80 - x) સામે અંશમાં જશે)</i></span><br>
+                                <b style='color:#ea580c; font-size:18px;'>h = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>80 - x</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span></b> &nbsp;&nbsp;&nbsp;... (પરિણામ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: બંને સમીકરણો સરખાવવા (x શોધવો)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>પરિણામ 1 અને 2 બંને <b>'h'</b> ની જ કિંમત દર્શાવે છે, તેથી બંનેને સામસામે મૂકી શકાય.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; border:1px solid #d8b4fe; padding:15px; border-radius:5px;'>
+                                x&radic;3 <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>80 - x</span><span>&radic;<span style='border-top:1px solid black; display:inline-block;'>&nbsp;3&nbsp;</span></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદનો &radic;3 સામે ગુણાશે, એટલે &radic;3 &times; &radic;3 = 3 થઈ જશે)</i></span><br>
+                                3x = 80 - x<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(-x આ બાજુ આવે તો +x થાય)</i></span><br>
+                                3x + x = 80<br>
+                                4x = 80<br>
+                                x = 80 / 4<br>
+                                <b style='color:#dc2626; font-size:22px;'>x = 20 મીટર</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(આની પરથી બંને અંતર અને ઊંચાઈ શોધીએ)</i></span><br>
+                                • <b>પહેલું અંતર (BC)</b> = x = <b style='color:#16a34a;'>20 મીટર</b><br>
+                                • <b>બીજું અંતર (CE)</b> = 80 - 20 = <b style='color:#16a34a;'>60 મીટર</b><br>
+                                • <b>થાંભલાની ઊંચાઈ (h)</b> = x&radic;3 = <b style='color:#1d4ed8;'>20&radic;<span style='border-top:1.5px solid #1d4ed8; display:inline-block;'>&nbsp;3&nbsp;</span> મીટર</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -15385,9 +15559,7 @@ var njMathsExercise = {
         
                 
             
-        
-                
-            
+          
         
             
                         
