@@ -3740,13 +3740,8 @@
                             </div>
                         </div>
                     </div>
-                    `
-                },
-                
-                { 
-                    question: "🌟 સ્વા. 13.1 પ્રશ્ન 1 (અન્ય બે રીતો): ધારેલા મધ્યકની રીત અને પદ-વિચલનની રીતની ગણતરી સમજો.", 
-                    question_desc: "બોર્ડની પરીક્ષામાં તમને જે રીત સહેલી લાગે તે કોઈ પણ એક જ રીતથી દાખલો ગણવો.",
-                    answer: `
+                    
+                      
                     <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
                         
                         <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
