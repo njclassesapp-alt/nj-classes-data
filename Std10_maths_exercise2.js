@@ -1652,9 +1652,185 @@
                         </div>
                     </div>
                     `
+                },
+                   
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 5: 21 સેમી ત્રિજ્યાવાળા વર્તુળનું એક ચાપ કેન્દ્ર આગળ 60&deg; નો ખૂણો આંતરે છે. તો શોધો: (i) ચાપની લંબાઈ (ii) ચાપ વડે બનતા વૃત્તાંશનું ક્ષેત્રફળ (iii) અનુરૂપ જીવા વડે બનતા વૃત્તખંડનું ક્ષેત્રફળ.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો ત્રણેય સૂત્રોનો ઉપયોગ કરાવતો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - સમબાજુ ત્રિકોણની ટ્રીક:</b><br>
+                            જ્યારે પણ કેન્દ્ર આગળ <b>60&deg; નો ખૂણો</b> બને, ત્યારે સમજવું કે અંદર બનતો ત્રિકોણ <b>સમબાજુ ત્રિકોણ (Equilateral Triangle)</b> જ હોય! <br>
+                            આવા ત્રિકોણના ક્ષેત્રફળનું સીધું સૂત્ર છે: <b style='color:#dc2626;'>(&radic;3 / 4) &times; (બાજુ)&sup2;</b>. આપણે વૃત્તખંડ શોધવા આ જ સૂત્ર વાપરીશું.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="220" viewBox="0 0 260 220" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="130" cy="110" r="90" fill="#f0f9ff" stroke="#0f172a" stroke-width="2" stroke-dasharray="4,4"/>
+                                <circle cx="130" cy="110" r="4" fill="#0f172a"/>
+                                <text x="125" y="100" font-size="14" font-weight="bold">O</text>
+
+                                <path d="M 130 110 L 175 188 A 90 90 0 0 1 85 188 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <path d="M 175 188 A 90 90 0 0 1 85 188 L 175 188" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+
+                                <line x1="130" y1="110" x2="175" y2="188" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="130" y1="110" x2="85" y2="188" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="85" y1="188" x2="175" y2="188" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3"/> <path d="M 115 136 A 30 30 0 0 0 145 136" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="120" y="150" font-size="12" font-weight="bold" fill="#dc2626">60&deg;</text>
+
+                                <text x="70" y="200" font-size="14" font-weight="bold">A</text>
+                                <text x="180" y="200" font-size="14" font-weight="bold">B</text>
+                                
+                                <text x="80" y="145" font-size="12" font-weight="bold" fill="#1d4ed8">r = 21</text>
+                                <text x="155" y="145" font-size="12" font-weight="bold" fill="#1d4ed8">21</text>
+                                
+                                <text x="130" y="215" font-size="12" font-weight="bold" fill="#16a34a">લઘુચાપ (l)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: (i) ચાપની લંબાઈ (l) શોધવી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં <b>r = 21 સેમી</b> અને <b>&theta; = 60&deg;</b> છે. (&pi; = 22/7 લઈશું)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>ચાપની લંબાઈ (l) = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360</span></span> &times; 2&pi;r<br><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>60</span><span>360</span></span> &times; 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 21<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(60 વડે 360 નો ભાગ ચલાવતા 1/6 વધશે, અને 7 &times; 3 = 21 ઉડશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span><b style='color:#dc2626;'>6</b></span></span> &times; 2 &times; 22 &times; <b style='color:#dc2626;'>3</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર 2 &times; 3 = 6 થાય, જે નીચેના 6 સાથે ઉડી જશે)</i></span><br>
+                                <b>= <b style='color:#1d4ed8; font-size:22px;'>22 સેમી</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: (ii) વૃત્તાંશનું ક્ષેત્રફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>વૃત્તાંશનું ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360</span></span> &times; &pi;r&sup2;<br><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>60</span><span>360</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 21 &times; 21<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ફરી 1/6 વધશે અને 7 &times; 3 = 21 ઉડશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span><b style='color:#dc2626;'>6</b></span></span> &times; 22 &times; <b style='color:#dc2626;'>3</b> &times; 21<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(3 વડે 6 ને ઉડાડતા નીચે 2 વધે. અને 2 વડે 22 ને ઉડાડતા 11 વધે)</i></span><br>
+                                <b>= </b> 11 &times; 21<br>
+                                <b>= <b style='color:#dc2626; font-size:22px;'>231 સેમી&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 3: (iii) વૃત્તખંડ (Crust) નું ક્ષેત્રફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <span style='color:#0f172a; font-size:14px;'>અહીં &theta; = 60&deg; હોવાથી &Delta;OAB <b>સમબાજુ ત્રિકોણ</b> છે. (બાજુ a = 21)<br>
+                                સમબાજુ ત્રિકોણનું ક્ષેત્રફળ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>4</span></span> &times; (a)&sup2;</span><br><br>
+
+                                <b>વૃત્તખંડનું ક્ષેત્રફળ = </b> વૃત્તાંશનું ક્ષે. - ત્રિકોણનું ક્ષે.<br><br>
+                                <b>= </b> 231 - [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>4</span></span> &times; (21)&sup2; ]<br><br>
+                                <b>= </b> 231 - [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>4</span></span> &times; 441 ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ચોપડી મુજબ આ જ અંતિમ જવાબ છે, વધુ સાદું રૂપ આપવાની જરૂર નથી)</i></span><br>
+                                <b>= <span style='font-size:22px; color:#15803d; font-weight:bold;'><span style='font-size:30px;'>(</span> 231 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>441&radic;3</span><span>4</span></span> <span style='font-size:30px;'>)</span> સેમી&sup2;</span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                   
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 6: 15 સેમી ત્રિજ્યાવાળા વર્તુળની જીવા કેન્દ્ર આગળ 60&deg; નો ખૂણો આંતરે છે. તેને અનુરૂપ લઘુવૃત્તખંડ અને ગુરુવૃત્તખંડનું ક્ષેત્રફળ શોધો. (&pi; = 3.14 અને &radic;3 = 1.73 લો).", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો લાંબી ગણતરી (Calculations) વાળો સૌથી અઘરો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ચેતવણી:</b><br>
+                            આ દાખલામાં પોઈન્ટ (Decimals) વાળા ગુણાકાર સૌથી વધુ છે! ઉતાવળ કરવી નહિ. <br>
+                            <b>ગુરુવૃત્તખંડ</b> = આખા વર્તુળનું ક્ષેત્રફળ - લઘુવૃત્તખંડનું ક્ષેત્રફળ.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="130" cy="130" r="100" fill="#fef08a" stroke="#0f172a" stroke-width="2"/> 
+                                
+                                <polygon points="130,130 180,216 80,216" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <path d="M 180 216 A 100 100 0 0 1 80 216 L 180 216" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+                                
+                                <circle cx="130" cy="130" r="4" fill="#0f172a"/>
+                                <text x="125" y="120" font-size="14" font-weight="bold">O</text>
+
+                                <path d="M 120 148 A 20 20 0 0 0 140 148" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="122" y="165" font-size="12" font-weight="bold" fill="#dc2626">60&deg;</text>
+                                
+                                <text x="65" y="225" font-size="14" font-weight="bold">A</text>
+                                <text x="185" y="225" font-size="14" font-weight="bold">B</text>
+                                <text x="85" y="170" font-size="12" font-weight="bold" fill="#1d4ed8">15 cm</text>
+                                
+                                <text x="40" y="60" font-size="14" font-weight="bold" fill="#ea580c">ગુરુવૃત્તખંડ (મોટો પીળો ભાગ)</text>
+                                <text x="130" y="245" font-size="12" font-weight="bold" fill="#16a34a">લઘુવૃત્તખંડ</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: વૃત્તાંશ અને ત્રિકોણનું અલગ-અલગ ક્ષેત્રફળ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>r = 15 સેમી, &theta; = 60&deg;</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px; margin-bottom:10px;'>
+                                <b>(A) વૃત્તાંશનું ક્ષેત્રફળ:</b><br>
+                                = (60 / 360) &times; 3.14 &times; (15)&sup2;<br>
+                                = (1 / 6) &times; 3.14 &times; 225<br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>706.5</span><span>6</span></span> <b>= <b style='color:#1d4ed8;'>117.75 સેમી&sup2;</b></b>
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>(B) સમબાજુ ત્રિકોણ OAB નું ક્ષેત્રફળ:</b><br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>4</span></span> &times; (15)&sup2;<br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1.73 &times; 225</span><span>4</span></span><br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>389.25</span><span>4</span></span> <b>= <b style='color:#dc2626;'>97.3125 સેમી&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લઘુવૃત્તખંડનું ક્ષેત્રફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>લઘુવૃત્તખંડ = </b> વૃત્તાંશનું ક્ષે. - ત્રિકોણનું ક્ષે.<br>
+                                = 117.75 - 97.3125<br>
+                                <b>= <b style='color:#15803d; font-size:22px;'>20.4375 સેમી&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ગુરુવૃત્તખંડનું ક્ષેત્રફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આ માટે પહેલા આખા વર્તુળનું ક્ષેત્રફળ શોધીએ:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px; margin-bottom:10px;'>
+                                <b>વર્તુળનું ક્ષેત્રફળ = </b> &pi;r&sup2;<br>
+                                = 3.14 &times; 15 &times; 15<br>
+                                = 3.14 &times; 225 = <b style='color:#dc2626;'>706.5 સેમી&sup2;</b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>ગુરુવૃત્તખંડ = </b> આખું વર્તુળ - લઘુવૃત્તખંડ<br>
+                                = 706.5 - 20.4375<br>
+                                <b>= <b style='color:#9333ea; font-size:24px;'>686.0625 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબો:</b><br>
+                                (i) લઘુવૃત્તખંડ = <b>20.4375 સેમી&sup2;</b><br>
+                                (ii) ગુરુવૃત્તખંડ = <b>686.0625 સેમી&sup2;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
