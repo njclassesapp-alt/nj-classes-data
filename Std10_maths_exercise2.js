@@ -3053,9 +3053,182 @@
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 2: એન્જિનિયરિંગના વિદ્યાર્થી રશેલને નળાકારના બંને છેડે પાતળી એલ્યુમિનિયમની શીટમાંથી બનેલો શંકુ બેસાડી એક મોડલ બનાવવાનું કહેવામાં આવ્યું. મોડલનો વ્યાસ 3 સેમી અને લંબાઈ 12 સેમી છે. જો શંકુની ઊંચાઈ 2 સેમી હોય, તો રશેલે બનાવેલ મોડલમાં કેટલી હવા સમાશે તે શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો નળાકાર અને 2 શંકુના ઘનફળનો સરવાળો કરાવતો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            કોઈપણ બંધ પાત્રમાં કેટલી હવા સમાય? તેના <b>ઘનફળ (Volume)</b> જેટલી!<br>
+                            મોડલ 3 ભાગનું બનેલું છે: <b>વચ્ચે 1 નળાકાર + આજુબાજુ 2 શંકુ</b>.<br>
+                            કુલ લંબાઈ 12 માંથી બંને બાજુના શંકુની ઊંચાઈ (2 + 2 = 4) બાદ કરીશું, એટલે વચ્ચેના નળાકારની ઊંચાઈ મળી જશે. પછી ત્રણેયના ઘનફળનો સીધો સરવાળો!
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="340" height="200" viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="90" y="70" width="160" height="60" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="90" y1="70" x2="90" y2="130" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <line x1="250" y1="70" x2="250" y2="130" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                
+                                <path d="M 90 70 L 50 100 L 90 130 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 250 70 L 290 100 L 250 130 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+
+                                <line x1="30" y1="100" x2="310" y2="100" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="2,2"/>
+
+                                <line x1="170" y1="70" x2="170" y2="130" stroke="#dc2626" stroke-width="2"/>
+                                <text x="175" y="105" font-size="12" font-weight="bold" fill="#dc2626">d=3</text>
+
+                                <line x1="50" y1="145" x2="90" y2="145" stroke="#ea580c" stroke-width="2"/>
+                                <text x="60" y="165" font-size="12" font-weight="bold" fill="#ea580c">h₁=2</text>
+
+                                <line x1="250" y1="145" x2="290" y2="145" stroke="#ea580c" stroke-width="2"/>
+                                <text x="260" y="165" font-size="12" font-weight="bold" fill="#ea580c">h₁=2</text>
+
+                                <line x1="90" y1="145" x2="250" y2="145" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="155" y="165" font-size="12" font-weight="bold" fill="#1d4ed8">h₂=8</text>
+
+                                <line x1="50" y1="40" x2="290" y2="40" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="50,35 50,45" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="290,35 290,45" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <text x="145" y="30" font-size="14" font-weight="bold" fill="#16a34a">કુલ લંબાઈ 12</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ છૂટા પાડવા</b><br>
+                            • વ્યાસ = 3 સેમી, તેથી ત્રિજ્યા <b>r = 3/2 સેમી</b> (નળાકાર અને શંકુ બંને માટે).<br>
+                            • શંકુની ઊંચાઈ <b>h₁ = 2 સેમી</b>.<br>
+                            • નળાકારની ઊંચાઈ <b>(h₂) = 12 - (2 + 2) = <b style='color:#1d4ed8;'>8 સેમી</b></b>.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: મોડલનું કુલ ઘનફળ (હવાનું કદ)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કુલ ઘનફળ = નળાકારનું ઘનફળ + 2 (શંકુનું ઘનફળ)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>કુલ ઘનફળ = </b> &pi;r&sup2;h₂ + 2 [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &pi;r&sup2;h₁ ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગણતરી સહેલી કરવા બંનેમાંથી <b>&pi;r&sup2;</b> સામાન્ય કાઢતા)</i></span><br>
+                                <b>= </b> &pi;r&sup2; [ h₂ + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2h₁</span><span>3</span></span> ]<br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>2</span></span> &times; [ 8 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2(2)</span><span>3</span></span> ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસની અંદર લ.સા.અ. લેતા: 8 &times; 3 = 24. અને 2(2) = 4)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22 &times; 9</span><span>28</span></span> &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>24 + 4</span><span>3</span></span> ]<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>198</span><span>28</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>28</b></span><span><b style='color:#dc2626;'>3</b></span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર અને નીચેથી 28 ઉડી જશે! અને 198 ને 3 વડે ભાગતા 66 વધશે)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>66 સેમી&sup3;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> મોડલમાં સમાતી હવાનું ઘનફળ <b style='color:#be123c;'>66 સેમી&sup3;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 3: એક ગુલાબજાંબુમાં તેના ઘનફળના આશરે 30% જેટલી ખાંડની ચાસણી (Syrup) છે. દરેક ગુલાબજાંબુનો આકાર નળાકારના બંને છેડે અર્ધગોલક લગાવ્યા હોય તેવો છે. તેની કુલ લંબાઈ 5 સેમી અને વ્યાસ 2.8 સેમી છે. તો આવા 45 ગુલાબજાંબુમાં આશરે કેટલી ચાસણી હશે તે શોધો.", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો 100% પૂછાતો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આખા ગણિતનો સૌથી મોટા ગુણાકાર વાળો દાખલો! પણ આપણે તેને <b>અપૂર્ણાંક (Fractions)</b> માં ફેરવીને ગણીશું, જેથી 45 અને 30% ના છેદ આરામથી ઉડી જશે.<br>
+                            1 ગુલાબજાંબુ = વચ્ચે 1 નળાકાર + આજુબાજુ 2 અર્ધગોલક (એટલે કે 1 આખો ગોલક).
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="340" height="180" viewBox="0 0 340 180" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 110 60 A 30 30 0 0 0 110 120" fill="#fb923c" stroke="#c2410c" stroke-width="2"/>
+                                <path d="M 230 60 A 30 30 0 0 1 230 120" fill="#fb923c" stroke="#c2410c" stroke-width="2"/>
+                                <rect x="110" y="60" width="120" height="60" fill="#fdba74" stroke="#c2410c" stroke-width="2"/>
+                                <line x1="110" y1="62" x2="110" y2="118" stroke="#fdba74" stroke-width="3"/>
+                                <line x1="230" y1="62" x2="230" y2="118" stroke="#fdba74" stroke-width="3"/>
+
+                                <line x1="110" y1="50" x2="110" y2="130" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                <line x1="230" y1="50" x2="230" y2="130" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+                                <line x1="170" y1="60" x2="170" y2="120" stroke="#0f172a" stroke-width="2"/>
+                                <text x="175" y="95" font-size="12" font-weight="bold">d=2.8</text>
+
+                                <text x="80" y="95" font-size="12" font-weight="bold" fill="#dc2626">r=1.4</text>
+                                <text x="235" y="95" font-size="12" font-weight="bold" fill="#dc2626">r=1.4</text>
+
+                                <line x1="110" y1="145" x2="230" y2="145" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="150" y="165" font-size="14" font-weight="bold" fill="#1d4ed8">h = 2.2</text>
+
+                                <line x1="80" y1="30" x2="260" y2="30" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="80,25 80,35" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="260,25 260,35" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <text x="145" y="25" font-size="14" font-weight="bold" fill="#16a34a">કુલ લંબાઈ 5</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: 1 ગુલાબજાંબુનાં માપ શોધવા</b><br>
+                            • વ્યાસ = 2.8 સેમી $\\Rightarrow$ <b>ત્રિજ્યા r = 1.4 સેમી</b> (એટલે કે 14/10 સેમી).<br>
+                            • <b>નળાકારની લંબાઈ (h)</b> = કુલ લંબાઈ - બંને બાજુના અર્ધગોલક (1.4 + 1.4 = 2.8)<br>
+                            &nbsp;&nbsp;&nbsp;<b>h = 5 - 2.8 = <b style='color:#1d4ed8;'>2.2 સેમી</b></b> (એટલે કે 22/10 સેમી).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 1 ગુલાબજાંબુનું ઘનફળ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>ઘનફળ = નળાકારનું ઘનફળ + 2 (અર્ધગોલકનું ઘનફળ)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>V = &pi;r&sup2;h + 2 [ (2/3)&pi;r&sup3; ]</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગણતરી સહેલી કરવા <b>&pi;r&sup2;</b> સામાન્ય કાઢતા)</i></span><br>
+                                <b>V = &pi;r&sup2; [ h + (4/3)r ]</b><br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14</span><span>10</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14</span><span>10</span></span> &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>10</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4(14)</span><span>3 &times; 10</span></span> ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બહાર: 7 વડે 14 ઉડાડતા 2 વધે. અંદર: 4 &times; 14 = 56)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22 &times; 2 &times; 14</span><span>100</span></span> &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>10</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>56</span><span>30</span></span> ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંદર લ.સા.અ. લેવા 22 ને 3 વડે ગુણતા 66 થાય)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>616</span><span>100</span></span> &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>66 + 56</span><span>30</span></span> ]<br><br>
+
+                                <b>1 ગુલાબજાંબુનું ઘનફળ = <b style='color:#dc2626;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #dc2626; display:block; padding:0 3px;'>616</span><span>100</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #dc2626; display:block; padding:0 3px;'>122</span><span>30</span></span></b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: 45 ગુલાબજાંબુ અને 30% ચાસણી શોધવી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>સીધી એક જ લાઇનમાં ગણતરી (બધા છેદ ઉડી જશે!):</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>કુલ ચાસણી = </b> 45 &times; (1 ગુલાબજાંબુનું ઘનફળ) &times; 30%<br><br>
+                                
+                                <b>= </b> 45 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>616</span><span>100</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>122</span><span>30</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>30</b></span><span>100</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર અને નીચેથી 30 અને 30 ઉડી જશે! આ જ આપણી ટ્રીક હતી!)</i></span><br>
+                                <b>= </b> 45 &times; 616 &times; 122 / 10000<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે માત્ર ગુણાકાર: 45 &times; 616 = 27720. અને 27720 &times; 122 = 3381840)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3381840</span><span>10000</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(4 પોઈન્ટ કાપતા)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>338.184 સેમી&sup3;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> 45 ગુલાબજાંબુમાં આશરે <b>338 સેમી&sup3;</b> ચાસણી હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
