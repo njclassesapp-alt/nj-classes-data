@@ -2441,9 +2441,164 @@
                         </div>
                     </div>
                     `
+                },
+               
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 3: 3.5 સેમી ત્રિજ્યાવાળા અર્ધગોલક પર એક શંકુ બેસાડેલો હોય તેવું એક રમકડું છે. રમકડાની કુલ ઊંચાઈ 15.5 સેમી હોય, તો રમકડાનું કુલ પૃષ્ઠફળ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો ત્રાંસી ઊંચાઈ (l) શોધવા વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            અહીં પણ <b>કુલ ઊંચાઈ 15.5</b> આપી છે, જેમાંથી અર્ધગોલકની ત્રિજ્યા (3.5) બાદ કરતા શંકુની ઊંચાઈ (h) મળશે. <br>
+                            પણ ધ્યાન રાખો! શંકુનું પૃષ્ઠફળ શોધવા <b>ત્રાંસી ઊંચાઈ (l)</b> જોઈએ. તેથી પહેલા પાયથાગોરસ (l&sup2; = r&sup2; + h&sup2;) નો ઉપયોગ કરવો પડશે.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 80 150 A 50 50 0 0 0 180 150" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+                                <ellipse cx="130" cy="150" rx="50" ry="15" fill="#dcfce7" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                                
+                                <path d="M 80 150 L 130 30 L 180 150 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <circle cx="130" cy="150" r="4" fill="#0f172a"/>
+                                <line x1="130" y1="150" x2="180" y2="150" stroke="#0f172a" stroke-width="2"/>
+                                <text x="145" y="145" font-size="12" font-weight="bold">r=3.5</text>
+
+                                <line x1="130" y1="150" x2="130" y2="30" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                                <text x="135" y="100" font-size="12" font-weight="bold" fill="#ea580c">h = 12</text>
+
+                                <text x="175" y="100" font-size="14" font-weight="bold" fill="#dc2626">l = ?</text>
+
+                                <line x1="130" y1="150" x2="130" y2="200" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                <text x="135" y="180" font-size="12" font-weight="bold" fill="#16a34a">r=3.5</text>
+
+                                <line x1="50" y1="30" x2="50" y2="200" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="5" y="120" font-size="12" font-weight="bold" fill="#1d4ed8">કુલ 15.5</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: શંકુની ઊંચાઈ (h) અને ત્રાંસી ઊંચાઈ (l) શોધવી</b><br>
+                            • ત્રિજ્યા <b>r = 3.5 સેમી</b><br>
+                            • શંકુની ઊંચાઈ (h) = કુલ ઊંચાઈ - અર્ધગોલકની ત્રિજ્યા<br>
+                            &nbsp;&nbsp;&nbsp;<b>h = 15.5 - 3.5 = <b style='color:#ea580c;'>12 સેમી</b></b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#0f172a; font-size:14px;'><i>(પાયથાગોરસના સૂત્રથી ત્રાંસી ઊંચાઈ l શોધીએ)</i></span><br>
+                                <b>l&sup2; = r&sup2; + h&sup2;</b><br>
+                                l&sup2; = (3.5)&sup2; + (12)&sup2;<br>
+                                l&sup2; = 12.25 + 144<br>
+                                l&sup2; = 156.25<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(15625 નું વર્ગમૂળ 125 થાય, એટલે પોઈન્ટ મૂકતા 12.5 થશે)</i></span><br>
+                                <b style='color:#dc2626; font-size:18px;'>l = 12.5 સેમી</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: રમકડાનું કુલ પૃષ્ઠફળ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કુલ પૃષ્ઠફળ = શંકુની વક્રસપાટી + અર્ધગોલકની વક્રસપાટી</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = &pi;rl + 2&pi;r&sup2;</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગણતરી સહેલી કરવા માટે <b>&pi;r</b> સામાન્ય કાઢતા)</i></span><br>
+                                <b>= &pi;r (l + 2r)</b><br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 3.5 &times; (12.5 + 2(3.5))<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(3.5 એટલે 7 ના અડધા. એટલે 7 વડે છેદ ઉડાડતા 0.5 આવે. 22 &times; 0.5 = 11 થશે)</i></span><br>
+                                <b>= </b> 11 &times; (12.5 + 7)<br><br>
+                                
+                                <b>= </b> 11 &times; (19.5)<br><br>
+
+                                <b>= <b style='color:#dc2626; font-size:24px;'>214.5 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> રમકડાનું કુલ પૃષ્ઠફળ <b style='color:#be123c;'>214.5 સેમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+               
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 4: 7 સેમી બાજુવાળા સમઘનની ઉપર અર્ધગોલક મૂકેલો છે. તો અર્ધગોલકનો મહત્તમ વ્યાસ શું હોઈ શકે? આ રીતે બનેલા પદાર્થનું કુલ પૃષ્ઠફળ શોધો.", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો બેઝિક બાદબાકી વાળો સૌથી કન્ફ્યુઝિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આખા ચેપ્ટરનો સૌથી ટ્વિસ્ટેડ દાખલો! જ્યારે તમે ચોરસ પેટી (સમઘન) ની ઉપર અર્ધગોલક (વાટકો) ઊંધો મૂકો, ત્યારે પેટીની ઉપરની સપાટીનો થોડો ભાગ <b>વાટકાના ગોળ તળિયાથી ઢંકાઈ</b> જાય છે. જે ઢંકાઈ જાય તેને આપણે રંગ ન કરી શકીએ.<br>
+                            એટલે સૂત્ર બનશે: <b>સમઘનનું પૃષ્ઠફળ + અર્ધગોલકની વક્રસપાટી - અર્ધગોલકનું તળિયું</b><br>
+                            એટલે કે: 6a&sup2; + 2&pi;r&sup2; - &pi;r&sup2; = <b>6a&sup2; + &pi;r&sup2;</b>
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="240" viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="70" y="120" width="80" height="80" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <polygon points="70,120 110,80 190,80 150,120" fill="#7dd3fc" stroke="#1d4ed8" stroke-width="2"/>
+                                <polygon points="150,120 190,80 190,160 150,200" fill="#38bdf8" stroke="#1d4ed8" stroke-width="2"/>
+
+                                <text x="100" y="220" font-size="14" font-weight="bold" fill="#1d4ed8">a = 7 cm</text>
+
+                                <ellipse cx="130" cy="100" rx="35" ry="12" fill="#fef08a" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                                <path d="M 95 100 A 35 35 0 0 1 165 100" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+
+                                <line x1="95" y1="100" x2="165" y2="100" stroke="#dc2626" stroke-width="2"/>
+                                <text x="110" y="95" font-size="12" font-weight="bold" fill="#dc2626">d = 7</text>
+
+                                <line x1="40" y1="50" x2="110" y2="95" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="10" y="45" font-size="12" font-weight="bold">-&pi;r&sup2; (ઢંકાયેલ ભાગ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: મહત્તમ વ્યાસ અને ત્રિજ્યા નક્કી કરવી</b><br>
+                            આકૃતિમાં જોતાં સ્પષ્ટ છે કે અર્ધગોલક સમઘનની ઉપર મુકાયેલ છે, તેથી તેનો <b>મહત્તમ વ્યાસ સમઘનની બાજુ જેટલો જ (એટલે કે 7 સેમી)</b> હોઈ શકે.<br>
+                            • સમઘનની બાજુ <b>a = 7 સેમી</b><br>
+                            • અર્ધગોલકનો વ્યાસ <b>d = 7 સેમી</b><br>
+                            • અર્ધગોલકની ત્રિજ્યા <b>r = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>7</span><span>2</span></span> સેમી</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પદાર્થનું કુલ પૃષ્ઠફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કુલ પૃષ્ઠફળ = સમઘનનું પૃષ્ઠફળ + અર્ધગોલકની વક્રસપાટી - <b>અર્ધગોલકના પાયાનું ક્ષેત્રફળ</b></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = 6a&sup2; + 2&pi;r&sup2; - &pi;r&sup2;</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(2&pi;r&sup2; માંથી 1 &pi;r&sup2; જાય તો 1 વધે)</i></span><br>
+                                <b>= 6a&sup2; + &pi;r&sup2;</b><br><br>
+
+                                <b>= </b> 6 &times; (7)&sup2; + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(7 અને 7 ઉડી જશે. 22 ને 2 વડે ભાગતા 11 આવશે)</i></span><br>
+                                <b>= </b> 6(49) + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11 &times; 7</span><span>2</span></span><br><br>
+
+                                <b>= </b> 294 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>77</span><span>2</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(77 ના અડધા 38.5 થાય)</i></span><br>
+                                <b>= </b> 294 + 38.5<br><br>
+
+                                <b>= <b style='color:#dc2626; font-size:24px;'>332.5 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબો:</b><br>
+                                (i) અર્ધગોલકનો મહત્તમ વ્યાસ = <b>7 સેમી</b><br>
+                                (ii) પદાર્થનું કુલ પૃષ્ઠફળ = <b>332.5 સેમી&sup2;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
