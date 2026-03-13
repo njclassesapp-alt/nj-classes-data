@@ -16881,9 +16881,181 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 10: સાબિત કરો કે વર્તુળની બહારના બિંદુમાંથી વર્તુળને દોરેલા બે સ્પર્શકો વચ્ચેનો ખૂણો અને સ્પર્શબિંદુઓને કેન્દ્ર સાથે જોડતા રેખાખંડ વચ્ચેનો ખૂણો એકબીજાના પૂરક હોય છે.", 
+                    question_desc: "2024 બોર્ડ માટે 2 કે 3 માર્ક્સનો સૌથી સહેલો સાબિતીવાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - મેજિક ટ્રીક:</b><br>
+                            આપણે જાણીએ છીએ કે ચતુષ્કોણના <b>ચારેય ખૂણાઓનો સરવાળો 360&deg;</b> થાય છે.<br>
+                            આકૃતિમાં પ્રમેય 10.1 મુજબ, ત્રિજ્યા અને સ્પર્શક વચ્ચેના 2 ખૂણા કાટખૂણા (90&deg; + 90&deg; = 180&deg;) બની જશે. તો હવે 360 માંથી 180 જાય, તો બાકીના 2 ખૂણાઓનો સરવાળો પણ <b>180&deg; (એટલે કે પૂરકકોણ)</b> જ વધશે ને! બસ આ જ સાબિત કરવાનું છે.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="220" viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="110" r="60" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="100" cy="110" r="4" fill="#0f172a"/>
+                                <text x="85" y="115" font-size="14" font-weight="bold">O</text>
+
+                                <circle cx="260" cy="110" r="5" fill="#dc2626"/>
+                                <text x="270" y="115" font-size="14" font-weight="bold" fill="#dc2626">P</text>
+
+                                <line x1="260" y1="110" x2="125" y2="55" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="260" y1="110" x2="125" y2="165" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <circle cx="125" cy="55" r="4" fill="#1d4ed8"/>
+                                <text x="115" y="45" font-size="14" font-weight="bold" fill="#1d4ed8">A</text>
+                                
+                                <circle cx="125" cy="165" r="4" fill="#1d4ed8"/>
+                                <text x="115" y="185" font-size="14" font-weight="bold" fill="#1d4ed8">B</text>
+
+                                <line x1="100" y1="110" x2="125" y2="55" stroke="#16a34a" stroke-width="2"/>
+                                <line x1="100" y1="110" x2="125" y2="165" stroke="#16a34a" stroke-width="2"/>
+
+                                <polyline points="115,60 120,68 130,64" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <polyline points="115,160 120,152 130,156" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <path d="M 120 100 A 25 25 0 0 1 120 120" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                <path d="M 235 100 A 30 30 0 0 0 235 120" fill="none" stroke="#ea580c" stroke-width="3"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>પક્ષ (Given):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>ધારો કે O કેન્દ્રવાળા વર્તુળની બહારના બિંદુ P માંથી દોરેલા બે સ્પર્શકો <b>PA અને PB</b> છે.<br>
+                            તેમના સ્પર્શબિંદુઓ અનુક્રમે A અને B છે.</span>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>સ્પર્શકો વચ્ચેનો ખૂણો <b>(&ang;APB)</b> અને કેન્દ્ર આગળ બનતો ખૂણો <b>(&ang;AOB)</b> એકબીજાના પૂરક છે.<br>
+                            એટલે કે: <b style='color:#dc2626;'>&ang;APB + &ang;AOB = 180&deg;</b></span>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; font-size:15px; line-height:1.8;'>
+                                1. આપણે જાણીએ છીએ કે, વર્તુળના કોઈ બિંદુએ દોરેલો સ્પર્શક, સ્પર્શબિંદુમાંથી પસાર થતી ત્રિજ્યાને લંબ હોય છે (પ્રમેય 10.1).<br>
+                                &nbsp;&nbsp;&nbsp;અહીં <b>OA &perp; PA</b> અને <b>OB &perp; PB</b> છે.<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, <b style='color:#1d4ed8;'>&ang;OAP = 90&deg;</b> અને <b style='color:#1d4ed8;'>&ang;OBP = 90&deg;</b> થશે.<br><br>
+
+                                2. હવે, <b>ચતુષ્કોણ OAPB</b> માં વિચારો.<br>
+                                &nbsp;&nbsp;&nbsp;ચતુષ્કોણના ચારેય ખૂણાઓનો સરવાળો <b>360&deg;</b> થાય છે.<br>
+                                &nbsp;&nbsp;&nbsp;&ang;AOB + &ang;OAP + &ang;APB + &ang;OBP = 360&deg;<br><br>
+
+                                3. ઉપરની કિંમતો (90&deg;) મૂકતાં:<br>
+                                &nbsp;&nbsp;&nbsp;&ang;AOB + <b>90&deg;</b> + &ang;APB + <b>90&deg;</b> = 360&deg;<br>
+                                &nbsp;&nbsp;&nbsp;&ang;AOB + &ang;APB + 180&deg; = 360&deg;<br><br>
+
+                                4. 180&deg; ને બરાબરની પેલી બાજુ લઈ જતાં (માઇનસ થશે):<br>
+                                &nbsp;&nbsp;&nbsp;&ang;AOB + &ang;APB = 360&deg; - 180&deg;<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#15803d; font-size:22px;'>&ang;AOB + &ang;APB = 180&deg;</b><br><br>
+                                
+                                <b>આમ સાબિત થાય છે કે, કેન્દ્ર આગળનો ખૂણો અને સ્પર્શકો વચ્ચેનો ખૂણો પૂરક હોય છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 11: સાબિત કરો કે વર્તુળને પરિગત સમાંતરબાજુ ચતુષ્કોણ એ સમબાજુ ચતુષ્કોણ છે.", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો મોસ્ટ ફેવરિટ દાખલો (પ્રશ્ન 8 ની કોપી!)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આ દાખલાને જોઇને ગભરાશો નહિ! આ <b>90% દાખલો તો આપણે આગળ ગણેલો "પ્રશ્ન 8" જ છે!</b> પહેલા પ્રશ્ન 8 ની જેમ (AB + CD = AD + BC) સાબિત કરી દેવાનું. પછી "સમાંતરબાજુ" ની શરત (સામસામેની બાજુ સરખી) મૂકશો એટલે બધી બાજુઓ આપોઆપ સમાન (સમબાજુ) થઈ જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="130" cy="130" r="70" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="130" cy="130" r="4" fill="#0f172a"/>
+                                <text x="125" y="150" font-size="14" font-weight="bold">O</text>
+
+                                <polygon points="130,230 230,130 130,30 30,130" fill="none" stroke="#16a34a" stroke-width="2"/>
+
+                                <text x="125" y="250" font-size="16" font-weight="bold" fill="#dc2626">A</text>
+                                <text x="240" y="135" font-size="16" font-weight="bold" fill="#dc2626">B</text>
+                                <text x="125" y="20" font-size="16" font-weight="bold" fill="#dc2626">C</text>
+                                <text x="10" y="135" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+
+                                <circle cx="180" cy="180" r="4" fill="#0f172a"/>
+                                <text x="190" y="195" font-size="14" font-weight="bold">P</text>
+
+                                <circle cx="180" cy="80" r="4" fill="#0f172a"/>
+                                <text x="190" y="75" font-size="14" font-weight="bold">Q</text>
+
+                                <circle cx="80" cy="80" r="4" fill="#0f172a"/>
+                                <text x="65" y="75" font-size="14" font-weight="bold">R</text>
+
+                                <circle cx="80" cy="180" r="4" fill="#0f172a"/>
+                                <text x="65" y="195" font-size="14" font-weight="bold">S</text>
+                                
+                                <line x1="175" y1="200" x2="185" y2="210" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="200" y1="100" x2="210" y2="110" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="100" y1="50" x2="110" y2="60" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="50" y1="150" x2="60" y2="160" stroke="#ea580c" stroke-width="2"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>પક્ષ (Given):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'><b>ABCD એક સમાંતરબાજુ ચતુષ્કોણ છે</b> જે વર્તુળને પરિગત છે. <br>
+                            (સમાંતરબાજુની શરત: તેની સામસામેની બાજુઓ સમાન હોય, એટલે કે <b>AB = CD</b> અને <b>AD = BC</b> છે).</span>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>ચતુષ્કોણ ABCD <b>સમબાજુ ચતુષ્કોણ</b> છે. (એટલે કે ચારેય બાજુઓ <b>AB = BC = CD = DA</b> સરખી છે).</span>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; font-size:15px; line-height:1.8;'>
+                                <span style='color:#047857;'><i>(પહેલા પ્રશ્ન 8 ની જેમ જ લખીશું)</i></span><br>
+                                1. પ્રમેય 10.2 મુજબ, બહારના બિંદુમાંથી દોરેલા સ્પર્શકો સમાન હોય છે.<br>
+                                &nbsp;&nbsp;&nbsp;AP = AS &nbsp;(A માંથી)<br>
+                                &nbsp;&nbsp;&nbsp;BP = BQ &nbsp;(B માંથી)<br>
+                                &nbsp;&nbsp;&nbsp;CR = CQ &nbsp;(C માંથી)<br>
+                                &nbsp;&nbsp;&nbsp;DR = DS &nbsp;(D માંથી)<br><br>
+
+                                2. ચારેય નો સરવાળો કરતાં:<br>
+                                &nbsp;&nbsp;&nbsp;(AP + BP) + (CR + DR) = (AS + DS) + (BQ + CQ)<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#1d4ed8;'>AB + CD = AD + BC</b> &nbsp;&nbsp;&nbsp;... (પરિણામ 1)<br><br>
+
+                                3. હવે પક્ષ મુજબ, ABCD <b>સમાંતરબાજુ ચતુષ્કોણ</b> છે. એટલે કે:<br>
+                                &nbsp;&nbsp;&nbsp;<b>AB = CD</b> અને <b>AD = BC</b> થાય. &nbsp;&nbsp;&nbsp;... (પરિણામ 2)<br><br>
+
+                                4. પરિણામ 1 માં કિંમતો મૂકતાં (CD ની જગ્યાએ AB, અને AD ની જગ્યાએ BC મૂકતાં):<br>
+                                &nbsp;&nbsp;&nbsp;AB + <b style='color:#dc2626;'>AB</b> = <b style='color:#dc2626;'>BC</b> + BC<br>
+                                &nbsp;&nbsp;&nbsp;2AB = 2BC<br><br>
+
+                                5. બંને બાજુથી 2 ઉડી જશે:<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#ea580c; font-size:18px;'>AB = BC</b><br><br>
+
+                                6. જો <b>AB = BC</b> થાય, અને આપણને પહેલેથી જ ખબર છે કે <b>AB = CD</b> અને <b>BC = AD</b> છે, તો તેનો અર્થ એ થયો કે ચારેય બાજુઓ એકબીજાને સમાન છે!<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#15803d; font-size:22px;'>AB = BC = CD = DA</b><br><br>
+                                
+                                <b>આમ સાબિત થાય છે કે, વર્તુળને પરિગત સમાંતરબાજુ ચતુષ્કોણ એ સમબાજુ ચતુષ્કોણ જ હોય છે!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
