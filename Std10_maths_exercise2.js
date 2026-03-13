@@ -3590,7 +3590,7 @@
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
                             <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા</b><br>
-                            • <b>નળાકાર માટે:</b> ઊંચાઈ h = 8 સેમી, વ્યાસ = 2 સેમી $\\Rightarrow$ <b>ત્રિજ્યા r = 1 સેમી</b>.<br>
+                            • <b>નળાકાર માટે:</b> ઊંચાઈ h = 8 સેમી, વ્યાસ = 2 સેમી અને <b>ત્રિજ્યા r = 1 સેમી</b>.<br>
                             • <b>ગોલક માટે:</b> વ્યાસ = 8.5 સેમી (એટલે કે 85/10 અથવા 17/2).<br>
                             &nbsp;&nbsp;&nbsp;તેથી <b>ત્રિજ્યા R = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>17</span><span>4</span></span> સેમી</b> (અથવા 4.25 સેમી).
                         </div>
