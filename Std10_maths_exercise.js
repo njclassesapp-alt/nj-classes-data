@@ -16699,9 +16699,197 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 8: ચતુષ્કોણ ABCD એક વર્તુળને પરિગત છે (એટલે કે વર્તુળની ચારેય બાજુઓને અડે છે). સાબિત કરો કે: AB + CD = AD + BC.", 
+                    question_desc: "2024 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સૌથી સહેલો અને વારંવાર પૂછાતો સાબિતીવાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - મેજિક ટ્રીક:</b><br>
+                            આખા દાખલામાં માત્ર આપણો <b>માસ્ટર નિયમ (પ્રમેય 10.2)</b> જ વાપરવાનો છે! <br>
+                            ચતુષ્કોણના 4 ખૂણાઓ (A, B, C, D) ને 4 <b>"બહારના બિંદુઓ"</b> માની લો. દરેક બિંદુમાંથી વર્તુળ પર 2 સ્પર્શક નીકળશે, જે બંનેની લંબાઈ સમાન હશે (જેમ કે AP = AS). બસ, ચારેય બિંદુઓ માટે આવા 4 સમીકરણ બનાવીને તેમનો <b>સીધો સરવાળો</b> કરી દો એટલે જવાબ 100% આવી જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="260" viewBox="0 0 280 260" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="140" cy="130" r="70" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="140" cy="130" r="4" fill="#0f172a"/>
+                                <text x="135" y="150" font-size="14" font-weight="bold">O</text>
+
+                                <polygon points="70,200 210,200 210,60 70,60" fill="none" stroke="#0f172a" stroke-width="2"/>
+
+                                <text x="50" y="215" font-size="16" font-weight="bold" fill="#dc2626">A</text>
+                                <text x="215" y="215" font-size="16" font-weight="bold" fill="#dc2626">B</text>
+                                <text x="215" y="55" font-size="16" font-weight="bold" fill="#dc2626">C</text>
+                                <text x="50" y="55" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+
+                                <circle cx="140" cy="200" r="5" fill="#16a34a"/>
+                                <text x="135" y="220" font-size="14" font-weight="bold" fill="#16a34a">P</text>
+
+                                <circle cx="210" cy="130" r="5" fill="#16a34a"/>
+                                <text x="220" y="135" font-size="14" font-weight="bold" fill="#16a34a">Q</text>
+
+                                <circle cx="140" cy="60" r="5" fill="#16a34a"/>
+                                <text x="135" y="50" font-size="14" font-weight="bold" fill="#16a34a">R</text>
+
+                                <circle cx="70" cy="130" r="5" fill="#16a34a"/>
+                                <text x="50" y="135" font-size="14" font-weight="bold" fill="#16a34a">S</text>
+
+                                <line x1="70" y1="200" x2="140" y2="200" stroke="#ea580c" stroke-width="4"/> <line x1="70" y1="200" x2="70" y2="130" stroke="#ea580c" stroke-width="4"/> <text x="80" y="180" font-size="12" font-weight="bold" fill="#ea580c">સમાન</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>પક્ષ (Given):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'>ચતુષ્કોણ ABCD એક વર્તુળને પરિગત છે (વર્તુળ ચારેય બાજુઓને અડે છે).<br>
+                            વર્તુળ ચતુષ્કોણની બાજુઓ AB, BC, CD અને AD ને અનુક્રમે <b>P, Q, R અને S બિંદુએ સ્પર્શે છે.</b></span>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સાધ્ય (To Prove):</b><br>
+                            <span style='color:#0f172a; font-size:15px;'><b style='color:#dc2626;'>AB + CD = AD + BC</b></span>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px;'>
+                            <b style='color:#14532d; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; font-size:15px; line-height:1.8;'>
+                                1. <b>પ્રમેય 10.2 મુજબ:</b> "વર્તુળની બહારના બિંદુમાંથી દોરેલા સ્પર્શકોની લંબાઈ સમાન હોય છે."<br><br>
+                                
+                                2. આ નિયમ ચારેય ખૂણાઓ (A, B, C, D) માટે લગાડતાં:<br>
+                                &nbsp;&nbsp;&nbsp;બિંદુ A માંથી: <b style='color:#1d4ed8;'>AP = AS</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 1)<br>
+                                &nbsp;&nbsp;&nbsp;બિંદુ B માંથી: <b style='color:#1d4ed8;'>BP = BQ</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 2)<br>
+                                &nbsp;&nbsp;&nbsp;બિંદુ C માંથી: <b style='color:#1d4ed8;'>CR = CQ</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 3)<br>
+                                &nbsp;&nbsp;&nbsp;બિંદુ D માંથી: <b style='color:#1d4ed8;'>DR = DS</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 4)<br><br>
+
+                                3. હવે <b>ચારેય સમીકરણોનો સરવાળો</b> કરતાં (ડાબી બાજુનો સરવાળો ડાબી બાજુ, જમણી બાજુનો જમણી બાજુ):<br>
+                                &nbsp;&nbsp;&nbsp;(AP + BP) + (CR + DR) = (AS + DS) + (BQ + CQ)<br><br>
+
+                                4. <b>આકૃતિમાં ધ્યાનથી જુઓ:</b><br>
+                                &nbsp;&nbsp;&nbsp;• AP અને BP ભેગા મળીને <b>AB</b> બનાવે છે.<br>
+                                &nbsp;&nbsp;&nbsp;• CR અને DR ભેગા મળીને <b>CD</b> બનાવે છે.<br>
+                                &nbsp;&nbsp;&nbsp;• AS અને DS ભેગા મળીને <b>AD</b> બનાવે છે.<br>
+                                &nbsp;&nbsp;&nbsp;• BQ અને CQ ભેગા મળીને <b>BC</b> બનાવે છે.<br><br>
+                                
+                                5. ઉપરની કિંમતો મૂકતાં:<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#15803d; font-size:22px;'>AB + CD = AD + BC</b><br><br>
+                                
+                                <b>આમ, સાબિત થાય છે!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+    
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 9: આકૃતિમાં, O કેન્દ્રવાળા વર્તુળના બે સમાંતર સ્પર્શકો XY અને X'Y' છે. સ્પર્શબિંદુ C વાળો ત્રીજો સ્પર્શક AB એ XY ને A અને X'Y' ને B બિંદુમાં છેદે છે. સાબિત કરો કે &ang;AOB = 90&deg;.", 
+                    question_desc: "2025 બોર્ડ માટે 4 માર્ક્સનો સૌથી લાંબો અને લોજિકલ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આ દાખલાને આપણે <b>"ત્રિકોણોની એકરૂપતા (Congruency)"</b> ની મદદથી ગણીશું. <br>
+                            સૌથી પહેલા કેન્દ્ર O ને સ્પર્શબિંદુ C સાથે જોડી દો. પછી ઉપર બનતા બે ત્રિકોણોને "જુડવા (એકરૂપ)" બતાવી દો, એટલે તેમના ખૂણા સરખા થઈ જશે. એ જ રીતે નીચેના બે ત્રિકોણ પણ સરખા થશે. છેલ્લે સીધી લાઈનનો 180&deg; વાળો નિયમ વાપરશો એટલે 90&deg; આપોઆપ આવી જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="280" viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="150" cy="140" r="60" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="150" cy="140" r="4" fill="#0f172a"/>
+                                <text x="135" y="145" font-size="14" font-weight="bold">O</text>
+
+                                <line x1="90" y1="140" x2="210" y2="140" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                                <circle cx="90" cy="140" r="4" fill="#16a34a"/>
+                                <text x="75" y="145" font-size="14" font-weight="bold" fill="#16a34a">P</text>
+                                <circle cx="210" cy="140" r="4" fill="#16a34a"/>
+                                <text x="220" y="145" font-size="14" font-weight="bold" fill="#16a34a">Q</text>
+
+                                <line x1="90" y1="40" x2="90" y2="240" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="75" y="50" font-size="14" font-weight="bold" fill="#1d4ed8">X</text>
+                                <text x="75" y="235" font-size="14" font-weight="bold" fill="#1d4ed8">Y</text>
+
+                                <line x1="210" y1="40" x2="210" y2="240" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="220" y="50" font-size="14" font-weight="bold" fill="#1d4ed8">X'</text>
+                                <text x="220" y="235" font-size="14" font-weight="bold" fill="#1d4ed8">Y'</text>
+
+                                <line x1="90" y1="80" x2="210" y2="80" stroke="#dc2626" stroke-width="2"/>
+                                <circle cx="90" cy="80" r="5" fill="#dc2626"/>
+                                <text x="70" y="85" font-size="14" font-weight="bold" fill="#dc2626">A</text>
+                                
+                                <circle cx="210" cy="80" r="5" fill="#dc2626"/>
+                                <text x="220" y="85" font-size="14" font-weight="bold" fill="#dc2626">B</text>
+
+                                <circle cx="150" cy="80" r="4" fill="#0f172a"/>
+                                <text x="145" y="70" font-size="14" font-weight="bold">C</text>
+
+                                <line x1="150" y1="140" x2="150" y2="80" stroke="#ea580c" stroke-width="2"/> <line x1="150" y1="140" x2="90" y2="80" stroke="#9333ea" stroke-width="2"/> <line x1="150" y1="140" x2="210" y2="80" stroke="#9333ea" stroke-width="2"/> <path d="M 125 140 A 25 25 0 0 1 135 125" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="110" y="130" font-size="10" font-weight="bold">1</text>
+                                
+                                <path d="M 140 115 A 25 25 0 0 1 150 115" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="135" y="110" font-size="10" font-weight="bold">2</text>
+                                
+                                <path d="M 150 115 A 25 25 0 0 1 160 115" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="160" y="110" font-size="10" font-weight="bold">3</text>
+                                
+                                <path d="M 165 125 A 25 25 0 0 1 175 140" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="175" y="130" font-size="10" font-weight="bold">4</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ અને સાધ્ય:</b><br>
+                            <span style='color:#0f172a; font-size:14px;'><b>પક્ષ:</b> O કેન્દ્રવાળા વર્તુળના સમાંતર સ્પર્શકો XY અને X'Y' છે. સ્પર્શબિંદુ C વાળો ત્રીજો સ્પર્શક AB તેમને છેદે છે.<br>
+                            <b>સાધ્ય:</b> <b>&ang;AOB = 90&deg;</b></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; font-size:15px; line-height:1.8;'>
+                                1. સૌથી પહેલા <b>કેન્દ્ર O અને સ્પર્શબિંદુ C ને જોડો</b> (OC દોરો).<br><br>
+                                
+                                2. હવે ડાબી બાજુના બે ત્રિકોણો <b>&Delta;OPA</b> અને <b>&Delta;OCA</b> માં જુઓ:<br>
+                                &nbsp;&nbsp;&nbsp;• OP = OC &nbsp;<i>(એક જ વર્તુળની ત્રિજ્યાઓ)</i><br>
+                                &nbsp;&nbsp;&nbsp;• AP = AC &nbsp;<i>(બહારના બિંદુ A માંથી દોરેલા સ્પર્શકો - પ્રમેય 10.2)</i><br>
+                                &nbsp;&nbsp;&nbsp;• OA = OA &nbsp;<i>(બંનેની સામાન્ય બાજુ)</i><br><br>
+
+                                3. <b>બા-બા-બા (SSS)</b> એકરૂપતાની શરત મુજબ, આ બંને ત્રિકોણો બરાબર સરખા (જુડવા) છે!<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, તેમના ખૂણા પણ સરખા થાય: <b style='color:#1d4ed8;'>&ang;POA = &ang;COA</b> &nbsp;... (પરિણામ 1)<br><br>
+
+                                4. બિલકુલ આ જ રીતે, જમણી બાજુના બે ત્રિકોણો <b>&Delta;OQB</b> અને <b>&Delta;OCB</b> પણ એકરૂપ થાય.<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, <b style='color:#1d4ed8;'>&ang;QOB = &ang;COB</b> &nbsp;... (પરિણામ 2)<br><br>
+
+                                5. હવે, POQ એ સીધી રેખા (વ્યાસ) છે. એટલે તેના બધા ખૂણાઓનો <b>કુલ સરવાળો 180&deg;</b> થાય.<br>
+                                &nbsp;&nbsp;&nbsp;&ang;POA + &ang;COA + &ang;COB + &ang;QOB = 180&deg;<br><br>
+
+                                6. <b>પરિણામ 1 અને 2 નો ઉપયોગ કરતા:</b> (&ang;POA ની જગ્યાએ &ang;COA અને &ang;QOB ની જગ્યાએ &ang;COB મૂકતા)<br>
+                                &nbsp;&nbsp;&nbsp;(&ang;COA) + &ang;COA + &ang;COB + (&ang;COB) = 180&deg;<br>
+                                &nbsp;&nbsp;&nbsp;2 &ang;COA + 2 &ang;COB = 180&deg;<br>
+                                &nbsp;&nbsp;&nbsp;2 (&ang;COA + &ang;COB) = 180&deg;<br><br>
+
+                                7. 2 ને સામે ભાગાકારમાં મોકલતા:<br>
+                                &nbsp;&nbsp;&nbsp;&ang;COA + &ang;COB = 180&deg; / 2<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#ea580c;'>&ang;COA + &ang;COB = 90&deg;</b><br><br>
+
+                                8. આકૃતિમાં ધ્યાનથી જુઓ, &ang;COA અને &ang;COB બંને ભેગા મળીને આખો <b>&ang;AOB</b> બનાવે છે!<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, <b style='color:#15803d; font-size:22px;'>&ang;AOB = 90&deg;</b><br><br>
+                                
+                                <b>આમ, સાબિત થાય છે!</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
