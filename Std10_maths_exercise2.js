@@ -2254,7 +2254,200 @@
                     `
                 }
             ]
+        },
+          
+        // ------------------------------------
+        // પ્રકરણ 12: પૃષ્ઠફળ અને ઘનફળ (સ્વાધ્યાય 12.1 - ભાગ 1A)
+        // ------------------------------------
+        "12": {
+            "chapterName": "પ્રકરણ 12 (સ્વાધ્યાય 12.1 - ભાગ 1A)",
+            "chapterTitle": "ચેપ્ટરની માસ્ટર ચાવી (સૂત્રો) અને બે સમઘન જોડવાનો દાખલો (પ્રશ્ન 1)",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: પૃષ્ઠફળ એટલે શું? કયા 4 આકારોના સૂત્રો સૌથી વધુ વપરાશે?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (સાવ દેશી ભાષામાં):</b><br>
+                            <b>પૃષ્ઠફળ (Surface Area)</b> એટલે કોઈપણ વસ્તુની બહારની સપાટી (જેને આપણે હાથ લગાડી શકીએ અથવા રંગ કરી શકીએ). <br>
+                            આ ચેપ્ટરમાં આપણે 2 આકારોને ભેગા કરીને નવો આકાર બનાવીશું (જેમ કે નળાકાર પર અર્ધગોલક મૂકવો).
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="60" cy="40" rx="30" ry="10" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="30" y1="40" x2="30" y2="100" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="90" y1="40" x2="90" y2="100" stroke="#1d4ed8" stroke-width="2"/>
+                                <path d="M 30 100 A 30 10 0 0 0 90 100" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="45" y="130" font-size="14" font-weight="bold" fill="#1d4ed8">નળાકાર</text>
+                                <text x="40" y="145" font-size="12" fill="#0f172a">2&pi;rh</text>
+
+                                <ellipse cx="160" cy="100" rx="30" ry="10" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 130 100 A 30 10 0 0 0 190 100" fill="#fef08a"/>
+                                <line x1="160" y1="30" x2="130" y2="100" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="160" y1="30" x2="190" y2="100" stroke="#ea580c" stroke-width="2"/>
+                                <text x="145" y="130" font-size="14" font-weight="bold" fill="#ea580c">શંકુ</text>
+                                <text x="145" y="145" font-size="12" fill="#0f172a">&pi;rl</text>
+
+                                <ellipse cx="260" cy="60" rx="35" ry="12" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+                                <path d="M 225 60 A 35 35 0 0 0 295 60" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+                                <text x="235" y="130" font-size="14" font-weight="bold" fill="#16a34a">અર્ધગોલક</text>
+                                <text x="245" y="145" font-size="12" fill="#0f172a">2&pi;r&sup2;</text>
+
+                                <rect x="330" y="50" width="40" height="50" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+                                <polygon points="330,50 350,30 390,30 370,50" fill="#fca5a5" stroke="#dc2626" stroke-width="2"/>
+                                <polygon points="370,50 390,30 390,80 370,100" fill="#f87171" stroke="#dc2626" stroke-width="2"/>
+                                <text x="340" y="130" font-size="14" font-weight="bold" fill="#dc2626">લંબઘન</text>
+                                <text x="325" y="145" font-size="10" fill="#0f172a">2(lb+bh+hl)</text>
+                            </svg>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 1: બે ઘન પૈકી પ્રત્યેકનું ઘનફળ 64 સેમી&sup3; હોય, તેવા બે ઘનને જોડવાથી બનતા લંબઘનનું પૃષ્ઠફળ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સનો બે સમઘનને જોડીને લંબઘન બનાવતો સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            જ્યારે આપણે પાસા જેવા બે સરખા સમઘન (Cubes) ને બાજુ-બાજુમાં જોડીએ, ત્યારે તેની <b>લંબાઈ બમણી (Double)</b> થઈ જાય છે, પણ તેની પહોળાઈ અને ઊંચાઈ તો એની એ જ રહે છે! 
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="180" viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="50" y="80" width="60" height="60" fill="#bae6fd" stroke="#0f172a" stroke-width="2"/>
+                                <polygon points="50,80 70,60 130,60 110,80" fill="#7dd3fc" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <rect x="110" y="80" width="60" height="60" fill="#bae6fd" stroke="#0f172a" stroke-width="2"/>
+                                <polygon points="110,80 130,60 190,60 170,80" fill="#7dd3fc" stroke="#0f172a" stroke-width="2"/>
+                                <polygon points="170,80 190,60 190,120 170,140" fill="#38bdf8" stroke="#0f172a" stroke-width="2"/>
+
+                                <line x1="50" y1="155" x2="170" y2="155" stroke="#dc2626" stroke-width="2"/>
+                                <text x="100" y="170" font-size="14" font-weight="bold" fill="#dc2626">l = 4 + 4 = 8 cm</text>
+                                
+                                <line x1="35" y1="80" x2="35" y2="140" stroke="#16a34a" stroke-width="2"/>
+                                <text x="5" y="115" font-size="14" font-weight="bold" fill="#16a34a">h=4</text>
+                                
+                                <line x1="180" y1="145" x2="200" y2="125" stroke="#ea580c" stroke-width="2"/>
+                                <text x="205" y="140" font-size="14" font-weight="bold" fill="#ea580c">b=4</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમઘનની બાજુ (a) શોધવી</b><br>
+                            અહીં સમઘનનું ઘનફળ = 64 સેમી&sup3; આપેલું છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b>a&sup3; = 64</b><br>
+                                <span style='color:#047857; font-size:14px;'><i>(કઈ સંખ્યાનો ઘન 64 થાય? 4 &times; 4 &times; 4 = 64)</i></span><br>
+                                <b>a = 4 સેમી</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: નવા લંબઘનનાં માપ નક્કી કરવા</b><br>
+                            બે સમઘનને જોડવાથી નવો લંબઘન બને છે.<br>
+                            • <b>લંબાઈ (l)</b> = 4 + 4 = <b style='color:#dc2626;'>8 સેમી</b><br>
+                            • <b>પહોળાઈ (b)</b> = એની એ જ રહેશે = <b style='color:#ea580c;'>4 સેમી</b><br>
+                            • <b>ઊંચાઈ (h)</b> = એની એ જ રહેશે = <b style='color:#16a34a;'>4 સેમી</b>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: લંબઘનનું પૃષ્ઠફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = 2 (lb + bh + hl)</b><br><br>
+                                
+                                <b>= </b> 2 [ (8 &times; 4) + (4 &times; 4) + (4 &times; 8) ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંદર ગુણાકાર કરતા)</i></span><br>
+                                <b>= </b> 2 [ 32 + 16 + 32 ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસનો સરવાળો કરતા)</i></span><br>
+                                <b>= </b> 2 [ 80 ]<br><br>
+                                
+                                <b>= <b style='color:#dc2626; font-size:24px;'>160 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> બનતા લંબઘનનું પૃષ્ઠફળ <b style='color:#be123c;'>160 સેમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 2: એક અર્ધગોલક ઉપર એક પોલો નળાકાર બેસાડેલો હોય તેવું એક પાત્ર (Vessel) છે. અર્ધગોલકનો વ્યાસ 14 સેમી છે અને પાત્રની કુલ ઊંચાઈ 13 સેમી છે, તો પાત્રની અંદરની સપાટીનું પૃષ્ઠફળ શોધો.", 
+                    question_desc: "2025 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો બે આકારોના સરવાળા વાળો બોર્ડનો ફેવરિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની માસ્ટર ટ્રીક:</b><br>
+                            અહીં <b>કુલ ઊંચાઈ 13</b> આપી છે, જેમાંથી નળાકારની ઊંચાઈ અલગ કાઢવી પડે! <br>
+                            કેવી રીતે? અર્ધગોલકની ઊંચાઈ હંમેશા તેની ત્રિજ્યા (r) જેટલી જ હોય છે. એટલે કુલ ઊંચાઈમાંથી અર્ધગોલકની ત્રિજ્યા બાદ કરો એટલે નળાકારની ઊંચાઈ (h) મળી જાય.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="220" viewBox="0 0 260 220" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 80 130 A 50 50 0 0 0 180 130" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+                                <ellipse cx="130" cy="130" rx="50" ry="15" fill="#dcfce7" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                                
+                                <line x1="80" y1="50" x2="80" y2="130" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="180" y1="50" x2="180" y2="130" stroke="#1d4ed8" stroke-width="2"/>
+                                <ellipse cx="130" cy="50" rx="50" ry="15" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <circle cx="130" cy="130" r="4" fill="#0f172a"/>
+                                <line x1="130" y1="130" x2="180" y2="130" stroke="#0f172a" stroke-width="2"/>
+                                <text x="145" y="125" font-size="12" font-weight="bold">r=7</text>
+
+                                <line x1="130" y1="130" x2="130" y2="180" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                <text x="135" y="160" font-size="12" font-weight="bold" fill="#16a34a">r=7</text>
+
+                                <line x1="210" y1="50" x2="210" y2="130" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="215" y="95" font-size="14" font-weight="bold" fill="#1d4ed8">h = 6</text>
+
+                                <line x1="50" y1="50" x2="50" y2="180" stroke="#dc2626" stroke-width="2"/>
+                                <text x="10" y="120" font-size="14" font-weight="bold" fill="#dc2626">કુલ 13</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ છૂટા પાડવા</b><br>
+                            • વ્યાસ = 14 સેમી છે, તેથી <b>ત્રિજ્યા r = 7 સેમી</b> થશે. (નળાકાર અને અર્ધગોલક બંને માટે સમાન).<br>
+                            • નળાકારની ઊંચાઈ (h) = કુલ ઊંચાઈ - અર્ધગોલકની ત્રિજ્યા<br>
+                            &nbsp;&nbsp;&nbsp;<b>h = 13 - 7 = <b style='color:#1d4ed8;'>6 સેમી</b></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: પાત્રનું કુલ પૃષ્ઠફળ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કુલ પૃષ્ઠફળ = નળાકારની વક્રસપાટી + અર્ધગોલકની વક્રસપાટી</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = 2&pi;rh + 2&pi;r&sup2;</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગણતરી સહેલી કરવા માટે બંનેમાંથી <b>2&pi;r</b> સામાન્ય કાઢતા)</i></span><br>
+                                <b>= 2&pi;r (h + r)</b><br><br>
+                                
+                                <b>= </b> 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 7 &times; (6 + 7)<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર-નીચેથી 7 ઉડી જશે, અને કૌંસનો સરવાળો 13 થશે)</i></span><br>
+                                <b>= </b> 2 &times; 22 &times; (13)<br><br>
+                                
+                                <b>= </b> 44 &times; 13<br><br>
+
+                                <b>= <b style='color:#dc2626; font-size:24px;'>572 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> પાત્રની અંદરની સપાટીનું પૃષ્ઠફળ <b style='color:#be123c;'>572 સેમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+             
+            
+        
+  
              
             
         
