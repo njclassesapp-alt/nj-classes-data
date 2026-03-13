@@ -17047,9 +17047,248 @@ var njMathsExercise = {
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 12: 4 સેમી ત્રિજ્યાવાળા વર્તુળને પરિગત ત્રિકોણ ABC દોર્યો છે. રેખાખંડ BD અને DC ની લંબાઈ અનુક્રમે 8 સેમી અને 6 સેમી છે. બાજુઓ AB અને AC શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો સૌથી લાંબો અને માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની માસ્ટર ટ્રીક:</b><br>
+                            આ દાખલાને ગણવા માટે આપણે ત્રિકોણનું ક્ષેત્રફળ <b>બે અલગ-અલગ રીતે</b> શોધીશું અને પછી બંનેને સામસામે સરખાવીશું.<br>
+                            1. <b>હેરોનનું સૂત્ર:</b> (ધોરણ 9 વાળું: &radic;s(s-a)(s-b)(s-c))<br>
+                            2. <b>સામાન્ય સૂત્ર:</b> (1/2 &times; પાયો &times; વેધ)
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="320" height="260" viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="160,20 40,220 280,220" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                
+                                <circle cx="160" cy="155" r="65" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="160" cy="155" r="4" fill="#0f172a"/>
+                                <text x="155" y="145" font-size="14" font-weight="bold">O</text>
+
+                                <circle cx="160" cy="220" r="4" fill="#dc2626"/>
+                                <text x="155" y="240" font-size="14" font-weight="bold" fill="#dc2626">D</text>
+
+                                <circle cx="215" cy="120" r="4" fill="#dc2626"/>
+                                <text x="225" y="115" font-size="14" font-weight="bold" fill="#dc2626">E</text>
+
+                                <circle cx="105" cy="120" r="4" fill="#dc2626"/>
+                                <text x="85" y="115" font-size="14" font-weight="bold" fill="#dc2626">F</text>
+
+                                <line x1="160" y1="155" x2="160" y2="20" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <line x1="160" y1="155" x2="40" y2="220" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <line x1="160" y1="155" x2="280" y2="220" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+                                <line x1="160" y1="155" x2="160" y2="220" stroke="#16a34a" stroke-width="2"/> <text x="165" y="195" font-size="14" font-weight="bold" fill="#16a34a">r=4</text>
+                                
+                                <line x1="160" y1="155" x2="105" y2="120" stroke="#16a34a" stroke-width="2"/> <line x1="160" y1="155" x2="215" y2="120" stroke="#16a34a" stroke-width="2"/> <text x="155" y="15" font-size="16" font-weight="bold">A</text>
+                                <text x="25" y="230" font-size="16" font-weight="bold">B</text>
+                                <text x="285" y="230" font-size="16" font-weight="bold">C</text>
+
+                                <text x="90" y="235" font-size="14" font-weight="bold" fill="#1d4ed8">8 cm</text>
+                                <text x="210" y="235" font-size="14" font-weight="bold" fill="#1d4ed8">6 cm</text>
+                                
+                                <text x="50" y="160" font-size="14" font-weight="bold" fill="#1d4ed8">8 cm</text>
+                                <text x="250" y="160" font-size="14" font-weight="bold" fill="#1d4ed8">6 cm</text>
+
+                                <text x="110" y="60" font-size="14" font-weight="bold" fill="#dc2626">x</text>
+                                <text x="200" y="60" font-size="14" font-weight="bold" fill="#dc2626">x</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બાજુઓની લંબાઈ ધારવી (પ્રમેય 10.2 મુજબ)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>બહારના બિંદુમાંથી દોરેલા સ્પર્શકો સમાન હોય છે. તેથી:<br>
+                            • <b>B માંથી:</b> BD = BF = <b style='color:#1d4ed8;'>8 સેમી</b><br>
+                            • <b>C માંથી:</b> CD = CE = <b style='color:#1d4ed8;'>6 સેમી</b><br>
+                            • <b>A માંથી:</b> ધારો કે AF = AE = <b style='color:#dc2626;'>x સેમી</b><br><br>
+                            હવે ત્રિકોણની ત્રણેય બાજુઓ (a, b, c) ની લંબાઈ:<br>
+                            <b>a (BC)</b> = 8 + 6 = 14 સેમી<br>
+                            <b>b (AC)</b> = 6 + x સેમી<br>
+                            <b>c (AB)</b> = 8 + x સેમી<br>
+                            </span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: હેરોનના સૂત્રથી &Delta;ABC નું ક્ષેત્રફળ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(સૌથી પહેલા અર્ધપરિમિતિ 's' શોધીએ)</i></span><br>
+                                <b>s =</b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>a + b + c</span><span>2</span></span> 
+                                <b> = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14 + (6 + x) + (8 + x)</span><span>2</span></span><br><br>
+                                
+                                <b>s =</b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>28 + 2x</span><span>2</span></span> <b> = <b style='color:#1d4ed8;'>14 + x</b></b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે હેરોનનું સૂત્ર)</i></span><br>
+                                <b>ક્ષેત્રફળ = &radic;[ s(s-a)(s-b)(s-c) ]</b><br><br>
+                                
+                                • s - a = (14 + x) - 14 = <b>x</b><br>
+                                • s - b = (14 + x) - (6 + x) = <b>8</b><br>
+                                • s - c = (14 + x) - (8 + x) = <b>6</b><br><br>
+
+                                ક્ષેત્રફળ = &radic;[ (14 + x) (x) (8) (6) ]<br>
+                                <b style='color:#ea580c; font-size:18px;'>ક્ષેત્રફળ = &radic;[ 48x (14 + x) ]</b> &nbsp;&nbsp;&nbsp;... (પરિણામ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ત્રણેય નાના ત્રિકોણોના સરવાળાથી ક્ષેત્રફળ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આકૃતિમાં જુઓ, આખો &Delta;ABC ત્રણ નાના ત્રિકોણોનો બનેલો છે: &Delta;OBC, &Delta;OCA અને &Delta;OAB. ત્રણેયનો વેધ (ત્રિજ્યા r) = 4 સેમી છે.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                ક્ષેત્રફળ = ક્ષે.(OBC) + ક્ષે.(OCA) + ક્ષે.(OAB)<br><br>
+                                
+                                = [ 1/2 &times; BC &times; r ] + [ 1/2 &times; AC &times; r ] + [ 1/2 &times; AB &times; r ]<br><br>
+
+                                = [ 1/2 &times; 14 &times; 4 ] + [ 1/2 &times; (6+x) &times; 4 ] + [ 1/2 &times; (8+x) &times; 4 ]<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(દરેકમાં છેદ ઉડાડતા 4 ની જગ્યાએ 2 વધશે)</i></span><br>
+                                = (14 &times; 2) + [(6+x) &times; 2] + [(8+x) &times; 2]<br>
+                                = 28 + 12 + 2x + 16 + 2x<br>
+                                = 56 + 4x<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(4 સામાન્ય કાઢતા)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:18px;'>ક્ષેત્રફળ = 4(14 + x)</b> &nbsp;&nbsp;&nbsp;... (પરિણામ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f3e8ff; border-left:4px solid #9333ea; padding:10px;'>
+                            <b style='color:#7e22ce; font-size:16px;'>સ્ટેપ 4: બંને સમીકરણો સરખાવવા (અંતિમ ગણતરી)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffffff; border:1px solid #d8b4fe; padding:15px; border-radius:5px;'>
+                                પરિણામ 1 = પરિણામ 2<br>
+                                &radic;[ 48x (14 + x) ] = 4(14 + x)<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(વર્ગમૂળ કાઢવા બંને બાજુ વર્ગ (Square) કરતા)</i></span><br>
+                                48x (14 + x) = 16 (14 + x)²<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુથી એકવાર (14 + x) અને 16 નો ઘડિયો ઉડી જશે)</i></span><br>
+                                3x = 14 + x<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(x ડાબી બાજુ માઇનસ થશે)</i></span><br>
+                                3x - x = 14<br>
+                                2x = 14<br>
+                                <b style='color:#dc2626; font-size:22px;'>x = 7 સેમી</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે બાજુઓની લંબાઈ શોધીએ)</i></span><br>
+                                • <b style='color:#15803d; font-size:18px;'>AB = 8 + x = 8 + 7 = 15 સેમી</b><br>
+                                • <b style='color:#15803d; font-size:18px;'>AC = 6 + x = 6 + 7 = 13 સેમી</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ બાજુઓ <b>AB = 15 સેમી</b> અને <b>AC = 13 સેમી</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 10.2 પ્રશ્ન 13: સાબિત કરો કે વર્તુળને પરિગત ચતુષ્કોણની સામસામેની બાજુઓ વર્તુળના કેન્દ્ર આગળ પૂરકકોણ આંતરે છે.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો કેન્દ્ર આગળ 8 ખૂણાઓ વાળો મોસ્ટ IMP સાબિતીનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આ આકૃતિમાં <b>કેન્દ્ર O આગળ 1 થી 8 એમ કુલ 8 ખૂણાઓ</b> બને છે. <br>
+                            આપણને ખબર છે કે વર્તુળના કેન્દ્ર આગળના બધા જ ખૂણાઓનો સરવાળો <b>360&deg;</b> થાય છે. આપણે સામસામેની જોડીઓ (જેમ કે ખૂણો 1 અને 2, 3 અને 4) ને એકરૂપતાથી સમાન સાબિત કરીને અડધા-અડધા કરી નાખીશું, એટલે જવાબ 180&deg; (પૂરકકોણ) આવી જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="140" cy="140" r="80" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="140" cy="140" r="4" fill="#0f172a"/>
+                                <text x="135" y="130" font-size="14" font-weight="bold">O</text>
+
+                                <polygon points="60,220 220,220 220,60 60,60" fill="none" stroke="#0f172a" stroke-width="2"/>
+
+                                <text x="40" y="235" font-size="16" font-weight="bold" fill="#dc2626">A</text>
+                                <text x="230" y="235" font-size="16" font-weight="bold" fill="#dc2626">B</text>
+                                <text x="230" y="50" font-size="16" font-weight="bold" fill="#dc2626">C</text>
+                                <text x="40" y="50" font-size="16" font-weight="bold" fill="#dc2626">D</text>
+
+                                <circle cx="140" cy="220" r="4" fill="#16a34a"/>
+                                <text x="135" y="240" font-size="14" font-weight="bold" fill="#16a34a">P</text>
+
+                                <circle cx="220" cy="140" r="4" fill="#16a34a"/>
+                                <text x="230" y="145" font-size="14" font-weight="bold" fill="#16a34a">Q</text>
+
+                                <circle cx="140" cy="60" r="4" fill="#16a34a"/>
+                                <text x="135" y="50" font-size="14" font-weight="bold" fill="#16a34a">R</text>
+
+                                <circle cx="60" cy="140" r="4" fill="#16a34a"/>
+                                <text x="40" y="145" font-size="14" font-weight="bold" fill="#16a34a">S</text>
+
+                                <line x1="140" y1="140" x2="60" y2="220" stroke="#ea580c" stroke-width="1.5"/>
+                                <line x1="140" y1="140" x2="220" y2="220" stroke="#ea580c" stroke-width="1.5"/>
+                                <line x1="140" y1="140" x2="220" y2="60" stroke="#ea580c" stroke-width="1.5"/>
+                                <line x1="140" y1="140" x2="60" y2="60" stroke="#ea580c" stroke-width="1.5"/>
+
+                                <line x1="140" y1="140" x2="140" y2="220" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <line x1="140" y1="140" x2="220" y2="140" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <line x1="140" y1="140" x2="140" y2="60" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <line x1="140" y1="140" x2="60" y2="140" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+                                <text x="120" y="170" font-size="12" font-weight="bold">1</text>
+                                <text x="100" y="150" font-size="12" font-weight="bold">8</text>
+                                <text x="100" y="130" font-size="12" font-weight="bold">7</text>
+                                <text x="120" y="110" font-size="12" font-weight="bold">6</text>
+                                <text x="150" y="110" font-size="12" font-weight="bold">5</text>
+                                <text x="170" y="130" font-size="12" font-weight="bold">4</text>
+                                <text x="170" y="150" font-size="12" font-weight="bold">3</text>
+                                <text x="150" y="170" font-size="12" font-weight="bold">2</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>પક્ષ અને સાધ્ય:</b><br>
+                            <span style='color:#0f172a; font-size:14px;'><b>પક્ષ:</b> ચતુષ્કોણ ABCD એક વર્તુળને પરિગત છે. વર્તુળનું કેન્દ્ર O છે.<br>
+                            <b>સાધ્ય:</b> સામસામેની બાજુઓએ કેન્દ્ર આગળ બનાવેલા ખૂણાઓ પૂરક છે.<br>
+                            એટલે કે: <b>&ang;AOB + &ang;COD = 180&deg;</b> અને <b>&ang;AOD + &ang;BOC = 180&deg;</b></span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સાબિતી (Proof):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; font-size:15px; line-height:1.8;'>
+                                1. કેન્દ્ર O ને ચારેય સ્પર્શબિંદુઓ (P, Q, R, S) અને ચારેય શિરોબિંદુઓ (A, B, C, D) સાથે જોડો.<br><br>
+
+                                2. ત્રિકોણોની એકરૂપતા મુજબ (જેમ પ્રશ્ન 9 માં કર્યું હતું), બહારના બિંદુ A માંથી બનતા બે ત્રિકોણો <b>&Delta;OAP</b> અને <b>&Delta;OAS</b> એકરૂપ થાય છે.<br>
+                                &nbsp;&nbsp;&nbsp;તેથી તેમના કેન્દ્ર આગળના ખૂણા સરખા થાય: <b style='color:#1d4ed8;'>&ang;1 = &ang;8</b><br><br>
+
+                                3. આ જ રીતે બાકીના બધા ખૂણાઓ માટે:<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#1d4ed8;'>&ang;2 = &ang;3</b> &nbsp;&nbsp;(B આગળથી)<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#1d4ed8;'>&ang;4 = &ang;5</b> &nbsp;&nbsp;(C આગળથી)<br>
+                                &nbsp;&nbsp;&nbsp;<b style='color:#1d4ed8;'>&ang;6 = &ang;7</b> &nbsp;&nbsp;(D આગળથી)<br><br>
+
+                                4. હવે, વર્તુળના કેન્દ્ર આગળ બનતા <b>બધા જ 8 ખૂણાઓનો સરવાળો 360&deg;</b> થાય છે.<br>
+                                &nbsp;&nbsp;&nbsp;&ang;1 + &ang;2 + &ang;3 + &ang;4 + &ang;5 + &ang;6 + &ang;7 + &ang;8 = 360&deg;<br><br>
+
+                                5. ઉપરના પરિણામો મૂકતાં (&ang;8 ની જગ્યાએ &ang;1, &ang;3 ની જગ્યાએ &ang;2 વગેરે મૂકતાં):<br>
+                                &nbsp;&nbsp;&nbsp;(&ang;1 + &ang;1) + (&ang;2 + &ang;2) + (&ang;5 + &ang;5) + (&ang;6 + &ang;6) = 360&deg;<br>
+                                &nbsp;&nbsp;&nbsp;2(&ang;1) + 2(&ang;2) + 2(&ang;5) + 2(&ang;6) = 360&deg;<br>
+                                &nbsp;&nbsp;&nbsp;2 (&ang;1 + &ang;2 + &ang;5 + &ang;6) = 360&deg;<br><br>
+
+                                6. 2 ને સામે ભાગાકારમાં મોકલતાં:<br>
+                                &nbsp;&nbsp;&nbsp;(&ang;1 + &ang;2) + (&ang;5 + &ang;6) = 180&deg;<br><br>
+
+                                7. આકૃતિમાં જુઓ:<br>
+                                &nbsp;&nbsp;&nbsp;(&ang;1 + &ang;2) મળીને <b>&ang;AOB</b> બનાવે છે.<br>
+                                &nbsp;&nbsp;&nbsp;(&ang;5 + &ang;6) મળીને <b>&ang;COD</b> બનાવે છે.<br>
+                                &nbsp;&nbsp;&nbsp;તેથી, <b style='color:#15803d; font-size:22px;'>&ang;AOB + &ang;COD = 180&deg;</b><br><br>
+                                
+                                <b>આમ સાબિત થાય છે કે સામસામેની બાજુઓ કેન્દ્ર આગળ પૂરકકોણ બનાવે છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                
+            
+        
+                
+            
+        
                 
             
         
