@@ -1822,9 +1822,181 @@
                         </div>
                     </div>
                     `
+                },
+                 
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 7: 12 સેમી ત્રિજ્યાવાળા વર્તુળની જીવા કેન્દ્ર આગળ 120&deg; નો ખૂણો આંતરે છે. તેને અનુરૂપ લઘુવૃત્તખંડનું ક્ષેત્રફળ શોધો. (&pi; = 3.14 અને &radic;3 = 1.73 લો).", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો 120&deg; ના ખૂણાની શોર્ટકટ ટ્રીક વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - 120&deg; ની માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે કેન્દ્ર આગળ 120&deg; નો ખૂણો હોય, ત્યારે વચ્ચેથી લંબ દોરીને 60&deg; ના બે કાટકોણ ત્રિકોણ બનાવવા પડે. પરંતુ <b>એક શોર્ટકટ યાદ રાખો:</b> 120&deg; વાળા ત્રિકોણનું ક્ષેત્રફળ <b>બરાબર 60&deg; વાળા સમબાજુ ત્રિકોણ જેટલું જ થાય છે!</b><br>
+                            એટલે કે ત્રિકોણનું ક્ષેત્રફળ = <b style='color:#dc2626;'>(&radic;3 / 4) &times; r&sup2;</b> જ વાપરવું!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="180" viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 40 50 A 100 100 0 0 0 240 50" fill="#f0f9ff" stroke="#0f172a" stroke-width="2" stroke-dasharray="4,4"/>
+                                
+                                <path d="M 140 100 L 226 150 A 100 100 0 0 1 54 150 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <path d="M 226 150 A 100 100 0 0 1 54 150 L 226 150" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+
+                                <circle cx="140" cy="100" r="4" fill="#0f172a"/>
+                                <text x="135" y="85" font-size="14" font-weight="bold">O</text>
+
+                                <line x1="140" y1="100" x2="54" y2="150" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="140" y1="100" x2="226" y2="150" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="54" y1="150" x2="226" y2="150" stroke="#dc2626" stroke-width="2" stroke-dasharray="2,2"/>
+                                
+                                <line x1="140" y1="100" x2="140" y2="150" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+                                <path d="M 115 115 A 30 30 0 0 0 165 115" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="125" y="132" font-size="12" font-weight="bold" fill="#dc2626">120&deg;</text>
+
+                                <text x="40" y="165" font-size="14" font-weight="bold">A</text>
+                                <text x="235" y="165" font-size="14" font-weight="bold">B</text>
+                                <text x="75" y="115" font-size="12" font-weight="bold" fill="#1d4ed8">12</text>
+                                <text x="200" y="115" font-size="12" font-weight="bold" fill="#1d4ed8">12</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: લઘુવૃત્તાંશનું ક્ષેત્રફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં ત્રિજ્યા <b>r = 12 સેમી</b> અને <b>&theta; = 120&deg;</b> છે.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>વૃત્તાંશનું ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>120</span><span>360</span></span> &times; 3.14 &times; (12)&sup2;<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(120 &times; 3 = 360 થાય, એટલે છેદમાં 3 વધશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314</span><span>100</span></span> &times; 144<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(3 વડે 144 ને ભાગતા 48 આવે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314 &times; 48</span><span>100</span></span><br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15072</span><span>100</span></span> <b>= <b style='color:#1d4ed8;'>150.72 સેમી&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ત્રિકોણ OAB નું ક્ષેત્રફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>120&deg; ના ખૂણા માટે શોર્ટકટ સૂત્ર: <b>(&radic;3 / 4) &times; r&sup2;</b></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>ત્રિકોણનું ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&radic;3</span><span>4</span></span> &times; (12)&sup2;<br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1.73</span><span>4</span></span> &times; 144<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(4 વડે 144 ને ભાગતા 36 આવે)</i></span><br>
+                                <b>= </b> 1.73 &times; 36<br>
+                                <b>= <b style='color:#dc2626;'>62.28 સેમી&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: લઘુવૃત્તખંડનું ક્ષેત્રફળ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>લઘુવૃત્તખંડ = </b> વૃત્તાંશનું ક્ષે. - ત્રિકોણનું ક્ષે.<br>
+                                = 150.72 - 62.28<br>
+                                <b>= <b style='color:#15803d; font-size:24px;'>88.44 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> લઘુવૃત્તખંડનું ક્ષેત્રફળ <b style='color:#be123c;'>88.44 સેમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                   
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 8: 15 મીટર બાજુવાળા ચોરસ આકારના ઘાસના ખેતરના એક ખૂણે ઘોડાને 5 મીટર લાંબા દોરડાથી ખીલા સાથે બાંધેલો છે. તો: (i) ઘોડો ખેતરના જેટલા ભાગમાં ચરી શકે તેનું ક્ષેત્રફળ શોધો. (ii) દોરડું 5 મીટરને બદલે 10 મીટર લાંબુ રાખ્યું હોત તો ચરવાના ક્ષેત્રફળમાં થતો વધારો શોધો. (&pi; = 3.14)", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો બે ચતુર્થાંશ વાળો સૌથી ઇન્ટરેસ્ટિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            ખેતર <b>ચોરસ</b> છે, એટલે તેનો દરેક ખૂણો <b>90&deg; નો કાટખૂણો</b> જ હોય! <br>
+                            જ્યારે ખૂણો 90&deg; હોય, ત્યારે તે વર્તુળનો ચોથો ભાગ એટલે કે <b>"ચતુર્થાંશ (Quadrant)"</b> બની જાય છે. બસ આપણે માત્ર ચતુર્થાંશનું ક્ષેત્રફળ શોધવાનું છે.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="240" viewBox="0 0 280 240" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="30" y="30" width="200" height="200" fill="#bbf7d0" stroke="#16a34a" stroke-width="3"/>
+                                <text x="120" y="20" font-size="14" font-weight="bold" fill="#16a34a">ખેતર (15m બાજુ)</text>
+
+                                <path d="M 30 230 L 160 230 A 130 130 0 0 0 30 100 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                                
+                                <path d="M 30 230 L 95 230 A 65 65 0 0 0 30 165 Z" fill="#fb923c" stroke="#c2410c" stroke-width="2"/>
+
+                                <circle cx="30" cy="230" r="6" fill="#0f172a"/>
+                                <text x="10" y="245" font-size="12" font-weight="bold">ખીલો</text>
+
+                                <line x1="30" y1="230" x2="85" y2="195" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="70" y="215" font-size="12" font-weight="bold">5m</text>
+
+                                <line x1="30" y1="230" x2="140" y2="160" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="100" y="195" font-size="12" font-weight="bold">10m દોરડું</text>
+                                
+                                <polyline points="45,230 45,215 30,215" fill="none" stroke="#dc2626" stroke-width="2"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: (i) 5 મીટર દોરડાથી ચરી શકાતો ભાગ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં ત્રિજ્યા <b>r = 5 મીટર</b> અને ખૂણો <b>&theta; = 90&deg;</b> છે.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; &pi;r&sup2;<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; 3.14 &times; 5 &times; 5<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314</span><span>100</span></span> &times; 25<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(25 &times; 4 = 100 ઉડી જશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314</span><span>16</span></span> <span style='color:#047857; font-size:13px;'><i>(કારણ કે 4 &times; 4 = 16)</i></span><br><br>
+
+                                <b>= <b style='color:#1d4ed8; font-size:22px;'>19.625 મીટર&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: 10 મીટર લાંબા દોરડાથી ચરી શકાતો નવો ભાગ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>હવે નવી ત્રિજ્યા <b>R = 10 મીટર</b> લઈએ.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>નવું ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; 3.14 &times; 10 &times; 10<br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314</span><span>100</span></span> &times; 100<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(100 અને 100 ઉડી જશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314</span><span>4</span></span><br>
+                                <b>= <b style='color:#ea580c; font-size:22px;'>78.5 મીટર&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: (ii) ચરવાના ક્ષેત્રફળમાં થતો વધારો</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>વધારો શોધવા માટે મોટા ક્ષેત્રફળમાંથી નાનું ક્ષેત્રફળ બાદ કરો.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>વધારો = </b> 78.5 - 19.625<br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>58.875 મીટર&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબો:</b><br>
+                                (i) 5m દોરડાથી ચરી શકાતો ભાગ = <b>19.625 મીટર&sup2;</b><br>
+                                (ii) ક્ષેત્રફળમાં થતો વધારો = <b>58.875 મીટર&sup2;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
