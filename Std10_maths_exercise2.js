@@ -3220,9 +3220,177 @@
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 4: એક લાકડાનું લંબઘન પેન-સ્ટેન્ડ 4 શંકુ આકારના છિદ્રવાળું છે. લંબઘનનું માપ 15 સેમી &times; 10 સેમી &times; 3.5 સેમી છે. છિદ્રવાળા દરેક ભાગની ત્રિજ્યા 0.5 સેમી અને ઊંડાઈ 1.4 સેમી છે. તો લાકડાના આ સ્ટેન્ડનું ઘનફળ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો લંબઘન અને 4 શંકુના ઘનફળની બાદબાકી વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            જ્યારે આપણે લાકડાના બ્લોકમાં પેન મૂકવા માટે ખાડા (છિદ્ર) પાડીએ, ત્યારે તેમાંથી લાકડું બહાર નીકળી જાય છે (એટલે લાકડું ઓછું થાય).<br>
+                            આથી, <b>લાકડાનું ઘનફળ = આખા લંબઘનનું ઘનફળ - 4 (શંકુ આકારના ખાડાનું ઘનફળ)</b>.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="340" height="220" viewBox="0 0 340 220" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="50" y="100" width="220" height="60" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <polygon points="50,100 80,60 250,60 220,100" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+                                <polygon points="270,100 300,60 300,120 270,160" fill="#ca8a04" opacity="0" /> <polygon points="220,100 250,60 250,120 220,160" fill="#eab308" stroke="#ca8a04" stroke-width="2"/>
+
+                                <ellipse cx="90" cy="85" rx="10" ry="4" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+                                <path d="M 80 85 L 90 120 L 100 85" fill="#fef08a" stroke="#ca8a04" stroke-width="1" stroke-dasharray="2,2"/>
+                                <ellipse cx="130" cy="85" rx="10" ry="4" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+                                <path d="M 120 85 L 130 120 L 140 85" fill="#fef08a" stroke="#ca8a04" stroke-width="1" stroke-dasharray="2,2"/>
+                                <ellipse cx="170" cy="85" rx="10" ry="4" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+                                <path d="M 160 85 L 170 120 L 180 85" fill="#fef08a" stroke="#ca8a04" stroke-width="1" stroke-dasharray="2,2"/>
+                                <ellipse cx="210" cy="85" rx="10" ry="4" fill="#0f172a" stroke="#0f172a" stroke-width="1"/>
+                                <path d="M 200 85 L 210 120 L 220 85" fill="#fef08a" stroke="#ca8a04" stroke-width="1" stroke-dasharray="2,2"/>
+
+                                <line x1="50" y1="180" x2="220" y2="180" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="110" y="200" font-size="14" font-weight="bold" fill="#1d4ed8">l = 15 cm</text>
+                                
+                                <line x1="30" y1="100" x2="30" y2="160" stroke="#16a34a" stroke-width="2"/>
+                                <text x="5" y="135" font-size="12" font-weight="bold" fill="#16a34a">h=3.5</text>
+
+                                <text x="250" y="80" font-size="12" font-weight="bold" fill="#ea580c">b=10</text>
+
+                                <rect x="250" y="130" width="80" height="80" fill="#f8fafc" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+                                <ellipse cx="290" cy="140" rx="15" ry="5" fill="#e2e8f0" stroke="#0f172a" stroke-width="1"/>
+                                <path d="M 275 140 L 290 190 L 305 140" fill="none" stroke="#0f172a" stroke-width="2"/>
+                                <text x="270" y="135" font-size="10" font-weight="bold" fill="#dc2626">r=0.5</text>
+                                <text x="310" y="170" font-size="10" font-weight="bold" fill="#dc2626">h=1.4</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ છૂટા પાડવા</b><br>
+                            • <b>લંબઘન માટે:</b> l = 15, b = 10, અને H = 3.5 (એટલે કે 35/10)<br>
+                            • <b>શંકુ માટે:</b> ત્રિજ્યા r = 0.5 (એટલે કે 1/2) અને ઊંડાઈ h = 1.4 (એટલે કે 14/10)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બંનેનું અલગ-અલગ ઘનફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px; margin-bottom:10px;'>
+                                <b>(A) લંબઘનનું ઘનફળ = l &times; b &times; H</b><br>
+                                = 15 &times; 10 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>35</span><span>10</span></span><br>
+                                <span style='color:#047857; font-size:14px;'><i>(10 અને 10 ઉડી જશે)</i></span><br>
+                                = 15 &times; 35 = <b style='color:#1d4ed8;'>525 સેમી&sup3;</b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>(B) 4 શંકુનું ઘનફળ = 4 &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &pi;r&sup2;h ]</b><br><br>
+                                
+                                = 4 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14</span><span>10</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(જોઈએ: 2 &times; 2 = 4 થાય, જે આગળના 4 સાથે ઉડી જશે. 7 વડે 14 ઉડાડતા ઉપર 2 વધે)</i></span><br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &times; 22 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>2</b></span><span>10</span></span><br><br>
+
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>44</span><span>30</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(44 નો 30 વડે ભાગાકાર કરતા)</i></span><br>
+                                <b>= <b style='color:#ea580c;'>1.47 સેમી&sup3; (આશરે)</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: લાકડાનું ઘનફળ શોધવું (બાદબાકી)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>લાકડાનું ઘનફળ = </b> લંબઘનનું ઘનફળ - 4 શંકુનું ઘનફળ<br>
+                                = 525 - 1.47<br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>523.53 સેમી&sup3;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> લાકડાના આ સ્ટેન્ડનું ઘનફળ <b style='color:#be123c;'>523.53 સેમી&sup3;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+               
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 5: એક વાસણનું સ્વરૂપ ઊંધા શંકુ જેવું છે. તેની ઊંચાઈ 8 સેમી અને ઉપરના ખુલ્લા ભાગની ત્રિજ્યા 5 સેમી છે. તે ઉપરની ધાર સુધી પાણીથી ભરેલું છે. જ્યારે વાસણમાં 0.5 સેમી ત્રિજ્યાવાળી સીસાની ગોળીઓ નાખવામાં આવે છે, ત્યારે 1/4 (ચોથા ભાગનું) પાણી બહાર ઢોળાય છે. તો વાસણમાં નાખેલી ગોળીઓની સંખ્યા શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો બે ઘનફળ સરખાવવાનો મોસ્ટ ફેવરિટ અને સ્માર્ટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            વિજ્ઞાનનો નિયમ (આર્કિમિડીઝનો સિદ્ધાંત) યાદ કરો: તમે પાણીમાં જેટલી જગ્યા રોકતી વસ્તુ નાખો, બરાબર <b>તેટલું જ પાણી બહાર ઢોળાય!</b><br>
+                            એટલે કે, <b>n ગોળીઓનું ઘનફળ = બહાર ઢોળાયેલું પાણી (જે શંકુના ઘનફળનો 1/4 ભાગ છે).</b><br>
+                            અહીં આપણે &pi; ની કિંમત 22/7 મૂકીશું જ નહિ, તેને સામસામે સીધી <b>ઉડાડી દઈશું!</b>
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="340" height="240" viewBox="0 0 340 240" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 60 50 L 160 210 L 260 50 Z" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <ellipse cx="160" cy="50" rx="100" ry="20" fill="#7dd3fc" stroke="#1d4ed8" stroke-width="2"/>
+
+                                <circle cx="160" cy="50" r="4" fill="#0f172a"/>
+                                <line x1="160" y1="50" x2="260" y2="50" stroke="#0f172a" stroke-width="2"/>
+                                <text x="190" y="45" font-size="12" font-weight="bold">R = 5</text>
+
+                                <line x1="160" y1="50" x2="160" y2="210" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="4,4"/>
+                                <text x="165" y="130" font-size="14" font-weight="bold" fill="#1d4ed8">H = 8</text>
+
+                                <circle cx="160" cy="190" r="8" fill="#64748b" stroke="#0f172a"/>
+                                <circle cx="150" cy="170" r="8" fill="#64748b" stroke="#0f172a"/>
+                                <circle cx="170" cy="170" r="8" fill="#64748b" stroke="#0f172a"/>
+                                <circle cx="160" cy="150" r="8" fill="#64748b" stroke="#0f172a"/>
+
+                                <circle cx="160" cy="10" r="8" fill="#64748b" stroke="#0f172a"/>
+                                <line x1="160" y1="20" x2="160" y2="40" stroke="#dc2626" stroke-width="2" stroke-dasharray="2,2"/>
+                                <text x="175" y="15" font-size="10" font-weight="bold" fill="#dc2626">r = 0.5</text>
+
+                                <path d="M 50 60 Q 30 100 40 150" fill="none" stroke="#0284c7" stroke-width="3" stroke-dasharray="5,5"/>
+                                <path d="M 270 60 Q 290 100 280 150" fill="none" stroke="#0284c7" stroke-width="3" stroke-dasharray="5,5"/>
+                                <text x="270" y="180" font-size="12" font-weight="bold" fill="#0284c7">1/4 પાણી બહાર</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા</b><br>
+                            • <b>શંકુ માટે:</b> ત્રિજ્યા R = 5 સેમી, ઊંચાઈ H = 8 સેમી<br>
+                            • <b>ગોળી (ગોલક) માટે:</b> ત્રિજ્યા r = 0.5 સેમી (એટલે કે 1/2 સેમી)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બંનેના ઘનફળ સરખાવવા (માસ્ટર ઈક્વેશન)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>ધારો કે ગોળીઓની સંખ્યા 'n' છે.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>n &times; (ગોળીનું ઘનફળ) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; (શંકુનું ઘનફળ)</b><br><br>
+                                
+                                n &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>3</span></span> &pi;r&sup3; ] = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &pi;R&sup2;H ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંને બાજુથી <b>&pi;</b> અને છેદનો <b>3</b> સીધા જ ઉડી જશે! કેવી મસ્ત ટ્રીક!)</i></span><br>
+                                n &times; [ 4 &times; r&sup3; ] = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; [ R&sup2;H ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે કિંમતો મૂકીએ: r=1/2, R=5, H=8)</i></span><br>
+                                n &times; 4 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; 5 &times; 5 &times; 8<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ડાબી બાજુ: 2 &times; 2 = 4 થાય જે ઉપરના 4 સાથે ઉડશે. માત્ર 1/2 વધશે.<br>
+                                જમણી બાજુ: 4 વડે 8 ને ઉડાડતા 2 વધે. 5 &times; 5 &times; 2 = 50)</i></span><br>
+                                n &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span> = 50<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદનો 2 સામે ગુણાકારમાં જશે)</i></span><br>
+                                n = 50 &times; 2<br>
+                                <b>n = <b style='color:#dc2626; font-size:24px;'>100</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> વાસણમાં નાખેલી ગોળીઓની સંખ્યા <b style='color:#be123c;'>100</b> હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
