@@ -2590,9 +2590,160 @@
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 5: એક સમઘન લાકડાના ટુકડાના એક પૃષ્ઠમાંથી એક અર્ધગોલક કાપવામાં આવે છે. અર્ધગોલકનો વ્યાસ 'l' એ સમઘનની બાજુ જેટલો છે. તો બાકી પદાર્થનું કુલ પૃષ્ઠફળ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો આંકડા વગરનો (માત્ર ચલ 'l' વાળો) માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            આ દાખલો બરાબર **પ્રશ્ન 4 ની કોપી** જ છે! પ્રશ્ન 4 માં આપણે સમઘન ઉપર અર્ધગોલક મૂક્યો હતો, અને અહીં આપણે સમઘનમાંથી અર્ધગોલક ખાડો કરીને કાપી લીધો છે.<br>
+                            બંને પરિસ્થિતિમાં <b>પૃષ્ઠફળનું સૂત્ર એકસરખું જ રહે છે!</b><br>
+                            કારણ કે ખાડો કરવાથી સમઘનનું ઉપરનું તળિયું (&pi;r&sup2;) દૂર થાય છે, પણ ખાડાની અંદર એક નવી વક્રસપાટી (2&pi;r&sup2;) બની જાય છે જેને આપણે રંગ કરી શકીએ.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="240" viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="70" y="120" width="80" height="80" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <polygon points="70,120 110,80 190,80 150,120" fill="#7dd3fc" stroke="#1d4ed8" stroke-width="2"/>
+                                <polygon points="150,120 190,80 190,160 150,200" fill="#38bdf8" stroke="#1d4ed8" stroke-width="2"/>
+
+                                <text x="105" y="220" font-size="14" font-weight="bold" fill="#1d4ed8">a = l</text>
+
+                                <ellipse cx="130" cy="100" rx="35" ry="12" fill="#1e293b" stroke="#0f172a" stroke-width="2"/>
+                                <path d="M 95 100 A 35 35 0 0 0 165 100" fill="none" stroke="#0f172a" stroke-width="2" stroke-dasharray="4,4"/>
+
+                                <line x1="95" y1="100" x2="165" y2="100" stroke="#dc2626" stroke-width="2"/>
+                                <text x="120" y="95" font-size="14" font-weight="bold" fill="#f8fafc">d = l</text>
+
+                                <line x1="40" y1="50" x2="120" y2="95" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="10" y="45" font-size="12" font-weight="bold">-&pi;r&sup2; (દૂર થયેલ ભાગ)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: બાજુ અને ત્રિજ્યા નક્કી કરવી</b><br>
+                            આપેલ માહિતી મુજબ: <br>
+                            • સમઘનની બાજુ <b>a = l</b> છે.<br>
+                            • અર્ધગોલકનો વ્યાસ <b>d = l</b> છે.<br>
+                            • તેથી અર્ધગોલકની ત્રિજ્યા <b>r = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>l</span><span>2</span></span></b> થશે.
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: બાકી પદાર્થનું કુલ પૃષ્ઠફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>પૃષ્ઠફળ = સમઘનનું પૃષ્ઠફળ + અર્ધગોલકનો અંદરનો ખાડો (વક્રસપાટી) - અર્ધગોલકનું ઉપરનું કાણું (તળિયું)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = 6a&sup2; + 2&pi;r&sup2; - &pi;r&sup2;</b><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(2&pi;r&sup2; માંથી 1 &pi;r&sup2; જાય તો 1 વધે)</i></span><br>
+                                <b>= 6a&sup2; + &pi;r&sup2;</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે a અને r ની કિંમતો મૂકતા)</i></span><br>
+                                <b>= </b> 6(l)&sup2; + &pi;<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>l</span><span>2</span></span><span style='font-size:24px;'>)</span>&sup2;<br><br>
+
+                                <b>= </b> 6l&sup2; + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&pi;l&sup2;</span><span>4</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(લ.સા.અ. લેવા 4 નો 6 સાથે ચોકડી ગુણાકાર કરતા 24 થશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>24l&sup2; + &pi;l&sup2;</span><span>4</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેમાંથી l&sup2; સામાન્ય અને નીચેથી 4 બહાર કાઢતા)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>1</span><span>4</span></span> l&sup2; (24 + &pi;)</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> બાકી પદાર્થનું કુલ પૃષ્ઠફળ <b style='color:#be123c;'>&frac;14; l&sup2; (24 + &pi;)</b> એકમ&sup2; છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 6: દવાની એક કેપ્સુલનો આકાર નળાકારની બંને બાજુએ અર્ધગોલક લગાડેલા હોય તેવો છે. કેપ્સુલની કુલ લંબાઈ 14 મીમી (mm) છે અને તેનો વ્યાસ 5 મીમી છે. તો કેપ્સુલનું પૃષ્ઠફળ શોધો.", 
+                    question_desc: "2025 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો 100% પૂછાતો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આખી કેપ્સુલ 3 ભાગની બનેલી છે: <b>વચ્ચે 1 નળાકાર + આજુબાજુ 2 અર્ધગોલક.</b><br>
+                            બે અર્ધગોલક ભેગા થાય એટલે તે <b>1 આખો ગોલક (Sphere)</b> બની જાય! એટલે ગણતરી બહુ સહેલી થઈ જશે. ખાલી કુલ લંબાઈ 14 માંથી બંને બાજુની ત્રિજ્યા (2.5 + 2.5 = 5) બાદ કરવાનું ભૂલતા નહિ!
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="340" height="180" viewBox="0 0 340 180" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 100 50 A 40 40 0 0 0 100 130" fill="#fca5a5" stroke="#dc2626" stroke-width="2"/>
+                                <path d="M 240 50 A 40 40 0 0 1 240 130" fill="#fca5a5" stroke="#dc2626" stroke-width="2"/>
+                                <rect x="100" y="50" width="140" height="80" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="100" y1="52" x2="100" y2="128" stroke="#bae6fd" stroke-width="3"/>
+                                <line x1="240" y1="52" x2="240" y2="128" stroke="#bae6fd" stroke-width="3"/>
+
+                                <line x1="100" y1="40" x2="100" y2="140" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <line x1="240" y1="40" x2="240" y2="140" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="4,4"/>
+
+                                <line x1="40" y1="50" x2="40" y2="130" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="35,50 45,50" fill="none" stroke="#0f172a" stroke-width="2"/>
+                                <polyline points="35,130 45,130" fill="none" stroke="#0f172a" stroke-width="2"/>
+                                <text x="10" y="95" font-size="12" font-weight="bold">d=5</text>
+
+                                <text x="65" y="95" font-size="12" font-weight="bold" fill="#dc2626">r=2.5</text>
+                                <text x="245" y="95" font-size="12" font-weight="bold" fill="#dc2626">r=2.5</text>
+
+                                <line x1="100" y1="150" x2="240" y2="150" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="150" y="170" font-size="14" font-weight="bold" fill="#1d4ed8">h = 9 mm</text>
+
+                                <line x1="60" y1="20" x2="280" y2="20" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="60,15 60,25" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <polyline points="280,15 280,25" fill="none" stroke="#16a34a" stroke-width="2"/>
+                                <text x="140" y="15" font-size="14" font-weight="bold" fill="#16a34a">કુલ 14 mm</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ છૂટા પાડવા</b><br>
+                            • વ્યાસ = 5 મીમી, તેથી <b>ત્રિજ્યા r = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>5</span><span>2</span></span> મીમી (અથવા 2.5)</b> થશે.<br>
+                            • <b>નળાકારની લંબાઈ (h):</b> કુલ લંબાઈમાંથી બંને બાજુના અર્ધગોલકની ત્રિજ્યા (2.5 + 2.5 = 5) બાદ કરવી પડે.<br>
+                            &nbsp;&nbsp;&nbsp;<b>h = 14 - 5 = <b style='color:#1d4ed8;'>9 મીમી</b></b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કેપ્સુલનું કુલ પૃષ્ઠફળ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>પૃષ્ઠફળ = નળાકારની વક્રસપાટી + (2 &times; અર્ધગોલકની વક્રસપાટી)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = 2&pi;rh + 2(2&pi;r&sup2;)</b><br><br>
+                                
+                                <b>= 2&pi;rh + 4&pi;r&sup2;</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગણતરી સહેલી કરવા <b>2&pi;r</b> સામાન્ય કાઢતા)</i></span><br>
+                                <b>= 2&pi;r (h + 2r)</b><br><br>
+                                
+                                <b>= </b> 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>2</span></span> &times; (9 + 2(<span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>5</span><span>2</span></span>))<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બહાર 2 અને 2 ઉડી જશે. કૌંસમાં પણ 2 અને 2 ઉડી જશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22 &times; 5</span><span>7</span></span> &times; (9 + 5)<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>110</span><span>7</span></span> &times; (14)<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(7 વડે 14 ઉડાડતા 2 વધે)</i></span><br>
+                                <b>= </b> 110 &times; 2<br><br>
+
+                                <b>= <b style='color:#dc2626; font-size:24px;'>220 મીમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> દવાની કેપ્સુલનું કુલ પૃષ્ઠફળ <b style='color:#be123c;'>220 મીમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
