@@ -2904,9 +2904,164 @@
                         </div>
                     </div>
                     `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 9: આકૃતિમાં દર્શાવ્યા પ્રમાણે, લાકડાના નળાકારમાંથી બંને બાજુએથી અર્ધગોલક કાઢીને એક લાકડાનો શો-પીસ બનાવ્યો છે. જો નળાકારની ઊંચાઈ 10 સેમી હોય અને પાયાની ત્રિજ્યા 3.5 સેમી હોય, તો આ શો-પીસનું કુલ પૃષ્ઠફળ શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સ્વાધ્યાયનો છેલ્લો અને 100% પૂછાઈ શકે તેવો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            આ દાખલો <b>પ્રશ્ન 8 નો મોટો ભાઈ</b> છે! <br>
+                            જ્યારે આપણે લાકડામાં બંને બાજુથી કોતરીને <b>બે અર્ધગોલક આકારના ખાડા</b> પાડીએ, ત્યારે લાકડાનું વજન ભલે ઘટે, પણ તેની અંદર <b>નવી 2 ગોળ સપાટીઓ</b> બની જાય છે જેને આપણે રંગ કરી શકીએ!<br>
+                            એટલે <b>કુલ પૃષ્ઠફળ = નળાકારની બહારની ગોળાઈ + 2 (અર્ધગોલકની અંદરની ગોળાઈ)</b>.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="260" viewBox="0 0 280 260" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="80" y1="50" x2="80" y2="210" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="180" y1="50" x2="180" y2="210" stroke="#1d4ed8" stroke-width="2"/>
+
+                                <path d="M 80 50 A 50 50 0 0 0 180 50" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                <ellipse cx="130" cy="50" rx="50" ry="12" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+
+                                <path d="M 80 210 A 50 50 0 0 1 180 210" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                <ellipse cx="130" cy="210" rx="50" ry="12" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+
+                                <line x1="130" y1="50" x2="130" y2="210" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                
+                                <line x1="130" y1="50" x2="180" y2="50" stroke="#0f172a" stroke-width="2"/>
+                                <text x="135" y="40" font-size="12" font-weight="bold">r=3.5</text>
+
+                                <line x1="210" y1="50" x2="210" y2="210" stroke="#1d4ed8" stroke-width="2"/>
+                                <polyline points="205,50 215,50" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <polyline points="205,210 215,210" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="220" y="135" font-size="14" font-weight="bold" fill="#1d4ed8">h=10</text>
+
+                                <text x="15" y="135" font-size="12" font-weight="bold" fill="#1d4ed8">નળાકાર</text>
+                                <text x="100" y="240" font-size="12" font-weight="bold" fill="#ea580c">અર્ધગોલક ખાડો</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા</b><br>
+                            • નળાકાર અને અર્ધગોલક બંનેની ત્રિજ્યા <b>r = 3.5 સેમી</b> (અથવા 7/2 સેમી).<br>
+                            • નળાકારની ઊંચાઈ <b>h = 10 સેમી</b>.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: શો-પીસનું કુલ પૃષ્ઠફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કુલ પૃષ્ઠફળ = નળાકારની વક્રસપાટી + 2 &times; (અર્ધગોલકની વક્રસપાટી)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = 2&pi;rh + 2(2&pi;r&sup2;)</b><br><br>
+
+                                <b>= 2&pi;rh + 4&pi;r&sup2;</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગણતરી સહેલી કરવા બંનેમાંથી <b>2&pi;r</b> સામાન્ય કાઢતા)</i></span><br>
+                                <b>= 2&pi;r (h + 2r)</b><br><br>
+                                
+                                <b>= </b> 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 3.5 &times; [ 10 + 2(3.5) ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(3.5 ના ડબલ 7 થાય. એટલે 2 &times; 3.5 = 7 મુકતા અને કૌંસમાં પણ 7 મુકતા)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <b style='color:#dc2626;'>7</b> &times; [ 10 + 7 ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બહારથી 7 અને 7 ઉડી જશે)</i></span><br>
+                                <b>= </b> 22 &times; (17)<br><br>
+
+                                <b>= <b style='color:#dc2626; font-size:24px;'>374 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> લાકડાના શો-પીસનું કુલ પૃષ્ઠફળ <b style='color:#be123c;'>374 સેમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+               
+                {
+                    question: "🎯 માસ્ટર ચાવી: ઘનફળ (Volume) એટલે શું? તે પૃષ્ઠફળથી કઈ રીતે અલગ છે?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (સાવ દેશી ભાષામાં):</b><br>
+                            • <b>પૃષ્ઠફળ (Surface Area):</b> એટલે વસ્તુની <b>બહારની સપાટી</b> (જ્યાં આપણે કલર કરી શકીએ).<br>
+                            • <b>ઘનફળ (Volume / Capacity):</b> એટલે વસ્તુની અંદરની ક્ષમતા અથવા <b>વસ્તુ કેટલી જગ્યા રોકે છે</b> (જેમ કે ટાંકીમાં કેટલું પાણી સમાય, યા લાકડું કેટલું વપરાયું).<br><br>
+                            <b>માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે 2 આકારો ભેગા થાય, ત્યારે <b>તેમના ઘનફળનો હંમેશા સીધો સરવાળો જ થાય!</b> (કોઈ બાદબાકી કે છૂપી સપાટી વિચારવાની નહિ, સાવ સીધો સરવાળો!).
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 1: એક ઘન પદાર્થ એ 1 સેમી ત્રિજ્યા ધરાવતા અર્ધગોલક ઉપર સમાન ત્રિજ્યાવાળો શંકુ ગોઠવીને બનાવાયો છે. જો શંકુની ઊંચાઈ એ તેની ત્રિજ્યા જેટલી હોય, તો આ ઘન પદાર્થનું ઘનફળ &pi; ના પદમાં શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 2 માર્ક્સનો માત્ર 1 મિનિટમાં ગણાઈ જતો સૌથી સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            રકમમાં સ્પષ્ટ લખ્યું છે કે <b>"&pi; ના પદમાં શોધો"</b>, એટલે ભૂલથી પણ &pi; ની કિંમત (22/7) મૂકવી નહિ! અને બધી જ કિંમત '1' હોવાથી ગણતરી રમત બની જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 60 130 A 50 50 0 0 0 160 130" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+                                <ellipse cx="110" cy="130" rx="50" ry="12" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                
+                                <path d="M 60 130 L 110 50 L 160 130 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2" opacity="0.9"/>
+                                
+                                <circle cx="110" cy="130" r="4" fill="#0f172a"/>
+                                
+                                <line x1="110" y1="130" x2="160" y2="130" stroke="#0f172a" stroke-width="2"/>
+                                <text x="125" y="125" font-size="12" font-weight="bold">r = 1</text>
+
+                                <line x1="110" y1="130" x2="110" y2="50" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                                <text x="115" y="90" font-size="12" font-weight="bold" fill="#ea580c">h = 1</text>
+
+                                <line x1="110" y1="130" x2="110" y2="180" stroke="#16a34a" stroke-width="2" stroke-dasharray="3,3"/>
+                                <text x="115" y="165" font-size="12" font-weight="bold" fill="#16a34a">r = 1</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા</b><br>
+                            • અર્ધગોલક અને શંકુની ત્રિજ્યા <b>r = 1 સેમી</b>.<br>
+                            • શંકુની ઊંચાઈ એ ત્રિજ્યા જેટલી જ છે, એટલે <b>h = 1 સેમી</b>.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ઘન પદાર્થનું કુલ ઘનફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કુલ ઘનફળ = શંકુનું ઘનફળ + અર્ધગોલકનું ઘનફળ</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>ઘનફળ = </b> [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &pi;r&sup2;h ] + [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>3</span></span> &pi;r&sup3; ]<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(હવે r અને h ની જગ્યાએ 1 મૂકતા)</i></span><br>
+                                <b>= </b> [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &pi;(1)&sup2;(1) ] + [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>3</span></span> &pi;(1)&sup3; ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(1 નો વર્ગ કે ઘન 1 જ થાય, એટલે ગુણાકારમાં 1 લખવાની જરૂર નથી)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1&pi;</span><span>3</span></span> + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2&pi;</span><span>3</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદ સમાન છે, એટલે અંશનો સીધો સરવાળો: 1&pi; + 2&pi; = 3&pi;)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3&pi;</span><span>3</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર-નીચે 3 ઉડી જશે)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>&pi; સેમી&sup3;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> આપેલ ઘન પદાર્થનું કુલ ઘનફળ <b style='color:#be123c;'>&pi; સેમી&sup3;</b> છે. (નોંધ: ઘનફળનો એકમ હંમેશા <b>સેમી&sup3;</b> કે <b>ઘન સેમી</b> લખવો).
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
