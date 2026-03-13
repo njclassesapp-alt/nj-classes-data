@@ -2127,9 +2127,140 @@
                         </div>
                     </div>
                     `
+                },
+                 
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 11: કારને બે વાઇપર છે, જે ક્યારેય એકબીજા પર આચ્છાદિત થતા (ભેગા થતા) નથી. દરેક વાઇપરના બ્લેડની લંબાઈ 25 સેમી છે અને તે 115&deg; ના ખૂણા સુધી ફરીને કાચ સાફ કરે છે. તો બંને બ્લેડના એક જ વખતના સફાઈથી સાફ થતા ભાગનું કુલ ક્ષેત્રફળ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો બે વૃત્તાંશ વાળો (Double Sector) દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            કારનો વાઇપર જ્યારે કાચ પર ફરે છે, ત્યારે તે એક <b>લઘુવૃત્તાંશ (Sector)</b> નો આકાર બનાવે છે. <br>
+                            અહીં <b>બે વાઇપર</b> છે, એટલે આપણે એક વૃત્તાંશનું ક્ષેત્રફળ શોધીને તેને <b>2 વડે ગુણી</b> નાખીશું (અથવા સૂત્રની આગળ જ 2 લગાવી દઈશું)!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="340" height="200" viewBox="0 0 340 200" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 80 180 L 170 140 A 100 100 0 0 0 20 100 Z" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="80" cy="180" r="4" fill="#0f172a"/>
+                                <line x1="80" y1="180" x2="170" y2="140" stroke="#0f172a" stroke-width="3"/> <path d="M 80 150 A 30 30 0 0 0 65 155" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="75" y="145" font-size="12" font-weight="bold" fill="#dc2626">115&deg;</text>
+                                <text x="110" y="175" font-size="12" font-weight="bold">25 cm</text>
+                                <text x="60" y="195" font-size="14" font-weight="bold" fill="#1d4ed8">વાઇપર 1</text>
+
+                                <path d="M 240 180 L 330 140 A 100 100 0 0 0 180 100 Z" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <circle cx="240" cy="180" r="4" fill="#0f172a"/>
+                                <line x1="240" y1="180" x2="330" y2="140" stroke="#0f172a" stroke-width="3"/> <path d="M 240 150 A 30 30 0 0 0 225 155" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="235" y="145" font-size="12" font-weight="bold" fill="#dc2626">115&deg;</text>
+                                <text x="270" y="175" font-size="12" font-weight="bold">25 cm</text>
+                                <text x="220" y="195" font-size="14" font-weight="bold" fill="#1d4ed8">વાઇપર 2</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: માહિતી ગોઠવવી</b><br>
+                            • વાઇપરની લંબાઈ (ત્રિજ્યા) <b>r = 25 સેમી</b><br>
+                            • કેન્દ્ર આગળનો ખૂણો <b>&theta; = 115&deg;</b><br>
+                            • વાઇપરની કુલ સંખ્યા = <b>2</b>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: બંને વાઇપર વડે સાફ થતું કુલ ક્ષેત્રફળ</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>કુલ ક્ષેત્રફળ = </b> <b style='color:#dc2626;'>2 &times;</b> [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360</span></span> &times; &pi;r&sup2; ]<br><br>
+
+                                <b>= </b> 2 &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>115</span><span>360</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 25 &times; 25 ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(115 અને 360 ને 5 વડે ભાગતા: 23 અને 72 આવશે)</i></span><br>
+                                <b>= </b> 2 &times; [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>23</b></span><span><b style='color:#dc2626;'>72</b></span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 625 ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(આગળનો 2 અને 72 ઉડાડતા નીચે 36 વધશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>23</span><span>36</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 625<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(22 અને 36 ને 2 વડે ભાગતા 11 અને 18 વધશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>23 &times; 11 &times; 625</span><span>18 &times; 7</span></span><br><br>
+
+                                <b>= <b style='color:#15803d; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>158125</span><span>126</span></span> સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> બંને વાઇપર દ્વારા એક વખતમાં સાફ થતો કુલ ભાગ <b><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>158125</span><span>126</span></span> સેમી&sup2;</b> છે. (આ જ ફાઇનલ જવાબ છે).
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 12: પાણીની નીચેના ખડકોથી જહાજને ચેતવણી આપવા માટે, એક દીવાદાંડી (Lighthouse) 16.5 કિમી અંતર સુધી 80&deg; વૃત્તાંશના ખૂણામાં લાલ રંગનો પ્રકાશ પાથરે છે. સમુદ્રના જેટલા વિસ્તારમાં જહાજને ચેતવણી અપાતી હોય તે શોધવા માટે ક્ષેત્રફળ શોધો. (&pi; = 3.14 લો)", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો પોઈન્ટ વાળી ગણતરી (દશાંશ) વાળો ખાસ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            જ્યારે દીવાદાંડીમાંથી પ્રકાશ નીકળે છે, ત્યારે તે સીધો નથી જતો પણ એક <b>લઘુવૃત્તાંશ</b> આકારે ફેલાય છે.<br>
+                            અહીં આપણે માત્ર લઘુવૃત્તાંશનું ક્ષેત્રફળ જ શોધવાનું છે, પણ <b>&pi; = 3.14</b> લેવાના છે એટલે પોઇન્ટ દૂર કરીને ગણતરી કરશો તો ભૂલ નહિ પડે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="10" y1="180" x2="290" y2="180" stroke="#0ea5e9" stroke-width="4"/>
+                                
+                                <rect x="30" y="80" width="20" height="100" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+                                <polygon points="25,80 55,80 40,50" fill="#0f172a"/>
+                                <circle cx="40" cy="70" r="5" fill="#fef08a"/> <path d="M 40 70 L 260 20 A 240 240 0 0 1 260 120 Z" fill="#fecaca" stroke="#ef4444" stroke-width="2" opacity="0.8"/>
+                                
+                                <line x1="40" y1="70" x2="260" y2="20" stroke="#dc2626" stroke-width="2"/>
+                                <line x1="40" y1="70" x2="260" y2="120" stroke="#dc2626" stroke-width="2"/>
+
+                                <path d="M 80 60 A 40 40 0 0 1 80 80" fill="none" stroke="#b91c1c" stroke-width="2"/>
+                                <text x="90" y="75" font-size="12" font-weight="bold" fill="#b91c1c">80&deg;</text>
+
+                                <text x="130" y="35" font-size="14" font-weight="bold" fill="#dc2626">r = 16.5 km</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માહિતી ગોઠવવી</b><br>
+                            • પ્રકાશનું અંતર (ત્રિજ્યા) <b>r = 16.5 કિમી</b><br>
+                            • કેન્દ્ર આગળનો ખૂણો <b>&theta; = 80&deg;</b><br>
+                            • <b>&pi; = 3.14</b> એટલે કે 314/100
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લઘુવૃત્તાંશનું ક્ષેત્રફળ અને ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360</span></span> &times; &pi;r&sup2;<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>80</span><span>360</span></span> &times; 3.14 &times; 16.5 &times; 16.5<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(80 અને 360 ને 40 વડે ભાગતા 2/9 વધશે. અને પોઈન્ટ દૂર કરીએ)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>2</b></span><span><b style='color:#dc2626;'>9</b></span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314</span><span>100</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>165</span><span>10</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>165</span><span>10</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(165 ને 3 વડે ભાગી શકાય: 165 / 3 = 55. એટલે 9 ના બંને 3 ઉડી જશે)</i></span><br>
+                                <b>= </b> 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>314</span><span>100</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>55</b></span><span>10</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><b style='color:#dc2626;'>55</b></span><span>10</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે ઉપરનો ગુણાકાર: 2 &times; 314 = 628, અને 55 &times; 55 = 3025. અને 628 &times; 3025 = 1899700)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1899700</span><span>10000</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદના 10000 માટે 4 પોઇન્ટ કાપતા)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>189.97 કિમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> સમુદ્રના <b>189.97 કિમી&sup2;</b> વિસ્તારમાં જહાજને લાલ પ્રકાશ દ્વારા ચેતવણી અપાતી હશે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
