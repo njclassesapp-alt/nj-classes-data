@@ -1988,6 +1988,145 @@
                         </div>
                     </div>
                     `
+                },
+                   
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 9: ચાંદીના તારથી 35 મીમી (mm) વ્યાસવાળું વર્તુળ આકારનું એક બ્રોચ (Brooch) બનાવેલું છે. આ તારનો ઉપયોગ વર્તુળના 10 સમાન વૃત્તાંશ બનાવે તેવા 5 વ્યાસ બનાવવામાં પણ થયો છે. તો: (i) જરૂરી ચાંદીના તારની કુલ લંબાઈ શોધો. (ii) બ્રોચના દરેક વૃત્તાંશનું ક્ષેત્રફળ શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો તારની લંબાઈ અને ક્ષેત્રફળ વાળો બમણો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            <b>તાર ક્યાં ક્યાં વપરાયો છે?</b><br>
+                            1. આખા વર્તુળની કિનારી બનાવવા (એટલે કે <b>પરિઘ = &pi;d</b>).<br>
+                            2. અંદરના <b>5 વ્યાસ</b> બનાવવા (એટલે કે 5 &times; 35).<br>
+                            આ બંનેનો સરવાળો કરો એટલે કુલ તાર મળી જાય! અને બીજા પ્રશ્નમાં, 10 સરખા ભાગ થાય છે એટલે <b>ખૂણો &theta; = 360&deg; / 10 = 36&deg;</b> થશે.
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="130" cy="130" r="100" fill="#f8fafc" stroke="#94a3b8" stroke-width="4"/>
+                                <circle cx="130" cy="130" r="4" fill="#0f172a"/>
+                                <text x="135" y="125" font-size="14" font-weight="bold">O</text>
+
+                                <line x1="30" y1="130" x2="230" y2="130" stroke="#94a3b8" stroke-width="2"/>
+                                <line x1="49" y1="71" x2="211" y2="189" stroke="#94a3b8" stroke-width="2"/>
+                                <line x1="99" y1="35" x2="161" y2="225" stroke="#94a3b8" stroke-width="2"/>
+                                <line x1="161" y1="35" x2="99" y2="225" stroke="#94a3b8" stroke-width="2"/>
+                                <line x1="211" y1="71" x2="49" y2="189" stroke="#94a3b8" stroke-width="2"/>
+
+                                <path d="M 130 130 L 230 130 A 100 100 0 0 0 211 71 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <path d="M 160 130 A 30 30 0 0 0 155 110" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="165" y="115" font-size="12" font-weight="bold" fill="#dc2626">36&deg;</text>
+
+                                <text x="25" y="145" font-size="12" font-weight="bold" fill="#1d4ed8">d = 35 mm</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: (i) જરૂરી ચાંદીના તારની કુલ લંબાઈ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં <b>વ્યાસ (d) = 35 મીમી</b> છે. તેથી ત્રિજ્યા <b>r = 35/2 મીમી</b> થાય.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>કુલ તાર = </b> વર્તુળનો પરિઘ + (5 &times; વ્યાસ ની લંબાઈ)<br><br>
+                                
+                                <b>પરિઘ = </b> &pi;d 
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 35<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(7 &times; 5 = 35 ઉડી જશે)</i></span><br>
+                                પરિઘ = 22 &times; 5 = <b style='color:#dc2626;'>110 મીમી</b><br><br>
+
+                                <b>5 વ્યાસની લંબાઈ = </b> 5 &times; 35 = <b style='color:#dc2626;'>175 મીમી</b><br><br>
+
+                                <b>કુલ લંબાઈ = </b> 110 + 175 = <b style='color:#1d4ed8; font-size:22px;'>285 મીમી</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 2: (ii) બ્રોચના દરેક વૃત્તાંશનું ક્ષેત્રફળ</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>વર્તુળના 10 સરખા ભાગ થયા છે. એટલે ખૂણો <b>&theta; = 360&deg; / 10 = 36&deg;</b> થશે.<br>
+                            ત્રિજ્યા r = 35/2 લેવી.</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360</span></span> &times; &pi;r&sup2;<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>36</span><span>360</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>35</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>35</span><span>2</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(36 વડે 360 ઉડાડતા નીચે 10 વધે. 7 વડે 35 ઉડાડતા ઉપર 5 વધે. 2 વડે 22 ઉડાડતા ઉપર 11 વધે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span><b style='color:#dc2626;'>10</b></span></span> &times; <b style='color:#dc2626;'>11</b> &times; <b style='color:#dc2626;'>5</b> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>35</span><span>2</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(5 અને 10 ઉડાડતા નીચે 2 વધશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11 &times; 35</span><span>2 &times; 2</span></span><br><br>
+
+                                <b>= <b style='color:#15803d; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #15803d; display:block; padding:0 3px;'>385</span><span>4</span></span> મીમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબો:</b><br>
+                                (i) કુલ તારની લંબાઈ = <b>285 મીમી</b><br>
+                                (ii) દરેક વૃત્તાંશનું ક્ષેત્રફળ = <b><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>385</span><span>4</span></span> મીમી&sup2;</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                 
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 10: એક છત્રીમાં સમાન અંતરે 8 તાડીઓ (Ribs) આવેલી છે. છત્રીને 45 સેમી ત્રિજ્યાવાળું સપાટ વર્તુળ ધારીને, બે ક્રમિક તાડીઓ વચ્ચેના ભાગનું ક્ષેત્રફળ શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો ખૂણો શોધીને સીધું ક્ષેત્રફળ કાઢવાનો મસ્ત દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            છત્રીને જ્યારે ઉપરથી જોઈએ, ત્યારે તે એક <b>ગોળ વર્તુળ</b> જેવી દેખાય. અહીં 8 તાડીઓ છે, એટલે વર્તુળના <b>8 એકસરખા ભાગ (વૃત્તાંશ)</b> થાય છે! <br>
+                            કોઈ લાંબુ સૂત્ર ન વાપરવું હોય તો આખા વર્તુળનું ક્ષેત્રફળ (&pi;r&sup2;) શોધીને તેને <b>સીધું 8 વડે ભાગી નાખો (1/8)</b>, તો પણ તમારો જવાબ સાચો જ આવશે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="130" cy="130" r="100" fill="#f0f9ff" stroke="#0f172a" stroke-width="3"/>
+                                
+                                <circle cx="130" cy="130" r="4" fill="#0f172a"/>
+                                <text x="115" y="125" font-size="14" font-weight="bold">O</text>
+
+                                <line x1="30" y1="130" x2="230" y2="130" stroke="#1d4ed8" stroke-width="2"/> <line x1="130" y1="30" x2="130" y2="230" stroke="#1d4ed8" stroke-width="2"/> <line x1="59" y1="59" x2="201" y2="201" stroke="#1d4ed8" stroke-width="2"/> <line x1="59" y1="201" x2="201" y2="59" stroke="#1d4ed8" stroke-width="2"/> <path d="M 130 130 L 230 130 A 100 100 0 0 0 201 59 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+
+                                <path d="M 160 130 A 30 30 0 0 0 151 109" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="165" y="115" font-size="12" font-weight="bold" fill="#dc2626">45&deg;</text>
+
+                                <text x="175" y="145" font-size="12" font-weight="bold" fill="#16a34a">r = 45 cm</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: ત્રિજ્યા અને ખૂણો નક્કી કરવો</b><br>
+                            • ત્રિજ્યા <b>r = 45 સેમી</b><br>
+                            • છત્રીના 8 સરખા ભાગ થાય છે. તેથી એક ભાગનો ખૂણો <b>&theta; = 360&deg; / 8 = 45&deg;</b> થશે.<br>
+                            <span style='color:#0f172a; font-size:14px;'>(બે ક્રમિક તાડીઓ વચ્ચેનો ભાગ એટલે કે એક લઘુવૃત્તાંશ).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: લઘુવૃત્તાંશનું ક્ષેત્રફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>બે તાડીઓ વચ્ચેનું ક્ષેત્રફળ = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360</span></span> &times; &pi;r&sup2;<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>45</span><span>360</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 45 &times; 45<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(45 વડે 360 ઉડાડતા નીચે 8 વધે. કારણ કે 45 &times; 8 = 360)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span><b style='color:#dc2626;'>8</b></span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 45 &times; 45<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(8 અને 22 ને 2 વડે ઉડાડતા 4 અને 11 વધશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11 &times; 45 &times; 45</span><span>4 &times; 7</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપરનો ગુણાકાર: 45 &times; 45 = 2025, અને 2025 &times; 11 = 22275. નીચે: 4 &times; 7 = 28)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>22275</span><span>28</span></span> સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> બે ક્રમિક તાડીઓ વચ્ચેના ભાગનું ક્ષેત્રફળ <b><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>22275</span><span>28</span></span> સેમી&sup2;</b> છે. (આ જ ફાઇનલ જવાબ છે, પોઈન્ટમાં ફેરવવાની જરૂર નથી).
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -1995,23 +2134,7 @@
             
         
              
-            
-        
-             
-            
-        
-             
-            
-        
-             
-            
-        
-             
-            
-        
-             
-            
-        
+     
   
                     
    };         
