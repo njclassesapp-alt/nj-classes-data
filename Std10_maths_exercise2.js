@@ -3382,9 +3382,184 @@
                         </div>
                     </div>
                     `
+                },
+                 
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 6: એક નક્કર લોખંડના થાંભલામાં 220 સેમી ઊંચાઈ અને 24 સેમી વ્યાસવાળા નળાકાર ઉપર 60 સેમી ઊંચાઈ અને 8 સેમી ત્રિજ્યાવાળો બીજો નળાકાર મૂકવામાં આવ્યો છે. થાંભલાનું દળ શોધો. (આપેલ છે કે 1 સેમી&sup3; લોખંડનું દળ આશરે 8 ગ્રામ છે). (&pi; = 3.14 લો)", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો બે નળાકારના ઘનફળ અને વજનની ગણતરી વાળો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            કોઈપણ પદાર્થનું વજન (દળ) શોધવું હોય, તો પહેલા તેનું <b>કુલ ઘનફળ (Volume)</b> શોધવું પડે.<br>
+                            અહીં મોટા નળાકારની ઉપર નાનો નળાકાર મૂકેલો છે. એટલે બંનેના ઘનફળનો <b>સરવાળો</b> કરીશું. છેલ્લે જે જવાબ આવે તેને 8 વડે ગુણીને 1000 વડે ભાગીશું એટલે જવાબ <b>કિલોગ્રામ (kg)</b> માં મળી જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="80" y="100" width="120" height="130" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+                                <ellipse cx="140" cy="230" rx="60" ry="15" fill="#64748b" stroke="#0f172a" stroke-width="2"/>
+                                <ellipse cx="140" cy="100" rx="60" ry="15" fill="#cbd5e1" stroke="#0f172a" stroke-width="2"/>
+
+                                <rect x="110" y="40" width="60" height="60" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+                                <ellipse cx="140" cy="40" rx="30" ry="8" fill="#cbd5e1" stroke="#0f172a" stroke-width="2"/>
+
+                                <line x1="140" y1="230" x2="200" y2="230" stroke="#0f172a" stroke-width="2"/>
+                                <text x="150" y="225" font-size="12" font-weight="bold">R=12</text>
+                                
+                                <line x1="220" y1="100" x2="220" y2="230" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="225" y="170" font-size="14" font-weight="bold" fill="#1d4ed8">H=220</text>
+
+                                <line x1="140" y1="40" x2="170" y2="40" stroke="#0f172a" stroke-width="2"/>
+                                <text x="145" y="35" font-size="10" font-weight="bold">r=8</text>
+                                
+                                <line x1="190" y1="40" x2="190" y2="100" stroke="#ea580c" stroke-width="2"/>
+                                <text x="195" y="75" font-size="12" font-weight="bold" fill="#ea580c">h=60</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ છૂટા પાડવા</b><br>
+                            • <b>મોટો નળાકાર:</b> વ્યાસ = 24 સેમી $\\Rightarrow$ ત્રિજ્યા <b>R = 12 સેમી</b> અને ઊંચાઈ <b>H = 220 સેમી</b>.<br>
+                            • <b>નાનો નળાકાર:</b> ત્રિજ્યા <b>r = 8 સેમી</b> અને ઊંચાઈ <b>h = 60 સેમી</b>.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: થાંભલાનું કુલ ઘનફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>કુલ ઘનફળ = મોટા નળાકારનું ઘનફળ + નાના નળાકારનું ઘનફળ</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>V = &pi;R&sup2;H + &pi;r&sup2;h</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેમાંથી <b>&pi;</b> સામાન્ય કાઢતા ગણતરી સહેલી થશે)</i></span><br>
+                                <b>= &pi; [ R&sup2;H + r&sup2;h ]</b><br><br>
+                                
+                                <b>= </b> 3.14 &times; [ (12)&sup2;(220) + (8)&sup2;(60) ]<br><br>
+
+                                <b>= </b> 3.14 &times; [ (144 &times; 220) + (64 &times; 60) ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગુણાકાર કરતા: 144 &times; 22 = 3168 અને પાછળ મીંડું. 64 &times; 6 = 384 અને પાછળ મીંડું)</i></span><br>
+                                <b>= </b> 3.14 &times; [ 31680 + 3840 ]<br><br>
+
+                                <b>= </b> 3.14 &times; 35520<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગુણાકાર: 314 &times; 3552 = 1115328, અને 1 પોઈન્ટ કાપતા)</i></span><br>
+                                <b>= <b style='color:#1d4ed8; font-size:20px;'>111532.8 સેમી&sup3;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: થાંભલાનું દળ (વજન) શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>1 સેમી&sup3; લોખંડનું દળ = 8 ગ્રામ<br>
+                            તેથી કુલ દળ = 111532.8 &times; 8 ગ્રામ</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>દળ = </b> 111532.8 &times; 8<br>
+                                <b>= 892262.4 ગ્રામ</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ગ્રામ ને કિલોગ્રામ (kg) માં ફેરવવા 1000 વડે ભાગતા, એટલે કે 3 પોઈન્ટ ડાબી બાજુ ખસેડતા)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>892.26 કિગ્રા (kg)</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> લોખંડના થાંભલાનું કુલ દળ આશરે <b>892.26 કિગ્રા</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                 
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 7: 60 સેમી ત્રિજ્યાવાળા અર્ધગોલક પર સ્થિત 120 સેમી ઊંચાઈ અને 60 સેમી ત્રિજ્યાવાળા શંકુના નક્કર પદાર્થને પાણીથી સંપૂર્ણ ભરેલા એક લંબવૃત્તીય નળાકારમાં તેના તળિયાને સ્પર્શે તે રીતે સીધો મૂકવામાં આવે છે. જો નળાકારની ત્રિજ્યા 60 સેમી અને ઊંચાઈ 180 સેમી હોય, તો નળાકારમાં બાકી રહેલા પાણીનું ઘનફળ શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો 3 આકારોના ઘનફળની બાદબાકી વાળો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની જાદુઈ ટ્રીક:</b><br>
+                            જ્યારે આપણે પાણી ભરેલા નળાકારમાં કોઈ પદાર્થ નાખીએ, ત્યારે પદાર્થ જેટલી જગ્યા રોકે એટલું પાણી બહાર ઢોળાઈ જાય! (આર્કિમિડીઝનો નિયમ).<br>
+                            <b>બાકી રહેલું પાણી = નળાકારનું ઘનફળ - (અંદર મૂકેલા પદાર્થનું ઘનફળ)</b><br>
+                            અહીં <b>બધા જ આકારોની ત્રિજ્યા (r) 60 સેમી સમાન જ છે!</b> એટલે આપણે <b>&pi;r&sup2;</b> સામાન્ય કાઢીને ગણતરી બહુ જ નાની કરી દઈશું.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="300" height="260" viewBox="0 0 300 260" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="90" y="40" width="120" height="180" fill="#bae6fd" stroke="#0284c7" stroke-width="2"/>
+                                <ellipse cx="150" cy="220" rx="60" ry="15" fill="#7dd3fc" stroke="#0284c7" stroke-width="2"/>
+                                <ellipse cx="150" cy="40" rx="60" ry="15" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+
+                                <path d="M 90 160 A 60 60 0 0 0 210 160" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <path d="M 90 160 L 150 40 L 210 160 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+
+                                <line x1="150" y1="160" x2="210" y2="160" stroke="#0f172a" stroke-width="2" stroke-dasharray="3,3"/>
+                                <text x="160" y="155" font-size="12" font-weight="bold">r=60</text>
+
+                                <line x1="150" y1="40" x2="150" y2="160" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                                <text x="100" y="110" font-size="12" font-weight="bold" fill="#ea580c">h=120</text>
+
+                                <line x1="230" y1="40" x2="230" y2="220" stroke="#0284c7" stroke-width="2"/>
+                                <text x="240" y="135" font-size="14" font-weight="bold" fill="#0284c7">H=180</text>
+
+                                <path d="M 90 40 Q 60 70 70 120" fill="none" stroke="#0284c7" stroke-width="3" stroke-dasharray="5,5"/>
+                                <path d="M 210 40 Q 240 70 230 120" fill="none" stroke="#0284c7" stroke-width="3" stroke-dasharray="5,5"/>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા</b><br>
+                            અહીં બધા આકારોની ત્રિજ્યા સમાન છે: <b>r = 60 સેમી</b>.<br>
+                            • નળાકારની ઊંચાઈ <b>H = 180 સેમી</b><br>
+                            • શંકુની ઊંચાઈ <b>h = 120 સેમી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>(નોંધ: શંકુની ઊંચાઈ 120 + અર્ધગોલકની ત્રિજ્યા 60 = કુલ 180 સેમી થાય છે, જે બરાબર નળાકારની ઊંચાઈ જેટલી જ છે. એટલે પદાર્થ બરાબર ફિટ બેસે છે).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બાકી રહેલા પાણીનું ઘનફળ (માસ્ટર ઇક્વેશન)</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>બાકી પાણી = નળાકારનું ઘનફળ - [ શંકુનું ઘનફળ + અર્ધગોલકનું ઘનફળ ]</b><br><br>
+
+                                <b>V = &pi;r&sup2;H - [ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> &pi;r&sup2;h + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>3</span></span> &pi;r&sup3; ]</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ત્રણેય પદોમાંથી <b>&pi;r&sup2;</b> સામાન્ય કાઢતા ગણતરી રમત બની જશે!)</i></span><br>
+                                <b>V = &pi;r&sup2; [ H - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span>h - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>3</span></span>r ]</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે કિંમતો મૂકીએ: r=60, H=180, h=120)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 60 &times; 60 &times; [ 180 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span>(120) - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>3</span></span>(60) ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસની અંદર: 3 વડે 120 ને ભાગતા 40 આવે. અને 3 વડે 60 ને ભાગતા 20 આવે, જેનો 2 સાથે ગુણાકાર 40 થાય)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 3600 &times; [ 180 - 40 - 40 ]<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 3600 &times; [ 100 ]<br><br>
+
+                                <b>= <b style='color:#1d4ed8;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>7920000</span><span>7</span></span> સેમી&sup3;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: ઘનફળને મીટર&sup3; (m&sup3;) માં ફેરવવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>જ્યારે જવાબ લાખોમાં આવે, ત્યારે તેને મીટરમાં ફેરવી દેવો સારો. <br>
+                            1 મીટર = 100 સેમી. તેથી 1 મીટર&sup3; = 100 &times; 100 &times; 100 = 10,00,000 સેમી&sup3; (એટલે કે 6 મીંડા વડે ભાગવું પડે).</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>V = </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7920000</span><span>7 &times; 1000000</span></span> મીટર&sup3;<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(4 મીંડા ઉડી જશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>792</span><span>700</span></span> મીટર&sup3;<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(792 નો 7 વડે ભાગાકાર કરતા 113.14 આવે, અને છેદના 100 માટે 2 પોઈન્ટ કાપતા)</i></span><br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>1.131 મીટર&sup3; (આશરે)</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> નળાકારમાં બાકી રહેલા પાણીનું ઘનફળ આશરે <b style='color:#be123c;'>1.13 મીટર&sup3;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
+             
+            
+        
              
             
         
