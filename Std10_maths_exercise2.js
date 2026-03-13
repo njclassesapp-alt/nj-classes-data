@@ -3551,9 +3551,95 @@
                         </div>
                     </div>
                     `
+                },
+            
+                { 
+                    question: "🌟 સ્વા. 12.2 પ્રશ્ન 8: એક ગોળાકાર કાચના વાસણની ઉપરનો ભાગ નળાકાર છે. તે નળાકારની ઊંચાઈ 8 સેમી અને વ્યાસ 2 સેમી છે. ગોળાકાર ભાગનો વ્યાસ 8.5 સેમી છે. એક બાળક માહિતી પ્રાપ્ત કરે છે કે તેમાં ભરેલા પાણીનું ઘનફળ 345 સેમી&sup3; છે. બાળકનો જવાબ સાચો છે કે નહિ તે ચકાસો. (&pi; = 3.14 લો).", 
+                    question_desc: "2024 બોર્ડ માટે 4 માર્ક્સનો દશાંશની ગણતરી વાળો ચેપ્ટરનો છેલ્લો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            આ વાસણ <b>"રાઉન્ડ બોટમ ફ્લાસ્ક (Round Bottom Flask)"</b> જેવું છે. <br>
+                            કુલ ઘનફળ = નળાકારનું ઘનફળ + ગોલકનું ઘનફળ.<br>
+                            <b>શોર્ટકટ ટ્રીક:</b> ગોલકનો વ્યાસ 8.5 સેમી છે. 8.5 ને પોઈન્ટમાં ગણવાને બદલે <b>17/2</b> લખીશું, અને ત્રિજ્યા <b>17/4</b> લખીશું! 17 નો ઘન (4913) યાદ હોય તો દાખલો ચપટીમાં ગણાઈ જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="280" viewBox="0 0 260 280" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="130" cy="180" r="70" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <rect x="110" y="40" width="40" height="80" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <line x1="112" y1="120" x2="148" y2="120" stroke="#bae6fd" stroke-width="4"/>
+                                
+                                <ellipse cx="130" cy="40" rx="20" ry="6" fill="#e0f2fe" stroke="#1d4ed8" stroke-width="2"/>
+
+                                <circle cx="130" cy="180" r="4" fill="#0f172a"/>
+                                <line x1="60" y1="180" x2="200" y2="180" stroke="#dc2626" stroke-width="2"/>
+                                <text x="105" y="175" font-size="14" font-weight="bold" fill="#dc2626">D = 8.5</text>
+
+                                <line x1="110" y1="20" x2="150" y2="20" stroke="#0f172a" stroke-width="1.5"/>
+                                <polyline points="110,15 110,25" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <polyline points="150,15 150,25" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                                <text x="115" y="12" font-size="12" font-weight="bold">d = 2</text>
+
+                                <line x1="170" y1="40" x2="170" y2="120" stroke="#ea580c" stroke-width="2"/>
+                                <text x="180" y="85" font-size="14" font-weight="bold" fill="#ea580c">h = 8</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા</b><br>
+                            • <b>નળાકાર માટે:</b> ઊંચાઈ h = 8 સેમી, વ્યાસ = 2 સેમી $\\Rightarrow$ <b>ત્રિજ્યા r = 1 સેમી</b>.<br>
+                            • <b>ગોલક માટે:</b> વ્યાસ = 8.5 સેમી (એટલે કે 85/10 અથવા 17/2).<br>
+                            &nbsp;&nbsp;&nbsp;તેથી <b>ત્રિજ્યા R = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>17</span><span>4</span></span> સેમી</b> (અથવા 4.25 સેમી).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બંનેનું અલગ-અલગ ઘનફળ શોધવું</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px; margin-bottom:10px;'>
+                                <b>(A) નળાકારનું ઘનફળ = &pi;r&sup2;h</b><br>
+                                = 3.14 &times; (1)&sup2; &times; 8<br>
+                                = 3.14 &times; 8<br>
+                                <b>= <b style='color:#1d4ed8;'>25.12 સેમી&sup3;</b></b>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>(B) ગોલકનું ઘનફળ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>3</span></span> &pi;R&sup3;</b><br><br>
+                                
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>3</span></span> &times; 3.14 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>17</span><span>4</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>17</span><span>4</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>17</span><span>4</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(એક 4 ઉપર-નીચે ઉડી જશે. અને 17 નો ઘન 17 &times; 17 &times; 17 = 4913 થાય)</i></span><br>
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3.14 &times; 4913</span><span>3 &times; 4 &times; 4</span></span><br><br>
+
+                                = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15426.82</span><span>48</span></span><br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(15426.82 નો 48 વડે ભાગાકાર કરતા)</i></span><br>
+                                <b>= <b style='color:#ea580c;'>321.39 સેમી&sup3; (આશરે)</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: કુલ ઘનફળ અને બાળકના જવાબની ચકાસણી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>કુલ ઘનફળ = </b> નળાકારનું ઘનફળ + ગોલકનું ઘનફળ<br>
+                                = 25.12 + 321.39<br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>346.51 સેમી&sup3;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> આપણી ગણતરી મુજબ વાસણનું ઘનફળ <b style='color:#be123c;'>346.51 સેમી&sup3;</b> આવે છે.<br> 
+                                પરંતુ બાળકે 345 સેમી&sup3; જવાબ શોધ્યો હતો. તેથી <b>બાળકનો જવાબ સાચો નથી (ખોટો છે).</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
              
             
         
