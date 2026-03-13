@@ -398,9 +398,417 @@ var njMathsExamples = {
                     </div>
                 </div>
                 `
-            }
-        ]
-    },
+            },
+                    
+        
+                {
+                    question: "🎯 માસ્ટર ચાવી: 'આદેશની રીત' (Substitution Method) એટલે શું? દાખલો કઈ રીતે શરૂ કરવો?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (સાવ દેશી ભાષામાં):</b><br>
+                            આદેશની રીત એટલે <b>"એકની જગ્યાએ બીજાને બેસાડવો"</b> (Substitute કરવું).<br><br>
+                            <b>માસ્ટર ટ્રીક (Golden Rule):</b><br>
+                            દાખલો શરૂ કરતી વખતે બંને સમીકરણ ધ્યાનથી જુઓ. જે ચલ (x કે y) ની આગળ <b>કોઈ આંકડો ન હોય (એટલે કે 1 હોય)</b>, તેને જ પકડો અને તેને સૂત્રનો કર્તા બનાવો! તેનાથી ગણતરીમાં અંશ-છેદ નહિ આવે અને દાખલો સાવ સહેલો થઈ જશે.
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 4: નીચેના સુરેખ સમીકરણયુગ્મનો ઉકેલ આદેશની રીતથી મેળવો : 7x - 15y = 2 અને x + 2y = 3.", 
+                    question_desc: "બોર્ડની પરીક્ષા માટે આદેશની રીતનો પાયાનો અને અપૂર્ણાંક વાળા જવાબનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સહેલું સમીકરણ પસંદ કરવું</b><br>
+                            આપેલા સમીકરણો:<br>
+                            7x - 15y = 2 &nbsp;&nbsp;&nbsp;... (સમીકરણ 1)<br>
+                            x + 2y = 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... (સમીકરણ 2)<br><br>
+                            <span style='color:#0f172a; font-size:14px;'><i>(અહીં સમીકરણ 2 માં x એકલો છે, એટલે તેને કર્તા બનાવવો સહેલો પડશે).</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                સમીકરણ (2) પરથી:<br>
+                                <b style='color:#1d4ed8; font-size:18px;'>x = 3 - 2y</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 3)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: આદેશ લેવો (કિંમત મૂકવી)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>હવે આ <b>x ની કિંમત સમીકરણ (1) માં</b> મૂકો. (યાદ રાખો: જેમાંથી કિંમત બનાવી હોય, તેમાં પાછી ન મુકાય!)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.0; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                7(<b style='color:#dc2626;'>3 - 2y</b>) - 15y = 2<br><br>
+                                
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(7 નો કૌંસમાં ગુણાકાર કરતા)</i></span><br>
+                                21 - 14y - 15y = 2<br>
+                                21 - 29y = 2<br><br>
+
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(-29y ને પેલી બાજુ લઈ જઈએ અને 2 ને આ બાજુ લાવીએ)</i></span><br>
+                                21 - 2 = 29y<br>
+                                19 = 29y<br>
+                                <b style='color:#ea580c;'>y = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid #ea580c; display:block; padding:0 3px;'>19</span><span>29</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: x ની કિંમત શોધવી</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>y ની આ કિંમત સમીકરણ (3) માં મૂકતા:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                x = 3 - 2y<br>
+                                x = 3 - 2<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>19</span><span>29</span></span><span style='font-size:24px;'>)</span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(2 નો 19 સાથે ગુણાકાર થશે)</i></span><br>
+                                x = 3 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>38</span><span>29</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(લ.સા.અ. લેવા 29 નો 3 સાથે ચોકડી ગુણાકાર કરતા: 29 &times; 3 = 87)</i></span><br>
+                                x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>87 - 38</span><span>29</span></span><br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>49</span><span>29</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> સમીકરણયુગ્મનો ઉકેલ <b>x = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:12px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>49</span><span>29</span></span></b> અને <b>y = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:12px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>19</span><span>29</span></span></b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+        
+                { 
+                    question: "🌟 ઉદાહરણ 5: આદેશની રીતનો ઉપયોગ કરીને ઉકેલ શોધો: 2 પેન્સિલ અને 3 રબરની કિંમત ₹9 છે, તથા 4 પેન્સિલ અને 6 રબરની કિંમત ₹18 છે. એક પેન્સિલ અને એક રબરની કિંમત શોધો.", 
+                    question_desc: "જ્યારે બંને સમીકરણો એક સમાન હોય (સંપાતી રેખાઓ - અનંત ઉકેલ) તેનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 ખાસ નોંધ:</b><br>
+                            આ દાખલામાં ગણતરી કરતી વખતે છેલ્લે ચલ (x કે y) ઉડી જશે! આવું કેમ થાય છે, તે આપણે આકૃતિથી સમજીશું.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            ધારો કે 1 પેન્સિલની કિંમત = <b>x ₹</b><br>
+                            ધારો કે 1 રબરની કિંમત = <b>y ₹</b><br><br>
+                            <span style='color:#0f172a; font-size:14px;'>શરત 1:</span> <b>2x + 3y = 9</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 1)<br>
+                            <span style='color:#0f172a; font-size:14px;'>શરત 2:</span> <b>4x + 6y = 18</b> &nbsp;&nbsp;... (સમીકરણ 2)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: આદેશની રીતથી ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                સમીકરણ (1) પરથી 2x ને કર્તા બનાવીએ:<br>
+                                2x = 9 - 3y<br>
+                                <b style='color:#1d4ed8;'>x = <span style='display:inline-block; vertical-align:middle; text-align:center; margin:0 3px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9 - 3y</span><span>2</span></span></b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 3)<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(હવે આ x ની કિંમત સમીકરણ 2 માં મૂકીએ)</i></span><br>
+                                4<span style='font-size:24px;'>(</span><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9 - 3y</span><span>2</span></span><span style='font-size:24px;'>)</span> + 6y = 18<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(4 અને છેદમાં રહેલા 2 નો છેદ ઉડતા, 2 વધશે)</i></span><br>
+                                2(9 - 3y) + 6y = 18<br>
+                                18 - 6y + 6y = 18<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(-6y અને +6y ઉડી જશે)</i></span><br>
+                                <b style='color:#dc2626; font-size:22px;'>18 = 18</b>
+                            </div>
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <b style='color:#0f172a; font-size:14px;'>આવું કેમ થયું? આકૃતિમાં જુઓ:</b><br><br>
+                            <svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="170" x2="250" y2="170" stroke="#0f172a" stroke-width="2"/> <line x1="40" y1="20" x2="40" y2="190" stroke="#0f172a" stroke-width="2"/> <text x="240" y="160" font-size="12" font-weight="bold">X</text>
+                                <text x="25" y="30" font-size="12" font-weight="bold">Y</text>
+
+                                <line x1="40" y1="80" x2="220" y2="140" stroke="#1d4ed8" stroke-width="4"/>
+                                <text x="180" y="125" font-size="12" font-weight="bold" fill="#1d4ed8">2x + 3y = 9</text>
+
+                                <line x1="40" y1="80" x2="220" y2="140" stroke="#dc2626" stroke-width="2" stroke-dasharray="8,8"/>
+                                <text x="60" y="70" font-size="12" font-weight="bold" fill="#dc2626">4x + 6y = 18</text>
+
+                                <text x="70" y="190" font-size="12" font-weight="bold" fill="#16a34a">સંપાતી રેખાઓ (એકની ઉપર એક)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સમજૂતી અને અંતિમ જવાબ:</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં આપણને <b>18 = 18</b> એવું સત્ય વિધાન મળ્યું, પણ કોઈ ચલ (x કે y) બચ્યો નથી. <br>
+                            આનો અર્થ એ છે કે સમીકરણ 1 અને 2 બંને <b>એક જ રેખા દર્શાવે છે (સંપાતી રેખાઓ)</b>.<br>
+                            તેથી, આ સમીકરણયુગ્મને <b>અસંખ્ય (અનંત) ઉકેલ</b> છે. આપણે પેન્સિલ અને રબરની કોઈ ચોક્કસ એક કિંમત ન શોધી શકીએ.</span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 6: બે રેલવેના પાટાઓ સમીકરણો x + 2y - 4 = 0 અને 2x + 4y - 12 = 0 દ્વારા દર્શાવેલા છે. શું આ પાટાઓ એકબીજાને છેદશે?", 
+                    question_desc: "જ્યારે ઉકેલ શક્ય ન હોય (સમાંતર રેખાઓ) તેનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો અને આદેશ</b><br>
+                            x + 2y = 4 &nbsp;&nbsp;&nbsp;... (સમીકરણ 1)<br>
+                            2x + 4y = 12 &nbsp;&nbsp;... (સમીકરણ 2)<br><br>
+                            <span style='color:#0f172a; font-size:14px;'><i>(સમીકરણ 1 પરથી x ને કર્તા બનાવતા સહેલું પડશે)</i></span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8;'>x = 4 - 2y</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 3)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: આદેશની રીતથી ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(આ x ની કિંમત સમીકરણ 2 માં મૂકીએ)</i></span><br>
+                                2(<b style='color:#dc2626;'>4 - 2y</b>) + 4y = 12<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(2 નો અંદર ગુણાકાર કરતા)</i></span><br>
+                                8 - 4y + 4y = 12<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(-4y અને +4y ઉડી જશે)</i></span><br>
+                                <b style='color:#dc2626; font-size:22px;'>8 = 12</b>
+                            </div>
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <b style='color:#0f172a; font-size:14px;'>આવું કેમ થયું? આકૃતિમાં જુઓ:</b><br><br>
+                            <svg width="260" height="200" viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="170" x2="250" y2="170" stroke="#0f172a" stroke-width="2"/> <line x1="40" y1="20" x2="40" y2="190" stroke="#0f172a" stroke-width="2"/> <line x1="40" y1="100" x2="200" y2="20" stroke="#1d4ed8" stroke-width="3"/>
+                                <text x="180" y="15" font-size="10" font-weight="bold" fill="#1d4ed8">x + 2y = 4</text>
+
+                                <line x1="40" y1="150" x2="200" y2="70" stroke="#ea580c" stroke-width="3"/>
+                                <text x="205" y="80" font-size="10" font-weight="bold" fill="#ea580c">2x + 4y = 12</text>
+
+                                <line x1="55" y1="117" x2="70" y2="110" stroke="#64748b" stroke-width="2"/>
+                                <line x1="85" y1="102" x2="100" y2="95" stroke="#64748b" stroke-width="2"/>
+                                <line x1="115" y1="87" x2="130" y2="80" stroke="#64748b" stroke-width="2"/>
+                                <line x1="145" y1="72" x2="160" y2="65" stroke="#64748b" stroke-width="2"/>
+
+                                <text x="60" y="190" font-size="12" font-weight="bold" fill="#dc2626">સમાંતર રેખાઓ (ક્યારેય નહિ છેદે)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સમજૂતી અને અંતિમ જવાબ:</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>અહીં આપણને <b>8 = 12</b> મળ્યું. શું આંતરરાષ્ટ્રીય ગણિતમાં ક્યારેય 8 અને 12 સરખા હોય? ના! આ એક <b>અસત્ય વિધાન</b> છે.<br>
+                            આનો અર્થ એ છે કે આ સમીકરણયુગ્મનો <b>કોઈ ઉકેલ નથી</b>. ગ્રાફમાં આ રેખાઓ એકબીજાને <b>સમાંતર</b> ચાલે છે.<br>
+                            તેથી, <b>રેલવેના આ પાટાઓ એકબીજાને ક્યારેય છેદશે નહિ!</b></span>
+                        </div>
+                    </div>
+                    `
+                },
+                    
+    
+                {
+                    question: "🎯 માસ્ટર ચાવી: 'લોપની રીત' (Elimination Method) એટલે શું? તેને કઈ રીતે ગણવી?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (સાવ દેશી ભાષામાં):</b><br>
+                            'લોપ' થવો એટલે <b>'ગાયબ થઈ જવું'</b> અથવા ઉડી જવું. <br>
+                            આ રીતમાં આપણે બેમાંથી કોઈ એક ચલ (x અથવા y) ને ગાયબ કરવાનો હોય છે.<br><br>
+                            <b>માસ્ટર ટ્રીક (3 સિમ્પલ સ્ટેપ):</b><br>
+                            1. જેનો લોપ કરવો હોય (ધારો કે y), તેના <b>સહગુણકો (આગળના આંકડા) સરખા કરો</b>. (સમીકરણ 1 ને સમી. 2 ના આંકડા વડે અને સમી. 2 ને સમી. 1 ના આંકડા વડે ગુણો).<br>
+                            2. જો નિશાનીઓ અલગ-અલગ (+ અને -) હોય તો સીધો <b>સરવાળો</b> કરો. જો નિશાનીઓ સરખી હોય, તો <b>બાદબાકી</b> કરો (નીચેના સમીકરણની નિશાની બદલો).<br>
+                            3. એક ચલ ઉડી જશે અને બીજાનો જવાબ સીધો મળી જશે!
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 ઉદાહરણ 7: લોપની રીતનો ઉપયોગ કરો: બે વ્યક્તિની માસિક આવકનો ગુણોત્તર 9:7 છે અને તેમના માસિક ખર્ચનો ગુણોત્તર 4:3 છે. જો દરેક વ્યક્તિ માસિક ₹2000 ની બચત કરતી હોય, તો તેમની માસિક આવક શોધો.", 
+                    question_desc: "બોર્ડ માટે 3 માર્ક્સનો આવક અને ખર્ચ વાળો મોસ્ટ IMP વ્યાવહારિક દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            આવકમાંથી ખર્ચ બાદ કરીએ એટલે બચત મળે! <b>(આવક - ખર્ચ = બચત)</b><br>
+                            આવકના ગુણોત્તર માટે આપણે <b>'x'</b> ધારીશું અને ખર્ચના ગુણોત્તર માટે આપણે <b>'y'</b> ધારીશું.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="320" height="150" viewBox="0 0 320 150" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="20" y="20" width="120" height="110" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="35" y="45" font-size="14" font-weight="bold" fill="#1d4ed8">વ્યક્તિ 1</text>
+                                <text x="35" y="70" font-size="12" font-weight="bold">આવક: 9x</text>
+                                <text x="35" y="90" font-size="12" font-weight="bold" fill="#dc2626">ખર્ચ: -4y</text>
+                                <line x1="30" y1="100" x2="130" y2="100" stroke="#0f172a" stroke-width="1"/>
+                                <text x="35" y="120" font-size="12" font-weight="bold" fill="#16a34a">બચત: 2000</text>
+
+                                <text x="150" y="80" font-size="16" font-weight="bold" fill="#64748b">VS</text>
+
+                                <rect x="180" y="20" width="120" height="110" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+                                <text x="195" y="45" font-size="14" font-weight="bold" fill="#dc2626">વ્યક્તિ 2</text>
+                                <text x="195" y="70" font-size="12" font-weight="bold">આવક: 7x</text>
+                                <text x="195" y="90" font-size="12" font-weight="bold" fill="#dc2626">ખર્ચ: -3y</text>
+                                <line x1="190" y1="100" x2="290" y2="100" stroke="#0f172a" stroke-width="1"/>
+                                <text x="195" y="120" font-size="12" font-weight="bold" fill="#16a34a">બચત: 2000</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો બનાવવા</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>ધારો કે બંને વ્યક્તિની માસિક આવક અનુક્રમે <b>9x અને 7x</b> છે.<br>
+                            અને તેમનો માસિક ખર્ચ અનુક્રમે <b>4y અને 3y</b> છે.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(વ્યક્તિ 1 માટે: આવક - ખર્ચ = બચત)</i></span><br>
+                                <b>9x - 4y = 2000</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 1)<br><br>
+                                
+                                <span style='color:#047857; font-size:14px;'><i>(વ્યક્તિ 2 માટે: આવક - ખર્ચ = બચત)</i></span><br>
+                                <b>7x - 3y = 2000</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 2)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સહગુણકો સરખા કરવા (લોપની તૈયારી)</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>આપણે <b>'y'</b> નો લોપ કરવો છે. સમી. 1 માં y નો સહગુણક 4 છે અને સમી. 2 માં 3 છે.<br>
+                            તેથી <b>સમીકરણ 1 ને 3 વડે</b> અને <b>સમીકરણ 2 ને 4 વડે</b> ગુણીશું. (ક્રોસ ગુણાકાર)</span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:1.8; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <span style='color:#0369a1;'>સમી. 1 ને 3 વડે ગુણતા:</span> 3(9x - 4y) = 3(2000)<br>
+                                <b>27x - 12y = 6000</b> &nbsp;&nbsp;&nbsp;... (નવું સમીકરણ 3)<br><br>
+
+                                <span style='color:#0369a1;'>સમી. 2 ને 4 વડે ગુણતા:</span> 4(7x - 3y) = 4(2000)<br>
+                                <b>28x - 12y = 8000</b> &nbsp;&nbsp;&nbsp;... (નવું સમીકરણ 4)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: બાદબાકી કરવી અને x શોધવો</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>બંને સમીકરણમાં -12y સમાન છે, તેથી નિશાનીઓ બદલવા માટે <b>સમીકરણ 4 માંથી 3 બાદ કરતા</b>:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:18px; margin-top:5px; line-height:2.0; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                &nbsp;&nbsp;28x - 12y = 8000<br>
+                                - 27x + 12y = -6000  <span style='color:#047857; font-size:13px; font-family:sans-serif;'><i>(નિશાની બદલી)</i></span><br>
+                                --------------------<br>
+                                &nbsp;&nbsp;<b style='color:#dc2626;'>x + 0y = 2000</b><br><br>
+                                <b style='color:#1d4ed8; font-size:22px;'>x = 2000</b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <span style='color:#14532d; font-size:14px;'>આપણે માત્ર આવક શોધવાની છે, તેથી y શોધવાની કોઈ જરૂર નથી! સીધી કિંમત મૂકો.</span><br>
+                                <b>વ્યક્તિ 1 ની આવક</b> = 9x = 9(2000) = <b style='color:#be123c;'>₹ 18,000</b><br>
+                                <b>વ્યક્તિ 2 ની આવક</b> = 7x = 7(2000) = <b style='color:#be123c;'>₹ 14,000</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                        
+        
+                { 
+                    question: "🌟 ઉદાહરણ 8: બે અંકોની એક સંખ્યા અને તે સંખ્યાના અંકોની અદલાબદલી કરતાં મળતી સંખ્યાનો સરવાળો 66 છે. જો સંખ્યાના અંકોનો તફાવત 2 હોય, તો તે સંખ્યા શોધો. આવી કેટલી સંખ્યાઓ છે?", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો દશક અને એકમના અંક વાળો બોર્ડનો ફેવરિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            કોઈપણ 2 અંકની સંખ્યા કેવી રીતે બને? ઉદાહરણ તરીકે 42 = (4 &times; 10) + 2. <br>
+                            એટલે કે <b>દશકના અંકને 10 વડે ગુણવો પડે</b>. <br>
+                            આપણી મૂળ સંખ્યા = <b>10x + y</b> થશે. અદલાબદલી કરીએ એટલે <b>10y + x</b> થઈ જશે!
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="320" height="130" viewBox="0 0 320 130" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="30" width="130" height="70" rx="8" fill="#ffffff" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="45" y="20" font-size="12" font-weight="bold" fill="#1d4ed8">મૂળ સંખ્યા</text>
+                                
+                                <rect x="20" y="45" width="40" height="40" fill="#f0f9ff" stroke="#0f172a" stroke-width="1"/>
+                                <text x="35" y="70" font-size="16" font-weight="bold">x</text>
+                                <text x="25" y="115" font-size="10" font-weight="bold" fill="#64748b">દશક (10x)</text>
+
+                                <rect x="70" y="45" width="40" height="40" fill="#fff1f2" stroke="#0f172a" stroke-width="1"/>
+                                <text x="85" y="70" font-size="16" font-weight="bold">y</text>
+                                <text x="75" y="115" font-size="10" font-weight="bold" fill="#64748b">એકમ (y)</text>
+                                
+                                <text x="115" y="70" font-size="14" font-weight="bold" fill="#0f172a">&rarr;</text>
+                                
+                                <path d="M 145 60 Q 160 30 175 60" fill="none" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow)"/>
+                                <path d="M 175 70 Q 160 100 145 70" fill="none" stroke="#ea580c" stroke-width="2" marker-end="url(#arrow)"/>
+                                <text x="145" y="105" font-size="10" font-weight="bold" fill="#ea580c">અદલાબદલી</text>
+
+                                <rect x="180" y="30" width="130" height="70" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+                                <text x="210" y="20" font-size="12" font-weight="bold" fill="#dc2626">નવી સંખ્યા</text>
+                                
+                                <rect x="190" y="45" width="40" height="40" fill="#fff1f2" stroke="#0f172a" stroke-width="1"/>
+                                <text x="205" y="70" font-size="16" font-weight="bold">y</text>
+                                <text x="195" y="115" font-size="10" font-weight="bold" fill="#64748b">દશક (10y)</text>
+
+                                <rect x="240" y="45" width="40" height="40" fill="#f0f9ff" stroke="#0f172a" stroke-width="1"/>
+                                <text x="255" y="70" font-size="16" font-weight="bold">x</text>
+                                <text x="245" y="115" font-size="10" font-weight="bold" fill="#64748b">એકમ (x)</text>
+
+                                <defs>
+                                    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                                      <path d="M0,0 L0,6 L9,3 z" fill="#ea580c" />
+                                    </marker>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સંખ્યાઓની ધારણા અને સમીકરણ બનાવવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>ધારો કે દશકનો અંક = <b>x</b> અને એકમનો અંક = <b>y</b> છે.<br>
+                            મૂળ સંખ્યા = <b>10x + y</b><br>
+                            અંકો ઉલટાવતા મળતી નવી સંખ્યા = <b>10y + x</b></span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#047857; font-size:14px;'><i>(શરત 1: બંને સંખ્યાનો સરવાળો 66 છે)</i></span><br>
+                                (10x + y) + (10y + x) = 66<br>
+                                11x + 11y = 66<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(આખા સમીકરણને 11 વડે ભાગતા)</i></span><br>
+                                <b>x + y = 6</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: બીજું સમીકરણ અને બે વિકલ્પો</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>શરત 2: અંકોનો તફાવત (બાદબાકી) 2 છે. <br>
+                            હવે આપણને ખબર નથી કે x મોટો છે કે y મોટો છે! તેથી બે <b>વિકલ્પ (Cases)</b> બનશે:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; font-family:monospace; font-size:16px; margin-top:5px; line-height:1.8; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>વિકલ્પ 1:</b> જો x મોટો હોય, તો <b>x - y = 2</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 2)<br>
+                                <b>વિકલ્પ 2:</b> જો y મોટો હોય, તો <b>y - x = 2</b> &nbsp;&nbsp;&nbsp;... (સમીકરણ 3)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: લોપની રીતથી બંને વિકલ્પો ઉકેલવા</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px; margin-bottom:10px;'>
+                                <b style='color:#dc2626;'>વિકલ્પ 1 ની ગણતરી:</b><br>
+                                સમીકરણ (1) અને (2) નો સરવાળો કરતા:<br>
+                                &nbsp;&nbsp;x + y = 6<br>
+                                + x - y = 2  <span style='color:#047857; font-size:13px; font-family:sans-serif;'><i>(+y અને -y ઉડી જશે)</i></span><br>
+                                -------------<br>
+                                &nbsp;&nbsp;2x &nbsp;&nbsp;&nbsp;= 8 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#1d4ed8;'>x = 4</b><br><br>
+                                x ની કિંમત મુકતા: 4 + y = 6 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#1d4ed8;'>y = 2</b><br>
+                                <b style='color:#15803d; font-size:16px;'>તેથી મૂળ સંખ્યા (10x + y) = 10(4) + 2 = 42</b>
+                            </div>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='color:#dc2626;'>વિકલ્પ 2 ની ગણતરી:</b><br>
+                                સમીકરણ (1) અને (3) નો સરવાળો કરતા (-x ને આગળ લખીએ):<br>
+                                &nbsp;&nbsp;y + x = 6<br>
+                                + y - x = 2  <span style='color:#047857; font-size:13px; font-family:sans-serif;'><i>(+x અને -x ઉડી જશે)</i></span><br>
+                                -------------<br>
+                                &nbsp;&nbsp;2y &nbsp;&nbsp;&nbsp;= 8 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#1d4ed8;'>y = 4</b><br><br>
+                                y ની કિંમત મુકતા: 4 + x = 6 &nbsp;&nbsp;&#10551;&nbsp;&nbsp; <b style='color:#1d4ed8;'>x = 2</b><br>
+                                <b style='color:#15803d; font-size:16px;'>તેથી મૂળ સંખ્યા (10x + y) = 10(2) + 4 = 24</b>
+                            </div>
+
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> માંગેલ સંખ્યા <b>42</b> અથવા <b>24</b> હોઈ શકે છે. કુલ આવી <b>2 સંખ્યાઓ</b> મળે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+                                },
+                                
+            
+        
+            
+            
+        
+            
+            
+        
+            
+        
+    
         // ------------------------------------
     // પ્રકરણ 4: દ્વિઘાત સમીકરણ (ઉદાહરણના દાખલા)
     // ------------------------------------
