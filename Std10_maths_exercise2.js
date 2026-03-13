@@ -1293,7 +1293,197 @@
                     `
                  }
           ]
-     }
+     },
+          
+        // ------------------------------------
+        // પ્રકરણ 11: વર્તુળ સંબંધિત ક્ષેત્રફળ (સ્વાધ્યાય 11.1 - ભાગ 1A)
+        // ------------------------------------
+        "11": {
+            "chapterName": "પ્રકરણ 11 (સ્વાધ્યાય 11.1 - ભાગ 1A)",
+            "chapterTitle": "ચેપ્ટરની માસ્ટર ચાવી (સૂત્રો) અને બેઝિક કન્સેપ્ટ",
+            "qa_list": [
+                {
+                    question: "🎯 માસ્ટર ચાવી: લઘુવૃત્તાંશ (Sector) અને લઘુવૃત્તખંડ (Segment) એટલે શું? કયા 3 સૂત્રો યાદ રાખવા?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (NJ Classes ની પિઝા ટ્રીક 🍕):</b><br>
+                            1. <b>લઘુવૃત્તાંશ (Sector):</b> કેન્દ્રમાંથી કાપેલો પિઝાનો ટુકડો! (બે ત્રિજ્યા અને ચાપથી ઘેરાયેલો ભાગ).<br>
+                            2. <b>લઘુવૃત્તખંડ (Segment):</b> પિઝાની સ્લાઈસ ખાધા પછી વધેલી પાછળની કડક કિનારી (Crust)! (જીવા અને ચાપ વચ્ચેનો ભાગ).
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="100" cy="100" r="80" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="100" cy="100" r="4" fill="#0f172a"/>
+                                <text x="85" y="105" font-size="14" font-weight="bold">O</text>
+
+                                <path d="M 100 100 L 169 140 A 80 80 0 0 1 100 180 Z" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <line x1="100" y1="100" x2="169" y2="140" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="100" y1="100" x2="100" y2="180" stroke="#1d4ed8" stroke-width="2"/>
+                                
+                                <path d="M 100 130 A 30 30 0 0 0 125 115" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="110" y="135" font-size="14" font-weight="bold" fill="#dc2626">&theta;</text>
+
+                                <line x1="169" y1="140" x2="100" y2="180" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                                <path d="M 169 140 A 80 80 0 0 1 100 180 Z" fill="#bbf7d0"/> <text x="175" y="140" font-size="14" font-weight="bold">A</text>
+                                <text x="95" y="195" font-size="14" font-weight="bold">B</text>
+                                
+                                <line x1="200" y1="50" x2="140" y2="140" stroke="#ea580c" stroke-width="1.5" marker-end="url(#arrow)"/>
+                                <text x="210" y="45" font-size="14" font-weight="bold" fill="#ea580c">લઘુવૃત્તાંશ (આખી સ્લાઈસ)</text>
+
+                                <line x1="200" y1="180" x2="150" y2="165" stroke="#16a34a" stroke-width="1.5" marker-end="url(#arrow)"/>
+                                <text x="210" y="185" font-size="14" font-weight="bold" fill="#16a34a">લઘુવૃત્તખંડ (Crust)</text>
+
+                                <defs>
+                                    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                                      <path d="M0,0 L0,6 L9,3 z" fill="#0f172a" />
+                                    </marker>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>3 ગોલ્ડન સૂત્રો (તમામ દાખલા માટે):</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; line-height:2.0;'>
+                                1. <b>લઘુચાપની લંબાઈ (l)</b> = 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360&deg;</span></span> &times; 2&pi;r<br>
+                                
+                                2. <b style='color:#dc2626;'>લઘુવૃત્તાંશનું ક્ષેત્રફળ</b> = 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360&deg;</span></span> &times; &pi;r&sup2;<br>
+
+                                3. <b style='color:#16a34a;'>લઘુવૃત્તખંડનું ક્ષેત્રફળ</b> = (લઘુવૃત્તાંશનું ક્ષેત્રફળ) - (ત્રિકોણનું ક્ષેત્રફળ)
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                 
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 1: 6 સેમી ત્રિજ્યાવાળા વર્તુળના વૃત્તાંશ દ્વારા કેન્દ્ર આગળ બનતો ખૂણો 60&deg; હોય, તો વૃત્તાંશનું ક્ષેત્રફળ શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સનો માત્ર સૂત્રમાં કિંમત મૂકીને ગણવાનો સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic):</b><br>
+                            અહીં સ્પષ્ટ રીતે ત્રિજ્યા (r) અને ખૂણો (&theta;) આપેલા છે. આપણે સીધું <b>લઘુવૃત્તાંશના ક્ષેત્રફળનું સૂત્ર</b> વાપરવાનું છે. છેદ ઉડાડવામાં ખાસ ધ્યાન રાખવું!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="180" viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="110" cy="90" r="70" fill="#f0f9ff" stroke="#0f172a" stroke-width="2"/>
+                                <circle cx="110" cy="90" r="4" fill="#0f172a"/>
+                                <text x="95" y="95" font-size="14" font-weight="bold">O</text>
+
+                                <path d="M 110 90 L 170 55 A 70 70 0 0 0 110 20 Z" fill="#fef08a" stroke="#dc2626" stroke-width="2"/>
+                                
+                                <path d="M 110 65 A 25 25 0 0 1 130 75" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="115" y="80" font-size="12" font-weight="bold" fill="#1d4ed8">60&deg;</text>
+
+                                <text x="135" y="55" font-size="12" font-weight="bold" fill="#dc2626">r = 6</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માહિતી ગોઠવવી</b><br>
+                            • ત્રિજ્યા <b>r = 6 સેમી</b><br>
+                            • કેન્દ્ર આગળનો ખૂણો <b>&theta; = 60&deg;</b><br>
+                            • &pi; ની કિંમત આપી નથી, તેથી <b>&pi; = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>22</span><span>7</span></span></b> લઈશું.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>વૃત્તાંશનું ક્ષેત્રફળ = </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&theta;</span><span>360&deg;</span></span> &times; &pi;r&sup2;<br><br>
+                                
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>60</span><span>360</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 6 &times; 6<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(60 વડે 360 નો ભાગ ચલાવતા નીચે 6 વધશે: 60 &times; 6 = 360)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span><b style='color:#dc2626;'>6</b></span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <b style='color:#dc2626;'>6</b> &times; 6<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(નીચેનો 6 અને ઉપરનો એક 6 ઉડી જશે)</i></span><br>
+                                <b>= </b> 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22 &times; 6</span><span>7</span></span><br><br>
+
+                                <b>= <b style='color:#dc2626; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>132</span><span>7</span></span> સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> વૃત્તાંશનું ક્ષેત્રફળ <b><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>132</span><span>7</span></span> સેમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 11.1 પ્રશ્ન 2: 22 સેમી પરિઘવાળા વર્તુળના ચતુર્થાંશ (Quadrant) નું ક્ષેત્રફળ શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 2 માર્ક્સનો પરિઘ પરથી ત્રિજ્યા શોધવા વાળો ટ્વિસ્ટેડ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - 2 સ્ટેપ નો જાદુ:</b><br>
+                            અહીં ત્રિજ્યા (r) સીધી નથી આપી, પણ <b>પરિઘ (કિનારીની લંબાઈ)</b> આપી છે. એટલે પહેલા પરિઘના સૂત્ર પરથી ત્રિજ્યા શોધીશું.<br>
+                            પછી <b>"ચતુર્થાંશ (Quadrant)"</b> એટલે વર્તુળનો ચોથો ભાગ (જેમાં હંમેશા <b>90&deg; નો કાટખૂણો</b> બને). બસ, પછી તો સીધું સૂત્ર જ છે!
+                        </div>
+
+                        <div style='overflow-x:auto; text-align:center; margin-bottom:15px; background-color:#f8fafc; border:1px solid #cbd5e1; border-radius:8px; padding:15px;'>
+                            <svg width="220" height="180" viewBox="0 0 220 180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="110" cy="90" r="70" fill="#ffffff" stroke="#0f172a" stroke-width="2" stroke-dasharray="4,4"/>
+                                <circle cx="110" cy="90" r="4" fill="#0f172a"/>
+                                <text x="95" y="105" font-size="14" font-weight="bold">O</text>
+
+                                <path d="M 110 90 L 180 90 A 70 70 0 0 0 110 20 Z" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+                                
+                                <polyline points="110,80 120,80 120,90" fill="none" stroke="#dc2626" stroke-width="2"/>
+                                <text x="125" y="75" font-size="12" font-weight="bold" fill="#dc2626">90&deg;</text>
+
+                                <text x="125" y="45" font-size="12" font-weight="bold" fill="#16a34a">ચતુર્થાંશ</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: પરિઘ પરથી ત્રિજ્યા (r) શોધવી</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b>વર્તુળનો પરિઘ = 2&pi;r</b><br>
+                                22 = 2 &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; r<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(r ને કર્તા બનાવવા: 7 સામે ઉપર જશે અને 2 તથા 22 નીચે જશે)</i></span><br>
+                                r = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22 &times; 7</span><span>2 &times; 22</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર અને નીચેથી 22 ઉડી જશે)</i></span><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>r = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #1d4ed8; display:block; padding:0 3px;'>7</span><span>2</span></span> સેમી</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: ચતુર્થાંશનું ક્ષેત્રફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>ચતુર્થાંશ એટલે વર્તુળનો <b>ચોથો ભાગ (1/4)</b>. એટલે ખૂણો &theta; = 90&deg; થાય. આપણે સીધું 1/4 વાળું શોર્ટકટ સૂત્ર પણ વાપરી શકીએ:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>ક્ષેત્રફળ = </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; &pi;r&sup2;<br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>2</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(એક 7 ઉપર-નીચે ઉડી જશે. અને 22 ને 2 વડે ભાગતા 11 આવશે)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; 11 &times; 7</span><span>4 &times; 2</span></span><br><br>
+
+                                <b>= <b style='color:#dc2626; font-size:22px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #dc2626; display:block; padding:0 3px;'>77</span><span>8</span></span> સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; border-left:4px solid #16a34a; padding:8px; border-radius:4px;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> વર્તુળના ચતુર્થાંશનું ક્ષેત્રફળ <b><span style='display:inline-block; vertical-align:middle; text-align:center; font-size:14px; margin:0 2px;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>77</span><span>8</span></span> સેમી&sup2;</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
+        }
+             
+            
+        
+  
                     
    };         
             
