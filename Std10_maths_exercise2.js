@@ -2735,6 +2735,175 @@
                         </div>
                     </div>
                     `
+                },
+                     
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 7: એક તંબુનો આકાર નળાકાર પર શંકુ મૂકવામાં આવેલો હોય તેવો છે. જો નળાકાર ભાગની ઊંચાઈ અને વ્યાસ અનુક્રમે 2.1 મીટર અને 4 મીટર હોય, તથા ઉપરના ભાગની ત્રાંસી ઊંચાઈ 2.8 મીટર હોય, તો આ તંબુ બનાવવા વપરાતા કેનવાસનું ક્ષેત્રફળ શોધો. જો કેનવાસનો ભાવ ₹500 પ્રતિ મીટર&sup2; હોય, તો તેમાં વપરાતા કેનવાસની કુલ કિંમત શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 4 માર્ક્સનો ક્ષેત્રફળ અને ખર્ચ બંને શોધવા વાળો માસ્ટર દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border:2px dashed #f59e0b; padding:10px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 વિચારવાનો તર્ક (Logic) - માસ્ટર ટ્રીક:</b><br>
+                            તંબુ (Tent) બનાવવા માટે કાપડ (કેનવાસ) ક્યાં વપરાય? <br>
+                            1. નીચેની <b>નળાકારની ગોળાઈમાં (વક્રસપાટી)</b>.<br>
+                            2. ઉપરના <b>શંકુના છાપરામાં (વક્રસપાટી)</b>.<br>
+                            <b>ખાસ નોંધ:</b> તંબુના તળિયે (ભોંયતળિયે) ક્યારેય કાપડ પાથરવામાં આવતું નથી! એટલે આપણે પાયાનું ક્ષેત્રફળ લેવાનું નથી. માત્ર બે વક્રસપાટીઓનો જ સરવાળો કરવાનો છે.
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:15px;'>
+                            <svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 80 180 A 50 15 0 0 0 180 180" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="80" y1="100" x2="80" y2="180" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="180" y1="100" x2="180" y2="180" stroke="#1d4ed8" stroke-width="2"/>
+                                <ellipse cx="130" cy="100" rx="50" ry="15" fill="#e0f2fe" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="4,4"/>
+
+                                <path d="M 80 100 L 130 20 L 180 100" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 80 100 A 50 15 0 0 0 180 100" fill="none" stroke="#ea580c" stroke-width="2"/>
+
+                                <circle cx="130" cy="180" r="4" fill="#0f172a"/>
+                                <line x1="80" y1="180" x2="180" y2="180" stroke="#0f172a" stroke-width="2"/>
+                                <text x="115" y="210" font-size="14" font-weight="bold">d = 4 m</text>
+                                <text x="135" y="175" font-size="12" font-weight="bold" fill="#dc2626">r=2</text>
+
+                                <line x1="200" y1="100" x2="200" y2="180" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="210" y="145" font-size="14" font-weight="bold" fill="#1d4ed8">h = 2.1 m</text>
+
+                                <line x1="190" y1="100" x2="140" y2="20" stroke="#ea580c" stroke-width="2" stroke-dasharray="3,3"/>
+                                <text x="180" y="50" font-size="14" font-weight="bold" fill="#ea580c">l = 2.8 m</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા</b><br>
+                            • નળાકારનો વ્યાસ = 4 મીટર $\\Rightarrow$ <b>ત્રિજ્યા (r) = 2 મીટર</b><br>
+                            • નળાકારની ઊંચાઈ <b>(h) = 2.1 મીટર</b><br>
+                            • શંકુની ત્રાંસી ઊંચાઈ <b>(l) = 2.8 મીટર</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>(અહીં બંનેની ત્રિજ્યા 'r' સમાન જ રહેશે).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: કેનવાસનું કુલ ક્ષેત્રફળ શોધવું</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>ક્ષેત્રફળ = નળાકારની વક્રસપાટી + શંકુની વક્રસપાટી</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>ક્ષેત્રફળ = 2&pi;rh + &pi;rl</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બંનેમાંથી <b>&pi;r</b> સામાન્ય કાઢતા ગણતરી સહેલી થશે)</i></span><br>
+                                <b>= &pi;r (2h + l)</b><br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; 2 &times; [2(2.1) + 2.8]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(2.1 ના ડબલ 4.2 થાય)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>44</span><span>7</span></span> &times; [4.2 + 2.8]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસનો સરવાળો: 4.2 + 2.8 = 7.0 થાય)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>44</span><span>7</span></span> &times; <b style='color:#dc2626;'>7</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ઉપર અને નીચેથી 7 ઉડી જશે)</i></span><br>
+                                <b>= <b style='color:#1d4ed8; font-size:24px;'>44 મીટર&sup2;</b></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>સ્ટેપ 3: કેનવાસનો કુલ ખર્ચ શોધવો</b><br>
+                            <span style='color:#0f172a; font-size:14px;'>1 મીટર&sup2; કેનવાસનો ભાવ = ₹ 500<br>
+                            તો 44 મીટર&sup2; નો ભાવ = 44 &times; 500</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b>કુલ ખર્ચ = </b> 44 &times; 500<br>
+                                <b>= <b style='color:#dc2626; font-size:24px;'>₹ 22,000</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબો:</b><br>
+                                (i) કેનવાસનું ક્ષેત્રફળ = <b>44 મીટર&sup2;</b><br>
+                                (ii) કુલ કિંમત = <b>₹ 22,000</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                
+                { 
+                    question: "🌟 સ્વા. 12.1 પ્રશ્ન 8: નળાકાર પદાર્થની ઊંચાઈ 2.4 સેમી અને વ્યાસ 1.4 સેમી છે. તેમાંથી તેટલી જ ઊંચાઈ અને વ્યાસવાળો શંકુ કાપી લેવામાં આવે છે. તો વધેલા પદાર્થનું કુલ પૃષ્ઠફળ નજીકના સેમી&sup2; માં શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો 3 અલગ-અલગ સપાટીઓના સરવાળા વાળો સૌથી ટ્વિસ્ટેડ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:8px; margin-bottom:15px; display:inline-block; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:14px;'>🔥 બોર્ડ પરીક્ષાની ખાસ ટ્રીક:</b><br>
+                            આ દાખલાને ગોખશો નહિ, માત્ર કલ્પના કરો! તમારી પાસે લાકડાનો એક નળાકાર ટુકડો છે. તમે ઉપરથી મશીન લગાવીને શંકુ આકારનો <b>ખાડો (Cavity)</b> કોતરીને કાઢી લીધો.<br>
+                            હવે તમારી પાસે રંગ કરવા માટે કેટલી સપાટી બચી?<br>
+                            1. <b>નળાકારની બહારની ગોળાઈ</b> (વક્રસપાટી: 2&pi;rh)<br>
+                            2. <b>નીચેનું આખું તળિયું</b> (વર્તુળનું ક્ષેત્રફળ: &pi;r&sup2;)<br>
+                            3. <b>અંદર પડેલો શંકુ આકારનો નવો ખાડો!</b> (શંકુની વક્રસપાટી: &pi;rl)<br>
+                            <b>આ ત્રણેયનો સરવાળો કરવાનો છે!</b>
+                        </div>
+
+                        <div style='overflow-x:auto; white-space:nowrap; text-align:center; margin-bottom:15px; background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:15px;'>
+                            <svg width="280" height="260" viewBox="0 0 280 260" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 80 200 A 50 15 0 0 0 180 200" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <path d="M 80 200 A 50 15 0 0 1 180 200" fill="#bae6fd" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="80" y1="60" x2="80" y2="200" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="180" y1="60" x2="180" y2="200" stroke="#1d4ed8" stroke-width="2"/>
+                                <ellipse cx="130" cy="60" rx="50" ry="15" fill="#f8fafc" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+
+                                <path d="M 80 60 L 130 200 L 180 60" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 80 60 A 50 15 0 0 0 180 60" fill="#fef08a" stroke="#ea580c" stroke-width="2"/>
+
+                                <line x1="130" y1="60" x2="130" y2="200" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="3,3"/>
+                                
+                                <line x1="130" y1="60" x2="180" y2="60" stroke="#0f172a" stroke-width="2"/>
+                                <text x="140" y="50" font-size="12" font-weight="bold">r=0.7</text>
+
+                                <line x1="210" y1="60" x2="210" y2="200" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="220" y="135" font-size="14" font-weight="bold" fill="#1d4ed8">h=2.4</text>
+
+                                <line x1="100" y1="130" x2="60" y2="130" stroke="#ea580c" stroke-width="1.5"/>
+                                <text x="10" y="135" font-size="14" font-weight="bold" fill="#dc2626">l = ?</text>
+                                
+                                <text x="130" y="235" font-size="12" font-weight="bold" fill="#16a34a">+ તળિયું બચ્યું છે (&pi;r&sup2;)</text>
+                            </svg>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: માપ ગોઠવવા અને ત્રાંસી ઊંચાઈ (l) શોધવી</b><br>
+                            • વ્યાસ = 1.4 સેમી $\\Rightarrow$ <b>ત્રિજ્યા r = 0.7 સેમી</b><br>
+                            • ઊંચાઈ <b>h = 2.4 સેમી</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dcfce7; padding:10px; border-radius:5px;'>
+                                <span style='color:#0f172a; font-size:14px;'><i>(અંદર શંકુ બનતો હોવાથી પાયથાગોરસથી 'l' શોધવો પડે)</i></span><br>
+                                <b>l&sup2; = r&sup2; + h&sup2;</b><br>
+                                l&sup2; = (0.7)&sup2; + (2.4)&sup2;<br>
+                                l&sup2; = 0.49 + 5.76<br>
+                                l&sup2; = 6.25<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(625 નું વર્ગમૂળ 25 થાય, એટલે 1 પોઈન્ટ કપાશે)</i></span><br>
+                                <b style='color:#dc2626; font-size:18px;'>l = 2.5 સેમી</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #3b82f6; padding:10px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: વધેલા પદાર્થનું કુલ પૃષ્ઠફળ શોધવું</b><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b>પૃષ્ઠફળ = </b> નળાકારની વક્રસપાટી + નળાકારનું તળિયું + શંકુની વક્રસપાટી<br><br>
+                                <b>= 2&pi;rh + &pi;r&sup2; + &pi;rl</b><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ત્રણેયમાંથી <b>&pi;r</b> સામાન્ય કાઢતા ગણતરી બહુ સહેલી થશે!)</i></span><br>
+                                <b>= &pi;r [ 2h + r + l ]</b><br><br>
+                                
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>7</span></span> &times; <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>7</span><span>10</span></span> &times; [ 2(2.4) + 0.7 + 2.5 ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(બહાર 7 અને 7 ઉડી જશે. અંદર: 2.4 ના ડબલ 4.8 થાય)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>10</span></span> &times; [ 4.8 + 0.7 + 2.5 ]<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(કૌંસનો સરવાળો: 4.8 + 0.7 + 2.5 = 8.0 થાય)</i></span><br>
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>22</span><span>10</span></span> &times; 8<br><br>
+
+                                <b>= </b> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>176</span><span>10</span></span> <b>= <b style='color:#1d4ed8; font-size:22px;'>17.6 સેમી&sup2;</b></b>
+                            </div>
+                            <div style='margin-top:10px; background-color:#dcfce7; padding:8px; border-radius:4px; border-left:4px solid #16a34a;'>
+                                <b style='color:#15803d; font-size:16px;'>અંતિમ જવાબ:</b> વધેલા પદાર્થનું કુલ પૃષ્ઠફળ <b>17.6 સેમી&sup2;</b> થાય છે.<br>
+                                <span style='color:#0f172a; font-size:14px;'><i>(જો પ્રશ્નમાં પૂછ્યા મુજબ <b>નજીકના પૂર્ણાંકમાં</b> લખવું હોય, તો 17.6 એ 18 ની વધુ નજીક હોવાથી, જવાબ <b><span style='color:#be123c;'>આશરે 18 સેમી&sup2;</span></b> પણ લખી શકાય).</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
@@ -2745,24 +2914,6 @@
             
         
              
-            
-        
-             
-            
-        
-             
-            
-        
-  
-             
-            
-        
-             
-            
-        
-             
-            
-        
              
      
   
