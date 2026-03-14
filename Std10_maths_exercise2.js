@@ -7173,7 +7173,144 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: 'થી ઓછા' (Less than) પ્રકારના દાખલામાં આવૃત્તિ (f) કઈ રીતે શોધવી?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કોન્સેપ્ટ સમજો - શા માટે આપેલ લાઈન 'f' નથી પણ 'cf' છે?</b><br><br>
+                            ધારો કે રકમમાં લખ્યું છે: <br>
+                            • 20 થી ઓછી ઉંમર = 2 લોકો<br>
+                            • 25 થી ઓછી ઉંમર = 6 લોકો<br><br>
+                            વિચારો! જેની ઉંમર <b>20 થી ઓછી</b> હોય, તે <b>25 થી ઓછી</b> તો કહેવાય જ ને? એટલે કે 25 વાળા ખાનામાં પેલા 2 લોકો <b>પહેલેથી જ ઉમેરાયેલા (ભેગા થયેલા)</b> છે! જ્યારે પણ આંકડાઓ ભેગા થયેલા હોય (સરવાળો થતો જતો હોય), ત્યારે તેને <b>સંચયી આવૃત્તિ (cf)</b> જ કહેવાય.<br><br>
+                            <b style='color:#dc2626;'>🔥 મૂળ આવૃત્તિ (f) કઈ રીતે શોધવી? (બાદબાકીની ટ્રીક):</b><br>
+                            જેમ cf શોધવા આપણે સરવાળો કરીએ છીએ, તેમ f શોધવા માટે આપણે <b>રિવર્સ (ઊંધું)</b> જવાનું! એટલે કે <b>નીચેની cf માંથી તેની બરાબર ઉપરની cf બાદ (Minus) કરવાની!</b><br>
+                            ઉદાહરણ: 6 - 2 = 4 (આ આપણી સાચી આવૃત્તિ f મળી!).
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 3 : એક જીવન વીમા એજન્ટે 100 પોલિસીધારકોની ઉંમર માટે નીચેનું વિતરણ પ્રાપ્ત કર્યું. જેમની ઉંમર 18 વર્ષથી વધુ પરંતુ 60 વર્ષથી ઓછી હોય, તેવા જ લોકોને પોલિસી અપાતી હોય તો તેમની મધ્યસ્થ ઉંમર શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો 'થી ઓછા' પ્રકારના વર્ગ અને f શોધવા વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: નવા વર્ગ બનાવવા અને મૂળ આવૃત્તિ (f) શોધવી</b>
+                            <br><span style='font-size:14px; color:#0f172a;'>નોંધ: અહીં રકમમાં સંચયી આવૃત્તિ (cf) પહેલેથી જ આપેલી છે, એટલે આપણે <b>બાદબાકી કરીને આવૃત્તિ (f)</b> શોધીશું. પોલિસી 18 વર્ષથી ચાલુ થાય છે એટલે પહેલો વર્ગ 15 - 20 લઈ શકાય (અથવા 20 થી ઓછા). </span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>ઉંમર (વર્ષમાં)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>સાચો વર્ગ અંતરાલ</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>પોલિસીધારકો (આપેલ cf)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>આવૃત્તિ (f) <br><span style='font-size:12px;'>(નીચેથી ઉપરનું પદ બાદ કરતા)</span></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>20 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>15 - 20</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>2</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>2</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>25 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>20 - 25</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>6</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>6 - 2 = 4</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>30 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>25 - 30</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>24</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>24 - 6 = 18</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>35 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>30 - 35</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#16a34a;'>45 (અહી cf લેવી)</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>45 - 24 = 21</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>40 થી ઓછી</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>35 - 40 <br><span style='font-size:12px; color:#c2410c;'>(મધ્યસ્થ વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; color:#1d4ed8;'>78</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#2563eb; font-size:18px;'>78 - 45 = 33 (f)</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>45 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>40 - 45</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>89</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>89 - 78 = 11</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>50 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>45 - 50</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>92</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>92 - 89 = 3</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>55 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>50 - 55</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>98</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>98 - 92 = 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>60 થી ઓછી</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>55 - 60</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>100</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>100 - 98 = 2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>કુલ આવૃત્તિ <b>n = 100</b> છે. તેથી <b>n/2 = 100/2 = 50</b> થાય.</li>
+                                    <li>cf ના ખાનામાં જુઓ: 50 થી તરત મોટી સંખ્યા <b>78</b> છે.</li>
+                                    <li>તેથી <b>35 - 40</b> એ આપણો મધ્યસ્થ વર્ગ છે.</li>
+                                    <li>અધઃસીમા <b>l = 35</b>.</li>
+                                    <li>તે વર્ગની આવૃત્તિ <b>f = 33</b> (જે આપણે બાદબાકીથી શોધી).</li>
+                                    <li><span style='color:#dc2626; font-weight:bold;'>ખાસ નોંધ:</span> <b>cf</b> હંમેશા બરાબર ઉપરના ખાનાની લેવાની, એટલે <b>cf = 45</b> લેવી.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 5</b> છે. (40 - 35 = 5).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>M = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                M = 35 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50 - 45</span><span>33</span></span> <span style='font-size:28px;'>)</span> &times; 5<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં 50 માંથી 45 જાય તો 5 વધે)</i></span><br>
+                                M = 35 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>33</span></span> <span style='font-size:24px;'>)</span> &times; 5<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(5 અને 5 નો ગુણાકાર 25 થશે)</i></span><br>
+                                M = 35 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25</span><span>33</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(25 નો 33 વડે ભાગાકાર કરતા 0.7575... આવશે)</i></span><br>
+                                M = 35 + 0.76 (આશરે)<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>M = 35.76 વર્ષ</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> પોલિસીધારકોની મધ્યસ્થ ઉંમર <b>35.76 વર્ષ</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
+             
              
              
              
