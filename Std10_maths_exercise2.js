@@ -7548,7 +7548,276 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 6 : સ્થાનિક ટેલિફોન ડિરેક્ટરીમાંથી 100 અટકો લેવામાં આવી હતી અને તે અટકોમાં અંગ્રેજી મૂળાક્ષરોની સંખ્યાનું આવૃત્તિ-વિતરણ નીચે મુજબ મેળવવામાં આવ્યું હતું. અટકોમાં અક્ષરોની સંખ્યાનો મધ્યસ્થ શોધો. ઉપરાંત બહુલક અને મધ્યક પણ શોધો.", 
+                    question_desc: "નવા અભ્યાસક્રમ મુજબ 2025/2026 બોર્ડ માટે 4 માર્ક્સનો ત્રણેય માપ શોધવા વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન:</b> સૌથી પહેલા આપણે <b>મધ્યસ્થ (Median)</b> શોધીશું. આ માટે આપણે આવૃત્તિનો ઝિગઝેગ સરવાળો કરીને <b>સંચયી આવૃત્તિ (cf)</b> નું ખાનું બનાવીશું.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: કોષ્ટક પરથી cf અને મધ્યસ્થ વર્ગ નક્કી કરવો</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>અક્ષરોની સંખ્યા (વર્ગ)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>અટકોની સંખ્યા (f)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>સંચયી આવૃત્તિ (cf)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>1 - 4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>6</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4 - 7</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>30</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>6 + 30 = 36 (cf)</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>7 - 10<br><span style='font-size:12px; color:#c2410c;'>(મધ્યસ્થ વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#2563eb;'>40 (f)</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#1d4ed8;'>36 + 40 = 76</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>10 - 13</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>16</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>76 + 16 = 92</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>13 - 16</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>92 + 4 = 96</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>16 - 19</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>96 + 4 = 100</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#16a34a;'>n = 100</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>કુલ આવૃત્તિ <b>n = 100</b> છે. તેથી <b>n/2 = 100/2 = 50</b> થાય.</li>
+                                    <li>cf ના ખાનામાં 50 થી તરત મોટી સંખ્યા <b>76</b> છે.</li>
+                                    <li>તેથી <b>7 - 10</b> એ આપણો મધ્યસ્થ વર્ગ છે.</li>
+                                    <li>અધઃસીમા <b>l = 7</b> અને આવૃત્તિ <b>f = 40</b>.</li>
+                                    <li><span style='color:#dc2626; font-weight:bold;'>ખાસ નોંધ:</span> <b>cf</b> હંમેશા ઉપરના ખાનાની લેવાની, એટલે <b>cf = 36</b> લેવી.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 3</b> છે. (10 - 7 = 3).</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: મધ્યસ્થનું સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>M = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                M = 7 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>50 - 36</span><span>40</span></span> <span style='font-size:28px;'>)</span> &times; 3<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(50 માંથી 36 જાય તો 14 વધે)</i></span><br>
+                                M = 7 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14</span><span>40</span></span> <span style='font-size:24px;'>)</span> &times; 3<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(14 અને 3 નો ગુણાકાર 42 થશે)</i></span><br>
+                                M = 7 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>42</span><span>40</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(42 ને 4 વડે ભાગતા 10.5 આવે, અને છેદના 10 માટે પોઇન્ટ કાપતા 1.05)</i></span><br>
+                                M = 7 + 1.05<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>M = 8.05 અક્ષરો</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>જવાબ 1:</b> અટકોમાં અક્ષરોની સંખ્યાનો મધ્યસ્થ <b>8.05</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>સ્ટેપ 1: કોષ્ટક પરથી કિંમતો નક્કી કરવી (બહુલક)</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>અક્ષરોની સંખ્યા</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>અટકોની સંખ્યા (f<sub>i</sub>)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>1 - 4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4 - 7</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>30 <b>(f₀)</b></td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>7 - 10 <br><span style='font-size:12px; color:#c2410c;'>(બહુલક વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#dc2626; font-size:18px;'>40 (f₁)</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>10 - 13</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#16a34a;'>16 <b>(f₂)</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>13 - 16</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>16 - 19</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>અહીં સૌથી મોટી આવૃત્તિ <b>40</b> છે, તેથી <b>f₁ = 40</b>.</li>
+                                    <li>તેની આગળની આવૃત્તિ <b>f₀ = 30</b> અને પાછળની આવૃત્તિ <b>f₂ = 16</b>.</li>
+                                    <li>સૌથી મોટી આવૃત્તિ 40 ની સામેનો વર્ગ <b>7 - 10</b> છે, જે આપણો <b>બહુલક વર્ગ</b> છે.</li>
+                                    <li>તેથી અધઃસીમા <b>l = 7</b> અને વર્ગલંબાઈ <b>h = 3</b> થશે.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>Z = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f₁ - f₀</span><span>2f₁ - f₀ - f₂</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                Z = 7 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>40 - 30</span><span>2(40) - 30 - 16</span></span> <span style='font-size:28px;'>)</span> &times; 3<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ: 40 - 30 = 10. છેદ: 2(40) = 80. અને -30 - 16 નો સરવાળો -46 થાય)</i></span><br>
+                                Z = 7 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>80 - 46</span></span> <span style='font-size:24px;'>)</span> &times; 3<br><br>
+
+                                Z = 7 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>34</span></span> <span style='font-size:24px;'>)</span> &times; 3<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(10 &times; 3 = 30 થશે)</i></span><br>
+                                Z = 7 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30</span><span>34</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(30 નો 34 વડે ભાગાકાર કરતા 0.882... આવશે)</i></span><br>
+                                Z = 7 + 0.88<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>Z = 7.88 અક્ષરો</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>જવાબ 2:</b> અટકોમાં અક્ષરોની સંખ્યાનો <b>બહુલક 7.88</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (મધ્યક માટે કઈ રીત?):</b><br>
+                            અહીં મધ્યકિંમત (x<sub>i</sub>) 2.5, 5.5 જેવી પોઈન્ટ વાળી આવશે. એટલે આપણે <b>'પદ-વિચલનની રીત'</b> જ વાપરીશું, જેથી પોઈન્ટ ગાયબ થઈ જાય અને ગણતરી બહુ જ સહેલી બની જાય!
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>મધ્યકની ગણતરી (પદ-વિચલનની રીત)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>ધારો કે મધ્યક <b>A = 8.5</b> અને વર્ગલંબાઈ <b>h = 3</b> છે.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>અક્ષરો (વર્ગ)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>અટકો (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>u<sub>i</sub> = (x<sub>i</sub>-A)/3</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub>u<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>1 - 4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-12</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4 - 7</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>30</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>5.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-30</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>7 - 10</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>40</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; background-color:#fef08a; border-radius:4px;'><b>8.5 (A)</b></td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>10 - 13</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>16</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>11.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>16</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>13 - 16</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>14.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>8</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>16 - 19</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>17.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>12</td>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe; font-weight:bold;'>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>100</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>u<sub>i</sub> = -6</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -42, અને + વાળાનો 36. એટલે 36 - 42 = -6)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span> <span style='font-size:24px;'>)</span> &times; h<br><br>
+                                x̄ = 8.5 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-6</span><span>100</span></span> <span style='font-size:24px;'>)</span> &times; 3<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં -6 &times; 3 = -18 થશે)</i></span><br>
+                                x̄ = 8.5 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>18</span><span>100</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(છેદમાં 100 હોવાથી 2 પોઈન્ટ કપાશે: 0.18)</i></span><br>
+                                x̄ = 8.5 - 0.18<br><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>x̄ = 8.32 અક્ષરો</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdfa; border-left:4px solid #0891b2; padding:10px;'>
+                            <b style='color:#155e75; font-size:18px;'>ત્રણેય માપની સરખામણી:</b><br>
+                            <ul style='margin-bottom:0; color:#0f172a; line-height:1.6;'>
+                                <li><b>મધ્યસ્થ = 8.05:</b> અડધી અટકોમાં અક્ષરોની સંખ્યા 8.05 થી ઓછી અને અડધીમાં વધુ છે.</li>
+                                <li><b>બહુલક = 7.88:</b> મોટાભાગની અટકોમાં આશરે 7.88 (અથવા 8) અક્ષરો છે.</li>
+                                <li><b>મધ્યક = 8.32:</b> બધી અટકોના અક્ષરોની સરેરાશ 8.32 છે.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
                 }
+             
+             
              
              
              
