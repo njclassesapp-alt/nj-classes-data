@@ -7815,7 +7815,115 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 7 : નીચેનું વિતરણ એક ધોરણના 30 વિદ્યાર્થીઓનાં વજન આપે છે. વિદ્યાર્થીઓના વજનનો મધ્યસ્થ શોધો.", 
+                    question_desc: "2025 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો મધ્યસ્થ શોધવાનો સૌથી સહેલો અને છેલ્લો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન:</b> આ દાખલામાં વર્ગો સળંગ જ છે અને માત્ર મધ્યસ્થ પૂછ્યો છે. એટલે આપણે સીધું જ <b>સંચયી આવૃત્તિ (cf)</b> નું ખાનું બનાવીને ઝિગઝેગ સરવાળો કરીશું.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: સંચયી આવૃત્તિ (cf) અને મધ્યસ્થ વર્ગ નક્કી કરવો</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>વજન (કિગ્રામાં)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>વિદ્યાર્થીઓ (f)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>સંચયી આવૃત્તિ (cf)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>40 - 45</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>2</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>45 - 50</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>2 + 3 = 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>50 - 55</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>8</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>5 + 8 = 13 (cf)</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>55 - 60<br><span style='font-size:12px; color:#c2410c;'>(મધ્યસ્થ વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#2563eb;'>6 (f)</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#1d4ed8;'>13 + 6 = 19</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>60 - 65</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>19 + 6 = 25</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>65 - 70</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>25 + 3 = 28</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>70 - 75</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>28 + 2 = 30</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#16a34a;'>n = 30</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>કુલ આવૃત્તિ <b>n = 30</b> છે. તેથી <b>n/2 = 30/2 = 15</b> થાય.</li>
+                                    <li>cf ના ખાનામાં જુઓ: 15 થી તરત મોટી સંખ્યા <b>19</b> છે.</li>
+                                    <li>તેથી <b>55 - 60</b> એ આપણો મધ્યસ્થ વર્ગ છે.</li>
+                                    <li>અધઃસીમા <b>l = 55</b> અને આવૃત્તિ <b>f = 6</b>.</li>
+                                    <li><span style='color:#dc2626; font-weight:bold;'>ખાસ નોંધ:</span> <b>cf</b> હંમેશા ઉપરના ખાનાની લેવાની, એટલે <b>cf = 13</b> લેવી.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 5</b> છે. (60 - 55 = 5).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>M = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                M = 55 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15 - 13</span><span>6</span></span> <span style='font-size:28px;'>)</span> &times; 5<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં 15 માંથી 13 જાય તો 2 વધે)</i></span><br>
+                                M = 55 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>6</span></span> <span style='font-size:24px;'>)</span> &times; 5<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(2 અને 6 ને ઉડાડતા છેદમાં 3 વધશે)</i></span><br>
+                                M = 55 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span> <span style='font-size:24px;'>)</span> &times; 5<br><br>
+
+                                M = 55 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>3</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(5 નો 3 વડે ભાગાકાર કરતા 1.666... આવશે)</i></span><br>
+                                M = 55 + 1.67 (આશરે)<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>M = 56.67 કિગ્રા</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> વિદ્યાર્થીઓનું મધ્યસ્થ વજન <b>56.67 કિગ્રા</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
              
