@@ -4256,10 +4256,193 @@
                             </div>
                         </div>
                     </div>
+                     
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>રીત 2: ધારેલા મધ્યકની રીત (Assumed Mean Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>અહી મધ્યક 18 છે, તેથી આપણે મધ્યકિંમતમાં પણ <b>A = 18</b> જ ધારીશું!</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub></th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>x<sub>i</sub></th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>d<sub>i</sub> = x<sub>i</sub> - A</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub>d<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>11 - 13</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>7</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>12</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>12 - 18 = -6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-42</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>13 - 15</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>14</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>14 - 18 = -4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-24</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>15 - 17</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>16</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>16 - 18 = -2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-18</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>17 - 19</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>13</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; font-weight:bold; color:#b45309;'>18 (A)</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>18 - 18 = 0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>19 - 21</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; font-weight:bold; color:#dc2626;'>f</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>20</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>20 - 18 = 2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; font-weight:bold; color:#2563eb;'>2f</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>21 - 23</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>22</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>22 - 18 = 4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>20</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>23 - 25</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>24</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>24 - 18 = 6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>24</td>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe; font-weight:bold;'>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>44 + f</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>d<sub>i</sub> = 2f - 40</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -84, અને + વાળાનો 44 + 2f. એટલે 2f + 44 - 84 = 2f - 40)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી (મેજિક જુઓ):</b><br>
+                                મધ્યક (x̄) = 18 અને A = 18<br><br>
+                                x̄ = A + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>d<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br><br>
+                                18 = 18 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2f - 40</span><span>44 + f</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(18 ડાબી બાજુ જાય એટલે 18 - 18 = 0 થઈ જશે!)</i></span><br>
+                                0 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2f - 40</span><span>44 + f</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(છેદ સામે 0 સાથે ગુણાઈને 0 થઈ જશે)</i></span><br>
+                                0 = 2f - 40<br><br>
+                                40 = 2f<br><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>f = 20</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>રીત 3: પદ-વિચલનની રીત (Step-Deviation Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>અહીં પણ <b>A = 18</b> જ લઈશું. વર્ગલંબાઈ <b>h = 2</b> છે. </span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#ffedd5; color:#9a3412; font-weight:bold;'>
+                                        <th style='border:1px solid #f97316; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>f<sub>i</sub></th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>x<sub>i</sub></th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>u<sub>i</sub> = (x<sub>i</sub>-A)/h</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>f<sub>i</sub>u<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>11 - 13</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>7</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>12</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>-3</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#dc2626;'>-21</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>13 - 15</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>6</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>14</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>-2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#dc2626;'>-12</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>15 - 17</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>9</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>16</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>-1</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#dc2626;'>-9</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>17 - 19</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>13</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; font-weight:bold; color:#b45309;'>18 (A)</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>19 - 21</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; font-weight:bold; color:#dc2626;'>f</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>20</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>1</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; font-weight:bold; color:#2563eb;'>f</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>21 - 23</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>5</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>22</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#2563eb;'>10</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>23 - 25</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>4</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>24</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>3</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#2563eb;'>12</td>
+                                    </tr>
+                                    <tr style='background-color:#ffedd5; font-weight:bold;'>
+                                        <td style='border:1px solid #f97316; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>44 + f</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>-</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>-</td>
+                                        <td style='border:1px solid #f97316; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>u<sub>i</sub> = f - 20</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -42, અને + વાળાનો 22 + f. એટલે f + 22 - 42 = f - 20)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span> <span style='font-size:24px;'>)</span> &times; h<br><br>
+                                18 = 18 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f - 20</span><span>44 + f</span></span> <span style='font-size:24px;'>)</span> &times; 2<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(18 ડાબી બાજુ જાય એટલે 0 થઈ જશે)</i></span><br>
+                                0 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2(f - 20)</span><span>44 + f</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(છેદ સામે 0 સાથે ગુણાઈને 0 થઈ જશે, અને ગુણાકારનો 2 પણ 0 ના છેદમાં જઈને 0 થશે)</i></span><br>
+                                0 = f - 20<br><br>
+                                <b style='color:#c2410c; font-size:20px;'>f = 20</b>
+                            </div>
+                        </div>
+
+                        <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                            <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> ખૂટતી આવૃત્તિ <b>f = 20</b> છે. (પરીક્ષામાં A = 18 વાળી ટ્રીક વાપરવી સૌથી બેસ્ટ છે!)
+                        </div>
+                    </div>
                     `
                 }
             ]
-        }
+             }
+  
+                
+            
+        
              
             
         
