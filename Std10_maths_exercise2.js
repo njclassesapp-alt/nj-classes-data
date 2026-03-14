@@ -7440,7 +7440,117 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 5 : નીચેનું કોષ્ટક 400 નિઓન ગોળાના આયુષ્યનું આવૃત્તિ-વિતરણ આપે છે. ગોળાના આયુષ્યનો મધ્યસ્થ શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો મધ્યસ્થ શોધવાનો સીધો અને સહેલો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન:</b> અહીં વર્ગો સળંગ જ છે (2000 પૂરું થાય અને 2000 થી જ શરૂ થાય છે). તેથી આપણે સીધું જ <b>સંચયી આવૃત્તિ (cf)</b> નું ખાનું બનાવીને મધ્યસ્થ વર્ગ શોધીશું.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: સંચયી આવૃત્તિ (cf) અને મધ્યસ્થ વર્ગ નક્કી કરવો</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>આયુષ્ય (કલાકોમાં)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>ગોળાઓની સંખ્યા (f)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>સંચયી આવૃત્તિ (cf)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>1500 - 2000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>14</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>14</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2000 - 2500</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>56</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>14 + 56 = 70</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2500 - 3000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>60</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>70 + 60 = 130 (cf)</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>3000 - 3500<br><span style='font-size:12px; color:#c2410c;'>(મધ્યસ્થ વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#2563eb;'>86 (f)</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#1d4ed8;'>130 + 86 = 216</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3500 - 4000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>74</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>216 + 74 = 290</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4000 - 4500</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>62</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>290 + 62 = 352</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4500 - 5000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>48</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>352 + 48 = 400</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#16a34a;'>n = 400</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>કુલ આવૃત્તિ <b>n = 400</b> છે. તેથી <b>n/2 = 400/2 = 200</b> થાય.</li>
+                                    <li>cf ના ખાનામાં જુઓ: 200 થી તરત મોટી સંખ્યા <b>216</b> છે.</li>
+                                    <li>તેથી <b>3000 - 3500</b> એ આપણો મધ્યસ્થ વર્ગ છે.</li>
+                                    <li>અધઃસીમા <b>l = 3000</b> અને આવૃત્તિ <b>f = 86</b>.</li>
+                                    <li><span style='color:#dc2626; font-weight:bold;'>ખાસ નોંધ:</span> <b>cf</b> હંમેશા ઉપરના ખાનાની લેવાની, એટલે <b>cf = 130</b> લેવી.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 500</b> છે. (3500 - 3000 = 500).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>M = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                M = 3000 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>200 - 130</span><span>86</span></span> <span style='font-size:28px;'>)</span> &times; 500<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં 200 માંથી 130 જાય તો 70 વધે)</i></span><br>
+                                M = 3000 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>70</span><span>86</span></span> <span style='font-size:24px;'>)</span> &times; 500<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(70 અને 86 ને 2 વડે ઉડાડતા: ઉપર 35 અને નીચે 43 વધશે)</i></span><br>
+                                M = 3000 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>35</span><span>43</span></span> &times; 500<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(35 નો 500 સાથે ગુણાકાર 17500 થશે)</i></span><br>
+                                M = 3000 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>17500</span><span>43</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(17500 નો 43 વડે ભાગાકાર કરતા 406.976... આવશે)</i></span><br>
+                                M = 3000 + 406.98 (આશરે)<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>M = 3406.98 કલાક</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> ગોળાઓનું મધ્યસ્થ આયુષ્ય <b>3406.98 કલાક</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
+             
              
              
              
