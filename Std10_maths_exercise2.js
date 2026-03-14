@@ -8689,7 +8689,268 @@
 
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 17: (i) 20 વીજળીના ગોળાઓનો જથ્થો 4 ખામીયુક્ત ગોળા ધરાવે છે. આ જથ્થામાંથી એક ગોળો યાદચ્છિક રીતે કાઢવામાં આવે છે. આ ગોળો ખામીયુક્ત હોય તેની સંભાવના કેટલી છે? (ii) ધારો કે (i) માં કાઢવામાં આવેલ ગોળો ખામીયુક્ત નથી અને તેને પાછો મૂકવામાં આવતો નથી. હવે બાકીના ગોળામાંથી એક ગોળો કાઢવામાં આવે છે, તો તે ગોળો ખામીયુક્ત ન હોય તેની સંભાવના કેટલી?", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો ગોળાને 'પાછો ન મૂકવા' વાળો મોસ્ટ IMP કન્ફ્યુઝિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px;'>
+                            <svg width="250" height="120" viewBox="0 0 250 120" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="40" cy="30" r="10" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/><path d="M 35 30 L 45 30 M 40 25 L 40 35" stroke="#ef4444" stroke-width="2"/>
+                                <circle cx="80" cy="30" r="10" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/><path d="M 75 30 L 85 30 M 80 25 L 80 35" stroke="#ef4444" stroke-width="2"/>
+                                <circle cx="120" cy="30" r="10" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/><path d="M 115 30 L 125 30 M 120 25 L 120 35" stroke="#ef4444" stroke-width="2"/>
+                                <circle cx="160" cy="30" r="10" fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/><path d="M 155 30 L 165 30 M 160 25 L 160 35" stroke="#ef4444" stroke-width="2"/>
+                                
+                                <circle cx="200" cy="30" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="40" cy="60" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="80" cy="60" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="120" cy="60" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="160" cy="60" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="200" cy="60" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="40" cy="90" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="80" cy="90" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="120" cy="90" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="160" cy="90" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <circle cx="200" cy="90" r="10" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                            </svg>
+                            <br><b style='color:#334155;'>કુલ 20 ગોળા (જેમાંથી 4 ખામીયુક્ત છે)</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ શોધવા):</b><br>
+                            કુલ ગોળા = 20<br>
+                            તેમાં ખામીયુક્ત (ખરાબ) ગોળા = 4<br>
+                            તો સારા ગોળા = 20 - 4 = 16<br>
+                            <b>શરૂઆતમાં કુલ પરિણામ = <span style='color:#dc2626; font-size:18px;'>20</span></b> (ભાગ 1 માટે છેદમાં 20 આવશે).
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(i) બહાર કાઢેલ ગોળો ખામીયુક્ત (ખરાબ) હોય:</b><br>
+                            જથ્થામાં <b>ખરાબ ગોળા 4</b> છે. તેથી સાનુકૂળ પરિણામ = 4.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span>
+                                &nbsp; = &nbsp;
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>20</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ 4 ના ઘડિયાથી છેદ ઉડાડતા:</b><br>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span><span>5 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>5</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>(ii) સૌથી અગત્યનો ભાગ - લોજિક સમજો:</b><br>
+                            રકમમાં કહ્યું છે કે ભાગ (i) માં જે ગોળો કાઢ્યો તે <b>ખામીયુક્ત ન હતો (એટલે કે સારો ગોળો હતો)</b> અને તેને <b>પાછો મૂક્યો નથી!</b><br>
+                            <ul style='margin-bottom:0;'>
+                                <li>આખો એક ગોળો ઓછો થયો, એટલે <b>નવા કુલ ગોળા = 20 - 1 = <span style='color:#dc2626;'>19</span></b> (આ નવો છેદ બનશે).</li>
+                                <li>જે ગોળો બહાર ગયો તે સારો હતો, એટલે <b>નવા સારા ગોળા = 16 - 1 = <span style='color:#dc2626;'>15</span></b> રહ્યા. (ખરાબ ગોળા તો 4 ના 4 જ છે).</li>
+                            </ul>
+                            <div style='margin-top:10px; padding:10px; background-color:#fef3c7; border-radius:4px;'>
+                                <b>હવે બાકીના 19 ગોળામાંથી એક ગોળો કાઢતા તે "ખામીયુક્ત ન હોય" (એટલે કે સારો હોય) તેની સંભાવના:</b><br>
+                                નવા સાનુકૂળ પરિણામ (સારા ગોળા) = <b>15</b>.<br><br>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>19</span></span><br><br>
+                                <span style='color:#0f172a; font-size:14px;'>(અહીં 19 અવિભાજ્ય સંખ્યા હોવાથી કોઈ જ છેદ નહિ ઉડે, આ જ અંતિમ જવાબ છે).</span><br>
+                                <b style='color:#b45309; font-size:20px;'>P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>15</span><span>19</span></span></b>
+                            </div>
+                        </div>
+
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 18: એક ખોખામાં 1 થી 90 સુધીના અંકો લખેલી 90 ગોળ તકતીઓ (Discs) છે. જો ખોખામાંથી એક ગોળ તકતી યાદચ્છિક રીતે કાઢવામાં આવે, તો તેના પર (i) બે અંકની સંખ્યા (ii) પૂર્ણવર્ગ સંખ્યા (iii) 5 વડે વિભાજ્ય સંખ્યા હોય તેની સંભાવના શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો તકતીઓ (Discs) વાળો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#f0fdfa; padding:15px; border-radius:8px; border:1px solid #ccfbf1; margin-bottom:15px;'>
+                            <svg width="260" height="80" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="10" width="240" height="60" fill="#ccfbf1" stroke="#0f766e" stroke-width="2" rx="5"/>
+                                <circle cx="40" cy="40" r="16" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+                                <text x="35" y="45" font-size="14" font-weight="bold" fill="#78350f">1</text>
+                                
+                                <circle cx="85" cy="40" r="16" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+                                <text x="80" y="45" font-size="14" font-weight="bold" fill="#78350f">2</text>
+                                
+                                <circle cx="130" cy="40" r="16" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+                                <text x="125" y="45" font-size="14" font-weight="bold" fill="#78350f">3</text>
+                                
+                                <text x="165" y="45" font-size="20" font-weight="bold" fill="#0f766e">. . .</text>
+                                
+                                <circle cx="215" cy="40" r="16" fill="#fbbf24" stroke="#d97706" stroke-width="2"/>
+                                <text x="205" y="45" font-size="14" font-weight="bold" fill="#78350f">90</text>
+                            </svg>
+                            <br><b style='color:#0f766e;'>1 થી 90 અંકો વાળી ગોળ તકતીઓ</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ શોધવા):</b><br>
+                            ખોખામાં 1 થી 90 અંકો વાળી કુલ 90 તકતીઓ છે.<br>
+                            <b>તેથી કુલ પરિણામ = <span style='color:#dc2626; font-size:18px;'>90</span></b> (દરેકના છેદમાં 90 આવશે).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(i) બે અંકની સંખ્યા મળે:</b><br>
+                            <span style='font-size:14px; color:#475569;'><b>સાનુકૂળ પરિણામ કઈ રીતે આવ્યા?</b><br> 1 થી 90 માં એક અંકની સંખ્યા (1,2,3,4,5,6,7,8,9) એમ કુલ 9 સંખ્યાઓ હોય. તેને 90 માંથી બાદ કરી દો! (90 - 9 = 81).</span><br>
+                            સાનુકૂળ પરિણામ = <b>81</b> (10 થી 90 સુધી).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>81</span><span>90</span></span><br><br>
+                                <b style='color:#047857;'>✂️ 9 ના ઘડિયાથી છેદ ઉડાડતા:</b><br>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9 &times; <del style='color:#dc2626; font-weight:bold;'>9</del></span><span>10 &times; <del style='color:#dc2626; font-weight:bold;'>9</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#1d4ed8; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>10</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(ii) પૂર્ણવર્ગ (Perfect Square) સંખ્યા મળે:</b><br>
+                            <span style='font-size:14px; color:#475569;'><b>સાનુકૂળ પરિણામ કઈ રીતે આવ્યા?</b><br> પૂર્ણવર્ગ એટલે જેનું વર્ગમૂળ નીકળતું હોય: 1(1²), 4(2²), 9(3²), 16, 25, 36, 49, 64, 81. (આગળ 100 આવે પણ તે 90 થી મોટો છે).</span><br>
+                            આવી કુલ સંખ્યાઓ ગણીએ તો સાનુકૂળ પરિણામ = <b>9</b> મળે છે.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>90</span></span><br><br>
+                                <b style='color:#047857;'>✂️ 9 ના ઘડિયાથી છેદ ઉડાડતા (9 દાણ 90):</b><br>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>9</del></span><span>10 &times; <del style='color:#dc2626; font-weight:bold;'>9</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#c2410c; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>10</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(iii) 5 વડે વિભાજ્ય સંખ્યા મળે:</b><br>
+                            <span style='font-size:14px; color:#475569;'><b>સાનુકૂળ પરિણામ કઈ રીતે આવ્યા?</b><br> 5 નો ઘડિયો બોલો: 5, 10, 15, 20... 90 સુધી. (ટ્રીક: સીધો 90 નો 5 વડે ભાગાકાર કરી દો, 18 પંચા 90).</span><br>
+                            તેથી 5 વડે વિભાજ્ય સંખ્યાઓ (સાનુકૂળ પરિણામ) = <b>18</b>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(C) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>18</span><span>90</span></span><br><br>
+                                <b style='color:#047857;'>✂️ 18 ના ઘડિયાથી છેદ ઉડાડતા:</b><br>
+                                P(C) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>18</del></span><span>5 &times; <del style='color:#dc2626; font-weight:bold;'>18</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>5</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 19: એક બાળક પાસે એક એવો પાસો છે જેની છ સપાટીઓ નીચે આપેલા અક્ષરો બતાવે છે: A, B, C, D, E, A. આ પાસાને એકવાર ઉછાળવામાં આવે છે. પાસા પર (i) A મળે (ii) D મળે તેની સંભાવના કેટલી છે?", 
+                    question_desc: "1 કે 2 માર્ક્સ માટેનો ABCDE વાળો પાસાનો એકદમ સરળ અને રોકડા માર્ક્સનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px;'>
+                            <svg width="280" height="60" viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="10" width="40" height="40" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="5"/>
+                                <text x="22" y="37" font-size="24" font-weight="bold" fill="#b91c1c">A</text>
+                                <rect x="55" y="10" width="40" height="40" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" rx="5"/>
+                                <text x="67" y="37" font-size="24" font-weight="bold" fill="#15803d">B</text>
+                                <rect x="100" y="10" width="40" height="40" fill="#eff6ff" stroke="#3b82f6" stroke-width="2" rx="5"/>
+                                <text x="112" y="37" font-size="24" font-weight="bold" fill="#1d4ed8">C</text>
+                                <rect x="145" y="10" width="40" height="40" fill="#fffbeb" stroke="#f59e0b" stroke-width="2" rx="5"/>
+                                <text x="156" y="37" font-size="24" font-weight="bold" fill="#b45309">D</text>
+                                <rect x="190" y="10" width="40" height="40" fill="#fdf4ff" stroke="#d946ef" stroke-width="2" rx="5"/>
+                                <text x="202" y="37" font-size="24" font-weight="bold" fill="#a21caf">E</text>
+                                <rect x="235" y="10" width="40" height="40" fill="#fef2f2" stroke="#ef4444" stroke-width="2" rx="5"/>
+                                <text x="247" y="37" font-size="24" font-weight="bold" fill="#b91c1c">A</text>
+                            </svg>
+                            <br><b style='color:#334155;'>પાસાની 6 સપાટીઓ પર લખેલા અક્ષરો</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>કુલ પરિણામ:</b><br>
+                            અહીં પાસા પર કુલ 6 સપાટીઓ છે.<br>
+                            <b>તેથી કુલ પરિણામ = <span style='color:#dc2626; font-size:18px;'>6</span></b> (છેદમાં 6 આવશે).
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(i) પાસા પર 'A' મળે તેની સંભાવના:</b><br>
+                            આપેલી સપાટીઓમાં 'A' અક્ષર <b>2 વખત</b> (પહેલા અને છેલ્લા ખાનામાં) આવે છે.<br>
+                            તેથી સાનુકૂળ પરિણામ = <b>2</b>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span>
+                                &nbsp; = &nbsp;
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>6</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક (2 નો ઘડિયો):</b><br>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>3 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>3</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>(ii) પાસા પર 'D' મળે તેની સંભાવના:</b><br>
+                            આપેલી સપાટીઓમાં 'D' અક્ષર માત્ર <b>1 જ વખત</b> આવે છે.<br>
+                            તેથી સાનુકૂળ પરિણામ = <b>1</b>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fef3c7; padding:10px; border-radius:5px;'>
+                                P(D) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#b45309; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>6</span></span></b>
+                            </div>
+                        </div>
+
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 21: એક જથ્થો 144 બૉલપેન ધરાવે છે. તેમાંથી 20 ખામીયુક્ત છે અને બાકીની સારી છે. જો પેન સારી હશે તો નુરી પેન ખરીદશે, પરંતુ જો તે ખામીયુક્ત હશે તો ખરીદશે નહિ. દુકાનદાર યાદચ્છિક રીતે એક પેન કાઢે છે અને તેને આપે છે. (i) તે પેન ખરીદશે તેની સંભાવના કેટલી? (ii) તે પેન નહિ ખરીદે તેની સંભાવના કેટલી?", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો પેન ખરીદવા વાળો ખાસ લોજિકલ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (લોજિક સમજો):</b><br>
+                            અહીં નુરીની <b>ખરીદવાની શરત</b> શું છે? જો પેન <b>સારી</b> હોય તો જ તે ખરીદશે, નહિંતર નહિ ખરીદે. બસ આટલું મગજમાં રાખો એટલે દાખલો પૂરો!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ અને પેનની ગણતરી):</b><br>
+                            કુલ પેન = 144<br>
+                            ખામીયુક્ત (ખરાબ) પેન = 20<br>
+                            <b>બાકી રહેલી સારી પેન = 144 - 20 = <span style='color:#dc2626;'>124</span></b><br>
+                            <span style='color:#0f172a;'>તેથી <b>કુલ પરિણામ = 144</b> (દરેકના છેદમાં 144 આવશે).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(i) નુરી પેન ખરીદશે તેની સંભાવના:</b><br>
+                            નુરી પેન ક્યારે ખરીદશે? જ્યારે પેન <b>સારી</b> હશે ત્યારે!<br>
+                            જથ્થામાં <b>સારી પેન 124</b> છે. તેથી સાનુકૂળ પરિણામ = 124.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(ખરીદશે) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>124</span><span>144</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક (4 ના ઘડિયાથી):</b><br>
+                                <span style='font-size:14px; color:#475569;'><i>(124 ના અડધા 62, તેના અડધા 31 એટલે 31 &times; 4. અને 144 ના અડધા 72, તેના અડધા 36 એટલે 36 &times; 4)</i></span><br><br>
+
+                                P(ખરીદશે) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>31 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span><span>36 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#1d4ed8; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>31</span><span>36</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(ii) નુરી પેન નહિ ખરીદે તેની સંભાવના:</b><br>
+                            નુરી પેન ક્યારે નહિ ખરીદે? જ્યારે પેન <b>ખામીયુક્ત (ખરાબ)</b> હશે ત્યારે!<br>
+                            જથ્થામાં <b>ખામીયુક્ત પેન 20</b> છે. તેથી સાનુકૂળ પરિણામ = 20.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(નહિ ખરીદે) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>20</span><span>144</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક (ફરીથી 4 ના ઘડિયાથી):</b><br>
+                                <span style='font-size:14px; color:#475569;'><i>(5 ચોક 20, અને આગળ જોયું તેમ 36 ચોક 144)</i></span><br><br>
+
+                                P(નહિ ખરીદે) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span><span>36 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>36</span></span></b>
+                            </div>
+                        </div>
+
+                    </div>
+                    `
                 }
+             
+             
              
              
              
