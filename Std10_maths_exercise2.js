@@ -8104,7 +8104,190 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 8: એક થેલામાં 3 લાલ અને 5 કાળા દડા છે. થેલામાંથી એક દડો યાદચ્છિક રીતે કાઢવામાં આવે છે. બહાર કાઢેલ દડો (i) લાલ હોય (ii) લાલ ન હોય તેની સંભાવના કેટલી?", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો દડાની પસંદગી વાળો એકદમ બેઝિક અને સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px;'>
+                            <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 50 130 C 50 150, 150 150, 150 130 L 140 40 C 140 20, 60 20, 60 40 Z" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+                                <circle cx="80" cy="110" r="14" fill="#ef4444" stroke="#991b1b" stroke-width="1"/>
+                                <circle cx="110" cy="120" r="14" fill="#ef4444" stroke="#991b1b" stroke-width="1"/>
+                                <circle cx="125" cy="95" r="14" fill="#ef4444" stroke="#991b1b" stroke-width="1"/>
+                                <circle cx="70" cy="80" r="14" fill="#1e293b" stroke="#000000" stroke-width="1"/>
+                                <circle cx="95" cy="95" r="14" fill="#1e293b" stroke="#000000" stroke-width="1"/>
+                                <circle cx="120" cy="70" r="14" fill="#1e293b" stroke="#000000" stroke-width="1"/>
+                                <circle cx="90" cy="65" r="14" fill="#1e293b" stroke="#000000" stroke-width="1"/>
+                                <circle cx="65" cy="55" r="14" fill="#1e293b" stroke="#000000" stroke-width="1"/>
+                            </svg>
+                            <br><b style='color:#475569;'>થેલામાં રહેલા કુલ દડા</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ શોધવા):</b><br>
+                            થેલામાં લાલ દડા = 3<br>
+                            થેલામાં કાળા દડા = 5<br>
+                            <b>કુલ દડા = 3 + 5 = <span style='color:#dc2626; font-size:18px;'>8</span></b><br>
+                            <span style='color:#0f172a;'>તેથી પ્રયોગના <b>કુલ પરિણામની સંખ્યા = 8</b> થશે. (આ 8 હંમેશા છેદમાં આવશે).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(i) બહાર કાઢેલ દડો લાલ હોય તેની સંભાવના:</b><br>
+                            ધારો કે ઘટના A = બહાર કાઢેલ દડો લાલ હોય.<br>
+                            થેલામાં લાલ દડાની સંખ્યા 3 છે. તેથી ઘટના A ના સાનુકૂળ પરિણામ = <b>3</b>.<br><br>
+                            
+                            <div style='background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>ઘટના A ના સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span><br><br>
+                                <b style='color:#1d4ed8; font-size:18px;'>P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>8</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(ii) બહાર કાઢેલ દડો લાલ ન હોય તેની સંભાવના:</b><br>
+                            ધારો કે ઘટના B = બહાર કાઢેલ દડો લાલ <b>ન હોય</b>.<br>
+                            <span style='font-size:14px; color:#475569;'>(જો દડો લાલ ન હોય, તો તેનો અર્થ એ કે તે <b>કાળો</b> જ હોવાનો!)</span><br>
+                            થેલામાં કાળા દડાની સંખ્યા 5 છે. તેથી ઘટના B ના સાનુકૂળ પરિણામ = <b>5</b>.<br><br>
+                            
+                            <div style='background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>ઘટના B ના સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span><br><br>
+                                <b style='color:#c2410c; font-size:18px;'>P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>8</span></span></b>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>નોંધ: અહીં 3/8 અને 5/8 ના છેદ ઉડી શકે તેમ ન હોવાથી આ જ અંતિમ જવાબ છે.</span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 9: એક પેટીમાં 5 લાલ લખોટીઓ, 8 સફેદ લખોટીઓ અને 4 લીલી લખોટીઓ છે. પેટીમાંથી એક લખોટી યાદચ્છિક રીતે બહાર કાઢવામાં આવે છે. બહાર કાઢેલ લખોટી (i) લાલ હોય (ii) સફેદ હોય (iii) લીલી ન હોય તેની સંભાવના કેટલી છે?", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો લખોટીઓ વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#f0fdfa; padding:15px; border-radius:8px; border:1px solid #ccfbf1; margin-bottom:15px;'>
+                            <svg width="220" height="120" viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="30" y="30" width="160" height="80" fill="#e0f2fe" stroke="#3b82f6" stroke-width="3" rx="10"/>
+                                
+                                <circle cx="50" cy="90" r="10" fill="#ef4444"/><circle cx="75" cy="90" r="10" fill="#ef4444"/>
+                                <circle cx="100" cy="90" r="10" fill="#ef4444"/><circle cx="125" cy="90" r="10" fill="#ef4444"/>
+                                <circle cx="150" cy="90" r="10" fill="#ef4444"/>
+                                
+                                <circle cx="65" cy="65" r="10" fill="#22c55e"/><circle cx="90" cy="65" r="10" fill="#22c55e"/>
+                                <circle cx="115" cy="65" r="10" fill="#22c55e"/><circle cx="140" cy="65" r="10" fill="#22c55e"/>
+                                
+                                <circle cx="50" cy="40" r="10" fill="#ffffff" stroke="#94a3b8"/><circle cx="75" cy="40" r="10" fill="#ffffff" stroke="#94a3b8"/>
+                                <circle cx="100" cy="40" r="10" fill="#ffffff" stroke="#94a3b8"/><circle cx="125" cy="40" r="10" fill="#ffffff" stroke="#94a3b8"/>
+                                <circle cx="150" cy="40" r="10" fill="#ffffff" stroke="#94a3b8"/><circle cx="170" cy="90" r="10" fill="#ffffff" stroke="#94a3b8"/>
+                                <circle cx="165" cy="65" r="10" fill="#ffffff" stroke="#94a3b8"/><circle cx="175" cy="40" r="10" fill="#ffffff" stroke="#94a3b8"/>
+                            </svg>
+                            <br><b style='color:#0f766e;'>પેટીમાં રહેલી અલગ-અલગ લખોટીઓ</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>કુલ પરિણામ શોધવા:</b><br>
+                            લાલ લખોટી = 5<br>
+                            સફેદ લખોટી = 8<br>
+                            લીલી લખોટી = 4<br>
+                            <b>કુલ લખોટી = 5 + 8 + 4 = <span style='color:#dc2626; font-size:18px;'>17</span></b><br>
+                            <span style='color:#0f172a;'>તેથી <b>કુલ પરિણામ = 17</b> (આ દરેકના છેદમાં આવશે).</span>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(i) લખોટી લાલ હોય તેની સંભાવના:</b><br>
+                            સાનુકૂળ પરિણામ (લાલ લખોટી) = <b>5</b>.<br>
+                            P(લાલ) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span>
+                            &nbsp; = &nbsp; <b><span style='color:#dc2626; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>17</span></span></span></b>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #475569; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#334155; font-size:16px;'>(ii) લખોટી સફેદ હોય તેની સંભાવના:</b><br>
+                            સાનુકૂળ પરિણામ (સફેદ લખોટી) = <b>8</b>.<br>
+                            P(સફેદ) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span>
+                            &nbsp; = &nbsp; <b><span style='color:#475569; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span>17</span></span></span></b>
+                        </div>
+
+                        <div style='background-color:#ecfdf5; border-left:4px solid #10b981; padding:10px; border-radius:4px;'>
+                            <b style='color:#047857; font-size:16px;'>(iii) લખોટી લીલી ન હોય તેની સંભાવના:</b><br>
+                            <span style='font-size:14px; color:#475569;'><b>લોજિક:</b> જો લખોટી લીલી ન હોય, તો તેનો અર્થ એ કે તે કાં તો <b>લાલ</b> હશે અથવા <b>સફેદ</b> હશે!</span><br>
+                            સાનુકૂળ પરિણામ = લાલ (5) + સફેદ (8) = <b>13</b>.<br>
+                            P(લીલી ન હોય) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span>
+                            &nbsp; = &nbsp; <b><span style='color:#059669; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>13</span><span>17</span></span></span></b>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 10: એક ગલ્લામાં 50 પૈસાના 100 સિક્કા, ₹ 1 ના 50 સિક્કા, ₹ 2 ના 20 સિક્કા અને ₹ 5 ના 10 સિક્કા છે. જ્યારે ગલ્લાને ઊંધો કરવામાં આવે ત્યારે કોઈ એક સિક્કો બહાર પડે તે સમસંભાવી હોય, તો સિક્કો (i) 50 પૈસાનો સિક્કો હશે (ii) ₹ 5 નો સિક્કો નહિ હોય તેની સંભાવના કેટલી?", 
+                    question_desc: "ખાસ છેદ ઉડાડવાની ટ્રીક વાળો 3 માર્ક્સનો ગલ્લા અને સિક્કાનો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#fdf4ff; padding:15px; border-radius:8px; border:1px solid #fae8ff; margin-bottom:15px;'>
+                            <svg width="250" height="120" viewBox="0 0 250 120" xmlns="http://www.w3.org/2000/svg">
+                                <ellipse cx="120" cy="70" rx="60" ry="40" fill="#fbcfe8" stroke="#db2777" stroke-width="3"/>
+                                <circle cx="80" cy="70" r="18" fill="#f9a8d4" stroke="#db2777" stroke-width="2"/>
+                                <circle cx="73" cy="65" r="4" fill="#db2777"/>
+                                <path d="M 120 30 L 120 45" stroke="#1e293b" stroke-width="5" stroke-linecap="round"/>
+                                <path d="M 90 105 L 95 115 M 150 105 L 145 115" stroke="#db2777" stroke-width="6" stroke-linecap="round"/>
+                                <circle cx="120" cy="15" r="12" fill="#fde047" stroke="#ca8a04" stroke-width="2"/>
+                                <text x="110" y="19" font-size="11" font-weight="bold" fill="#854d0e">50p</text>
+                            </svg>
+                            <br><b style='color:#be185d;'>ગલ્લામાંથી પડતો 50 પૈસાનો સિક્કો</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>કુલ પરિણામ શોધવા (કુલ સિક્કા):</b><br>
+                            50 પૈસાના સિક્કા = 100<br>
+                            ₹ 1 ના સિક્કા = 50<br>
+                            ₹ 2 ના સિક્કા = 20<br>
+                            ₹ 5 ના સિક્કા = 10<br>
+                            <b>કુલ સિક્કા = 100 + 50 + 20 + 10 = <span style='color:#dc2626; font-size:18px;'>180</span></b><br>
+                            <span style='color:#0f172a;'>તેથી <b>કુલ પરિણામ = 180</b> (આ દરેકના છેદમાં આવશે).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(i) બહાર પડેલ સિક્કો 50 પૈસાનો હોય તેની સંભાવના:</b><br>
+                            ગલ્લામાં 50 પૈસાના 100 સિક્કા છે, તેથી સાનુકૂળ પરિણામ = <b>100</b>.<br><br>
+                            
+                            <div style='background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span> 
+                                &nbsp; = &nbsp; 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>100</span><span>180</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક (ભાગ પાડો):</b><br>
+                                <span style='color:#475569; font-size:14px;'>(પહેલા એક-એક મીંડું કાઢી નાખો એટલે 10/18 વધે, હવે તેના ભાગ પાડો)</span><br><br>
+
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10</span><span>18</span></span>
+                                &nbsp; = &nbsp; 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>9 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#1d4ed8; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>9</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(ii) બહાર પડેલ સિક્કો ₹ 5 નો નહિ હોય તેની સંભાવના:</b><br>
+                            <span style='font-size:14px; color:#475569;'><b>લોજિક:</b> કુલ 180 સિક્કામાંથી માત્ર ₹ 5 ના 10 સિક્કા કાઢી નાખવાના છે.</span><br>
+                            સાનુકૂળ પરિણામ = કુલ સિક્કા - ₹ 5 ના સિક્કા = 180 - 10 = <b>170</b>.<br><br>
+                            
+                            <div style='background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span> 
+                                &nbsp; = &nbsp; 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>170</span><span>180</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક:</b><br>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>17 &times; <del style='color:#dc2626; font-weight:bold;'>10</del></span><span>18 &times; <del style='color:#dc2626; font-weight:bold;'>10</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#c2410c; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>17</span><span>18</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
   
