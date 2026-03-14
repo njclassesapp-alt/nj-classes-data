@@ -6567,7 +6567,102 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 13.2 પ્રશ્ન 5: આપેલું વિતરણ વિશ્વના કેટલાક શ્રેષ્ઠ બેટ્સમેનો દ્વારા એકદિવસીય આંતરરાષ્ટ્રીય મેચોમાં નોંધાવેલા રનની સંખ્યા દર્શાવે છે. આ માહિતીનો બહુલક શોધો.", 
+                    question_desc: "2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો બેટ્સમેનોના રન વાળો ફેવરિટ અને સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન:</b> બહુલકના દાખલામાં નવું કોઈ કોષ્ટક નથી બનાવવાનું. નીચેના કોષ્ટકમાંથી સીધો જ <b>સૌથી મોટો આંકડો (રાજા - f₁)</b> શોધી લો, એટલે દાખલો અડધો ત્યાં જ પૂરો!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: કોષ્ટક પરથી કિંમતો નક્કી કરવી</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>નોંધાવેલા રન</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>બેટ્સમેનોની સંખ્યા (f<sub>i</sub>)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3000 - 4000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#2563eb;'>4 <b>(f₀)</b></td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>4000 - 5000 <br><span style='font-size:12px; color:#c2410c;'>(બહુલક વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#dc2626; font-size:18px;'>18 (f₁)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>5000 - 6000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#16a34a;'>9 <b>(f₂)</b></td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>6000 - 7000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>7</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>7000 - 8000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>6</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>8000 - 9000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>9000 - 10000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>1</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>10000 - 11000</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>1</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>અહીં સૌથી મોટી આવૃત્તિ <b>18</b> છે, તેથી <b>f₁ = 18</b>.</li>
+                                    <li>તેની ઉપરની (આગળની) આવૃત્તિ <b>f₀ = 4</b> અને નીચેની (પાછળની) આવૃત્તિ <b>f₂ = 9</b>.</li>
+                                    <li>સૌથી મોટી આવૃત્તિ 18 ની સામેનો વર્ગ <b>4000 - 5000</b> છે, જેને <b>બહુલક વર્ગ</b> કહેવાય.</li>
+                                    <li>આથી તેની અધઃસીમા <b>l = 4000</b> થશે.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 1000</b> છે. (5000 - 4000 = 1000)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>Z = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f₁ - f₀</span><span>2f₁ - f₀ - f₂</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                Z = 4000 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>18 - 4</span><span>2(18) - 4 - 9</span></span> <span style='font-size:28px;'>)</span> &times; 1000<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ: 18 - 4 = 14. છેદ: 2(18) = 36. અને -4 - 9 નો સરવાળો -13 થાય)</i></span><br>
+                                Z = 4000 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14</span><span>36 - 13</span></span> <span style='font-size:24px;'>)</span> &times; 1000<br><br>
+
+                                Z = 4000 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14</span><span>23</span></span> <span style='font-size:24px;'>)</span> &times; 1000<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(14 &times; 1000 = 14000 થશે)</i></span><br>
+                                Z = 4000 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>14000</span><span>23</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(14000 નો 23 વડે ભાગાકાર કરતા 608.695... આવશે)</i></span><br>
+                                Z = 4000 + 608.7<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>Z = 4608.7 રન</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> આપેલ માહિતીનો બહુલક <b>4608.7 રન</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
              
