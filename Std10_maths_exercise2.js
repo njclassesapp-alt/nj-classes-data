@@ -8425,7 +8425,273 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 13: પાસાને એક વાર ફેંકવામાં આવે છે. તો (i) અવિભાજ્ય સંખ્યા (ii) 2 અને 6 વચ્ચેની સંખ્યા (iii) અયુગ્મ સંખ્યા મળવાની સંભાવના શોધો.", 
+                    question_desc: "2024 અને 2025 બોર્ડ માટે 3 માર્ક્સનો પાસા (Dice) વાળો સૌથી ફેવરિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#f0fdf4; padding:15px; border-radius:8px; border:1px solid #bbf7d0; margin-bottom:15px;'>
+                            <svg width="260" height="50" viewBox="0 0 260 50" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="5" y="5" width="35" height="35" fill="#ffffff" stroke="#1e293b" stroke-width="2" rx="4"/>
+                                <circle cx="22.5" cy="22.5" r="3" fill="#dc2626"/>
+                                <rect x="45" y="5" width="35" height="35" fill="#ffffff" stroke="#1e293b" stroke-width="2" rx="4"/>
+                                <circle cx="55" cy="15" r="3" fill="#1e293b"/><circle cx="70" cy="30" r="3" fill="#1e293b"/>
+                                <rect x="85" y="5" width="35" height="35" fill="#ffffff" stroke="#1e293b" stroke-width="2" rx="4"/>
+                                <circle cx="95" cy="15" r="3" fill="#dc2626"/><circle cx="102.5" cy="22.5" r="3" fill="#dc2626"/><circle cx="110" cy="30" r="3" fill="#dc2626"/>
+                                <rect x="125" y="5" width="35" height="35" fill="#ffffff" stroke="#1e293b" stroke-width="2" rx="4"/>
+                                <circle cx="135" cy="15" r="3" fill="#1e293b"/><circle cx="150" cy="15" r="3" fill="#1e293b"/><circle cx="135" cy="30" r="3" fill="#1e293b"/><circle cx="150" cy="30" r="3" fill="#1e293b"/>
+                                <rect x="165" y="5" width="35" height="35" fill="#ffffff" stroke="#1e293b" stroke-width="2" rx="4"/>
+                                <circle cx="175" cy="15" r="3" fill="#dc2626"/><circle cx="190" cy="15" r="3" fill="#dc2626"/><circle cx="182.5" cy="22.5" r="3" fill="#dc2626"/><circle cx="175" cy="30" r="3" fill="#dc2626"/><circle cx="190" cy="30" r="3" fill="#dc2626"/>
+                                <rect x="205" y="5" width="35" height="35" fill="#ffffff" stroke="#1e293b" stroke-width="2" rx="4"/>
+                                <circle cx="215" cy="12" r="3" fill="#1e293b"/><circle cx="215" cy="22.5" r="3" fill="#1e293b"/><circle cx="215" cy="33" r="3" fill="#1e293b"/><circle cx="230" cy="12" r="3" fill="#1e293b"/><circle cx="230" cy="22.5" r="3" fill="#1e293b"/><circle cx="230" cy="33" r="3" fill="#1e293b"/>
+                            </svg>
+                            <br><b style='color:#14532d;'>પાસા પરના કુલ અંકો: {1, 2, 3, 4, 5, 6}</b>
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>કુલ પરિણામ:</b><br>
+                            પાસા પર 1 થી 6 સુધીના અંકો હોય છે. તેથી <b>કુલ પરિણામ = 6</b> (દરેકના છેદમાં 6 આવશે).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(i) અવિભાજ્ય સંખ્યા મળે:</b><br>
+                            અવિભાજ્ય (Prime) સંખ્યાઓ = {2, 3, 5} છે. (યાદ રાખો: 1 એ અવિભાજ્ય નથી!)<br>
+                            તેથી સાનુકૂળ પરિણામ = <b>3</b>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span>
+                                &nbsp; = &nbsp;
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span><span>2 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#1d4ed8; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(ii) 2 અને 6 વચ્ચેની સંખ્યા મળે:</b><br>
+                            2 અને 6 ની <b>વચ્ચે</b> આવતી સંખ્યાઓ = {3, 4, 5}.<br>
+                            તેથી સાનુકૂળ પરિણામ = <b>3</b>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span>
+                                &nbsp; = &nbsp;
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span><span>2 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#c2410c; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(iii) અયુગ્મ સંખ્યા મળે:</b><br>
+                            અયુગ્મ (એકી) સંખ્યાઓ = {1, 3, 5}.<br>
+                            તેથી સાનુકૂળ પરિણામ = <b>3</b>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(C) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span>
+                                &nbsp; = &nbsp;
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span><span>2 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                            <div style='margin-top:10px; text-align:center;'>
+                                <span style='font-size:14px; color:#475569;'><i>(નોંધ: ત્રણેય ઘટનાઓનો જવાબ સરખો જ 1/2 આવે છે!)</i></span>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: 52 પત્તાના દાખલા માટે બેઝિક કોન્સેપ્ટ સમજો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 52 પત્તાની કુંડળી (આટલું યાદ રાખો એટલે માર્ક્સ પાક્કા!):</b><br><br>
+                            
+                            <div style='text-align:center; margin-bottom:10px;'>
+                                <svg width="240" height="50" viewBox="0 0 240 50" xmlns="http://www.w3.org/2000/svg">
+                                    <text x="20" y="35" font-size="30" fill="#000000">♠</text>
+                                    <text x="80" y="35" font-size="30" fill="#dc2626">♥</text>
+                                    <text x="140" y="35" font-size="30" fill="#000000">♣</text>
+                                    <text x="200" y="35" font-size="30" fill="#dc2626">♦</text>
+                                </svg>
+                            </div>
+                            
+                            <table style='width:100%; border-collapse:collapse; text-align:center; font-size:14px; margin-bottom:10px;'>
+                                <tr style='background-color:#fae8ff;'>
+                                    <th style='border:1px solid #d946ef; padding:5px;'>કાળી (Spade) ♠</th>
+                                    <th style='border:1px solid #d946ef; padding:5px; color:#dc2626;'>લાલ (Heart) ♥</th>
+                                    <th style='border:1px solid #d946ef; padding:5px;'>ફુલ્લી (Club) ♣</th>
+                                    <th style='border:1px solid #d946ef; padding:5px; color:#dc2626;'>ચોકટ (Diamond) ♦</th>
+                                </tr>
+                                <tr>
+                                    <td style='border:1px solid #f0abfc; padding:5px;'>13 પત્તા</td>
+                                    <td style='border:1px solid #f0abfc; padding:5px; color:#dc2626;'>13 પત્તા</td>
+                                    <td style='border:1px solid #f0abfc; padding:5px;'>13 પત્તા</td>
+                                    <td style='border:1px solid #f0abfc; padding:5px; color:#dc2626;'>13 પત્તા</td>
+                                </tr>
+                            </table>
+
+                            <b style='color:#be123c;'>🔥 વિદ્યાર્થીઓ અહી સૌથી મોટી ભૂલ કરે છે (ખાસ ધ્યાન આપો):</b><br>
+                            1. <b>"લાલનું પત્તું" (Heart):</b> માત્ર દિલ ♥ વાળા પત્તા, જેની સંખ્યા <b>13</b> છે.<br>
+                            2. <b>"લાલ રંગનું પત્તું" (Red Color):</b> આમાં લાલ ♥ અને ચોકટ ♦ બંને ભેગા થાય, એટલે કુલ સંખ્યા <b>26</b> (13+13) થાય!<br>
+                            3. <b>મુખમુદ્રાવાળા પત્તા (Face Cards):</b> જેમાં ચહેરો દોરેલો હોય (ગુલામ J, રાણી Q, રાજા K). દરેક ડીઝાઈનમાં 3 હોય, એટલે 4 ડીઝાઈનના કુલ <b>12</b> પત્તા (3 &times; 4) થાય.
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 14 (ભાગ 1): સરખી રીતે ચીપેલા 52 પત્તાંની થોકડીમાંથી એક પત્તું કાઢવામાં આવે છે. તો (i) લાલ રંગનો રાજા (ii) મુખમુદ્રાવાળું પત્તું (iii) લાલ રંગનું મુખમુદ્રાવાળું પત્તું મળવાની સંભાવના શોધો.", 
+                    question_desc: "52 પત્તાની ગેમ વાળો 4 માર્ક્સનો સૌથી અગત્યનો દાખલો (ભાગ 1)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>કુલ પરિણામ:</b><br>
+                            થોકડીમાં કુલ 52 પત્તા છે. તેથી <b>કુલ પરિણામ = 52</b> (દરેકના છેદમાં 52 આવશે).
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(i) લાલ રંગનો રાજા:</b><br>
+                            અહીં "લાલ રંગ" કીધું છે, એટલે લાલનો રાજા (♥) અને ચોકટનો રાજા (♦) એમ <b>2</b> રાજા આવે.<br>
+                            તેથી સાનુકૂળ પરિણામ = 2.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(i) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>52</span></span>
+                                &nbsp; = &nbsp;
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>26 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>26</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(ii) મુખમુદ્રાવાળું પત્તું (Face Card):</b><br>
+                            J, Q અને K (3 પત્તા) દરેક 4 ડીઝાઈનમાં હોય. એટલે કુલ 3 &times; 4 = <b>12</b> પત્તા થાય.<br>
+                            તેથી સાનુકૂળ પરિણામ = 12.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(ii) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>12</span><span>52</span></span><br><br>
+                                <b style='color:#047857;'>✂️ 4 ના ઘડિયાથી છેદ ઉડાડતા:</b><br>
+                                P(ii) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span><span>13 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#1d4ed8; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>13</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(iii) લાલ રંગનું મુખમુદ્રાવાળું પત્તું:</b><br>
+                            લાલ રંગની 2 ડીઝાઈન (♥ અને ♦) હોય છે. બંનેના 3-3 મુખમુદ્રાવાળા પત્તા ગણીએ તો 3 + 3 = <b>6</b> પત્તા થાય.<br>
+                            તેથી સાનુકૂળ પરિણામ = 6.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                P(iii) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6</span><span>52</span></span><br><br>
+                                <b style='color:#047857;'>✂️ 2 ના ઘડિયાથી છેદ ઉડાડતા:</b><br>
+                                P(iii) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>26 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#c2410c; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>26</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },                
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 15: પાંચ ચોકટનાં પત્તાં - દસ્સો, ગુલામ, રાણી, રાજા અને એક્કો - એ તમામના મુખ નીચે તરફ રાખીને સરખી રીતે ચીપેલાં છે. પછી એક પત્તું યાદચ્છિક રીતે ખેંચવામાં આવે છે. (i) પત્તું રાણીનું હશે તેની સંભાવના શું છે? (ii) જો રાણીને કાઢીને એક બાજુએ મૂકવામાં આવે અને બીજું પત્તું ખેંચવામાં આવે, તો તે (a) એક્કો હોય (b) રાણી હોય તેની સંભાવના કેટલી?", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો 5 પત્તા વાળો ખાસ કન્ફ્યુઝિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#991b1b;'>⚠️ NJ ચેતવણી (સૌથી મોટી ભૂલ અહી થાય છે!):</b><br>
+                            આ દાખલામાં આખી 52 પત્તાની થોકડી નથી આપી! રકમમાં ચોખ્ખું લખ્યું છે કે <b>માત્ર 5 જ પત્તા છે.</b> એટલે ભૂલથી પણ છેદમાં 52 ન લખતા!
+                        </div>
+
+                        <div style='text-align:center; background-color:#fff1f2; padding:15px; border-radius:8px; border:1px solid #fecdd3; margin-bottom:15px;'>
+                            <svg width="260" height="80" viewBox="0 0 260 80" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="10" y="10" width="40" height="60" fill="#ffffff" stroke="#e11d48" stroke-width="2" rx="4"/>
+                                <text x="15" y="25" font-size="12" font-weight="bold" fill="#be123c">10</text>
+                                <text x="23" y="45" font-size="20" fill="#be123c">♦</text>
+                                
+                                <rect x="60" y="10" width="40" height="60" fill="#ffffff" stroke="#e11d48" stroke-width="2" rx="4"/>
+                                <text x="65" y="25" font-size="12" font-weight="bold" fill="#be123c">J</text>
+                                <text x="73" y="45" font-size="20" fill="#be123c">♦</text>
+                                
+                                <rect x="110" y="10" width="40" height="60" fill="#ffffff" stroke="#e11d48" stroke-width="2" rx="4"/>
+                                <text x="115" y="25" font-size="12" font-weight="bold" fill="#be123c">Q</text>
+                                <text x="123" y="45" font-size="20" fill="#be123c">♦</text>
+                                
+                                <rect x="160" y="10" width="40" height="60" fill="#ffffff" stroke="#e11d48" stroke-width="2" rx="4"/>
+                                <text x="165" y="25" font-size="12" font-weight="bold" fill="#be123c">K</text>
+                                <text x="173" y="45" font-size="20" fill="#be123c">♦</text>
+                                
+                                <rect x="210" y="10" width="40" height="60" fill="#ffffff" stroke="#e11d48" stroke-width="2" rx="4"/>
+                                <text x="215" y="25" font-size="12" font-weight="bold" fill="#be123c">A</text>
+                                <text x="223" y="45" font-size="20" fill="#be123c">♦</text>
+                            </svg>
+                            <br><b style='color:#be123c;'>કુલ પત્તા = 5</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(i) ખેંચેલું પત્તું રાણી (Q) નું હશે તેની સંભાવના:</b><br>
+                            કુલ પત્તા = <b>5</b>.<br>
+                            આ 5 પત્તામાં રાણીનું પત્તું <b>1</b> જ છે. તેથી સાનુકૂળ પરિણામ = 1.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8; font-size:20px;'>P(i) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>5</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(ii) રાણીને કાઢીને એક બાજુએ મૂક્યા પછી:</b><br>
+                            હવે રાણીને કાઢી નાખી છે, તેથી <b>નવા કુલ પત્તા = 5 - 1 = <span style='color:#dc2626;'>4</span> થશે!</b> (આ નવો છેદ બનશે).
+                            
+                            <div style='margin-top:10px; padding:10px; background-color:#ffedd5; border-radius:4px;'>
+                                <b>(a) બીજું પત્તું એક્કો (A) હોય:</b><br>
+                                બાકી રહેલા 4 પત્તામાં એક્કો <b>1</b> છે.<br>
+                                <b style='color:#c2410c; font-size:20px;'>P(a) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>4</span></span></b>
+                            </div>
+                            
+                            <div style='margin-top:10px; padding:10px; background-color:#ffedd5; border-radius:4px;'>
+                                <b>(b) બીજું પત્તું રાણી (Q) હોય:</b><br>
+                                આપણે પહેલેથી જ રાણીને કાઢીને બાજુ પર મૂકી દીધી છે! એટલે હવે ઢગલામાં રાણી <b>છે જ નહિ (0)</b>.<br>
+                                P(b) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0</span><span>4</span></span> &nbsp;=&nbsp; <b style='color:#dc2626; font-size:20px;'>0 (અશક્ય ઘટના)</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 16: ખામીવાળી 12 પેન આકસ્મિક રીતે 132 સારી પેન સાથે ભળી ગઈ છે. એવું શક્ય નથી કે કેવળ પેનને જોઈને જ કહી શકાય કે પેન ખામીયુક્ત છે કે નહિ. આ જથ્થામાંથી એક પેન યાદચ્છિક રીતે કાઢવામાં આવે છે. કાઢવામાં આવેલી પેન ખામીરહિત (સારી) છે તેની સંભાવના શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 2 માર્ક્સનો પેન વાળો દાખલો (ખાસ છેદ ઉડાડવાની ટ્રીક સાથે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ શોધવા):</b><br>
+                            ખામીવાળી (ખરાબ) પેન = 12<br>
+                            ખામીરહિત (સારી) પેન = 132<br>
+                            <b>કુલ પેન = 12 + 132 = <span style='color:#dc2626; font-size:18px;'>144</span></b><br>
+                            <span style='color:#0f172a;'>તેથી <b>કુલ પરિણામ = 144</b> (આ છેદમાં આવશે).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>કાઢવામાં આવેલી પેન ખામીરહિત (સારી) છે તેની સંભાવના:</b><br>
+                            ધારો કે ઘટના A = પસંદ કરેલી પેન સારી હોય.<br>
+                            જથ્થામાં <b>સારી પેનની સંખ્યા 132</b> છે. તેથી સાનુકૂળ પરિણામ = 132.<br><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span> 
+                                &nbsp; = &nbsp; 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>132</span><span>144</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક (12 નો ઘડિયો આવડે છે ને? 12 &times; 11 = 132, અને 12 &times; 12 = 144):</b><br><br>
+
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11 &times; <del style='color:#dc2626; font-weight:bold;'>12</del></span><span>12 &times; <del style='color:#dc2626; font-weight:bold;'>12</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#1d4ed8; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>12</span></span></b>
+                            </div>
+                        </div>
+
+                    </div>
+                    `
                 }
+             
+             
              
              
              
