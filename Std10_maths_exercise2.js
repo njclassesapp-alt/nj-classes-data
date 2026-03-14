@@ -6366,7 +6366,210 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 13.2 પ્રશ્ન 4 (ભાગ 1 - બહુલક): નીચેનું વિતરણ ભારતની ઉચ્ચતર માધ્યમિક શાળાઓમાં રાજ્યવાર શિક્ષક-વિદ્યાર્થી ગુણોત્તરનું વિતરણ આપે છે. આ માહિતીનો બહુલક શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 4 માર્ક્સનો બહુલક અને મધ્યક બંને શોધવા વાળો મોટો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન:</b> બહુલક માટે કોઈ નવું કોષ્ટક બનાવવાનું નથી. નીચે આપેલા કોષ્ટકમાંથી સીધો જ સૌથી મોટો આંકડો (રાજા - f₁) શોધી લો!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: કોષ્ટક પરથી કિંમતો નક્કી કરવી</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>પ્રતિ શિક્ષક વિદ્યાર્થીઓની સંખ્યા</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>રાજ્યો/કે.શા.પ્રદેશની સંખ્યા (f<sub>i</sub>)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>15 - 20</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>20 - 25</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>8</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>25 - 30</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#2563eb;'>9 <b>(f₀)</b></td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>30 - 35 <br><span style='font-size:12px; color:#c2410c;'>(બહુલક વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#dc2626; font-size:18px;'>10 (f₁)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>35 - 40</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#16a34a;'>3 <b>(f₂)</b></td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>40 - 45</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>45 - 50</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>50 - 55</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>અહીં સૌથી મોટી આવૃત્તિ <b>10</b> છે, તેથી <b>f₁ = 10</b>.</li>
+                                    <li>તેની આગળની આવૃત્તિ <b>f₀ = 9</b> અને પાછળની આવૃત્તિ <b>f₂ = 3</b>.</li>
+                                    <li>સૌથી મોટી આવૃત્તિ 10 ની સામેનો વર્ગ <b>30 - 35</b> છે, જેને <b>બહુલક વર્ગ</b> કહેવાય.</li>
+                                    <li>આથી તેની અધઃસીમા <b>l = 30</b> થશે.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 5</b> છે. (35 - 30 = 5)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>Z = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f₁ - f₀</span><span>2f₁ - f₀ - f₂</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                Z = 30 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>10 - 9</span><span>2(10) - 9 - 3</span></span> <span style='font-size:28px;'>)</span> &times; 5<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ: 10 - 9 = 1. છેદ: 2(10) = 20. અને -9 - 3 નો સરવાળો -12 થાય)</i></span><br>
+                                Z = 30 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>20 - 12</span></span> <span style='font-size:24px;'>)</span> &times; 5<br><br>
+
+                                Z = 30 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>8</span></span> <span style='font-size:24px;'>)</span> &times; 5<br><br>
+
+                                Z = 30 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>8</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(5 નો 8 વડે ભાગાકાર કરતા 0.625 આવશે)</i></span><br>
+                                Z = 30 + 0.625<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>Z = 30.625 &approx; 30.6</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>જવાબ 1:</b> શિક્ષક-વિદ્યાર્થી ગુણોત્તરનો બહુલક <b>30.6</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (મધ્યક માટે કઈ રીત?):</b><br>
+                            અહીં મધ્યકિંમત (x<sub>i</sub>) 17.5, 22.5 વગેરે પોઈન્ટમાં આવશે. સીધી રીતમાં ગુણાકાર અઘરા પડે. તેથી <b>'પદ-વિચલનની રીત'</b> વાપરીશું, જેથી પોઈન્ટ ગાયબ થઈ જશે અને ગણતરી રમત બની જશે!
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>મધ્યકની ગણતરી (પદ-વિચલનની રીત)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>ધારો કે મધ્યક <b>A = 32.5</b> અને વર્ગલંબાઈ <b>h = 5</b> છે.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>વિદ્યાર્થી સંખ્યા</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>રાજ્યો (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>u<sub>i</sub> = (x<sub>i</sub>-A)/5</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub>u<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>15 - 20</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>17.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-9</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>20 - 25</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>8</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>22.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-16</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>25 - 30</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>27.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-9</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>30 - 35</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>10</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; background-color:#fef08a; border-radius:4px;'><b>32.5 (A)</b></td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>35 - 40</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>37.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>3</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>40 - 45</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>42.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>45 - 50</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>47.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>50 - 55</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>52.5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>8</td>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe; font-weight:bold;'>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>35</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>u<sub>i</sub> = -23</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -34, અને + વાળાનો 11. એટલે 11 - 34 = -23)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span> <span style='font-size:24px;'>)</span> &times; h<br><br>
+                                x̄ = 32.5 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-23</span><span>35</span></span> <span style='font-size:24px;'>)</span> &times; 5<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(5 વડે 35 ને ઉડાડતા છેદમાં 7 વધશે)</i></span><br>
+                                x̄ = 32.5 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>23</span><span>7</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(23 નો 7 વડે ભાગાકાર કરતા 3.285... આવશે)</i></span><br>
+                                x̄ = 32.5 - 3.28<br><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>x̄ = 29.22</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdfa; border-left:4px solid #0891b2; padding:10px;'>
+                            <b style='color:#155e75; font-size:18px;'>બંને માપનું અર્થઘટન (Interpretation):</b><br>
+                            <ul style='margin-bottom:0; color:#0f172a;'>
+                                <li><b>બહુલક (30.6):</b> મોટાભાગનાં રાજ્યોમાં પ્રતિ શિક્ષક વિદ્યાર્થીઓની સંખ્યા 30.6 છે.</li>
+                                <li><b>મધ્યક (29.22):</b> બધાં જ રાજ્યોમાં સરેરાશ પ્રતિ શિક્ષક વિદ્યાર્થીઓની સંખ્યા 29.22 છે.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
                 }
+             
+             
              
              
              
