@@ -3915,9 +3915,252 @@
                         </div>
                     </div>
                     `
+                },
+                 
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: આંકડા મોટા હોય ત્યારે કઈ રીત વાપરવી?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 પદ-વિચલનની રીત (Step-Deviation) એ આંકડાશાસ્ત્રનો રાજા છે!</b><br>
+                            જ્યારે વર્ગના આંકડા <b>500 થી 600</b> જેવા મોટા હોય, ત્યારે સીધી રીતમાં <b>590 &times; 10</b> જેવા મોટા ગુણાકાર કરવા પડે છે, જેમાં સમય બગડે છે અને ભૂલ પડવાની શક્યતા 90% વધી જાય છે.<br><br>
+                            આવા સમયે જો તમે <b>પદ-વિચલનની રીત</b> વાપરો, તો મોટા આંકડાઓ જાદુઈ રીતે <b>-2, -1, 0, 1, 2</b> માં ફેરવાઈ જાય છે! એટલે બોર્ડની પરીક્ષામાં આવા મોટા દાખલા માટે હંમેશા 'પદ-વિચલનની રીત' જ પસંદ કરવી. 
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 13.1 પ્રશ્ન 2 (સીધી રીત): એક ફેક્ટરીમાં 50 કારીગરોના દૈનિક વેતનના નીચે આપેલા આવૃત્તિ-વિતરણનો વિચાર કરો. યોગ્ય રીતનો ઉપયોગ કરીને કારીગરોના દૈનિક વેતનનો મધ્યક શોધો.", 
+                    question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો મોટા આંકડા (Large Numbers) વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#991b1b;'>⚠️ NJ ચેતવણી:</b> નીચે 'સીધી રીત' ગણીને બતાવી છે, પણ તેમાં જુઓ કે ગુણાકાર કેટલા મોટા થઈ જાય છે! પરીક્ષામાં સમય બચાવવા આ રીતનો ઉપયોગ આવા દાખલામાં <b>ટાળવો</b>.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>રીત 1: સીધી રીત (Direct Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>મધ્યકિંમત (x<sub>i</sub>) શોધવા: (નીચલી હદ + ઉપલી હદ) / 2. ઉદાહરણ: (500 + 520) / 2 = 510.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>દૈનિક વેતન (₹ માં)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>કારીગરોની સંખ્યા (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>f<sub>i</sub>x<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>500 - 520</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>12</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>510</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>6120</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>520 - 540</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>14</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>530</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>7420</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>540 - 560</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>8</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>550</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>4400</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>560 - 580</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>570</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>3420</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>580 - 600</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>10</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>590</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>5900</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ (Total)</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#1d4ed8;'>&Sigma;f<sub>i</sub> = 50</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>x<sub>i</sub> = 27260</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>x<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br><br>
+                                x̄ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>27260</span><span>50</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(મીંડું-મીંડું ઉડી જશે. 2726 નો 5 વડે ભાગાકાર કરતા)</i></span><br>
+                                <b style='color:#15803d; font-size:20px;'>x̄ = ₹ 545.20</b>
+                            </div>
+                        </div>
+                    </div>
+                    
+           
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>રીત 2: ધારેલા મધ્યકની રીત (Assumed Mean Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>ધારો કે મધ્યક <b>A = 550</b> છે. (વચ્ચેની મધ્યકિંમત)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub></th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>x<sub>i</sub></th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>d<sub>i</sub> = x<sub>i</sub> - A</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub>d<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>500 - 520</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>12</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>510</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>510 - 550 = -40</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-480</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>520 - 540</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>14</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>530</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>530 - 550 = -20</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-280</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>540 - 560</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>8</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; background-color:#fef08a; border-radius:4px;'><b>550 (A)</b></td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>550 - 550 = 0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>560 - 580</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>570</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>570 - 550 = 20</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>120</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>580 - 600</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>10</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>590</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>590 - 550 = 40</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>400</td>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe; font-weight:bold;'>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>50</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>d<sub>i</sub> = -240</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -760, અને + વાળાનો 520. એટલે 520 - 760 = -240)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>d<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br><br>
+                                x̄ = 550 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-240</span><span>50</span></span> <span style='font-size:24px;'>)</span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(મીંડું-મીંડું ઉડશે, -24 / 5 = -4.8)</i></span><br>
+                                x̄ = 550 - 4.8<br><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>x̄ = ₹ 545.20</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <div style='background-color:#fef08a; padding:5px; border-radius:4px; margin-bottom:10px; font-weight:bold; color:#b45309;'>
+                                👑 બોર્ડની પરીક્ષા માટે આ સૌથી બેસ્ટ રીત છે!
+                            </div>
+                            <b style='color:#c2410c; font-size:18px;'>રીત 3: પદ-વિચલનની રીત (Step-Deviation Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>ધારો કે મધ્યક <b>A = 550</b> છે. અહી વર્ગલંબાઈ <b>h = 20</b> છે. </span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#ffedd5; color:#9a3412; font-weight:bold;'>
+                                        <th style='border:1px solid #f97316; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>f<sub>i</sub></th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>x<sub>i</sub></th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>u<sub>i</sub> = (x<sub>i</sub>-A)/h</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>f<sub>i</sub>u<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>500 - 520</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>12</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>510</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>-2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#dc2626;'>-24</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>520 - 540</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>14</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>530</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>-1</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#dc2626;'>-14</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>540 - 560</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>8</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; background-color:#fef08a; border-radius:4px;'><b>550 (A)</b></td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>560 - 580</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>6</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>570</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>1</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#2563eb;'>6</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>580 - 600</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>10</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>590</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#2563eb;'>20</td>
+                                    </tr>
+                                    <tr style='background-color:#ffedd5; font-weight:bold;'>
+                                        <td style='border:1px solid #f97316; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>50</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>-</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>-</td>
+                                        <td style='border:1px solid #f97316; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>u<sub>i</sub> = -12</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -38, અને + વાળાનો 26. એટલે 26 - 38 = -12)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span> <span style='font-size:24px;'>)</span> &times; h<br><br>
+                                x̄ = 550 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-12</span><span>50</span></span> <span style='font-size:24px;'>)</span> &times; 20<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(20 નો 0 અને છેદના 50 નો 0 ઉડી જશે)</i></span><br>
+                                x̄ = 550 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>12 &times; 2</span><span>5</span></span><br><br>
+                                x̄ = 550 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>24</span><span>5</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(24 / 5 = 4.8)</i></span><br>
+                                x̄ = 550 - 4.8<br><br>
+                                <b style='color:#c2410c; font-size:20px;'>x̄ = ₹ 545.20</b>
+                            </div>
+                        </div>
+
+                        <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                            <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> કારીગરોના દૈનિક વેતનનો મધ્યક <b>₹ 545.20</b> છે.
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+                 
+            
+        
+             
+            
+        
              
             
         
