@@ -9031,6 +9031,100 @@
                     </div>
                     `
                 }
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 22: બે પાસા એકસાથે ઉછાળવામાં આવે છે. (i) નીચે આપેલું કોષ્ટક પૂર્ણ કરો (જેમાં ઘટના = 'બંને પાસા પરના અંકોનો સરવાળો' આપેલી છે). (ii) એક વિદ્યાર્થી દલીલ કરે છે કે 11 શક્ય પરિણામો 2,3,4,5,6,7,8,9,10,11,12 છે, તેથી તેમાંના પ્રત્યેકની સંભાવના 1/11 છે. શું તમે આ દલીલ સાથે સહમત છો? તમારો જવાબ સમર્થન કરો.", 
+                    question_desc: "2024 બોર્ડ માટે 4 માર્ક્સનો બે પાસાના સરવાળા વાળો સૌથી મોટો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ શોધવા):</b><br>
+                            બે પાસા ઉછાળીએ એટલે કુલ <b>6 &times; 6 = <span style='color:#dc2626;'>36</span></b> પરિણામ મળે. (કોષ્ટકમાં દરેકના છેદમાં 36 આવશે).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1e3a8a; font-size:18px;'>(i) કોષ્ટક પૂર્ણ કરવું:</b><br>
+                            <span style='font-size:14px; color:#0f172a;'><i>(ઉપર આપેલી માસ્ટર ટિપ્સના ટેબલ પરથી સાનુકૂળ પરિણામો ગણીને સંભાવના લખવાની છે. છેદમાં 36 રાખીને સાદુંરૂપ આપ્યું છે.)</i></span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>પાસા પરનો સરવાળો</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>સાનુકૂળ પરિણામો</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>સંભાવના (P)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(1,1) &rarr; કુલ 1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'><b>1 / 36</b> (આપેલ છે)</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(1,2), (2,1) &rarr; કુલ 2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2/36 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>18 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span> = <b style='color:#16a34a;'>1 / 18</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(1,3), (2,2), (3,1) &rarr; કુલ 3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3/36 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span><span>12 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span></span> = <b style='color:#16a34a;'>1 / 12</b></td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(1,4), (2,3), (3,2), (4,1) &rarr; 4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4/36 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span><span>9 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span></span> = <b style='color:#16a34a;'>1 / 9</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(1,5), (2,4), (3,3), (4,2), (5,1) &rarr; 5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'><b style='color:#16a34a;'>5 / 36</b></td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>7</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(1,6), (2,5), (3,4), (4,3), (5,2), (6,1) &rarr; 6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6/36 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>6</del></span><span>6 &times; <del style='color:#dc2626; font-weight:bold;'>6</del></span></span> = <b style='color:#16a34a;'>1 / 6</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>8</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(2,6), (3,5), (4,4), (5,3), (6,2) &rarr; 5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'><b>5 / 36</b> (આપેલ છે)</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(3,6), (4,5), (5,4), (6,3) &rarr; 4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4/36 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span><span>9 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span></span> = <b style='color:#16a34a;'>1 / 9</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>10</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(4,6), (5,5), (6,4) &rarr; 3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3/36 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span><span>12 &times; <del style='color:#dc2626; font-weight:bold;'>3</del></span></span> = <b style='color:#16a34a;'>1 / 12</b></td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>11</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(5,6), (6,5) &rarr; 2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2/36 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>18 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span> = <b style='color:#16a34a;'>1 / 18</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>12</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>(6,6) &rarr; 1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'><b>1 / 36</b> (આપેલ છે)</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(ii) વિદ્યાર્થીની દલીલ:</b><br>
+                            વિદ્યાર્થી કહે છે કે 11 સરવાળા છે, એટલે દરેકની સંભાવના 1/11 હોવી જોઈએ. શું આપણે સહમત છીએ?<br><br>
+                            <b style='color:#b91c1c; font-size:18px;'>જવાબ: ના, હું આ દલીલ સાથે સહમત નથી.</b><br><br>
+                            <b style='color:#c2410c;'>કારણ (સમર્થન):</b><br>
+                            કારણ કે આ 11 સરવાળાઓ (2 થી 12) એ <b>સમસંભાવી (Equally likely) પરિણામો નથી!</b><br>
+                            ઉપરના કોષ્ટકમાં આપણે જોઈ શકીએ છીએ કે સરવાળો 2 આવવાની સંભાવના (1/36) છે, જ્યારે સરવાળો 7 આવવાની સંભાવના (6/36) છે. દરેક સરવાળા માટે સાનુકૂળ પરિણામો અલગ-અલગ છે, તેથી તેમની સંભાવના 1/11 ન હોઈ શકે.
+                        </div>
+
+                    </div>
+                    `
+                }
              
              
              
