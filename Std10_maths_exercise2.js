@@ -7054,7 +7054,7 @@
                     `
                 },
                 { 
-                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 2 (ભાગ 1 - કોષ્ટક): જો નીચે આપેલ આવૃત્તિ-વિતરણનો મધ્યસ્થ 28.5 હોય, તો x અને y નાં મૂલ્યો શોધો. (આપેલ છે: કુલ આવૃત્તિ = 60)", 
+                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 2 : જો નીચે આપેલ આવૃત્તિ-વિતરણનો મધ્યસ્થ 28.5 હોય, તો x અને y નાં મૂલ્યો શોધો. (આપેલ છે: કુલ આવૃત્તિ = 60)", 
                     question_desc: "🔥 માર્ચ 2024 બોર્ડ પરીક્ષામાં પૂછાયેલો 4 માર્ક્સનો 100% મોસ્ટ IMP દાખલો!",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
@@ -7131,8 +7131,50 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>સ્ટેપ 3: સૂત્ર દ્વારા x ની કિંમત શોધવી</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#e0f2fe; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>M = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                28.5 = 20 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30 - (5 + x)</span><span>20</span></span> <span style='font-size:28px;'>)</span> &times; 10<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(1. 20 ને ડાબી બાજુ લઈ જાવ. 2. ગુણાકારનો 10 અને છેદનો 20 ઉડાડતા છેદમાં 2 વધશે. 3. કૌંસ છોડતા નિશાની બદલાશે)</i></span><br>
+                                28.5 - 20 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>30 - 5 - x</span><span>2</span></span><br><br>
+
+                                8.5 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25 - x</span><span>2</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદનો 2 ડાબી બાજુ 8.5 સાથે ગુણાશે. 8.5 &times; 2 = 17)</i></span><br>
+                                17 = 25 - x<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(-x ડાબી બાજુ જશે અને 17 જમણી બાજુ જશે)</i></span><br>
+                                x = 25 - 17<br><br>
+
+                                <b style='color:#dc2626; font-size:24px;'>x = 8</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdfa; border-left:4px solid #0d9488; padding:10px;'>
+                            <b style='color:#0f766e; font-size:18px;'>સ્ટેપ 4: y ની કિંમત શોધવી</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>x = 8 ની કિંમત આપણે આગળ મેળવેલા <b>સમીકરણ (1)</b> માં મૂકીએ:</span>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ccfbf1; padding:15px; border-radius:5px;'>
+                                x + y = 15<br><br>
+                                8 + y = 15<br><br>
+                                y = 15 - 8<br><br>
+                                <b style='color:#dc2626; font-size:24px;'>y = 7</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> ખૂટતી આવૃત્તિઓ <b>x = 8</b> અને <b>y = 7</b> છે.
+                            </div>
+                        </div>
+                    </div>
                     `
                 }
+             
              
              
              
