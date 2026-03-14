@@ -7926,120 +7926,92 @@
              ]
         },
           
+                
         // ------------------------------------
-        // પ્રકરણ 14: સંભાવના (Probability) - સ્વાધ્યાય 14.1 (ભાગ 1)
+        // પ્રકરણ 14: સંભાવના (સ્વાધ્યાય 14.1 - ભાગ 1)
         // ------------------------------------
         "14": {
-            "chapterName": "પ્રકરણ 14 (સ્વાધ્યાય 14.1 - ભાગ 1)",
-            "chapterTitle": "સંભાવનાનો પરિચય અને છેદ ઉડાડવાની માસ્ટર ટ્રીક્સ",
+            "chapterName": "પ્રકરણ 14 (સંભાવના)",
+            "chapterTitle": "સ્વાધ્યાય 14.1 - પાયાની સમજૂતી અને પ્રશ્ન 1",
             "qa_list": [
                 {
-                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: સંભાવના (Probability) શું છે અને છેદ કઈ રીતે ઉડાડવા?",
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: સંભાવના શોધવાનું સૂત્ર અને છેદ ઉડાડવાની જાદુઈ રીત",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
                         <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
-                            <b style='color:#86198f; font-size:18px;'>💡 સંભાવનાનો એક જ ગોલ્ડન નિયમ:</b><br><br>
-                            કોઈપણ દાખલામાં સૌથી પહેલા રકમ વાંચીને બે વસ્તુ શોધવાની:<br>
-                            1. <b>કુલ પરિણામ (Total Outcomes):</b> કુલ કેટલી શક્યતાઓ છે? (આ આંકડો હંમેશા <b>છેદમાં/નીચે</b> આવશે).<br>
-                            2. <b>સાનુકૂળ પરિણામ (Favorable Outcomes):</b> રકમમાં આપણને શું શોધવાનું કીધું છે? તે કેટલી વાર આવે છે? (આ આંકડો હંમેશા <b>અંશમાં/ઉપર</b> આવશે).<br><br>
+                            <b style='color:#86198f; font-size:16px;'>💡 બેઝિક કોન્સેપ્ટ સમજો:</b><br><br>
+                            1. <b>કુલ પરિણામ (Total Outcomes):</b> રકમમાં આપેલી વસ્તુઓની કુલ સંખ્યા (જેમ કે પાસા પર 6 અંકો હોય, સિક્કામાં 2 બાજુ હોય). આ હંમેશા <b>છેદ (નીચે)</b> માં આવે.<br>
+                            2. <b>સાનુકૂળ પરિણામ (Favorable Outcomes):</b> રકમમાં આપણને જે શોધવાનું કીધું છે, તે કેટલી વાર આવે છે તેની સંખ્યા. આ હંમેશા <b>અંશ (ઉપર)</b> માં આવે.<br><br>
                             
-                            <div style='background-color:#f3e8ff; border:1px solid #c084fc; padding:10px; border-radius:5px; text-align:center; font-size:18px; color:#6b21a8; margin:10px 0;'>
-                                <b>P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #6b21a8; display:block; padding:0 3px;'>સાનુકૂળ પરિણામોની સંખ્યા</span><span>કુલ પરિણામોની સંખ્યા</span></span></b>
+                            <div style='background-color:#fce7f3; padding:10px; border-radius:5px; text-align:center; margin-bottom:10px;'>
+                                <b style='color:#be123c; font-size:16px;'>સંભાવના P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:2px solid #be123c; display:block; padding:0 5px;'>ઘટનાના સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span></b>
                             </div>
 
-                            <b style='color:#dc2626; font-size:16px;'>🔥 છેદ ઉડાડવાની જાદુઈ ટ્રીક (નબળા વિદ્યાર્થીઓ માટે ખાસ):</b><br>
-                            જો તમને ડાયરેક્ટ છેદ ઉડાડતા ન આવડતું હોય, તો આંકડાઓના ગુણાકાર સ્વરૂપે ભાગ પાડી દેવા. <br>
-                            <b>ઉદાહરણ:</b> ધારો કે તમારો જવાબ <b>4/6</b> આવ્યો છે.<br>
-                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; text-align:center; font-size:18px; margin-top:5px; color:#0f172a;'>
-                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>6</span></span>
-                                &nbsp;=&nbsp; 
-                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2 &times; <s style='color:#dc2626; font-weight:bold;'>2</s></span><span>3 &times; <s style='color:#dc2626; font-weight:bold;'>2</s></span></span>
-                                &nbsp;=&nbsp; 
-                                <b style='color:#16a34a;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #16a34a; display:block; padding:0 3px;'>2</span><span>3</span></span></b>
-                            </div>
-                            <i>(અહીં ઉપર-નીચેથી સરખો આંકડો 2 ઉડી જશે, એટલે સીધો સાચો જવાબ 2/3 મળી જશે!)</i> 
-                            આ જ ટ્રીકથી આપણે આખા ચેપ્ટરના દાખલા ગણીશું.
+                            <b style='color:#047857; font-size:16px;'>✂️ છેદ ઉડાડવાની ટ્રીક (નબળા વિદ્યાર્થીઓ માટે ખાસ):</b><br>
+                            જો જવાબ <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>6</span></span> આવતો હોય, તો ડાયરેક્ટ છેદ ઉડાડવાને બદલે આપણે તેના ભાગ પાડીશું:<br><br>
+                            
+                            <div style='background-color:#ecfdf5; padding:10px; border-radius:5px; display:inline-block;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>6</span></span> 
+                                &nbsp; = &nbsp; 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>3 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span> 
+                                &nbsp; = &nbsp; 
+                                <b style='color:#15803d; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>3</span></span></b>
+                            </div><br><br>
+                            <span style='font-size:14px; color:#475569;'>(અહીં ઉપર-નીચે સરખા 2 આવતા હોવાથી લાલ કલરથી તે ઉડી ગયા!) આખા ચેપ્ટરમાં આપણે આ જ રીતે શાંતિથી છેદ ઉડાડીશું જેથી કોઈ ભૂલ ન પડે!</span>
                         </div>
                     </div>
                     `
                 },
                 { 
-                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 13 (પાસા વાળો દાખલો): પાસાને એક વાર ફેંકવામાં આવે છે, તો (i) અવિભાજ્ય સંખ્યા (ii) 2 અને 6 ની વચ્ચેની સંખ્યા (iii) અયુગ્મ સંખ્યા મળવાની સંભાવના શોધો.", 
-                    question_desc: "2024 બોર્ડ પરીક્ષામાં વારંવાર પૂછાતો 3 માર્ક્સનો સૌથી હિટ દાખલો",
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 1: નીચેનાં વિધાનો પૂર્ણ કરો (ખાલી જગ્યા પૂરો).", 
+                    question_desc: "બોર્ડની પરીક્ષામાં 1 માર્ક્સ (હેતુલક્ષી) માટે સૌથી વધુ પૂછાતા નિયમો",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
                         
-                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
-                            <b style='color:#b45309;'>💡 સ્ટેપ 1: કુલ પરિણામ શોધવા</b><br>
-                            લુડો કે સાપસીડીના પાસા (Die) પર <b>1, 2, 3, 4, 5, 6</b> એમ કુલ 6 અંકો લખેલા હોય છે.<br>
-                            તેથી આપણો <b>કુલ પરિણામોની સંખ્યા = 6</b> થશે. (એટલે કે દરેકના છેદમાં 6 જ આવશે!)
-                        </div>
-
-                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:15px;'>
-                            <b style='color:#16a34a; font-size:16px;'>(i) અવિભાજ્ય સંખ્યા (Prime Number) મળવાની સંભાવના:</b><br>
-                            <ul style='margin-bottom:5px; padding-left:20px; color:#0f172a; line-height:1.6;'>
-                                <li>અવિભાજ્ય સંખ્યા કોને કહેવાય? જે કોઈના ઘડિયામાં ન આવે તે (જેના ભાગ ન પડે). 1 ને અવિભાજ્ય ગણાતી નથી.</li>
-                                <li>પાસા પર 1 થી 6 માં અવિભાજ્ય સંખ્યાઓ કઈ છે? <b>2, 3 અને 5</b>.</li>
-                                <li>આવી કુલ કેટલી સંખ્યાઓ મળી? <b>3</b>.</li>
-                                <li>તેથી, <b>સાનુકૂળ પરિણામ = 3</b>.</li>
-                            </ul>
-                            
-                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
-                                <b style='font-size:16px; color:#14532d;'>P(અવિભાજ્ય સંખ્યા) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #14532d; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span></b><br><br>
-                                
-                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span><br><br>
-
-                                <span style='color:#047857; font-size:14px;'><i>(છેદ ઉડાડવાની ટ્રીક: 3 એટલે 3 &times; 1, અને 6 એટલે 3 &times; 2)</i></span><br>
-                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 1</span><span><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 2</span></span><br><br>
-
-                                <b style='color:#15803d; font-size:22px;'>જવાબ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #15803d; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d;'>(i) ઘટના E ની સંભાવના + ઘટના 'E નહિ' ની સંભાવના = ________.</b><br>
+                            <div style='margin-top:8px; padding:8px; background-color:#dcfce7; border-radius:4px;'>
+                                <b>જવાબ: <span style='color:#dc2626; font-size:18px;'>1</span></b><br>
+                                <span style='font-size:14px; color:#0f172a;'><b>સમજૂતી:</b> કોઈ ઘટના બને (P(E)) અને તે જ ઘટના ન બને (P(E̅)), બંનેનો સરવાળો હંમેશા 1 જ થાય છે.</span>
                             </div>
                         </div>
 
-                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:15px;'>
-                            <b style='color:#1d4ed8; font-size:16px;'>(ii) 2 અને 6 ની વચ્ચેની સંખ્યા મળવાની સંભાવના:</b><br>
-                            <ul style='margin-bottom:5px; padding-left:20px; color:#0f172a; line-height:1.6;'>
-                                <li>2 અને 6 ની બરાબર વચ્ચે કયા કયા આંકડા આવે? <b>3, 4 અને 5</b>.</li>
-                                <li>આવી કુલ કેટલી સંખ્યાઓ મળી? <b>3</b>.</li>
-                                <li>તેથી, <b>સાનુકૂળ પરિણામ = 3</b>.</li>
-                            </ul>
-                            
-                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#dbeafe; padding:15px; border-radius:5px;'>
-                                <b style='font-size:16px; color:#1e3a8a;'>P(2 અને 6 ની વચ્ચેની સંખ્યા) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #1e3a8a; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span></b><br><br>
-                                
-                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span><br><br>
-
-                                <span style='color:#047857; font-size:14px;'><i>(ફરીથી તે જ રીતે છેદ ઉડાડતા)</i></span><br>
-                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 1</span><span><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 2</span></span><br><br>
-
-                                <b style='color:#1d4ed8; font-size:22px;'>જવાબ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a;'>(ii) ઉદભવી ન શકે તેવી ઘટનાની સંભાવના ________ છે. આવી ઘટનાને ________ કહે છે.</b><br>
+                            <div style='margin-top:8px; padding:8px; background-color:#dbeafe; border-radius:4px;'>
+                                <b>જવાબ: <span style='color:#dc2626; font-size:18px;'>0, અશક્ય ઘટના</span></b><br>
+                                <span style='font-size:14px; color:#0f172a;'><b>સમજૂતી:</b> જે ઘટના ક્યારેય બનવાની જ નથી (જેમ કે સૂર્ય પશ્ચિમમાં ઊગે), તેની સંભાવના 0 (શૂન્ય) હોય અને તેને અશક્ય ઘટના કહેવાય.</span>
                             </div>
                         </div>
 
-                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
-                            <b style='color:#c2410c; font-size:16px;'>(iii) અયુગ્મ (એકી) સંખ્યા મળવાની સંભાવના:</b><br>
-                            <ul style='margin-bottom:5px; padding-left:20px; color:#0f172a; line-height:1.6;'>
-                                <li>અયુગ્મ એટલે એકી સંખ્યાઓ (જે 2 ના ઘડિયામાં ન આવે).</li>
-                                <li>પાસા પર 1 થી 6 માં એકી સંખ્યાઓ કઈ છે? <b>1, 3 અને 5</b>.</li>
-                                <li>આવી કુલ કેટલી સંખ્યાઓ મળી? <b>3</b>.</li>
-                                <li>તેથી, <b>સાનુકૂળ પરિણામ = 3</b>.</li>
-                            </ul>
-                            
-                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
-                                <b style='font-size:16px; color:#9a3412;'>P(અયુગ્મ સંખ્યા) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #9a3412; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span></b><br><br>
-                                
-                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span><br><br>
-
-                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 1</span><span><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 2</span></span><br><br>
-
-                                <b style='color:#c2410c; font-size:22px;'>જવાબ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #c2410c; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#9a3412;'>(iii) ચોક્કસપણે ઉદ્ભવતી ઘટનાની સંભાવના ________ છે. આવી ઘટનાને ________ કહે છે.</b><br>
+                            <div style='margin-top:8px; padding:8px; background-color:#ffedd5; border-radius:4px;'>
+                                <b>જવાબ: <span style='color:#dc2626; font-size:18px;'>1, ચોક્કસ ઘટના (અથવા નિશ્ચિત ઘટના)</span></b><br>
+                                <span style='font-size:14px; color:#0f172a;'><b>સમજૂતી:</b> જે ઘટના 100% બનવાની જ છે (જેમ કે સૂર્ય પૂર્વમાં ઊગે), તેની સંભાવના પૂરેપૂરી 1 હોય.</span>
                             </div>
                         </div>
+
+                        <div style='background-color:#fdf4ff; border-left:4px solid #c026d3; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#86198f;'>(iv) પ્રયોગની તમામ મૂળભૂત (પ્રાથમિક) ઘટનાઓની સંભાવનાઓનો સરવાળો ________ છે.</b><br>
+                            <div style='margin-top:8px; padding:8px; background-color:#fae8ff; border-radius:4px;'>
+                                <b>જવાબ: <span style='color:#dc2626; font-size:18px;'>1</span></b><br>
+                                <span style='font-size:14px; color:#0f172a;'><b>સમજૂતી:</b> કોઈપણ પ્રયોગના બધા જ શક્ય પરિણામોની સંભાવનાનો સરવાળો હંમેશા 1 જ થાય છે.</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; border-left:4px solid #475569; padding:10px; border-radius:4px;'>
+                            <b style='color:#334155;'>(v) ઘટનાની સંભાવના ________ થી મોટી અથવા તેના જેટલી અને ________ થી નાની અથવા તેના જેટલી હોય છે.</b><br>
+                            <div style='margin-top:8px; padding:8px; background-color:#e2e8f0; border-radius:4px;'>
+                                <b>જવાબ: <span style='color:#dc2626; font-size:18px;'>0, 1</span></b><br>
+                                <span style='font-size:14px; color:#0f172a;'><b>સમજૂતી:</b> સંભાવના ક્યારેય 0 થી નાની (માઇનસમાં) ન હોય અને 1 થી મોટી (100% થી વધુ) ન હોય. તે 0 અને 1 ની વચ્ચે જ હોય છે. (0 &le; P(E) &le; 1)</span>
+                            </div>
+                        </div>
+
                     </div>
                     `
                 }
-            ]
-        }
+             
   
        
   
