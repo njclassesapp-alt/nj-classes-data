@@ -7924,7 +7924,123 @@
                     `
                 }
              ]
+        },
+          
+        // ------------------------------------
+        // પ્રકરણ 14: સંભાવના (Probability) - સ્વાધ્યાય 14.1 (ભાગ 1)
+        // ------------------------------------
+        "14": {
+            "chapterName": "પ્રકરણ 14 (સ્વાધ્યાય 14.1 - ભાગ 1)",
+            "chapterTitle": "સંભાવનાનો પરિચય અને છેદ ઉડાડવાની માસ્ટર ટ્રીક્સ",
+            "qa_list": [
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: સંભાવના (Probability) શું છે અને છેદ કઈ રીતે ઉડાડવા?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:18px;'>💡 સંભાવનાનો એક જ ગોલ્ડન નિયમ:</b><br><br>
+                            કોઈપણ દાખલામાં સૌથી પહેલા રકમ વાંચીને બે વસ્તુ શોધવાની:<br>
+                            1. <b>કુલ પરિણામ (Total Outcomes):</b> કુલ કેટલી શક્યતાઓ છે? (આ આંકડો હંમેશા <b>છેદમાં/નીચે</b> આવશે).<br>
+                            2. <b>સાનુકૂળ પરિણામ (Favorable Outcomes):</b> રકમમાં આપણને શું શોધવાનું કીધું છે? તે કેટલી વાર આવે છે? (આ આંકડો હંમેશા <b>અંશમાં/ઉપર</b> આવશે).<br><br>
+                            
+                            <div style='background-color:#f3e8ff; border:1px solid #c084fc; padding:10px; border-radius:5px; text-align:center; font-size:18px; color:#6b21a8; margin:10px 0;'>
+                                <b>P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #6b21a8; display:block; padding:0 3px;'>સાનુકૂળ પરિણામોની સંખ્યા</span><span>કુલ પરિણામોની સંખ્યા</span></span></b>
+                            </div>
+
+                            <b style='color:#dc2626; font-size:16px;'>🔥 છેદ ઉડાડવાની જાદુઈ ટ્રીક (નબળા વિદ્યાર્થીઓ માટે ખાસ):</b><br>
+                            જો તમને ડાયરેક્ટ છેદ ઉડાડતા ન આવડતું હોય, તો આંકડાઓના ગુણાકાર સ્વરૂપે ભાગ પાડી દેવા. <br>
+                            <b>ઉદાહરણ:</b> ધારો કે તમારો જવાબ <b>4/6</b> આવ્યો છે.<br>
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; text-align:center; font-size:18px; margin-top:5px; color:#0f172a;'>
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>6</span></span>
+                                &nbsp;=&nbsp; 
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2 &times; <s style='color:#dc2626; font-weight:bold;'>2</s></span><span>3 &times; <s style='color:#dc2626; font-weight:bold;'>2</s></span></span>
+                                &nbsp;=&nbsp; 
+                                <b style='color:#16a34a;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #16a34a; display:block; padding:0 3px;'>2</span><span>3</span></span></b>
+                            </div>
+                            <i>(અહીં ઉપર-નીચેથી સરખો આંકડો 2 ઉડી જશે, એટલે સીધો સાચો જવાબ 2/3 મળી જશે!)</i> 
+                            આ જ ટ્રીકથી આપણે આખા ચેપ્ટરના દાખલા ગણીશું.
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 13 (પાસા વાળો દાખલો): પાસાને એક વાર ફેંકવામાં આવે છે, તો (i) અવિભાજ્ય સંખ્યા (ii) 2 અને 6 ની વચ્ચેની સંખ્યા (iii) અયુગ્મ સંખ્યા મળવાની સંભાવના શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષામાં વારંવાર પૂછાતો 3 માર્ક્સનો સૌથી હિટ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 સ્ટેપ 1: કુલ પરિણામ શોધવા</b><br>
+                            લુડો કે સાપસીડીના પાસા (Die) પર <b>1, 2, 3, 4, 5, 6</b> એમ કુલ 6 અંકો લખેલા હોય છે.<br>
+                            તેથી આપણો <b>કુલ પરિણામોની સંખ્યા = 6</b> થશે. (એટલે કે દરેકના છેદમાં 6 જ આવશે!)
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#16a34a; font-size:16px;'>(i) અવિભાજ્ય સંખ્યા (Prime Number) મળવાની સંભાવના:</b><br>
+                            <ul style='margin-bottom:5px; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                <li>અવિભાજ્ય સંખ્યા કોને કહેવાય? જે કોઈના ઘડિયામાં ન આવે તે (જેના ભાગ ન પડે). 1 ને અવિભાજ્ય ગણાતી નથી.</li>
+                                <li>પાસા પર 1 થી 6 માં અવિભાજ્ય સંખ્યાઓ કઈ છે? <b>2, 3 અને 5</b>.</li>
+                                <li>આવી કુલ કેટલી સંખ્યાઓ મળી? <b>3</b>.</li>
+                                <li>તેથી, <b>સાનુકૂળ પરિણામ = 3</b>.</li>
+                            </ul>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#dcfce7; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px; color:#14532d;'>P(અવિભાજ્ય સંખ્યા) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #14532d; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span></b><br><br>
+                                
+                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(છેદ ઉડાડવાની ટ્રીક: 3 એટલે 3 &times; 1, અને 6 એટલે 3 &times; 2)</i></span><br>
+                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 1</span><span><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 2</span></span><br><br>
+
+                                <b style='color:#15803d; font-size:22px;'>જવાબ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #15803d; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#1d4ed8; font-size:16px;'>(ii) 2 અને 6 ની વચ્ચેની સંખ્યા મળવાની સંભાવના:</b><br>
+                            <ul style='margin-bottom:5px; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                <li>2 અને 6 ની બરાબર વચ્ચે કયા કયા આંકડા આવે? <b>3, 4 અને 5</b>.</li>
+                                <li>આવી કુલ કેટલી સંખ્યાઓ મળી? <b>3</b>.</li>
+                                <li>તેથી, <b>સાનુકૂળ પરિણામ = 3</b>.</li>
+                            </ul>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#dbeafe; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px; color:#1e3a8a;'>P(2 અને 6 ની વચ્ચેની સંખ્યા) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #1e3a8a; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span></b><br><br>
+                                
+                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(ફરીથી તે જ રીતે છેદ ઉડાડતા)</i></span><br>
+                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 1</span><span><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 2</span></span><br><br>
+
+                                <b style='color:#1d4ed8; font-size:22px;'>જવાબ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #1d4ed8; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:16px;'>(iii) અયુગ્મ (એકી) સંખ્યા મળવાની સંભાવના:</b><br>
+                            <ul style='margin-bottom:5px; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                <li>અયુગ્મ એટલે એકી સંખ્યાઓ (જે 2 ના ઘડિયામાં ન આવે).</li>
+                                <li>પાસા પર 1 થી 6 માં એકી સંખ્યાઓ કઈ છે? <b>1, 3 અને 5</b>.</li>
+                                <li>આવી કુલ કેટલી સંખ્યાઓ મળી? <b>3</b>.</li>
+                                <li>તેથી, <b>સાનુકૂળ પરિણામ = 3</b>.</li>
+                            </ul>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px; color:#9a3412;'>P(અયુગ્મ સંખ્યા) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #9a3412; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span></b><br><br>
+                                
+                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>6</span></span><br><br>
+
+                                P = <span style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 1</span><span><s style='color:#dc2626; font-weight:bold;'>3</s> &times; 2</span></span><br><br>
+
+                                <b style='color:#c2410c; font-size:22px;'>જવાબ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #c2410c; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                }
+            ]
         }
+  
        
   
                     
