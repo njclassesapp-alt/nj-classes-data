@@ -5912,7 +5912,186 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: બહુલક (Mode) ના દાખલામાં કિંમતો કઈ રીતે શોધવી?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 બહુલક શોધવાના 4 જાદુઈ સ્ટેપ્સ (ગોખવાની જરૂર નથી!):</b><br><br>
+                            <b>સ્ટેપ 1:</b> નીચેની લાઈન (આવૃત્તિ) માં સૌથી મોટો આંકડો શોધો. તે તમારો <b>"રાજા" (f₁)</b> છે!<br>
+                            <b>સ્ટેપ 2:</b> 1 ની પહેલા 0 આવે, એટલે રાજાની આગળનો આંકડો <b>f₀</b> બને.<br>
+                            <b>સ્ટેપ 3:</b> 1 ની પછી 2 આવે, એટલે રાજાની પાછળનો આંકડો <b>f₂</b> બને.<br>
+                            <b>સ્ટેપ 4:</b> રાજા (f₁) ની બરાબર ઉપર જે વર્ગ આપ્યો હોય, તેને <b>"બહુલક વર્ગ"</b> કહેવાય. તેની પહેલી સંખ્યા (અધઃસીમા) એટલે આપણો <b>'l'</b>.<br>
+                            <span style='color:#0f172a; font-size:14px;'>(યાદ રાખો: આમાં કોઈ નવું ટેબલ બનાવવાનું હોતું નથી!)</span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 13.2 પ્રશ્ન 1 (ભાગ 1 - બહુલક): નીચેનું કોષ્ટક એક વર્ષ દરમિયાન એક દવાખાનામાં દાખલ થયેલા દર્દીઓની ઉંમર દર્શાવે છે. ઉપર આપેલી માહિતી માટે બહુલક શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો બહુલક શોધવાનો સૌથી બેઝિક દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: કોષ્ટક પરથી કિંમતો નક્કી કરવી</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>ઉંમર (વર્ષમાં)</th>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>5 - 15</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>15 - 25</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>25 - 35</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; background-color:#fef08a; border:2px solid #ea580c;'><b>35 - 45</b><br><span style='font-size:12px; color:#c2410c;'>(બહુલક વર્ગ)</span></td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>45 - 55</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>55 - 65</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <th style='border:1px solid #bbf7d0; padding:8px; color:#14532d;'>દર્દીઓની સંખ્યા</th>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>6</td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>11</td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px; color:#2563eb;'>21<br><b>(f₀)</b></td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px; background-color:#fef08a; border:2px solid #ea580c; color:#dc2626; font-size:18px;'><b>23<br>(f₁)</b></td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px; color:#16a34a;'>14<br><b>(f₂)</b></td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>અહીં સૌથી મોટી આવૃત્તિ <b>23</b> છે, તેથી <b>f₁ = 23</b>.</li>
+                                    <li>તેની આગળની આવૃત્તિ <b>f₀ = 21</b> અને પાછળની આવૃત્તિ <b>f₂ = 14</b>.</li>
+                                    <li>સૌથી મોટી આવૃત્તિ 23 ની ઉપરનો વર્ગ <b>35 - 45</b> છે, જેને <b>બહુલક વર્ગ</b> કહેવાય.</li>
+                                    <li>આથી તેની અધઃસીમા <b>l = 35</b> થશે.</li>
+                                    <li>વર્ગલંબાઈ (h) = 45 - 35 = <b>10</b>.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>Z = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f₁ - f₀</span><span>2f₁ - f₀ - f₂</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                Z = 35 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>23 - 21</span><span>2(23) - 21 - 14</span></span> <span style='font-size:28px;'>)</span> &times; 10<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ: 23 - 21 = 2. છેદ: 2(23) = 46. અને -21 - 14 નો સરવાળો -35 થાય)</i></span><br>
+                                Z = 35 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>46 - 35</span></span> <span style='font-size:24px;'>)</span> &times; 10<br><br>
+
+                                Z = 35 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>11</span></span> <span style='font-size:24px;'>)</span> &times; 10<br><br>
+
+                                Z = 35 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>20</span><span>11</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(20 નો 11 વડે ભાગાકાર કરતા 1.8181... આવશે)</i></span><br>
+                                Z = 35 + 1.82<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>Z = 36.82 વર્ષ</b>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (મધ્યક માટે કઈ રીત?):</b><br>
+                            અહીં ઉંમરના વર્ગની મધ્યકિંમત (x<sub>i</sub>) અનુક્રમે 10, 20, 30, 40... એમ શૂન્યવાળી આવે છે. તમે 'સીધી રીત' વાપરો તો પણ સહેલું પડે, પરંતુ જો <b>'પદ-વિચલનની રીત (Step-Deviation)'</b> વાપરશો તો u<sub>i</sub> સાવ નાના (1, 2, 3) થઈ જશે અને ગણતરી મોઢે થઈ જશે! એટલે આપણે પદ-વિચલનની રીત વાપરીશું.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>મધ્યકની ગણતરી (પદ-વિચલનની રીત)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>ધારો કે મધ્યક <b>A = 30</b> અને વર્ગલંબાઈ <b>h = 10</b> છે.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>ઉંમર (વર્ગ)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>દર્દીઓ (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>u<sub>i</sub> = (x<sub>i</sub>-A)/10</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub>u<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>5 - 15</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>10</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-12</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>15 - 25</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>11</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>20</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-11</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>25 - 35</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>21</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; background-color:#fef08a; border-radius:4px;'><b>30 (A)</b></td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>35 - 45</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>23</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>40</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>1</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>23</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>45 - 55</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>14</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>50</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>28</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>55 - 65</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>60</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>15</td>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe; font-weight:bold;'>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>80</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>u<sub>i</sub> = 43</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -23, અને + વાળાનો 66. એટલે 66 - 23 = 43)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span> <span style='font-size:24px;'>)</span> &times; h<br><br>
+                                x̄ = 30 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>43</span><span>80</span></span> <span style='font-size:24px;'>)</span> &times; 10<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(10 અને 80 નો શૂન્ય ઉડી જશે)</i></span><br>
+                                x̄ = 30 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>43</span><span>8</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(43 નો 8 વડે ભાગાકાર કરતા 5.375 આવે)</i></span><br>
+                                x̄ = 30 + 5.375<br><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>x̄ = 35.375 &approx; 35.38 વર્ષ</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdfa; border-left:4px solid #0891b2; padding:10px;'>
+                            <b style='color:#155e75; font-size:18px;'>બંને માપની સરખામણી (Comparison):</b><br>
+                            <ul style='margin-bottom:0; color:#0f172a;'>
+                                <li><b>બહુલક (36.82 વર્ષ):</b> તેનો અર્થ એ છે કે હોસ્પિટલમાં દાખલ થયેલા <b>મહત્તમ (સૌથી વધુ)</b> દર્દીઓની ઉંમર 36.82 વર્ષ છે.</li>
+                                <li><b>મધ્યક (35.38 વર્ષ):</b> તેનો અર્થ એ છે કે હોસ્પિટલમાં દાખલ થયેલા બધા જ દર્દીઓની <b>સરેરાશ (Average)</b> ઉંમર 35.38 વર્ષ છે.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    `
                 }
+             
+             
              
              
              
