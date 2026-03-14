@@ -4152,9 +4152,117 @@
                         </div>
                     </div>
                     `
+                },
+                  
+                {
+                    question: "🎯 NJ Classes ની જાદુઈ ટ્રીક: ખૂટતી આવૃત્તિ 'f' વાળા દાખલામાં કઈ રીત વાપરવી?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 બોર્ડની પરીક્ષા માટેની માસ્ટર ટ્રીક:</b><br>
+                            જ્યારે પણ દાખલામાં <b>મધ્યક (Mean) પહેલેથી આપેલો હોય</b> અને ખૂટતી આવૃત્તિ 'f' શોધવાની હોય, ત્યારે <b>"ધારેલા મધ્યકની રીત"</b> અથવા <b>"પદ-વિચલનની રીત"</b> વાપરવી સૌથી બેસ્ટ છે!<br><br>
+                            <b>જાદુ (Magic):</b> જે મધ્યક આપેલો હોય (જેમ કે અહી 18 આપેલો છે), તો મધ્યકિંમતમાં બરાબર <b>18 ને જ 'A' ધારી લેવો!</b><br>
+                            આમ કરવાથી ડાબી બાજુ અને જમણી બાજુ 18 અને 18 ઉડીને <b>"0" (Zero)</b> થઈ જશે, અને ગણતરી માત્ર 2 જ લાઈનમાં પૂરી થઈ જશે!
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 13.1 પ્રશ્ન 3 (સીધી રીત): નીચેની આવૃત્તિ-વિતરણ વસ્તીના બાળકોનું દૈનિક ખિસ્સાભથ્થું દર્શાવે છે. ખિસ્સાભથ્થાનો મધ્યક ₹ 18 છે, તો ખૂટતી આવૃત્તિ f શોધો.", 
+                    question_desc: "2024, 2025 અને 2026 બોર્ડ માટે 3 માર્ક્સનો 100% પૂછાતો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#991b1b;'>⚠️ NJ સજેશન:</b> નીચે 'સીધી રીત' આપી છે, જેમાં <b>20f</b> નો સરવાળો અલગથી કરવો પડે છે અને ક્રોસ ગુણાકાર મોટો થાય છે. પરીક્ષામાં આ રીતને બદલે આના પછીના ભાગમાં આપેલી 'પદ-વિચલન' ની રીતનો ઉપયોગ કરવો.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>રીત 1: સીધી રીત (Direct Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>નોંધ: કુલ આવૃત્તિમાં 'f' નો સરવાળો અલગથી + f તરીકે દર્શાવવો.</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>દૈનિક ખિસ્સાભથ્થું</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>બાળકોની સંખ્યા (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>f<sub>i</sub>x<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>11 - 13</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>7</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>12</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>84</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>13 - 15</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>14</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>84</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>15 - 17</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>16</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>144</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>17 - 19</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>13</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>18</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>234</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; background-color:#fef08a;'>19 - 21</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; background-color:#fef08a; font-weight:bold; color:#dc2626;'>f</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>20</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>20f</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>21 - 23</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>22</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>110</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>23 - 25</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>24</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>96</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#1d4ed8;'>&Sigma;f<sub>i</sub> = 44 + f</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>x<sub>i</sub> = 752 + 20f</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                અહી મધ્યક <b>x̄ = 18</b> પહેલેથી આપેલો છે.<br><br>
+                                x̄ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>x<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br><br>
+                                18 = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>752 + 20f</span><span>44 + f</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(છેદનો (44 + f) ડાબી બાજુ ગુણાકારમાં જશે)</i></span><br>
+                                18 (44 + f) = 752 + 20f<br><br>
+                                792 + 18f = 752 + 20f<br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(સંખ્યા એક બાજુ અને 'f' વાળા પદ એક બાજુ ભેગા કરતા)</i></span><br>
+                                792 - 752 = 20f - 18f<br><br>
+                                40 = 2f<br><br>
+                                f = 40 / 2<br><br>
+                                <b style='color:#15803d; font-size:20px;'>f = 20</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
             ]
         }
+             
+            
+        
                  
             
         
