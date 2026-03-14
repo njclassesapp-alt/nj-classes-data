@@ -7308,7 +7308,140 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: અસતત વર્ગો (Discontinuous Classes) ને સતત (Continuous) કઈ રીતે બનાવવા?",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 કોન્સેપ્ટ સમજો - વર્ગોને સળંગ શા માટે બનાવવા પડે?</b><br><br>
+                            આ દાખલામાં વર્ગો 118-126, 127-135 છે. એટલે કે 126 અને 127 ની વચ્ચે <b>1 નો ગેપ (ગાબડું)</b> પડી જાય છે! મધ્યસ્થના સૂત્રમાં આપણે ધારીએ છીએ કે માહિતી સળંગ છે. જો ગાબડું રહેવા દઈએ તો 126.5 mm લંબાઈવાળું પાંદડું ક્યાં મૂકવું તે પ્રશ્ન થાય!<br><br>
+                            <b style='color:#dc2626;'>🔥 સળંગ બનાવવાની જાદુઈ ટ્રીક (0.5 નો કમાલ):</b><br>
+                            બે વર્ગો વચ્ચે જે 1 નો ગેપ છે, તેના અડધા કરો (એટલે કે <b>0.5</b>). <br>
+                            હવે દરેક વર્ગની <b>આગળની સંખ્યા (અધઃસીમા) માંથી 0.5 કાઢી નાખો (બાદ કરો)</b> અને <b>પાછળની સંખ્યા (ઉર્ધ્વસીમા) માં 0.5 ઉમેરી દો!</b><br>
+                            દા.ત. 118 - 126 બની જશે $\\Rightarrow$ <b>117.5 - 126.5</b>. બસ થઈ ગયા વર્ગો સળંગ!
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 4 (ભાગ 1 - કોષ્ટક): એક છોડના 40 પાંદડાંની લંબાઈ ખૂબ જ નજીકના મિલીમીટર (mm) સુધી માપવામાં આવી હતી. પ્રાપ્ત થયેલ માહિતી નીચેના કોષ્ટકમાં દર્શાવેલ છે. પાંદડાંની મધ્યસ્થ લંબાઈ શોધો.", 
+                    question_desc: "2024 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો અસતત વર્ગ (Discontinuous Classes) વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન:</b> સૌથી પહેલા આપણે રકમના વર્ગોને <b>0.5 ની ટ્રીક</b> વાપરીને સળંગ બનાવીશું અને પછી સંચયી આવૃત્તિ (cf) નું ખાનું બનાવીશું.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: નવા સતત વર્ગ બનાવવા અને cf શોધવી</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>લંબાઈ (રકમ મુજબ)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px; color:#dc2626;'>સતત વર્ગ (સાચો વર્ગ)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>પાંદડાંની સંખ્યા (f)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>સંચયી આવૃત્તિ (cf)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>118 - 126</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>117.5 - 126.5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>3</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>127 - 135</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>126.5 - 135.5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>3 + 5 = 8</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>136 - 144</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>135.5 - 144.5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>8 + 9 = 17 (cf)</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>145 - 153</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#b91c1c;'>144.5 - 153.5<br><span style='font-size:12px;'>(મધ્યસ્થ વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#2563eb;'>12 (f)</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#1d4ed8;'>17 + 12 = 29</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>154 - 162</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>153.5 - 162.5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>29 + 5 = 34</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>163 - 171</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>162.5 - 171.5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>34 + 4 = 38</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>172 - 180</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>171.5 - 180.5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>38 + 2 = 40</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#16a34a;'>n = 40</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>કુલ આવૃત્તિ <b>n = 40</b> છે. તેથી <b>n/2 = 40/2 = 20</b> થાય.</li>
+                                    <li>cf ના ખાનામાં જુઓ: 20 થી તરત મોટી સંખ્યા <b>29</b> છે.</li>
+                                    <li>તેથી <b>144.5 - 153.5</b> એ આપણો મધ્યસ્થ વર્ગ છે. (અહી નવો સળંગ વર્ગ જ લેવો).</li>
+                                    <li>અધઃસીમા <b>l = 144.5</b> અને આવૃત્તિ <b>f = 12</b>.</li>
+                                    <li><span style='color:#dc2626; font-weight:bold;'>ખાસ નોંધ:</span> <b>cf</b> હંમેશા ઉપરના ખાનાની લેવાની, એટલે <b>cf = 17</b> લેવી.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 9</b> છે. (153.5 - 144.5 = 9).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>M = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>n/2 - cf</span><span>f</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                M = 144.5 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>20 - 17</span><span>12</span></span> <span style='font-size:28px;'>)</span> &times; 9<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશમાં 20 માંથી 17 જાય તો 3 વધે)</i></span><br>
+                                M = 144.5 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>12</span></span> <span style='font-size:24px;'>)</span> &times; 9<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(3 અને 9 નો ગુણાકાર 27 થશે)</i></span><br>
+                                M = 144.5 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>27</span><span>12</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(27 અને 12 ને 3 વડે ઉડાડતા: ઉપર 9 અને નીચે 4 વધશે)</i></span><br>
+                                M = 144.5 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>9</span><span>4</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(9 નો 4 વડે ભાગાકાર કરતા 2.25 આવશે)</i></span><br>
+                                M = 144.5 + 2.25<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>M = 146.75 mm</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> પાંદડાંની મધ્યસ્થ લંબાઈ <b>146.75 મિલીમીટર (mm)</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
              
