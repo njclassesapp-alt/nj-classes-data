@@ -8948,7 +8948,90 @@
 
                     </div>
                     `
+                },
+                             
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: બે પાસા (Two Dice) ઉછાળવાના 36 પરિણામોની જાદુઈ ટ્રીક",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 36 પરિણામોનું ટેબલ (ગોખવાની જરૂર નથી!):</b><br>
+                            <span style='font-size:14px; color:#475569;'>જ્યારે બે પાસા એકસાથે ઉછાળીએ, ત્યારે <b>6 &times; 6 = 36</b> પરિણામ મળે છે. આ ટેબલ જોતા જ તમને અંકોના સરવાળાની <b>ત્રાંસી (Diagonal) ડીઝાઈન</b> દેખાશે!</span><br><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; padding-bottom:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:14px;'>
+                                    <tr style='background-color:#fae8ff; color:#a21caf; font-weight:bold;'>
+                                        <th style='border:1px solid #f0abfc; padding:5px;'>પાસો 2 &rarr;<br>પાસો 1 &darr;</th>
+                                        <th style='border:1px solid #f0abfc; padding:5px;'>1</th>
+                                        <th style='border:1px solid #f0abfc; padding:5px;'>2</th>
+                                        <th style='border:1px solid #f0abfc; padding:5px;'>3</th>
+                                        <th style='border:1px solid #f0abfc; padding:5px;'>4</th>
+                                        <th style='border:1px solid #f0abfc; padding:5px;'>5</th>
+                                        <th style='border:1px solid #f0abfc; padding:5px;'>6</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#fae8ff; border:1px solid #f0abfc; color:#a21caf;'>1</th>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fef2f2;'>(1, 1)<br><span style='font-size:11px; color:#dc2626;'>સરવાળો: 2</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fff7ed;'>(1, 2)<br><span style='font-size:11px; color:#ea580c;'>સરવાળો: 3</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fefce8;'>(1, 3)<br><span style='font-size:11px; color:#ca8a04;'>સરવાળો: 4</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f0fdf4;'>(1, 4)<br><span style='font-size:11px; color:#16a34a;'>સરવાળો: 5</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#ecfdf5;'>(1, 5)<br><span style='font-size:11px; color:#059669;'>સરવાળો: 6</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#eff6ff;'>(1, 6)<br><span style='font-size:11px; color:#2563eb;'>સરવાળો: 7</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#fae8ff; border:1px solid #f0abfc; color:#a21caf;'>2</th>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fff7ed;'>(2, 1)<br><span style='font-size:11px; color:#ea580c;'>સરવાળો: 3</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fefce8;'>(2, 2)<br><span style='font-size:11px; color:#ca8a04;'>સરવાળો: 4</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f0fdf4;'>(2, 3)<br><span style='font-size:11px; color:#16a34a;'>સરવાળો: 5</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#ecfdf5;'>(2, 4)<br><span style='font-size:11px; color:#059669;'>સરવાળો: 6</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#eff6ff;'>(2, 5)<br><span style='font-size:11px; color:#2563eb;'>સરવાળો: 7</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f5f3ff;'>(2, 6)<br><span style='font-size:11px; color:#7c3aed;'>સરવાળો: 8</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#fae8ff; border:1px solid #f0abfc; color:#a21caf;'>3</th>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fefce8;'>(3, 1)<br><span style='font-size:11px; color:#ca8a04;'>સરવાળો: 4</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f0fdf4;'>(3, 2)<br><span style='font-size:11px; color:#16a34a;'>સરવાળો: 5</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#ecfdf5;'>(3, 3)<br><span style='font-size:11px; color:#059669;'>સરવાળો: 6</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#eff6ff;'>(3, 4)<br><span style='font-size:11px; color:#2563eb;'>સરવાળો: 7</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f5f3ff;'>(3, 5)<br><span style='font-size:11px; color:#7c3aed;'>સરવાળો: 8</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#faf5ff;'>(3, 6)<br><span style='font-size:11px; color:#9333ea;'>સરવાળો: 9</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#fae8ff; border:1px solid #f0abfc; color:#a21caf;'>4</th>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f0fdf4;'>(4, 1)<br><span style='font-size:11px; color:#16a34a;'>સરવાળો: 5</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#ecfdf5;'>(4, 2)<br><span style='font-size:11px; color:#059669;'>સરવાળો: 6</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#eff6ff;'>(4, 3)<br><span style='font-size:11px; color:#2563eb;'>સરવાળો: 7</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f5f3ff;'>(4, 4)<br><span style='font-size:11px; color:#7c3aed;'>સરવાળો: 8</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#faf5ff;'>(4, 5)<br><span style='font-size:11px; color:#9333ea;'>સરવાળો: 9</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fdf4ff;'>(4, 6)<br><span style='font-size:11px; color:#c026d3;'>સરવાળો: 10</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#fae8ff; border:1px solid #f0abfc; color:#a21caf;'>5</th>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#ecfdf5;'>(5, 1)<br><span style='font-size:11px; color:#059669;'>સરવાળો: 6</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#eff6ff;'>(5, 2)<br><span style='font-size:11px; color:#2563eb;'>સરવાળો: 7</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f5f3ff;'>(5, 3)<br><span style='font-size:11px; color:#7c3aed;'>સરવાળો: 8</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#faf5ff;'>(5, 4)<br><span style='font-size:11px; color:#9333ea;'>સરવાળો: 9</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fdf4ff;'>(5, 5)<br><span style='font-size:11px; color:#c026d3;'>સરવાળો: 10</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fff1f2;'>(5, 6)<br><span style='font-size:11px; color:#e11d48;'>સરવાળો: 11</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#fae8ff; border:1px solid #f0abfc; color:#a21caf;'>6</th>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#eff6ff;'>(6, 1)<br><span style='font-size:11px; color:#2563eb;'>સરવાળો: 7</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f5f3ff;'>(6, 2)<br><span style='font-size:11px; color:#7c3aed;'>સરવાળો: 8</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#faf5ff;'>(6, 3)<br><span style='font-size:11px; color:#9333ea;'>સરવાળો: 9</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fdf4ff;'>(6, 4)<br><span style='font-size:11px; color:#c026d3;'>સરવાળો: 10</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#fff1f2;'>(6, 5)<br><span style='font-size:11px; color:#e11d48;'>સરવાળો: 11</span></td>
+                                        <td style='border:1px solid #f0abfc; padding:5px; background-color:#f8fafc;'>(6, 6)<br><span style='font-size:11px; color:#475569;'>સરવાળો: 12</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <b style='color:#be123c;'>🔥 આ કોષ્ટક જોતા ખબર પડશે કે:</b><br>
+                            સૌથી નાનો સરવાળો <b>2</b> છે અને સૌથી મોટો સરવાળો <b>12</b> છે. સમાન સરવાળા વાળા પરિણામો <b>ત્રાંસી લાઈનમાં</b> (ઉપર-જમણેથી નીચે-ડાબે) એકસાથે જોવા મળે છે!
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
              
