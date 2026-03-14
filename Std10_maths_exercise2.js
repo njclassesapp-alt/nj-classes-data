@@ -8286,7 +8286,147 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 11: ગોપી પોતાના માછલીઘર માટે દુકાનમાંથી માછલી ખરીદે છે. દુકાનદાર મોટી ટાંકીમાંથી યાદચ્છિક રીતે એક માછલી બહાર કાઢે છે. આ ટાંકીમાં 5 નર માછલી અને 8 માદા માછલી છે. બહાર કાઢેલ માછલી 'નર માછલી' હોય તેની સંભાવના કેટલી?", 
+                    question_desc: "2025 બોર્ડ પરીક્ષા માટે 2 માર્ક્સનો માછલીઘર વાળો સહેલો અને સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#eff6ff; padding:15px; border-radius:8px; border:1px solid #bfdbfe; margin-bottom:15px;'>
+                            <svg width="220" height="130" viewBox="0 0 220 130" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="20" y="30" width="180" height="90" fill="#bae6fd" stroke="#3b82f6" stroke-width="4" rx="10"/>
+                                <path d="M 20 40 Q 65 20, 110 40 T 200 40" fill="none" stroke="#e0f2fe" stroke-width="2"/>
+                                <ellipse cx="50" cy="50" rx="12" ry="6" fill="#2563eb"/><polygon points="38,50 30,45 30,55" fill="#2563eb"/>
+                                <ellipse cx="100" cy="65" rx="12" ry="6" fill="#2563eb"/><polygon points="88,65 80,60 80,70" fill="#2563eb"/>
+                                <ellipse cx="150" cy="45" rx="12" ry="6" fill="#2563eb"/><polygon points="138,45 130,40 130,50" fill="#2563eb"/>
+                                <ellipse cx="75" cy="85" rx="12" ry="6" fill="#2563eb"/><polygon points="63,85 55,80 55,90" fill="#2563eb"/>
+                                <ellipse cx="170" cy="75" rx="12" ry="6" fill="#2563eb"/><polygon points="158,75 150,70 150,80" fill="#2563eb"/>
+                                
+                                <ellipse cx="40" cy="70" rx="10" ry="5" fill="#ec4899"/><polygon points="30,70 24,66 24,74" fill="#ec4899"/>
+                                <ellipse cx="80" cy="45" rx="10" ry="5" fill="#ec4899"/><polygon points="70,45 64,41 64,49" fill="#ec4899"/>
+                                <ellipse cx="120" cy="55" rx="10" ry="5" fill="#ec4899"/><polygon points="110,55 104,51 104,59" fill="#ec4899"/>
+                                <ellipse cx="180" cy="50" rx="10" ry="5" fill="#ec4899"/><polygon points="170,50 164,46 164,54" fill="#ec4899"/>
+                                <ellipse cx="60" cy="100" rx="10" ry="5" fill="#ec4899"/><polygon points="50,100 44,96 44,104" fill="#ec4899"/>
+                                <ellipse cx="110" cy="85" rx="10" ry="5" fill="#ec4899"/><polygon points="100,85 94,81 94,89" fill="#ec4899"/>
+                                <ellipse cx="140" cy="95" rx="10" ry="5" fill="#ec4899"/><polygon points="130,95 124,91 124,99" fill="#ec4899"/>
+                                <ellipse cx="175" cy="105" rx="10" ry="5" fill="#ec4899"/><polygon points="165,105 159,101 159,109" fill="#ec4899"/>
+                            </svg>
+                            <br><b style='color:#1e3a8a;'>દુકાનદારની ટાંકીમાં રહેલી માછલીઓ</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>કુલ પરિણામ શોધવા:</b><br>
+                            ટાંકીમાં નર માછલી = 5<br>
+                            ટાંકીમાં માદા માછલી = 8<br>
+                            <b>કુલ માછલી = 5 + 8 = <span style='color:#dc2626; font-size:18px;'>13</span></b><br>
+                            <span style='color:#0f172a;'>તેથી પ્રયોગના <b>કુલ પરિણામની સંખ્યા = 13</b> થશે. (આ 13 છેદમાં આવશે).</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>બહાર કાઢેલ માછલી 'નર માછલી' હોય તેની સંભાવના:</b><br>
+                            ધારો કે ઘટના A = બહાર કાઢેલ માછલી નર હોય.<br>
+                            ટાંકીમાં નર માછલીની સંખ્યા 5 છે. તેથી સાનુકૂળ પરિણામ = <b>5</b>.<br><br>
+                            
+                            <div style='background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span><br><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>5</span><span>13</span></span></b>
+                            </div>
+                            <span style='font-size:12px; color:#64748b; display:block; margin-top:5px;'>નોંધ: અહીં 5 અને 13 બંને અવિભાજ્ય સંખ્યાઓ હોવાથી કોઈ છેદ ઉડી શકે તેમ નથી. આથી આ જ આપણો અંતિમ જવાબ છે.</span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 12: તકની એક રમતમાં ગોળ ફરતું એક તીર (Spinning Wheel) હોય છે. તે 1, 2, 3, 4, 5, 6, 7, 8 માંથી કોઈ એક સંખ્યા પાસે નિર્દેશ કરતું અટકે છે અને આ સમસંભાવી પરિણામો છે. તો તીર (i) 8 તરફ નિર્દેશ કરે (ii) અયુગ્મ સંખ્યા તરફ નિર્દેશ કરે (iii) 2 થી મોટી સંખ્યા તરફ નિર્દેશ કરે (iv) 9 થી નાની સંખ્યા તરફ નિર્દેશ કરે તેની સંભાવના શોધો.", 
+                    question_desc: "2024 અને 2026 બોર્ડ પરીક્ષા માટે 4 માર્ક્સનો ચક્ર વાળો મોસ્ટ IMP દાખલો (ખાસ છેદ ઉડાડવાની ટ્રીક સાથે)",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px;'>
+                            <svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="90" cy="90" r="80" fill="#f1f5f9" stroke="#334155" stroke-width="4"/>
+                                <path d="M 90 90 L 90 10 A 80 80 0 0 1 146.5 33.5 Z" fill="#fca5a5" stroke="#334155" stroke-width="1"/>
+                                <path d="M 90 90 L 146.5 33.5 A 80 80 0 0 1 170 90 Z" fill="#fcd34d" stroke="#334155" stroke-width="1"/>
+                                <path d="M 90 90 L 170 90 A 80 80 0 0 1 146.5 146.5 Z" fill="#86efac" stroke="#334155" stroke-width="1"/>
+                                <path d="M 90 90 L 146.5 146.5 A 80 80 0 0 1 90 170 Z" fill="#93c5fd" stroke="#334155" stroke-width="1"/>
+                                <path d="M 90 90 L 90 170 A 80 80 0 0 1 33.5 146.5 Z" fill="#c4b5fd" stroke="#334155" stroke-width="1"/>
+                                <path d="M 90 90 L 33.5 146.5 A 80 80 0 0 1 10 90 Z" fill="#fbcfe8" stroke="#334155" stroke-width="1"/>
+                                <path d="M 90 90 L 10 90 A 80 80 0 0 1 33.5 33.5 Z" fill="#fdba74" stroke="#334155" stroke-width="1"/>
+                                <path d="M 90 90 L 33.5 33.5 A 80 80 0 0 1 90 10 Z" fill="#d8b4fe" stroke="#334155" stroke-width="1"/>
+                                <text x="110" y="45" font-size="18" font-weight="bold" fill="#0f172a">1</text>
+                                <text x="140" y="75" font-size="18" font-weight="bold" fill="#0f172a">2</text>
+                                <text x="140" y="115" font-size="18" font-weight="bold" fill="#0f172a">3</text>
+                                <text x="110" y="145" font-size="18" font-weight="bold" fill="#0f172a">4</text>
+                                <text x="70" y="145" font-size="18" font-weight="bold" fill="#0f172a">5</text>
+                                <text x="40" y="115" font-size="18" font-weight="bold" fill="#0f172a">6</text>
+                                <text x="40" y="75" font-size="18" font-weight="bold" fill="#0f172a">7</text>
+                                <text x="70" y="45" font-size="18" font-weight="bold" fill="#0f172a">8</text>
+                                <circle cx="90" cy="90" r="5" fill="#0f172a"/>
+                                <polygon points="90,90 85,25 95,25" fill="#dc2626"/>
+                            </svg>
+                            <br><b style='color:#334155;'>તકની રમતનું ચક્ર (Spinning Wheel)</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ શોધવા):</b><br>
+                            ચક્ર પર 1, 2, 3, 4, 5, 6, 7 અને 8 એમ કુલ 8 અંકો છે.<br>
+                            <b>તેથી કુલ પરિણામ = <span style='color:#dc2626; font-size:18px;'>8</span></b> (દરેકના છેદમાં 8 આવશે).
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(i) તીર 8 તરફ નિર્દેશ કરે તેની સંભાવના:</b><br>
+                            ચક્ર પર 8 નો અંક માત્ર <b>1 જ વાર</b> છે. તેથી સાનુકૂળ પરિણામ = 1.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                P(A) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span> 
+                                &nbsp; = &nbsp; 
+                                <b style='color:#1d4ed8; font-size:18px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>8</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>(ii) અયુગ્મ (એકી) સંખ્યા તરફ નિર્દેશ કરે તેની સંભાવના:</b><br>
+                            અયુગ્મ (એકી) સંખ્યાઓ = {1, 3, 5, 7}.<br>
+                            કુલ અયુગ્મ સંખ્યાઓ <b>4</b> છે. તેથી સાનુકૂળ પરિણામ = 4.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ffedd5; padding:10px; border-radius:5px;'>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>4</span><span>8</span></span><br><br>
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક:</b><br>
+                                P(B) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span><span>2 &times; <del style='color:#dc2626; font-weight:bold;'>4</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#c2410c; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1</span><span>2</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(iii) 2 થી મોટી સંખ્યા તરફ નિર્દેશ કરે તેની સંભાવના:</b><br>
+                            2 થી મોટી સંખ્યાઓ = {3, 4, 5, 6, 7, 8}.<br>
+                            આવી કુલ <b>6</b> સંખ્યાઓ છે. તેથી સાનુકૂળ પરિણામ = 6.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(C) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6</span><span>8</span></span><br><br>
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક (2 નો ઘડિયો):</b><br>
+                                P(C) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>4 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>4</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f5f3ff; border-left:4px solid #8b5cf6; padding:10px; border-radius:4px;'>
+                            <b style='color:#6d28d9; font-size:16px;'>(iv) 9 થી નાની સંખ્યા તરફ નિર્દેશ કરે તેની સંભાવના:</b><br>
+                            ચક્ર પરની બધી જ સંખ્યાઓ (1 થી 8) 9 કરતાં નાની જ છે!<br>
+                            તેથી સાનુકૂળ પરિણામ = <b>8</b>. <span style='color:#475569; font-size:14px;'>(આ એક ચોક્કસ ઘટના છે)</span><br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#ede9fe; padding:10px; border-radius:5px;'>
+                                P(D) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span>8</span></span><br><br>
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક:</b><br>
+                                P(D) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>1 &times; <del style='color:#dc2626; font-weight:bold;'>8</del></span><span>1 &times; <del style='color:#dc2626; font-weight:bold;'>8</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#7c3aed; font-size:20px;'>1</b>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
              
