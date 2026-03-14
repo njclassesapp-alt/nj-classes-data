@@ -8010,12 +8010,108 @@
 
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 4: નીચેનામાંથી કયો વિકલ્પ ઘટનાની સંભાવના ન હોઈ શકે?", 
+                    question_desc: "બોર્ડની પરીક્ષામાં MCQ (1 માર્ક્સ) માટે વારંવાર પૂછાતો પ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#eff6ff; padding:10px; border-radius:5px; margin-bottom:15px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>વિકલ્પો:</b><br><br>
+                            (A) <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2</span><span>3</span></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            (B) -1.5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            (C) 15% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            (D) 0.7
+                        </div>
+                        
+                        <div style='background-color:#fef2f2; border-left:4px solid #dc2626; padding:10px; border-radius:4px;'>
+                            <b style='color:#991b1b; font-size:18px;'>સાચો જવાબ: (B) -1.5</b><br><br>
+                            <span style='color:#0f172a; font-size:14px;'>
+                                <b>સમજૂતી:</b> સંભાવના ક્યારેય <b>ઋણ (માઇનસ)</b> ન હોઈ શકે. સંભાવનાનું મૂલ્ય હંમેશા 0 અને 1 ની વચ્ચે જ હોય છે.<br>
+                                • (A) 2/3 = 0.66 (જે 0 અને 1 ની વચ્ચે છે).<br>
+                                • (C) 15% એટલે 15/100 = 0.15 (શક્ય છે).<br>
+                                • (D) 0.7 (શક્ય છે).
+                            </span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 5: જો P(E) = 0.05 હોય, તો 'E નહિ' ની સંભાવના શું છે?", 
+                    question_desc: "2024 બોર્ડમાં 1 માર્ક્સમાં પૂછાયેલો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>આપેલી માહિતી:</b><br>
+                            ઘટના E ની સંભાવના: <b>P(E) = 0.05</b> આપેલ છે.<br>
+                            આપણે 'E નહિ' એટલે કે <b>P(E̅)</b> શોધવાનું છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; padding:15px; border-radius:5px;'>
+                            <b style='color:#1e3a8a;'>સૂત્ર: P(E) + P(E̅) = 1</b><br><br>
+                            0.05 + P(E̅) = 1<br><br>
+                            <span style='color:#047857; font-size:14px;'><i>(0.05 જમણી બાજુ જશે એટલે માઇનસ થશે)</i></span><br>
+                            P(E̅) = 1 - 0.05<br><br>
+                            <span style='color:#047857; font-size:14px;'><i>(1.00 માંથી 0.05 બાદ કરતા)</i></span><br>
+                            <b style='color:#dc2626; font-size:20px;'>P(E̅) = 0.95</b>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 6: એક થેલામાં માત્ર લીંબુના સ્વાદની જ મીઠાઈઓ છે. માલિની થેલામાં જોયા વગર એક મીઠાઈ બહાર કાઢે છે. તે (i) નારંગીના સ્વાદની હોય (ii) લીંબુના સ્વાદની હોય તેની સંભાવના કેટલી?", 
+                    question_desc: "લોજીક અને સમજણ આધારિત 1 માર્ક્સનો પ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309;'>💡 લોજિક:</b> રકમમાં ચોખ્ખું લખ્યું છે કે થેલામાં <b>માત્ર લીંબુના સ્વાદની જ</b> મીઠાઈઓ છે. બીજી કોઈ મીઠાઈ છે જ નહિ!
+                        </div>
+                        
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(i) નારંગીના સ્વાદની મીઠાઈ હોય:</b><br>
+                            થેલામાં નારંગીના સ્વાદની મીઠાઈ છે જ નહિ, તેથી બહાર નીકળવાની કોઈ શક્યતા નથી. આ <b>અશક્ય ઘટના</b> છે.<br>
+                            અશક્ય ઘટનાની સંભાવના = <b style='color:#dc2626; font-size:20px;'>0 (શૂન્ય)</b>.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>(ii) લીંબુના સ્વાદની મીઠાઈ હોય:</b><br>
+                            થેલામાં બધી મીઠાઈ લીંબુના સ્વાદની જ છે, તેથી માલિની કોઈ પણ મીઠાઈ કાઢશે તે લીંબુના સ્વાદની જ હશે. આ <b>ચોક્કસ (નિશ્ચિત) ઘટના</b> છે.<br>
+                            ચોક્કસ ઘટનાની સંભાવના = <b style='color:#15803d; font-size:20px;'>1</b>.
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 7: આપેલ છે કે 3 વિદ્યાર્થીઓના સમૂહમાં, 2 વિદ્યાર્થીઓનો જન્મદિવસ સમાન ન હોય તેની સંભાવના 0.992 છે. 2 વિદ્યાર્થીઓનો જન્મદિવસ સમાન હોય તેની સંભાવના કેટલી?", 
+                    question_desc: "1 માર્ક્સ માટે પૂરક ઘટનાનું સૂત્ર વાપરતો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>આપેલી માહિતી:</b><br>
+                            ધારો કે ઘટના E = બે વિદ્યાર્થીઓનો જન્મદિવસ સમાન હોય.<br>
+                            તો ઘટના E̅ = બે વિદ્યાર્થીઓનો જન્મદિવસ સમાન <b>ન હોય.</b><br><br>
+                            અહીં આપણને <b>P(E̅) = 0.992</b> આપેલ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; padding:15px; border-radius:5px;'>
+                            <b style='color:#1e3a8a;'>સૂત્ર: P(E) + P(E̅) = 1</b><br><br>
+                            P(E) + 0.992 = 1<br><br>
+                            <span style='color:#047857; font-size:14px;'><i>(0.992 જમણી બાજુ જશે એટલે માઇનસ થશે)</i></span><br>
+                            P(E) = 1 - 0.992<br><br>
+                            <span style='color:#047857; font-size:14px;'><i>(1.000 માંથી 0.992 બાદ કરતા)</i></span><br>
+                            <b style='color:#dc2626; font-size:20px;'>P(E) = 0.008</b>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
   
        
   
-                    
+           ]
+        }
    };         
             
                     
