@@ -6661,7 +6661,88 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 13.2 પ્રશ્ન 6: એક વિદ્યાર્થીએ પ્રત્યેક 3 મિનિટનો એક એવા 100 સમયગાળા માટે રસ્તા પરની એક જગ્યાએથી પસાર થતી ગાડીઓની સંખ્યાની નોંધ કરી અને તેને નીચે આપેલા કોષ્ટકમાં સંક્ષિપ્ત સ્વરૂપમાં દર્શાવી છે. આ માહિતીનો બહુલક શોધો.", 
+                    question_desc: "2024 અને 2026 બોર્ડ પરીક્ષા માટે 3 માર્ક્સનો સ્વાધ્યાય 13.2 નો છેલ્લો અને સૌથી સ્કોરિંગ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન:</b> બહુલક શોધવા માટે કોઈ નવું કોષ્ટક દોરવાની જરૂર નથી. ખાલી નીચે આપેલ આવૃત્તિની લાઈન જુઓ. તેમાંથી સૌથી મોટો આંકડો શોધીને તેને તમારો 'રાજા' (f₁) બનાવી લો!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: કોષ્ટક પરથી કિંમતો નક્કી કરવી</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; padding-bottom:5px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>ગાડીઓની સંખ્યા</th>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>0 - 10</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>10 - 20</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>20 - 30</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>30 - 40</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; background-color:#fef08a; border:2px solid #ea580c;'><b>40 - 50</b><br><span style='font-size:12px; color:#c2410c;'>(બહુલક વર્ગ)</span></td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>50 - 60</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>60 - 70</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>70 - 80</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <th style='border:1px solid #bbf7d0; padding:8px; color:#14532d;'>આવૃત્તિ (f<sub>i</sub>)</th>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>7</td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>14</td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>13</td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px; color:#2563eb;'>12<br><b>(f₀)</b></td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px; background-color:#fef08a; border:2px solid #ea580c; color:#dc2626; font-size:18px;'><b>20<br>(f₁)</b></td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px; color:#16a34a;'>11<br><b>(f₂)</b></td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>15</td>
+                                        <td style='border:1px solid #bbf7d0; padding:8px;'>8</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>અહીં સૌથી મોટી આવૃત્તિ <b>20</b> છે, તેથી <b>f₁ = 20</b>.</li>
+                                    <li>તેની આગળની આવૃત્તિ <b>f₀ = 12</b> અને પાછળની આવૃત્તિ <b>f₂ = 11</b>.</li>
+                                    <li>સૌથી મોટી આવૃત્તિ 20 ની બરાબર ઉપરનો વર્ગ <b>40 - 50</b> છે, જેને <b>બહુલક વર્ગ</b> કહેવાય.</li>
+                                    <li>આથી તેની અધઃસીમા <b>l = 40</b> થશે.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 10</b> છે. (50 - 40 = 10)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: સૂત્ર અને ગણતરી</b>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffedd5; padding:15px; border-radius:5px;'>
+                                <b style='font-size:16px;'>Z = l + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>f₁ - f₀</span><span>2f₁ - f₀ - f₂</span></span> <span style='font-size:28px;'>)</span> &times; h</b><br><br>
+                                
+                                Z = 40 + <span style='font-size:28px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>20 - 12</span><span>2(20) - 12 - 11</span></span> <span style='font-size:28px;'>)</span> &times; 10<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(અંશ: 20 - 12 = 8. છેદ: 2(20) = 40. અને -12 - 11 નો સરવાળો -23 થાય)</i></span><br>
+                                Z = 40 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span>40 - 23</span></span> <span style='font-size:24px;'>)</span> &times; 10<br><br>
+
+                                Z = 40 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>8</span><span>17</span></span> <span style='font-size:24px;'>)</span> &times; 10<br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(8 &times; 10 = 80 થશે)</i></span><br>
+                                Z = 40 + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>80</span><span>17</span></span><br><br>
+
+                                <span style='color:#047857; font-size:14px;'><i>(80 નો 17 વડે ભાગાકાર કરતા 4.705... આવશે)</i></span><br>
+                                Z = 40 + 4.705<br><br>
+
+                                <b style='color:#dc2626; font-size:22px;'>Z = 44.7 ગાડીઓ (આશરે)</b>
+                            </div>
+                            
+                            <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                                <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> આપેલ માહિતીનો બહુલક <b>44.7 ગાડીઓ</b> છે.
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
              
