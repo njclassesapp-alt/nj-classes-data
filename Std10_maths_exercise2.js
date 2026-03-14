@@ -7037,7 +7037,103 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: બે ખૂટતી આવૃત્તિ (x અને y) વાળા દાખલાની જાદુઈ ટ્રીક",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 x અને y શોધવાના 3 ગોલ્ડન સ્ટેપ્સ:</b><br><br>
+                            <b>સ્ટેપ 1 (સમીકરણ 1):</b> સૌથી પહેલા બધી આવૃત્તિઓનો સરવાળો કરીને તેને કુલ આવૃત્તિ (જે રકમમાં આપી હોય) સાથે સરખાવી દો. આનાથી તમને <b>x + y = કઈંક સંખ્યા</b> વાળું સમીકરણ 1 મળશે.<br>
+                            <b>સ્ટેપ 2 (મધ્યસ્થ વર્ગ શોધવો):</b> આ દાખલામાં સૌથી મોટી ભૂલ વિદ્યાર્થીઓ એ કરે છે કે તેઓ n/2 પરથી વર્ગ શોધવા જાય છે, પણ x અને y હોવાથી તે ના મળે! <br>
+                            <span style='color:#dc2626; font-weight:bold;'>જાદુઈ ટ્રીક:</span> <b>મધ્યસ્થ (Median) ની જે કિંમત આપી હોય (દા.ત. 28.5), તે કિંમત કયા વર્ગની વચ્ચે આવે છે તે જુઓ!</b> 28.5 એ 20 અને 30 ની વચ્ચે આવે, તેથી 20-30 એ જ આપણો મધ્યસ્થ વર્ગ!<br>
+                            <b>સ્ટેપ 3:</b> સૂત્રમાં કિંમત મૂકતી વખતે <b>cf</b> ની આગળ માઇનસ (-) હોવાથી કૌંસની નિશાનીઓ બદલવાનું ખાસ ધ્યાન રાખવું!
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 13.3 પ્રશ્ન 2 (ભાગ 1 - કોષ્ટક): જો નીચે આપેલ આવૃત્તિ-વિતરણનો મધ્યસ્થ 28.5 હોય, તો x અને y નાં મૂલ્યો શોધો. (આપેલ છે: કુલ આવૃત્તિ = 60)", 
+                    question_desc: "🔥 માર્ચ 2024 બોર્ડ પરીક્ષામાં પૂછાયેલો 4 માર્ક્સનો 100% મોસ્ટ IMP દાખલો!",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>સ્ટેપ 1: સમીકરણ 1 બનાવવું અને cf નું કોષ્ટક બનાવવું</b>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>વર્ગ અંતરાલ</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>આવૃત્તિ (f)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>સંચયી આવૃત્તિ (cf)</th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0 - 10</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>5</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>10 - 20</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>x</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#dc2626;'>5 + x (cf)</td>
+                                    </tr>
+                                    <tr style='background-color:#fef08a;'>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold;'>20 - 30<br><span style='font-size:12px; color:#c2410c;'>(મધ્યસ્થ વર્ગ)</span></td>
+                                        <td style='border:1px solid #ea580c; padding:6px; font-weight:bold; color:#2563eb;'>20 (f)</td>
+                                        <td style='border:1px solid #ea580c; padding:6px; color:#1d4ed8;'>25 + x</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>30 - 40</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>15</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>40 + x</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>40 - 50</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626; font-weight:bold;'>y</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#1d4ed8;'>40 + x + y</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>50 - 60</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; font-weight:bold; color:#16a34a;'>45 + x + y</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#16a34a;'>n = 60 (આપેલ છે)</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='background-color:#e0f2fe; padding:10px; border-radius:5px; margin-top:15px;'>
+                                <b style='color:#1e3a8a;'>સમીકરણ 1 મેળવીએ:</b><br>
+                                અહીં કુલ આવૃત્તિ n = 60 આપી છે. અને કોષ્ટકના છેલ્લા ખાનાનો સરવાળો 45 + x + y છે.<br>
+                                45 + x + y = 60<br>
+                                x + y = 60 - 45<br>
+                                <b style='color:#dc2626; font-size:18px;'>x + y = 15 ----- (સમીકરણ 1)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <b style='color:#c2410c; font-size:18px;'>સ્ટેપ 2: મધ્યસ્થ વર્ગ અને સૂત્રની કિંમતો નક્કી કરવી</b>
+                            <div style='background-color:#ffedd5; padding:10px; border-radius:5px; margin-top:10px;'>
+                                <ul style='margin:0; padding-left:20px; color:#0f172a; line-height:1.6;'>
+                                    <li>અહીં મધ્યસ્થ <b>M = 28.5</b> આપેલો છે. 28.5 એ 20 અને 30 ની વચ્ચે આવે છે.</li>
+                                    <li>તેથી આપણો <b>મધ્યસ્થ વર્ગ 20 - 30</b> થશે.</li>
+                                    <li>અધઃસીમા <b>l = 20</b>.</li>
+                                    <li>તે વર્ગની આવૃત્તિ <b>f = 20</b>.</li>
+                                    <li><span style='color:#dc2626; font-weight:bold;'>ખાસ નોંધ:</span> <b>cf</b> હંમેશા ઉપરના ખાનાની લેવાની, એટલે <b>cf = 5 + x</b>.</li>
+                                    <li>કુલ આવૃત્તિ 60 હોવાથી <b>n/2 = 30</b>.</li>
+                                    <li>વર્ગલંબાઈ <b>h = 10</b> (30 - 20 = 10).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    `
                 }
+             
              
              
              
