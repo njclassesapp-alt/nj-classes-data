@@ -5163,7 +5163,252 @@
                         </div>
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 13.1 પ્રશ્ન 7 (સીધી રીત): એક ચોક્કસ શહેરમાં 30 વિસ્તારોમાં હવામાં SO₂ (સલ્ફર ડાયોક્સાઈડ) ની સાંદ્રતા (ppm માં) શોધવા માટે નીચે દર્શાવેલ માહિતી એકત્રિત કરવામાં આવી હતી. હવામાં SO₂ ની સાંદ્રતાનો મધ્યક શોધો.", 
+                    question_desc: "2024 બોર્ડ માટે 3 માર્ક્સનો પોઈન્ટ (દશાંશ) વાળી ગણતરીનો સૌથી અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fee2e2; border-left:4px solid #b91c1c; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#991b1b;'>⚠️ NJ ચેતવણી અને ટિપ્સ:</b> આ દાખલામાં વર્ગ અને મધ્યકિંમત <b>પોઈન્ટ (Decimals)</b> માં છે (જેમ કે 0.02, 0.06). જો તમે 'સીધી રીત' વાપરશો તો પોઈન્ટ વાળા ગુણાકારમાં ભૂલ થવાની શક્યતા રહેશે. <b>આ દાખલામાં પદ-વિચલનની રીત (નીચેના ભાગમાં આપેલી છે તે) વાપરવી સૌથી બેસ્ટ છે, કારણ કે તેમાં પોઈન્ટ જાદુઈ રીતે ગાયબ થઈ જશે!</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#16a34a; font-size:18px;'>રીત 1: સીધી રીત (Direct Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>મધ્યકિંમત (x<sub>i</sub>): (0.00 + 0.04) / 2 = 0.02</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>SO₂ ની સાંદ્રતા (ppm માં)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>આવૃત્તિ (f<sub>i</sub>)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>મધ્યકિંમત (x<sub>i</sub>)</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>f<sub>i</sub>x<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.00 - 0.04</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.02</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>0.08</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.04 - 0.08</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.06</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>0.54</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.08 - 0.12</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.10</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>0.90</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.12 - 0.16</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.14</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>0.28</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.16 - 0.20</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.18</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>0.72</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.20 - 0.24</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>0.22</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>0.44</td>
+                                    </tr>
+                                    <tr style='background-color:#dcfce7; font-weight:bold;'>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>કુલ (Total)</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#1d4ed8;'>&Sigma;f<sub>i</sub> = 30</td>
+                                        <td style='border:1px solid #22c55e; padding:8px;'>-</td>
+                                        <td style='border:1px solid #22c55e; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>x<sub>i</sub> = 2.96</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>x<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br><br>
+                                x̄ = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>2.96</span><span>30</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(2.96 નો 3 વડે ભાગાકાર કરતા 0.9866 આવે, અને છેદના 10 માટે 1 પોઈન્ટ વધુ કાપતા)</i></span><br>
+                                <b style='color:#15803d; font-size:20px;'>x̄ = 0.0986... &approx; 0.099 ppm</b>
+                            </div>
+                        </div>
+                    </div>
+                    
+                                
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#eff6ff; border:1px solid #bfdbfe; border-radius:8px; padding:10px; margin-bottom:20px;'>
+                            <b style='color:#1d4ed8; font-size:18px;'>રીત 2: ધારેલા મધ્યકની રીત (Assumed Mean Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>ધારો કે મધ્યક <b>A = 0.10</b> છે. (વચ્ચેની મધ્યકિંમત)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub></th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>x<sub>i</sub></th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>d<sub>i</sub> = x<sub>i</sub> - A</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>f<sub>i</sub>d<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.00 - 0.04</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.02</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-0.08</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-0.32</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.04 - 0.08</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.06</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>-0.04</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#dc2626;'>-0.36</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.08 - 0.12</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>9</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; background-color:#fef08a; border-radius:4px;'><b>0.10 (A)</b></td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.12 - 0.16</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.14</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.04</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>0.08</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.16 - 0.20</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.18</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.08</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>0.32</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.20 - 0.24</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.22</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>0.12</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px; color:#2563eb;'>0.24</td>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe; font-weight:bold;'>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>30</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px;'>-</td>
+                                        <td style='border:1px solid #3b82f6; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>d<sub>i</sub> = -0.04</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -0.68, અને + વાળાનો 0.64. એટલે 0.64 - 0.68 = -0.04)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>d<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span><br><br>
+                                x̄ = 0.10 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-0.04</span><span>30</span></span> <span style='font-size:24px;'>)</span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(0.04 / 30 = 0.00133...)</i></span><br>
+                                x̄ = 0.10 - 0.00133<br><br>
+                                <b style='color:#1d4ed8; font-size:20px;'>x̄ = 0.0986... &approx; 0.099 ppm</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border:1px solid #fed7aa; border-radius:8px; padding:10px;'>
+                            <div style='background-color:#fef08a; padding:5px; border-radius:4px; margin-bottom:10px; font-weight:bold; color:#b45309;'>
+                                👑 પોઈન્ટ વાળા દાખલામાં પદ-વિચલનની રીત વાપરતા u<sub>i</sub> માંથી પોઈન્ટ ગાયબ થઈ જશે!
+                            </div>
+                            <b style='color:#c2410c; font-size:18px;'>રીત 3: પદ-વિચલનની રીત (Step-Deviation Method)</b><br>
+                            <span style='font-size:14px; color:#0f172a;'>ધારો કે <b>A = 0.10</b>. અહીં વર્ગલંબાઈ <b>h = 0.04</b> છે. (0.04 - 0.00 = 0.04)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#ffedd5; color:#9a3412; font-weight:bold;'>
+                                        <th style='border:1px solid #f97316; padding:8px;'>વર્ગ</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>f<sub>i</sub></th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>x<sub>i</sub></th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>u<sub>i</sub> = (x<sub>i</sub>-A)/h</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>f<sub>i</sub>u<sub>i</sub></th>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.00 - 0.04</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>4</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.02</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>-2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#dc2626;'>-8</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.04 - 0.08</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>9</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.06</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>-1</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#dc2626;'>-9</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.08 - 0.12</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>9</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; background-color:#fef08a; border-radius:4px;'><b>0.10 (A)</b></td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#16a34a;'>0</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.12 - 0.16</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.14</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>1</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#2563eb;'>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.16 - 0.20</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>4</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.18</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#2563eb;'>8</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.20 - 0.24</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>2</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>0.22</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px;'>3</td>
+                                        <td style='border:1px solid #fed7aa; padding:6px; color:#2563eb;'>6</td>
+                                    </tr>
+                                    <tr style='background-color:#ffedd5; font-weight:bold;'>
+                                        <td style='border:1px solid #f97316; padding:8px;'>કુલ</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>30</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>-</td>
+                                        <td style='border:1px solid #f97316; padding:8px;'>-</td>
+                                        <td style='border:1px solid #f97316; padding:8px; color:#b91c1c;'>&Sigma;f<sub>i</sub>u<sub>i</sub> = -1</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:12px; color:#64748b;'>(- વાળાનો સરવાળો -17, અને + વાળાનો 16. એટલે 16 - 17 = -1)</span>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#ffffff; padding:10px; border-radius:5px;'>
+                                <b style='color:#0f172a;'>સૂત્ર અને ગણતરી:</b><br>
+                                મધ્યક (x̄) = A + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>&Sigma;f<sub>i</sub>u<sub>i</sub></span><span>&Sigma;f<sub>i</sub></span></span> <span style='font-size:24px;'>)</span> &times; h<br><br>
+                                x̄ = 0.10 + <span style='font-size:24px;'>(</span> <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>-1</span><span>30</span></span> <span style='font-size:24px;'>)</span> &times; 0.04<br><br>
+                                x̄ = 0.10 - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>0.04</span><span>30</span></span><br><br>
+                                <span style='color:#047857; font-size:14px;'><i>(0.04 નો 30 વડે ભાગાકાર 0.00133... થાય)</i></span><br>
+                                x̄ = 0.10 - 0.00133<br><br>
+                                <b style='color:#c2410c; font-size:20px;'>x̄ = 0.0986... &approx; 0.099 ppm</b>
+                            </div>
+                        </div>
+
+                        <div style='margin-top:10px; background-color:#f1f5f9; padding:8px; border-radius:4px; border-left:4px solid #475569; text-align:center;'>
+                            <b style='color:#0f172a; font-size:16px;'>અંતિમ જવાબ:</b> હવામાં SO₂ ની સાંદ્રતાનો મધ્યક આશરે <b>0.099 ppm</b> છે.
+                        </div>
+                    </div>
+                    `
                 }
+             
+             
              
              
              
