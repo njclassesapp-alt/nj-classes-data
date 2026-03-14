@@ -9124,7 +9124,174 @@
 
                     </div>
                     `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 23: એક રમતમાં એક રૂપિયાના સિક્કાને 3 વાર ઉછાળવામાં આવે છે અને તેનાં પરિણામ દરેક વખતે નોંધવામાં આવે છે. જો તમામ વખત ઉછાળતાં સરખું પરિણામ મળે, એટલે કે ત્રણ છાપ (H) અથવા ત્રણ કાંટો (T) મળે, તો હનીફ રમત જીતી જાય છે, અન્યથા હારે છે. તો હનીફ રમત હારે તેની સંભાવનાની ગણતરી કરો.", 
+                    question_desc: "2024 અને 2025 બોર્ડ માટે 3 માર્ક્સનો 3 સિક્કા ઉછાળવા વાળો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 NJ માસ્ટર ટિપ્સ (3 સિક્કાના 8 પરિણામ લખવાની "4-2-1" ટ્રીક):</b><br>
+                            કોઈપણ ભૂલ વગર 8 પરિણામ લખવા માટેની જાદુઈ રીત:<br>
+                            <span style='font-size:14px; color:#475569;'>
+                            • <b>પહેલી લાઈન:</b> 4 વાર H, 4 વાર T લખો.<br>
+                            • <b>બીજી લાઈન:</b> 2 વાર H, 2 વાર T લખો.<br>
+                            • <b>ત્રીજી લાઈન:</b> 1 વાર H, 1 વાર T લખો.
+                            </span>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border:1px solid #bbf7d0; border-radius:8px; padding:10px; margin-bottom:15px;'>
+                            <b style='color:#16a34a; font-size:16px;'>પહેલું સ્ટેપ (કુલ 8 પરિણામો નક્કી કરવા):</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; border-collapse:collapse; text-align:center; font-size:15px;'>
+                                    <tr style='background-color:#dcfce7; color:#14532d; font-weight:bold;'>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>ક્રમ</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>પરિણામ</th>
+                                        <th style='border:1px solid #22c55e; padding:8px;'>રમતનું પરિણામ (હનીફ જીતે કે હારે?)</th>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe;'>
+                                        <td style='border:1px solid #93c5fd; padding:6px;'>1</td>
+                                        <td style='border:1px solid #93c5fd; padding:6px; font-weight:bold; color:#1d4ed8;'>H H H</td>
+                                        <td style='border:1px solid #93c5fd; padding:6px; color:#16a34a; font-weight:bold;'>જીતે (બધા સરખા)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>2</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>H H T</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>હારે</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>3</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>H T H</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>હારે</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>4</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>H T T</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>હારે</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>T H H</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>હારે</td>
+                                    </tr>
+                                    <tr>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>T H T</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>હારે</td>
+                                    </tr>
+                                    <tr style='background-color:#f8fafc;'>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>7</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px;'>T T H</td>
+                                        <td style='border:1px solid #bbf7d0; padding:6px; color:#dc2626;'>હારે</td>
+                                    </tr>
+                                    <tr style='background-color:#dbeafe;'>
+                                        <td style='border:1px solid #93c5fd; padding:6px;'>8</td>
+                                        <td style='border:1px solid #93c5fd; padding:6px; font-weight:bold; color:#1d4ed8;'>T T T</td>
+                                        <td style='border:1px solid #93c5fd; padding:6px; color:#16a34a; font-weight:bold;'>જીતે (બધા સરખા)</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <b style='color:#14532d; margin-top:8px; display:block;'>કુલ પરિણામ = 8</b>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 2: હનીફ રમત હારે તેની સંભાવના:</b><br>
+                            રકમ મુજબ હનીફ ક્યારે જીતે? જ્યારે ત્રણેય સરખા હોય <b>(HHH અથવા TTT)</b>. એટલે કે 2 પરિણામોમાં તે જીતે છે.<br>
+                            તો હનીફ ક્યારે હારે? બાકી વધેલા <b>6 પરિણામોમાં</b> તે હારે છે! (HHT, HTH, HTT, THH, THT, TTH).<br><br>
+                            સાનુકૂળ પરિણામ = <b>6</b>.<br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                P(હનીફ હારે) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>સાનુકૂળ પરિણામ</span><span>કુલ પરિણામ</span></span>
+                                &nbsp; = &nbsp;
+                                <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>6</span><span>8</span></span><br><br>
+                                
+                                <b style='color:#047857;'>✂️ છેદ ઉડાડવાની ટ્રીક (2 નો ઘડિયો):</b><br>
+                                P(હનીફ હારે) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span><span>4 &times; <del style='color:#dc2626; font-weight:bold;'>2</del></span></span>
+                                &nbsp; = &nbsp;
+                                <b style='color:#dc2626; font-size:20px;'><span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>3</span><span>4</span></span></b>
+                            </div>
+                        </div>
+
+                    </div>
+                    `
+                },
+                             
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 24: પાસાને બે વખત ઉછાળવામાં આવે છે. (i) એક પણ વખત ઉપરના પૃષ્ઠ પર 5 મળે નહિ (ii) ઓછામાં ઓછી એક વાર ઉપરના પૃષ્ઠ પર 5 મળે તેની સંભાવના કેટલી?", 
+                    question_desc: "બોર્ડમાં પૂછાઈ શકે તેવો બે પાસાનો લોજિકલ દાખલો (સૂચના: પાસાને 2 વાર ઉછાળવો કે 2 પાસા 1 વાર ઉછાળવા બંને સરખું જ છે).",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>પહેલું સ્ટેપ (કુલ પરિણામ શોધવા):</b><br>
+                            અહીં પણ બે પાસા ઉછાળ્યા બરાબર જ ગણતરી થાય, તેથી <b>કુલ પરિણામ = <span style='color:#dc2626;'>36</span></b> રહેશે. (બંનેમાં છેદ 36 આવશે).
+                        </div>
+
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309; font-size:16px;'>💡 લોજિક: 36 માંથી 5 ક્યારે-ક્યારે મળે છે?</b><br>
+                            આખા ટેબલમાં 5 વાળો અંક કઈ કઈ જોડીમાં છે તે શોધી કાઢીએ:<br>
+                            • <b>પહેલા પાસા પર 5 હોય:</b> (5,1), (5,2), (5,3), (5,4), (5,5), (5,6) &rarr; કુલ 6<br>
+                            • <b>બીજા પાસા પર 5 હોય:</b> (1,5), (2,5), (3,5), (4,5), (6,5) &rarr; કુલ 5 (5,5 બીજીવાર ન ગણાય).<br>
+                            તેથી 36 માંથી કુલ <b>11 વાર</b> એવું બને છે કે ઓછામાં ઓછી એક વાર 5 આવે જ છે!
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>(ii) ઓછામાં ઓછી એક વાર ઉપરના પૃષ્ઠ પર 5 મળે તેની સંભાવના:</b><br>
+                            <span style='font-size:14px; color:#475569;'><i>(નોંધ: આપણે ઉપર જે ગણતરી કરી તે સીધી અહી જ વાપરવાની છે, એટલે પહેલા બીજો ભાગ ગણવો સહેલો પડશે).</i></span><br>
+                            સાનુકૂળ પરિણામ = <b>11</b> (જે ઉપર ગણ્યા).<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#dbeafe; padding:10px; border-radius:5px;'>
+                                <b style='color:#1d4ed8; font-size:20px;'>P(ii) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>11</span><span>36</span></span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(i) એક પણ વખત ઉપરના પૃષ્ઠ પર 5 મળે નહિ તેની સંભાવના:</b><br>
+                            આપણે જોયું કે 36 માંથી 11 વખત '5' દેખાય છે.<br>
+                            તો '5' ક્યારે <b>નહિ દેખાય</b>? <br>
+                            સાનુકૂળ પરિણામ = કુલ પરિણામ (36) - 5 દેખાય તેવી વખત (11) = 36 - 11 = <b>25</b>.<br>
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; background-color:#fee2e2; padding:10px; border-radius:5px;'>
+                                <b style='color:#dc2626; font-size:20px;'>P(i) = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 3px;'>25</span><span>36</span></span></b>
+                            </div>
+                        </div>
+
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 સ્વા. 14.1 પ્રશ્ન 25: નીચેનામાંથી કઈ દલીલો સાચી છે અને કઈ સાચી નથી? તમારા જવાબ માટે કારણ આપો. (i) જો બે સિક્કાને એકસાથે ઉછાળવામાં આવે તો ત્રણ શક્યતાઓ મળે છે: બે છાપ, બે કાંટો અથવા પ્રત્યેકનો એક. તેથી આ પ્રત્યેકની સંભાવના 1/3 છે. (ii) જો પાસાને ઉછાળવામાં આવે તો બે શક્ય પરિણામો મળે છે : અયુગ્મ સંખ્યા અથવા યુગ્મ સંખ્યા. તેથી અયુગ્મ સંખ્યા મળવાની સંભાવના 1/2 છે.", 
+                    question_desc: "થીયરી અને લોજિક આધારિત સ્વાધ્યાયનો છેલ્લો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; margin-bottom:20px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>(i) પહેલી દલીલ: "પ્રત્યેક પરિણામની સંભાવના 1/3 છે."</b><br>
+                            <b style='color:#dc2626; font-size:18px;'>જવાબ: આ દલીલ સાચી નથી (ખોટી છે).</b><br><br>
+                            <b style='color:#7f1d1d;'>કારણ (સમર્થન):</b><br>
+                            જો બે સિક્કા એકસાથે ઉછાળીએ, તો કુલ <b>4 પરિણામો</b> મળે છે: {HH, HT, TH, TT}.<br>
+                            • બે છાપ (HH) ની સંભાવના = 1/4<br>
+                            • બે કાંટો (TT) ની સંભાવના = 1/4<br>
+                            • પ્રત્યેકનો એક (એટલે કે એક છાપ અને એક કાંટો - HT, TH) ની સંભાવના = 2/4 = 1/2.<br>
+                            અહીં જોઈ શકાય છે કે દરેકની સંભાવના 1/3 નથી, તેથી દલીલ ખોટી છે.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>(ii) બીજી દલીલ: "અયુગ્મ સંખ્યા મળવાની સંભાવના 1/2 છે."</b><br>
+                            <b style='color:#15803d; font-size:18px;'>જવાબ: આ દલીલ સાચી છે.</b><br><br>
+                            <b style='color:#14532d;'>કારણ (સમર્થન):</b><br>
+                            પાસાને ઉછાળતા કુલ 6 પરિણામો {1, 2, 3, 4, 5, 6} મળે છે.<br>
+                            તેમાં અયુગ્મ (એકી) સંખ્યાઓ = {1, 3, 5} એમ કુલ 3 છે.<br>
+                            અયુગ્મ સંખ્યાની સંભાવના = 3/6.<br>
+                            અંશ અને છેદ ઉડાડતા (3 દુ 6): જવાબ <b style='color:#16a34a;'>1/2</b> જ આવે છે. તેથી દલીલ સાચી છે.
+                        </div>
+
+                    </div>
+                    `
                 }
+             
+             
        
            ]
         }
