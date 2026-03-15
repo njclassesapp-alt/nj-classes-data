@@ -712,11 +712,422 @@ const njArrowLevels = [
         {x:2,y:9,dir:'DOWN'}, {x:5,y:9,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'},
         {x:1,y:4,dir:'LEFT'}, {x:1,y:5,dir:'LEFT'}, {x:1,y:6,dir:'LEFT'}, {x:1,y:7,dir:'LEFT'},
         {x:10,y:4,dir:'RIGHT'}, {x:10,y:5,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'}, {x:10,y:7,dir:'RIGHT'}
+    ]},
+        // === 🌟 CHAMPION TIER LEVELS (ગ્રીડ: 12x12 અને 13x13) ===
+    // લેવલ 101 થી 130 (અત્યંત હાર્ડ, પણ ડેડલોક-ફ્રી)
+
+    // Level 101 (12x12 - The Keyhole)
+    { size: 12, blocks: [ 
+        {x:5,y:5,dir:'UP'}, {x:6,y:5,dir:'UP'}, {x:5,y:6,dir:'DOWN'}, {x:6,y:6,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:7,y:5,dir:'RIGHT'}, {x:4,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:4,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:3,y:4,dir:'LEFT'}, {x:8,y:4,dir:'RIGHT'}, {x:3,y:7,dir:'LEFT'}, {x:8,y:7,dir:'RIGHT'},
+        {x:5,y:3,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:6,y:8,dir:'DOWN'} 
+    ]},
+    // Level 102
+    { size: 12, blocks: [ 
+        {x:2,y:2,dir:'LEFT'}, {x:9,y:2,dir:'RIGHT'}, {x:2,y:9,dir:'LEFT'}, {x:9,y:9,dir:'RIGHT'},
+        {x:3,y:2,dir:'UP'}, {x:8,y:2,dir:'UP'}, {x:3,y:9,dir:'DOWN'}, {x:8,y:9,dir:'DOWN'},
+        {x:4,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:4,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:5,y:5,dir:'LEFT'}, {x:6,y:5,dir:'RIGHT'}, {x:5,y:6,dir:'LEFT'}, {x:6,y:6,dir:'RIGHT'},
+        {x:2,y:5,dir:'LEFT'}, {x:9,y:5,dir:'RIGHT'} 
+    ]},
+    // Level 103
+    { size: 12, blocks: [ 
+        {x:1,y:5,dir:'LEFT'}, {x:2,y:5,dir:'LEFT'}, {x:3,y:5,dir:'LEFT'}, {x:8,y:5,dir:'RIGHT'}, {x:9,y:5,dir:'RIGHT'}, {x:10,y:5,dir:'RIGHT'},
+        {x:5,y:1,dir:'UP'}, {x:5,y:2,dir:'UP'}, {x:5,y:3,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:5,y:9,dir:'DOWN'}, {x:5,y:10,dir:'DOWN'},
+        {x:6,y:1,dir:'UP'}, {x:6,y:10,dir:'DOWN'}, {x:1,y:6,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:4,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'} 
+    ]},
+    // Level 104
+    { size: 12, blocks: [ 
+        {x:0,y:0,dir:'LEFT'}, {x:1,y:0,dir:'UP'}, {x:10,y:0,dir:'UP'}, {x:11,y:0,dir:'RIGHT'},
+        {x:0,y:11,dir:'LEFT'}, {x:1,y:11,dir:'DOWN'}, {x:10,y:11,dir:'DOWN'}, {x:11,y:11,dir:'RIGHT'},
+        {x:3,y:3,dir:'LEFT'}, {x:4,y:3,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:8,y:3,dir:'RIGHT'},
+        {x:3,y:8,dir:'LEFT'}, {x:4,y:8,dir:'DOWN'}, {x:7,y:8,dir:'DOWN'}, {x:8,y:8,dir:'RIGHT'},
+        {x:5,y:5,dir:'UP'}, {x:6,y:6,dir:'DOWN'}, {x:5,y:6,dir:'LEFT'}, {x:6,y:5,dir:'RIGHT'} 
+    ]},
+    // Level 105
+    { size: 12, blocks: [ 
+        {x:5,y:4,dir:'UP'}, {x:6,y:4,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:6,y:7,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:7,y:5,dir:'RIGHT'}, {x:4,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:2,y:5,dir:'LEFT'}, {x:9,y:5,dir:'RIGHT'}, {x:2,y:6,dir:'LEFT'}, {x:9,y:6,dir:'RIGHT'},
+        {x:5,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:5,y:9,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'},
+        {x:3,y:3,dir:'UP'}, {x:8,y:3,dir:'UP'}, {x:3,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'} 
+    ]},
+    // Level 106
+    { size: 12, blocks: [ 
+        {x:4,y:2,dir:'UP'}, {x:5,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:7,y:2,dir:'UP'},
+        {x:4,y:9,dir:'DOWN'}, {x:5,y:9,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'},
+        {x:2,y:4,dir:'LEFT'}, {x:3,y:4,dir:'LEFT'}, {x:8,y:4,dir:'RIGHT'}, {x:9,y:4,dir:'RIGHT'},
+        {x:2,y:7,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:8,y:7,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'},
+        {x:5,y:5,dir:'LEFT'}, {x:6,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 107
+    { size: 12, blocks: [ 
+        {x:1,y:2,dir:'LEFT'}, {x:2,y:2,dir:'UP'}, {x:9,y:2,dir:'UP'}, {x:10,y:2,dir:'RIGHT'},
+        {x:1,y:9,dir:'LEFT'}, {x:2,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'}, {x:10,y:9,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:4,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:5,y:3,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:6,y:8,dir:'DOWN'},
+        {x:3,y:5,dir:'LEFT'}, {x:8,y:5,dir:'RIGHT'}, {x:3,y:6,dir:'LEFT'}, {x:8,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 108
+    { size: 12, blocks: [ 
+        {x:0,y:5,dir:'LEFT'}, {x:1,y:5,dir:'LEFT'}, {x:10,y:5,dir:'RIGHT'}, {x:11,y:5,dir:'RIGHT'},
+        {x:0,y:6,dir:'LEFT'}, {x:1,y:6,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'}, {x:11,y:6,dir:'RIGHT'},
+        {x:5,y:0,dir:'UP'}, {x:6,y:0,dir:'UP'}, {x:5,y:11,dir:'DOWN'}, {x:6,y:11,dir:'DOWN'},
+        {x:5,y:1,dir:'UP'}, {x:6,y:1,dir:'UP'}, {x:5,y:10,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'},
+        {x:3,y:3,dir:'UP'}, {x:8,y:3,dir:'UP'}, {x:3,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'} 
+    ]},
+    // Level 109
+    { size: 12, blocks: [ 
+        {x:4,y:4,dir:'UP'}, {x:5,y:4,dir:'LEFT'}, {x:6,y:4,dir:'RIGHT'}, {x:7,y:4,dir:'UP'},
+        {x:4,y:7,dir:'DOWN'}, {x:5,y:7,dir:'LEFT'}, {x:6,y:7,dir:'RIGHT'}, {x:7,y:7,dir:'DOWN'},
+        {x:3,y:5,dir:'LEFT'}, {x:8,y:5,dir:'RIGHT'}, {x:3,y:6,dir:'LEFT'}, {x:8,y:6,dir:'RIGHT'},
+        {x:2,y:2,dir:'UP'}, {x:9,y:2,dir:'UP'}, {x:2,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'},
+        {x:5,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:5,y:9,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'} 
+    ]},
+    // Level 110 (12x12 Boss)
+    { size: 12, blocks: [ 
+        {x:5,y:5,dir:'UP'}, {x:6,y:5,dir:'UP'}, {x:5,y:6,dir:'DOWN'}, {x:6,y:6,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'}, {x:7,y:5,dir:'RIGHT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:3,y:5,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:8,y:5,dir:'RIGHT'}, {x:8,y:6,dir:'RIGHT'},
+        {x:5,y:4,dir:'UP'}, {x:6,y:4,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:6,y:7,dir:'DOWN'},
+        {x:5,y:3,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:6,y:8,dir:'DOWN'},
+        {x:2,y:2,dir:'UP'}, {x:9,y:2,dir:'UP'}, {x:2,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'} 
+    ]},
+
+    // === 🚀 IMMORTAL TIER (ગ્રીડ: 13x13 - ગેમની સૌથી મોટી ગ્રીડ) ===
+    // લેવલ 111 થી 130
+    
+    // Level 111
+    { size: 13, blocks: [ 
+        {x:6,y:4,dir:'UP'}, {x:6,y:8,dir:'DOWN'}, {x:4,y:6,dir:'LEFT'}, {x:8,y:6,dir:'RIGHT'},
+        {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:5,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'}, {x:6,y:5,dir:'UP'}, {x:6,y:7,dir:'DOWN'},
+        {x:3,y:3,dir:'UP'}, {x:9,y:3,dir:'UP'}, {x:3,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'} 
+    ]},
+    // Level 112
+    { size: 13, blocks: [ 
+        {x:2,y:6,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'},
+        {x:8,y:6,dir:'RIGHT'}, {x:9,y:6,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'},
+        {x:6,y:2,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:6,y:4,dir:'UP'},
+        {x:6,y:8,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'},
+        {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'} 
+    ]},
+    // Level 113
+    { size: 13, blocks: [ 
+        {x:4,y:4,dir:'LEFT'}, {x:5,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:8,y:4,dir:'RIGHT'},
+        {x:4,y:8,dir:'LEFT'}, {x:5,y:8,dir:'DOWN'}, {x:7,y:8,dir:'DOWN'}, {x:8,y:8,dir:'RIGHT'},
+        {x:6,y:2,dir:'UP'}, {x:6,y:10,dir:'DOWN'}, {x:2,y:6,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'},
+        {x:6,y:5,dir:'UP'}, {x:6,y:7,dir:'DOWN'}, {x:5,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 114
+    { size: 13, blocks: [ 
+        {x:1,y:1,dir:'LEFT'}, {x:2,y:1,dir:'UP'}, {x:10,y:1,dir:'UP'}, {x:11,y:1,dir:'RIGHT'},
+        {x:1,y:11,dir:'LEFT'}, {x:2,y:11,dir:'DOWN'}, {x:10,y:11,dir:'DOWN'}, {x:11,y:11,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:4,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:6,y:3,dir:'UP'}, {x:6,y:9,dir:'DOWN'}, {x:3,y:6,dir:'LEFT'}, {x:9,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 115
+    { size: 13, blocks: [ 
+        {x:5,y:5,dir:'UP'}, {x:6,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'},
+        {x:5,y:7,dir:'DOWN'}, {x:6,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:5,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:3,y:6,dir:'LEFT'}, {x:9,y:6,dir:'RIGHT'}, {x:6,y:3,dir:'UP'}, {x:6,y:9,dir:'DOWN'},
+        {x:4,y:4,dir:'LEFT'}, {x:8,y:4,dir:'RIGHT'}, {x:4,y:8,dir:'LEFT'}, {x:8,y:8,dir:'RIGHT'} 
+    ]},
+    // Level 116
+    { size: 13, blocks: [ 
+        {x:6,y:1,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:6,y:10,dir:'DOWN'}, {x:6,y:11,dir:'DOWN'},
+        {x:1,y:6,dir:'LEFT'}, {x:2,y:6,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'}, {x:11,y:6,dir:'RIGHT'},
+        {x:5,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:7,y:8,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:8,y:5,dir:'RIGHT'}, {x:4,y:7,dir:'LEFT'}, {x:8,y:7,dir:'RIGHT'} 
+    ]},
+    // Level 117
+    { size: 13, blocks: [ 
+        {x:3,y:3,dir:'LEFT'}, {x:4,y:3,dir:'UP'}, {x:8,y:3,dir:'UP'}, {x:9,y:3,dir:'RIGHT'},
+        {x:3,y:9,dir:'LEFT'}, {x:4,y:9,dir:'DOWN'}, {x:8,y:9,dir:'DOWN'}, {x:9,y:9,dir:'RIGHT'},
+        {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:6,y:4,dir:'UP'}, {x:6,y:8,dir:'DOWN'}, {x:4,y:6,dir:'LEFT'}, {x:8,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 118
+    { size: 13, blocks: [ 
+        {x:4,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:8,y:2,dir:'UP'},
+        {x:4,y:10,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'}, {x:8,y:10,dir:'DOWN'},
+        {x:2,y:4,dir:'LEFT'}, {x:2,y:6,dir:'LEFT'}, {x:2,y:8,dir:'LEFT'},
+        {x:10,y:4,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'}, {x:10,y:8,dir:'RIGHT'},
+        {x:6,y:6,dir:'UP'} 
+    ]},
+    // Level 119
+    { size: 13, blocks: [ 
+        {x:5,y:4,dir:'LEFT'}, {x:6,y:4,dir:'UP'}, {x:7,y:4,dir:'RIGHT'},
+        {x:5,y:8,dir:'LEFT'}, {x:6,y:8,dir:'DOWN'}, {x:7,y:8,dir:'RIGHT'},
+        {x:4,y:5,dir:'UP'}, {x:4,y:6,dir:'LEFT'}, {x:4,y:7,dir:'DOWN'},
+        {x:8,y:5,dir:'UP'}, {x:8,y:6,dir:'RIGHT'}, {x:8,y:7,dir:'DOWN'},
+        {x:2,y:2,dir:'UP'}, {x:10,y:2,dir:'UP'}, {x:2,y:10,dir:'DOWN'}, {x:10,y:10,dir:'DOWN'} 
+    ]},
+    // Level 120 (13x13 Checkpoint)
+    { size: 13, blocks: [ 
+        {x:6,y:6,dir:'LEFT'}, {x:5,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:6,y:5,dir:'UP'}, {x:6,y:7,dir:'DOWN'},
+        {x:3,y:3,dir:'LEFT'}, {x:4,y:3,dir:'UP'}, {x:8,y:3,dir:'UP'}, {x:9,y:3,dir:'RIGHT'},
+        {x:3,y:9,dir:'LEFT'}, {x:4,y:9,dir:'DOWN'}, {x:8,y:9,dir:'DOWN'}, {x:9,y:9,dir:'RIGHT'},
+        {x:2,y:6,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'}, {x:6,y:2,dir:'UP'}, {x:6,y:10,dir:'DOWN'} 
+    ]},
+
+    // === 🔥 LEVEL 121 TO 130 (THE IMPOSSIBLE MAZE) ===
+    // અહી વિદ્યાર્થીઓને દરેક એરો બે વાર ચેક કરવો પડશે.
+
+    // Level 121
+    { size: 13, blocks: [ 
+        {x:4,y:4,dir:'UP'}, {x:5,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'},
+        {x:4,y:8,dir:'DOWN'}, {x:5,y:8,dir:'DOWN'}, {x:7,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:6,y:3,dir:'UP'}, {x:6,y:9,dir:'DOWN'}, {x:3,y:6,dir:'LEFT'}, {x:9,y:6,dir:'RIGHT'},
+        {x:5,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 122
+    { size: 13, blocks: [ 
+        {x:2,y:5,dir:'LEFT'}, {x:3,y:5,dir:'LEFT'}, {x:9,y:5,dir:'RIGHT'}, {x:10,y:5,dir:'RIGHT'},
+        {x:2,y:7,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:9,y:7,dir:'RIGHT'}, {x:10,y:7,dir:'RIGHT'},
+        {x:5,y:2,dir:'UP'}, {x:5,y:3,dir:'UP'}, {x:5,y:9,dir:'DOWN'}, {x:5,y:10,dir:'DOWN'},
+        {x:7,y:2,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:7,y:9,dir:'DOWN'}, {x:7,y:10,dir:'DOWN'},
+        {x:6,y:6,dir:'UP'} 
+    ]},
+    // Level 123
+    { size: 13, blocks: [ 
+        {x:0,y:0,dir:'LEFT'}, {x:1,y:0,dir:'UP'}, {x:11,y:0,dir:'UP'}, {x:12,y:0,dir:'RIGHT'},
+        {x:0,y:12,dir:'LEFT'}, {x:1,y:12,dir:'DOWN'}, {x:11,y:12,dir:'DOWN'}, {x:12,y:12,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:4,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'} 
+    ]},
+    // Level 124
+    { size: 13, blocks: [ 
+        {x:5,y:4,dir:'UP'}, {x:6,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'},
+        {x:5,y:8,dir:'DOWN'}, {x:6,y:8,dir:'DOWN'}, {x:7,y:8,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'}, {x:4,y:7,dir:'LEFT'},
+        {x:8,y:5,dir:'RIGHT'}, {x:8,y:6,dir:'RIGHT'}, {x:8,y:7,dir:'RIGHT'},
+        {x:2,y:2,dir:'UP'}, {x:10,y:2,dir:'UP'}, {x:2,y:10,dir:'DOWN'}, {x:10,y:10,dir:'DOWN'} 
+    ]},
+    // Level 125
+    { size: 13, blocks: [ 
+        {x:6,y:2,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:6,y:4,dir:'UP'},
+        {x:6,y:8,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'},
+        {x:2,y:6,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'},
+        {x:8,y:6,dir:'RIGHT'}, {x:9,y:6,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'},
+        {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'} 
+    ]},
+    // Level 126
+    { size: 13, blocks: [ 
+        {x:3,y:3,dir:'UP'}, {x:4,y:3,dir:'UP'}, {x:8,y:3,dir:'UP'}, {x:9,y:3,dir:'UP'},
+        {x:3,y:9,dir:'DOWN'}, {x:4,y:9,dir:'DOWN'}, {x:8,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'},
+        {x:6,y:5,dir:'UP'}, {x:6,y:7,dir:'DOWN'}, {x:5,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:6,y:1,dir:'UP'}, {x:6,y:11,dir:'DOWN'}, {x:1,y:6,dir:'LEFT'}, {x:11,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 127
+    { size: 13, blocks: [ 
+        {x:5,y:2,dir:'UP'}, {x:7,y:2,dir:'UP'}, {x:5,y:10,dir:'DOWN'}, {x:7,y:10,dir:'DOWN'},
+        {x:2,y:5,dir:'LEFT'}, {x:10,y:5,dir:'RIGHT'}, {x:2,y:7,dir:'LEFT'}, {x:10,y:7,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:4,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:6,y:6,dir:'UP'} 
+    ]},
+    // Level 128
+    { size: 13, blocks: [ 
+        {x:2,y:4,dir:'LEFT'}, {x:3,y:4,dir:'LEFT'}, {x:9,y:4,dir:'RIGHT'}, {x:10,y:4,dir:'RIGHT'},
+        {x:2,y:8,dir:'LEFT'}, {x:3,y:8,dir:'LEFT'}, {x:9,y:8,dir:'RIGHT'}, {x:10,y:8,dir:'RIGHT'},
+        {x:4,y:2,dir:'UP'}, {x:4,y:3,dir:'UP'}, {x:8,y:2,dir:'UP'}, {x:8,y:3,dir:'UP'},
+        {x:4,y:9,dir:'DOWN'}, {x:4,y:10,dir:'DOWN'}, {x:8,y:9,dir:'DOWN'}, {x:8,y:10,dir:'DOWN'},
+        {x:6,y:5,dir:'UP'}, {x:6,y:7,dir:'DOWN'} 
+    ]},
+    // Level 129
+    { size: 13, blocks: [ 
+        {x:1,y:1,dir:'LEFT'}, {x:11,y:1,dir:'RIGHT'}, {x:1,y:11,dir:'LEFT'}, {x:11,y:11,dir:'RIGHT'},
+        {x:3,y:3,dir:'UP'}, {x:9,y:3,dir:'UP'}, {x:3,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'},
+        {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:6,y:2,dir:'UP'}, {x:6,y:10,dir:'DOWN'}, {x:2,y:6,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'} 
+    ]},
+    // 🏆 Level 130 (The Ultimate Maze) 🏆
+    { size: 13, blocks: [ 
+        {x:6,y:6,dir:'UP'}, {x:6,y:5,dir:'UP'}, {x:6,y:7,dir:'DOWN'}, {x:5,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:4,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:3,y:5,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:9,y:5,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'},
+        {x:5,y:3,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:5,y:9,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'},
+        {x:2,y:2,dir:'UP'}, {x:10,y:2,dir:'UP'}, {x:2,y:10,dir:'DOWN'}, {x:10,y:10,dir:'DOWN'},
+        {x:1,y:6,dir:'LEFT'}, {x:11,y:6,dir:'RIGHT'}, {x:6,y:1,dir:'UP'}, {x:6,y:11,dir:'DOWN'} 
+    ]},
+    // === 🌌 TITAN TIER LEVELS (ગ્રીડ: 13x13 અને 14x14) ===
+    // લેવલ 131 થી 150 (અત્યંત હાર્ડ, વાળની ગૂંચ જેવા, પણ 100% ડેડલોક-ફ્રી)
+
+    // Level 131 (13x13)
+    { size: 13, blocks: [ 
+        {x:5,y:3,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:7,y:3,dir:'UP'},
+        {x:5,y:9,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'},
+        {x:3,y:5,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'},
+        {x:9,y:5,dir:'RIGHT'}, {x:9,y:6,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:4,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'} 
+    ]},
+    // Level 132 (13x13)
+    { size: 13, blocks: [ 
+        {x:6,y:1,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:6,y:4,dir:'UP'},
+        {x:6,y:8,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'}, {x:6,y:11,dir:'DOWN'},
+        {x:1,y:6,dir:'LEFT'}, {x:2,y:6,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'},
+        {x:8,y:6,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'}, {x:11,y:6,dir:'RIGHT'},
+        {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'} 
+    ]},
+    // Level 133 (13x13)
+    { size: 13, blocks: [ 
+        {x:4,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:5,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'},
+        {x:4,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'}, {x:5,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:4,y:7,dir:'LEFT'}, {x:5,y:6,dir:'LEFT'},
+        {x:8,y:5,dir:'RIGHT'}, {x:8,y:7,dir:'RIGHT'}, {x:7,y:6,dir:'RIGHT'},
+        {x:6,y:4,dir:'UP'}, {x:6,y:8,dir:'DOWN'} 
+    ]},
+    // Level 134 (13x13)
+    { size: 13, blocks: [ 
+        {x:2,y:2,dir:'UP'}, {x:3,y:2,dir:'UP'}, {x:4,y:2,dir:'UP'}, {x:8,y:2,dir:'UP'}, {x:9,y:2,dir:'UP'}, {x:10,y:2,dir:'UP'},
+        {x:2,y:10,dir:'DOWN'}, {x:3,y:10,dir:'DOWN'}, {x:4,y:10,dir:'DOWN'}, {x:8,y:10,dir:'DOWN'}, {x:9,y:10,dir:'DOWN'}, {x:10,y:10,dir:'DOWN'},
+        {x:2,y:3,dir:'LEFT'}, {x:2,y:4,dir:'LEFT'}, {x:10,y:3,dir:'RIGHT'}, {x:10,y:4,dir:'RIGHT'},
+        {x:2,y:8,dir:'LEFT'}, {x:2,y:9,dir:'LEFT'}, {x:10,y:8,dir:'RIGHT'}, {x:10,y:9,dir:'RIGHT'},
+        {x:6,y:6,dir:'UP'} 
+    ]},
+    // Level 135 (13x13)
+    { size: 13, blocks: [ 
+        {x:5,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:7,y:2,dir:'UP'},
+        {x:5,y:10,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'}, {x:7,y:10,dir:'DOWN'},
+        {x:2,y:5,dir:'LEFT'}, {x:2,y:6,dir:'LEFT'}, {x:2,y:7,dir:'LEFT'},
+        {x:10,y:5,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'}, {x:10,y:7,dir:'RIGHT'},
+        {x:4,y:4,dir:'LEFT'}, {x:8,y:4,dir:'RIGHT'}, {x:4,y:8,dir:'LEFT'}, {x:8,y:8,dir:'RIGHT'},
+        {x:6,y:4,dir:'UP'}, {x:6,y:8,dir:'DOWN'} 
+    ]},
+    // Level 136 (13x13)
+    { size: 13, blocks: [ 
+        {x:3,y:3,dir:'UP'}, {x:5,y:3,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:9,y:3,dir:'UP'},
+        {x:3,y:9,dir:'DOWN'}, {x:5,y:9,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'},
+        {x:3,y:5,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:9,y:5,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'},
+        {x:6,y:6,dir:'LEFT'} 
+    ]},
+    // Level 137 (13x13)
+    { size: 13, blocks: [ 
+        {x:1,y:1,dir:'LEFT'}, {x:2,y:2,dir:'UP'}, {x:3,y:3,dir:'LEFT'}, {x:4,y:4,dir:'UP'},
+        {x:11,y:1,dir:'RIGHT'}, {x:10,y:2,dir:'UP'}, {x:9,y:3,dir:'RIGHT'}, {x:8,y:4,dir:'UP'},
+        {x:1,y:11,dir:'LEFT'}, {x:2,y:10,dir:'DOWN'}, {x:3,y:9,dir:'LEFT'}, {x:4,y:8,dir:'DOWN'},
+        {x:11,y:11,dir:'RIGHT'}, {x:10,y:10,dir:'DOWN'}, {x:9,y:9,dir:'RIGHT'}, {x:8,y:8,dir:'DOWN'},
+        {x:6,y:6,dir:'UP'} 
+    ]},
+    // Level 138 (13x13)
+    { size: 13, blocks: [ 
+        {x:4,y:2,dir:'UP'}, {x:5,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:7,y:2,dir:'UP'}, {x:8,y:2,dir:'UP'},
+        {x:4,y:10,dir:'DOWN'}, {x:5,y:10,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'}, {x:7,y:10,dir:'DOWN'}, {x:8,y:10,dir:'DOWN'},
+        {x:2,y:4,dir:'LEFT'}, {x:2,y:5,dir:'LEFT'}, {x:2,y:6,dir:'LEFT'}, {x:2,y:7,dir:'LEFT'}, {x:2,y:8,dir:'LEFT'},
+        {x:10,y:4,dir:'RIGHT'}, {x:10,y:5,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'}, {x:10,y:7,dir:'RIGHT'}, {x:10,y:8,dir:'RIGHT'} 
+    ]},
+    // Level 139 (13x13)
+    { size: 13, blocks: [ 
+        {x:5,y:4,dir:'UP'}, {x:6,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'},
+        {x:5,y:8,dir:'DOWN'}, {x:6,y:8,dir:'DOWN'}, {x:7,y:8,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'}, {x:4,y:7,dir:'LEFT'},
+        {x:8,y:5,dir:'RIGHT'}, {x:8,y:6,dir:'RIGHT'}, {x:8,y:7,dir:'RIGHT'},
+        {x:6,y:2,dir:'UP'}, {x:6,y:10,dir:'DOWN'}, {x:2,y:6,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'} 
+    ]},
+    // Level 140 (13x13 - The Core Boss)
+    // આમાં એકદમ સળંગ મોટો ચોરસ છે, ડુંગળીના પડની જેમ બહારથી સોલ્વ થશે.
+    { size: 13, blocks: [ 
+        {x:3,y:3,dir:'UP'}, {x:4,y:3,dir:'UP'}, {x:5,y:3,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:8,y:3,dir:'UP'}, {x:9,y:3,dir:'UP'},
+        {x:3,y:9,dir:'DOWN'}, {x:4,y:9,dir:'DOWN'}, {x:5,y:9,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'}, {x:8,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'},
+        {x:3,y:4,dir:'LEFT'}, {x:3,y:5,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:3,y:8,dir:'LEFT'},
+        {x:9,y:4,dir:'RIGHT'}, {x:9,y:5,dir:'RIGHT'}, {x:9,y:6,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'}, {x:9,y:8,dir:'RIGHT'},
+        {x:4,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:4,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:6,y:6,dir:'UP'} 
+    ]},
+
+    // === 👑 OMEGA TIER (ગ્રીડ: 14x14 - સૌથી વિશાળ અને ખતરનાક) ===
+    // લેવલ 141 થી 150
+    // Level 141 (14x14)
+    { size: 14, blocks: [ 
+        {x:5,y:3,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:8,y:3,dir:'UP'},
+        {x:5,y:10,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'}, {x:7,y:10,dir:'DOWN'}, {x:8,y:10,dir:'DOWN'},
+        {x:3,y:5,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:3,y:8,dir:'LEFT'},
+        {x:10,y:5,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'}, {x:10,y:7,dir:'RIGHT'}, {x:10,y:8,dir:'RIGHT'},
+        {x:6,y:6,dir:'LEFT'}, {x:7,y:7,dir:'RIGHT'} 
+    ]},
+    // Level 142 (14x14)
+    { size: 14, blocks: [ 
+        {x:2,y:2,dir:'UP'}, {x:3,y:2,dir:'UP'}, {x:4,y:2,dir:'UP'}, {x:9,y:2,dir:'UP'}, {x:10,y:2,dir:'UP'}, {x:11,y:2,dir:'UP'},
+        {x:2,y:11,dir:'DOWN'}, {x:3,y:11,dir:'DOWN'}, {x:4,y:11,dir:'DOWN'}, {x:9,y:11,dir:'DOWN'}, {x:10,y:11,dir:'DOWN'}, {x:11,y:11,dir:'DOWN'},
+        {x:2,y:3,dir:'LEFT'}, {x:2,y:4,dir:'LEFT'}, {x:11,y:3,dir:'RIGHT'}, {x:11,y:4,dir:'RIGHT'},
+        {x:2,y:9,dir:'LEFT'}, {x:2,y:10,dir:'LEFT'}, {x:11,y:9,dir:'RIGHT'}, {x:11,y:10,dir:'RIGHT'},
+        {x:6,y:6,dir:'UP'}, {x:7,y:6,dir:'UP'} 
+    ]},
+    // Level 143 (14x14)
+    { size: 14, blocks: [ 
+        {x:4,y:4,dir:'UP'}, {x:9,y:4,dir:'UP'}, {x:4,y:9,dir:'DOWN'}, {x:9,y:9,dir:'DOWN'},
+        {x:5,y:5,dir:'UP'}, {x:8,y:5,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:6,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'}, {x:6,y:7,dir:'LEFT'}, {x:7,y:7,dir:'RIGHT'},
+        {x:1,y:6,dir:'LEFT'}, {x:1,y:7,dir:'LEFT'}, {x:12,y:6,dir:'RIGHT'}, {x:12,y:7,dir:'RIGHT'},
+        {x:6,y:1,dir:'UP'}, {x:7,y:1,dir:'UP'}, {x:6,y:12,dir:'DOWN'}, {x:7,y:12,dir:'DOWN'} 
+    ]},
+    // Level 144 (14x14)
+    { size: 14, blocks: [ 
+        {x:6,y:3,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:6,y:10,dir:'DOWN'}, {x:7,y:10,dir:'DOWN'},
+        {x:5,y:4,dir:'UP'}, {x:8,y:4,dir:'UP'}, {x:5,y:9,dir:'DOWN'}, {x:8,y:9,dir:'DOWN'},
+        {x:4,y:5,dir:'LEFT'}, {x:9,y:5,dir:'RIGHT'}, {x:4,y:8,dir:'LEFT'}, {x:9,y:8,dir:'RIGHT'},
+        {x:3,y:6,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:10,y:6,dir:'RIGHT'}, {x:10,y:7,dir:'RIGHT'} 
+    ]},
+    // Level 145 (14x14)
+    { size: 14, blocks: [ 
+        {x:2,y:6,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'}, {x:5,y:6,dir:'LEFT'},
+        {x:8,y:6,dir:'RIGHT'}, {x:9,y:6,dir:'RIGHT'}, {x:10,y:6,dir:'RIGHT'}, {x:11,y:6,dir:'RIGHT'},
+        {x:2,y:7,dir:'LEFT'}, {x:3,y:7,dir:'LEFT'}, {x:4,y:7,dir:'LEFT'}, {x:5,y:7,dir:'LEFT'},
+        {x:8,y:7,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'}, {x:10,y:7,dir:'RIGHT'}, {x:11,y:7,dir:'RIGHT'},
+        {x:6,y:2,dir:'UP'}, {x:6,y:3,dir:'UP'}, {x:6,y:4,dir:'UP'}, {x:6,y:5,dir:'UP'},
+        {x:7,y:2,dir:'UP'}, {x:7,y:3,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:7,y:5,dir:'UP'},
+        {x:6,y:8,dir:'DOWN'}, {x:6,y:9,dir:'DOWN'}, {x:6,y:10,dir:'DOWN'}, {x:6,y:11,dir:'DOWN'},
+        {x:7,y:8,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'}, {x:7,y:10,dir:'DOWN'}, {x:7,y:11,dir:'DOWN'} 
+    ]},
+    // Level 146 (14x14)
+    { size: 14, blocks: [ 
+        {x:1,y:1,dir:'LEFT'}, {x:12,y:1,dir:'RIGHT'}, {x:1,y:12,dir:'LEFT'}, {x:12,y:12,dir:'RIGHT'},
+        {x:3,y:3,dir:'UP'}, {x:10,y:3,dir:'UP'}, {x:3,y:10,dir:'DOWN'}, {x:10,y:10,dir:'DOWN'},
+        {x:5,y:5,dir:'UP'}, {x:8,y:5,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:6,y:6,dir:'LEFT'}, {x:7,y:7,dir:'RIGHT'}, {x:6,y:7,dir:'DOWN'}, {x:7,y:6,dir:'UP'} 
+    ]},
+    // Level 147 (14x14)
+    { size: 14, blocks: [ 
+        {x:6,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:6,y:9,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'},
+        {x:4,y:6,dir:'LEFT'}, {x:4,y:7,dir:'LEFT'}, {x:9,y:6,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'},
+        {x:5,y:5,dir:'UP'}, {x:8,y:5,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:2,y:2,dir:'UP'}, {x:11,y:2,dir:'UP'}, {x:2,y:11,dir:'DOWN'}, {x:11,y:11,dir:'DOWN'} 
+    ]},
+    // Level 148 (14x14)
+    { size: 14, blocks: [ 
+        {x:3,y:2,dir:'UP'}, {x:4,y:2,dir:'UP'}, {x:9,y:2,dir:'UP'}, {x:10,y:2,dir:'UP'},
+        {x:3,y:11,dir:'DOWN'}, {x:4,y:11,dir:'DOWN'}, {x:9,y:11,dir:'DOWN'}, {x:10,y:11,dir:'DOWN'},
+        {x:2,y:3,dir:'LEFT'}, {x:2,y:4,dir:'LEFT'}, {x:11,y:3,dir:'RIGHT'}, {x:11,y:4,dir:'RIGHT'},
+        {x:2,y:9,dir:'LEFT'}, {x:2,y:10,dir:'LEFT'}, {x:11,y:9,dir:'RIGHT'}, {x:11,y:10,dir:'RIGHT'},
+        {x:6,y:5,dir:'UP'}, {x:7,y:5,dir:'UP'}, {x:6,y:8,dir:'DOWN'}, {x:7,y:8,dir:'DOWN'} 
+    ]},
+    // Level 149 (14x14)
+    { size: 14, blocks: [ 
+        {x:4,y:1,dir:'UP'}, {x:5,y:1,dir:'UP'}, {x:8,y:1,dir:'UP'}, {x:9,y:1,dir:'UP'},
+        {x:4,y:12,dir:'DOWN'}, {x:5,y:12,dir:'DOWN'}, {x:8,y:12,dir:'DOWN'}, {x:9,y:12,dir:'DOWN'},
+        {x:1,y:4,dir:'LEFT'}, {x:1,y:5,dir:'LEFT'}, {x:1,y:8,dir:'LEFT'}, {x:1,y:9,dir:'LEFT'},
+        {x:12,y:4,dir:'RIGHT'}, {x:12,y:5,dir:'RIGHT'}, {x:12,y:8,dir:'RIGHT'}, {x:12,y:9,dir:'RIGHT'},
+        {x:6,y:6,dir:'UP'}, {x:7,y:6,dir:'UP'}, {x:6,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'} 
+    ]},
+    // 🏆 Level 150 (14x14 THE ULTIMATE TITAN BOSS) 🏆
+    // ગેમનું સૌથી કઠિન લેવલ! એકદમ ગૂંચવાયેલું પણ 100% સોલ્વ થશે.
+    { size: 14, blocks: [ 
+        {x:6,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'}, {x:6,y:7,dir:'DOWN'}, {x:7,y:7,dir:'UP'},
+        {x:5,y:5,dir:'UP'}, {x:8,y:5,dir:'UP'}, {x:5,y:8,dir:'DOWN'}, {x:8,y:8,dir:'DOWN'},
+        {x:4,y:6,dir:'LEFT'}, {x:4,y:7,dir:'LEFT'}, {x:9,y:6,dir:'RIGHT'}, {x:9,y:7,dir:'RIGHT'},
+        {x:6,y:4,dir:'UP'}, {x:7,y:4,dir:'UP'}, {x:6,y:9,dir:'DOWN'}, {x:7,y:9,dir:'DOWN'},
+        {x:3,y:3,dir:'LEFT'}, {x:10,y:3,dir:'RIGHT'}, {x:3,y:10,dir:'LEFT'}, {x:10,y:10,dir:'RIGHT'},
+        {x:2,y:5,dir:'LEFT'}, {x:2,y:6,dir:'LEFT'}, {x:2,y:7,dir:'LEFT'}, {x:2,y:8,dir:'LEFT'},
+        {x:11,y:5,dir:'RIGHT'}, {x:11,y:6,dir:'RIGHT'}, {x:11,y:7,dir:'RIGHT'}, {x:11,y:8,dir:'RIGHT'},
+        {x:5,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:7,y:2,dir:'UP'}, {x:8,y:2,dir:'UP'},
+        {x:5,y:11,dir:'DOWN'}, {x:6,y:11,dir:'DOWN'}, {x:7,y:11,dir:'DOWN'}, {x:8,y:11,dir:'DOWN'} 
     ]}
 
-            
-
-                                                                         
-
-        
+         
+                                                        
 ];
