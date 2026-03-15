@@ -9,7 +9,7 @@ const njArrowLevels = [
     ]},
     // Level 2
     { size: 4, blocks: [ 
-        {x:1, y:1, dir:'RIGHT'}, {x:2, y:1, dir:'DOWN'}, {x:2, y:2, dir:'LEFT'}, {x:1, y:2, dir:'UP'} 
+        {x:1, y:1, dir:'UP'}, {x:2, y:1, dir:'DOWN'}, {x:2, y:2, dir:'LEFT'}, {x:1, y:2, dir:'UP'} 
     ]},
     // Level 3
     { size: 4, blocks: [ 
