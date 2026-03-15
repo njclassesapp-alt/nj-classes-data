@@ -197,13 +197,24 @@ const njArrowLevels = [
         {x:1,y:3,dir:'LEFT'}, {x:2,y:3,dir:'LEFT'}, {x:5,y:3,dir:'RIGHT'}, {x:6,y:3,dir:'RIGHT'},
         {x:3,y:2,dir:'UP'}, {x:4,y:2,dir:'UP'}, {x:3,y:5,dir:'DOWN'}, {x:4,y:5,dir:'DOWN'} 
     ]},
-    // Level 34
+        // Level 34 (The Spiral Maze - અત્યંત હાર્ડ, પણ 100% સોલ્વ થશે!)
     { size: 8, blocks: [ 
-        {x:2,y:2,dir:'LEFT'}, {x:5,y:2,dir:'RIGHT'}, {x:2,y:5,dir:'LEFT'}, {x:5,y:5,dir:'RIGHT'},
-        {x:3,y:2,dir:'UP'}, {x:4,y:2,dir:'UP'}, {x:3,y:5,dir:'DOWN'}, {x:4,y:5,dir:'DOWN'},
-        {x:2,y:3,dir:'LEFT'}, {x:5,y:3,dir:'RIGHT'}, {x:2,y:4,dir:'LEFT'}, {x:5,y:4,dir:'RIGHT'},
-        {x:3,y:3,dir:'DOWN'}, {x:4,y:3,dir:'DOWN'}, {x:3,y:4,dir:'UP'}, {x:4,y:4,dir:'UP'} 
+        // સૌથી બહારની રીંગ
+        {x:1, y:1, dir:'UP'}, {x:2, y:1, dir:'LEFT'}, {x:3, y:1, dir:'LEFT'}, {x:4, y:1, dir:'LEFT'}, {x:5, y:1, dir:'LEFT'}, {x:6, y:1, dir:'LEFT'},
+        {x:6, y:2, dir:'UP'}, {x:6, y:3, dir:'UP'}, {x:6, y:4, dir:'UP'}, {x:6, y:5, dir:'UP'}, {x:6, y:6, dir:'UP'},
+        {x:5, y:6, dir:'RIGHT'}, {x:4, y:6, dir:'RIGHT'}, {x:3, y:6, dir:'RIGHT'}, {x:2, y:6, dir:'RIGHT'}, {x:1, y:6, dir:'RIGHT'},
+        {x:1, y:5, dir:'DOWN'}, {x:1, y:4, dir:'DOWN'}, {x:1, y:3, dir:'DOWN'}, {x:1, y:2, dir:'DOWN'},
+        
+        // વચ્ચેની રીંગ
+        {x:2, y:2, dir:'UP'}, {x:3, y:2, dir:'LEFT'}, {x:4, y:2, dir:'LEFT'}, {x:5, y:2, dir:'LEFT'},
+        {x:5, y:3, dir:'UP'}, {x:5, y:4, dir:'UP'}, {x:5, y:5, dir:'UP'},
+        {x:4, y:5, dir:'RIGHT'}, {x:3, y:5, dir:'RIGHT'}, {x:2, y:5, dir:'RIGHT'},
+        {x:2, y:4, dir:'DOWN'}, {x:2, y:3, dir:'DOWN'},
+        
+        // સૌથી અંદરનો ભાગ (Core)
+        {x:3, y:3, dir:'UP'}, {x:4, y:3, dir:'LEFT'}, {x:4, y:4, dir:'UP'}, {x:3, y:4, dir:'RIGHT'}
     ]},
+    
     // Level 35
     { size: 8, blocks: [ 
         {x:3,y:3,dir:'UP'}, {x:4,y:3,dir:'RIGHT'}, {x:3,y:4,dir:'LEFT'}, {x:4,y:4,dir:'DOWN'},
