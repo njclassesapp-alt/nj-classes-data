@@ -104,13 +104,20 @@ const njArrowLevels = [
         {x:1,y:3,dir:'LEFT'}, {x:5,y:3,dir:'RIGHT'}, {x:2,y:3,dir:'LEFT'}, {x:4,y:3,dir:'RIGHT'},
         {x:3,y:3,dir:'UP'}, {x:1,y:2,dir:'LEFT'}, {x:5,y:2,dir:'RIGHT'}, {x:1,y:4,dir:'LEFT'}, {x:5,y:4,dir:'RIGHT'} 
     ]},
-    // Level 22
+      // Level 22 (Hardcore Solid Block - દેખાવમાં ખૂબ હાર્ડ પણ સોલ્વ થઈ શકે તેવું)
     { size: 7, blocks: [ 
-        {x:3,y:0,dir:'UP'}, {x:3,y:6,dir:'DOWN'}, {x:0,y:3,dir:'LEFT'}, {x:6,y:3,dir:'RIGHT'},
-        {x:2,y:2,dir:'UP'}, {x:4,y:2,dir:'UP'}, {x:2,y:4,dir:'DOWN'}, {x:4,y:4,dir:'DOWN'},
-        {x:3,y:2,dir:'UP'}, {x:3,y:4,dir:'DOWN'}, {x:2,y:3,dir:'LEFT'}, {x:4,y:3,dir:'RIGHT'},
-        {x:1,y:1,dir:'LEFT'}, {x:5,y:1,dir:'RIGHT'}, {x:1,y:5,dir:'LEFT'}, {x:5,y:5,dir:'RIGHT'} 
+        // પહેલી લાઈન (Row 1)
+        {x:1,y:1,dir:'LEFT'}, {x:2,y:1,dir:'LEFT'}, {x:3,y:1,dir:'UP'}, {x:4,y:1,dir:'RIGHT'}, {x:5,y:1,dir:'RIGHT'},
+        // બીજી લાઈન (Row 2)
+        {x:1,y:2,dir:'UP'}, {x:2,y:2,dir:'UP'}, {x:3,y:2,dir:'UP'}, {x:4,y:2,dir:'UP'}, {x:5,y:2,dir:'UP'},
+        // ત્રીજી લાઈન (Row 3 - Center)
+        {x:1,y:3,dir:'LEFT'}, {x:2,y:3,dir:'LEFT'}, {x:3,y:3,dir:'UP'}, {x:4,y:3,dir:'RIGHT'}, {x:5,y:3,dir:'RIGHT'},
+        // ચોથી લાઈન (Row 4)
+        {x:1,y:4,dir:'DOWN'}, {x:2,y:4,dir:'DOWN'}, {x:3,y:4,dir:'DOWN'}, {x:4,y:4,dir:'DOWN'}, {x:5,y:4,dir:'DOWN'},
+        // પાંચમી લાઈન (Row 5)
+        {x:1,y:5,dir:'LEFT'}, {x:2,y:5,dir:'LEFT'}, {x:3,y:5,dir:'DOWN'}, {x:4,y:5,dir:'RIGHT'}, {x:5,y:5,dir:'RIGHT'}
     ]},
+    
     // Level 23
     { size: 7, blocks: [ 
         {x:2,y:1,dir:'LEFT'}, {x:3,y:1,dir:'UP'}, {x:4,y:1,dir:'RIGHT'},
