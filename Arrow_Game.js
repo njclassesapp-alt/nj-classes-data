@@ -390,6 +390,6 @@ const njArrowLevels = [
         {x:1,y:4,dir:'LEFT'}, {x:8,y:4,dir:'RIGHT'}, {x:1,y:5,dir:'LEFT'}, {x:8,y:5,dir:'RIGHT'},
         {x:4,y:1,dir:'UP'}, {x:5,y:1,dir:'UP'}, {x:4,y:8,dir:'DOWN'}, {x:5,y:8,dir:'DOWN'} 
     ]}
-];
+
         
 ];
