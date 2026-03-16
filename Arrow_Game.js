@@ -434,15 +434,26 @@ const njArrowLevels = [
         {x:3,y:4,dir:'LEFT'}, {x:6,y:4,dir:'RIGHT'}, {x:3,y:5,dir:'LEFT'}, {x:6,y:5,dir:'RIGHT'},
         {x:4,y:4,dir:'LEFT'}, {x:5,y:4,dir:'RIGHT'}, {x:4,y:5,dir:'LEFT'}, {x:5,y:5,dir:'RIGHT'} 
     ]},
-    // Level 64 (Twin Towers)
+    // Level 64 (The Checkerboard Fortress - 64 Blocks, અત્યંત હાર્ડ પણ 100% ડેડલોક ફ્રી)
     { size: 10, blocks: [ 
-        {x:2,y:2,dir:'UP'}, {x:3,y:2,dir:'UP'}, {x:6,y:2,dir:'UP'}, {x:7,y:2,dir:'UP'},
-        {x:2,y:7,dir:'DOWN'}, {x:3,y:7,dir:'DOWN'}, {x:6,y:7,dir:'DOWN'}, {x:7,y:7,dir:'DOWN'},
-        {x:2,y:3,dir:'LEFT'}, {x:3,y:3,dir:'RIGHT'}, {x:6,y:3,dir:'LEFT'}, {x:7,y:3,dir:'RIGHT'},
-        {x:2,y:6,dir:'LEFT'}, {x:3,y:6,dir:'RIGHT'}, {x:6,y:6,dir:'LEFT'}, {x:7,y:6,dir:'RIGHT'},
-        {x:2,y:4,dir:'LEFT'}, {x:3,y:4,dir:'RIGHT'}, {x:6,y:4,dir:'LEFT'}, {x:7,y:4,dir:'RIGHT'},
-        {x:2,y:5,dir:'LEFT'}, {x:3,y:5,dir:'RIGHT'}, {x:6,y:5,dir:'LEFT'}, {x:7,y:5,dir:'RIGHT'} 
+        // પહેલી લાઈન (y=1)
+        {x:1,y:1,dir:'LEFT'}, {x:2,y:1,dir:'UP'}, {x:3,y:1,dir:'LEFT'}, {x:4,y:1,dir:'UP'}, {x:5,y:1,dir:'UP'}, {x:6,y:1,dir:'RIGHT'}, {x:7,y:1,dir:'UP'}, {x:8,y:1,dir:'RIGHT'},
+        // બીજી લાઈન (y=2)
+        {x:1,y:2,dir:'UP'}, {x:2,y:2,dir:'LEFT'}, {x:3,y:2,dir:'UP'}, {x:4,y:2,dir:'LEFT'}, {x:5,y:2,dir:'RIGHT'}, {x:6,y:2,dir:'UP'}, {x:7,y:2,dir:'RIGHT'}, {x:8,y:2,dir:'UP'},
+        // ત્રીજી લાઈન (y=3)
+        {x:1,y:3,dir:'LEFT'}, {x:2,y:3,dir:'UP'}, {x:3,y:3,dir:'LEFT'}, {x:4,y:3,dir:'UP'}, {x:5,y:3,dir:'UP'}, {x:6,y:3,dir:'RIGHT'}, {x:7,y:3,dir:'UP'}, {x:8,y:3,dir:'RIGHT'},
+        // ચોથી લાઈન (y=4)
+        {x:1,y:4,dir:'UP'}, {x:2,y:4,dir:'LEFT'}, {x:3,y:4,dir:'UP'}, {x:4,y:4,dir:'LEFT'}, {x:5,y:4,dir:'RIGHT'}, {x:6,y:4,dir:'UP'}, {x:7,y:4,dir:'RIGHT'}, {x:8,y:4,dir:'UP'},
+        // પાંચમી લાઈન (y=5)
+        {x:1,y:5,dir:'LEFT'}, {x:2,y:5,dir:'DOWN'}, {x:3,y:5,dir:'LEFT'}, {x:4,y:5,dir:'DOWN'}, {x:5,y:5,dir:'DOWN'}, {x:6,y:5,dir:'RIGHT'}, {x:7,y:5,dir:'DOWN'}, {x:8,y:5,dir:'RIGHT'},
+        // છઠ્ઠી લાઈન (y=6)
+        {x:1,y:6,dir:'DOWN'}, {x:2,y:6,dir:'LEFT'}, {x:3,y:6,dir:'DOWN'}, {x:4,y:6,dir:'LEFT'}, {x:5,y:6,dir:'RIGHT'}, {x:6,y:6,dir:'DOWN'}, {x:7,y:6,dir:'RIGHT'}, {x:8,y:6,dir:'DOWN'},
+        // સાતમી લાઈન (y=7)
+        {x:1,y:7,dir:'LEFT'}, {x:2,y:7,dir:'DOWN'}, {x:3,y:7,dir:'LEFT'}, {x:4,y:7,dir:'DOWN'}, {x:5,y:7,dir:'DOWN'}, {x:6,y:7,dir:'RIGHT'}, {x:7,y:7,dir:'DOWN'}, {x:8,y:7,dir:'RIGHT'},
+        // આઠમી લાઈન (y=8)
+        {x:1,y:8,dir:'DOWN'}, {x:2,y:8,dir:'LEFT'}, {x:3,y:8,dir:'DOWN'}, {x:4,y:8,dir:'LEFT'}, {x:5,y:8,dir:'RIGHT'}, {x:6,y:8,dir:'DOWN'}, {x:7,y:8,dir:'RIGHT'}, {x:8,y:8,dir:'DOWN'}
     ]},
+
         // Level 65 (The Solid Zipper - અત્યંત હાર્ડ, પણ 100% ડેડલોક-ફ્રી)
     { size: 10, blocks: [ 
         // સૌથી બહારની રીંગ
