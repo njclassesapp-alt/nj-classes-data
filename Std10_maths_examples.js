@@ -448,7 +448,7 @@ var njMathsExamples = {
             
                             
                 { 
-                    question: "🌟 પ્રકરણ 3 ઉદાહરણ 3 (નવો અભ્યાસક્રમ): ચંપા એક ‘સેલ’(sale)માં કેટલાંક પૅન્ટ અને સ્કર્ટ ખરીદવા ગઈ. જ્યારે તેના મિત્રોએ પૂછ્યું કે તેણે દરેકની કેટલી સંખ્યા ખરીદી છે, ત્યારે તેણે જવાબ આપ્યો : 'સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના બે ગણાથી 2 ઓછી છે. વળી, સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના ચાર ગણાથી 4 ઓછી છે.' ચંપાએ કેટલાં પૅન્ટ અને સ્કર્ટ ખરીદ્યાં તે શોધવામાં તેના મિત્રોને મદદ કરો.", 
+                    question: "🌟 ઉદાહરણ 3 (નવો અભ્યાસક્રમ): ચંપા એક ‘સેલ’(sale)માં કેટલાંક પૅન્ટ અને સ્કર્ટ ખરીદવા ગઈ. જ્યારે તેના મિત્રોએ પૂછ્યું કે તેણે દરેકની કેટલી સંખ્યા ખરીદી છે, ત્યારે તેણે જવાબ આપ્યો : 'સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના બે ગણાથી 2 ઓછી છે. વળી, સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના ચાર ગણાથી 4 ઓછી છે.' ચંપાએ કેટલાં પૅન્ટ અને સ્કર્ટ ખરીદ્યાં તે શોધવામાં તેના મિત્રોને મદદ કરો.", 
                     question_desc: "નવા અભ્યાસક્રમ મુજબ 4 માર્ક્સનો કૂટપ્રશ્ન પરથી આલેખ દોરવાનો મોસ્ટ IMP દાખલો",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
@@ -581,20 +581,7 @@ var njMathsExamples = {
                 },
             
                     
-        
-                {
-                    question: "🎯 માસ્ટર ચાવી: 'આદેશની રીત' (Substitution Method) એટલે શું? દાખલો કઈ રીતે શરૂ કરવો?",
-                    answer: `
-                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
-                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
-                            <b style='color:#86198f; font-size:16px;'>💡 કન્સેપ્ટ સમજો (સાવ દેશી ભાષામાં):</b><br>
-                            આદેશની રીત એટલે <b>"એકની જગ્યાએ બીજાને બેસાડવો"</b> (Substitute કરવું).<br><br>
-                            <b>માસ્ટર ટ્રીક (Golden Rule):</b><br>
-                            દાખલો શરૂ કરતી વખતે બંને સમીકરણ ધ્યાનથી જુઓ. જે ચલ (x કે y) ની આગળ <b>કોઈ આંકડો ન હોય (એટલે કે 1 હોય)</b>, તેને જ પકડો અને તેને સૂત્રનો કર્તા બનાવો! તેનાથી ગણતરીમાં અંશ-છેદ નહિ આવે અને દાખલો સાવ સહેલો થઈ જશે.
-                        </div>
-                    </div>
-                    `
-                },
+    
                 { 
                     question: "🌟 ઉદાહરણ 4: નીચેના સુરેખ સમીકરણયુગ્મનો ઉકેલ આદેશની રીતથી મેળવો : 7x - 15y = 2 અને x + 2y = 3.", 
                     question_desc: "બોર્ડની પરીક્ષા માટે આદેશની રીતનો પાયાનો અને અપૂર્ણાંક વાળા જવાબનો દાખલો",
@@ -652,7 +639,147 @@ var njMathsExamples = {
                     `
                 },
                     
-        
+                        
+                { 
+                    question: "🌟 ઉદાહરણ 5 (ઉંમર આધારિત કૂટપ્રશ્ન): આફતાબ તેની દીકરીને કહે છે, '7 વર્ષ પહેલાં મારી ઉંમર તે વખતની તારી ઉંમર કરતાં 7 ગણી હતી. હવે પછીના 3 વર્ષ પછી મારી ઉંમર તારી તે વખતની ઉંમર કરતાં 3 ગણી હશે.' આ પરિસ્થિતિને બૈજિક (સમીકરણ) રીતે અને આલેખની રીતે દર્શાવો.", 
+                    question_desc: "ઉંમર (Age) આધારિત 4 માર્ક્સનો સૌથી પ્રખ્યાત અને બોર્ડનો ફેવરિટ કૂટપ્રશ્ન",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (ઉંમરના દાખલાની માસ્ટર ટ્રીક):</b><br>
+                            કોઈપણ ઉંમર વાળો દાખલો આવે એટલે બે જ નિયમ યાદ રાખવા:<br>
+                            1. જ્યારે <b>"પહેલાં" (Ago)</b> શબ્દ આવે, ત્યારે હાલની ઉંમરમાંથી <b>બાદબાકી ( - )</b> કરવી.<br>
+                            2. જ્યારે <b>"પછી" (From now)</b> શબ્દ આવે, ત્યારે હાલની ઉંમરમાં <b>સરવાળો ( + )</b> કરવો.
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બૈજિક રીત (સમીકરણ બનાવવા)</b><br>
+                            ધારો કે આફતાબની હાલની ઉંમર = <b>$x$ વર્ષ</b><br>
+                            ધારો કે તેની દીકરીની હાલની ઉંમર = <b>$y$ વર્ષ</b><br><br>
+
+                            <b style='color:#1e3a8a;'>શરત 1: 7 વર્ષ પહેલાં</b><br>
+                            7 વર્ષ પહેલાં આફતાબની ઉંમર = $(x - 7)$<br>
+                            7 વર્ષ પહેલાં દીકરીની ઉંમર = $(y - 7)$<br>
+                            આફતાબ કહે છે કે મારી ઉંમર તારી ઉંમર કરતા <b>7 ગણી</b> હતી:<br>
+                            $x - 7 = 7(y - 7)$<br>
+                            $x - 7 = 7y - 49$<br>
+                            $x - 7y = -49 + 7$<br>
+                            <b style='color:#dc2626;'>$x - 7y = -42$ &nbsp;&nbsp;&nbsp; (સમીકરણ 1)</b><br><br>
+
+                            <b style='color:#1e3a8a;'>શરત 2: 3 વર્ષ પછી</b><br>
+                            3 વર્ષ પછી આફતાબની ઉંમર = $(x + 3)$<br>
+                            3 વર્ષ પછી દીકરીની ઉંમર = $(y + 3)$<br>
+                            આફતાબ કહે છે કે મારી ઉંમર તારી ઉંમર કરતા <b>3 ગણી</b> હશે:<br>
+                            $x + 3 = 3(y + 3)$<br>
+                            $x + 3 = 3y + 9$<br>
+                            $x - 3y = 9 - 3$<br>
+                            <b style='color:#dc2626;'>$x - 3y = 6$ &nbsp;&nbsp;&nbsp; (સમીકરણ 2)</b>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: આલેખ માટે કોષ્ટક બનાવવું</b><br>
+                            
+                            <b style='color:#0f172a; font-size:14px; margin-top:10px; display:block;'>સમીકરણ 1: $x = 7y - 42$</b><br>
+                            • જો $y = 5$ લઈએ, તો $x = 7(5) - 42 = 35 - 42 = -7$. બિંદુ <b>(-7, 5)</b><br>
+                            • જો $y = 6$ લઈએ, તો $x = 7(6) - 42 = 42 - 42 = 0$. બિંદુ <b>(0, 6)</b><br>
+                            • જો $y = 7$ લઈએ, તો $x = 7(7) - 42 = 49 - 42 = 7$. બિંદુ <b>(7, 7)</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px; margin-bottom:15px;'>
+                                <table style='width:100%; max-width:300px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:6px;'>x</th>
+                                        <th style='border:1px solid #3b82f6; padding:6px;'>-7</th>
+                                        <th style='border:1px solid #3b82f6; padding:6px;'>0</th>
+                                        <th style='border:1px solid #3b82f6; padding:6px;'>7</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#dbeafe; border:1px solid #3b82f6; color:#1e3a8a; font-weight:bold; padding:6px;'>y</th>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>5</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>6</td>
+                                        <td style='border:1px solid #bfdbfe; padding:6px;'>7</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <b style='color:#0f172a; font-size:14px; display:block;'>સમીકરણ 2: $x = 3y + 6$</b><br>
+                            • જો $y = 0$ લઈએ, તો $x = 3(0) + 6 = 6$. બિંદુ <b>(6, 0)</b><br>
+                            • જો $y = -1$ લઈએ, તો $x = 3(-1) + 6 = -3 + 6 = 3$. બિંદુ <b>(3, -1)</b><br>
+                            • જો $y = -2$ લઈએ, તો $x = 3(-2) + 6 = -6 + 6 = 0$. બિંદુ <b>(0, -2)</b><br>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:5px;'>
+                                <table style='width:100%; max-width:300px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
+                                    <tr style='background-color:#ffedd5; color:#9a3412; font-weight:bold;'>
+                                        <th style='border:1px solid #f97316; padding:6px;'>x</th>
+                                        <th style='border:1px solid #f97316; padding:6px;'>6</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>3</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>0</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#ffedd5; border:1px solid #f97316; color:#9a3412; font-weight:bold; padding:8px;'>y</th>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>0</td>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>-1</td>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>-2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <b style='color:#14532d; font-size:16px; margin-bottom:10px; display:block;'>સ્ટેપ 3: આલેખની રીતે રજૂઆત</b>
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px; overflow-x:auto;'>
+                            <svg width="340" height="300" viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg">
+                                <pattern id="grid4" width="20" height="20" patternUnits="userSpaceOnUse">
+                                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+                                </pattern>
+                                <rect width="340" height="300" fill="url(#grid4)" />
+                                
+                                <line x1="0" y1="200" x2="340" y2="200" stroke="#334155" stroke-width="2"/> 
+                                <line x1="140" y1="0" x2="140" y2="300" stroke="#334155" stroke-width="2"/> 
+                                
+                                <polygon points="340,200 330,195 330,205" fill="#334155"/>
+                                <polygon points="140,0 135,10 145,10" fill="#334155"/>
+                                
+                                <text x="325" y="190" fill="#334155" font-size="12" font-weight="bold">X</text>
+                                <text x="150" y="15" fill="#334155" font-size="12" font-weight="bold">Y</text>
+
+                                <text x="125" y="215" fill="#475569" font-size="12">0</text>
+
+                                <line x1="20" y1="157" x2="320" y2="114" stroke="#2563eb" stroke-width="2.5"/>
+                                <text x="35" y="145" fill="#2563eb" font-size="11" font-weight="bold" transform="rotate(-8, 35, 145)">x - 7y = -42</text>
+
+                                <circle cx="140" cy="140" r="4" fill="#2563eb"/>
+                                <text x="150" y="135" fill="#1e3a8a" font-size="10">(0, 6)</text>
+                                
+                                <circle cx="210" cy="130" r="4" fill="#2563eb"/>
+                                <text x="215" y="125" fill="#1e3a8a" font-size="10">(7, 7)</text>
+
+                                <circle cx="70" cy="150" r="4" fill="#2563eb"/>
+                                <text x="40" y="165" fill="#1e3a8a" font-size="10">(-7, 5)</text>
+
+                                <line x1="80" y1="240" x2="320" y2="160" stroke="#dc2626" stroke-width="2.5"/>
+                                <text x="220" y="190" fill="#dc2626" font-size="11" font-weight="bold" transform="rotate(-18, 220, 190)">x - 3y = 6</text>
+
+                                <circle cx="200" cy="200" r="4" fill="#dc2626"/>
+                                <text x="205" y="215" fill="#991b1b" font-size="10">(6, 0)</text>
+
+                                <circle cx="140" cy="220" r="4" fill="#dc2626"/>
+                                <text x="150" y="235" fill="#991b1b" font-size="10">(0, -2)</text>
+
+                                <circle cx="170" cy="210" r="4" fill="#dc2626"/>
+                            </svg>
+                            <br><b style='color:#334155;'>બંને રેખાઓ આલેખમાં આગળ જઈને એકબીજાને છેદશે</b>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 4: ઉકેલની સમજૂતી</b><br>
+                            અહીં આલેખમાં બંને રેખાઓ સીધી નથી જતી પણ એકબીજાની નજીક આવી રહી છે. એટલે કે આલેખ પત્ર પર આગળ જતા આ બંને રેખાઓ એકબીજાને કોઈ એક બિંદુમાં <b>છેદશે</b>.<br>
+                            આથી આ સમીકરણયુગ્મને <b>એક અનન્ય ઉકેલ</b> મળશે. (જે બિંદુ <b>(42, 12)</b> છે, એટલે કે આફતાબની ઉંમર 42 વર્ષ અને દીકરીની ઉંમર 12 વર્ષ થાય!)
+                        </div>
+
+                    </div>
+                    `
+                },
+            
                 { 
                     question: "🌟 ઉદાહરણ 6: એક દુકાનમાં 2 પેન્સિલ અને 3 રબરની કિંમત ₹9 છે, તથા 4 પેન્સિલ અને 6 રબરની કિંમત ₹18 છે. એક પેન્સિલ અને એક રબરની કિંમત શોધો.", 
                     question_desc: "જ્યારે બંને સમીકરણો એક સમાન હોય (સંપાતી રેખાઓ - અનંત ઉકેલ) તેનો દાખલો",
