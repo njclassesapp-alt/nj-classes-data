@@ -447,6 +447,8 @@ var njMathsExamples = {
                 },
             
                             
+                
+                            
                 { 
                     question: "🌟 ઉદાહરણ 3 (નવો અભ્યાસક્રમ): ચંપા એક ‘સેલ’(sale)માં કેટલાંક પૅન્ટ અને સ્કર્ટ ખરીદવા ગઈ. જ્યારે તેના મિત્રોએ પૂછ્યું કે તેણે દરેકની કેટલી સંખ્યા ખરીદી છે, ત્યારે તેણે જવાબ આપ્યો : 'સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના બે ગણાથી 2 ઓછી છે. વળી, સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના ચાર ગણાથી 4 ઓછી છે.' ચંપાએ કેટલાં પૅન્ટ અને સ્કર્ટ ખરીદ્યાં તે શોધવામાં તેના મિત્રોને મદદ કરો.", 
                     question_desc: "નવા અભ્યાસક્રમ મુજબ 4 માર્ક્સનો કૂટપ્રશ્ન પરથી આલેખ દોરવાનો મોસ્ટ IMP દાખલો",
@@ -455,21 +457,21 @@ var njMathsExamples = {
                         
                         <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#b45309;'>💡 NJ સજેશન (સમીકરણ બનાવવાની શોર્ટકટ ટ્રીક):</b><br>
-                            સૌથી પહેલા ધારી લો: પૅન્ટની સંખ્યા = $x$ અને સ્કર્ટની સંખ્યા = $y$.<br>
-                            • <b>શરત 1:</b> સ્કર્ટ ($y$) એ પૅન્ટ ($x$) ના બે ગણા ($2x$) થી 2 ઓછા ($- 2$) છે. &rArr; <b>$y = 2x - 2$</b><br>
-                            • <b>શરત 2:</b> સ્કર્ટ ($y$) એ પૅન્ટ ($x$) ના ચાર ગણા ($4x$) થી 4 ઓછા ($- 4$) છે. &rArr; <b>$y = 4x - 4$</b>
+                            સૌથી પહેલા ધારી લો: પૅન્ટની સંખ્યા = <b>x</b> અને સ્કર્ટની સંખ્યા = <b>y</b>.<br>
+                            • <b>શરત 1:</b> સ્કર્ટ (<b>y</b>) એ પૅન્ટ (<b>x</b>) ના બે ગણા (<b>2x</b>) થી 2 ઓછા (<b>-2</b>) છે. &rArr; <b>y = 2x - 2</b><br>
+                            • <b>શરત 2:</b> સ્કર્ટ (<b>y</b>) એ પૅન્ટ (<b>x</b>) ના ચાર ગણા (<b>4x</b>) થી 4 ઓછા (<b>-4</b>) છે. &rArr; <b>y = 4x - 4</b>
                         </div>
 
                         <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
                             <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને સમીકરણો માટે બિંદુઓનું કોષ્ટક બનાવવું</b><br>
-                            અહીં બંને સમીકરણોમાં $y$ પહેલેથી જ કર્તા છે, એટલે ગણતરી બહુ સહેલી થઈ જશે!
+                            અહીં બંને સમીકરણોમાં <b>y</b> પહેલેથી જ કર્તા છે, એટલે ગણતરી બહુ સહેલી થઈ જશે!
                         </div>
 
                         <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
-                            <b style='color:#1e3a8a; font-size:16px;'>સમીકરણ 1: $y = 2x - 2$</b><br>
-                            • જો $x = 0$ લઈએ, તો $y = 2(0) - 2 = -2$. બિંદુ: <b>(0, -2)</b><br>
-                            • જો $x = 1$ લઈએ, તો $y = 2(1) - 2 = 0$. બિંદુ: <b>(1, 0)</b><br>
-                            • જો $x = 2$ લઈએ, તો $y = 2(2) - 2 = 2$. બિંદુ: <b>(2, 2)</b><br>
+                            <b style='color:#1e3a8a; font-size:16px;'>સમીકરણ 1: y = 2x - 2</b><br>
+                            • જો <b>x = 0</b> લઈએ, તો y = 2(0) - 2 = -2. બિંદુ: <b>(0, -2)</b><br>
+                            • જો <b>x = 1</b> લઈએ, તો y = 2(1) - 2 = 0. બિંદુ: <b>(1, 0)</b><br>
+                            • જો <b>x = 2</b> લઈએ, તો y = 2(2) - 2 = 2. બિંદુ: <b>(2, 2)</b><br>
                             
                             <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
                                 <table style='width:100%; max-width:300px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
@@ -490,10 +492,10 @@ var njMathsExamples = {
                         </div>
 
                         <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px; border-radius:4px;'>
-                            <b style='color:#9a3412; font-size:16px;'>સમીકરણ 2: $y = 4x - 4$</b><br>
-                            • જો $x = 0$ લઈએ, તો $y = 4(0) - 4 = -4$. બિંદુ: <b>(0, -4)</b><br>
-                            • જો $x = 1$ લઈએ, તો $y = 4(1) - 4 = 0$. બિંદુ: <b>(1, 0)</b><br>
-                            • જો $x = 2$ લઈએ, તો $y = 4(2) - 4 = 4$. બિંદુ: <b>(2, 4)</b><br>
+                            <b style='color:#9a3412; font-size:16px;'>સમીકરણ 2: y = 4x - 4</b><br>
+                            • જો <b>x = 0</b> લઈએ, તો y = 4(0) - 4 = -4. બિંદુ: <b>(0, -4)</b><br>
+                            • જો <b>x = 1</b> લઈએ, તો y = 4(1) - 4 = 0. બિંદુ: <b>(1, 0)</b><br>
+                            • જો <b>x = 2</b> લઈએ, તો y = 4(2) - 4 = 4. બિંદુ: <b>(2, 4)</b><br>
 
                             <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
                                 <table style='width:100%; max-width:300px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
@@ -515,54 +517,56 @@ var njMathsExamples = {
                         </div>
 
                         <b style='color:#14532d; font-size:16px; margin-bottom:10px; display:block;'>સ્ટેપ 2: બિંદુઓને આલેખ પર દર્શાવવા</b>
-                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px; overflow-x:auto;'>
-                            <svg width="300" height="320" viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg">
-                                <pattern id="grid3" width="30" height="30" patternUnits="userSpaceOnUse">
-                                    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+                        <div style='text-align:center; background-color:#f8fafc; padding:10px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px; overflow-x:auto;'>
+                            <svg width="100%" height="auto" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg" style='max-width:320px;'>
+                                <pattern id="grid_new" width="30" height="30" patternUnits="userSpaceOnUse">
+                                    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#cbd5e1" stroke-width="1"/>
                                 </pattern>
-                                <rect width="300" height="320" fill="url(#grid3)" />
+                                <rect width="320" height="320" fill="url(#grid_new)" />
                                 
-                                <line x1="0" y1="170" x2="300" y2="170" stroke="#334155" stroke-width="2"/> 
-                                <line x1="150" y1="0" x2="150" y2="320" stroke="#334155" stroke-width="2"/> 
+                                <line x1="10" y1="180" x2="310" y2="180" stroke="#334155" stroke-width="2.5"/> 
+                                <line x1="160" y1="10" x2="160" y2="310" stroke="#334155" stroke-width="2.5"/> 
                                 
-                                <polygon points="300,170 290,165 290,175" fill="#334155"/>
-                                <polygon points="150,0 145,10 155,10" fill="#334155"/>
+                                <polygon points="310,180 300,175 300,185" fill="#334155"/>
+                                <polygon points="160,10 155,20 165,20" fill="#334155"/>
+                                <polygon points="10,180 20,175 20,185" fill="#334155"/>
+                                <polygon points="160,310 155,300 165,300" fill="#334155"/>
                                 
-                                <text x="285" y="160" fill="#334155" font-size="12" font-weight="bold">X</text>
-                                <text x="160" y="15" fill="#334155" font-size="12" font-weight="bold">Y</text>
+                                <text x="295" y="170" fill="#334155" font-size="14" font-weight="bold">X</text>
+                                <text x="170" y="25" fill="#334155" font-size="14" font-weight="bold">Y</text>
 
-                                <line x1="90" y1="290" x2="270" y2="50" stroke="#2563eb" stroke-width="2.5"/>
-                                <text x="210" y="80" fill="#2563eb" font-size="12" font-weight="bold" transform="rotate(-35, 210, 80)">y = 2x - 2</text>
+                                <line x1="130" y1="300" x2="250" y2="60" stroke="#2563eb" stroke-width="2.5"/>
+                                <text x="220" y="90" fill="#2563eb" font-size="13" font-weight="bold" transform="rotate(-63, 220, 90)">y = 2x - 2</text>
 
-                                <line x1="127.5" y1="320" x2="217.5" y2="20" stroke="#dc2626" stroke-width="2.5"/>
-                                <text x="195" y="40" fill="#dc2626" font-size="12" font-weight="bold" transform="rotate(-53, 195, 40)">y = 4x - 4</text>
+                                <line x1="160" y1="300" x2="230" y2="20" stroke="#dc2626" stroke-width="2.5"/>
+                                <text x="195" y="45" fill="#dc2626" font-size="13" font-weight="bold" transform="rotate(-75, 195, 45)">y = 4x - 4</text>
 
-                                <circle cx="180" cy="170" r="6" fill="#16a34a"/>
-                                <text x="185" y="190" fill="#14532d" font-size="14" font-weight="bold">(1, 0)</text>
+                                <circle cx="190" cy="180" r="6" fill="#16a34a"/>
+                                <text x="195" y="200" fill="#14532d" font-size="14" font-weight="bold">(1, 0)</text>
 
-                                <text x="135" y="185" fill="#475569" font-size="12">0</text>
+                                <text x="145" y="195" fill="#475569" font-size="12">0</text>
                                 
-                                <circle cx="180" cy="170" r="3" fill="#334155"/>
+                                <circle cx="190" cy="180" r="3" fill="#334155"/>
                                 
-                                <circle cx="210" cy="170" r="3" fill="#334155"/>
-                                <text x="205" y="185" fill="#475569" font-size="11">2</text>
+                                <circle cx="220" cy="180" r="3" fill="#334155"/>
+                                <text x="215" y="195" fill="#475569" font-size="12">2</text>
                                 
-                                <circle cx="150" cy="230" r="3" fill="#334155"/>
-                                <text x="130" y="235" fill="#475569" font-size="11">-2</text>
-                                
-                                <circle cx="150" cy="290" r="3" fill="#334155"/>
-                                <text x="130" y="295" fill="#475569" font-size="11">-4</text>
-                                
-                                <circle cx="150" cy="110" r="3" fill="#334155"/>
-                                <text x="135" y="115" fill="#475569" font-size="11">2</text>
-                                
-                                <circle cx="150" cy="50" r="3" fill="#334155"/>
-                                <text x="135" y="55" fill="#475569" font-size="11">4</text>
+                                <circle cx="160" cy="120" r="3" fill="#334155"/>
+                                <text x="145" y="125" fill="#475569" font-size="12">2</text>
 
-                                <circle cx="150" cy="230" r="4" fill="#2563eb"/>
-                                <circle cx="210" cy="110" r="4" fill="#2563eb"/>
-                                <circle cx="150" cy="290" r="4" fill="#dc2626"/>
-                                <circle cx="210" cy="50" r="4" fill="#dc2626"/>
+                                <circle cx="160" cy="60" r="3" fill="#334155"/>
+                                <text x="145" y="65" fill="#475569" font-size="12">4</text>
+                                
+                                <circle cx="160" cy="240" r="3" fill="#334155"/>
+                                <text x="140" y="245" fill="#475569" font-size="12">-2</text>
+                                
+                                <circle cx="160" cy="300" r="3" fill="#334155"/>
+                                <text x="140" y="305" fill="#475569" font-size="12">-4</text>
+
+                                <circle cx="160" cy="240" r="4" fill="#2563eb"/>
+                                <circle cx="220" cy="120" r="4" fill="#2563eb"/>
+                                <circle cx="160" cy="300" r="4" fill="#dc2626"/>
+                                <circle cx="220" cy="60" r="4" fill="#dc2626"/>
                             </svg>
                             <br><b style='color:#334155;'>બંને રેખાઓ બિંદુ (1, 0) માં છેદે છે</b>
                         </div>
@@ -570,10 +574,10 @@ var njMathsExamples = {
                         <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
                             <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: નિર્ણય અને ઉકેલ</b><br>
                             આલેખમાં આપણે સ્પષ્ટ જોઈ શકીએ છીએ કે બંને રેખાઓ બિંદુ <b>(1, 0)</b> માં છેદે છે.<br>
-                            આથી સમીકરણયુગ્મનો ઉકેલ: <b>$x = 1$</b> અને <b>$y = 0$</b> છે.<br><br>
+                            આથી સમીકરણયુગ્મનો ઉકેલ: <b>x = 1</b> અને <b>y = 0</b> છે.<br><br>
                             <b style='color:#dc2626; font-size:18px;'>જવાબ:</b> આપણે ધારેલ મુજબ:<br>
-                            • ચંપાએ ખરીદેલ <b>પૅન્ટની સંખ્યા ($x$) = 1</b> છે.<br>
-                            • ચંપાએ ખરીદેલ <b>સ્કર્ટની સંખ્યા ($y$) = 0</b> છે. (એટલે કે તેણે એકપણ સ્કર્ટ ખરીદ્યું નથી!)
+                            • ચંપાએ ખરીદેલ <b>પૅન્ટની સંખ્યા (x) = 1</b> છે.<br>
+                            • ચંપાએ ખરીદેલ <b>સ્કર્ટની સંખ્યા (y) = 0</b> છે. (એટલે કે તેણે એકપણ સ્કર્ટ ખરીદ્યું નથી!)
                         </div>
 
                     </div>
