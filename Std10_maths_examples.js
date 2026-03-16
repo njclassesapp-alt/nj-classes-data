@@ -994,7 +994,60 @@ var njMathsExamples = {
                     `
                 },
                         
-        
+                        
+                { 
+                    question: "🌟 ઉદાહરણ 9 (લોપની રીત): લોપની રીતનો ઉપયોગ કરી નીચેનાં સુરેખ સમીકરણયુગ્મનો ઉકેલ શક્ય હોય તો શોધો: <br>2x + 3y = 8<br>4x + 6y = 7", 
+                    question_desc: "2 માર્ક્સ માટે 'લોપની રીત' અને 'ઉકેલ ન મળે (સમાંતર રેખાઓ)' તેવો લોજિકલ દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (લોપની રીત એટલે શું?):</b><br>
+                            લોપ કરવો એટલે <b>"ગાયબ કરવું"</b>! આ રીતમાં આપણે સમીકરણમાં x અથવા y ના સહગુણકો (આગળની સંખ્યા) સરખા કરીશું. ત્યારબાદ બંને સમીકરણોની બાદબાકી (કે સરવાળો) કરીશું, જેથી એક ચલ પૂરેપૂરો ઉડી જાય (ગાયબ થઈ જાય)!
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: સમીકરણો લખવા અને સહગુણકો સરખા કરવા</b><br>
+                            2x + 3y = 8 &nbsp;&nbsp;&nbsp; --- (સમીકરણ 1)<br>
+                            4x + 6y = 7 &nbsp;&nbsp;&nbsp; --- (સમીકરણ 2)<br><br>
+                            
+                            <span style='color:#0f172a;'>અહીં સમીકરણ 2 માં x ની આગળ <b>4</b> છે. જો સમીકરણ 1 ને <b>2 વડે ગુણીએ</b>, તો ત્યાં પણ x ની આગળ 4 થઈ જશે!</span><br>
+                            સમીકરણ 1 ના બધા પદોને 2 વડે ગુણતા:<br>
+                            2(2x) + 2(3y) = 2(8)<br>
+                            <b style='color:#dc2626; font-size:16px;'>4x + 6y = 16</b> &nbsp;&nbsp;&nbsp; --- (સમીકરણ 3)
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: સમીકરણ 3 માંથી સમીકરણ 2 ની બાદબાકી (લોપ) કરતા</b><br>
+                            
+                            <div style='font-family:monospace; font-size:16px; margin-top:10px; background-color:#dbeafe; padding:15px; border-radius:5px; width:max-content; line-height:1.5;'>
+                                &nbsp;&nbsp;4x + 6y = 16<br>
+                                -(4x + 6y = &nbsp;7)<br>
+                                ----------------<br>
+                                <span style='color:#047857; font-size:14px; font-family:sans-serif;'><i>(નીચેના સમીકરણની નિશાનીઓ બદલતા)</i></span><br>
+                                &nbsp;&nbsp;<del style='color:#dc2626; font-weight:bold;'>4x</del> + <del style='color:#dc2626; font-weight:bold;'>6y</del> = 16<br>
+                                &nbsp;<del style='color:#dc2626; font-weight:bold;'>-4x</del> <del style='color:#dc2626; font-weight:bold;'>-6y</del> = -7<br>
+                                ----------------<br>
+                                <b style='color:#dc2626; font-size:20px;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 = 9</b>
+                            </div>
+                            <span style='font-size:13px; color:#475569; margin-top:5px; display:block;'>(અહીં x અને y બંને ઉડી ગયા અને છેલ્લે 0 = 9 વધ્યું!)</span>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: નિર્ણય (અંતિમ જવાબ)</b><br>
+                            આપણને ગણતરી કરતા <b>0 = 9</b> મળ્યું, જે ક્યારેય શક્ય જ નથી! (કારણ કે 0 અને 9 સરખા ન હોય).<br>
+                            આ એક <b>અસત્ય (ખોટું) વિધાન</b> છે.<br><br>
+                            આનો અર્થ એ થાય કે x અને y ની એવી કોઈ જ કિંમત નથી જે આ બંને સમીકરણોનું સમાધાન કરી શકે.<br>
+                            <b style='color:#dc2626; font-size:18px;'>તેથી, આ સમીકરણયુગ્મનો કોઈ ઉકેલ નથી!</b><br>
+                            <div style='background-color:#fee2e2; padding:8px; border-radius:4px; margin-top:8px;'>
+                                <span style='font-size:14px; color:#991b1b;'><b>નોંધ:</b> જો આ બંને સમીકરણોનો આલેખ દોરવામાં આવે, તો આ બંને રેખાઓ રેલવેના પાટાની જેમ એકબીજાને <b>સમાંતર (Parallel)</b> જશે અને ક્યાંય છેદશે નહિ!</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    `
+                },
+            
                 { 
                     question: "🌟 ઉદાહરણ 10: બે અંકોની એક સંખ્યા અને તે સંખ્યાના અંકોની અદલાબદલી કરતાં મળતી સંખ્યાનો સરવાળો 66 છે. જો સંખ્યાના અંકોનો તફાવત 2 હોય, તો તે સંખ્યા શોધો. આવી કેટલી સંખ્યાઓ છે?", 
                     question_desc: "2025 બોર્ડ માટે 3 માર્ક્સનો દશક અને એકમના અંક વાળો બોર્ડનો ફેવરિટ દાખલો",
