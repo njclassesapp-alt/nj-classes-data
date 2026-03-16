@@ -238,7 +238,7 @@ var njMathsExamples = {
                     `
                 },
                 { 
-                    question: "🌟 પ્રકરણ 3 ઉદાહરણ 1 (નવો અભ્યાસક્રમ): આલેખની રીતે ચકાસો કે સમીકરણયુગ્મ x + 3y = 6 અને 2x – 3y = 12 સુસંગત છે કે કેમ. જો હોય, તો તેમને આલેખની રીતે ઉકેલો.", 
+                    question: "🌟 ઉદાહરણ 1 (નવો અભ્યાસક્રમ): આલેખની રીતે ચકાસો કે સમીકરણયુગ્મ x + 3y = 6 અને 2x – 3y = 12 સુસંગત છે કે કેમ. જો હોય, તો તેમને આલેખની રીતે ઉકેલો.", 
                     question_desc: "નવા NCERT અભ્યાસક્રમ મુજબ 4 માર્ક્સનો આલેખની રીતનો સૌથી મોસ્ટ IMP દાખલો",
                     answer: `
                     <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
@@ -359,7 +359,93 @@ var njMathsExamples = {
                     `
                 },
             
-        
+                        
+                { 
+                    question: "🌟 ઉદાહરણ 2 (નવો અભ્યાસક્રમ): આલેખની રીતે શોધો કે નીચે આપેલ સમીકરણયુગ્મને ઉકેલ નથી, અનન્ય ઉકેલ છે અથવા અનંત ઉકેલ છે :<br>5x - 8y + 1 = 0<br>3x - (24/5)y + 3/5 = 0", 
+                    question_desc: "અપૂર્ણાંક વાળા સમીકરણ અને સંપાતી રેખાઓ (અનંત ઉકેલ) સમજાવતો 3 માર્ક્સનો અગત્યનો દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (અપૂર્ણાંક દૂર કરવાની જાદુઈ ટ્રીક):</b><br>
+                            સમીકરણ 1: <b>5x - 8y + 1 = 0</b><br>
+                            સમીકરણ 2: <b>3x - <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>24</span><span>5</span></span>y + <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid black; display:block; padding:0 2px;'>3</span><span>5</span></span> = 0</b><br><br>
+                            બીજા સમીકરણમાં છેદમાં 5 છે. તો આખા સમીકરણને <b>5/3</b> વડે ગુણી નાખીએ (અથવા પહેલા 5 લસાઅ લઈએ અને પછી 3 સામાન્ય કાઢીએ):<br>
+                            <span style='color:#0f172a;'>બીજા સમીકરણને 5 વડે ગુણતા: 15x - 24y + 3 = 0</span><br>
+                            <span style='color:#0f172a;'>હવે આખા સમીકરણમાંથી 3 સામાન્ય કાઢતા (અથવા 3 વડે ભાગતા): <b>5x - 8y + 1 = 0</b></span><br><br>
+                            <b style='color:#dc2626;'>અરે જુઓ! બીજું સમીકરણ પણ પહેલા સમીકરણ જેવું જ બની ગયું!</b> એટલે કે બંને સમીકરણો હકીકતમાં એક જ છે.
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: સમીકરણ માટે બિંદુઓનું કોષ્ટક બનાવવું</b><br>
+                            બંને સમીકરણો સમાન જ હોવાથી, આપણે કોઈ એક માટે જ બિંદુઓ શોધીશું.<br>
+                            સમીકરણ: <b>5x - 8y + 1 = 0</b><br>
+                            અહીં y ને કર્તા બનાવીએ: 8y = 5x + 1 &rArr; <b style='color:#1d4ed8;'>y = <span style='display:inline-block; vertical-align:middle; text-align:center;'><span style='border-bottom:1px solid #1d4ed8; display:block; padding:0 3px;'>5x + 1</span><span>8</span></span></b><br><br>
+                            
+                            • જો <b>x = 3</b> લઈએ, તો y = (5(3) + 1) / 8 = 16 / 8 = <b>2</b>. બિંદુ: <b>(3, 2)</b><br>
+                            • જો <b>x = -5</b> લઈએ, તો y = (5(-5) + 1) / 8 = -24 / 8 = <b>-3</b>. બિંદુ: <b>(-5, -3)</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; max-width:250px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>x</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>3</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>-5</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#dbeafe; border:1px solid #3b82f6; color:#1e3a8a; font-weight:bold; padding:8px;'>y</th>
+                                        <td style='border:1px solid #bfdbfe; padding:8px;'>2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:8px;'>-3</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <b style='color:#14532d; font-size:16px; margin-bottom:10px; display:block;'>સ્ટેપ 2: આલેખની રજૂઆત (સંપાતી રેખાઓ)</b>
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px; overflow-x:auto;'>
+                            <svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+                                <pattern id="grid2" width="20" height="20" patternUnits="userSpaceOnUse">
+                                    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+                                </pattern>
+                                <rect width="300" height="300" fill="url(#grid2)" />
+                                
+                                <line x1="0" y1="150" x2="300" y2="150" stroke="#334155" stroke-width="2"/> 
+                                <line x1="150" y1="0" x2="150" y2="300" stroke="#334155" stroke-width="2"/> 
+                                
+                                <polygon points="300,150 290,145 290,155" fill="#334155"/>
+                                <polygon points="150,0 145,10 155,10" fill="#334155"/>
+                                
+                                <text x="285" y="140" fill="#334155" font-size="12" font-weight="bold">X</text>
+                                <text x="160" y="15" fill="#334155" font-size="12" font-weight="bold">Y</text>
+
+                                <line x1="18" y1="230" x2="274" y2="70" stroke="#2563eb" stroke-width="4"/>
+                                <line x1="18" y1="230" x2="274" y2="70" stroke="#f87171" stroke-width="4" stroke-dasharray="8, 8"/>
+
+                                <text x="170" y="80" fill="#1e3a8a" font-size="11" font-weight="bold" transform="rotate(-32, 170, 80)">5x - 8y + 1 = 0</text>
+
+                                <circle cx="210" cy="110" r="4" fill="#16a34a"/>
+                                <text x="215" y="100" fill="#14532d" font-size="12" font-weight="bold">(3, 2)</text>
+                                
+                                <circle cx="50" cy="210" r="4" fill="#16a34a"/>
+                                <text x="55" y="225" fill="#14532d" font-size="12" font-weight="bold">(-5, -3)</text>
+
+                                <text x="135" y="165" fill="#475569" font-size="12">0</text>
+                            </svg>
+                            <br><b style='color:#334155;'>બંને સમીકરણોની એક જ રેખા (સંપાતી રેખાઓ)</b>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: નિર્ણય અને ઉકેલ</b><br>
+                            આલેખમાં આપણે સ્પષ્ટ જોઈ શકીએ છીએ કે બંને સમીકરણો માટે <b>એક જ રેખા</b> મળે છે.<br>
+                            એટલે કે રેખાઓ <b>સંપાતી (Coincident)</b> છે.<br><br>
+                            સંપાતી રેખાઓના દરેક બિંદુઓ બંને સમીકરણોનું સમાધાન કરે છે.<br>
+                            <b style='color:#dc2626; font-size:18px;'>તેથી આ સમીકરણયુગ્મને અનંત (અસંખ્ય) ઉકેલો છે.</b>
+                        </div>
+
+                    </div>
+                    `
+                },
+            
             
                     
         
