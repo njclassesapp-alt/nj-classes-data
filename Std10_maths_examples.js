@@ -222,7 +222,145 @@ var njMathsExamples = {
         "chapterTitle": "દ્વિચલ સુરેખ સમીકરણયુગ્મ - ઉદાહરણ",
         "qa_list": [
             
-           
+                {
+                    question: "🎯 NJ Classes ની માસ્ટર ટિપ્સ: આલેખની રીતે ઉકેલ અને 'સુસંગત' (Consistent) નો અર્થ",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        <div style='background-color:#fdf4ff; border:2px dashed #d946ef; padding:15px; border-radius:8px; margin-bottom:15px;'>
+                            <b style='color:#86198f; font-size:16px;'>💡 બેઝિક કોન્સેપ્ટ સમજો: સુસંગત કોને કહેવાય?</b><br><br>
+                            કોઈપણ બે સમીકરણોનો આલેખ દોરીએ ત્યારે 3 શક્યતાઓ મળે છે:<br>
+                            1. <b>છેદતી રેખાઓ (Intersecting Lines):</b> બંને રેખાઓ એક જ બિંદુમાં ભેગી થાય. તેનો <b>1 ઉકેલ (અનન્ય ઉકેલ)</b> મળે. તેથી સમીકરણયુગ્મ <b>સુસંગત છે</b> તેમ કહેવાય.<br>
+                            2. <b>સંપાતી રેખાઓ (Coincident Lines):</b> એક રેખાની ઉપર જ બીજી રેખા આવે. તેના <b>અનંત ઉકેલ</b> મળે. તેથી તે પણ <b>સુસંગત (અવલંબી) છે</b>.<br>
+                            3. <b>સમાંતર રેખાઓ (Parallel Lines):</b> બંને રેખાઓ રેલવેના પાટાની જેમ સીધી જ જાય અને ક્યાંય ભેગી ન થાય. તેનો <b>કોઈ ઉકેલ ન મળે</b>. તેથી સમીકરણયુગ્મ <b>સુસંગત નથી</b>.<br><br>
+                            <span style='color:#dc2626;'>ટૂંકમાં, જો ઉકેલ મળે (1 કે અનંત) તો સુસંગત છે, અને ઉકેલ ન મળે તો સુસંગત નથી!</span>
+                        </div>
+                    </div>
+                    `
+                },
+                { 
+                    question: "🌟 પ્રકરણ 3 ઉદાહરણ 1 (નવો અભ્યાસક્રમ): આલેખની રીતે ચકાસો કે સમીકરણયુગ્મ x + 3y = 6 અને 2x – 3y = 12 સુસંગત છે કે કેમ. જો હોય, તો તેમને આલેખની રીતે ઉકેલો.", 
+                    question_desc: "નવા NCERT અભ્યાસક્રમ મુજબ 4 માર્ક્સનો આલેખની રીતનો સૌથી મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને સમીકરણો માટે બિંદુઓનું કોષ્ટક બનાવવું</b><br>
+                            <span style='font-size:14px; color:#475569;'>આલેખ દોરવા માટે આપણે બંને સમીકરણોમાંથી x અથવા y ને કર્તા બનાવીને ઓછામાં ઓછા બે બિંદુઓ મેળવીશું.</span>
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સમીકરણ 1: x + 3y = 6</b><br>
+                            અહીં x ને કર્તા બનાવીએ: <b>x = 6 - 3y</b><br><br>
+                            • જો y = 0 લઈએ, તો x = 6 - 3(0) = 6. બિંદુ: <b>(6, 0)</b><br>
+                            • જો y = 2 લઈએ, તો x = 6 - 3(2) = 6 - 6 = 0. બિંદુ: <b>(0, 2)</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; max-width:250px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>x</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>6</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>0</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#dbeafe; border:1px solid #3b82f6; color:#1e3a8a; font-weight:bold; padding:8px;'>y</th>
+                                        <td style='border:1px solid #bfdbfe; padding:8px;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:8px;'>2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>સમીકરણ 2: 2x - 3y = 12</b><br>
+                            અહીં 2x = 12 + 3y &rArr; <b>x = (12 + 3y) / 2</b><br><br>
+                            • જો y = 0 લઈએ, તો x = (12 + 0) / 2 = 6. બિંદુ: <b>(6, 0)</b><br>
+                            • જો y = -2 લઈએ, તો x = (12 - 6) / 2 = 6 / 2 = 3. બિંદુ: <b>(3, -2)</b><br>
+                            • જો y = -4 લઈએ, તો x = (12 - 12) / 2 = 0. બિંદુ: <b>(0, -4)</b><br>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; max-width:300px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
+                                    <tr style='background-color:#ffedd5; color:#9a3412; font-weight:bold;'>
+                                        <th style='border:1px solid #f97316; padding:8px;'>x</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>6</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>3</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>0</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#ffedd5; border:1px solid #f97316; color:#9a3412; font-weight:bold; padding:8px;'>y</th>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>0</td>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>-2</td>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>-4</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <b style='color:#14532d; font-size:16px; margin-bottom:10px; display:block;'>સ્ટેપ 2: બિંદુઓને આલેખ પર દર્શાવવા</b>
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px; overflow-x:auto;'>
+                            <svg width="320" height="280" viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg">
+                                <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+                                    <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+                                </pattern>
+                                <rect width="320" height="280" fill="url(#grid)" />
+                                
+                                <line x1="0" y1="125" x2="320" y2="125" stroke="#334155" stroke-width="2"/> 
+                                <line x1="75" y1="0" x2="75" y2="280" stroke="#334155" stroke-width="2"/> 
+                                
+                                <polygon points="320,125 310,120 310,130" fill="#334155"/>
+                                <polygon points="75,0 70,10 80,10" fill="#334155"/>
+                                
+                                <text x="305" y="115" fill="#334155" font-size="12" font-weight="bold">X</text>
+                                <text x="85" y="15" fill="#334155" font-size="12" font-weight="bold">Y</text>
+
+                                <line x1="25" y1="91.6" x2="300" y2="183.3" stroke="#2563eb" stroke-width="2.5"/>
+                                <text x="210" y="165" fill="#2563eb" font-size="12" font-weight="bold">x + 3y = 6</text>
+
+                                <line x1="15" y1="265" x2="285" y2="85" stroke="#dc2626" stroke-width="2.5"/>
+                                <text x="200" y="90" fill="#dc2626" font-size="12" font-weight="bold">2x - 3y = 12</text>
+
+                                <circle cx="225" cy="125" r="5" fill="#16a34a"/>
+                                <text x="230" y="115" fill="#14532d" font-size="14" font-weight="bold">(6, 0)</text>
+
+                                <text x="60" y="140" fill="#475569" font-size="12">0</text>
+                                
+                                <circle cx="150" cy="125" r="3" fill="#334155"/>
+                                <text x="145" y="140" fill="#475569" font-size="11">3</text>
+                                
+                                <circle cx="225" cy="125" r="3" fill="#334155"/>
+                                
+                                <circle cx="75" cy="75" r="3" fill="#334155"/>
+                                <text x="60" y="80" fill="#475569" font-size="11">2</text>
+
+                                <circle cx="75" cy="175" r="3" fill="#334155"/>
+                                <text x="55" y="180" fill="#475569" font-size="11">-2</text>
+
+                                <circle cx="75" cy="225" r="3" fill="#334155"/>
+                                <text x="55" y="230" fill="#475569" font-size="11">-4</text>
+                                
+                                <circle cx="150" cy="175" r="4" fill="#dc2626"/>
+                                <text x="160" y="185" fill="#991b1b" font-size="11">(3,-2)</text>
+                                
+                                <circle cx="75" cy="75" r="4" fill="#2563eb"/>
+                                
+                                <circle cx="75" cy="225" r="4" fill="#dc2626"/>
+                            </svg>
+                            <br><b style='color:#334155;'>બંને સમીકરણોની છેદતી રેખાઓનો આલેખ</b>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: નિર્ણય અને ઉકેલ</b><br>
+                            આલેખમાં આપણે સ્પષ્ટ જોઈ શકીએ છીએ કે બંને રેખાઓ એકબીજાને બિંદુ <b>(6, 0)</b> માં છેદે છે.<br>
+                            અહીં બંને રેખાઓ છેદતી હોવાથી તેમનો એક અનન્ય (Unique) ઉકેલ મળે છે. <br><br>
+                            <b>તેથી આપેલ સમીકરણયુગ્મ <span style='color:#16a34a;'>સુસંગત છે</span>.</b><br>
+                            <b style='color:#dc2626; font-size:18px;'>આલેખની રીતે ઉકેલ: x = 6 અને y = 0</b>
+                        </div>
+
+                    </div>
+                    `
+                },
+            
+        
+            
                     
         
                 {
