@@ -446,6 +446,139 @@ var njMathsExamples = {
                     `
                 },
             
+                            
+                { 
+                    question: "🌟 પ્રકરણ 3 ઉદાહરણ 3 (નવો અભ્યાસક્રમ): ચંપા એક ‘સેલ’(sale)માં કેટલાંક પૅન્ટ અને સ્કર્ટ ખરીદવા ગઈ. જ્યારે તેના મિત્રોએ પૂછ્યું કે તેણે દરેકની કેટલી સંખ્યા ખરીદી છે, ત્યારે તેણે જવાબ આપ્યો : 'સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના બે ગણાથી 2 ઓછી છે. વળી, સ્કર્ટની સંખ્યા પૅન્ટની સંખ્યાના ચાર ગણાથી 4 ઓછી છે.' ચંપાએ કેટલાં પૅન્ટ અને સ્કર્ટ ખરીદ્યાં તે શોધવામાં તેના મિત્રોને મદદ કરો.", 
+                    question_desc: "નવા અભ્યાસક્રમ મુજબ 4 માર્ક્સનો કૂટપ્રશ્ન પરથી આલેખ દોરવાનો મોસ્ટ IMP દાખલો",
+                    answer: `
+                    <div style='background-color:#ffffff; padding:10px; font-family:sans-serif;'>
+                        
+                        <div style='background-color:#fffbeb; border-left:4px solid #f59e0b; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#b45309;'>💡 NJ સજેશન (સમીકરણ બનાવવાની શોર્ટકટ ટ્રીક):</b><br>
+                            સૌથી પહેલા ધારી લો: પૅન્ટની સંખ્યા = $x$ અને સ્કર્ટની સંખ્યા = $y$.<br>
+                            • <b>શરત 1:</b> સ્કર્ટ ($y$) એ પૅન્ટ ($x$) ના બે ગણા ($2x$) થી 2 ઓછા ($- 2$) છે. &rArr; <b>$y = 2x - 2$</b><br>
+                            • <b>શરત 2:</b> સ્કર્ટ ($y$) એ પૅન્ટ ($x$) ના ચાર ગણા ($4x$) થી 4 ઓછા ($- 4$) છે. &rArr; <b>$y = 4x - 4$</b>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; border-left:4px solid #16a34a; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#14532d; font-size:16px;'>સ્ટેપ 1: બંને સમીકરણો માટે બિંદુઓનું કોષ્ટક બનાવવું</b><br>
+                            અહીં બંને સમીકરણોમાં $y$ પહેલેથી જ કર્તા છે, એટલે ગણતરી બહુ સહેલી થઈ જશે!
+                        </div>
+
+                        <div style='background-color:#eff6ff; border-left:4px solid #2563eb; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#1e3a8a; font-size:16px;'>સમીકરણ 1: $y = 2x - 2$</b><br>
+                            • જો $x = 0$ લઈએ, તો $y = 2(0) - 2 = -2$. બિંદુ: <b>(0, -2)</b><br>
+                            • જો $x = 1$ લઈએ, તો $y = 2(1) - 2 = 0$. બિંદુ: <b>(1, 0)</b><br>
+                            • જો $x = 2$ લઈએ, તો $y = 2(2) - 2 = 2$. બિંદુ: <b>(2, 2)</b><br>
+                            
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; max-width:300px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
+                                    <tr style='background-color:#dbeafe; color:#1e3a8a; font-weight:bold;'>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>x</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>0</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>1</th>
+                                        <th style='border:1px solid #3b82f6; padding:8px;'>2</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#dbeafe; border:1px solid #3b82f6; color:#1e3a8a; font-weight:bold; padding:8px;'>y</th>
+                                        <td style='border:1px solid #bfdbfe; padding:8px;'>-2</td>
+                                        <td style='border:1px solid #bfdbfe; padding:8px; font-weight:bold; color:#dc2626;'>0</td>
+                                        <td style='border:1px solid #bfdbfe; padding:8px;'>2</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff7ed; border-left:4px solid #ea580c; padding:10px; margin-bottom:15px; border-radius:4px;'>
+                            <b style='color:#9a3412; font-size:16px;'>સમીકરણ 2: $y = 4x - 4$</b><br>
+                            • જો $x = 0$ લઈએ, તો $y = 4(0) - 4 = -4$. બિંદુ: <b>(0, -4)</b><br>
+                            • જો $x = 1$ લઈએ, તો $y = 4(1) - 4 = 0$. બિંદુ: <b>(1, 0)</b><br>
+                            • જો $x = 2$ લઈએ, તો $y = 4(2) - 4 = 4$. બિંદુ: <b>(2, 4)</b><br>
+
+                            <div style='overflow-x:auto; white-space:nowrap; margin-top:10px;'>
+                                <table style='width:100%; max-width:300px; border-collapse:collapse; text-align:center; font-size:15px; background-color:#ffffff;'>
+                                    <tr style='background-color:#ffedd5; color:#9a3412; font-weight:bold;'>
+                                        <th style='border:1px solid #f97316; padding:8px;'>x</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>0</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>1</th>
+                                        <th style='border:1px solid #f97316; padding:8px;'>2</th>
+                                    </tr>
+                                    <tr>
+                                        <th style='background-color:#ffedd5; border:1px solid #f97316; color:#9a3412; font-weight:bold; padding:8px;'>y</th>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>-4</td>
+                                        <td style='border:1px solid #fed7aa; padding:8px; font-weight:bold; color:#dc2626;'>0</td>
+                                        <td style='border:1px solid #fed7aa; padding:8px;'>4</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <span style='font-size:14px; color:#475569;'>(બંને કોષ્ટકમાં <b>(1, 0)</b> બિંદુ સામાન્ય છે, એટલે આ જ આપણો જવાબ હશે!)</span>
+                        </div>
+
+                        <b style='color:#14532d; font-size:16px; margin-bottom:10px; display:block;'>સ્ટેપ 2: બિંદુઓને આલેખ પર દર્શાવવા</b>
+                        <div style='text-align:center; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0; margin-bottom:15px; overflow-x:auto;'>
+                            <svg width="300" height="320" viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg">
+                                <pattern id="grid3" width="30" height="30" patternUnits="userSpaceOnUse">
+                                    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+                                </pattern>
+                                <rect width="300" height="320" fill="url(#grid3)" />
+                                
+                                <line x1="0" y1="170" x2="300" y2="170" stroke="#334155" stroke-width="2"/> 
+                                <line x1="150" y1="0" x2="150" y2="320" stroke="#334155" stroke-width="2"/> 
+                                
+                                <polygon points="300,170 290,165 290,175" fill="#334155"/>
+                                <polygon points="150,0 145,10 155,10" fill="#334155"/>
+                                
+                                <text x="285" y="160" fill="#334155" font-size="12" font-weight="bold">X</text>
+                                <text x="160" y="15" fill="#334155" font-size="12" font-weight="bold">Y</text>
+
+                                <line x1="90" y1="290" x2="270" y2="50" stroke="#2563eb" stroke-width="2.5"/>
+                                <text x="210" y="80" fill="#2563eb" font-size="12" font-weight="bold" transform="rotate(-35, 210, 80)">y = 2x - 2</text>
+
+                                <line x1="127.5" y1="320" x2="217.5" y2="20" stroke="#dc2626" stroke-width="2.5"/>
+                                <text x="195" y="40" fill="#dc2626" font-size="12" font-weight="bold" transform="rotate(-53, 195, 40)">y = 4x - 4</text>
+
+                                <circle cx="180" cy="170" r="6" fill="#16a34a"/>
+                                <text x="185" y="190" fill="#14532d" font-size="14" font-weight="bold">(1, 0)</text>
+
+                                <text x="135" y="185" fill="#475569" font-size="12">0</text>
+                                
+                                <circle cx="180" cy="170" r="3" fill="#334155"/>
+                                
+                                <circle cx="210" cy="170" r="3" fill="#334155"/>
+                                <text x="205" y="185" fill="#475569" font-size="11">2</text>
+                                
+                                <circle cx="150" cy="230" r="3" fill="#334155"/>
+                                <text x="130" y="235" fill="#475569" font-size="11">-2</text>
+                                
+                                <circle cx="150" cy="290" r="3" fill="#334155"/>
+                                <text x="130" y="295" fill="#475569" font-size="11">-4</text>
+                                
+                                <circle cx="150" cy="110" r="3" fill="#334155"/>
+                                <text x="135" y="115" fill="#475569" font-size="11">2</text>
+                                
+                                <circle cx="150" cy="50" r="3" fill="#334155"/>
+                                <text x="135" y="55" fill="#475569" font-size="11">4</text>
+
+                                <circle cx="150" cy="230" r="4" fill="#2563eb"/>
+                                <circle cx="210" cy="110" r="4" fill="#2563eb"/>
+                                <circle cx="150" cy="290" r="4" fill="#dc2626"/>
+                                <circle cx="210" cy="50" r="4" fill="#dc2626"/>
+                            </svg>
+                            <br><b style='color:#334155;'>બંને રેખાઓ બિંદુ (1, 0) માં છેદે છે</b>
+                        </div>
+
+                        <div style='background-color:#fef2f2; border-left:4px solid #ef4444; padding:10px; border-radius:4px;'>
+                            <b style='color:#b91c1c; font-size:16px;'>સ્ટેપ 3: નિર્ણય અને ઉકેલ</b><br>
+                            આલેખમાં આપણે સ્પષ્ટ જોઈ શકીએ છીએ કે બંને રેખાઓ બિંદુ <b>(1, 0)</b> માં છેદે છે.<br>
+                            આથી સમીકરણયુગ્મનો ઉકેલ: <b>$x = 1$</b> અને <b>$y = 0$</b> છે.<br><br>
+                            <b style='color:#dc2626; font-size:18px;'>જવાબ:</b> આપણે ધારેલ મુજબ:<br>
+                            • ચંપાએ ખરીદેલ <b>પૅન્ટની સંખ્યા ($x$) = 1</b> છે.<br>
+                            • ચંપાએ ખરીદેલ <b>સ્કર્ટની સંખ્યા ($y$) = 0</b> છે. (એટલે કે તેણે એકપણ સ્કર્ટ ખરીદ્યું નથી!)
+                        </div>
+
+                    </div>
+                    `
+                },
             
                     
         
