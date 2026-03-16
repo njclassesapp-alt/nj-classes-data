@@ -443,12 +443,31 @@ const njArrowLevels = [
         {x:2,y:4,dir:'LEFT'}, {x:3,y:4,dir:'RIGHT'}, {x:6,y:4,dir:'LEFT'}, {x:7,y:4,dir:'RIGHT'},
         {x:2,y:5,dir:'LEFT'}, {x:3,y:5,dir:'RIGHT'}, {x:6,y:5,dir:'LEFT'}, {x:7,y:5,dir:'RIGHT'} 
     ]},
-    // Level 65 (Horizontal Flow)
+        // Level 65 (The Solid Zipper - અત્યંત હાર્ડ, પણ 100% ડેડલોક-ફ્રી)
     { size: 10, blocks: [ 
-        {x:2,y:2,dir:'LEFT'}, {x:3,y:2,dir:'LEFT'}, {x:4,y:2,dir:'LEFT'}, {x:5,y:2,dir:'RIGHT'}, {x:6,y:2,dir:'RIGHT'}, {x:7,y:2,dir:'RIGHT'},
-        {x:2,y:4,dir:'LEFT'}, {x:3,y:4,dir:'LEFT'}, {x:4,y:4,dir:'LEFT'}, {x:5,y:4,dir:'RIGHT'}, {x:6,y:4,dir:'RIGHT'}, {x:7,y:4,dir:'RIGHT'},
-        {x:2,y:6,dir:'LEFT'}, {x:3,y:6,dir:'LEFT'}, {x:4,y:6,dir:'LEFT'}, {x:5,y:6,dir:'RIGHT'}, {x:6,y:6,dir:'RIGHT'}, {x:7,y:6,dir:'RIGHT'} 
+        // સૌથી બહારની રીંગ
+        {x:2, y:2, dir:'UP'},
+        {x:3, y:2, dir:'LEFT'}, {x:4, y:2, dir:'LEFT'}, {x:5, y:2, dir:'LEFT'}, {x:6, y:2, dir:'LEFT'}, {x:7, y:2, dir:'LEFT'},
+        {x:2, y:3, dir:'UP'}, {x:2, y:4, dir:'UP'}, {x:2, y:5, dir:'UP'}, {x:2, y:6, dir:'UP'},
+        
+        {x:7, y:7, dir:'DOWN'},
+        {x:6, y:7, dir:'RIGHT'}, {x:5, y:7, dir:'RIGHT'}, {x:4, y:7, dir:'RIGHT'}, {x:3, y:7, dir:'RIGHT'}, {x:2, y:7, dir:'RIGHT'},
+        {x:7, y:6, dir:'DOWN'}, {x:7, y:5, dir:'DOWN'}, {x:7, y:4, dir:'DOWN'}, {x:7, y:3, dir:'DOWN'},
+        
+        // વચ્ચેની રીંગ
+        {x:3, y:3, dir:'UP'},
+        {x:4, y:3, dir:'LEFT'}, {x:5, y:3, dir:'LEFT'}, {x:6, y:3, dir:'LEFT'},
+        {x:3, y:4, dir:'UP'}, {x:3, y:5, dir:'UP'},
+        
+        {x:6, y:6, dir:'DOWN'},
+        {x:5, y:6, dir:'RIGHT'}, {x:4, y:6, dir:'RIGHT'}, {x:3, y:6, dir:'RIGHT'},
+        {x:6, y:5, dir:'DOWN'}, {x:6, y:4, dir:'DOWN'},
+        
+        // સૌથી અંદરનો ભાગ (Core)
+        {x:4, y:4, dir:'UP'}, {x:5, y:4, dir:'LEFT'},
+        {x:5, y:5, dir:'DOWN'}, {x:4, y:5, dir:'RIGHT'}
     ]},
+
     // Level 66 (Vertical Flow)
     { size: 10, blocks: [ 
         {x:2,y:2,dir:'UP'}, {x:2,y:3,dir:'UP'}, {x:2,y:4,dir:'UP'}, {x:2,y:5,dir:'DOWN'}, {x:2,y:6,dir:'DOWN'}, {x:2,y:7,dir:'DOWN'},
