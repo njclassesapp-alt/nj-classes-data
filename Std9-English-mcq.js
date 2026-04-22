@@ -568,7 +568,235 @@ njQuestionsDatabase = [
     { chapter: 9, q: "'Reshma was watching the children.' Identify the tense.", options: ["Simple Past", "Past Continuous", "Present Continuous", "Past Perfect"], ans: 1 },
     { chapter: 9, q: "'The children pushed the wheelchair.' Change to passive voice.", options: ["The wheelchair is pushed by the children.", "The wheelchair was pushed by the children.", "The wheelchair had pushed by the children.", "The wheelchair has been pushed by the children."], ans: 1 },
 
-      
+          // --- ધોરણ 9 અંગ્રેજી (દ્વિતીય ભાષા) ---
+    // --- Chapter 10: Ecology for Peace ---
+
+    // --- Ancient Texts and Core Messages ---
+    { chapter: 10, q: "What is the title of Chapter 10?", options: ["Peace and War", "Ecology for Peace", "The Green Earth", "Save the Trees"], ans: 1 },
+    { chapter: 10, q: "What does 'Ecology' basically mean in the context of this chapter?", options: ["Study of space", "Relationship between living beings and their environment", "Study of human history", "Study of the oceans"], ans: 1 },
+    { chapter: 10, q: "Our ancient Indian texts are full of messages for...", options: ["War and conquest", "Peace and harmony with nature", "Building large cities", "Industrial development"], ans: 1 },
+    { chapter: 10, q: "According to the Vedas, there is a strong feeling of oneness between...", options: ["Kings and queens", "Man and nature", "Different countries", "Rich and poor"], ans: 1 },
+    { chapter: 10, q: "Which famous Sanskrit phrase means 'The whole world is one family'?", options: ["Satyameva Jayate", "Vasudhaiva Kutumbakam", "Ahimsa Paramo Dharma", "Vande Mataram"], ans: 1 },
+    { chapter: 10, q: "Where is the idea of 'Vasudhaiva Kutumbakam' found?", options: ["In the Maha Upanishad", "In the Ramayana", "In the Mahabharata", "In modern constitution"], ans: 0 },
+    { chapter: 10, q: "What does the ancient quote 'Yatra vishvam bhavati eka nida' mean?", options: ["The world is a battlefield", "The world is an illusion", "Where the whole world meets in a single nest", "The world is a market"], ans: 2 },
+    { chapter: 10, q: "The idea of the world being a 'single nest' teaches us...", options: ["To fight for territory", "Universal brotherhood and togetherness", "To build more houses", "To catch birds"], ans: 1 },
+    { chapter: 10, q: "According to the Isha Upanishad, 'Ishavasyam idam sarvam' means...", options: ["Everything is created by man", "Everything is pervaded (filled) by God / the Divine", "Everything is temporary", "God is only in temples"], ans: 1 },
+    { chapter: 10, q: "What advice does the Isha Upanishad give about wealth?", options: ["Collect as much as you can", "Steal from the rich", "Do not covet (desire greedily) anyone's wealth", "Share it only with family"], ans: 2 },
+    { chapter: 10, q: "The phrase 'Tyaktena bhunjithah' means...", options: ["Enjoy by fighting", "Enjoy with renunciation (giving up greed)", "Enjoy by eating everything", "Do not enjoy life"], ans: 1 },
+
+    // --- Message of Peace and Ahimsa ---
+    { chapter: 10, q: "What is the fundamental principle of Indian culture mentioned in the text?", options: ["Ahimsa (Non-violence)", "Revenge", "Competition", "Anger"], ans: 0 },
+    { chapter: 10, q: "Who were the two great ancient Indian teachers who taught Ahimsa to the world?", options: ["Ashoka and Akbar", "Lord Mahavira and Lord Buddha", "Kalidasa and Tulsidas", "Shivaji and Rana Pratap"], ans: 1 },
+    { chapter: 10, q: "Lord Mahavira's religion is heavily based on...", options: ["Sacrificing animals", "Ahimsa (Non-violence) towards all living beings", "Building temples", "Traveling the world"], ans: 1 },
+    { chapter: 10, q: "What is the core message of Lord Mahavira?", options: ["Live and let live", "Might is right", "Survival of the fittest", "An eye for an eye"], ans: 0 },
+    { chapter: 10, q: "Lord Buddha preached the message of...", options: ["War", "Compassion and love for all creatures", "Wealth accumulation", "Fear"], ans: 1 },
+    { chapter: 10, q: "The Shanti Mantra (Prayer for Peace) invokes peace for...", options: ["Only human beings", "Only India", "The sky, earth, waters, plants, trees, and the entire universe", "Only the Gods"], ans: 2 },
+    { chapter: 10, q: "In the Shanti Mantra, what is asked to be peaceful?", options: ["Herbs and roots", "Waters and oceans", "Sky and space", "All of the above"], ans: 3 },
+    { chapter: 10, q: "The ancient sages prayed that peace itself should be...", options: ["Temporary", "Peaceful", "Violent", "Hidden"], ans: 1 },
+
+    // --- Relationship with Trees and Animals ---
+    { chapter: 10, q: "How did the ancient sages (Rishis) live?", options: ["In grand palaces", "In ashrams in the forests, in harmony with nature", "In big cities", "Underground"], ans: 1 },
+    { chapter: 10, q: "Who is the famous Sanskrit poet mentioned in the chapter?", options: ["Valmiki", "Ved Vyasa", "Kalidasa", "Tulsidas"], ans: 2 },
+    { chapter: 10, q: "What is the name of Kalidasa's famous play mentioned in the text?", options: ["Ramayana", "Abhigyan Shakuntalam", "Meghaduta", "Mahabharata"], ans: 1 },
+    { chapter: 10, q: "What does Shakuntala do before she eats anything or drinks water?", options: ["She prays to the sun", "She waters the plants and trees", "She feeds the birds", "She sleeps"], ans: 1 },
+    { chapter: 10, q: "How did Shakuntala treat the trees?", options: ["She cut them for wood", "She ignored them", "She treated them like her own children", "She sold their fruits"], ans: 2 },
+    { chapter: 10, q: "When Shakuntala was leaving the ashram, who shed tears?", options: ["The trees and the deer", "The king", "The villagers", "The sky"], ans: 0 },
+    { chapter: 10, q: "Our ancient culture teaches us to see nature as our...", options: ["Enemy", "Servant", "Mother", "Property"], ans: 2 },
+
+    // --- Modern Ecological Crisis ---
+    { chapter: 10, q: "What is modern man doing to nature?", options: ["Worshipping it", "Destroying the ecological balance for his greed", "Protecting it", "Ignoring it"], ans: 1 },
+    { chapter: 10, q: "By destroying nature, what is man actually destroying?", options: ["The universe", "Himself and his own future", "Only the animals", "Only the birds"], ans: 1 },
+    { chapter: 10, q: "What is the result of ecological imbalance?", options: ["Better health", "More wealth", "Global warming and pollution", "Peace in the world"], ans: 2 },
+    { chapter: 10, q: "If we want real peace, we must protect...", options: ["Our bank accounts", "Our weapons", "Our environment and ecology", "Our buildings"], ans: 2 },
+    { chapter: 10, q: "What are humans running after today?", options: ["Spiritual peace", "Material wealth and comfort", "True knowledge", "Nature conservation"], ans: 1 },
+    { chapter: 10, q: "True happiness lies in...", options: ["Having lots of money", "Living in harmony with nature and all living beings", "Destroying forests", "Fighting wars"], ans: 1 },
+    { chapter: 10, q: "What should we do to save the earth?", options: ["Plant more trees and protect animals", "Cut down forests for factories", "Use more plastic", "Kill wild animals"], ans: 0 },
+    { chapter: 10, q: "We may speak different languages and live in different countries, but we all share the same...", options: ["House", "Earth", "Clothes", "Food"], ans: 1 },
+
+    // --- Vocabulary and Grammar ---
+    { chapter: 10, q: "What does the word 'harmony' mean?", options: ["A state of peaceful agreement and coexistence", "A loud noise", "A type of musical instrument", "A war"], ans: 0 },
+    { chapter: 10, q: "The word 'pervaded' means...", options: ["Spread through and be present in every part of something", "Removed completely", "Destroyed", "Hidden"], ans: 0 },
+    { chapter: 10, q: "What is the meaning of 'covet'?", options: ["To give generously", "To strongly desire something that belongs to someone else", "To break", "To clean"], ans: 1 },
+    { chapter: 10, q: "Find the synonym for 'compassion'.", options: ["Cruelty", "Hatred", "Pity and concern / Deep sympathy", "Anger"], ans: 2 },
+    { chapter: 10, q: "The word 'renunciation' means...", options: ["Collecting wealth", "Giving up or rejecting something (especially worldly desires)", "Eating a lot", "Sleeping"], ans: 1 },
+    { chapter: 10, q: "What does 'invoke' mean in the context of a mantra?", options: ["To call on a deity or spirit in prayer", "To shout angrily", "To write a letter", "To laugh"], ans: 0 },
+    { chapter: 10, q: "A 'sage' is...", options: ["A wild animal", "A profoundly wise man (like a Rishi)", "A type of tree", "A weapon"], ans: 1 },
+    { chapter: 10, q: "Find the antonym of 'violence'.", options: ["War", "Cruelty", "Ahimsa / Non-violence / Peace", "Anger"], ans: 2 },
+    { chapter: 10, q: "The word 'ecological' relates to...", options: ["Economy and money", "The relationship of living things to their environment", "Political systems", "Medical science"], ans: 1 },
+    { chapter: 10, q: "'Shakuntala watered the plants.' Choose the correct passive voice.", options: ["The plants is watered by Shakuntala.", "The plants were watered by Shakuntala.", "The plants are watered by Shakuntala.", "The plants has been watered by Shakuntala."], ans: 1 },
+    { chapter: 10, q: "Identify the part of speech of the word 'beautifully' in 'The idea is beautifully expressed.'", options: ["Noun", "Adjective", "Adverb", "Verb"], ans: 2 },
+    { chapter: 10, q: "'We must protect our nature.' The modal verb 'must' shows...", options: ["Ability", "Strong obligation / Necessity", "Possibility", "Permission"], ans: 1 },
+    { chapter: 10, q: "Find the opposite of 'ancient'.", options: ["Old", "Historical", "Modern", "Past"], ans: 2 },
+    { chapter: 10, q: "What is a 'nest' a metaphor for in the phrase 'single nest'?", options: ["A bird's home", "A united, peaceful world / A common home", "A small room", "A tree branch"], ans: 1 },
+    { chapter: 10, q: "The suffix in the word 'peaceful' is...", options: ["pea-", "-ful", "-ce", "peace"], ans: 1 },
+
+          // --- ધોરણ 9 અંગ્રેજી (દ્વિતીય ભાષા) ---
+    // --- Chapter 11: Valley of Flowers ---
+
+    // --- Location and Discovery ---
+    { chapter: 11, q: "What is the title of Chapter 11?", options: ["The Magic Mountain", "Valley of Flowers", "The Green Forest", "Himalayan Rivers"], ans: 1 },
+    { chapter: 11, q: "Where is the Valley of Flowers located?", options: ["In Himachal Pradesh", "In Jammu and Kashmir", "In Uttarakhand", "In Sikkim"], ans: 2 },
+    { chapter: 11, q: "In which mountain range is the Valley of Flowers situated?", options: ["The Aravalli Range", "The Himalayan Ranges", "The Western Ghats", "The Vindhya Range"], ans: 1 },
+    { chapter: 11, q: "In which district of Uttarakhand is the valley located?", options: ["Dehradun", "Nainital", "Chamoli", "Haridwar"], ans: 2 },
+    { chapter: 11, q: "The Valley of Flowers is a vibrant and splendid national park hidden in the ______.", options: ["Kumaon region", "Garhwal Himalayas", "Shiwalik hills", "Karakoram range"], ans: 1 },
+    { chapter: 11, q: "In which year did the British botanists lose their way and discover this valley?", options: ["1921", "1931", "1941", "1951"], ans: 1 },
+    { chapter: 11, q: "What was the name of the British mountaineer and botanist who discovered the valley?", options: ["Frank Smythe", "Jim Corbett", "Edmund Hillary", "Charles Darwin"], ans: 0 },
+    { chapter: 11, q: "Who was Frank Smythe's partner when they discovered the valley?", options: ["R.L. Holdsworth", "John Muir", "David Attenborough", "George Everest"], ans: 0 },
+    { chapter: 11, q: "Where were Frank Smythe and his partner returning from when they found the valley?", options: ["Mount Everest", "Mt. Kamet", "Mt. Kanchenjunga", "Mt. Kailash"], ans: 1 },
+    { chapter: 11, q: "What did Frank Smythe name the book he wrote about this beautiful place?", options: ["The Himalayan Flowers", "The Magic Valley", "The Valley of Flowers", "Lost in the Mountains"], ans: 2 },
+
+    // --- Recognition and Geography ---
+    { chapter: 11, q: "What was the traditional/local name of the Valley of Flowers?", options: ["Pushpawati", "Bhyundar Valley", "Nanda Devi", "Roopkund"], ans: 1 },
+    { chapter: 11, q: "Which river flows through the Valley of Flowers?", options: ["Ganga", "Yamuna", "Pushpawati", "Alaknanda"], ans: 2 },
+    { chapter: 11, q: "In which year was the Valley of Flowers declared a National Park?", options: ["1931", "1972", "1982", "2004"], ans: 2 },
+    { chapter: 11, q: "Which international organization declared the Valley of Flowers a World Heritage Site?", options: ["WHO", "UNICEF", "UNESCO", "WWF"], ans: 2 },
+    { chapter: 11, q: "In which year did UNESCO declare it a World Heritage Site?", options: ["1982", "1994", "2004", "2010"], ans: 2 },
+    { chapter: 11, q: "What is the area of the Valley of Flowers National Park?", options: ["50 sq. km", "87.5 sq. km", "100 sq. km", "150 sq. km"], ans: 1 },
+    { chapter: 11, q: "At what altitude (height) is the valley situated?", options: ["1000 to 2000 meters", "2000 to 3000 meters", "3200 to 6600 meters", "above 8000 meters"], ans: 2 },
+
+    // --- Flora (Flowers and Plants) ---
+    { chapter: 11, q: "The Valley of Flowers is famous for its meadows of endemic ______.", options: ["Alpine flowers", "Tropical plants", "Desert cactus", "Mangrove trees"], ans: 0 },
+    { chapter: 11, q: "How many species of flowers are found in this valley?", options: ["Around 100", "Around 300", "Around 600", "More than 1000"], ans: 2 },
+    { chapter: 11, q: "Which is the state flower of Uttarakhand found in this valley?", options: ["Lotus", "Brahma Kamal", "Blue Poppy", "Rose"], ans: 1 },
+    { chapter: 11, q: "Brahma Kamal is a rare flower that blooms only...", options: ["During the day", "At night", "In winter", "Once in 12 years"], ans: 1 },
+    { chapter: 11, q: "Which of the following flowers is mentioned as looking like a small blue cup?", options: ["Blue Poppy", "Cobra Lily", "Brahma Kamal", "Orchid"], ans: 0 },
+    { chapter: 11, q: "Which flower in the valley looks like the hood of a snake?", options: ["Brahma Kamal", "Cobra Lily", "Blue Poppy", "Marigold"], ans: 1 },
+    { chapter: 11, q: "What creates a colorful carpet in the valley during the blooming season?", options: ["Millions of flowers", "Fallen leaves", "Snow", "Green grass only"], ans: 0 },
+    { chapter: 11, q: "For how many months is the valley covered with snow?", options: ["2 months", "4 months", "6 to 7 months", "10 months"], ans: 2 },
+    { chapter: 11, q: "Which is the best time to visit the Valley of Flowers?", options: ["December to February", "March to May", "Mid-July to mid-August", "October to November"], ans: 2 },
+    { chapter: 11, q: "Why is mid-July to mid-August the best time to visit?", options: ["Because there is heavy snow", "Because the flowers are in full bloom after the first monsoon showers", "Because it is very hot", "Because the river is dry"], ans: 1 },
+
+    // --- Fauna (Wildlife and Birds) ---
+    { chapter: 11, q: "Which rare animal is found in the Valley of Flowers?", options: ["Royal Bengal Tiger", "Snow Leopard", "Asiatic Lion", "Indian Rhino"], ans: 1 },
+    { chapter: 11, q: "Which of the following animals is NOT typically found in this valley?", options: ["Himalayan Black Bear", "Musk Deer", "Blue Sheep", "Camel"], ans: 3 },
+    { chapter: 11, q: "What kind of foxes are found in the valley?", options: ["Desert foxes", "Red foxes", "White foxes", "Flying foxes"], ans: 1 },
+    { chapter: 11, q: "Which beautiful bird is specifically mentioned in the text?", options: ["Peacock", "Himalayan Golden Eagle", "Ostrich", "Penguin"], ans: 1 },
+    { chapter: 11, q: "Which colorful birds flutter around the flowers?", options: ["Crows", "Snow Pigeons and Himalayan Monals", "Parrots", "Sparrows"], ans: 1 },
+    { chapter: 11, q: "Apart from flowers and animals, what else makes the valley beautiful?", options: ["Skyscrapers", "Cascading waterfalls and small streams", "Shopping malls", "Desert sand"], ans: 1 },
+
+    // --- Mythology and Beliefs ---
+    { chapter: 11, q: "Which Indian epic mentions the Valley of Flowers?", options: ["The Mahabharata", "The Ramayana", "The Bhagavad Gita", "The Vedas"], ans: 1 },
+    { chapter: 11, q: "Who was fatally wounded in the battle of Lanka in the Ramayana?", options: ["Lord Rama", "Hanuman", "Lakshmana", "Sugriva"], ans: 2 },
+    { chapter: 11, q: "What did Hanuman need to bring to cure Lakshmana?", options: ["A magic sword", "Sanjeevani Buti (a life-restoring herb)", "Holy water", "A diamond"], ans: 1 },
+    { chapter: 11, q: "Where did Hanuman go to find the Sanjeevani Buti?", options: ["To the ocean", "To the Valley of Flowers", "To a desert", "To a cave"], ans: 1 },
+    { chapter: 11, q: "What did Hanuman do when he couldn't identify the specific herb?", options: ["He returned empty-handed", "He asked the local people", "He lifted the entire mountain and carried it to Lanka", "He started crying"], ans: 2 },
+    { chapter: 11, q: "What do the local people believe about the Valley of Flowers?", options: ["It is cursed", "It is haunted by ghosts", "It is the playground of fairies (pari) and gods", "It is full of gold"], ans: 2 },
+
+    // --- Vocabulary and Grammar ---
+    { chapter: 11, q: "The word 'vibrant' means...", options: ["Dull and boring", "Full of energy, life, and bright colors", "Dark and scary", "Dead"], ans: 1 },
+    { chapter: 11, q: "What is a 'botanist'?", options: ["A person who studies animals", "A person who studies stars", "A person who studies plants", "A person who studies rocks"], ans: 2 },
+    { chapter: 11, q: "The word 'expedition' means...", options: ["A short walk", "A journey undertaken by a group of people with a particular purpose", "A dream", "A type of flower"], ans: 1 },
+    { chapter: 11, q: "What does 'endemic' mean in the context of plants?", options: ["Found everywhere in the world", "Native and restricted to a certain place", "Extinct", "Poisonous"], ans: 1 },
+    { chapter: 11, q: "Find the synonym for 'splendid'.", options: ["Ugly", "Magnificent / Excellent", "Poor", "Small"], ans: 1 },
+    { chapter: 11, q: "The word 'cascading' is used for...", options: ["A fire", "A waterfall pouring downward rapidly", "A bird flying", "A flower blooming"], ans: 1 },
+    { chapter: 11, q: "What is the meaning of 'altitude'?", options: ["Depth", "Weight", "Height above sea level", "Speed"], ans: 2 },
+    { chapter: 11, q: "Find the synonym for 'fascinating'.", options: ["Boring", "Extremely interesting or attractive", "Ugly", "Tiring"], ans: 1 },
+    { chapter: 11, q: "The word 'mythology' relates to...", options: ["Modern science", "Ancient myths and religious stories", "Mathematics", "Computer programming"], ans: 1 },
+    { chapter: 11, q: "'The valley is covered with snow.' Identify the adjective.", options: ["Valley", "Covered", "Snow", "None. The sentence has no adjective, 'covered' is a participle acting as a verb here."], ans: 3 },
+    { chapter: 11, q: "'Hanuman lifted the mountain.' Change to passive voice.", options: ["The mountain is lifted by Hanuman.", "The mountain was lifted by Hanuman.", "The mountain has been lifted by Hanuman.", "The mountain will be lifted by Hanuman."], ans: 1 },
+    { chapter: 11, q: "Which word from the text means 'causing death'?", options: ["Vibrant", "Fatal / Fatally", "Endemic", "Splendid"], ans: 1 },
+
+          // --- ધોરણ 9 અંગ્રેજી (દ્વિતીય ભાષા) ---
+    // --- Chapter 12: Poems (All) ---
+
+    // ==========================================
+    // POEM 1: The River
+    // ==========================================
+    { chapter: 12, poem: "Poem 1: The River", q: "Who is the poet of the poem 'The River'?", options: ["William Wordsworth", "C.A. Bowles", "Douglas Malloch", "Walt Whitman"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "How does the little river sparkle?", options: ["Bright on its way", "In the dark", "Like a star", "Under the moon"], ans: 0 },
+    { chapter: 12, poem: "Poem 1: The River", q: "Over what does the little river dance?", options: ["Green grass", "Yellow pebbles", "Big rocks", "Sand"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "The little river glances through the...", options: ["Trees and bushes", "Mountains and valleys", "Flowers and foliage", "Cities and towns"], ans: 2 },
+    { chapter: 12, poem: "Poem 1: The River", q: "To whom is the 'little river' compared in the first stanza?", options: ["An old man", "A young youth", "A child at play", "A flying bird"], ans: 2 },
+    { chapter: 12, poem: "Poem 1: The River", q: "Which adjective is used for the river in the second stanza?", options: ["Little", "Swelling", "Brimming", "Headlong"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "The swelling river rushes through...", options: ["Rough and smooth", "Hot and cold", "Day and night", "Hills and plains"], ans: 0 },
+    { chapter: 12, poem: "Poem 1: The River", q: "How does the swelling river sound as it moves over the rocks?", options: ["Silent", "Brawling", "Singing", "Crying"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "The 'swelling river' is compared to...", options: ["A child", "Impetuous youth", "Mortal prime", "Eternity"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "What does the word 'impetuous' mean?", options: ["Slow and steady", "Acting quickly without thought / Rash", "Very old", "Peaceful"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "Which adjective is used for the river in the third stanza?", options: ["Swelling", "Headlong", "Brimming", "Little"], ans: 2 },
+    { chapter: 12, poem: "Poem 1: The River", q: "The brimming river is described as...", options: ["Narrow and shallow", "Broad and deep", "Fast and noisy", "Dry and empty"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "The brimming river seems still, yet it is...", options: ["Always sleeping", "Still in motion", "Completely stopped", "Drying up"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "The 'brimming river' is compared to...", options: ["Childhood", "Youth", "Mortal prime (Middle age)", "Death"], ans: 2 },
+    { chapter: 12, poem: "Poem 1: The River", q: "What is the 'headlong river' dashing into?", options: ["A lake", "The sea", "A waterfall", "A mountain"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "What has never been 'sounded' according to the poem?", options: ["The river's depth", "The sea's line", "The mountain's height", "The sky's limit"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "What has never been 'rounded'?", options: ["The earth", "The sea's sail", "The moon", "The river's bank"], ans: 1 },
+    { chapter: 12, poem: "Poem 1: The River", q: "The sea is compared to...", options: ["Eternity", "Mortal life", "Youth", "A deep forest"], ans: 0 },
+    { chapter: 12, poem: "Poem 1: The River", q: "What is the meaning of 'foliage'?", options: ["Stones", "Water", "Leaves of a plant or tree", "Fish"], ans: 2 },
+    { chapter: 12, poem: "Poem 1: The River", q: "In the poem, the stages of the river represent...", options: ["The seasons of the year", "The stages of human life", "The water cycle", "Different times of the day"], ans: 1 },
+
+    // ==========================================
+    // POEM 2: The Useful Plough
+    // ==========================================
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What kind of life is called 'sweet' in the poem?", options: ["A city life", "A country life", "A royal life", "A modern life"], ans: 1 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "A country life is sweet in...", options: ["Extreme cold", "Extreme heat", "Moderate cold and heat", "Rainy season"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "To walk in the town, people do not need...", options: ["To wear fine clothes", "To have money", "To know the streets", "To walk in the town"], ans: 0 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What wakes up the people in the morning in the country?", options: ["An alarm clock", "The traffic noise", "The singing of birds", "The factory siren"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "Which bird is mentioned as singing in the morning?", options: ["Crow", "Lark", "Eagle", "Parrot"], ans: 1 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "Another bird mentioned along with the lark is...", options: ["Linnet", "Pigeon", "Sparrow", "Peacock"], ans: 0 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What do the country people do when the birds sing?", options: ["They sleep more", "They rise to begin their work", "They start dancing", "They go to the town"], ans: 1 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "The poem says, 'They gather up their ______.'", options: ["Money", "Crops", "Flocks", "Clothes"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What is the central theme of 'The Useful Plough'?", options: ["The hardships of city life", "The beauty of the birds", "The simplicity and usefulness of a farmer's life", "How to build a plough"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What tool is considered the most useful and noble?", options: ["The sword", "The pen", "The useful plough", "The hammer"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "The farmer's life is free from...", options: ["Hard work", "Nature", "The worries and stress of city life", "Rain"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What does the plough represent?", options: ["Agriculture and hard work", "War and destruction", "Laziness", "Modern technology"], ans: 0 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "The word 'moderate' means...", options: ["Extreme", "Very high", "Not too much and not too little (Medium)", "Very cold"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "Who is the poet of 'The Useful Plough'?", options: ["William Shakespeare", "An Old Song (Anonymous)", "Rabindranath Tagore", "Ruskin Bond"], ans: 1 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "The country life is closely connected to...", options: ["Machines", "Nature", "Pollution", "Crowds"], ans: 1 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What does 'flocks' refer to?", options: ["Groups of birds or sheep", "Types of plants", "Farming tools", "Clouds"], ans: 0 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "The farmer goes to his field at...", options: ["Noon", "Sunset", "Dawn (early morning)", "Midnight"], ans: 2 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "Why is the plough called 'useful'?", options: ["Because it is expensive", "Because it provides food for everyone by tilling the land", "Because it can be used as a weapon", "Because it is heavy"], ans: 1 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "What does the poem teach us to appreciate?", options: ["City jobs", "The dignity of labor and agriculture", "Money", "Staying idle"], ans: 1 },
+    { chapter: 12, poem: "Poem 2: The Useful Plough", q: "A synonym for 'country' in this poem is...", options: ["Nation", "Rural area / Village", "City", "State"], ans: 1 },
+
+    // ==========================================
+    // POEM 3: Be the Best
+    // ==========================================
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "Who is the poet of 'Be the Best'?", options: ["Douglas Malloch", "C.A. Bowles", "Walt Whitman", "Robert Frost"], ans: 0 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "If you can't be a pine on the top of the hill, what should you be?", options: ["A mountain", "A scrub in the valley", "A river", "A cloud"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "Where should the scrub be?", options: ["On the top of the hill", "In the desert", "By the side of the rill", "In the city"], ans: 2 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "What must you be if you are a scrub?", options: ["The biggest tree", "The best little scrub", "A dry bush", "A tall pine"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "If you can't be a bush, what should you be?", options: ["A bit of the grass", "A large tree", "A flower", "A rock"], ans: 0 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "What does the 'bit of the grass' do?", options: ["It covers the whole world", "It makes some highway happier", "It stops the water", "It blocks the road"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "If you can't be a muskie, what should you be?", options: ["A whale", "A shark", "A bass", "A dolphin"], ans: 2 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "What kind of bass should you be?", options: ["The biggest bass", "The liveliest bass in the lake", "A lazy bass", "A sleeping bass"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "The poet says, 'We can't all be captains, we've got to be...'?", options: ["Generals", "Soldiers", "Crew", "Leaders"], ans: 2 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "Is there work for everyone according to the poet?", options: ["No, only for the smart ones", "Yes, there is something for all of us here", "Only for the big people", "Only for captains"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "There is big work to do and there's ______ to do.", options: ["Nothing", "Lesser", "Harder", "Impossible"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "If you can't be a highway, then just be a...", options: ["Street", "Bridge", "Trail", "Wall"], ans: 2 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "If you can't be the sun, what should you be?", options: ["The moon", "A star", "A cloud", "The sky"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "Does a person win or fail by their size?", options: ["Yes, bigger is always better", "No, it isn't by size that you win or you fail", "Yes, small people always fail", "Size is the only important thing"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "What is the central message of the poem 'Be the Best'?", options: ["Always try to be the biggest and most powerful", "Whatever role you have in life, do it the best you can", "Don't do anything if you are small", "Only captains are important"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "What is a 'rill'?", options: ["A tall mountain", "A small stream of water", "A big fish", "A type of tree"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "What are 'muskie' and 'bass'?", options: ["Types of trees", "Types of birds", "Types of fish", "Types of stars"], ans: 2 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "What does 'crew' mean?", options: ["The captain of the ship", "The people who work on a ship or aircraft", "The passengers", "The ocean"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "A 'trail' is a...", options: ["Wide highway", "Narrow path", "River", "Building"], ans: 1 },
+    { chapter: 12, poem: "Poem 3: Be the Best", q: "The poem teaches us the value of...", options: ["Arrogance", "Self-acceptance and giving our best effort", "Jealousy", "Laziness"], ans: 1 },
+
+    // ==========================================
+    // POEM 4: Saw the Sea
+    // ==========================================
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "Who is the poet of 'Saw the Sea'?", options: ["Anita Desai", "Kamala Das", "A traditional rhyme / Anonymous", "Sarojini Naidu"], ans: 2 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "What is the main subject of the poem 'Saw the Sea'?", options: ["The mountains", "The ocean / the sea", "A river", "A forest"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "How is the sea usually described in the poem?", options: ["Small and quiet", "Vast, deep and powerful", "Dry and empty", "Green and grassy"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "What do the waves of the sea do?", options: ["They stand still", "They crash against the shore continuously", "They fly in the sky", "They turn into ice"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "What sound is associated with the sea?", options: ["Chirping of birds", "Roaring of the waves", "Silence", "Honking of cars"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The sea water is...", options: ["Sweet and drinkable", "Salty", "Tasteless", "Sour"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "What can be found on the seashore?", options: ["Gold coins", "Shells and sand", "Apples", "Snow"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The poem creates a sense of ______ towards the sea.", options: ["Disgust", "Awe and wonder", "Boredom", "Anger"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "Which of the following creatures lives in the sea?", options: ["Lion", "Eagle", "Fish / Whale", "Elephant"], ans: 2 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The sea's horizon appears as...", options: ["A straight endless line where sky meets water", "A mountain peak", "A city skyline", "A deep hole"], ans: 0 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The movement of the sea is controlled by...", options: ["Human machines", "The moon and tides", "The fishes", "The ships"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "A synonym for 'vast' used for the sea is...", options: ["Tiny", "Immense / Huge", "Shallow", "Narrow"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "What do ships use the sea for?", options: ["Farming", "Transportation and trade", "Building houses", "Planting trees"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The sea is sometimes calm and sometimes...", options: ["Dry", "Stormy and rough", "Frozen", "Green"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "What color is the sea usually perceived as?", options: ["Red", "Blue or green", "Yellow", "Purple"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The poem highlights the sea's...", options: ["Weakness", "Beauty and majesty", "Ugliness", "Stillness"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "What happens to footprints on the sea sand?", options: ["They stay forever", "The waves wash them away", "They turn into rocks", "They become shells"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The sea breeze is usually...", options: ["Hot and dry", "Cool and salty", "Smoky", "Without any smell"], ans: 1 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "Which of the following words rhymes with 'sea'?", options: ["Shore", "Sand", "Me / Free", "Wave"], ans: 2 },
+    { chapter: 12, poem: "Poem 4: Saw the Sea", q: "The overall feeling of standing by the sea is often...", options: ["Stressful", "Peaceful and relaxing", "Terrifying", "Depressing"], ans: 1 }
+     
+     
+     ];
      
      
       
