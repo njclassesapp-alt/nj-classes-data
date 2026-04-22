@@ -316,7 +316,263 @@ njQuestionsDatabase = [
     { chapter: 5, q: "Which word in the passage means 'statues'?", options: ["Pillars", "Storeys", "Sculptures", "Pavilions"], ans: 2 },
     { chapter: 5, q: "Rani Ki Vaav is an excellent example of technological development for ______ of water.", options: ["Wastage", "Utilization (Use)", "Boiling", "Freezing"], ans: 1 },
 
-  
+      // --- ધોરણ 9 અંગ્રેજી (દ્વિતીય ભાષા) ---
+    // --- Chapter 6: The Night Train at Deoli ---
+
+    // --- Story and Plot based Questions ---
+    { chapter: 6, q: "Who is the author of the story 'The Night Train at Deoli'?", options: ["R.K. Narayan", "Ruskin Bond", "Rabindranath Tagore", "Munshi Premchand"], ans: 1 },
+    { chapter: 6, q: "Where did the narrator usually spend his summer vacation?", options: ["At his uncle's house in Delhi", "At his grandmother's place in Dehra", "In a hostel in Mumbai", "At a hill station in Shimla"], ans: 1 },
+    { chapter: 6, q: "How old was the narrator when this story happened?", options: ["Sixteen", "Eighteen", "Twenty", "Twenty-two"], ans: 1 },
+    { chapter: 6, q: "When did the narrator usually leave for Dehra?", options: ["Early in May", "Late in July", "In December", "In March"], ans: 0 },
+    { chapter: 6, q: "When did he usually return from Dehra?", options: ["Early in May", "Late in July", "In December", "In October"], ans: 1 },
+    { chapter: 6, q: "What was Deoli?", options: ["A big city", "A small station about 50 km from Dehra", "The narrator's hometown", "A river"], ans: 1 },
+    { chapter: 6, q: "At what time did the train usually reach Deoli?", options: ["At midnight", "About five in the morning", "At noon", "In the evening"], ans: 1 },
+    { chapter: 6, q: "Why did the narrator think the train stopped at Deoli?", options: ["To pick up many passengers", "To drop off luggage", "It just stopped, but nobody ever got down or got in", "To change the engine"], ans: 2 },
+    { chapter: 6, q: "How did the station of Deoli look in the morning?", options: ["Crowded and noisy", "Brightly lit and clean", "Dimly lit, lonely and deserted", "Full of shops"], ans: 2 },
+    { chapter: 6, q: "Who did the narrator see on the platform at Deoli during his first journey?", options: ["A ticket checker", "An old man selling tea", "A young girl selling baskets", "His friend"], ans: 2 },
+    { chapter: 6, q: "What was the girl selling?", options: ["Flowers", "Fruits", "Cane baskets", "Toys"], ans: 2 },
+    { chapter: 6, q: "How was the girl dressed?", options: ["In a rich silk saree", "In poor clothes and bare feet", "In a school uniform", "In a winter coat"], ans: 1 },
+    { chapter: 6, q: "Describe the physical appearance of the girl.", options: ["Pale skin, shiny black hair, and dark, searching eyes", "Dark skin and curly hair", "Fair skin and blue eyes", "Short hair and glasses"], ans: 0 },
+    { chapter: 6, q: "What happened when the girl came to the narrator's window?", options: ["She asked him for money", "She stood there looking at him intently, and he looked back", "She ignored him and walked away", "She shouted at him"], ans: 1 },
+    { chapter: 6, q: "Did the narrator want to buy a basket initially?", options: ["Yes, he really needed one", "No, but he bought one just to talk to her and touch her hand", "No, and he told her to go away", "He didn't have money to buy it"], ans: 1 },
+    { chapter: 6, q: "What happened when he took the basket from her?", options: ["The basket broke", "Their fingers touched and he felt a thrill", "She dropped the basket", "He gave it back to her"], ans: 1 },
+    { chapter: 6, q: "What forced the narrator to break his eye contact and go back into the compartment?", options: ["He was sleepy", "The girl asked him to leave", "The guard blew his whistle and the train started moving", "It started raining"], ans: 2 },
+    { chapter: 6, q: "What did the narrator do as the train left the station?", options: ["He went to sleep", "He read a book", "He stood at the door and watched her until she was lost in the distance", "He talked to another passenger"], ans: 2 },
+    { chapter: 6, q: "How long did the memory of the girl stay with him?", options: ["For an hour", "For the rest of the journey and the whole summer", "He forgot her immediately", "For a few days only"], ans: 1 },
+    { chapter: 6, q: "What did the narrator decide to do on his return journey?", options: ["He decided to sleep when the train reached Deoli", "He decided to look out of the window to see her again", "He decided to change his route", "He decided to buy more baskets"], ans: 1 },
+
+    // --- The Second Meeting ---
+    { chapter: 6, q: "Did the narrator see the girl on his return journey?", options: ["No, she was not there", "Yes, he saw her walking down the platform", "Yes, but she was selling tea", "He didn't look out"], ans: 1 },
+    { chapter: 6, q: "How did the girl react when she saw him the second time?", options: ["She ran away", "She smiled at him, pleased that he remembered her", "She started crying", "She didn't recognize him"], ans: 1 },
+    { chapter: 6, q: "What did the narrator feel an impulse to do?", options: ["To pull her into the compartment and take her with him", "To buy all her baskets", "To give her a lot of money", "To jump out of the train and stay there"], ans: 0 },
+    { chapter: 6, q: "Did the narrator take the girl with him?", options: ["Yes", "No, he just caught her hand and held it", "No, she refused to come", "He didn't even talk to her"], ans: 1 },
+    { chapter: 6, q: "What did the narrator promise the girl?", options: ["I will send you money", "I will marry you", "I have to go to Delhi, but I will come again", "I will buy a basket next time"], ans: 2 },
+    { chapter: 6, q: "How did the girl respond to his promise?", options: ["She said, 'I do not have to go anywhere.' and nodded.", "She said, 'Please don't come.'", "She asked for money", "She started crying loudly"], ans: 0 },
+    { chapter: 6, q: "What did the narrator's grandmother notice when he reached Dehra?", options: ["He was very happy", "He was carrying a cane basket", "He was very sad and distracted", "He had lost his luggage"], ans: 2 },
+
+    // --- The Disappointment and Conclusion ---
+    { chapter: 6, q: "What did the narrator do when he was going to Dehra the next year?", options: ["He slept through Deoli", "He eagerly looked out for the girl, but she was not there", "He found the girl and talked to her", "He got down at Deoli and stayed there"], ans: 1 },
+    { chapter: 6, q: "How did he feel when he didn't see the girl on the platform?", options: ["Happy", "Relieved", "Deeply disappointed and a pang of anxiety", "Angry"], ans: 2 },
+    { chapter: 6, q: "Who did the narrator ask about the girl?", options: ["The tea seller", "A police officer", "The new station master", "The guard of the train"], ans: 2 },
+    { chapter: 6, q: "What did the station master reply?", options: ["She has gone to another city", "She got married", "I don't know her, she has stopped coming", "She is sick"], ans: 2 },
+    { chapter: 6, q: "Why did the narrator never break his journey at Deoli?", options: ["He didn't have time", "He was afraid of discovering some harsh reality about the girl", "His grandmother was waiting", "The station was too small"], ans: 1 },
+    { chapter: 6, q: "What did he prefer to do instead of finding the truth?", options: ["He preferred to forget her", "He preferred to keep hoping and dreaming of seeing her again", "He decided to write a letter", "He decided to send someone else to find her"], ans: 1 },
+    { chapter: 6, q: "Does the narrator still pass through Deoli?", options: ["No, he changed his route", "Yes, he has passed through many times", "Only once a year", "He never travels by train now"], ans: 1 },
+    { chapter: 6, q: "What does the narrator always do when the train crosses Deoli?", options: ["He sleeps", "He reads a book", "He looks out of the window to see the same unchanged face smiling at him", "He closes the window"], ans: 2 },
+    { chapter: 6, q: "What is the tone of the story 'The Night Train at Deoli'?", options: ["Horror and suspense", "Comedy and fun", "Nostalgic, romantic, and slightly melancholic", "Action and adventure"], ans: 2 },
+
+    // --- Vocabulary and Grammar ---
+    { chapter: 6, q: "The word 'deserted' means...", options: ["A sweet dish", "Empty of people; abandoned", "Full of sand", "Crowded"], ans: 1 },
+    { chapter: 6, q: "What is the meaning of 'fascinated'?", options: ["Bored", "Angry", "Strongly attracted and interested", "Scared"], ans: 2 },
+    { chapter: 6, q: "Find the synonym for 'intently'.", options: ["Carelessly", "With earnest and eager attention", "Slowly", "Loudly"], ans: 1 },
+    { chapter: 6, q: "The word 'impulse' means...", options: ["A slow decision", "A sudden strong and unreflective urge or desire to act", "A type of disease", "A planned action"], ans: 1 },
+    { chapter: 6, q: "What does 'pleading' mean?", options: ["Laughing loudly", "Making an emotional or earnest appeal (begging)", "Running fast", "Sleeping deeply"], ans: 1 },
+    { chapter: 6, q: "The word 'hesitated' means...", options: ["Acted very quickly", "Paused before doing or saying something due to uncertainty", "Shouted loudly", "Smiled warmly"], ans: 1 },
+    { chapter: 6, q: "What is the meaning of 'panting'?", options: ["Painting a picture", "Breathing with short, quick breaths; out of breath", "Walking slowly", "Singing a song"], ans: 1 },
+    { chapter: 6, q: "The word 'nodded' means...", options: ["Moved the head up and down to show agreement", "Shook the head to say no", "Turned the head away", "Closed the eyes"], ans: 0 },
+    { chapter: 6, q: "What does 'grasped' mean?", options: ["Let go", "Held firmly", "Looked at", "Threw away"], ans: 1 },
+    { chapter: 6, q: "A 'blur' is...", options: ["A clear picture", "A loud sound", "Something that cannot be seen clearly", "A sharp pain"], ans: 2 },
+    { chapter: 6, q: "Find the opposite of the word 'faint'.", options: ["Weak", "Loud / Strong / Clear", "Dull", "Dark"], ans: 1 },
+    { chapter: 6, q: "Find the opposite of 'pale'.", options: ["White", "Bright / Dark / Rosy", "Sick", "Weak"], ans: 1 },
+    { chapter: 6, q: "The narrator felt a ______ of anxiety when he didn't see the girl.", options: ["pang", "joy", "smile", "laugh"], ans: 0 },
+    { chapter: 6, q: "'I have to go to Delhi,' I said. (Change into Indirect Speech)", options: ["I said that I have to go to Delhi.", "I said that I had to go to Delhi.", "I told that I have to go to Delhi.", "I said that he had to go to Delhi."], ans: 1 },
+
+          // --- ધોરણ 9 અંગ્રેજી (દ્વિતીય ભાષા) ---
+    // --- Chapter 7: Adolescents Speak ---
+
+    // --- Conference Details and Jignesh's Problem ---
+    { chapter: 7, q: "What is the title of Chapter 7?", options: ["Teenagers' Problems", "Adolescents Speak", "Youth Conference", "The Right Choice"], ans: 1 },
+    { chapter: 7, q: "Who organized the video conference?", options: ["The Youth Club, Ahmedabad", "A school in Delhi", "The Government of Gujarat", "Lions Club"], ans: 0 },
+    { chapter: 7, q: "What was the subject of the video conference?", options: ["How to study well", "What's the way out?", "Career guidance", "Health and fitness"], ans: 1 },
+    { chapter: 7, q: "Who was the anchor of the video conference?", options: ["Mr. Bakshi", "Dr. Mackwana", "Anandkumar", "Jignesh"], ans: 2 },
+    { chapter: 7, q: "Who were the experts invited to the conference?", options: ["Mr. Anandkumar and Dr. Shah", "Dr. Chandrakant Mackwana and Mr. Saurabh Bakshi", "Two famous teachers", "Two students"], ans: 1 },
+    { chapter: 7, q: "What is the profession of Dr. Mackwana and Mr. Bakshi in the chapter?", options: ["Teachers", "Doctors / Counsellors", "Engineers", "Politicians"], ans: 1 },
+    { chapter: 7, q: "Who asked the first question in the conference?", options: ["Dilshad", "Antim", "Harish", "Jignesh"], ans: 3 },
+    { chapter: 7, q: "How old is Jignesh?", options: ["14 years", "15 years", "16 years", "18 years"], ans: 1 },
+    { chapter: 7, q: "What was Jignesh's main problem?", options: ["Lack of money", "Lack of self-confidence", "He was weak in studies", "He had no friends"], ans: 1 },
+    { chapter: 7, q: "According to Jignesh, his lack of self-confidence leads him to...", options: ["Anger", "Happiness", "Indecision", "Success"], ans: 2 },
+    { chapter: 7, q: "What does Jignesh usually make to organize his studies?", options: ["A list of books", "A timetable", "A mind map", "A diary"], ans: 1 },
+    { chapter: 7, q: "For how many days does Jignesh usually plan his timetable?", options: ["For a day", "For a week", "For a month or months in advance", "For a year"], ans: 2 },
+    { chapter: 7, q: "Does Jignesh follow his timetable?", options: ["Yes, strictly", "No, he can't follow it even for a couple of days", "Sometimes", "He follows it for a week"], ans: 1 },
+    { chapter: 7, q: "How does Jignesh feel when he fails to follow his timetable?", options: ["Happy", "Frustrated", "Excited", "Relaxed"], ans: 1 },
+    { chapter: 7, q: "Who answered Jignesh's question?", options: ["Mr. Bakshi", "Dr. Mackwana", "Anandkumar", "Dilshad"], ans: 0 },
+    { chapter: 7, q: "What advice did Mr. Bakshi give to Jignesh regarding planning?", options: ["Plan for a year", "Plan for a month", "Plan only for one day and try to follow it", "Do not make any plans"], ans: 2 },
+    { chapter: 7, q: "According to Mr. Bakshi, doing things systematically will build Jignesh's...", options: ["Anger", "Confidence", "Fear", "Laziness"], ans: 1 },
+    { chapter: 7, q: "Mr. Bakshi advised Jignesh: 'Don't set such a difficult ______ for yourself.'", options: ["Goal", "Timetable", "Task", "Exam"], ans: 0 },
+
+    // --- Dilshad's Problem ---
+    { chapter: 7, q: "Who asked the second question?", options: ["Jignesh", "Harish", "Dilshad", "Antim"], ans: 2 },
+    { chapter: 7, q: "Where does Dilshad live?", options: ["Ahmedabad", "Rapar", "Rajkot", "Surat"], ans: 1 },
+    { chapter: 7, q: "What was Dilshad's problem?", options: ["She had poor eyesight", "She had pimples on her face", "She was overweight", "She had a headache"], ans: 1 },
+    { chapter: 7, q: "What had Dilshad applied to her face before seeking advice?", options: ["Nothing", "Only water", "Various creams", "Turmeric"], ans: 2 },
+    { chapter: 7, q: "Did the creams help Dilshad get rid of her pimples?", options: ["Yes, completely", "Yes, a little bit", "No, nothing has worked", "She didn't mention it"], ans: 2 },
+    { chapter: 7, q: "Who answered Dilshad's question?", options: ["Mr. Bakshi", "Dr. Mackwana", "Anandkumar", "Jignesh"], ans: 1 },
+    { chapter: 7, q: "What did Dr. Mackwana say about pimples?", options: ["They are rare", "They are a serious disease", "Pimples are common at this age", "They will never go away"], ans: 2 },
+    { chapter: 7, q: "Dr. Mackwana advised Dilshad not to get...", options: ["Stressed", "Happy", "Excited", "Sleepy"], ans: 0 },
+    { chapter: 7, q: "Whom did Dr. Mackwana suggest Dilshad should consult?", options: ["A general doctor", "A skin specialist (Dermatologist)", "A dentist", "A psychiatrist"], ans: 1 },
+    { chapter: 7, q: "Dr. Mackwana told Dilshad not to apply creams blindly because...", options: ["They are expensive", "They may harm the skin / worsen the problem", "They smell bad", "They are fake"], ans: 1 },
+
+    // --- Antim's Question ---
+    { chapter: 7, q: "Who was the next caller after Dilshad?", options: ["Harish", "Antim", "Jignesh", "Rohan"], ans: 1 },
+    { chapter: 7, q: "Where does Antim live?", options: ["Ahmedabad", "Kavitha", "Rapar", "Delhi"], ans: 1 },
+    { chapter: 7, q: "What did Antim want to know?", options: ["If he could donate blood", "If he could join the army", "How to study better", "How to get rid of pimples"], ans: 0 },
+    { chapter: 7, q: "How old was Antim?", options: ["14", "15", "18", "21"], ans: 1 },
+    { chapter: 7, q: "What did Dr. Mackwana reply to Antim's question?", options: ["Yes, you can", "No, you cannot", "Only your parents can", "Maybe later"], ans: 1 },
+    { chapter: 7, q: "Why could Antim not donate blood?", options: ["Because he was sick", "Because he was underweight", "Because he was under 18 years of age", "Because he was too old"], ans: 2 },
+
+    // --- Harish's Problem ---
+    { chapter: 7, q: "Who asked the last question in the conference?", options: ["Jignesh", "Antim", "Dilshad", "Harish"], ans: 3 },
+    { chapter: 7, q: "What bad habit did Harish have?", options: ["Smoking", "Drinking alcohol", "Chewing gutkha", "Biting nails"], ans: 2 },
+    { chapter: 7, q: "What was the physical consequence of Harish's habit?", options: ["His hair fell out", "His teeth were spoiled", "He lost his eyesight", "He gained weight"], ans: 1 },
+    { chapter: 7, q: "How did Harish feel without gutkha?", options: ["Happy", "Relaxed", "Restless", "Energetic"], ans: 2 },
+    { chapter: 7, q: "Why did Harish start chewing gutkha?", options: ["Because he liked the taste", "Because his parents chewed it", "Due to peer pressure (company of friends)", "To pass an exam"], ans: 2 },
+    { chapter: 7, q: "Who answered Harish's question?", options: ["Dr. Mackwana", "Mr. Bakshi", "Both of them", "Anandkumar"], ans: 1 },
+    { chapter: 7, q: "What did Mr. Bakshi suggest Harish to do to get rid of the habit?", options: ["To chew gum instead", "To occupy himself in different activities and hobbies", "To sleep all day", "To stop talking to people"], ans: 1 },
+    { chapter: 7, q: "Which of the following activities was NOT suggested by Mr. Bakshi?", options: ["Reading good books", "Playing sports", "Listening to music", "Watching television all day"], ans: 3 },
+    { chapter: 7, q: "According to Mr. Bakshi, what is the basic condition for leaving any bad habit?", options: ["Money", "Firm determination", "Medicine", "Punishment"], ans: 1 },
+
+    // --- Vocabulary and Grammar ---
+    { chapter: 7, q: "What does the word 'adolescent' mean?", options: ["A small child", "An old person", "A teenager (a young person developing into an adult)", "An infant"], ans: 2 },
+    { chapter: 7, q: "The phrase 'way out' in the title 'What's the way out?' means...", options: ["A door", "An exit sign", "A solution to a problem", "A long journey"], ans: 2 },
+    { chapter: 7, q: "What is the meaning of 'frustrated'?", options: ["Happy and satisfied", "Feeling annoyed or disappointed because you cannot achieve what you want", "Excited", "Scared"], ans: 1 },
+    { chapter: 7, q: "Find the synonym for 'confidence'.", options: ["Doubt", "Fear", "Self-assurance / Belief in oneself", "Anger"], ans: 2 },
+    { chapter: 7, q: "The phrase 'get rid of' means...", options: ["To buy something", "To become free of something or eliminate it", "To keep something safe", "To find something"], ans: 1 },
+    { chapter: 7, q: "A 'dermatologist' is a doctor who treats...", options: ["Heart problems", "Toothaches", "Skin problems", "Eye problems"], ans: 2 },
+    { chapter: 7, q: "What does 'restless' mean?", options: ["Sleeping peacefully", "Unable to stay still or quiet because of anxiety or boredom", "Very tired", "Lazy"], ans: 1 },
+    { chapter: 7, q: "Find the synonym for 'determination'.", options: ["Weakness", "Firmness of purpose / Resolve", "Confusion", "Fear"], ans: 1 },
+    { chapter: 7, q: "'Pimples are common at this age.' - Change into negative.", options: ["Pimples are not common at this age.", "Pimples are uncommon at this age.", "Are pimples common at this age?", "Pimples are not uncommon at this age."], ans: 0 },
+    { chapter: 7, q: "Identify the modal verb indicating ability: 'You can donate blood after you turn 18.'", options: ["Donate", "Blood", "Can", "Turn"], ans: 2 },
+
+          // --- ધોરણ 9 અંગ્રેજી (દ્વિતીય ભાષા) ---
+    // --- Chapter 8: A Day in the Life of an Indian Fighter Pilot ---
+
+    // --- Morning Routine and Planning ---
+    { chapter: 8, q: "What is the title of Chapter 8?", options: ["The Magic Thread", "A Day in the Life of an Indian Fighter Pilot", "Friend from the Sky", "Ecology for Peace"], ans: 1 },
+    { chapter: 8, q: "At what time does the story of the fighter pilot begin?", options: ["4:00 a.m.", "5:00 a.m.", "6:00 a.m.", "7:00 a.m."], ans: 1 },
+    { chapter: 8, q: "Who is the main character (the fighter pilot) in this chapter?", options: ["Wing Commander K.S. Suresh", "Squadron Leader Tyagi", "Flight Lieutenant Rohan", "Air Chief Marshal"], ans: 0 },
+    { chapter: 8, q: "What is the nickname (call sign) of Wing Commander K.S. Suresh?", options: ["Tyags", "Kukki", "Speedy", "Hawk"], ans: 1 },
+    { chapter: 8, q: "At 5:20 a.m., where is Kukki?", options: ["In his bedroom", "In the canteen", "In a flight planning room", "Inside his fighter jet"], ans: 2 },
+    { chapter: 8, q: "Who is Kukki's wingman for the mission?", options: ["Squadron Leader Tyagi", "Mr. Bakshi", "Commander Singh", "Officer Sharma"], ans: 0 },
+    { chapter: 8, q: "What is the nickname of Squadron Leader Tyagi?", options: ["Kukki", "Tiger", "Tyags", "Tom"], ans: 2 },
+    { chapter: 8, q: "What is the specific mission for Kukki and Tyags on that day?", options: ["To drop food packets", "To practice air-to-air combat", "To attack a bridge (a mock ground target)", "To test a new airplane"], ans: 2 },
+    { chapter: 8, q: "At what time is the target (the bridge) to be attacked?", options: ["6:00 a.m.", "6:45 a.m.", "7:00 a.m.", "7:15 a.m."], ans: 2 },
+    { chapter: 8, q: "What is the name of the fighter jet they are going to fly?", options: ["Sukhoi Su-30", "MiG-21 bis", "Dassault Rafale", "Mirage 2000"], ans: 1 },
+    { chapter: 8, q: "According to the chapter, flight planning is what percentage of the task?", options: ["5%", "50%", "95%", "100%"], ans: 2 },
+    { chapter: 8, q: "If flight planning is 95% of the task, what percentage is actual flying?", options: ["5%", "50%", "95%", "10%"], ans: 0 },
+    { chapter: 8, q: "What details are discussed in the flight planning room?", options: ["Only the speed of the plane", "Target, weather, visibility, and tactics", "What to eat for breakfast", "How to clean the plane"], ans: 1 },
+    { chapter: 8, q: "What does Kukki order while reviewing the flight plan?", options: ["A cup of tea", "A glass of milk", "A sandwich", "Coffee"], ans: 0 },
+
+    // --- Pre-flight Preparations and Gear ---
+    { chapter: 8, q: "Where do Kukki and Tyags go after the briefing?", options: ["To the runway", "To the locker room to gear up", "To the canteen", "To their homes"], ans: 1 },
+    { chapter: 8, q: "What special suit do the fighter pilots wear?", options: ["A spacesuit", "A diving suit", "A G-suit", "A formal suit"], ans: 2 },
+    { chapter: 8, q: "What is the full form of 'G' in G-suit?", options: ["Gravity", "Ground", "Guard", "Gear"], ans: 0 },
+    { chapter: 8, q: "What is the purpose of the Anti-G suit?", options: ["To keep the pilot warm", "To prevent blood from pooling in the legs during high-speed turns", "To help the pilot swim if the plane crashes in water", "To make the pilot look good"], ans: 1 },
+    { chapter: 8, q: "What happens if a pilot does not wear a G-suit during high-G maneuvers?", options: ["He will feel very cold", "He might black out (lose consciousness)", "The plane will not fly", "He will get a headache"], ans: 1 },
+    { chapter: 8, q: "Who hands Kukki his helmet with an oxygen mask and headset?", options: ["Tyags", "The air traffic controller", "The ground crew chief", "The base commander"], ans: 2 },
+    { chapter: 8, q: "What does Kukki do before climbing into the cockpit?", options: ["He takes a nap", "He walks around the aircraft to check for leaks or loose pins", "He calls his family", "He eats breakfast"], ans: 1 },
+    { chapter: 8, q: "From whom does Kukki sign the form certifying that the plane is fit to fly?", options: ["The flight engineer / mechanic", "The chief of air staff", "Tyags", "The control tower"], ans: 0 },
+    { chapter: 8, q: "What does Kukki say to the control tower when he is ready?", options: ["Ready to fly", "Ready to taxi", "Engine on", "Let's go"], ans: 1 },
+
+    // --- The Flight and The Attack ---
+    { chapter: 8, q: "At what time do the two MiG-21s take off?", options: ["6:00 a.m.", "6:30 a.m.", "6:45 a.m.", "7:00 a.m."], ans: 2 },
+    { chapter: 8, q: "Who takes off first?", options: ["Tyags", "Kukki", "They take off exactly at the same time", "Another pilot"], ans: 1 },
+    { chapter: 8, q: "At what height do they initially fly to avoid enemy radar?", options: ["10,000 meters", "5,000 meters", "Very low, about 50 meters above the ground", "They fly in the clouds"], ans: 2 },
+    { chapter: 8, q: "Why is flying at a low altitude of 50 meters dangerous?", options: ["Because of birds", "Because of tall trees and hills", "Because the plane consumes more fuel", "Because there is a risk of hitting birds or tall objects"], ans: 3 },
+    { chapter: 8, q: "At 6:55 a.m., they reach the 'IP'. What does 'IP' stand for?", options: ["Important Point", "Initial Point", "Internal Part", "Indian Post"], ans: 1 },
+    { chapter: 8, q: "What does Kukki do when they reach the Initial Point?", options: ["He turns back", "He increases his speed and turns towards the target", "He drops the bombs", "He contacts the enemy"], ans: 1 },
+    { chapter: 8, q: "At what distance does Kukki spot the target (the bridge)?", options: ["1 km away", "5 km away", "9 km away", "20 km away"], ans: 2 },
+    { chapter: 8, q: "At what distance does Kukki press the button to 'fire'?", options: ["9 km", "8 km", "5 km", "1 km"], ans: 1 },
+    { chapter: 8, q: "Does Kukki fire real bombs at the bridge?", options: ["Yes, he destroys it", "No, it is a practice mission, so he uses an electronic simulation (camera)", "Yes, but he misses", "No, he forgot to load them"], ans: 1 },
+    { chapter: 8, q: "What evasive maneuver does Kukki perform immediately after firing?", options: ["He flies straight", "He pulls the plane up sharply and turns hard to avoid anti-aircraft fire", "He lands the plane", "He slows down"], ans: 1 },
+    { chapter: 8, q: "What physical sensation does Kukki experience during the sharp pull-up (high-G turn)?", options: ["His vision blurs momentarily (greyout)", "He feels very light", "He falls asleep", "He feels hungry"], ans: 0 },
+    { chapter: 8, q: "At what time do Kukki and Tyags return and land safely at the base?", options: ["7:00 a.m.", "7:15 a.m.", "8:00 a.m.", "9:00 a.m."], ans: 1 },
+
+    // --- Post-flight Activities ---
+    { chapter: 8, q: "What is the first thing they do after landing?", options: ["They go to sleep", "They have breakfast", "They go for a debriefing (report) to the commander", "They call their families"], ans: 2 },
+    { chapter: 8, q: "What does the camera film show during the debriefing?", options: ["That they missed the target", "That Kukki's aim was perfect", "That the plane was damaged", "That they flew too high"], ans: 1 },
+    { chapter: 8, q: "What do the pilots do after the successful debriefing?", options: ["They go home", "They head to the mess for a heavy breakfast", "They fly again immediately", "They clean the airplanes"], ans: 1 },
+    { chapter: 8, q: "What does Kukki do for the rest of the day until the evening?", options: ["He sleeps all day", "He does paperwork, plans the next flight, and visits other squadrons", "He watches TV", "He goes to the city"], ans: 1 },
+    { chapter: 8, q: "When is Kukki's next scheduled flight on that day?", options: ["There is no other flight", "At noon", "In the evening (a night sortie)", "The next morning"], ans: 2 },
+
+    // --- Vocabulary and Grammar ---
+    { chapter: 8, q: "The word 'briefing' means...", options: ["A long speech", "Giving instructions or essential information before a mission", "A type of clothing", "A meal"], ans: 1 },
+    { chapter: 8, q: "What does 'visibility' refer to in aviation?", options: ["The color of the sky", "How far one can see clearly in the weather conditions", "The size of the airplane", "The speed of the wind"], ans: 1 },
+    { chapter: 8, q: "Find the synonym for 'evade'.", options: ["To attack", "To catch", "To escape or avoid", "To stop"], ans: 2 },
+    { chapter: 8, q: "The word 'maneuver' means...", options: ["A planned and controlled movement or turn of a vehicle", "A type of engine", "A weapon", "A runway"], ans: 0 },
+    { chapter: 8, q: "What does 'mock' mean in the context of 'mock target'?", options: ["Real", "Practice or simulated (not real)", "Dangerous", "Moving"], ans: 1 },
+    { chapter: 8, q: "The phrase 'take off' means...", options: ["To remove clothes", "To land on the ground", "To leave the ground and begin to fly", "To stop the engine"], ans: 2 },
+    { chapter: 8, q: "Find the antonym of 'accelerate'.", options: ["Speed up", "Decelerate / Slow down", "Stop", "Turn"], ans: 1 },
+    { chapter: 8, q: "Identify the tense: 'The planes are flying at a low altitude.'", options: ["Simple Present", "Present Continuous", "Present Perfect", "Simple Past"], ans: 1 },
+    { chapter: 8, q: "'Kukki pressed the button.' Change to passive voice.", options: ["The button is pressed by Kukki.", "The button was pressed by Kukki.", "The button has been pressed by Kukki.", "The button will be pressed by Kukki."], ans: 1 },
+
+          // --- ધોરણ 9 અંગ્રેજી (દ્વિતીય ભાષા) ---
+    // --- Chapter 9: Friend from the Sky ---
+
+    // --- Reshma's Condition and the Balcony Scene ---
+    { chapter: 9, q: "What is the title of Chapter 9?", options: ["The Magic Bird", "Friend from the Sky", "The Beautiful Lake", "Reshma's Dream"], ans: 1 },
+    { chapter: 9, q: "Who is the main character in this story?", options: ["Pooja", "Sonia", "Reshma", "Anjali"], ans: 2 },
+    { chapter: 9, q: "Where was Reshma sitting at the beginning of the story?", options: ["In the park", "In her bedroom", "In the balcony of her flat on the first floor", "On the terrace"], ans: 2 },
+    { chapter: 9, q: "What was Reshma looking at from the balcony?", options: ["The traffic on the road", "The birds flying in the sky", "The children playing in the park", "The setting sun"], ans: 2 },
+    { chapter: 9, q: "What game were the children playing in the park?", options: ["Cricket", "Football", "Catching a ball", "Hide and seek"], ans: 2 },
+    { chapter: 9, q: "How was the weather that evening?", options: ["It was raining heavily", "There was a cool breeze and it was quite windy", "It was very hot", "It was snowing"], ans: 1 },
+    { chapter: 9, q: "Why did Reshma's mother ask her to come inside?", options: ["Because it was raining", "Because it was too windy and she might catch a cold", "Because it was dinner time", "Because she had to study"], ans: 1 },
+    { chapter: 9, q: "How old was Reshma?", options: ["Eight years old", "Ten years old", "Twelve years old", "Fourteen years old"], ans: 1 },
+    { chapter: 9, q: "Why could Reshma not go down and play with the children?", options: ["She was lazy", "She had broken her leg", "She was a spastic", "She didn't like playing"], ans: 2 },
+    { chapter: 9, q: "What is a 'spastic' person?", options: ["A person who cannot see", "A person who has no control over their hands and legs from birth", "A person who cannot hear", "A person who is very intelligent"], ans: 1 },
+    { chapter: 9, q: "Which of the following things could Reshma NOT do?", options: ["Walk", "Button up her shirt", "Hold things properly", "All of the above"], ans: 3 },
+    { chapter: 9, q: "What had Reshma learnt to use for eating?", options: ["A fork", "A spoon", "Chopsticks", "Her bare hands"], ans: 1 },
+    { chapter: 9, q: "What did Reshma use to move around the house?", options: ["Crutches", "A wheelchair", "A walker", "A stick"], ans: 1 },
+    { chapter: 9, q: "How did Reshma feel when she watched the children play?", options: ["She felt very happy", "She felt angry at them", "She felt lonely", "She felt scared"], ans: 2 },
+
+    // --- The Arrival of the Bird ---
+    { chapter: 9, q: "What suddenly happened while Reshma was looking at the children?", options: ["The ball hit her", "A strong wind blew her away", "A bird fluttered and fell into her lap", "It started raining"], ans: 2 },
+    { chapter: 9, q: "How did Reshma react when the bird fell into her lap?", options: ["She screamed and pushed it away", "She was startled but tried to hold it gently", "She started crying", "She threw it down"], ans: 1 },
+    { chapter: 9, q: "What kind of bird was it?", options: ["A parrot", "A pigeon", "A duck (a shoveller)", "An eagle"], ans: 2 },
+    { chapter: 9, q: "Why did Reshma's mother say it was a 'stranger'?", options: ["Because they had never seen a bird", "Because it was an exotic bird from cold regions, not a local bird", "Because it looked like a monster", "Because it was invisible"], ans: 1 },
+    { chapter: 9, q: "Where do shovellers migrate from during the winter?", options: ["From Africa", "From the cold regions of Russia", "From Australia", "From South America"], ans: 1 },
+    { chapter: 9, q: "Why did the bird fall into Reshma's balcony?", options: ["It wanted to play with her", "It was shot by a hunter", "It lost its way due to the strong wind and was exhausted", "It was hungry"], ans: 2 },
+    { chapter: 9, q: "What was the physical condition of the bird when it arrived?", options: ["It was very energetic", "It was completely exhausted and lifeless", "It was singing loudly", "It was very hungry and eating everything"], ans: 1 },
+
+    // --- Caring for Mitra ---
+    { chapter: 9, q: "Who helped Reshma to hold and care for the bird?", options: ["Her father", "Her brother", "Her mother", "The doctor"], ans: 2 },
+    { chapter: 9, q: "What did they use to feed water to the bird initially?", options: ["A spoon", "A glass", "An ink filler (dropper)", "A cup"], ans: 2 },
+    { chapter: 9, q: "What solid food did they prepare for the bird?", options: ["Bread and butter", "Mashed rice with milk and sugar", "Only seeds", "Vegetables"], ans: 1 },
+    { chapter: 9, q: "Who knocked at the door while Reshma and her mother were feeding the bird?", options: ["The postman", "Reshma's father", "The neighbourhood children", "The doctor"], ans: 2 },
+    { chapter: 9, q: "Why did the children come to Reshma's house?", options: ["To complain about her", "They had seen the bird fall and came to see it", "To ask for their ball", "To play video games"], ans: 1 },
+    { chapter: 9, q: "What name did Reshma give to the bird?", options: ["Kalu", "Mitra (Friend)", "Snowy", "Chintu"], ans: 1 },
+    { chapter: 9, q: "Where was Mitra (the bird) kept to sleep at night?", options: ["In a cage", "On the bed", "In a basket filled with grass", "On the table"], ans: 2 },
+    { chapter: 9, q: "What did Mitra do the next morning?", options: ["He died", "He woke up and chirped (quacked)", "He flew away immediately", "He bit Reshma"], ans: 1 },
+    { chapter: 9, q: "Did the children come to see Mitra again?", options: ["No, they forgot about him", "Yes, they came the very next afternoon", "Only after a month", "They never came back"], ans: 1 },
+    { chapter: 9, q: "How did the presence of the bird and the children change Reshma's life?", options: ["She became sad", "She got angry at the noise", "She became happy and forgot her loneliness", "She stopped talking to her parents"], ans: 2 },
+    { chapter: 9, q: "For how many days did Mitra stay with Reshma and the children?", options: ["One day", "A few days", "A whole year", "A month"], ans: 1 },
+    { chapter: 9, q: "What happened to Mitra after a few days of care?", options: ["He became sick", "He became plump, strong and energetic", "He refused to eat", "He lost his feathers"], ans: 1 },
+
+    // --- Releasing Mitra and Conclusion ---
+    { chapter: 9, q: "Where did Reshma's family and the children decide to take Mitra?", options: ["To a zoo", "To a hospital", "To a nearby lake", "To a forest"], ans: 2 },
+    { chapter: 9, q: "How did Reshma go to the lake?", options: ["She walked", "Her father carried her", "She went in her wheelchair, pushed by the children", "She stayed at home"], ans: 2 },
+    { chapter: 9, q: "What did Reshma do before releasing Mitra?", options: ["She tied a string to his leg", "She held him affectionately in her lap for the last time", "She cried loudly and didn't let him go", "She painted his wings"], ans: 1 },
+    { chapter: 9, q: "What did Mitra do when he was placed in the lake water?", options: ["He sank", "He shook his wings, flapped them and swam away", "He attacked the other ducks", "He came back to the wheelchair"], ans: 1 },
+    { chapter: 9, q: "How did the children feel when Mitra swam away?", options: ["They were angry", "They felt a mix of joy and sadness", "They were completely unaffected", "They started fighting"], ans: 1 },
+    { chapter: 9, q: "What did the children do after Mitra left?", options: ["They stopped talking to Reshma", "They realized Reshma was a good friend and continued to visit and play with her", "They bought another bird", "They never went to the park again"], ans: 1 },
+    { chapter: 9, q: "In the end, what did Reshma gain from this experience?", options: ["A pet bird", "Human friends and a happy life", "A new wheelchair", "A lot of money"], ans: 1 },
+
+    // --- Vocabulary and Grammar ---
+    { chapter: 9, q: "The word 'exhausted' means...", options: ["Very happy", "Very tired or completely drained of energy", "Angry", "Hungry"], ans: 1 },
+    { chapter: 9, q: "What does 'fluttered' mean?", options: ["Slept deeply", "Flapped the wings lightly and rapidly", "Ran fast", "Swam in water"], ans: 1 },
+    { chapter: 9, q: "Find the synonym for 'breeze'.", options: ["A violent storm", "A gentle wind", "Heavy rain", "Hot sun"], ans: 1 },
+    { chapter: 9, q: "The word 'plump' means...", options: ["Very thin", "Chubby or slightly fat (in a healthy way)", "Tall", "Sick"], ans: 1 },
+    { chapter: 9, q: "What is the meaning of 'startled'?", options: ["Suddenly surprised or frightened", "Feeling sleepy", "Feeling hungry", "Laughing"], ans: 0 },
+    { chapter: 9, q: "A 'shoveller' is a type of...", options: ["Eagle", "Duck", "Parrot", "Peacock"], ans: 1 },
+    { chapter: 9, q: "Find the antonym of 'lonely'.", options: ["Alone", "Sad", "Accompanied / Surrounded by friends", "Quiet"], ans: 2 },
+    { chapter: 9, q: "'The bird fell into her lap.' Identify the preposition.", options: ["Bird", "Fell", "Into", "Lap"], ans: 2 },
+    { chapter: 9, q: "'Reshma was watching the children.' Identify the tense.", options: ["Simple Past", "Past Continuous", "Present Continuous", "Past Perfect"], ans: 1 },
+    { chapter: 9, q: "'The children pushed the wheelchair.' Change to passive voice.", options: ["The wheelchair is pushed by the children.", "The wheelchair was pushed by the children.", "The wheelchair had pushed by the children.", "The wheelchair has been pushed by the children."], ans: 1 },
+
+      
+     
+     
+      
+      
       
   
                                                                                                       
