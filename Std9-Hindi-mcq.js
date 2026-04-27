@@ -1,4 +1,4 @@
-njQuestionsDatabase = [
+var njQuestionsDatabase = [
 
       // --- ધોરણ 9 હિન્દી (દ્વિતીય ભાષા) ---
     // --- पाठ 1: आराधना (काव्य) ---
