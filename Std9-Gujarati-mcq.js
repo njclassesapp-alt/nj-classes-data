@@ -1,4 +1,4 @@
-njQuestionsDatabase = [
+var njQuestionsDatabase = [
 
     // --- ધોરણ 9 ગુજરાતી (પ્રથમ ભાષા) ---
     // --- પ્રકરણ 1: સાંજ સમે શામળિયો (ગીત-કાવ્ય) ---
