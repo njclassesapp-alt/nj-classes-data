@@ -1164,6 +1164,157 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 8: ચતુષ્કોણ
+    // ------------------------------------
+    "8": {
+        "chapterName": "પ્રકરણ 8",
+        "chapterTitle": "ચતુષ્કોણ",
+        "qa_list": [
+            { 
+                question: "ચતુષ્કોણનો પરિચય અને ખૂણાના સરવાળાનો ગુણધર્મ", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <ul style='line-height:1.8; color:#1e3a8a; margin:0;'>
+                        <li><b>વ્યાખ્યા:</b> ચાર સમતલીય બિંદુઓ (જેમાંથી કોઈપણ ત્રણ સમરેખ ન હોય) ને ક્રમમાં જોડવાથી બનતી બંધ આકૃતિને ચતુષ્કોણ કહે છે.</li>
+                        <li><b>અંગો:</b> ચતુષ્કોણને 4 બાજુઓ, 4 ખૂણાઓ અને 4 શિરોબિંદુઓ હોય છે. (કુલ 12 અંગો). વધુમાં તેને 2 વિકર્ણો (Diagonals) હોય છે.</li>
+                    </ul>
+                </div>
+                
+                <div style='border:2px dashed #ea580c; padding:12px; border-radius:8px; background-color:#fff7ed; text-align:center;'>
+                    <h4 style='color:#c2410c; margin:0 0 10px 0;'>ખૂણાના સરવાળાનો ગુણધર્મ (Angle Sum Property)</h4>
+                    <svg width="150" height="100" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="20,80 120,80 140,20 40,30" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+                        <line x1="20" y1="80" x2="140" y2="20" stroke="#b45309" stroke-width="1.5" stroke-dasharray="4,4"/>
+                        <text x="50" y="65" fill="#c2410c" font-size="12" font-weight="bold">180°</text>
+                        <text x="90" y="45" fill="#c2410c" font-size="12" font-weight="bold">180°</text>
+                    </svg>
+                    <p style='margin:10px 0 0 0; font-size:15px; font-weight:bold; color:#9a3412;'>ચતુષ્કોણના ચારેય ખૂણાઓનો સરવાળો 360° થાય છે.</p>
+                    <p style='margin:0; font-size:13px; color:#c2410c;'>(∠A + ∠B + ∠C + ∠D = 360°)</p>
+                </div>
+                <div style='background-color:#fefce8; padding:8px; margin-top:10px; border-radius:5px;'>
+                    💡 <b>ટ્રીક:</b> આકૃતિમાં જોયું તેમ, 1 ચતુષ્કોણ = 2 ત્રિકોણ. (તેથી 180° + 180° = 360°).
+                </div>` 
+            },
+            { 
+                question: "🌟 ચતુષ્કોણના પ્રકારો (Types of Quadrilaterals)", 
+                answer: `
+                <p style='color:#1e3a8a; font-weight:bold; margin-bottom:10px;'>બાજુઓ અને ખૂણાઓના આધારે ચતુષ્કોણના મુખ્ય ૫ પ્રકાર પડે છે:</p>
+                
+                <div style='display:flex; flex-wrap:wrap; gap:12px; justify-content:center;'>
+                    
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:1px solid #cbd5e1; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="70" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="10,60 90,60 70,20 30,20" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <path d="M 45 20 L 50 15 M 45 20 L 50 25" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 45 60 L 50 55 M 45 60 L 50 65" fill="none" stroke="#ea580c" stroke-width="2"/>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:8px 0 4px 0;'>૧. સમલંબ ચતુષ્કોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#475569;'>સામસામેની બાજુઓની <b>માત્ર એક જ જોડ</b> સમાંતર હોય.</p>
+                    </div>
+
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:1px solid #cbd5e1; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="70" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="20,60 90,60 70,20 0,20" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:8px 0 4px 0;'>૨. સમાંતરબાજુ ચતુષ્કોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#475569;'>સામસામેની બાજુઓની <b>બંને જોડ</b> સમાંતર હોય.</p>
+                    </div>
+
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:1px solid #cbd5e1; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="70" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="20" width="80" height="40" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <rect x="10" y="20" width="6" height="6" fill="none" stroke="#ea580c"/>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:8px 0 4px 0;'>૩. લંબચોરસ</h4>
+                        <p style='margin:0; font-size:12px; color:#475569;'>જે સમાંતરબાજુ ચતુષ્કોણનો <b>એક ખૂણો કાટખૂણો</b> (90°) હોય. (તેથી બધા ખૂણા 90° થાય).</p>
+                    </div>
+
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:1px solid #cbd5e1; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="70" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,10 90,35 50,60 10,35" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <rect x="45" y="35" width="5" height="5" fill="none" stroke="#ea580c"/>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:8px 0 4px 0;'>૪. સમબાજુ ચતુષ્કોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#475569;'>જે સમાંતરબાજુ ચતુષ્કોણની <b>બધી જ બાજુઓ સમાન</b> હોય.</p>
+                    </div>
+
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:2px solid #ca8a04; border-radius:8px; background-color:#fefce8;'>
+                        <svg width="100" height="70" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="25" y="10" width="50" height="50" fill="#fef3c7" stroke="#ca8a04" stroke-width="2"/>
+                        </svg>
+                        <h4 style='color:#b45309; margin:8px 0 4px 0;'>૫. ચોરસ (Square)</h4>
+                        <p style='margin:0; font-size:12px; color:#854d0e;'>જેની બધી બાજુઓ સમાન હોય અને <b>બધા ખૂણા કાટખૂણા</b> હોય. (તે લંબચોરસ + સમબાજુ બંને છે).</p>
+                    </div>
+
+                </div>` 
+            },
+            { 
+                question: "સમાંતરબાજુ ચતુષ્કોણના ગુણધર્મો (પ્રમેય 8.1 થી 8.8)", 
+                answer: `
+                <p>આ પ્રકરણના મોટાભાગના દાખલાઓ અને રાઇડર (સાબિતી) <b>સમાંતરબાજુ ચતુષ્કોણ (Parallelogram)</b> ના ગુણધર્મો પર આધારિત છે.</p>
+                
+                <div style='background-color:#f0fdf4; padding:15px; border-radius:10px; border:2px solid #16a34a;'>
+                    <h4 style='color:#166534; margin:0 0 10px 0;'>કોને કહેવાય સમાંતરબાજુ ચતુષ્કોણ?</h4>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#14532d;'>જેના સામસામેના બાજુઓની બંને જોડ સમાંતર હોય.</p>
+                    
+                    <ul style='list-style-type:square; color:#166534; font-weight:bold; line-height:1.8;'>
+                        <li><b>પ્રમેય 8.1:</b> તેનો કોઈપણ વિકર્ણ તેનું બે એકરૂપ ત્રિકોણોમાં વિભાજન કરે છે.</li>
+                        <li><b>પ્રમેય 8.2 (બાજુઓ):</b> સામસામેની બાજુઓ સમાન હોય છે.</li>
+                        <li><b>પ્રમેય 8.4 (ખૂણાઓ):</b> સામસામેના ખૂણાઓ સમાન હોય છે.</li>
+                        <li><b>પાસપાસેના ખૂણા:</b> પાસપાસેના ખૂણા હંમેશા પૂરક હોય છે. (સરવાળો 180°).</li>
+                        <li><b>પ્રમેય 8.6 (વિકર્ણો):</b> તેના વિકર્ણો <b>એકબીજાને દુભાગે છે.</b> (એટલે કે જ્યાં છેદે ત્યાંથી બંનેના અડધા-અડધા સરખા ભાગ થાય).</li>
+                    </ul>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:12px; border-left:4px solid #ea580c; margin-top:15px;'>
+                    <b>🧠 શોર્ટકટ ટ્રીક (યાદ રાખવાનો મંત્ર):</b>
+                    <br><i style='color:#be123c; font-size:16px;'>"સામસામેનું બધું સરખું (બાજુ અને ખૂણા), પાસપાસેનું 180 (ખૂણા), અને વિકર્ણોના અડધા-અડધા ટુકડા સરખા!"</i>
+                </div>` 
+            },
+            { 
+                question: "🌟 મોસ્ટ IMP: મધ્યબિંદુ પ્રમેય (Mid-point Theorem)", 
+                answer: `
+                <div style='border:1px solid #1e3a8a; padding:15px; border-radius:8px; background-color:#ffffff;'>
+                    <h4 style='color:#be123c; margin:0 0 10px 0; border-bottom:1px dashed #be123c; padding-bottom:5px;'>પ્રમેય 8.9: મધ્યબિંદુ પ્રમેય</h4>
+                    <p style='margin:0 0 10px 0; font-size:15px; font-weight:bold; color:#1e3a8a;'>
+                        "ત્રિકોણની બે બાજુઓના મધ્યબિંદુઓને જોડતો રેખાખંડ, ત્રીજી બાજુને સમાંતર હોય છે અને તેના કરતા અડધા માપનો હોય છે."
+                    </p>
+                    
+                    <div style='text-align:center; margin:15px 0;'>
+                        <svg width="220" height="150" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="110,20 20,130 200,130" fill="#f8fafc" stroke="#1d4ed8" stroke-width="2"/>
+                            
+                            <circle cx="65" cy="75" r="4" fill="#ea580c"/>
+                            <circle cx="155" cy="75" r="4" fill="#ea580c"/>
+                            
+                            <line x1="65" y1="75" x2="155" y2="75" stroke="#ea580c" stroke-width="3"/>
+                            
+                            <text x="105" y="15" fill="#1d4ed8" font-weight="bold">A</text>
+                            <text x="5" y="135" fill="#1d4ed8" font-weight="bold">B</text>
+                            <text x="205" y="135" fill="#1d4ed8" font-weight="bold">C</text>
+                            <text x="45" y="70" fill="#ea580c" font-weight="bold">D</text>
+                            <text x="165" y="70" fill="#ea580c" font-weight="bold">E</text>
+                            
+                            <path d="M 105 70 L 115 75 L 105 80" fill="none" stroke="#047857" stroke-width="2"/>
+                            <path d="M 105 125 L 115 130 L 105 135" fill="none" stroke="#047857" stroke-width="2"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:10px; border-radius:5px;'>
+                        <p style='margin:0; font-size:14px; color:#0369a1;'>જો D અને E અનુક્રમે AB અને AC ના મધ્યબિંદુ હોય, તો:</p>
+                        <ol style='margin:5px 0 0 0; color:#0f766e; font-weight:bold;'>
+                            <li>DE || BC (DE એ BC ને સમાંતર છે)</li>
+                            <li>DE = &frac12; BC (DE નું માપ BC કરતા બરાબર અડધું હોય)</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <p style='font-size:13px; color:#64748b; margin-top:10px;'><b>નોંધ (પ્રમેય 8.10 - પ્રતીપ):</b> જો ત્રિકોણની એક બાજુના મધ્યબિંદુમાંથી બીજી બાજુને સમાંતર દોરેલી રેખા, ત્રીજી બાજુને છેદે, તો તે ત્રીજી બાજુને દુભાગે છે (એટલે કે બરાબર મધ્યમાં છેદે છે).</p>` 
+            }
+        ]
+    },
+
 
 
                 
