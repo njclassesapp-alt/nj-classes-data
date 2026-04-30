@@ -1,4 +1,4 @@
-var njMathsTheoryStd9 = {
+var njMathsTheory= {
     // ------------------------------------
     // ધોરણ 9 - પ્રકરણ 1: સંખ્યા પદ્ધતિ
     // ------------------------------------
@@ -159,5 +159,217 @@ var njMathsTheoryStd9 = {
                 </div>` 
             }
         ]
-    }
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 2: બહુપદીઓ
+    // ------------------------------------
+    "2": {
+        "chapterName": "પ્રકરણ 2",
+        "chapterTitle": "બહુપદીઓ",
+        "qa_list": [
+            { 
+                question: "બહુપદીનો પરિચય (ચલ, અચળ અને પદ)", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <ul style='line-height:1.8; color:#1e3a8a;'>
+                        <li><b style='color:#ea580c;'>ચલ (Variables):</b> જેની કિંમત બદલાઈ શકે તેવી ભિન્ન કિંમતો ધારણ કરી શકતી સંજ્ઞા. (દા.ત. x, y, z).</li>
+                        <li><b style='color:#ea580c;'>અચળ (Constants):</b> જેની કિંમત ચોક્કસ અને નિશ્ચિત હોય. (દા.ત. 5, -7, 1/2).</li>
+                        <li><b style='color:#ea580c;'>બૈજિક પદાવલિ:</b> અચળ અને ચલના ગુણાકાર કે સરવાળા-બાદબાકીથી બનતી રચના.</li>
+                    </ul>
+                    <div style='background-color:#fff; padding:10px; border-radius:5px; margin-top:10px; border:1px solid #bae6fd;'>
+                        <b>નોંધ:</b> બહુપદીમાં ચલનો ઘાતાંક હંમેશા <b>પૂર્ણ સંખ્યા (0, 1, 2, 3...)</b> જ હોવો જોઈએ. જો ઘાતાંક ઋણ હોય અથવા અપૂર્ણાંક (વર્ગમૂળ વગેરે) હોય, તો તેને બહુપદી કહેવાય નહીં.
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "બહુપદીના પ્રકારો (વર્ગીકરણનો ચાર્ટ)", 
+                answer: `
+                <p style='color:#1e3a8a; font-weight:bold; text-align:center;'>બહુપદીનું વર્ગીકરણ બે રીતે થાય છે: પદોની સંખ્યા મુજબ અને ઘાત મુજબ.</p>
+                <div style='text-align:center; margin: 20px 0; overflow-x:auto;'>
+                    <svg width="340" height="280" viewBox="0 0 340 280" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
+                        <rect x="100" y="10" width="140" height="40" rx="10" fill="#1e3a8a" />
+                        <text x="170" y="35" fill="white" font-weight="bold" font-size="16" text-anchor="middle">બહુપદીના પ્રકારો</text>
+                        
+                        <path d="M 170 50 L 170 70 L 85 70 L 85 90" fill="none" stroke="#6b7280" stroke-width="2"/>
+                        <path d="M 170 50 L 170 70 L 255 70 L 255 90" fill="none" stroke="#6b7280" stroke-width="2"/>
+                        
+                        <rect x="25" y="90" width="120" height="30" rx="5" fill="#ea580c" />
+                        <text x="85" y="110" fill="white" font-weight="bold" font-size="14" text-anchor="middle">પદોની સંખ્યા આધારે</text>
+                        
+                        <rect x="195" y="90" width="120" height="30" rx="5" fill="#ca8a04" />
+                        <text x="255" y="110" fill="white" font-weight="bold" font-size="14" text-anchor="middle">ઘાતની સંખ્યા આધારે</text>
+                        
+                        <path d="M 85 120 L 85 140" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        <path d="M 85 130 L 40 130 L 40 150" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        <path d="M 85 130 L 130 130 L 130 150" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        
+                        <rect x="10" y="150" width="60" height="45" rx="5" fill="#ffedd5" stroke="#ea580c" stroke-width="1.5"/>
+                        <text x="40" y="168" fill="#9a3412" font-size="12" font-weight="bold" text-anchor="middle">એકપદી</text>
+                        <text x="40" y="185" fill="#6b7280" font-size="11" text-anchor="middle">દા.ત. 3x</text>
+                        
+                        <rect x="55" y="205" width="60" height="45" rx="5" fill="#ffedd5" stroke="#ea580c" stroke-width="1.5"/>
+                        <path d="M 85 140 L 85 205" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        <text x="85" y="223" fill="#9a3412" font-size="12" font-weight="bold" text-anchor="middle">દ્વિપદી</text>
+                        <text x="85" y="240" fill="#6b7280" font-size="11" text-anchor="middle">x + 5</text>
+                        
+                        <rect x="100" y="150" width="60" height="45" rx="5" fill="#ffedd5" stroke="#ea580c" stroke-width="1.5"/>
+                        <text x="130" y="168" fill="#9a3412" font-size="12" font-weight="bold" text-anchor="middle">ત્રિપદી</text>
+                        <text x="130" y="185" fill="#6b7280" font-size="11" text-anchor="middle">x² + x + 1</text>
+                        
+                        <path d="M 255 120 L 255 140" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        <path d="M 255 130 L 210 130 L 210 150" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        <path d="M 255 130 L 300 130 L 300 150" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        
+                        <rect x="180" y="150" width="60" height="45" rx="5" fill="#fef3c7" stroke="#ca8a04" stroke-width="1.5"/>
+                        <text x="210" y="168" fill="#854d0e" font-size="12" font-weight="bold" text-anchor="middle">સુરેખ</text>
+                        <text x="210" y="185" fill="#6b7280" font-size="11" text-anchor="middle">(1 ઘાત)</text>
+                        
+                        <rect x="225" y="205" width="60" height="45" rx="5" fill="#fef3c7" stroke="#ca8a04" stroke-width="1.5"/>
+                        <path d="M 255 140 L 255 205" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+                        <text x="255" y="223" fill="#854d0e" font-size="12" font-weight="bold" text-anchor="middle">દ્વિઘાત</text>
+                        <text x="255" y="240" fill="#6b7280" font-size="11" text-anchor="middle">(2 ઘાત)</text>
+                        
+                        <rect x="270" y="150" width="60" height="45" rx="5" fill="#fef3c7" stroke="#ca8a04" stroke-width="1.5"/>
+                        <text x="300" y="168" fill="#854d0e" font-size="12" font-weight="bold" text-anchor="middle">ત્રિઘાત</text>
+                        <text x="300" y="185" fill="#6b7280" font-size="11" text-anchor="middle">(3 ઘાત)</text>
+                    </svg>
+                </div>` 
+            },
+            { 
+                question: "બહુપદીની ઘાત (Degree of Polynomial) અને પ્રમાણિત સ્વરૂપ", 
+                answer: `
+                <div style='display:flex; flex-direction:column; gap:10px;'>
+                    <div style='border:1px solid #1e3a8a; padding:10px; border-radius:8px;'>
+                        <p style='margin:0; font-size:15px;'><b>વ્યાખ્યા:</b> બહુપદીમાં ચલના <b>મહત્તમ (સૌથી મોટા) ઘાતાંક</b> ને બહુપદીની ઘાત કહે છે.<br>
+                        <i>ઉદાહરણ:</i> p(x) = 5x³ - 2x² + x - 7 માં મહત્તમ ઘાત 3 હોવાથી, આ 3 ઘાતવાળી બહુપદી છે.</p>
+                    </div>
+                    
+                    <div style='overflow-x:auto;'>
+                        <table style='width:100%; border-collapse: collapse; text-align:left; min-width:300px; font-size:14px;'>
+                            <tr style='background-color:#ea580c; color:white;'>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>ઘાત</th>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>બહુપદીનું નામ</th>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>પ્રમાણિત સ્વરૂપ</th>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>શરત</th>
+                            </tr>
+                            <tr>
+                                <td style='padding:8px; border:1px solid #cbd5e1; text-align:center;'><b>1</b></td>
+                                <td style='padding:8px; border:1px solid #cbd5e1; color:#1e3a8a; font-weight:bold;'>સુરેખ બહુપદી</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>ax + b</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>a ≠ 0</td>
+                            </tr>
+                            <tr style='background-color:#fff7ed;'>
+                                <td style='padding:8px; border:1px solid #cbd5e1; text-align:center;'><b>2</b></td>
+                                <td style='padding:8px; border:1px solid #cbd5e1; color:#1e3a8a; font-weight:bold;'>દ્વિઘાત બહુપદી</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>ax² + bx + c</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>a ≠ 0</td>
+                            </tr>
+                            <tr>
+                                <td style='padding:8px; border:1px solid #cbd5e1; text-align:center;'><b>3</b></td>
+                                <td style='padding:8px; border:1px solid #cbd5e1; color:#1e3a8a; font-weight:bold;'>ત્રિઘાત બહુપદી</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>ax³ + bx² + cx + d</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>a ≠ 0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "બહુપદીના શૂન્યો (Zeroes of a Polynomial)", 
+                answer: `
+                <div style='background-color:#fefce8; border-left:4px solid #ca8a04; padding:12px; margin-bottom:10px;'>
+                    <b style='color:#b45309;'>વ્યાખ્યા:</b> ચલ x ની જે કિંમત માટે બહુપદી p(x) નું મૂલ્ય શૂન્ય (0) થાય, તે કિંમતને બહુપદી p(x) નું શૂન્ય કહે છે.<br>
+                    એટલે કે જો <b>p(k) = 0</b> થાય, તો વાસ્તવિક સંખ્યા 'k' એ બહુપદીનું શૂન્ય છે.
+                </div>
+                <div style='font-size:14px; padding:10px; border:1px dashed #ca8a04; border-radius:5px;'>
+                    <b>સુરેખ બહુપદી (ax + b) નું શૂન્ય કેવી રીતે શોધવું?</b><br>
+                    ax + b = 0 લેતાં,<br>
+                    ax = -b<br>
+                    <b>x = -b / a</b>
+                </div>` 
+            },
+            { 
+                question: "અવયવ પ્રમેય (Factor Theorem)", 
+                answer: `
+                <div style='background-color:#f0fdf4; padding:15px; border:2px solid #16a34a; border-radius:8px;'>
+                    <h4 style='color:#166534; margin:0 0 10px 0; border-bottom:1px solid #166534; padding-bottom:5px;'>પ્રમેય:</h4>
+                    <p style='margin:0 0 10px 0; font-size:15px;'>જો બહુપદી p(x) ની ઘાત n ≥ 1 હોય અને 'a' કોઈ વાસ્તવિક સંખ્યા હોય, તો:</p>
+                    <ul style='color:#15803d; font-weight:bold; margin-bottom:0;'>
+                        <li>જો <b>p(a) = 0</b> હોય, તો <b>(x - a)</b> એ p(x) નો એક અવયવ છે.</li>
+                        <li>તેનાથી ઉલટું: જો <b>(x - a)</b> એ p(x) નો અવયવ હોય, તો <b>p(a) = 0</b> થાય.</li>
+                    </ul>
+                </div>
+                <p style='font-size:13px; color:#6b7280; margin-top:8px;'>ઉપયોગ: આ પ્રમેયનો ઉપયોગ આપેલ બહુપદીના અવયવ છે કે નહિ તે ચકાસવા માટે થાય છે.</p>` 
+            },
+            { 
+                question: "🌟 મોસ્ટ IMP: બૈજિક નિત્યસમો (Algebraic Identities)", 
+                answer: `
+                <p style='color:#be123c; font-weight:bold; margin-bottom:10px;'>આ પ્રકરણના દાખલા ગણવા માટે નીચેના તમામ નિત્યસમો યાદ રાખવા ખૂબ જ જરૂરી છે:</p>
+                
+                <div style='overflow-x:auto; background-color:#ffffff; border-radius:10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border:1px solid #e2e8f0;'>
+                    <table style='width:100%; border-collapse: collapse; text-align:left; min-width:400px; font-size:16px;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:12px; border-bottom:2px solid #cbd5e1;'>ક્રમ</th>
+                            <th style='padding:12px; border-bottom:2px solid #cbd5e1;'>નિત્યસમ (સૂત્ર)</th>
+                        </tr>
+                        
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; text-align:center;'>૧</td>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; color:#ea580c; font-weight:bold;'>
+                                (x + y)² = x² + 2xy + y²
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; text-align:center;'>૨</td>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; color:#ea580c; font-weight:bold;'>
+                                (x - y)² = x² - 2xy + y²
+                            </td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; text-align:center;'>૩</td>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; color:#ea580c; font-weight:bold;'>
+                                x² - y² = (x - y)(x + y) <span style='font-size:12px; color:#64748b;'>(પૂર્ણવર્ગ તફાવત)</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; text-align:center;'>૪</td>
+                            <td style='padding:12px; border-bottom:1px solid #e2e8f0; color:#ea580c; font-weight:bold;'>
+                                (x + a)(x + b) = x² + (a + b)x + ab
+                            </td>
+                        </tr>
+                        
+                        <tr style='background-color:#fef3c7;'>
+                            <td style='padding:12px; border-bottom:1px solid #fde68a; text-align:center;'>૫</td>
+                            <td style='padding:12px; border-bottom:1px solid #fde68a; color:#b45309; font-weight:bold;'>
+                                (x + y + z)² = x² + y² + z² + 2xy + 2yz + 2zx
+                            </td>
+                        </tr>
+                        
+                        <tr style='background-color:#f0f9ff;'>
+                            <td style='padding:12px; border-bottom:1px solid #bae6fd; text-align:center;'>૬</td>
+                            <td style='padding:12px; border-bottom:1px solid #bae6fd; color:#0369a1; font-weight:bold;'>
+                                (x + y)³ = x³ + y³ + 3xy(x + y)
+                            </td>
+                        </tr>
+                        <tr style='background-color:#f0f9ff;'>
+                            <td style='padding:12px; border-bottom:1px solid #bae6fd; text-align:center;'>૭</td>
+                            <td style='padding:12px; border-bottom:1px solid #bae6fd; color:#0369a1; font-weight:bold;'>
+                                (x - y)³ = x³ - y³ - 3xy(x - y)
+                            </td>
+                        </tr>
+                        
+                        <tr style='background-color:#fce7f3;'>
+                            <td style='padding:12px; border-bottom:1px solid #fbcfe8; text-align:center;'>૮</td>
+                            <td style='padding:12px; border-bottom:1px solid #fbcfe8; color:#be123c; font-weight:bold;'>
+                                x³ + y³ + z³ - 3xyz = (x + y + z)(x² + y² + z² - xy - yz - zx)
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <p style='margin-top:10px; font-size:13px; color:#1e3a8a;'><b>વિશેષ શરત (નિત્યસમ ૮ માટે):</b> જો x + y + z = 0 થાય, તો <b>x³ + y³ + z³ = 3xyz</b> થઈ જાય છે. આ શરત આધારિત દાખલા વારંવાર પૂછાય છે.</p>` 
+            }
+        ]
+    },
+    
+
 };
