@@ -1020,6 +1020,151 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 7: ત્રિકોણ
+    // ------------------------------------
+    "7": {
+        "chapterName": "પ્રકરણ 7",
+        "chapterTitle": "ત્રિકોણ",
+        "qa_list": [
+            { 
+                question: "એકરૂપ આકૃતિઓ અને ત્રિકોણની એકરૂપતા", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <ul style='line-height:1.8; color:#1e3a8a; margin:0;'>
+                        <li><b style='color:#ea580c;'>એકરૂપ આકૃતિઓ (Congruent Figures):</b> જે આકૃતિઓના <b>આકાર અને કદ (માપ) બંને સમાન</b> હોય તેને એકરૂપ આકૃતિઓ કહે છે. (નિશાની: $\\cong$)</li>
+                        <li><b>ત્રિકોણની એકરૂપતા:</b> જો બે ત્રિકોણના સંગત ખૂણાઓ અને સંગત બાજુઓ સમાન હોય, તો તે બે ત્રિકોણો એકરૂપ છે તેમ કહેવાય.</li>
+                        <li>જો $\\Delta ABC$ અને $\\Delta PQR$ એકરૂપ હોય, તો તેને ગણિતની ભાષામાં <b>$\\Delta ABC \\cong \\Delta PQR$</b> લખાય છે.</li>
+                    </ul>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:12px; border-radius:5px; border:1px dashed #ca8a04;'>
+                    💡 <b>CPCT નો નિયમ (મોસ્ટ IMP):</b> 
+                    <br><b>CPCT</b> = Congruent Parts of Congruent Triangles (એકરૂપ ત્રિકોણોના અનુરૂપ અંગો).
+                    <br>જ્યારે સાબિત થઈ જાય કે બે ત્રિકોણ એકરૂપ છે, ત્યારે તેના <b>બાકીના બધા જ અનુરૂપ ખૂણા અને બાજુઓ પણ આપોઆપ સમાન થઈ જાય છે.</b> આ દર્શાવવા માટે દાખલામાં કારણ તરીકે કૌંસમાં (CPCT) લખવામાં આવે છે.
+                </div>` 
+            },
+            { 
+                question: "🌟 ત્રિકોણની એકરૂપતા માટેની શરતો (મોસ્ટ IMP શોર્ટકટ ચાર્ટ)", 
+                answer: `
+                <p style='color:#be123c; font-weight:bold;'>બે ત્રિકોણોને એકરૂપ સાબિત કરવા માટે બધી 6 વસ્તુઓ (3 બાજુ અને 3 ખૂણા) સમાન બતાવવી જરૂરી નથી. નીચેની શરતોમાંથી કોઈ એકનું પાલન થાય તો પણ ત્રિકોણો એકરૂપ કહેવાય:</p>
+                
+                <div style='display:flex; flex-direction:column; gap:15px; margin-top:10px;'>
+                    
+                    <div style='padding:12px; border:2px solid #1e3a8a; border-radius:8px; background-color:#ffffff; overflow-x:auto;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>૧. બાખૂબા શરત (SAS - Side Angle Side):</h4>
+                        <div style='display:flex; align-items:center; flex-wrap:wrap; gap:15px;'>
+                            <svg width="160" height="90" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="10,80 70,80 40,20" fill="#f0f9ff" stroke="#1e3a8a" stroke-width="2"/>
+                                <polygon points="90,80 150,80 120,20" fill="#f0f9ff" stroke="#1e3a8a" stroke-width="2"/>
+                                <line x1="20" y1="50" x2="30" y2="50" stroke="#ea580c" stroke-width="2"/> <line x1="50" y1="50" x2="60" y2="50" stroke="#047857" stroke-width="2"/> <line x1="52" y1="52" x2="62" y2="52" stroke="#047857" stroke-width="2"/> <path d="M 33 35 A 15 15 0 0 1 47 35" fill="none" stroke="#be123c" stroke-width="2"/> <line x1="100" y1="50" x2="110" y2="50" stroke="#ea580c" stroke-width="2"/> <line x1="130" y1="50" x2="140" y2="50" stroke="#047857" stroke-width="2"/> <line x1="132" y1="52" x2="142" y2="52" stroke="#047857" stroke-width="2"/> <path d="M 113 35 A 15 15 0 0 1 127 35" fill="none" stroke="#be123c" stroke-width="2"/> </svg>
+                            <div style='flex:1; min-width:150px;'>
+                                <p style='margin:0; font-size:13px; color:#334155;'>જો બે ત્રિકોણો માટે એક ત્રિકોણની <b>બે બાજુઓ અને અંતર્ગત ખૂણો (વચ્ચેનો ખૂણો)</b> બીજા ત્રિકોણની અનુરૂપ બાજુઓ અને અંતર્ગત ખૂણાને સમાન હોય.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='padding:12px; border:2px solid #ea580c; border-radius:8px; background-color:#ffffff; overflow-x:auto;'>
+                        <h4 style='color:#ea580c; margin:0 0 10px 0;'>૨. ખૂબાખૂ શરત (ASA - Angle Side Angle):</h4>
+                        <div style='display:flex; align-items:center; flex-wrap:wrap; gap:15px;'>
+                            <svg width="160" height="90" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="10,80 70,80 40,20" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+                                <polygon points="90,80 150,80 120,20" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 25 80 A 15 15 0 0 0 17 65" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+                                <path d="M 55 80 A 15 15 0 0 1 63 65" fill="none" stroke="#be123c" stroke-width="2"/>
+                                <line x1="40" y1="75" x2="40" y2="85" stroke="#047857" stroke-width="2"/> <path d="M 105 80 A 15 15 0 0 0 97 65" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+                                <path d="M 135 80 A 15 15 0 0 1 143 65" fill="none" stroke="#be123c" stroke-width="2"/>
+                                <line x1="120" y1="75" x2="120" y2="85" stroke="#047857" stroke-width="2"/> </svg>
+                            <div style='flex:1; min-width:150px;'>
+                                <p style='margin:0; font-size:13px; color:#334155;'>જો એક ત્રિકોણના <b>બે ખૂણા અને અંતર્ગત બાજુ (વચ્ચેની બાજુ)</b> બીજા ત્રિકોણના બે ખૂણા અને અંતર્ગત બાજુને સમાન હોય.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='padding:12px; border:2px solid #047857; border-radius:8px; background-color:#ffffff; overflow-x:auto;'>
+                        <h4 style='color:#047857; margin:0 0 10px 0;'>૩. બાબાબા શરત (SSS - Side Side Side):</h4>
+                        <div style='display:flex; align-items:center; flex-wrap:wrap; gap:15px;'>
+                            <svg width="160" height="90" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="10,80 70,80 40,20" fill="#f0fdf4" stroke="#047857" stroke-width="2"/>
+                                <polygon points="90,80 150,80 120,20" fill="#f0fdf4" stroke="#047857" stroke-width="2"/>
+                                <line x1="20" y1="50" x2="30" y2="50" stroke="#1e3a8a" stroke-width="2"/> 
+                                <line x1="50" y1="50" x2="60" y2="50" stroke="#be123c" stroke-width="2"/> <line x1="52" y1="52" x2="62" y2="52" stroke="#be123c" stroke-width="2"/>
+                                <line x1="38" y1="75" x2="38" y2="85" stroke="#ea580c" stroke-width="2"/> <line x1="40" y1="75" x2="40" y2="85" stroke="#ea580c" stroke-width="2"/> <line x1="42" y1="75" x2="42" y2="85" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="100" y1="50" x2="110" y2="50" stroke="#1e3a8a" stroke-width="2"/> 
+                                <line x1="130" y1="50" x2="140" y2="50" stroke="#be123c" stroke-width="2"/> <line x1="132" y1="52" x2="142" y2="52" stroke="#be123c" stroke-width="2"/>
+                                <line x1="118" y1="75" x2="118" y2="85" stroke="#ea580c" stroke-width="2"/> <line x1="120" y1="75" x2="120" y2="85" stroke="#ea580c" stroke-width="2"/> <line x1="122" y1="75" x2="122" y2="85" stroke="#ea580c" stroke-width="2"/>
+                            </svg>
+                            <div style='flex:1; min-width:150px;'>
+                                <p style='margin:0; font-size:13px; color:#334155;'>જો એક ત્રિકોણની <b>ત્રણેય બાજુઓ</b> બીજા ત્રિકોણની અનુરૂપ ત્રણેય બાજુઓને સમાન હોય.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='padding:12px; border:2px solid #b45309; border-radius:8px; background-color:#ffffff; overflow-x:auto;'>
+                        <h4 style='color:#b45309; margin:0 0 10px 0;'>૪. કાકબા શરત (RHS - Right angle Hypotenuse Side):</h4>
+                        <div style='display:flex; align-items:center; flex-wrap:wrap; gap:15px;'>
+                            <svg width="160" height="90" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="20,80 70,80 20,20" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+                                <polygon points="100,80 150,80 100,20" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+                                <rect x="20" y="70" width="10" height="10" fill="none" stroke="#be123c" stroke-width="2"/> <line x1="42" y1="48" x2="52" y2="58" stroke="#1e3a8a" stroke-width="2"/> <line x1="40" y1="46" x2="50" y2="56" stroke="#1e3a8a" stroke-width="2"/> <line x1="40" y1="75" x2="40" y2="85" stroke="#047857" stroke-width="2"/> <rect x="100" y="70" width="10" height="10" fill="none" stroke="#be123c" stroke-width="2"/> <line x1="122" y1="48" x2="132" y2="58" stroke="#1e3a8a" stroke-width="2"/> <line x1="120" y1="46" x2="130" y2="56" stroke="#1e3a8a" stroke-width="2"/> <line x1="120" y1="75" x2="120" y2="85" stroke="#047857" stroke-width="2"/> </svg>
+                            <div style='flex:1; min-width:150px;'>
+                                <p style='margin:0; font-size:13px; color:#334155;'>બે <b>કાટકોણ ત્રિકોણમાં</b>, જો એક ત્રિકોણનો <b>કર્ણ અને એક બાજુ</b> બીજા ત્રિકોણના કર્ણ અને અનુરૂપ બાજુને સમાન હોય.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; margin-top:15px;'>
+                    <b>🎯 ગોખણપટ્ટી ટાળવાની ટ્રીક:</b> 
+                    <br>નામમાં જ નિયમ છુપાયેલો છે! 
+                    <br>• <b>બાખૂબા:</b> બાજુ + ખૂણો + બાજુ (ખૂણો વચ્ચે જ આવવો જોઈએ)
+                    <br>• <b>ખૂબાખૂ:</b> ખૂણો + બાજુ + ખૂણો (બાજુ વચ્ચે જ આવવી જોઈએ)
+                    <br>• <b>ખૂખૂબા (AAS):</b> આ ખૂબાખૂ નો જ એક પ્રકાર છે. જો સળંગ બે ખૂણા અને ત્યારપછીની બાજુ સમાન હોય તો પણ ચાલે.
+                    <br><b style='color:#be123c;'>નોંધ: 'બાબાખૂ' (SSA) કે 'ખૂખૂખૂ' (AAA) નામની કોઈ એકરૂપતાની શરત નથી!</b>
+                </div>` 
+            },
+            { 
+                question: "સમદ્વિબાજુ ત્રિકોણના ગુણધર્મો (પ્રમેય 7.2 અને 7.3)", 
+                answer: `
+                <div style='display:flex; flex-wrap:wrap; gap:15px; justify-content:center;'>
+                    
+                    <div style='flex:1; min-width:260px; border:1px solid #cbd5e1; padding:15px; border-radius:8px; background-color:#f8fafc;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>પ્રમેય 7.2</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px;'>સમદ્વિબાજુ ત્રિકોણની <b>બે સમાન બાજુઓની સામેના ખૂણાઓ સમાન</b> હોય છે.</p>
+                        <div style='text-align:center;'>
+                            <svg width="120" height="100" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="60,20 20,90 100,90" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="30" y1="55" x2="45" y2="55" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="75" y1="55" x2="90" y2="55" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 35 90 A 15 15 0 0 0 27 75" fill="none" stroke="#047857" stroke-width="2"/>
+                                <path d="M 85 90 A 15 15 0 0 1 93 75" fill="none" stroke="#047857" stroke-width="2"/>
+                            </svg>
+                            <p style='margin:0; font-size:12px; color:#1e3a8a;'>જો AB = AC, તો ∠B = ∠C</p>
+                        </div>
+                    </div>
+
+                    <div style='flex:1; min-width:260px; border:1px solid #cbd5e1; padding:15px; border-radius:8px; background-color:#f8fafc;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>પ્રમેય 7.3 (પ્રતીપ પ્રમેય)</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px;'>ત્રિકોણના <b>સમાન ખૂણાની સામેની બાજુઓ સમાન</b> હોય છે.</p>
+                        <div style='text-align:center;'>
+                            <svg width="120" height="100" xmlns="http://www.w3.org/2000/svg">
+                                <polygon points="60,20 20,90 100,90" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <path d="M 35 90 A 15 15 0 0 0 27 75" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 85 90 A 15 15 0 0 1 93 75" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="30" y1="55" x2="45" y2="55" stroke="#047857" stroke-width="2"/>
+                                <line x1="75" y1="55" x2="90" y2="55" stroke="#047857" stroke-width="2"/>
+                            </svg>
+                            <p style='margin:0; font-size:12px; color:#1e3a8a;'>જો ∠B = ∠C, તો AB = AC</p>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <p style='font-size:13px; color:#64748b; margin-top:10px; text-align:center;'><i>નોંધ: સમબાજુ ત્રિકોણમાં ત્રણેય બાજુઓ સમાન હોય છે, તેથી તેના ત્રણેય ખૂણાઓ પણ સમાન (દરેક 60°) થાય છે.</i></p>` 
+            }
+        ]
+    },
+
 
                 
 
