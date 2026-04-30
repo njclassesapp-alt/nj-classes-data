@@ -629,7 +629,174 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 5: યુક્લિડની ભૂમિતિનો પરિચય
+    // ------------------------------------
+    "5": {
+        "chapterName": "પ્રકરણ 5",
+        "chapterTitle": "યુક્લિડની ભૂમિતિનો પરિચય",
+        "qa_list": [
+            { 
+                question: "ભૂમિતિનો ઇતિહાસ અને પરિમાણ (Dimensions)", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <ul style='line-height:1.8; color:#1e3a8a; margin-top:0;'>
+                        <li><b>ભૂમિતિ (Geometry):</b> ગ્રીક શબ્દ 'Geo' (પૃથ્વી) અને 'Metrein' (માપન) પરથી ઉતરી આવ્યો છે.</li>
+                        <li><b>થેલ્સ:</b> ભૂમિતિના પ્રણેતા મનાય છે. તેમણે સૌપ્રથમ સાબિતી આપી કે <i>"વર્તુળનો વ્યાસ વર્તુળને બે સમાન ભાગમાં વિભાજિત કરે છે."</i></li>
+                        <li><b>યુક્લિડ:</b> ઇજિપ્તના એલેક્ઝાન્ડ્રિયાના ગણિત શિક્ષક. તેમણે ભૂમિતિના તમામ જ્ઞાનને એકત્રિત કરી <b>'એલિમેન્ટ્સ' (Elements)</b> નામનું પ્રસિદ્ધ પુસ્તક લખ્યું, જે 13 પ્રકરણોમાં વહેંચાયેલું છે.</li>
+                    </ul>
+                </div>
+                
+                <p style='color:#ea580c; font-weight:bold; text-align:center;'>વસ્તુઓનું પરિમાણ (Dimensions) સમજવાની આકૃતિ:</p>
+                <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                    <svg width="340" height="150" viewBox="0 0 340 150" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
+                        <path d="M 20 40 L 60 40 L 75 25 L 35 25 Z" fill="#ca8a04"/>
+                        <rect x="20" y="40" width="40" height="40" fill="#ea580c"/>
+                        <path d="M 60 40 L 75 25 L 75 65 L 60 80 Z" fill="#b45309"/>
+                        <text x="45" y="105" fill="#1e3a8a" font-weight="bold" font-size="12" text-anchor="middle">ઘન (Solid)</text>
+                        <text x="45" y="125" fill="#be123c" font-weight="bold" font-size="14" text-anchor="middle">3 પરિમાણ</text>
+                        
+                        <path d="M 85 60 L 105 60 L 100 55 M 105 60 L 100 65" fill="none" stroke="#64748b" stroke-width="2"/>
 
+                        <rect x="115" y="30" width="50" height="50" fill="#bae6fd" stroke="#0284c7" stroke-width="2"/>
+                        <text x="140" y="105" fill="#1e3a8a" font-weight="bold" font-size="12" text-anchor="middle">સપાટી (Surface)</text>
+                        <text x="140" y="125" fill="#be123c" font-weight="bold" font-size="14" text-anchor="middle">2 પરિમાણ</text>
+
+                        <path d="M 175 60 L 195 60 L 190 55 M 195 60 L 190 65" fill="none" stroke="#64748b" stroke-width="2"/>
+
+                        <line x1="205" y1="55" x2="265" y2="55" stroke="#10b981" stroke-width="4"/>
+                        <text x="235" y="105" fill="#1e3a8a" font-weight="bold" font-size="12" text-anchor="middle">રેખા (Line)</text>
+                        <text x="235" y="125" fill="#be123c" font-weight="bold" font-size="14" text-anchor="middle">1 પરિમાણ</text>
+
+                        <path d="M 275 60 L 295 60 L 290 55 M 295 60 L 290 65" fill="none" stroke="#64748b" stroke-width="2"/>
+
+                        <circle cx="315" cy="55" r="4" fill="#1e3a8a"/>
+                        <text x="315" y="105" fill="#1e3a8a" font-weight="bold" font-size="12" text-anchor="middle">બિંદુ (Point)</text>
+                        <text x="315" y="125" fill="#be123c" font-weight="bold" font-size="14" text-anchor="middle">0 પરિમાણ</text>
+                    </svg>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04; margin-top:10px;'>
+                    <b>🧠 શોર્ટકટ ટ્રીક:</b> "ઘ-સ-રે-બિ" (ઘન -> સપાટી -> રેખા -> બિંદુ). ઘનથી બિંદુ તરફ જઈએ તેમ પરિમાણ <b>3-2-1-0</b> એમ એક-એક ઘટતું જાય છે.
+                </div>` 
+            },
+            { 
+                question: "યુક્લિડનાં સ્વયંસિદ્ધ સત્યો (Axioms)", 
+                answer: `
+                <p>જે વિધાનોને સાબિતીની જરૂર નથી અને જે સર્વવ્યાપી સત્ય છે, તેને <b>સ્વયંસિદ્ધ સત્યો</b> કહેવાય છે. (આ નિયમો ગણિતના દરેક ભાગમાં લાગુ પડે છે).</p>
+                
+                <div style='overflow-x:auto; background-color:#ffffff; border-radius:10px; border:1px solid #e2e8f0;'>
+                    <table style='width:100%; border-collapse: collapse; text-align:left; min-width:320px; font-size:15px;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:10px; border:1px solid #cbd5e1; width:10%; text-align:center;'>ક્રમ</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>સ્વયંસિદ્ધ સત્યનું વિધાન</th>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; text-align:center; font-weight:bold; color:#ea580c;'>૧</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>એક વસ્તુને સમાન હોય તેવી વસ્તુઓ એકબીજાને સમાન થાય. <br><span style='font-size:12px; color:#64748b;'>(જો a = c અને b = c, તો a = b થાય.)</span></td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; text-align:center; font-weight:bold; color:#ea580c;'>૨</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>સરખામાં સરખું ઉમેરીએ તો સરવાળા સરખા રહે.</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; text-align:center; font-weight:bold; color:#ea580c;'>૩</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>સરખામાંથી સરખું બાદ કરીએ તો બાદબાકી સરખી રહે.</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; text-align:center; font-weight:bold; color:#ea580c;'>૪</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>એકબીજા પર બંધબેસતી આવતી વસ્તુઓ એકબીજાને સરખી થાય.</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; text-align:center; font-weight:bold; color:#ea580c;'>૫</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>આખું તેના ભાગ કરતાં મોટું હોય છે. <span style='font-size:12px; color:#64748b;'>(સૌથી IMP)</span></td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; text-align:center; font-weight:bold; color:#ea580c;'>૬</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>સરખી વસ્તુઓના બમણા એકબીજાને સમાન હોય છે.</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; text-align:center; font-weight:bold; color:#ea580c;'>૭</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>સરખી વસ્તુઓના અડધા એકબીજાને સમાન હોય છે.</td>
+                        </tr>
+                    </table>
+                </div>` 
+            },
+            { 
+                question: "યુક્લિડની ૫ પૂર્વધારણાઓ (Postulates) - ભાગ ૧", 
+                answer: `
+                <div style='background-color:#fefce8; padding:15px; border-left:5px solid #ca8a04; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#854d0e;'><b>પૂર્વધારણા એટલે શું?</b> જે વિધાનો માત્ર ભૂમિતિ સાથે જ સંકળાયેલા છે અને જેને સાબિતી વિના સત્ય સ્વીકારી લેવામાં આવ્યા છે, તેને પૂર્વધારણાઓ કહે છે.</p>
+                </div>
+
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='border:1px solid #1e3a8a; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>🔹 પૂર્વધારણા ૧:</h4>
+                        <p style='margin:0 0 10px 0; font-size:15px; font-weight:bold;'>"કોઈપણ એક બિંદુમાંથી બીજા કોઈ બિંદુ સુધી એક સીધી રેખા દોરી શકાય છે."</p>
+                        <p style='margin:0; font-size:13px; color:#ea580c;'><b>તારણ (પ્રમેય 5.1):</b> આપેલા બે ભિન્ન બિંદુઓમાંથી પસાર થતી <u>અનન્ય (એક અને માત્ર એક જ)</u> રેખા હોય છે.</p>
+                        <div style='text-align:center; margin-top:10px;'>
+                            <svg width="200" height="40" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="20" x2="180" y2="20" stroke="#1d4ed8" stroke-width="2" />
+                                <circle cx="50" cy="20" r="4" fill="#ea580c"/>
+                                <circle cx="150" cy="20" r="4" fill="#ea580c"/>
+                                <text x="45" y="12" fill="#1d4ed8" font-size="12" font-weight="bold">P</text>
+                                <text x="145" y="12" fill="#1d4ed8" font-size="12" font-weight="bold">Q</text>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div style='border:1px solid #1e3a8a; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>🔹 પૂર્વધારણા ૨:</h4>
+                        <p style='margin:0; font-size:15px;'>"શાંત રેખા (રેખાખંડ) ને અનંત સુધી લંબાવી શકાય છે."</p>
+                    </div>
+
+                    <div style='border:1px solid #1e3a8a; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>🔹 પૂર્વધારણા ૩:</h4>
+                        <p style='margin:0; font-size:15px;'>"કોઈપણ બિંદુને કેન્દ્ર લઈ તથા કોઈપણ લંબાઈની ત્રિજ્યા લઈ વર્તુળ દોરી શકાય છે."</p>
+                    </div>
+
+                    <div style='border:1px solid #1e3a8a; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>🔹 પૂર્વધારણા ૪:</h4>
+                        <p style='margin:0; font-size:15px;'>"બધા જ કાટખૂણા એકબીજાને સમાન હોય છે." (બધાનું માપ 90° જ હોય છે).</p>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "🌟 મોસ્ટ IMP: યુક્લિડની ૫મી પૂર્વધારણા (વિસ્તૃત સમજૂતી)", 
+                answer: `
+                <div style='border:2px dashed #be123c; padding:15px; border-radius:10px; background-color:#fff1f2;'>
+                    <h3 style='color:#9f1239; margin-top:0; text-align:center;'>પૂર્વધારણા ૫</h3>
+                    <p style='font-size:15px; line-height:1.6; color:#881337; font-weight:bold;'>
+                        "જો બે રેખાઓને કોઈ ત્રીજી રેખા છેદે, અને છેદિકાની કોઈ એક બાજુ તરફના બે અંતઃકોણોનો સરવાળો <b>બે કાટખૂણા (180°) કરતાં ઓછો</b> હોય, તો તે બે રેખાઓને અનંત સુધી લંબાવતા, જે બાજુ ખૂણાઓનો સરવાળો 180° થી ઓછો હોય <b>તે જ બાજુ તરફ તે એકબીજાને છેદે છે.</b>"
+                    </p>
+
+                    <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                        <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto;">
+                            <line x1="20" y1="40" x2="260" y2="70" stroke="#1d4ed8" stroke-width="2"/>
+                            <line x1="20" y1="160" x2="260" y2="130" stroke="#1d4ed8" stroke-width="2"/>
+                            <line x1="80" y1="10" x2="160" y2="190" stroke="#047857" stroke-width="2"/>
+                            
+                            <path d="M 103 62 A 20 20 0 0 0 115 45" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="120" y="52" fill="#ea580c" font-size="12" font-weight="bold">∠1</text>
+                            
+                            <path d="M 136 137 A 20 20 0 0 1 146 158" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="150" y="152" fill="#ea580c" font-size="12" font-weight="bold">∠2</text>
+                            
+                            <line x1="260" y1="70" x2="350" y2="81.25" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <line x1="260" y1="130" x2="350" y2="118.75" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <text x="240" y="105" fill="#be123c" font-size="12" font-weight="bold">અહીં છેદશે -></text>
+                        </svg>
+                        <p style='font-size:13px; color:#9f1239;'>આકૃતિમાં: ∠1 + ∠2 &lt; 180°, તેથી રેખાઓ જમણી બાજુ છેદશે.</p>
+                    </div>
+                </div>
+
+                <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; margin-top:15px;'>
+                    <b>🎯 એક્ઝામ ટ્રીક (પૂર્વધારણા 5 નું સમકક્ષ વિધાન):</b> <br>
+                    જો છેદિકાની એક તરફના અંતઃકોણોનો <b>સરવાળો બરાબર 180°</b> થાય, તો તે રેખાઓ ક્યારેય છેદતી નથી (એટલે કે તે <b>સમાંતર રેખાઓ</b> હોય છે). આને <b>'પ્લેફેરની પૂર્વધારણા' (Playfair's Axiom)</b> પણ કહેવાય છે.
+                </div>` 
+            }
+        ]
+    },
 
 
 };
