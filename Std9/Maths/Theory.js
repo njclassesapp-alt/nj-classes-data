@@ -370,6 +370,140 @@ var njMathsTheory= {
             }
         ]
     },
-    
+
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 3: યામ ભૂમિતિ
+    // ------------------------------------
+    "3": {
+        "chapterName": "પ્રકરણ 3",
+        "chapterTitle": "યામ ભૂમિતિ",
+        "qa_list": [
+            { 
+                question: "કાર્તેઝિય યામ પદ્ધતિ (Cartesian System) અને અક્ષો", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#1e3a8a;'>ફ્રેન્ચ ગણિતશાસ્ત્રી <b>રેને દકાર્તે (Rene Descartes)</b> એ સમતલમાં કોઈ બિંદુનું સ્થાન દર્શાવવા માટે જે પદ્ધતિ વિકસાવી, તેને કાર્તેઝિય યામ પદ્ધતિ કહે છે.</p>
+                    <ul style='line-height:1.8; color:#334155; margin-bottom:0;'>
+                        <li><b>ક્ષિતિજ સમાંતર (આડી) રેખા:</b> આ રેખાને <b>X-અક્ષ (X-axis)</b> કહે છે. (XOX')</li>
+                        <li><b>શિરોલંબ (ઊભી) રેખા:</b> આ રેખાને <b>Y-અક્ષ (Y-axis)</b> કહે છે. (YOY')</li>
+                        <li><b>ઉગમબિંદુ (Origin - O):</b> X-અક્ષ અને Y-અક્ષ જે બિંદુમાં એકબીજાને છેદે છે, તેને ઉગમબિંદુ કહે છે.</li>
+                    </ul>
+                </div>
+                <div style='background-color:#fefce8; padding:10px; border-radius:5px; border:1px dashed #ca8a04;'>
+                    💡 <b>શોર્ટકટ ટ્રીક:</b> "આડી રેખા એટલે X, અને ઊભી રેખા એટલે Y" આટલું મગજમાં ફિટ કરી લેવું. 
+                </div>` 
+            },
+            { 
+                question: "યામ સમતલના ચરણ (Quadrants) અને નિશાનીઓ", 
+                answer: `
+                <p>X-અક્ષ અને Y-અક્ષ સમતલનું <b>ચાર ભાગમાં</b> વિભાજન કરે છે. આ દરેક ભાગને <b>ચરણ (Quadrant)</b> અથવા પાદ કહે છે.</p>
+                
+                <div style='text-align:center; margin: 20px 0; overflow-x:auto;'>
+                    <svg width="320" height="320" viewBox="-160 -160 320 320" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto; background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1;">
+                        <g stroke="#f1f5f9" stroke-width="1">
+                            <line x1="-150" y1="-100" x2="150" y2="-100"/>
+                            <line x1="-150" y1="-50" x2="150" y2="-50"/>
+                            <line x1="-150" y1="50" x2="150" y2="50"/>
+                            <line x1="-150" y1="100" x2="150" y2="100"/>
+                            <line x1="-100" y1="-150" x2="-100" y2="150"/>
+                            <line x1="-50" y1="-150" x2="-50" y2="150"/>
+                            <line x1="50" y1="-150" x2="50" y2="150"/>
+                            <line x1="100" y1="-150" x2="100" y2="150"/>
+                        </g>
+
+                        <rect x="0" y="-150" width="150" height="150" fill="#ecfdf5" opacity="0.6"/> <rect x="-150" y="-150" width="150" height="150" fill="#eff6ff" opacity="0.6"/> <rect x="-150" y="0" width="150" height="150" fill="#fef2f2" opacity="0.6"/> <rect x="0" y="0" width="150" height="150" fill="#fff7ed" opacity="0.6"/> <line x1="-150" y1="0" x2="150" y2="0" stroke="#1e3a8a" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+                        <line x1="0" y1="150" x2="0" y2="-150" stroke="#1e3a8a" stroke-width="2.5" marker-end="url(#arrowhead)"/>
+                        
+                        <text x="135" y="-10" fill="#1e3a8a" font-weight="bold" font-size="14">X</text>
+                        <text x="-145" y="-10" fill="#1e3a8a" font-weight="bold" font-size="14">X'</text>
+                        <text x="10" y="-135" fill="#1e3a8a" font-weight="bold" font-size="14">Y</text>
+                        <text x="10" y="145" fill="#1e3a8a" font-weight="bold" font-size="14">Y'</text>
+                        
+                        <circle cx="0" cy="0" r="4" fill="#ea580c"/>
+                        <text x="5" y="15" fill="#ea580c" font-weight="bold" font-size="12">O(0,0)</text>
+
+                        <text x="75" y="-80" fill="#047857" font-weight="bold" font-size="16" text-anchor="middle">પ્રથમ ચરણ (I)</text>
+                        <rect x="45" y="-65" width="60" height="25" rx="5" fill="#047857"/>
+                        <text x="75" y="-48" fill="white" font-weight="bold" font-size="16" text-anchor="middle">(+, +)</text>
+
+                        <text x="-75" y="-80" fill="#1d4ed8" font-weight="bold" font-size="16" text-anchor="middle">દ્વિતીય ચરણ (II)</text>
+                        <rect x="-105" y="-65" width="60" height="25" rx="5" fill="#1d4ed8"/>
+                        <text x="-75" y="-48" fill="white" font-weight="bold" font-size="16" text-anchor="middle">(-, +)</text>
+
+                        <text x="-75" y="60" fill="#be123c" font-weight="bold" font-size="16" text-anchor="middle">તૃતીય ચરણ (III)</text>
+                        <rect x="-105" y="75" width="60" height="25" rx="5" fill="#be123c"/>
+                        <text x="-75" y="92" fill="white" font-weight="bold" font-size="16" text-anchor="middle">(-, -)</text>
+
+                        <text x="75" y="60" fill="#b45309" font-weight="bold" font-size="16" text-anchor="middle">ચતુર્થ ચરણ (IV)</text>
+                        <rect x="45" y="75" width="60" height="25" rx="5" fill="#ea580c"/>
+                        <text x="75" y="92" fill="white" font-weight="bold" font-size="16" text-anchor="middle">(+, -)</text>
+                    </svg>
+                    <p style='font-size:12px; color:#6b7280; margin-top:5px;'>આકૃતિ 3.1: યામ સમતલના ચરણ અને નિશાનીઓ</p>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:12px; border-left:4px solid #ca8a04; margin-top:10px;'>
+                    <b>🧠 ટ્રીક ટાઈમ:</b> અંગ્રેજીનો <b>'C'</b> અક્ષર યાદ રાખો. ઉપર જમણી બાજુથી (પ્રથમ ચરણથી) શરૂ કરી ઘડિયાળના કાંટાની <u>વિરુદ્ધ દિશામાં</u> (Anti-clockwise) 'C' બનાવો. બસ, એ જ ક્રમમાં ચરણ 1, 2, 3 અને 4 આવે!
+                </div>` 
+            },
+            { 
+                question: "બિંદુના યામ (Coordinates): કોટિ અને ભુજ", 
+                answer: `
+                <p>સમતલમાં કોઈપણ બિંદુનું સ્થાન દર્શાવવા માટે બે કિંમતોની જરૂર પડે છે, જેને યામની જોડ <b>(x, y)</b> સ્વરૂપે લખાય છે.</p>
+                
+                <div style='display:flex; flex-direction:column; gap:10px;'>
+                    <div style='border:1px solid #1e3a8a; padding:10px; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 5px 0;'>1. x-યામ (કોટિ - Abscissa):</h4>
+                        <p style='margin:0; font-size:15px;'>બિંદુનું Y-અક્ષથી લંબ અંતર. (આ હંમેશા પહેલા લખાય છે).</p>
+                    </div>
+                    <div style='border:1px solid #ea580c; padding:10px; border-radius:8px;'>
+                        <h4 style='color:#ea580c; margin:0 0 5px 0;'>2. y-યામ (ભુજ - Ordinate):</h4>
+                        <p style='margin:0; font-size:15px;'>બિંદુનું X-અક્ષથી લંબ અંતર. (આ હંમેશા બીજા ક્રમે લખાય છે).</p>
+                    </div>
+                </div>
+                
+                <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border:1px dashed #16a34a; margin-top:15px;'>
+                    💡 <b>યાદ રાખવાની ટ્રીક:</b> 
+                    <br>1. આલ્ફાબેટ (ABCD) માં પહેલા <b>x</b> આવે, પછી <b>y</b> આવે. એટલે કૌંસમાં હંમેશા <b>(x, y)</b> જ લખાય. 
+                    <br>2. <b>"કોટિ-ભુજ"</b> શબ્દ યાદ રાખો. પહેલો શબ્દ કોટિ (x), બીજો શબ્દ ભુજ (y). 
+                </div>` 
+            },
+            { 
+                question: "અક્ષ પર આવેલા બિંદુઓના યામ", 
+                answer: `
+                <p>જે બિંદુઓ કોઈ ચરણમાં નહિ, પણ સીધા અક્ષની લાઇન પર જ આવેલા હોય, તેમના યામ નીચે મુજબ હોય છે:</p>
+                <div style='overflow-x:auto;'>
+                    <table style='width:100%; border-collapse: collapse; text-align:left; min-width:300px; font-size:15px;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>સ્થાન</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>યામનું સ્વરૂપ</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>ઉદાહરણ</th>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>X-અક્ષ પર</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><b>(x, 0)</b> <br><span style='font-size:12px; color:#64748b;'>(કારણ કે y-યામ હંમેશા 0 હોય)</span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>(5, 0), (-3, 0)</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>Y-અક્ષ પર</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><b>(0, y)</b> <br><span style='font-size:12px; color:#64748b;'>(કારણ કે x-યામ હંમેશા 0 હોય)</span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>(0, 4), (0, -7)</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>ઉગમબિંદુ</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><b>(0, 0)</b></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>O(0, 0)</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:12px; border-left:4px solid #ca8a04; margin-top:12px;'>
+                    <b>🎯 એક્ઝામ ટ્રીક:</b> જો પ્રશ્નમાં પૂછાય કે બિંદુ (0, -5) ક્યાં આવેલું છે? <br>
+                    -> જુઓ, અહીં x ની જગ્યાએ શૂન્ય (0) છે. <b>જે શૂન્ય હોય તેને ભૂલી જાઓ, જે સંખ્યા દેખાય તે અક્ષ પર બિંદુ હોય!</b> અહીં y ની જગ્યાએ -5 છે, એટલે બિંદુ Y-અક્ષ પર (નીચેની તરફ) આવેલું છે.
+                </div>` 
+            }
+        ]
+    },
+
+
 
 };
