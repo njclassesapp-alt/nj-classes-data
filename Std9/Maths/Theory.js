@@ -1314,7 +1314,204 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 9: વર્તુળ
+    // ------------------------------------
+    "9": {
+        "chapterName": "પ્રકરણ 9",
+        "chapterTitle": "વર્તુળ",
+        "qa_list": [
+            { 
+                question: "વર્તુળ અને તેના મૂળભૂત અંગો", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <ul style='line-height:1.8; color:#1e3a8a; margin:0;'>
+                        <li><b>વર્તુળ (Circle):</b> સમતલના કોઈ નિશ્ચિત બિંદુ (કેન્દ્ર) થી નિશ્ચિત અંતરે (ત્રિજ્યા) આવેલા તે સમતલના બિંદુઓના સમૂહને વર્તુળ કહે છે.</li>
+                        <li><b>ત્રિજ્યા (Radius - r):</b> કેન્દ્ર અને વર્તુળ પરના કોઈપણ બિંદુને જોડતો રેખાખંડ.</li>
+                        <li><b>જીવા (Chord):</b> વર્તુળ પરના કોઈપણ બે બિંદુઓને જોડતો રેખાખંડ.</li>
+                        <li><b>વ્યાસ (Diameter - d):</b> વર્તુળના કેન્દ્રમાંથી પસાર થતી જીવાને વ્યાસ કહે છે. <b>(વ્યાસ = 2 × ત્રિજ્યા)</b>. વ્યાસ એ વર્તુળની સૌથી મોટી જીવા છે.</li>
+                    </ul>
+                </div>
+                
+                <div style='text-align:center; margin: 15px 0;'>
+                    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="100" cy="100" r="80" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2"/>
+                        <circle cx="100" cy="100" r="4" fill="#be123c"/>
+                        <text x="105" y="95" fill="#be123c" font-size="12" font-weight="bold">O</text>
+                        <line x1="100" y1="100" x2="169" y2="60" stroke="#047857" stroke-width="2"/>
+                        <text x="135" y="75" fill="#047857" font-size="12" font-weight="bold">r</text>
+                        <line x1="20" y1="100" x2="180" y2="100" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                        <text x="40" y="95" fill="#ea580c" font-size="12" font-weight="bold">વ્યાસ (d)</text>
+                        <line x1="45" y1="158" x2="155" y2="158" stroke="#0369a1" stroke-width="3"/>
+                        <text x="90" y="175" fill="#0369a1" font-size="12" font-weight="bold">જીવા</text>
+                    </svg>
+                </div>` 
+            },
+            { 
+                question: "🌟 ચાપ, વૃત્તાંશ અને વૃત્તખંડ (સૌથી વધુ કન્ફ્યુઝન વાળો ટોપિક)", 
+                answer: `
+                <p style='color:#334155;'>આ ત્રણ પદો વચ્ચેનો તફાવત આકૃતિ અને શોર્ટકટ ટ્રીકથી સમજીએ:</p>
+                
+                <div style='display:flex; flex-wrap:wrap; gap:12px; justify-content:center;'>
+                    
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:1px solid #cbd5e1; border-radius:8px; background-color:#ffffff;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>ચાપ (Arc)</h4>
+                        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+                            <path d="M 15 70 A 40 40 0 0 0 85 70" fill="none" stroke="#be123c" stroke-width="4"/>
+                            <text x="35" y="95" fill="#be123c" font-size="10" font-weight="bold">લઘુચાપ</text>
+                            <path d="M 85 70 A 40 40 0 1 0 15 70" fill="none" stroke="#047857" stroke-width="4"/>
+                            <text x="35" y="15" fill="#047857" font-size="10" font-weight="bold">ગુરુચાપ</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; font-size:12px; color:#475569;'>વર્તુળના ભાગ (પરિઘના ટુકડા) ને <b>ચાપ</b> કહે છે.</p>
+                    </div>
 
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:1px solid #cbd5e1; border-radius:8px; background-color:#ffffff;'>
+                        <h4 style='color:#ea580c; margin:0 0 10px 0;'>વૃત્તાંશ (Sector)</h4>
+                        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#f0fdf4" stroke="#cbd5e1" stroke-width="2"/>
+                            <path d="M 50 50 L 15 70 A 40 40 0 0 0 85 70 Z" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+                        </svg>
+                        <p style='margin:5px 0 0 0; font-size:12px; color:#475569;'><b>બે ત્રિજ્યા</b> અને ચાપ વચ્ચે ઘેરાયેલો પ્રદેશ. (પીઝાનો ટુકડો 🍕)</p>
+                    </div>
+
+                    <div style='flex:1; min-width:140px; text-align:center; padding:12px; border:1px solid #cbd5e1; border-radius:8px; background-color:#ffffff;'>
+                        <h4 style='color:#0369a1; margin:0 0 10px 0;'>વૃત્તખંડ (Segment)</h4>
+                        <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="40" fill="#f0fdf4" stroke="#cbd5e1" stroke-width="2"/>
+                            <line x1="15" y1="70" x2="85" y2="70" stroke="#0369a1" stroke-width="2"/>
+                            <path d="M 15 70 A 40 40 0 0 0 85 70 Z" fill="#e0f2fe"/>
+                        </svg>
+                        <p style='margin:5px 0 0 0; font-size:12px; color:#475569;'><b>જીવા</b> અને ચાપ વચ્ચે ઘેરાયેલો પ્રદેશ.</p>
+                    </div>
+
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04; margin-top:12px;'>
+                    <b>🧠 શોર્ટકટ ટ્રીક:</b> 
+                    <br>• <b>વૃત્તાંશ</b> = ત્રિજ્યાથી બનતો અંશ (ભાગ). (Pizza Slice).
+                    <br>• <b>વૃત્તખંડ</b> = જીવાથી કપાતો ખંડ. (એક સીધો કાપો).
+                </div>` 
+            },
+            { 
+                question: "જીવાને લગતા અગત્યના પ્રમેય (પ્રમેય 9.3 અને 9.4)", 
+                answer: `
+                <div style='border:2px solid #16a34a; padding:15px; border-radius:10px; background-color:#f0fdf4;'>
+                    <div style='display:flex; flex-wrap:wrap; align-items:center; gap:15px;'>
+                        <div style='flex:1; min-width:180px;'>
+                            <h4 style='color:#166534; margin:0 0 10px 0;'>લંબ અને દુભાગવાનો નિયમ</h4>
+                            <ul style='color:#14532d; font-size:14px; margin:0; padding-left:20px; line-height:1.6;'>
+                                <li><b>પ્રમેય 9.3:</b> વર્તુળના કેન્દ્રમાંથી જીવા પર દોરેલો લંબ જીવાને <b>દુભાગે છે</b> (બે સરખા ભાગ કરે છે).</li>
+                                <li style='margin-top:10px;'><b>પ્રમેય 9.4:</b> વર્તુળના કેન્દ્રમાંથી પસાર થતી રેખા જો જીવાને દુભાગે, તો તે રેખા જીવાને <b>લંબ (90° ના ખૂણે)</b> હોય છે.</li>
+                            </ul>
+                        </div>
+                        <div style='text-align:center;'>
+                            <svg width="140" height="140" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="70" cy="70" r="60" fill="none" stroke="#166534" stroke-width="2"/>
+                                <circle cx="70" cy="70" r="3" fill="#be123c"/>
+                                <text x="75" y="65" fill="#be123c" font-size="12" font-weight="bold">O</text>
+                                <line x1="20" y1="105" x2="120" y2="105" stroke="#1d4ed8" stroke-width="3"/>
+                                <text x="10" y="110" fill="#1d4ed8" font-size="12" font-weight="bold">A</text>
+                                <text x="125" y="110" fill="#1d4ed8" font-size="12" font-weight="bold">B</text>
+                                <line x1="70" y1="70" x2="70" y2="105" stroke="#ea580c" stroke-width="2"/>
+                                <text x="75" y="120" fill="#ea580c" font-size="12" font-weight="bold">M</text>
+                                <rect x="70" y="95" width="10" height="10" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                                <line x1="45" y1="100" x2="45" y2="110" stroke="#be123c" stroke-width="2"/>
+                                <line x1="95" y1="100" x2="95" y2="110" stroke="#be123c" stroke-width="2"/>
+                            </svg>
+                            <p style='margin:0; font-size:12px; color:#166534;'>AM = MB</p>
+                        </div>
+                    </div>
+                </div>
+                <p style='font-size:13px; color:#64748b; margin-top:8px;'><b>દાખલા માટે ઉપયોગ:</b> આ નિયમથી પાયથાગોરસના પ્રમેયનો ઉપયોગ કરી ત્રિજ્યા, જીવાનું અંતર કે જીવાની લંબાઈ શોધી શકાય છે.</p>` 
+            },
+            { 
+                question: "🌟 મોસ્ટ IMP: વર્તુળના ચાપ અને ખૂણાઓના પ્રમેયો (પ્રમેય 9.7 અને 9.8)", 
+                answer: `
+                <div style='display:flex; flex-direction:column; gap:15px; margin-top:10px;'>
+                    
+                    <div style='border:2px solid #b45309; padding:15px; border-radius:10px; background-color:#fffbeb;'>
+                        <h4 style='color:#b45309; margin:0 0 10px 0;'>પ્રમેય 9.7 (કેન્દ્ર આગળ બનતો ખૂણો)</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#78350f;'>વર્તુળના કોઈ ચાપે <b>કેન્દ્ર આગળ</b> આંતરેલો ખૂણો, તે ચાપે વર્તુળના બાકીના ભાગ પરના કોઈ બિંદુ આગળ આંતરેલા ખૂણા કરતા <b>બમણો (Double)</b> હોય છે.</p>
+                        
+                        <div style='text-align:center;'>
+                            <svg width="180" height="180" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="90" cy="90" r="80" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+                                <circle cx="90" cy="90" r="3" fill="#be123c"/>
+                                <circle cx="90" cy="10" r="3" fill="#1e3a8a"/> <circle cx="30" cy="140" r="3" fill="#1e3a8a"/> <circle cx="150" cy="140" r="3" fill="#1e3a8a"/> <line x1="30" y1="140" x2="90" y2="90" stroke="#ea580c" stroke-width="2"/>
+                                <line x1="150" y1="140" x2="90" y2="90" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <line x1="30" y1="140" x2="90" y2="10" stroke="#047857" stroke-width="2"/>
+                                <line x1="150" y1="140" x2="90" y2="10" stroke="#047857" stroke-width="2"/>
+                                
+                                <path d="M 75 102 A 20 20 0 0 0 105 102" fill="none" stroke="#be123c" stroke-width="2"/>
+                                <text x="80" y="125" fill="#be123c" font-size="14" font-weight="bold">2x</text>
+                                
+                                <path d="M 85 22 A 15 15 0 0 0 95 22" fill="none" stroke="#be123c" stroke-width="2"/>
+                                <text x="85" y="38" fill="#be123c" font-size="12" font-weight="bold">x</text>
+                                
+                                <path d="M 30 140 A 80 80 0 0 0 150 140" fill="none" stroke="#b45309" stroke-width="4"/>
+                            </svg>
+                        </div>
+                        <p style='margin:10px 0 0 0; font-size:14px; text-align:center; font-weight:bold; color:#be123c;'>જો ઉપરનો ખૂણો 50° હોય, તો કેન્દ્ર આગળનો ખૂણો 100° થાય.</p>
+                    </div>
+
+                    <div style='border:2px solid #1e3a8a; padding:15px; border-radius:10px; background-color:#eff6ff;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>પ્રમેય 9.8 (એક જ વૃત્તખંડના ખૂણા)</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#1e3a8a;'>એક જ વૃત્તખંડમાં આવેલા <b>બધા જ ખૂણાઓ સમાન</b> હોય છે.</p>
+                        
+                        <div style='text-align:center;'>
+                            <svg width="180" height="160" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="90" cy="80" r="70" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                                <line x1="30" y1="120" x2="150" y2="120" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                                
+                                <line x1="30" y1="120" x2="60" y2="15" stroke="#047857" stroke-width="2"/>
+                                <line x1="150" y1="120" x2="60" y2="15" stroke="#047857" stroke-width="2"/>
+                                <path d="M 55 30 A 15 15 0 0 0 68 28" fill="none" stroke="#be123c" stroke-width="2"/>
+                                <text x="58" y="45" fill="#be123c" font-size="12" font-weight="bold">y</text>
+                                
+                                <line x1="30" y1="120" x2="130" y2="22" stroke="#047857" stroke-width="2"/>
+                                <line x1="150" y1="120" x2="130" y2="22" stroke="#047857" stroke-width="2"/>
+                                <path d="M 115 28 A 15 15 0 0 0 125 36" fill="none" stroke="#be123c" stroke-width="2"/>
+                                <text x="110" y="45" fill="#be123c" font-size="12" font-weight="bold">y</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "ચક્રીય ચતુષ્કોણ (Cyclic Quadrilateral)", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#1e3a8a; font-size:15px;'><b>વ્યાખ્યા:</b> જે ચતુષ્કોણના <b>ચારેય શિરોબિંદુઓ વર્તુળ પર</b> આવેલા હોય, તેને ચક્રીય ચતુષ્કોણ કહે છે.</p>
+                </div>
+                
+                <div style='border:1px solid #cbd5e1; padding:15px; border-radius:8px; background-color:#ffffff;'>
+                    <h4 style='color:#be123c; margin:0 0 10px 0;'>અગત્યનો ગુણધર્મ (પ્રમેય 9.10 અને 9.11)</h4>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#475569;'>ચક્રીય ચતુષ્કોણના <b>સામસામેના ખૂણાઓ પૂરક</b> હોય છે. (એટલે કે તેમનો સરવાળો 180° થાય છે).</p>
+                    
+                    <div style='text-align:center;'>
+                        <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="80" cy="80" r="70" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+                            <polygon points="40,20 140,45 120,135 25,123" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+                            <path d="M 45 35 A 15 15 0 0 0 32 40" fill="none" stroke="#ea580c" stroke-width="3"/>
+                            <text x="50" y="35" fill="#ea580c" font-size="12" font-weight="bold">∠A</text>
+                            
+                            <path d="M 112 120 A 15 15 0 0 0 123 118" fill="none" stroke="#ea580c" stroke-width="3"/>
+                            <text x="100" y="115" fill="#ea580c" font-size="12" font-weight="bold">∠C</text>
+                            
+                            <text x="125" y="55" fill="#047857" font-size="12" font-weight="bold">∠B</text>
+                            <text x="35" y="115" fill="#047857" font-size="12" font-weight="bold">∠D</text>
+                        </svg>
+                        <div style='background-color:#fff7ed; padding:8px; border-radius:5px; border:1px dashed #ea580c; display:inline-block; margin-top:10px;'>
+                            <p style='margin:0; font-size:14px; font-weight:bold; color:#c2410c;'>∠A + ∠C = 180° <br> ∠B + ∠D = 180°</p>
+                        </div>
+                    </div>
+                </div>` 
+            }
+        ]
+    },
+                
 
 
                 
