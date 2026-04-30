@@ -797,6 +797,230 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 6: રેખાઓ અને ખૂણાઓ
+    // ------------------------------------
+    "6": {
+        "chapterName": "પ્રકરણ 6",
+        "chapterTitle": "રેખાઓ અને ખૂણાઓ",
+        "qa_list": [
+            { 
+                question: "મૂળભૂત પદો અને વ્યાખ્યાઓ", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <ul style='line-height:1.8; color:#1e3a8a; margin:0;'>
+                        <li><b style='color:#ea580c;'>રેખાખંડ (Line Segment):</b> બે અંત્યબિંદુઓ વાળા રેખાના ભાગને રેખાખંડ કહે છે. (દર્શાવવા: $\\overline{AB}$)</li>
+                        <li><b style='color:#ea580c;'>કિરણ (Ray):</b> એક જ અંત્યબિંદુ વાળા રેખાના ભાગને કિરણ કહે છે. (દર્શાવવા: $\\overrightarrow{AB}$)</li>
+                        <li><b style='color:#ea580c;'>સમરેખ બિંદુઓ (Collinear Points):</b> જો ત્રણ કે તેથી વધુ બિંદુઓ એક જ રેખા પર આવેલા હોય, તો તેને સમરેખ બિંદુઓ કહેવાય. નહીંતર તેને અસમરેખ બિંદુઓ કહેવાય.</li>
+                    </ul>
+                </div>` 
+            },
+            { 
+                question: "ખૂણાઓના ૫ મુખ્ય પ્રકારો (આકૃતિ સાથે સમજૂતી)", 
+                answer: `
+                <p style='color:#be123c; font-weight:bold;'>ખૂણાના માપ (અંશ) ના આધારે તેના ૫ પ્રકાર પડે છે:</p>
+                <div style='display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin:15px 0;'>
+                    
+                    <div style='width:140px; text-align:center; padding:10px; border:1px solid #bae6fd; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 20 60 L 80 60 L 40 20" fill="none" stroke="#0284c7" stroke-width="3" stroke-linejoin="round"/>
+                            <path d="M 45 60 A 25 25 0 0 0 35 45" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="50" y="45" fill="#ea580c" font-size="12">x°</text>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:5px 0;'>૧. લઘુકોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#64748b;'>0° &lt; x &lt; 90°<br>(90° થી નાનો)</p>
+                    </div>
 
+                    <div style='width:140px; text-align:center; padding:10px; border:1px solid #bae6fd; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 30 20 L 30 60 L 80 60" fill="none" stroke="#0284c7" stroke-width="3" stroke-linejoin="round"/>
+                            <rect x="30" y="45" width="15" height="15" fill="none" stroke="#ea580c" stroke-width="2"/>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:5px 0;'>૨. કાટકોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#64748b;'>y = 90°<br>(ફિક્સ 90°)</p>
+                    </div>
+
+                    <div style='width:140px; text-align:center; padding:10px; border:1px solid #bae6fd; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 20 20 L 50 60 L 90 60" fill="none" stroke="#0284c7" stroke-width="3" stroke-linejoin="round"/>
+                            <path d="M 70 60 A 20 20 0 0 0 40 45" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="65" y="45" fill="#ea580c" font-size="12">z°</text>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:5px 0;'>૩. ગુરુકોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#64748b;'>90° &lt; z &lt; 180°<br>(90° થી મોટો)</p>
+                    </div>
+
+                    <div style='width:140px; text-align:center; padding:10px; border:1px solid #bae6fd; border-radius:8px; background-color:#f8fafc;'>
+                        <svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="10" y1="50" x2="90" y2="50" stroke="#0284c7" stroke-width="3"/>
+                            <circle cx="50" cy="50" r="3" fill="#1e3a8a"/>
+                            <path d="M 70 50 A 20 20 0 0 0 30 50" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="50" y="25" fill="#ea580c" font-size="12" text-anchor="middle">180°</text>
+                        </svg>
+                        <h4 style='color:#0369a1; margin:5px 0;'>૪. સરળકોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#64748b;'>s = 180°<br>(સીધી રેખા)</p>
+                    </div>
+
+                    <div style='width:140px; text-align:center; padding:10px; border:1px solid #bae6fd; border-radius:8px; background-color:#fef3c7;'>
+                        <svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 20 60 L 50 40 L 90 40" fill="none" stroke="#b45309" stroke-width="3" stroke-linejoin="round"/>
+                            <path d="M 75 40 A 25 25 0 1 1 35 50" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="50" y="75" fill="#ea580c" font-size="12" font-weight="bold">t°</text>
+                        </svg>
+                        <h4 style='color:#b45309; margin:5px 0;'>૫. વિપરીતકોણ</h4>
+                        <p style='margin:0; font-size:12px; color:#64748b;'>180° &lt; t &lt; 360°<br>(બહારનો ખૂણો)</p>
+                    </div>
+
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04; margin-top:10px;'>
+                    <b>🧠 વિપરીતકોણ શોધવાની ટ્રીક:</b> જો તમને કોઈ ખૂણો 60° આપ્યો હોય અને તેનો વિપરીતકોણ પૂછે, તો સીધું જ <b>360° માંથી બાદ કરો</b>. <br>(દા.ત. વિપરીતકોણ = 360° - 60° = 300°).
+                </div>` 
+            },
+            { 
+                question: "ખૂણાઓની જોડો (Pairs of Angles)", 
+                answer: `
+                <div style='overflow-x:auto; background-color:#ffffff; border-radius:10px; border:1px solid #e2e8f0;'>
+                    <table style='width:100%; border-collapse: collapse; text-align:left; min-width:320px; font-size:14px;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>જોડનું નામ</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>વ્યાખ્યા / નિયમ</th>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0369a1;'>કોટિકોણ<br>(Complementary)</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>જે બે ખૂણાઓનાં માપનો <b>સરવાળો 90°</b> થાય, તેને એકબીજાના કોટિકોણ કહે છે. <br><i>(દા.ત. 40° અને 50°)</i></td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0369a1;'>પૂરકકોણ<br>(Supplementary)</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>જે બે ખૂણાઓનાં માપનો <b>સરવાળો 180°</b> થાય, તેને એકબીજાના પૂરકકોણ કહે છે. <br><i>(દા.ત. 110° અને 70°)</i></td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0369a1;'>આસન્નકોણ<br>(Adjacent)</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>જે બે ખૂણાઓનું <b>શિરોબિંદુ એક જ હોય</b> અને <b>એક ભુજ (બાજુ) સામાન્ય હોય</b>, તથા સામાન્ય ન હોય તેવી ભુજ સામસામી બાજુએ હોય. (એટલે કે પાસપાસેના ખૂણા).</td>
+                        </tr>
+                    </table>
+                </div>` 
+            },
+            { 
+                question: "🌟 રૈખિક જોડના ખૂણા અને અભિકોણ (IMP Concepts)", 
+                answer: `
+                <div style='display:flex; flex-direction:column; gap:15px; margin-top:10px;'>
+                    
+                    <div style='border:2px solid #16a34a; padding:15px; border-radius:10px; background-color:#f0fdf4;'>
+                        <h4 style='color:#166534; margin:0 0 10px 0;'>1. રૈખિક જોડના ખૂણા (Linear Pair):</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px;'>જો બે આસન્નકોણોની સામાન્ય ન હોય તેવી બાજુઓ એક સીધી રેખા બનાવે, તો તેને રૈખિક જોડ કહે છે. <br><b style='color:#be123c;'>નિયમ: રૈખિક જોડના ખૂણાઓનો સરવાળો હંમેશા 180° થાય છે.</b> (આ ખૂબ જ IMP પૂર્વધારણા 6.1 છે).</p>
+                        <div style='text-align:center;'>
+                            <svg width="200" height="80" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="60" x2="180" y2="60" stroke="#166534" stroke-width="3"/>
+                                <line x1="100" y1="60" x2="140" y2="10" stroke="#166534" stroke-width="3"/>
+                                <path d="M 125 60 A 25 25 0 0 0 115 40" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 115 40 A 25 25 0 0 0 75 60" fill="none" stroke="#0284c7" stroke-width="2"/>
+                                <text x="135" y="55" fill="#ea580c" font-size="12" font-weight="bold">y</text>
+                                <text x="85" y="50" fill="#0284c7" font-size="12" font-weight="bold">x</text>
+                            </svg>
+                            <p style='margin:0; font-size:14px; font-weight:bold; color:#166534;'>અહીં x + y = 180°</p>
+                        </div>
+                    </div>
+
+                    <div style='border:2px solid #1d4ed8; padding:15px; border-radius:10px; background-color:#eff6ff;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>2. અભિકોણ (Vertically Opposite Angles):</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px;'>જ્યારે બે રેખાઓ એકબીજાને છેદે, ત્યારે <b>સામસામે બનતા ખૂણાઓને</b> અભિકોણ કહે છે.<br><b style='color:#be123c;'>પ્રમેય 6.1: અભિકોણો હંમેશા સમાન હોય છે.</b> (એટલે કે સામસામેના ખૂણા સરખા હોય).</p>
+                        <div style='text-align:center;'>
+                            <svg width="200" height="120" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="40" y1="20" x2="160" y2="100" stroke="#1d4ed8" stroke-width="3"/>
+                                <line x1="160" y1="20" x2="40" y2="100" stroke="#1d4ed8" stroke-width="3"/>
+                                
+                                <path d="M 115 50 A 20 20 0 0 0 85 50" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                <path d="M 85 70 A 20 20 0 0 0 115 70" fill="none" stroke="#ea580c" stroke-width="3"/>
+                                
+                                <text x="95" y="45" fill="#ea580c" font-size="14" font-weight="bold">a</text>
+                                <text x="95" y="85" fill="#ea580c" font-size="14" font-weight="bold">c</text>
+                                <text x="70" y="65" fill="#047857" font-size="14" font-weight="bold">d</text>
+                                <text x="120" y="65" fill="#047857" font-size="14" font-weight="bold">b</text>
+                            </svg>
+                            <p style='margin:0; font-size:14px; font-weight:bold; color:#1e3a8a;'>અહીં a = c અને b = d થાય.</p>
+                        </div>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "🌟 છેદિકાથી બનતા ખૂણાઓ (સૌથી પાવરફુલ શોર્ટકટ ટ્રીક)", 
+                answer: `
+                <p style='color:#334155;'>જ્યારે બે સમાંતર રેખાઓને કોઈ ત્રીજી રેખા (છેદિકા) કાપે, ત્યારે 8 ખૂણા બને છે. તેને યાદ રાખવા ગોખણપટ્ટી કરવાની જરૂર નથી, બસ અંગ્રેજીના <b>Z, F અને C</b> આલ્ફાબેટ યાદ રાખો!</p>
+                
+                <div style='display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:15px;'>
+                    
+                    <div style='width:280px; padding:15px; border:2px dashed #b45309; border-radius:10px; background-color:#fffbeb;'>
+                        <h4 style='color:#b45309; margin:0 0 5px 0; text-align:center;'>'Z' આકાર = અંતઃયુગ્મકોણ</h4>
+                        <div style='display:flex; align-items:center; justify-content:center; gap:15px;'>
+                            <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 10 20 L 70 20 L 20 60 L 80 60" fill="none" stroke="#b45309" stroke-width="4" stroke-linejoin="round"/>
+                                <path d="M 45 20 A 15 15 0 0 1 35 30" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 55 50 A 15 15 0 0 1 45 60" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            </svg>
+                            <p style='font-size:13px; color:#854d0e; margin:0;'>સમાંતર રેખાઓ વચ્ચે બનતો <b>Z</b> આકાર (સીધો કે ઉલટો). <br><br><b style='color:#be123c;'>યુગ્મકોણો હંમેશા સમાન (Equal) હોય છે.</b></p>
+                        </div>
+                    </div>
+
+                    <div style='width:280px; padding:15px; border:2px dashed #0369a1; border-radius:10px; background-color:#f0f9ff;'>
+                        <h4 style='color:#0369a1; margin:0 0 5px 0; text-align:center;'>'F' આકાર = અનુકોણ</h4>
+                        <div style='display:flex; align-items:center; justify-content:center; gap:15px;'>
+                            <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 30 10 L 30 70 M 30 25 L 70 25 M 30 55 L 70 55" fill="none" stroke="#0369a1" stroke-width="4" stroke-linejoin="round"/>
+                                <path d="M 45 25 A 15 15 0 0 1 30 40" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 45 55 A 15 15 0 0 1 30 70" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            </svg>
+                            <p style='font-size:13px; color:#0c4a6e; margin:0;'>સમાંતર રેખાઓ અને છેદિકાથી બનતો <b>F</b> આકાર (સીધો, ઉલટો કે આડો). <br><br><b style='color:#be123c;'>અનુકોણો હંમેશા સમાન (Equal) હોય છે.</b></p>
+                        </div>
+                    </div>
+
+                    <div style='width:280px; padding:15px; border:2px dashed #15803d; border-radius:10px; background-color:#f0fdf4;'>
+                        <h4 style='color:#15803d; margin:0 0 5px 0; text-align:center;'>'C' આકાર = છેદિકાની એક જ તરફના અંતઃકોણો</h4>
+                        <div style='display:flex; align-items:center; justify-content:center; gap:15px;'>
+                            <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 70 20 L 20 20 L 20 60 L 70 60" fill="none" stroke="#15803d" stroke-width="4" stroke-linejoin="round"/>
+                                <path d="M 40 20 A 20 20 0 0 0 20 40" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                <path d="M 40 60 A 20 20 0 0 1 20 40" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            </svg>
+                            <p style='font-size:13px; color:#14532d; margin:0;'>બે સમાંતર રેખાઓની અંદરની બાજુએ બનતો <b>C</b> આકાર (સીધો કે ઉલટો). <br><br><b style='color:#be123c;'>આ બે ખૂણાઓ પૂરક હોય છે. (સરવાળો = 180°).</b></p>
+                        </div>
+                    </div>
+
+                </div>` 
+            },
+            { 
+                question: "ત્રિકોણના ખૂણાઓના સરવાળાનો ગુણધર્મ અને બહિષ્કોણ", 
+                answer: `
+                <div style='background-color:#fff7ed; padding:12px; border-left:4px solid #ea580c; margin-bottom:15px;'>
+                    <b style='color:#c2410c;'>પ્રમેય 6.7:</b> ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો <b>180°</b> થાય છે.<br>
+                    (∠A + ∠B + ∠C = 180°)
+                </div>
+                
+                <div style='border:1px solid #cbd5e1; padding:15px; border-radius:8px; background-color:#f8fafc;'>
+                    <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>બહિષ્કોણ (Exterior Angle) નો પ્રમેય (પ્રમેય 6.8):</h4>
+                    <p style='margin:0 0 10px 0; font-size:14px;'>જો ત્રિકોણની કોઈ એક બાજુને લંબાવવામાં આવે, તો તેથી બનતા બહારના ખૂણા (બહિષ્કોણ) નું માપ <b>બે અંતઃસંમુખકોણોના સરવાળા જેટલું</b> હોય છે.</p>
+                    
+                    <div style='text-align:center;'>
+                        <svg width="250" height="120" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,100 150,100 100,20" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                            <line x1="150" y1="100" x2="220" y2="100" stroke="#1d4ed8" stroke-width="2"/>
+                            
+                            <path d="M 165 100 A 15 15 0 0 0 137 80" fill="none" stroke="#be123c" stroke-width="2"/>
+                            <text x="165" y="80" fill="#be123c" font-size="12" font-weight="bold">x</text>
+                            
+                            <path d="M 90 40 A 20 20 0 0 0 110 40" fill="none" stroke="#047857" stroke-width="2"/>
+                            <text x="100" y="55" fill="#047857" font-size="12" font-weight="bold">a</text>
+                            
+                            <path d="M 70 100 A 20 20 0 0 1 62 82" fill="none" stroke="#047857" stroke-width="2"/>
+                            <text x="75" y="95" fill="#047857" font-size="12" font-weight="bold">b</text>
+                        </svg>
+                        <p style='margin:0; font-size:16px; font-weight:bold; color:#be123c;'>સૂત્ર: x = a + b</p>
+                    </div>
+                </div>` 
+            }
+        ]
+    },
+
+                
 
 };
