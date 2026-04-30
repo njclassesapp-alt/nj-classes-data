@@ -503,6 +503,132 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 4: દ્વિચલ સુરેખ સમીકરણો
+    // ------------------------------------
+    "4": {
+        "chapterName": "પ્રકરણ 4",
+        "chapterTitle": "દ્વિચલ સુરેખ સમીકરણો",
+        "qa_list": [
+            { 
+                question: "દ્વિચલ સુરેખ સમીકરણનો અર્થ અને પ્રમાણિત સ્વરૂપ", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <h4 style='color:#1e3a8a; margin-top:0;'>નામની સમજૂતી:</h4>
+                    <ul style='color:#334155; margin-bottom:10px;'>
+                        <li><b>દ્વિચલ:</b> જેમાં બે ચલ (સામાન્ય રીતે x અને y) હોય.</li>
+                        <li><b>સુરેખ:</b> જેમાં બંને ચલની મહત્તમ ઘાત ૧ જ હોય (કોઈ વર્ગ કે ઘન ન હોય).</li>
+                    </ul>
+                    
+                    <div style='background-color:#fff; padding:10px; border:1px solid #bae6fd; border-radius:5px;'>
+                        <b style='color:#ea580c;'>પ્રમાણિત સ્વરૂપ (Standard Form):</b><br>
+                        <div style='font-size:18px; font-weight:bold; color:#be123c; text-align:center; margin:10px 0;'>ax + by + c = 0</div>
+                        <p style='margin:0; font-size:14px; color:#64748b;'>જ્યાં a, b અને c વાસ્તવિક સંખ્યાઓ છે.<br>
+                        <b>શરત:</b> a અને b એકસાથે શૂન્ય ન હોવા જોઈએ. આ શરતને ગણિતની ભાષામાં <b>a² + b² ≠ 0</b> લખાય છે.</p>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "સમીકરણના ઉકેલ (Solutions of an Equation)", 
+                answer: `
+                <p>ચલ x અને y ની એવી કિંમતોની જોડ <b>(x, y)</b> જે સમીકરણનું સમાધાન કરે (એટલે કે ડાબી બાજુ = જમણી બાજુ થાય), તેને સમીકરણનો ઉકેલ કહે છે.</p>
+                
+                <div style='display:flex; flex-direction:column; gap:10px;'>
+                    <div style='border:1px solid #16a34a; padding:10px; border-radius:8px; background-color:#f0fdf4;'>
+                        <h4 style='color:#166534; margin:0 0 5px 0;'>કેટલા ઉકેલ મળે?</h4>
+                        <p style='margin:0; font-size:15px;'>કોઈપણ દ્વિચલ સુરેખ સમીકરણને <b>અનંત (અસંખ્ય) ઉકેલો</b> મળે છે. કારણ કે x ની દરેક કિંમત માટે y ની કોઈ ચોક્કસ કિંમત મળે જ છે.</p>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:12px; border-left:4px solid #ca8a04; margin-top:15px;'>
+                    💡 <b>ઉકેલ શોધવાની સૌથી સરળ ટ્રીક:</b> 
+                    <br>કોઈપણ સમીકરણના બે ઉકેલ ફટાફટ શોધવા માટે વારાફરતી શૂન્ય (0) નો ઉપયોગ કરો.
+                    <br>૧. પહેલા <b>x = 0</b> મૂકો અને y ની કિંમત શોધો.
+                    <br>૨. પછી <b>y = 0</b> મૂકો અને x ની કિંમત શોધો.
+                </div>` 
+            },
+            { 
+                question: "દ્વિચલ સુરેખ સમીકરણનો આલેખ (Graph of Linear Equation)", 
+                answer: `
+                <p>દ્વિચલ સુરેખ સમીકરણ (ax + by + c = 0) નો આલેખ હંમેશા <b>એક સીધી રેખા (Straight Line)</b> મળે છે.</p>
+                
+                <div style='text-align:center; margin: 20px 0; overflow-x:auto;'>
+                    <svg width="300" height="300" viewBox="-50 -50 250 250" xmlns="http://www.w3.org/2000/svg" style="max-width:100%; height:auto; background-color:#f8fafc; border-radius:10px; border:1px solid #cbd5e1;">
+                        
+                        <g stroke="#e2e8f0" stroke-width="1">
+                            <line x1="-50" y1="50" x2="200" y2="50"/>
+                            <line x1="-50" y1="100" x2="200" y2="100"/>
+                            <line x1="-50" y1="150" x2="200" y2="150"/>
+                            <line x1="50" y1="-50" x2="50" y2="200"/>
+                            <line x1="100" y1="-50" x2="100" y2="200"/>
+                            <line x1="150" y1="-50" x2="150" y2="200"/>
+                        </g>
+
+                        <line x1="-50" y1="150" x2="200" y2="150" stroke="#1e3a8a" stroke-width="2"/> <line x1="0" y1="200" x2="0" y2="-50" stroke="#1e3a8a" stroke-width="2"/> <text x="180" y="165" fill="#1e3a8a" font-weight="bold" font-size="12">X</text>
+                        <text x="-15" y="-35" fill="#1e3a8a" font-weight="bold" font-size="12">Y</text>
+                        
+                        <text x="45" y="165" fill="#64748b" font-size="10">1</text>
+                        <text x="95" y="165" fill="#64748b" font-size="10">2</text>
+                        <text x="145" y="165" fill="#64748b" font-size="10">3</text>
+                        <text x="-15" y="105" fill="#64748b" font-size="10">1</text>
+                        <text x="-15" y="55" fill="#64748b" font-size="10">2</text>
+                        <text x="-15" y="5" fill="#64748b" font-size="10">3</text>
+                        
+                        <text x="-12" y="165" fill="#ea580c" font-weight="bold" font-size="12">O</text>
+
+                        <line x1="-20" y1="170" x2="170" y2="-20" stroke="#be123c" stroke-width="3"/>
+                        
+                        <circle cx="0" cy="0" r="4" fill="#047857"/> <text x="10" y="-5" fill="#047857" font-weight="bold" font-size="12">(0, 3)</text>
+                        
+                        <circle cx="150" cy="150" r="4" fill="#047857"/> <text x="130" y="140" fill="#047857" font-weight="bold" font-size="12">(3, 0)</text>
+
+                        <rect x="70" y="20" width="70" height="20" rx="4" fill="#ffffff" stroke="#be123c"/>
+                        <text x="78" y="34" fill="#be123c" font-weight="bold" font-size="12">x + y = 3</text>
+                        
+                    </svg>
+                    <p style='font-size:12px; color:#6b7280; margin-top:5px;'>આકૃતિ 4.1: સમીકરણનો આલેખ સીધી રેખા છે</p>
+                </div>` 
+            },
+            { 
+                question: "🌟 મોસ્ટ IMP: વિશિષ્ટ રેખાઓના સમીકરણ અને આલેખ", 
+                answer: `
+                <p>બોર્ડની પરીક્ષામાં હેતુલક્ષી પ્રશ્નો માટે નીચેનું કોષ્ટક ખૂબ જ અગત્યનું છે:</p>
+                <div style='overflow-x:auto;'>
+                    <table style='width:100%; border-collapse: collapse; text-align:left; min-width:320px; font-size:15px;'>
+                        <tr style='background-color:#ea580c; color:white;'>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>સમીકરણનું સ્વરૂપ</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>આલેખની સ્થિતિ (રેખા કેવી મળે?)</th>
+                        </tr>
+                        <tr style='background-color:#fff7ed;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#1e3a8a;'>x = a<br><span style='font-size:12px; font-weight:normal;'>(દા.ત. x = 5)</span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>આ રેખા <b>Y-અક્ષને સમાંતર</b> અને X-અક્ષને લંબ હોય છે.</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#1e3a8a;'>y = b<br><span style='font-size:12px; font-weight:normal;'>(દા.ત. y = -3)</span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>આ રેખા <b>X-અક્ષને સમાંતર</b> અને Y-અક્ષને લંબ હોય છે.</td>
+                        </tr>
+                        <tr style='background-color:#fefce8;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#1e3a8a;'>y = mx<br><span style='font-size:12px; font-weight:normal;'>(દા.ત. y = 2x)</span></td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#b45309; font-weight:bold;'>આ રેખા હંમેશા <b>ઉગમબિંદુ (0,0)</b> માંથી પસાર થાય છે. (અહીં અચળ પદ 'c' શૂન્ય છે).</td>
+                        </tr>
+                        <tr style='background-color:#f0fdf4;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#166534;'>x = 0</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>પોતે <b>Y-અક્ષ</b> જ છે.</td>
+                        </tr>
+                        <tr style='background-color:#f0fdf4;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#166534;'>y = 0</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>પોતે <b>X-અક્ષ</b> જ છે.</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #1e3a8a; margin-top:12px;'>
+                    <b>🎯 એક્ઝામ ટ્રીક:</b> જો પ્રશ્નમાં પૂછાય કે <b>"x = 5 નો આલેખ કયા અક્ષને સમાંતર છે?"</b> <br>
+                    -> સીધો જવાબ: જે અક્ષનું નામ સમીકરણમાં <b>નથી</b> આપ્યું તેને સમાંતર હોય! (અહીં 'x' આપ્યો છે, એટલે આલેખ 'Y' અક્ષને સમાંતર હોય).
+                </div>` 
+            }
+        ]
+    },
 
 
 
