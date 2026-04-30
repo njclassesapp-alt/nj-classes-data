@@ -1511,7 +1511,168 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 10: હેરોનનું સૂત્ર
+    // ------------------------------------
+    "10": {
+        "chapterName": "પ્રકરણ 10",
+        "chapterTitle": "હેરોનનું સૂત્ર",
+        "qa_list": [
+            { 
+                question: "ત્રિકોણનું ક્ષેત્રફળ શોધવાનું સામાન્ય સૂત્ર (જ્યારે વેધ આપેલ હોય)", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#1e3a8a; font-size:14px;'>જ્યારે કોઈ ત્રિકોણનો પાયો (Base) અને તેના પરનો વેધ (Height/Altitude) આપેલ હોય, ત્યારે ક્ષેત્રફળ શોધવા માટે નીચેના સૂત્રનો ઉપયોગ થાય છે:</p>
+                    <div style='text-align:center; margin:10px 0;'>
+                        <span style='background-color:#e0f2fe; color:#0369a1; padding:8px 15px; border-radius:5px; font-weight:bold; font-size:16px; border:1px solid #bae6fd;'>
+                            ત્રિકોણનું ક્ષેત્રફળ = &frac12; × પાયો × વેધ
+                        </span>
+                    </div>
+                </div>
                 
+                <div style='display:flex; justify-content:center; margin:15px 0;'>
+                    <svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="20,120 180,120 70,30" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2"/>
+                        <line x1="70" y1="30" x2="70" y2="120" stroke="#ea580c" stroke-width="2" stroke-dasharray="5,5"/>
+                        <rect x="70" y="110" width="10" height="10" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                        
+                        <text x="75" y="80" fill="#ea580c" font-weight="bold" font-size="12">વેધ (h)</text>
+                        <text x="95" y="140" fill="#1e3a8a" font-weight="bold" font-size="14">પાયો (b)</text>
+                    </svg>
+                </div>
+                <div style='background-color:#fffbeb; padding:10px; border-radius:5px; border:1px dashed #ca8a04;'>
+                    💡 <b>નોંધ:</b> કાટકોણ ત્રિકોણમાં કાટખૂણો બનાવતી બે બાજુઓમાંથી એકને પાયો અને બીજીને વેધ તરીકે લઈ શકાય છે.
+                </div>` 
+            },
+            { 
+                question: "હેરોનનું સૂત્ર (જ્યારે માત્ર ત્રણેય બાજુઓ આપેલી હોય)", 
+                answer: `
+                <p style='color:#334155; margin-bottom:10px;'>જ્યારે ત્રિકોણની ત્રણેય બાજુઓના માપ (a, b અને c) આપેલા હોય, પરંતુ <b>વેધ (ઊંચાઈ) આપેલી ન હોય</b>, ત્યારે ત્રિકોણનું ક્ષેત્રફળ શોધવા માટે ઇજિપ્તના ગણિતશાસ્ત્રી <b>હેરોન (Heron)</b> દ્વારા આપવામાં આવેલ સૂત્રનો ઉપયોગ થાય છે.</p>
+                
+                <div style='border:2px solid #be123c; padding:20px; border-radius:10px; background-color:#fff1f2; text-align:center;'>
+                    <h4 style='color:#9f1239; margin:0 0 15px 0; font-size:18px;'>હેરોનનું સૂત્ર (Heron's Formula)</h4>
+                    
+                    <div style='display:inline-block; font-size:22px; font-weight:bold; color:#be123c; padding:10px; border-top:2px solid #be123c; position:relative;'>
+                        <span style='position:absolute; left:-20px; top:5px; font-size:24px;'>&radic;</span>
+                        s (s - a) (s - b) (s - c)
+                    </div>
+                </div>
+
+                <div style='display:flex; justify-content:center; align-items:center; gap:20px; margin-top:20px; flex-wrap:wrap;'>
+                    <svg width="180" height="130" xmlns="http://www.w3.org/2000/svg">
+                        <polygon points="10,110 160,110 60,20" fill="#f0fdf4" stroke="#047857" stroke-width="2"/>
+                        <text x="80" y="125" fill="#047857" font-weight="bold" font-size="14">બાજુ a</text>
+                        <text x="15" y="60" fill="#047857" font-weight="bold" font-size="14">બાજુ c</text>
+                        <text x="115" y="60" fill="#047857" font-weight="bold" font-size="14">બાજુ b</text>
+                    </svg>
+                    
+                    <div style='background-color:#ffffff; padding:10px; border:1px solid #cbd5e1; border-radius:8px; min-width:150px;'>
+                        <p style='margin:0; font-size:14px; color:#1e3a8a;'><b>જ્યાં:</b><br>
+                        <b>a, b, c</b> = ત્રિકોણની ત્રણેય બાજુઓના માપ<br>
+                        <b>s</b> = અર્ધપરિમિતિ (Semi-perimeter)</p>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "અર્ધપરિમિતિ (Semi-perimeter - s) એટલે શું?", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #0369a1; border-radius:8px;'>
+                    <ul style='line-height:1.8; color:#0c4a6e; margin:0;'>
+                        <li><b>પરિમિતિ (Perimeter):</b> ત્રિકોણની ત્રણેય બાજુઓના માપનો સરવાળો. (પરિમિતિ = a + b + c)</li>
+                        <li><b>અર્ધપરિમિતિ (s):</b> પરિમિતિના અડધા માપને અર્ધપરિમિતિ કહે છે. તેને અંગ્રેજી મૂળાક્ષર <b>'s'</b> વડે દર્શાવાય છે.</li>
+                    </ul>
+                    <div style='text-align:center; margin-top:10px;'>
+                        <span style='font-size:18px; font-weight:bold; color:#ea580c; background-color:#ffffff; padding:5px 15px; border-radius:5px; border:1px solid #fed7aa;'>
+                            s = (a + b + c) / 2
+                        </span>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "🌟 મોસ્ટ IMP ટ્રીક: હેરોનના સૂત્રમાં વર્ગમૂળ સરળતાથી કાઢવાની રીત", 
+                answer: `
+                <p style='color:#334155;'>વિદ્યાર્થીઓ સામાન્ય રીતે બધી સંખ્યાઓનો મોટો ગુણાકાર કરી દે છે અને પછી તેનું વર્ગમૂળ શોધવામાં અટવાઈ જાય છે. આવું <b>ક્યારેય ન કરવું!</b> નીચેની ટ્રીક વાપરો:</p>
+                
+                <div style='border:2px dashed #ca8a04; padding:15px; border-radius:10px; background-color:#fefce8;'>
+                    <h4 style='color:#b45309; margin:0 0 10px 0;'>🔥 ટ્રીક: "ગુણાકાર નહિ, ભાગ પાડો અને જોડી બનાવો!"</h4>
+                    <ol style='color:#854d0e; font-size:14px; margin:0; padding-left:20px; line-height:1.8;'>
+                        <li>s, (s-a), (s-b) અને (s-c) ની જે કિંમત મળે, તેનો ગુણાકાર કરવાની બદલે તેના <b>નાના નાના અવયવ (Factors)</b> પાડો.</li>
+                        <li>વર્ગમૂળની અંદર સમાન સંખ્યાની <b>બે-બે ની જોડી (Pair)</b> બનાવો.</li>
+                        <li>જે સંખ્યાની જોડી બને, તેને વર્ગમૂળની <b>બહાર એક વખત</b> લખી લો!</li>
+                    </ol>
+                </div>
+                
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #e2e8f0; border-radius:8px; margin-top:15px;'>
+                    <b style='color:#1e3a8a;'>ઉદાહરણ તરીકે:</b><br>
+                    ધારો કે સૂત્રમાં કિંમત મૂક્યા પછી આવું આવ્યું: &radic;( 21 &times; 8 &times; 14 &times; 3 )
+                    <br><br>
+                    <b>ખોટી રીત ❌:</b> બધાનો ગુણાકાર = &radic;(7056) -> હવે આનું વર્ગમૂળ ગોતવું અઘરું પડે!
+                    <br><br>
+                    <b>સાચી ટ્રીક ✅:</b> <br>
+                    = &radic;( [7 &times; 3] &times; [2 &times; 2 &times; 2] &times; [7 &times; 2] &times; [3] ) <span style='font-size:12px; color:#64748b;'>... (અવયવ પાડ્યા)</span><br>
+                    = &radic;( <u>7 &times; 7</u> &times; <u>3 &times; 3</u> &times; <u>2 &times; 2</u> &times; <u>2 &times; 2</u> ) <span style='font-size:12px; color:#64748b;'>... (સરખી સંખ્યાઓ પાસે લાવ્યા)</span><br>
+                    <span style='color:#047857; font-weight:bold;'>= 7 &times; 3 &times; 2 &times; 2 <br>
+                    = 84 જવાબ! (વર્ગમૂળ ગાયબ!)</span>
+                </div>` 
+            },
+            { 
+                question: "સમબાજુ ત્રિકોણનું ક્ષેત્રફળ (સીધું સૂત્ર)", 
+                answer: `
+                <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
+                    <p style='margin:top:0; color:#14532d;'>હેતુલક્ષી પ્રશ્નો અથવા ટૂંકા દાખલા માટે સમબાજુ ત્રિકોણ (જેની ત્રણેય બાજુઓ 'a' સમાન હોય) નું સીધું સૂત્ર યાદ રાખવું વધુ સહેલું છે.</p>
+                    
+                    <div style='text-align:center; margin:15px 0;'>
+                        <svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="60,10 10,100 110,100" fill="#f8fafc" stroke="#166534" stroke-width="2"/>
+                            <line x1="25" y1="55" x2="35" y2="55" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="85" y1="55" x2="95" y2="55" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="60" y1="95" x2="60" y2="105" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <text x="15" y="50" fill="#166534" font-weight="bold">a</text>
+                            <text x="95" y="50" fill="#166534" font-weight="bold">a</text>
+                            <text x="55" y="115" fill="#166534" font-weight="bold">a</text>
+                        </svg>
+                    </div>
+
+                    <div style='text-align:center;'>
+                        <span style='font-size:18px; font-weight:bold; color:#166534; padding:8px; border-bottom:2px dashed #16a34a;'>
+                            ક્ષેત્રફળ = ( &radic;3 / 4 ) × (બાજુ)&sup2;
+                        </span>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "ચતુષ્કોણનું ક્ષેત્રફળ શોધવામાં હેરોનના સૂત્રનો ઉપયોગ", 
+                answer: `
+                <p style='color:#334155;'>જો કોઈ સામાન્ય ચતુષ્કોણની ચારેય બાજુઓ અને એક વિકર્ણનું માપ આપેલું હોય, તો તેનું ક્ષેત્રફળ હેરોનના સૂત્રથી શોધી શકાય છે.</p>
+                
+                <div style='display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:20px; border:1px solid #cbd5e1; padding:15px; border-radius:10px; background-color:#ffffff;'>
+                    <div style='text-align:center;'>
+                        <svg width="160" height="140" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="20,80 100,120 140,40 50,20" fill="#f0f9ff" stroke="#1e3a8a" stroke-width="2"/>
+                            <line x1="20" y1="80" x2="140" y2="40" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <text x="60" y="55" fill="#1e3a8a" font-weight="bold" font-size="14">T1</text>
+                            <text x="90" y="90" fill="#1e3a8a" font-weight="bold" font-size="14">T2</text>
+                            <text x="5" y="90" fill="#ea580c" font-size="12" font-weight="bold">A</text>
+                            <text x="95" y="135" fill="#ea580c" font-size="12" font-weight="bold">B</text>
+                            <text x="145" y="40" fill="#ea580c" font-size="12" font-weight="bold">C</text>
+                            <text x="45" y="12" fill="#ea580c" font-size="12" font-weight="bold">D</text>
+                        </svg>
+                    </div>
+                    
+                    <div style='flex:1; min-width:200px;'>
+                        <h4 style='color:#ea580c; margin:0 0 5px 0;'>રીત:</h4>
+                        <ol style='color:#475569; font-size:14px; margin:0; padding-left:20px;'>
+                            <li>વિકર્ણ દોરવાથી ચતુષ્કોણ બે અલગ-અલગ ત્રિકોણો (T1 અને T2) માં વહેંચાઈ જશે.</li>
+                            <li>બંને ત્રિકોણ માટે અલગ-અલગ <b>હેરોનનું સૂત્ર</b> વાપરી ક્ષેત્રફળ શોધો.</li>
+                            <li>છેલ્લે બંને ક્ષેત્રફળનો <b>સરવાળો</b> કરો.</li>
+                        </ol>
+                    </div>
+                </div>` 
+            }
+        ]
+    },
 
 
                 
