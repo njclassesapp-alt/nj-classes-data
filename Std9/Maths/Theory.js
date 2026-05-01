@@ -1673,7 +1673,290 @@ var njMathsTheory= {
             }
         ]
     },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 11: પૃષ્ઠફળ અને ઘનફળ
+    // ------------------------------------
+    "11": {
+        "chapterName": "પ્રકરણ 11",
+        "chapterTitle": "પૃષ્ઠફળ અને ઘનફળ",
+        "qa_list": [
+            { 
+                question: "લંબવૃત્તીય શંકુ (Right Circular Cone) ના માપ", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#1e3a8a; font-size:14px;'>જોકરની ટોપી કે આઈસ્ક્રીમનો કોન એ શંકુના ઉદાહરણો છે. શંકુમાં મુખ્ય ત્રણ માપ હોય છે:</p>
+                    <ul style='color:#334155; margin-bottom:0;'>
+                        <li><b>ત્રિજ્યા (r):</b> પાયાના વર્તુળની ત્રિજ્યા.</li>
+                        <li><b>ઊંચાઈ (h):</b> શંકુની સીધી (શિરોલંબ) ઊંચાઈ.</li>
+                        <li><b>ત્રાંસી ઊંચાઈ (l):</b> શંકુની તિર્યક (Slant) ઊંચાઈ.</li>
+                    </ul>
+                </div>
+                
+                <div style='display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:20px;'>
+                    <div style='text-align:center;'>
+                        <svg width="160" height="180" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="80" cy="140" rx="60" ry="20" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            <path d="M 20 140 L 80 20 L 140 140" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <ellipse cx="80" cy="140" rx="60" ry="20" fill="none" stroke="#1e3a8a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            
+                            <line x1="80" y1="20" x2="80" y2="140" stroke="#be123c" stroke-width="2" stroke-dasharray="3,3"/>
+                            <text x="65" y="90" fill="#be123c" font-size="14" font-weight="bold">h</text>
+                            
+                            <line x1="80" y1="140" x2="140" y2="140" stroke="#047857" stroke-width="2"/>
+                            <text x="105" y="155" fill="#047857" font-size="14" font-weight="bold">r</text>
+                            
+                            <text x="120" y="80" fill="#ea580c" font-size="14" font-weight="bold">l</text>
+                            <rect x="80" y="130" width="10" height="10" fill="none" stroke="#be123c"/>
+                        </svg>
+                    </div>
+                    
+                    <div style='flex:1; min-width:200px; border:2px dashed #ea580c; padding:15px; border-radius:10px; background-color:#fff7ed;'>
+                        <h4 style='color:#c2410c; margin:0 0 10px 0;'>પાયથાગોરસ પરથી ત્રાંસી ઊંચાઈ:</h4>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#9a3412;'>આકૃતિમાં કાટકોણ ત્રિકોણ બને છે, તેથી:</p>
+                        <div style='font-size:20px; font-weight:bold; color:#be123c; text-align:center; margin:10px 0;'>
+                            l&sup2; = r&sup2; + h&sup2;
+                        </div>
+                        <p style='margin:0; font-size:13px; color:#ea580c;'>(કોઈપણ બે માપ આપ્યા હોય તો ત્રીજું આ સૂત્રથી મળે).</p>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "શંકુના પૃષ્ઠફળ અને ઘનફળના સૂત્રો", 
+                answer: `
+                <div style='overflow-x:auto; background-color:#ffffff; border-radius:10px; border:1px solid #e2e8f0;'>
+                    <table style='width:100%; border-collapse: collapse; text-align:left; min-width:320px; font-size:15px;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:12px; border:1px solid #cbd5e1;'>શોધવાનું શું છે?</th>
+                            <th style='padding:12px; border:1px solid #cbd5e1;'>સૂત્ર</th>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#0369a1; font-weight:bold;'>૧. શંકુની વક્રસપાટીનું ક્ષેત્રફળ<br><span style='font-size:12px; font-weight:normal;'>(માત્ર બહારની વળાંકવાળી સપાટી)</span></td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:18px; font-weight:bold; color:#ea580c;'>&pi;rl</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#0369a1; font-weight:bold;'>૨. શંકુનું કુલ પૃષ્ઠફળ<br><span style='font-size:12px; font-weight:normal;'>(વક્રસપાટી + તળિયું)</span></td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:18px; font-weight:bold; color:#ea580c;'>&pi;r(r + l)</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#15803d; font-weight:bold;'>૩. શંકુનું ઘનફળ<br><span style='font-size:12px; font-weight:normal;'>(અંદર સમાઈ શકતી વસ્તુનું માપ)</span></td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:18px; font-weight:bold; color:#047857;'>&frac13; &pi;r&sup2;h</td>
+                        </tr>
+                    </table>
+                </div>` 
+            },
+            { 
+                question: "ગોલક અને અર્ધગોલક (Sphere & Hemisphere)", 
+                answer: `
+                <div style='display:flex; flex-wrap:wrap; gap:15px; justify-content:center;'>
+                    
+                    <div style='flex:1; min-width:260px; border:1px solid #cbd5e1; padding:15px; border-radius:8px; background-color:#ffffff;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0; text-align:center;'>ગોલક (Sphere - દા.ત. દડો)</h4>
+                        <div style='text-align:center;'>
+                            <svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="60" cy="60" r="50" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                                <ellipse cx="60" cy="60" rx="50" ry="15" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,4"/>
+                                <circle cx="60" cy="60" r="3" fill="#be123c"/>
+                                <line x1="60" y1="60" x2="110" y2="60" stroke="#be123c" stroke-width="2"/>
+                                <text x="80" y="55" fill="#be123c" font-size="14" font-weight="bold">r</text>
+                            </svg>
+                        </div>
+                        <ul style='color:#334155; font-size:14px; margin:10px 0 0 0; padding-left:20px; line-height:1.8;'>
+                            <li><b>કુલ પૃષ્ઠફળ:</b> <span style='color:#ea580c; font-weight:bold; font-size:16px;'>4&pi;r&sup2;</span></li>
+                            <li><b>ઘનફળ:</b> <span style='color:#047857; font-weight:bold; font-size:16px;'>4/3 &pi;r&sup3;</span></li>
+                        </ul>
+                        <p style='font-size:11px; color:#64748b; margin-top:5px;'>(નોંધ: આખા ગોલકને કોઈ વક્ર કે સીધી સપાટી અલગ હોતી નથી, બધું જ વક્ર હોય છે).</p>
+                    </div>
 
+                    <div style='flex:1; min-width:260px; border:1px solid #cbd5e1; padding:15px; border-radius:8px; background-color:#ffffff;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0; text-align:center;'>અર્ધગોલક (Hemisphere - દા.ત. વાટકી)</h4>
+                        <div style='text-align:center;'>
+                            <svg width="120" height="90" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M 10 30 A 50 50 0 0 0 110 30" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+                                <ellipse cx="60" cy="30" rx="50" ry="15" fill="#fffbeb" stroke="#b45309" stroke-width="2"/>
+                                <circle cx="60" cy="30" r="3" fill="#be123c"/>
+                                <line x1="60" y1="30" x2="110" y2="30" stroke="#be123c" stroke-width="2"/>
+                                <text x="80" y="25" fill="#be123c" font-size="14" font-weight="bold">r</text>
+                            </svg>
+                        </div>
+                        <ul style='color:#334155; font-size:14px; margin:10px 0 0 0; padding-left:20px; line-height:1.8;'>
+                            <li><b>વક્રસપાટીનું ક્ષેત્રફળ (ખુલ્લી વાટકી):</b> <span style='color:#ea580c; font-weight:bold; font-size:16px;'>2&pi;r&sup2;</span></li>
+                            <li><b>કુલ પૃષ્ઠફળ (બંધ વાટકી):</b> <span style='color:#ea580c; font-weight:bold; font-size:16px;'>3&pi;r&sup2;</span></li>
+                            <li><b>ઘનફળ:</b> <span style='color:#047857; font-weight:bold; font-size:16px;'>2/3 &pi;r&sup3;</span></li>
+                        </ul>
+                    </div>
+
+                </div>` 
+            },
+            { 
+                question: "🌟 મોસ્ટ IMP ટ્રીક: પૃષ્ઠફળ અને ઘનફળના સૂત્રોનો શોર્ટકટ", 
+                answer: `
+                <p style='color:#be123c; font-weight:bold; margin-bottom:10px;'>ગોખવા કરતાં માત્ર આટલું લોજિક યાદ રાખો, ક્યારેય ભૂલ નહીં પડે:</p>
+                
+                <div style='background-color:#fefce8; padding:15px; border-radius:10px; border:2px dashed #ca8a04;'>
+                    <ul style='color:#854d0e; font-size:15px; margin:0; padding-left:20px; line-height:1.8;'>
+                        <li><b>પૃષ્ઠફળની ઘાત (Area):</b> કોઈપણ પૃષ્ઠફળ કે ક્ષેત્રફળ હોય, તેમાં <b>r&sup2;</b> જ આવે! (ઘાત 2 હોય).</li>
+                        <li><b>ઘનફળની ઘાત (Volume):</b> કોઈપણ ઘનફળ હોય, તેમાં <b>r&sup3;</b> આવે! (ત્રિપરિમાણ એટલે ઘાત 3 હોય). <i>નોંધ: શંકુમાં r&sup2;h આવે છે, જેમાં r ની 2 ઘાત + h ની 1 ઘાત = કુલ 3 ઘાત જ થાય છે.</i></li>
+                        <hr style='border:1px solid #fde047; margin:10px 0;'>
+                        <li><b>ગોલક સીરીઝ:</b> 
+                            <br>આખો ગોલક = <b>4</b>&pi;r&sup2;
+                            <br>અડધો ગોલક (વક્ર) = 4 ના અડધા = <b>2</b>&pi;r&sup2;
+                            <br>અડધો બંધ ગોલક (વક્ર + ઉપરનું 1 વર્તુળ) = 2 + 1 = <b>3</b>&pi;r&sup2;
+                        </li>
+                    </ul>
+                </div>
+                
+                <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; margin-top:12px;'>
+                    <b>ગણતરી માટેની જાદુઈ ટ્રીક:</b> જો ત્રિજ્યા (r) 7 ની ગુણક હોય (જેમ કે 7, 14, 21), તો &pi; ની કિંમત <b>22/7</b> લેવાથી ગણતરી ફટાફટ ઉડી જશે. અને જો રકમમાં ક્યાંય 7 નો ગુણક ન હોય, તો મોટાભાગે &pi; = <b>3.14</b> લેવું. (રકમમાં આપેલ સૂચના ખાસ વાંચવી).
+                </div>` 
+            }
+        ]
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 12: આંકડાશાસ્ત્ર
+    // ------------------------------------
+    "12": {
+        "chapterName": "પ્રકરણ 12",
+        "chapterTitle": "આંકડાશાસ્ત્ર",
+        "qa_list": [
+            { 
+                question: "આંકડાશાસ્ત્ર અને માહિતીના પ્રકારો", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#1e3a8a; font-size:15px;'><b>આંકડાશાસ્ત્ર (Statistics):</b> માહિતીને એકત્રિત કરવી, વ્યવસ્થિત ગોઠવવી, તેનું વિશ્લેષણ કરવું અને અર્થઘટન કરવું એટલે આંકડાશાસ્ત્ર.</p>
+                </div>
+                
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='border:1px solid #ea580c; padding:12px; border-radius:8px; background-color:#fff7ed;'>
+                        <h4 style='color:#ea580c; margin:0 0 5px 0;'>૧. પ્રાથમિક માહિતી (Primary Data):</h4>
+                        <p style='margin:0; font-size:14px;'>જ્યારે તપાસકર્તાએ કોઈ ચોક્કસ હેતુ રાખીને <b>પોતે જ</b> માહિતી એકત્ર કરી હોય. (દા.ત. તમારા ક્લાસના વિદ્યાર્થીઓની ઊંચાઈ તમે પોતે માપો).</p>
+                    </div>
+                    <div style='border:1px solid #047857; padding:12px; border-radius:8px; background-color:#f0fdf4;'>
+                        <h4 style='color:#047857; margin:0 0 5px 0;'>૨. ગૌણ માહિતી (Secondary Data):</h4>
+                        <p style='margin:0; font-size:14px;'>જ્યારે માહિતી અગાઉથી જ કોઈ સ્ત્રોત (દા.ત. વર્તમાનપત્ર, ઇન્ટરનેટ, સરકારી દસ્તાવેજ) માં ઉપલબ્ધ હોય અને તેનો ઉપયોગ કરવામાં આવે.</p>
+                    </div>
+                </div>` 
+            },
+            { 
+                question: "માહિતીનું આલેખીય નિરૂપણ - સ્તંભ આલેખ (Bar Graph)", 
+                answer: `
+                <p style='color:#334155;'>જ્યારે માહિતી <b>અસતત (Discrete)</b> હોય અથવા અલગ-અલગ વર્ગોની હોય, ત્યારે તેને સ્તંભ આલેખ દ્વારા દર્શાવાય છે.</p>
+                
+                <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                    <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1;">
+                        <line x1="40" y1="20" x2="40" y2="160" stroke="#1e3a8a" stroke-width="2"/>
+                        <line x1="40" y1="160" x2="260" y2="160" stroke="#1e3a8a" stroke-width="2"/>
+                        
+                        <rect x="60" y="60" width="30" height="100" fill="#3b82f6" rx="2"/>
+                        <text x="75" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">A</text>
+                        
+                        <rect x="110" y="90" width="30" height="70" fill="#ea580c" rx="2"/>
+                        <text x="125" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">B</text>
+                        
+                        <rect x="160" y="40" width="30" height="120" fill="#10b981" rx="2"/>
+                        <text x="175" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">C</text>
+                        
+                        <rect x="210" y="110" width="30" height="50" fill="#f59e0b" rx="2"/>
+                        <text x="225" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">D</text>
+                        
+                        <text x="150" y="195" fill="#64748b" font-size="10" text-anchor="middle">વર્ગો/કેટેગરી</text>
+                    </svg>
+                </div>
+                <div style='background-color:#fefce8; padding:10px; border-left:4px solid #ca8a04;'>
+                    💡 <b>ખાસિયત:</b> સ્તંભ આલેખમાં દરેક સ્તંભની <b>પહોળાઈ સમાન</b> હોય છે અને બે સ્તંભ વચ્ચે <b>ચોક્કસ જગ્યા (Gap)</b> રાખવામાં આવે છે.
+                </div>` 
+            },
+            { 
+                question: "લંબાલેખ અથવા સ્તંભાલેખ (Histogram)", 
+                answer: `
+                <p style='color:#334155;'>જ્યારે માહિતી <b>સતત વર્ગો (Continuous Classes)</b> માં હોય (દા.ત. 0-10, 10-20), ત્યારે તેને લંબાલેખ દ્વારા દર્શાવાય છે.</p>
+                
+                <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                    <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1;">
+                        <line x1="40" y1="20" x2="40" y2="160" stroke="#1e3a8a" stroke-width="2"/>
+                        <line x1="40" y1="160" x2="260" y2="160" stroke="#1e3a8a" stroke-width="2"/>
+                        
+                        <rect x="40" y="80" width="40" height="80" fill="#6366f1" stroke="#ffffff" stroke-width="1"/>
+                        <rect x="80" y="50" width="40" height="110" fill="#6366f1" stroke="#ffffff" stroke-width="1"/>
+                        <rect x="120" y="100" width="40" height="60" fill="#6366f1" stroke="#ffffff" stroke-width="1"/>
+                        <rect x="160" y="30" width="40" height="130" fill="#6366f1" stroke="#ffffff" stroke-width="1"/>
+                        <rect x="200" y="110" width="40" height="50" fill="#6366f1" stroke="#ffffff" stroke-width="1"/>
+                        
+                        <text x="40" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">0</text>
+                        <text x="80" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">10</text>
+                        <text x="120" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">20</text>
+                        <text x="160" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">30</text>
+                        <text x="200" y="175" fill="#1e3a8a" font-size="10" text-anchor="middle">40</text>
+                    </svg>
+                </div>
+                <div style='background-color:#fff7ed; padding:10px; border-left:4px solid #ea580c;'>
+                    💡 <b>ખાસિયત:</b> લંબાલેખમાં સ્તંભો એકબીજાને <b>અડેલા (જોડાયેલા)</b> હોય છે, તેમની વચ્ચે જગ્યા હોતી નથી. જો વર્ગો સમાન લંબાઈના ન હોય, તો સ્તંભની ઊંચાઈમાં ફેરફાર કરવો પડે છે.
+                </div>` 
+            },
+            { 
+                question: "આવૃત્તિ બહુકોણ (Frequency Polygon)", 
+                answer: `
+                <p style='color:#334155;'>માહિતીને વધુ સ્પષ્ટ રીતે દર્શાવવા માટે લંબાલેખના દરેક સ્તંભના <b>મધ્યબિંદુઓને</b> જોડતી રેખા એટલે આવૃત્તિ બહુકોણ.</p>
+                
+                <div style='text-align:center; margin: 15px 0; overflow-x:auto;'>
+                    <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg" style="background-color:#f8fafc; border-radius:10px; border:1px solid #cbd5e1;">
+                        <line x1="40" y1="160" x2="260" y2="160" stroke="#64748b" stroke-width="1"/>
+                        
+                        <path d="M 40 160 L 60 100 L 100 60 L 140 120 L 180 40 L 220 140 L 260 160" fill="none" stroke="#be123c" stroke-width="3"/>
+                        
+                        <circle cx="60" cy="100" r="4" fill="#be123c"/>
+                        <circle cx="100" cy="60" r="4" fill="#be123c"/>
+                        <circle cx="140" cy="120" r="4" fill="#be123c"/>
+                        <circle cx="180" cy="40" r="4" fill="#be123c"/>
+                        <circle cx="220" cy="140" r="4" fill="#be123c"/>
+                    </svg>
+                </div>
+                <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border:1px dashed #16a34a;'>
+                    💡 <b>કેવી રીતે દોરવો?</b> 
+                    <br>૧. દરેક વર્ગનું <b>મધ્યમૂલ્ય (વર્ગચિહ્ન)</b> શોધો. 
+                    <br>૨. <b>વર્ગચિહ્ન = (ઉપલી સીમા + નીચલી સીમા) / 2</b>.
+                    <br>૩. આ બિંદુઓને જોડીને છેલ્લે X-અક્ષ સાથે જોડી દેવા.
+                </div>` 
+            },
+            { 
+                question: "મધ્યવર્તી સ્થિતિના માપ (Measures of Central Tendency)", 
+                answer: `
+                <p style='color:#1e3a8a; font-weight:bold;'>માહિતીના કેન્દ્રને દર્શાવવા માટે ૩ મુખ્ય માપનો ઉપયોગ થાય છે:</p>
+                <div style='overflow-x:auto;'>
+                    <table style='width:100%; border-collapse: collapse; min-width:320px; font-size:14px;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>માપ</th>
+                            <th style='padding:10px; border:1px solid #cbd5e1;'>સૂત્ર / રીત</th>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>મધ્યક (Mean)</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'><b>બધા અવલોકનોનો સરવાળો / અવલોકનોની કુલ સંખ્યા</b><br><span style='color:#64748b;'>(સરેરાશ - Average)</span></td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>મધ્યસ્થ (Median)</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>માહિતીને <b>ચડતા કે ઉતરતા ક્રમમાં</b> ગોઠવ્યા પછી બરાબર <b>મધ્યમાં</b> આવતું અવલોકન.</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>બહુલક (Mode)</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>માહિતીમાં જે અવલોકન <b>સૌથી વધુ વખત (વારંવાર)</b> આવતું હોય તે.</td>
+                        </tr>
+                    </table>
+                </div>` 
+            },
+            { 
+                question: "🌟 એક્ઝામ શોર્ટકટ ટ્રીક્સ (IMP)", 
+                answer: `
+                <div style='background-color:#fffbeb; padding:15px; border-radius:10px; border:2px solid #ca8a04;'>
+                    <ul style='color:#854d0e; font-size:15px; margin:0; padding-left:20px; line-height:1.8;'>
+                        <li><b>મધ્યસ્થ માટે:</b> જો અવલોકનોની સંખ્યા (n) <b>એકી</b> હોય, તો મધ્યસ્થ = <b>(n+1)/2</b> મુ પદ. જો <b>બેકી</b> હોય, તો વચ્ચેના બે પદોની સરેરાશ લેવી.</li>
+                        <li><b>આલેખમાં 'નિક' (Kink/Zig-zag line):</b> જો તમારો આલેખ 0 થી શરૂ ન થતો હોય (દા.ત. સીધો 100 થી શરૂ થાય), તો X-અક્ષ પર ઉગમબિંદુ પાસે <b>ઝિગ-ઝેગ લાઈન (⌇)</b> દોરવી ફરજિયાત છે.</li>
+                        <li><b>સ્તંભાલેખ:</b> જો વર્ગલંબાઈ અસમાન હોય, તો સ્તંભની ઊંચાઈ = (આવૃત્તિ / વર્ગલંબાઈ) × ન્યૂનતમ વર્ગલંબાઈ.</li>
+                    </ul>
+                </div>` 
+            }
+        ]
+    }
+                
+                
 
                 
 
