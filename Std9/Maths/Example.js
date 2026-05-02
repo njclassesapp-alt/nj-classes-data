@@ -1644,7 +1644,335 @@ var njMathsExamples = {
                 </div>`
             }
         ]
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 7: ત્રિકોણ (ઉદાહરણો)
+    // ------------------------------------
+    "7": {
+        "chapterName": "પ્રકરણ 7",
+        "chapterTitle": "ત્રિકોણ (ઉદાહરણો)",
+        "example_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "આકૃતિમાં, OA = OB અને OD = OC છે. સાબિત કરો કે:\n(i) ∆AOD ≅ ∆BOC અને\n(ii) AD || BC", 
+                solution: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>સાબિતીનો તર્ક:</p>
+                    <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં બે બાજુઓ સમાન આપેલી છે. તેમની વચ્ચેનો ખૂણો (અભિકોણ) સમાન બતાવીને આપણે <b>બાખૂબા (બાજુ-ખૂણો-બાજુ)</b> શરતનો ઉપયોગ કરીશું.</p>
+                </div>
+                
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="200" viewBox="0 0 280 200" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="40,40 140,100 40,160" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            <polygon points="240,40 140,100 240,160" fill="#fff1f2" stroke="#be123c" stroke-width="2"/>
+                            
+                            <line x1="40" y1="40" x2="240" y2="160" stroke="#1e3a8a" stroke-width="2"/>
+                            <line x1="40" y1="160" x2="240" y2="40" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <line x1="85" y1="65" x2="95" y2="75" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="185" y1="125" x2="195" y2="135" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <line x1="85" y1="135" x2="95" y2="125" stroke="#6d28d9" stroke-width="2"/>
+                            <line x1="88" y1="138" x2="98" y2="128" stroke="#6d28d9" stroke-width="2"/>
+                            
+                            <line x1="185" y1="65" x2="195" y2="75" stroke="#6d28d9" stroke-width="2"/>
+                            <line x1="188" y1="68" x2="198" y2="78" stroke="#6d28d9" stroke-width="2"/>
+                            
+                            <text x="25" y="35" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="250" y="170" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="25" y="170" fill="#1e3a8a" font-weight="bold">D</text>
+                            <text x="250" y="35" fill="#1e3a8a" font-weight="bold">C</text>
+                            <text x="135" y="90" fill="#be123c" font-weight="bold">O</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <h4 style='color:#16a34a; margin:0 0 10px 0;'>(i) ∆AOD અને ∆BOC માં:</h4>
+                    <ul style='color:#334155; line-height:1.8; margin-top:0;'>
+                        <li><b>OA = OB</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે)</span></li>
+                        <li><b>∠AOD = ∠BOC</b> <span style='color:#64748b;'>(પરસ્પર છેદતી રેખાઓથી બનતા અભિકોણો સમાન હોય)</span></li>
+                        <li><b>OD = OC</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે)</span></li>
+                    </ul>
+                    <div style='background-color:#f0fdf4; padding:8px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d;'>
+                        તેથી, 'બાખૂબા' (SAS) શરત મુજબ, ∆AOD ≅ ∆BOC સાબિત થાય છે.
+                    </div>
+                    
+                    <h4 style='color:#be123c; margin:15px 0 10px 0;'>(ii) AD || BC સાબિતી:</h4>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>જો બે ત્રિકોણો એકરૂપ હોય, તો તેમના અનુરૂપ અંગો પણ સમાન હોય છે <b>(CPCT - Congruent Parts of Congruent Triangles)</b>.</p>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>તેથી, <b>∠OAD = ∠OBC</b> થશે.</p>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>પરંતુ આ બંને ખૂણાઓ રેખાઓ AD અને BC ની છેદિકા AB દ્વારા બનતા <b>યુગ્મકોણો (Z આકાર)</b> છે. જો યુગ્મકોણો સમાન હોય, તો તે રેખાઓ સમાંતર હોય છે.</p>
+                    <div style='background-color:#fff1f2; padding:8px; border-radius:5px; border-left:4px solid #be123c; font-weight:bold; color:#881337;'>
+                        તેથી, AD || BC સાબિત થાય છે.
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "AB એક રેખાખંડ છે અને રેખા <i>l</i> તેનો લંબદ્વિભાજક છે. જો કોઈ બિંદુ P એ રેખા <i>l</i> પર આવેલું હોય, તો સાબિત કરો કે P એ A અને B થી સમાન અંતરે આવેલું છે.", 
+                solution: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#9a3412; font-weight:bold;'>લંબદ્વિભાજક એટલે શું?</p>
+                    <p style='margin:0 0 5px 0; font-size:14px; color:#c2410c;'>લંબ એટલે <b>90° નો ખૂણો</b> બનાવે અને દ્વિભાજક એટલે રેખાખંડના <b>બે સરખા ભાગ</b> કરે. આ બે પોઈન્ટનો ઉપયોગ કરીને આપણે સાબિતી આપીશું.</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="140,40 60,180 220,180" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+                            
+                            <line x1="60" y1="180" x2="220" y2="180" stroke="#1e3a8a" stroke-width="3"/>
+                            
+                            <line x1="140" y1="20" x2="140" y2="210" stroke="#047857" stroke-width="2" stroke-dasharray="6,4"/>
+                            <text x="145" y="30" fill="#047857" font-weight="bold">l</text>
+                            
+                            <line x1="140" y1="40" x2="60" y2="180" stroke="#be123c" stroke-width="2"/>
+                            <line x1="140" y1="40" x2="220" y2="180" stroke="#be123c" stroke-width="2"/>
+                            
+                            <rect x="140" y="170" width="10" height="10" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
+                            <rect x="130" y="170" width="10" height="10" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
+                            
+                            <line x1="95" y1="175" x2="105" y2="185" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="175" y1="175" x2="185" y2="185" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <text x="40" y="185" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="230" y="185" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="120" y="45" fill="#be123c" font-weight="bold">P</text>
+                            <text x="145" y="195" fill="#047857" font-weight="bold">C</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>ધારો કે રેખા <i>l</i> એ AB ને બિંદુ C માં છેદે છે.</p>
+                    <b style='color:#1e3a8a;'>∆PCA અને ∆PCB માં:</b>
+                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                        <li><b>AC = BC</b> <span style='color:#64748b;'>(કારણ કે <i>l</i> એ AB નો દ્વિભાજક છે, તેથી C મધ્યબિંદુ થાય)</span></li>
+                        <li><b>∠PCA = ∠PCB = 90°</b> <span style='color:#64748b;'>(કારણ કે <i>l</i> એ લંબ છે)</span></li>
+                        <li><b>PC = PC</b> <span style='color:#64748b;'>(બંને ત્રિકોણની સામાન્ય બાજુ)</span></li>
+                    </ul>
+                    
+                    <div style='background-color:#f0f9ff; padding:10px; border-radius:5px; border-left:4px solid #0284c7; margin-bottom:10px;'>
+                        <b>પરિણામ:</b> 'બાખૂબા' (SAS) શરત મુજબ,<br>
+                        ∆PCA ≅ ∆PCB
+                    </div>
+                    
+                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border:2px dashed #16a34a; font-weight:bold; color:#14532d; text-align:center;'>
+                        તેથી, CPCT મુજબ <b>PA = PB</b> થાય.<br>
+                        (આનો અર્થ એ કે P એ A અને B થી સમાન અંતરે છે.)
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "રેખાખંડ AB એ બીજા રેખાખંડ CD ને સમાંતર છે. O એ AD નું મધ્યબિંદુ છે. સાબિત કરો કે:\n(i) ∆AOB ≅ ∆DOC\n(ii) O એ BC નું પણ મધ્યબિંદુ છે.", 
+                solution: `
+                <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#9f1239; font-weight:bold;'>મહત્વનો કન્સેપ્ટ:</p>
+                    <p style='margin:0; font-size:14px; color:#881337;'>અહીં સમાંતર રેખાઓ (AB || CD) આપેલી છે, એટલે <b>યુગ્મકોણો (Z આકાર)</b> નો ઉપયોગ ચોક્કસ થશે! અને શરત લાગશે <b>ખૂખૂબા (ખૂણો-ખૂણો-બાજુ)</b>.</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <line x1="40" y1="40" x2="160" y2="40" stroke="#1e3a8a" stroke-width="3"/>
+                            <line x1="120" y1="180" x2="240" y2="180" stroke="#1e3a8a" stroke-width="3"/>
+                            
+                            <line x1="40" y1="40" x2="240" y2="180" stroke="#047857" stroke-width="2"/>
+                            <line x1="160" y1="40" x2="120" y2="180" stroke="#047857" stroke-width="2"/>
+                            
+                            <path d="M 55 50 A 15 15 0 0 0 60 40" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 225 170 A 15 15 0 0 0 220 180" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <line x1="85" y1="105" x2="95" y2="115" stroke="#be123c" stroke-width="2"/>
+                            <line x1="88" y1="108" x2="98" y2="118" stroke="#be123c" stroke-width="2"/>
+                            
+                            <line x1="185" y1="105" x2="195" y2="115" stroke="#be123c" stroke-width="2"/>
+                            <line x1="188" y1="108" x2="198" y2="118" stroke="#be123c" stroke-width="2"/>
+                            
+                            <text x="25" y="45" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="170" y="45" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="100" y="185" fill="#1e3a8a" font-weight="bold">C</text>
+                            <text x="250" y="185" fill="#1e3a8a" font-weight="bold">D</text>
+                            <text x="145" y="125" fill="#be123c" font-weight="bold">O</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <h4 style='color:#047857; margin:0 0 10px 0;'>(i) ∆AOB અને ∆DOC માં:</h4>
+                    <ul style='color:#334155; line-height:1.8; margin-top:0;'>
+                        <li><b>∠OAB = ∠ODC</b> <span style='color:#64748b;'>(AB || CD અને AD તેમની છેદિકા હોવાથી બનતા યુગ્મકોણો)</span></li>
+                        <li><b>∠AOB = ∠DOC</b> <span style='color:#64748b;'>(પરસ્પર છેદતી રેખાઓથી બનતા અભિકોણો સમાન હોય)</span></li>
+                        <li><b>OA = OD</b> <span style='color:#64748b;'>(કારણ કે O એ AD નું મધ્યબિંદુ છે)</span></li>
+                    </ul>
+                    <div style='background-color:#f0fdf4; padding:8px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d;'>
+                        તેથી, 'ખૂખૂબા' (AAS) શરત મુજબ, ∆AOB ≅ ∆DOC સાબિત થાય છે.
+                    </div>
+                    
+                    <h4 style='color:#be123c; margin:15px 0 10px 0;'>(ii) O એ BC નું મધ્યબિંદુ છે સાબિતી:</h4>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>ઉપર આપણે સાબિત કર્યું કે ∆AOB ≅ ∆DOC.</p>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>તેથી, CPCT મુજબ તેમના અનુરૂપ અંગો સમાન થાય. એટલે કે <b>OB = OC</b> થાય.</p>
+                    <div style='background-color:#fff1f2; padding:8px; border-radius:5px; border-left:4px solid #be123c; font-weight:bold; color:#881337;'>
+                        જો OB = OC હોય, તો સાબિત થાય છે કે O એ BC નું પણ મધ્યબિંદુ છે.
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 4",
+                question: "∆ABC માં ખૂણા A નો દુભાગક AD એ બાજુ BC ને લંબ છે. સાબિત કરો કે AB = AC અને ∆ABC સમદ્વિબાજુ ત્રિકોણ છે.", 
+                solution: `
+                <div style='background-color:#f8fafc; padding:15px; border-left:5px solid #0284c7; border-radius:8px; margin-bottom:15px;'>
+                    <b style='color:#0369a1;'>રકમ પરથી ડેટા અલગ કરો:</b>
+                    <ol style='color:#334155; margin:5px 0 0 0; padding-left:20px; font-size:14px;'>
+                        <li>AD એ ખૂણા A નો દુભાગક છે &rArr; <b>∠BAD = ∠CAD</b></li>
+                        <li>AD એ BC ને લંબ છે &rArr; <b>∠ADB = ∠ADC = 90°</b></li>
+                    </ol>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="140,30 60,180 220,180" fill="#f0f9ff" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <line x1="140" y1="30" x2="140" y2="180" stroke="#be123c" stroke-width="2"/>
+                            
+                            <path d="M 135 50 A 20 20 0 0 0 125 58" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 145 50 A 20 20 0 0 1 155 58" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <rect x="140" y="170" width="10" height="10" fill="none" stroke="#047857" stroke-width="1.5"/>
+                            <rect x="130" y="170" width="10" height="10" fill="none" stroke="#047857" stroke-width="1.5"/>
+                            
+                            <text x="135" y="20" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="40" y="190" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="230" y="190" fill="#1e3a8a" font-weight="bold">C</text>
+                            <text x="135" y="200" fill="#be123c" font-weight="bold">D</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a;'>∆ABD અને ∆ACD માં:</b>
+                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                        <li><b>∠BAD = ∠CAD</b> <span style='color:#64748b;'>(કારણ કે AD એ ખૂણા A નો દુભાગક છે)</span></li>
+                        <li><b>AD = AD</b> <span style='color:#64748b;'>(બંને ત્રિકોણની સામાન્ય બાજુ)</span></li>
+                        <li><b>∠ADB = ∠ADC</b> <span style='color:#64748b;'>(બંને કાટખૂણા છે - 90°)</span></li>
+                    </ul>
+                    
+                    <div style='background-color:#fffbeb; padding:10px; border-radius:5px; border-left:4px solid #ca8a04; margin-bottom:10px;'>
+                        <b>પરિણામ:</b> 'ખૂબાખૂ' (ASA) શરત મુજબ,<br>
+                        ∆ABD ≅ ∆ACD
+                    </div>
+                    
+                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border:2px dashed #16a34a; font-weight:bold; color:#14532d; text-align:center;'>
+                        તેથી, CPCT મુજબ <b>AB = AC</b> થાય.<br>
+                        (અને જે ત્રિકોણની બે બાજુઓ સમાન હોય તેને સમદ્વિબાજુ ત્રિકોણ કહેવાય છે). સાબિત થયું!
+                    </div>
+                </div>
+                
+                <div style='background-color:#fff7ed; padding:10px; border-left:4px solid #ea580c; margin-top:10px;'>
+                    <b>🎯 Nitesh Sir ની ટ્રીક:</b> જ્યાં પણ <b>"દુભાગક"</b> શબ્દ આવે, એટલે સમજી લેવાનું કે કોઈ બે વસ્તુ (ખૂણા કે બાજુ) ના બે સરખા ભાગ થઈ ગયા છે. બસ તેને સાબિતીના પહેલા સ્ટેપમાં લખી દેવું!
+                </div>`
+            },
+                  { 
+                questionNumber: "ઉદાહરણ 5",
+                question: "E અને F અનુક્રમે ∆ABC ની સમાન બાજુઓ AB અને AC નાં મધ્યબિંદુઓ છે. સાબિત કરો કે BF = CE.", 
+                solution: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપણે એવા બે ત્રિકોણ પસંદ કરીશું જેમાં <b>BF</b> અને <b>CE</b> આવતા હોય. અહીં આપણે <b>∆ABF</b> અને <b>∆ACE</b> પસંદ કરીશું.</p>
+
+                    <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                        <div style='min-width:280px; text-align:center;'>
+                            <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#f8fafc; border-radius:10px; border:1px solid #e2e8f0; max-width:100%; height:auto;">
+                                <polygon points="140,30 60,180 220,180" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+                                
+                                <circle cx="100" cy="105" r="4" fill="#be123c"/>
+                                <text x="80" y="110" fill="#be123c" font-weight="bold">E</text>
+                                
+                                <circle cx="180" cy="105" r="4" fill="#be123c"/>
+                                <text x="195" y="110" fill="#be123c" font-weight="bold">F</text>
+                                
+                                <line x1="60" y1="180" x2="180" y2="105" stroke="#047857" stroke-width="2"/>
+                                <line x1="220" y1="180" x2="100" y2="105" stroke="#ea580c" stroke-width="2"/>
+                                
+                                <text x="135" y="20" fill="#1e3a8a" font-weight="bold">A</text>
+                                <text x="40" y="190" fill="#1e3a8a" font-weight="bold">B</text>
+                                <text x="230" y="190" fill="#1e3a8a" font-weight="bold">C</text>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <b style='color:#1e3a8a;'>આપેલ માહિતીનો ઉપયોગ:</b><br>
+                    અહીં AB = AC આપેલ છે. તેમના અડધા ભાગ પણ સમાન થાય.<br>
+                    તેથી, <b>½AB = ½AC</b> &rArr; <b>AE = AF</b> (કારણ કે E અને F મધ્યબિંદુઓ છે).<br><br>
+
+                    <b style='color:#047857;'>∆ABF અને ∆ACE માં:</b>
+                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                        <li><b>AB = AC</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે)</span></li>
+                        <li><b>∠A = ∠A</b> <span style='color:#64748b;'>(બંને ત્રિકોણનો સામાન્ય ખૂણો)</span></li>
+                        <li><b>AF = AE</b> <span style='color:#64748b;'>(ઉપર સાબિત કર્યું તેમ)</span></li>
+                    </ul>
+                    
+                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d; margin-top:10px;'>
+                        'બાખૂબા' (SAS) શરત મુજબ, ∆ABF ≅ ∆ACE સાબિત થાય છે.<br>
+                        તેથી CPCT મુજબ, <b>BF = CE</b> થશે.
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 6",
+                question: "સમદ્વિબાજુ ત્રિકોણ ABC માં AB = AC છે. BC પર બિંદુઓ D અને E એવાં છે કે જેથી BE = CD થાય. સાબિત કરો કે AD = AE.", 
+                solution: `
+                <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#9f1239; font-weight:bold;'>મહત્વનું લોજિક:</p>
+                    <p style='margin:0; font-size:14px; color:#881337;'>અહીં BE = CD આપેલું છે. જો આપણે બંને બાજુમાંથી <b>વચ્ચેનો ભાગ (DE) બાદ કરીએ</b>, તો આપણને BD = CE મળી જશે, જે સાબિતી માટે ઉપયોગી થશે.</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="140,30 60,180 220,180" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <circle cx="110" cy="180" r="4" fill="#047857"/>
+                            <text x="105" y="200" fill="#047857" font-weight="bold">D</text>
+                            
+                            <circle cx="170" cy="180" r="4" fill="#047857"/>
+                            <text x="165" y="200" fill="#047857" font-weight="bold">E</text>
+                            
+                            <line x1="140" y1="30" x2="110" y2="180" stroke="#be123c" stroke-width="2"/>
+                            <line x1="140" y1="30" x2="170" y2="180" stroke="#be123c" stroke-width="2"/>
+                            
+                            <text x="135" y="20" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="40" y="190" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="230" y="190" fill="#1e3a8a" font-weight="bold">C</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a;'>સ્ટેપ 1: આધાર તૈયાર કરવો</b><br>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>અહીં AB = AC છે, તેથી તેમની સામેના ખૂણાઓ પણ સમાન થાય. <br>&rArr; <b>∠B = ∠C</b> --- (1)</p>
+                    <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>આપેલ છે: BE = CD<br>બંને બાજુથી DE બાદ કરતાં:<br>
+                    BE - DE = CD - DE<br>
+                    &rArr; <b style='color:#ea580c;'>BD = CE</b> --- (2)</p>
+
+                    <b style='color:#047857;'>સ્ટેપ 2: ∆ABD અને ∆ACE માં સરખામણી:</b>
+                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                        <li><b>AB = AC</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે)</span></li>
+                        <li><b>∠B = ∠C</b> <span style='color:#64748b;'>(પરિણામ 1 પરથી)</span></li>
+                        <li><b>BD = CE</b> <span style='color:#64748b;'>(પરિણામ 2 પરથી)</span></li>
+                    </ul>
+                    
+                    <div style='background-color:#f0f9ff; padding:10px; border-radius:5px; border-left:4px solid #0284c7; font-weight:bold; color:#0369a1; margin-top:10px;'>
+                        'બાખૂબા' (SAS) શરત મુજબ, ∆ABD ≅ ∆ACE થાય.<br>
+                        તેથી CPCT મુજબ તેમના અનુરૂપ અંગો સમાન થાય. &rArr; <b style='color:#be123c;'>AD = AE</b> સાબિત થાય છે.
+                    </div>
+                </div>`
+            }
+        ]
     }
+      
 
 
 };
