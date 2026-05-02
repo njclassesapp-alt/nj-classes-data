@@ -1971,8 +1971,265 @@ var njMathsExamples = {
                 </div>`
             }
         ]
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 8: ચતુષ્કોણ (ઉદાહરણો)
+    // ------------------------------------
+    "8": {
+        "chapterName": "પ્રકરણ 8",
+        "chapterTitle": "ચતુષ્કોણ (ઉદાહરણો)",
+        "example_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "સાબિત કરો કે લંબચોરસનો દરેક ખૂણો કાટખૂણો છે.", 
+                solution: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>લંબચોરસની વ્યાખ્યા:</p>
+                    <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>જે સમાંતરબાજુ ચતુષ્કોણનો <b>કોઈ એક ખૂણો કાટખૂણો (90°)</b> હોય, તેને લંબચોરસ કહે છે. આપણે આ એક ખૂણા પરથી બાકીના ત્રણેય ખૂણા 90° સાબિત કરવાના છે.</p>
+                </div>
+                
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="180" viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <rect x="50" y="40" width="180" height="100" fill="#f8fafc" stroke="#1e3a8a" stroke-width="3"/>
+                            
+                            <rect x="50" y="40" width="15" height="15" fill="none" stroke="#be123c" stroke-width="2"/>
+                            <rect x="215" y="40" width="15" height="15" fill="none" stroke="#047857" stroke-width="2" stroke-dasharray="3,3"/>
+                            <rect x="50" y="125" width="15" height="15" fill="none" stroke="#047857" stroke-width="2" stroke-dasharray="3,3"/>
+                            <rect x="215" y="125" width="15" height="15" fill="none" stroke="#047857" stroke-width="2" stroke-dasharray="3,3"/>
+                            
+                            <text x="35" y="35" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="235" y="35" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="235" y="160" fill="#1e3a8a" font-weight="bold">C</text>
+                            <text x="35" y="160" fill="#1e3a8a" font-weight="bold">D</text>
+                            
+                            <text x="70" y="60" fill="#be123c" font-size="12" font-weight="bold">90°</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a;'>સાબિતીનાં સ્ટેપ્સ:</b>
+                    <ol style='color:#334155; line-height:1.8; margin-top:5px;'>
+                        <li>ધારો કે ABCD લંબચોરસ છે, જેમાં <b>∠A = 90°</b> છે.</li>
+                        <li>લંબચોરસ એ સમાંતરબાજુ ચતુષ્કોણ છે, તેથી <b>AD || BC</b> થાય અને છેદિકા AB છે.</li>
+                        <li>આથી છેદિકાની એક જ તરફના અંતઃકોણો પૂરક હોય: <b>∠A + ∠B = 180°</b>.</li>
+                        <li>પરંતુ ∠A = 90° હોવાથી: 90° + ∠B = 180° &rArr; <b style='color:#be123c;'>∠B = 90°</b>.</li>
+                        <li>વળી, સમાંતરબાજુ ચતુષ્કોણમાં સામસામેના ખૂણાઓ સમાન હોય છે.</li>
+                        <li>તેથી, <b>∠C = ∠A = 90°</b> અને <b>∠D = ∠B = 90°</b>.</li>
+                    </ol>
+                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d; margin-top:10px;'>
+                        આમ, ∠A = ∠B = ∠C = ∠D = 90° સાબિત થાય છે.
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "સાબિત કરો કે સમબાજુ ચતુષ્કોણના વિકર્ણો પરસ્પર કાટખૂણે દુભાગે છે.", 
+                solution: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#9a3412; font-weight:bold;'>મહત્વનો કન્સેપ્ટ:</p>
+                    <p style='margin:0 0 5px 0; font-size:14px; color:#c2410c;'>અહીં આપણે બે પાસપાસેના ત્રિકોણો (દા.ત. ∆AOD અને ∆COD) ને <b>બાબાબા (SSS)</b> શરતથી એકરૂપ સાબિત કરીશું અને પછી રૈખિક જોડનો નિયમ લગાવીશું.</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="240" viewBox="0 0 280 240" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="140,20 240,120 140,220 40,120" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <line x1="140" y1="20" x2="140" y2="220" stroke="#047857" stroke-width="2"/>
+                            <line x1="40" y1="120" x2="240" y2="120" stroke="#047857" stroke-width="2"/>
+                            
+                            <rect x="140" y="120" width="12" height="12" fill="none" stroke="#be123c" stroke-width="1.5"/>
+                            <rect x="128" y="120" width="12" height="12" fill="none" stroke="#be123c" stroke-width="1.5"/>
+                            
+                            <line x1="85" y1="65" x2="95" y2="75" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="185" y1="65" x2="195" y2="75" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="85" y1="175" x2="95" y2="165" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="185" y1="175" x2="195" y2="165" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <text x="135" y="15" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="250" y="125" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="135" y="235" fill="#1e3a8a" font-weight="bold">C</text>
+                            <text x="25" y="125" fill="#1e3a8a" font-weight="bold">D</text>
+                            <text x="145" y="115" fill="#be123c" font-weight="bold">O</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a;'>∆AOD અને ∆COD માં સરખામણી:</b>
+                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                        <li><b>OA = OC</b> <span style='color:#64748b;'>(કારણ કે સમાંતરબાજુ ચતુષ્કોણના વિકર્ણો પરસ્પર દુભાગે છે)</span></li>
+                        <li><b>OD = OD</b> <span style='color:#64748b;'>(સામાન્ય બાજુ)</span></li>
+                        <li><b>AD = CD</b> <span style='color:#64748b;'>(સમબાજુ ચતુષ્કોણની બધી બાજુઓ સમાન હોય છે)</span></li>
+                    </ul>
+                    
+                    <div style='background-color:#f0fdf4; padding:8px; border-radius:5px; border-left:4px solid #16a34a; margin-bottom:10px;'>
+                        'બાબાબા' (SSS) શરત મુજબ <b>∆AOD ≅ ∆COD</b> થાય.<br>
+                        તેથી CPCT મુજબ: <b>∠AOD = ∠COD</b>.
+                    </div>
+                    
+                    <b style='color:#be123c;'>રૈખિક જોડનો નિયમ:</b><br>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#334155;'>આ બંને ખૂણાઓ એક સીધી રેખા (AC) પર આવેલા છે.</p>
+                    <p style='margin:5px 0 0 0; font-size:15px; font-weight:bold;'>∠AOD + ∠COD = 180°</p>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#334155;'>બંને સમાન હોવાથી: 2(∠AOD) = 180° &rArr; <b style='color:#ea580c; font-size:16px;'>∠AOD = 90°</b></p>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#14532d; font-weight:bold;'>આથી સાબિત થાય છે કે વિકર્ણો પરસ્પર કાટખૂણે દુભાગે છે.</p>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "સમદ્વિબાજુ ત્રિકોણ ABC માં AB = AC છે. AD એ બહિષ્કોણ PAC નો દુભાગક છે અને CD || AB છે. સાબિત કરો કે:\n(i) ∠DAC = ∠BCA અને\n(ii) ABCD સમાંતરબાજુ ચતુષ્કોણ છે.", 
+                solution: `
+                <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#9f1239; font-weight:bold;'>બહિષ્કોણનો પ્રમેય યાદ કરો:</p>
+                    <p style='margin:0; font-size:14px; color:#881337;'>ત્રિકોણના બહિષ્કોણનું માપ તેના બે <b>અંતઃસંમુખકોણના સરવાળા</b> જેટલું હોય છે. અહીં બહિષ્કોણ PAC નું માપ ∠B + ∠C જેટલું થશે.</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:300px; text-align:center;'>
+                        <svg width="300" height="220" viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="120,60 220,160 80,160" fill="#f0f9ff" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <line x1="120" y1="60" x2="260" y2="60" stroke="#047857" stroke-width="2"/>
+                            <line x1="220" y1="160" x2="260" y2="60" stroke="#047857" stroke-width="2" stroke-dasharray="5,5"/>
+                            
+                            <line x1="120" y1="60" x2="80" y2="20" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <text x="65" y="15" fill="#1e3a8a" font-weight="bold">P</text>
+                            <text x="105" y="65" fill="#be123c" font-weight="bold">A</text>
+                            <text x="65" y="170" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="225" y="170" fill="#1e3a8a" font-weight="bold">C</text>
+                            <text x="270" y="65" fill="#047857" font-weight="bold">D</text>
+                            
+                            <path d="M 100 40 A 20 20 0 0 1 115 55" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 135 60 A 15 15 0 0 0 128 75" fill="none" stroke="#ea580c" stroke-width="2"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <h4 style='color:#047857; margin:0 0 10px 0;'>(i) ∠DAC = ∠BCA સાબિતી:</h4>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>∆ABC માં AB = AC છે, તેથી તેમની સામેના ખૂણા સમાન થાય: <b>∠B = ∠BCA</b>.</p>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>બહિષ્કોણના નિયમ મુજબ: ∠PAC = ∠B + ∠BCA = 2∠BCA.</p>
+                    <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>AD એ ∠PAC નો દુભાગક હોવાથી: ∠PAC = 2∠DAC.<br>
+                    તેથી, 2∠DAC = 2∠BCA &rArr; <b style='color:#be123c;'>∠DAC = ∠BCA</b> સાબિત થયું.</p>
+                    
+                    <h4 style='color:#047857; margin:15px 0 10px 0;'>(ii) ABCD સમાંતરબાજુ ચતુષ્કોણ છે સાબિતી:</h4>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>ઉપર સાબિત કરેલા ખૂણાઓ ∠DAC અને ∠BCA એ રેખાઓ AD અને BC ની છેદિકા AC થી બનતા <b>યુગ્મકોણો (Z આકાર)</b> છે.</p>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>જો યુગ્મકોણો સમાન હોય, તો રેખાઓ સમાંતર થાય: <b>AD || BC</b>.</p>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>રકમમાં પહેલેથી જ <b>CD || AB</b> આપેલું છે.</p>
+                    <div style='background-color:#f0fdf4; padding:8px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d;'>
+                        જે ચતુષ્કોણની સામસામેની બાજુઓની બંને જોડ સમાંતર હોય, તેને સમાંતરબાજુ ચતુષ્કોણ કહેવાય છે. તેથી ABCD સમાંતરબાજુ ચતુષ્કોણ છે.
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 4",
+                question: "સાબિત કરો કે સમાંતરબાજુ ચતુષ્કોણના ખૂણાઓના દુભાગકો લંબચોરસ બનાવે છે.", 
+                solution: `
+                <div style='background-color:#f8fafc; padding:15px; border-left:5px solid #0284c7; border-radius:8px; margin-bottom:15px;'>
+                    <b style='color:#0369a1;'>રચનાનો તર્ક:</b>
+                    <p style='margin:5px 0 0 0; color:#334155; font-size:14px;'>જ્યારે બે સમાંતર રેખાઓ વચ્ચે અંતઃકોણો બને, ત્યારે તેમનો સરવાળો 180° થાય છે. તેમના <b>અડધા ભાગ (દુભાગક) નો સરવાળો 90°</b> થાય. આ 90° નો નિયમ વાપરીને આપણે અંદર બનતા ચતુષ્કોણને લંબચોરસ સાબિત કરીશું.</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:320px; text-align:center;'>
+                        <svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="80,40 280,40 220,160 20,160" fill="none" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <line x1="80" y1="40" x2="160" y2="100" stroke="#be123c" stroke-width="2"/>
+                            <line x1="20" y1="160" x2="160" y2="100" stroke="#be123c" stroke-width="2"/>
+                            
+                            <line x1="280" y1="40" x2="140" y2="100" stroke="#047857" stroke-width="2"/>
+                            <line x1="220" y1="160" x2="140" y2="100" stroke="#047857" stroke-width="2"/>
+                            
+                            <polygon points="100,85 200,85 180,115 80,115" fill="#fef3c7" stroke="#ca8a04" stroke-width="2" transform="rotate(-20 150 100)"/>
+                            
+                            <text x="75" y="30" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="285" y="30" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="225" y="175" fill="#1e3a8a" font-weight="bold">C</text>
+                            <text x="10" y="175" fill="#1e3a8a" font-weight="bold">D</text>
+                            
+                            <text x="145" y="105" fill="#ca8a04" font-weight="bold" font-size="12">PQRS</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a;'>સાબિતી:</b><br>
+                    <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>ધારો કે સમાંતરબાજુ ચતુષ્કોણ ABCD ના ખૂણાઓના દુભાગકો છેદવાથી ચતુષ્કોણ PQRS બને છે.</p>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>અહીં AD || BC હોવાથી, અંતઃકોણોનો સરવાળો પૂરક હોય:<br>
+                    ∠A + ∠D = 180°</p>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>બંને બાજુ 2 વડે ભાગતા (કારણ કે દુભાગક છે):<br>
+                    ½∠A + ½∠D = 90° &rArr; <b style='color:#ea580c;'>∠DAS + ∠ADS = 90°</b></p>
+                    
+                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; margin-top:10px; margin-bottom:10px;'>
+                        હવે <b>∆ASD</b> માં: ત્રિકોણના ત્રણેય ખૂણાનો સરવાળો 180° હોય.<br>
+                        (∠DAS + ∠ADS) + ∠ASD = 180°<br>
+                        90° + ∠ASD = 180° &rArr; <b style='color:#be123c;'>∠ASD = 90°</b>
+                    </div>
+                    
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#334155;'>અભિકોણો સમાન હોવાથી, ચતુષ્કોણ PQRS નો ખૂણો <b>∠PSR = 90°</b> થાય.</p>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#334155;'>આ જ રીતે, ચતુષ્કોણ PQRS ના બાકીના ત્રણેય ખૂણા (P, Q, R) પણ 90° સાબિત કરી શકાય.</p>
+                    <p style='margin:5px 0 0 0; font-size:14px; font-weight:bold; color:#1e3a8a;'>જે ચતુષ્કોણના ચારેય ખૂણા કાટખૂણા હોય તે લંબચોરસ છે.</p>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04; margin-top:15px;'>
+                    <b>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> જો પરીક્ષામાં આકૃતિ યાદ ન રહે તો, માત્ર એક ત્રિકોણ <b>∆ASD</b> પકડી લો. દુભાગકોના કારણે બે ખૂણાનો સરવાળો 90° થશે, તેથી ત્રીજો ખૂણો આપોઆપ 90° થઈ જાય!
+                </div>`
+            },
+                    { 
+                questionNumber: "ઉદાહરણ 6 (IMP)",
+                question: "મધ્યબિંદુ પ્રમેયનો ઉપયોગ: ∆ABC માં D, E અને F એ અનુક્રમે બાજુઓ AB, BC અને CA નાં મધ્યબિંદુઓ છે. સાબિત કરો કે D, E અને F ને જોડવાથી ∆ABC નું ચાર એકરૂપ ત્રિકોણોમાં વિભાજન થાય છે.", 
+                solution: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#c2410c; font-weight:bold;'>મધ્યબિંદુ પ્રમેય શું છે?</p>
+                    <p style='margin:0; font-size:14px; color:#9a3412;'>ત્રિકોણની બે બાજુઓના મધ્યબિંદુઓને જોડતો રેખાખંડ ત્રીજી બાજુને <b>સમાંતર</b> હોય છે અને તેનાથી <b>અડધો</b> હોય છે.</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:280px; text-align:center;'>
+                        <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="140,20 40,180 240,180" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <polygon points="90,100 190,100 140,180" fill="#f0fdf4" stroke="#be123c" stroke-width="2"/>
+                            
+                            <text x="135" y="15" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="25" y="190" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="245" y="190" fill="#1e3a8a" font-weight="bold">C</text>
+                            
+                            <text x="70" y="100" fill="#be123c" font-weight="bold">D</text>
+                            <text x="200" y="100" fill="#be123c" font-weight="bold">F</text>
+                            <text x="135" y="200" fill="#be123c" font-weight="bold">E</text>
+                            
+                            <text x="135" y="70" fill="#047857" font-weight="bold" font-size="16">1</text>
+                            <text x="95" y="150" fill="#047857" font-weight="bold" font-size="16">2</text>
+                            <text x="135" y="130" fill="#047857" font-weight="bold" font-size="16">3</text>
+                            <text x="180" y="150" fill="#047857" font-weight="bold" font-size="16">4</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a;'>સાબિતી:</b>
+                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                        <li>અહીં D અને F એ બાજુઓ AB અને AC ના મધ્યબિંદુઓ છે. મધ્યબિંદુ પ્રમેય મુજબ, <b>DF || BC</b> (એટલે કે DF || BE).</li>
+                        <li>તેવી જ રીતે, E અને F મધ્યબિંદુઓ હોવાથી <b>EF || AB</b> (એટલે કે EF || DB).</li>
+                    </ul>
+                    
+                    <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>આમ, ચતુષ્કોણ <b>DBEF</b> માં સામસામેની બાજુઓ સમાંતર હોવાથી તે <b>સમાંતરબાજુ ચતુષ્કોણ</b> છે.</p>
+                    
+                    <div style='background-color:#fff1f2; padding:10px; border-radius:5px; border-left:4px solid #be123c; margin-bottom:10px;'>
+                        આપણે જાણીએ છીએ કે સમાંતરબાજુ ચતુષ્કોણનો વિકર્ણ તેનું <b>બે એકરૂપ ત્રિકોણોમાં</b> વિભાજન કરે છે.<br>
+                        ચતુષ્કોણ DBEF માટે DE વિકર્ણ છે &rArr; <b style='color:#1e3a8a;'>∆BDE ≅ ∆FED</b>.
+                    </div>
+                    
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#334155;'>તે જ પ્રમાણે સાબિત કરી શકાય કે ચતુષ્કોણ DFCB અને ADEF પણ સમાંતરબાજુ ચતુષ્કોણ છે.</p>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#334155;'>તેથી, <b style='color:#1e3a8a;'>∆DAF ≅ ∆FED</b> અને <b style='color:#1e3a8a;'>∆EFC ≅ ∆FED</b> મળે.</p>
+                    <p style='margin:10px 0 0 0; font-size:15px; font-weight:bold; color:#047857;'>આમ, ચારેય ત્રિકોણો (1, 2, 3, અને 4) એકબીજાને એકરૂપ છે.</p>
+                </div>`
+            }
+        ]
     }
-      
-
-
 };
