@@ -655,7 +655,7 @@ var njMathsExamples = {
                 questionNumber: "ઉદાહરણ 16",
                 question: "અવયવ પાડો: 4x² + y² + z² - 4xy - 2yz + 4xz", 
                 solution: `
-                <div style='background-color:#fff7ed; padding:15px; border-1px solid #fed7aa; border-radius:8px;'>
+                <div style='background-color:#fff7ed; padding:15px; border:1px solid #fed7aa; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#be123c; font-weight:bold;'>ઊલટું નિત્યસમ (વિસ્તરણ પરથી અવયવ):</p>
                     
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'><b>ટ્રીક:</b> જુઓ કે કયા પદો માઈનસ (-) છે. અહીં -4xy અને -2yz માં <b>'y'</b> ચલ સામાન્ય છે. એટલે કે 'y' વાળું પદ ઋણ હશે.</p>
