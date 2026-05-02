@@ -2509,7 +2509,181 @@ var njMathsExamples = {
                 </div>`
             }
         ]
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 10: હેરોનનું સૂત્ર (ઉદાહરણો)
+    // ------------------------------------
+    "10": {
+        "chapterName": "પ્રકરણ 10",
+        "chapterTitle": "હેરોનનું સૂત્ર (ઉદાહરણો)",
+        "example_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "એક ત્રિકોણની બે બાજુઓ 8 સેમી અને 11 સેમી છે અને તેની પરિમિતિ 32 સેમી છે. તે ત્રિકોણનું ક્ષેત્રફળ શોધો.", 
+                solution: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>દાખલાનો નકશો:</p>
+                    <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>ત્રિકોણનું ક્ષેત્રફળ શોધવા માટે ત્રણેય બાજુઓ હોવી જરૂરી છે. અહીં 2 બાજુઓ અને પરિમિતિ આપી છે, તો પહેલા આપણે <b>ત્રીજી બાજુ</b> શોધીશું અને પછી <b>હેરોનનું સૂત્ર</b> લગાવીશું.</p>
+                </div>
+                
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:300px; text-align:center;'>
+                        <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="150,30 50,160 250,160" fill="#f8fafc" stroke="#1e3a8a" stroke-width="3"/>
+                            
+                            <text x="75" y="95" fill="#be123c" font-weight="bold" font-size="16">a = 8</text>
+                            <text x="185" y="95" fill="#047857" font-weight="bold" font-size="16">b = 11</text>
+                            <text x="125" y="185" fill="#ea580c" font-weight="bold" font-size="16">c = ?</text>
+                            
+                            <text x="150" y="20" fill="#1e3a8a" font-weight="bold" font-size="14">A</text>
+                            <text x="35" y="170" fill="#1e3a8a" font-weight="bold" font-size="14">B</text>
+                            <text x="260" y="170" fill="#1e3a8a" font-weight="bold" font-size="14">C</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 1: ત્રીજી બાજુ (c) શોધવી</b>
+                    <div style='background-color:#fff1f2; padding:10px; border-radius:5px; border-left:4px solid #be123c; margin:10px 0;'>
+                        પરિમિતિ = a + b + c<br>
+                        32 = 8 + 11 + c<br>
+                        32 = 19 + c &rArr; <b>c = 32 - 19 = <span style='color:#be123c;'>13 સેમી</span></b>
+                    </div>
+                    
+                    <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 2: અર્ધપરિમિતિ (s) શોધવી</b>
+                    <p style='margin:5px 0 10px 0; font-size:15px; color:#334155;'>s = પરિમિતિ / 2 = 32 / 2 = <b style='color:#047857;'>16 સેમી</b></p>
+                    
+                    <b style='color:#1e3a8a; font-size:16px;'>સ્ટેપ 3: હેરોનનું સૂત્ર</b>
+                    <div style='overflow-x:auto;'>
+                        <div style='min-width:280px; font-size:16px; font-weight:bold; color:#1e3a8a; line-height:2; background-color:#f0fdf4; padding:12px; border-radius:5px; border:1px dashed #16a34a; margin-top:5px;'>
+                            ક્ષેત્રફળ = &radic;[ s(s - a)(s - b)(s - c) ]<br>
+                            = &radic;[ 16 &times; (16 - 8) &times; (16 - 11) &times; (16 - 13) ]<br>
+                            = &radic;[ 16 &times; 8 &times; 5 &times; 3 ]<br>
+                            <span style='color:#64748b; font-size:14px;'>(હવે વર્ગમૂળ કાઢવા અવયવો પાડીશું)</span><br>
+                            = &radic;[ (4 &times; 4) &times; (4 &times; 2) &times; 5 &times; 3 ]<br>
+                            = 4 &times; 2 &times; &radic;(2 &times; 5 &times; 3)<br>
+                            <span style='color:#ea580c; font-size:20px;'>= 8&radic;30 સેમી&sup2;</span>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "એક ત્રિકોણાકાર બગીચો ABC ની બાજુઓ 120 મી, 80 મી અને 50 મી છે. એક માળી ધનિયાને તેની ચારે તરફ વાડ કરવાની છે અને અંદર ઘાસ વાવવાનું છે. તેને કેટલા ક્ષેત્રફળમાં વાવણી કરવાની રહેશે? એક બાજુએ 3 મીટર પહોળા દરવાજા માટેની જગ્યા છોડીને તેને ફરતે કાંટાળી તારની વાડ કરવાનો ખર્ચ ₹20 પ્રતિ મીટરના દરે શોધો.", 
+                solution: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+                    <b style='color:#9a3412;'>અહીં બે પ્રશ્નો પૂછ્યા છે:</b>
+                    <ol style='color:#c2410c; margin:5px 0 0 0; font-size:14px; padding-left:20px;'>
+                        <li><b>ઘાસ વાવવાનું ક્ષેત્રફળ:</b> હેરોનના સૂત્રથી ત્રિકોણનું ક્ષેત્રફળ શોધીશું.</li>
+                        <li><b>વાડ કરવાનો ખર્ચ:</b> પરિમિતિમાંથી 3 મીટર (દરવાજો) બાદ કરી, 20 વડે ગુણીશું.</li>
+                    </ol>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:320px; text-align:center;'>
+                        <svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="160,30 50,180 270,180" fill="#dcfce7" stroke="none"/>
+                            
+                            <line x1="160" y1="30" x2="50" y2="180" stroke="#be123c" stroke-width="3"/> <line x1="160" y1="30" x2="270" y2="180" stroke="#be123c" stroke-width="3"/> <line x1="50" y1="180" x2="220" y2="180" stroke="#be123c" stroke-width="3"/>
+                            <line x1="250" y1="180" x2="270" y2="180" stroke="#be123c" stroke-width="3"/>
+                            
+                            <rect x="220" y="175" width="30" height="10" fill="#fef08a" stroke="#ca8a04" stroke-width="1"/>
+                            <text x="225" y="170" fill="#ca8a04" font-weight="bold" font-size="12">Gate (3m)</text>
+                            
+                            <text x="155" y="20" fill="#1e3a8a" font-weight="bold">A</text>
+                            <text x="35" y="190" fill="#1e3a8a" font-weight="bold">B</text>
+                            <text x="280" y="190" fill="#1e3a8a" font-weight="bold">C</text>
+                            
+                            <text x="80" y="105" fill="#1e3a8a" font-weight="bold" font-size="14">120 m</text>
+                            <text x="225" y="105" fill="#1e3a8a" font-weight="bold" font-size="14">80 m</text>
+                            <text x="130" y="205" fill="#1e3a8a" font-weight="bold" font-size="14">50 m</text>
+                            
+                            <text x="145" y="120" fill="#166534" font-weight="bold" font-size="14">ઘાસ</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <h4 style='color:#047857; margin:0 0 10px 0;'>ભાગ 1: ઘાસ વાવવાનું ક્ષેત્રફળ</h4>
+                    <p style='margin:5px 0; font-size:14px; color:#334155;'>અહીં a = 120, b = 80, c = 50 છે.</p>
+                    <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>અર્ધપરિમિતિ <b>s</b> = (120 + 80 + 50) / 2 = 250 / 2 = <b style='color:#be123c;'>125 મી</b>.</p>
+                    
+                    <div style='overflow-x:auto; margin-bottom:15px;'>
+                        <div style='min-width:300px; font-size:15px; font-weight:bold; color:#1e3a8a; line-height:2; background-color:#f8fafc; padding:12px; border-radius:5px;'>
+                            ક્ષેત્રફળ = &radic;[ 125(125 - 120)(125 - 80)(125 - 50) ]<br>
+                            = &radic;[ 125 &times; 5 &times; 45 &times; 75 ]<br>
+                            <span style='color:#64748b; font-size:13px;'>(સરળતા માટે અવયવો પાડીએ)</span><br>
+                            = &radic;[ (25 &times; 5) &times; 5 &times; (9 &times; 5) &times; (25 &times; 3) ]<br>
+                            = 25 &times; 5 &times; 3 &times; &radic;(5 &times; 3)<br>
+                            <span style='color:#047857; font-size:18px;'>= 375&radic;15 મી&sup2;</span>
+                        </div>
+                    </div>
+
+                    <h4 style='color:#be123c; margin:15px 0 10px 0;'>ભાગ 2: વાડ કરવાનો ખર્ચ</h4>
+                    <div style='background-color:#fff1f2; padding:10px; border-radius:5px; border-left:4px solid #be123c;'>
+                        <p style='margin:0 0 5px 0; font-size:14px;'>કુલ પરિમિતિ = 250 મીટર.</p>
+                        <p style='margin:0 0 5px 0; font-size:14px;'>વાડની લંબાઈ = પરિમિતિ - દરવાજાની જગ્યા = 250 - 3 = <b>247 મીટર</b>.</p>
+                        <p style='margin:0; font-size:16px; font-weight:bold; color:#9f1239;'>કુલ ખર્ચ = 247 &times; 20 = <span style='font-size:20px;'>₹ 4940</span></p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "એક ત્રિકોણાકાર જમીનના ટુકડાની બાજુઓનો ગુણોત્તર 3:5:7 છે અને તેની પરિમિતિ 300 મીટર છે. તેનું ક્ષેત્રફળ શોધો.", 
+                solution: `
+                <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; margin-bottom:15px;'>
+                    <b style='color:#14532d;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#166534;'>જ્યારે પણ દાખલામાં <b>"ગુણોત્તર"</b> આપેલો હોય, ત્યારે તેની પાછળ <b>'x'</b> લગાવીને બાજુઓ ધારી લેવી. (જેમ કે 3x, 5x, 7x). પછી બધાનો સરવાળો પરિમિતિ જેટલો બતાવીને x શોધી લેવો!</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:300px; text-align:center;'>
+                        <svg width="300" height="180" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <polygon points="100,20 40,150 260,150" fill="#f8fafc" stroke="#ea580c" stroke-width="3"/>
+                            
+                            <text x="45" y="80" fill="#1e3a8a" font-weight="bold" font-size="16">3x</text>
+                            <text x="140" y="170" fill="#1e3a8a" font-weight="bold" font-size="16">7x</text>
+                            <text x="200" y="80" fill="#1e3a8a" font-weight="bold" font-size="16">5x</text>
+                            
+                            <rect x="10" y="10" width="80" height="30" fill="#fefce8" stroke="#ca8a04" stroke-width="1" rx="5"/>
+                            <text x="15" y="30" fill="#ca8a04" font-weight="bold" font-size="12">P = 300 m</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                    <b style='color:#1e3a8a; font-size:15px;'>સ્ટેપ 1: ત્રણેય બાજુઓ શોધવી</b>
+                    <div style='background-color:#fffbeb; padding:10px; border-radius:5px; border-left:4px solid #ca8a04; margin:10px 0;'>
+                        ધારો કે બાજુઓ a = 3x, b = 5x અને c = 7x છે.<br>
+                        પરિમિતિ = 3x + 5x + 7x = 300<br>
+                        15x = 300 &rArr; <b style='color:#b45309;'>x = 20</b><br><br>
+                        <span style='color:#334155;'>હવે કિંમતો મૂકતાં:</span><br>
+                        a = 3(20) = <b style='color:#1e3a8a;'>60 મી</b><br>
+                        b = 5(20) = <b style='color:#1e3a8a;'>100 મી</b><br>
+                        c = 7(20) = <b style='color:#1e3a8a;'>140 મી</b>
+                    </div>
+                    
+                    <b style='color:#1e3a8a; font-size:15px;'>સ્ટેપ 2: અર્ધપરિમિતિ (s)</b>
+                    <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>s = 300 / 2 = <b style='color:#047857;'>150 મી</b>.</p>
+                    
+                    <b style='color:#1e3a8a; font-size:15px;'>સ્ટેપ 3: હેરોનનું સૂત્ર લગાવવું</b>
+                    <div style='overflow-x:auto;'>
+                        <div style='min-width:300px; font-size:16px; font-weight:bold; color:#1e3a8a; line-height:2; background-color:#f0fdf4; padding:12px; border-radius:5px; border:1px dashed #16a34a; margin-top:5px;'>
+                            ક્ષેત્રફળ = &radic;[ 150(150 - 60)(150 - 100)(150 - 140) ]<br>
+                            = &radic;[ 150 &times; 90 &times; 50 &times; 10 ]<br>
+                            <span style='color:#64748b; font-size:13px;'>(મીંડા વાળી સંખ્યાઓ અલગ કરીએ)</span><br>
+                            = &radic;[ 15 &times; 9 &times; 5 &times; 1 &times; 10000 ]<br>
+                            = &radic;[ (5 &times; 3) &times; (3 &times; 3) &times; 5 &times; 10000 ]<br>
+                            = 5 &times; 3 &times; 100 &times; &radic;3<br>
+                            <span style='color:#ea580c; font-size:20px;'>= 1500&radic;3 મી&sup2;</span>
+                        </div>
+                    </div>
+                </div>`
+            }
+        ]
     }
+
+
 
 };
 
