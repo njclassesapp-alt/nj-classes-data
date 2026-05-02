@@ -739,5 +739,201 @@ var njMathsExamples = {
                 </div>`
             }
         ]
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 3: યામ ભૂમિતિ (ઉદાહરણો)
+    // ------------------------------------
+    "3": {
+        "chapterName": "પ્રકરણ 3",
+        "chapterTitle": "યામ ભૂમિતિ (ઉદાહરણો)",
+        "example_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "આપેલ આકૃતિ જોઈને નીચેનાં વિધાનો પૂર્ણ કરો:\n(i) બિંદુ B ના કોટિ અને ભુજ અનુક્રમે ___ અને ___ છે. આથી B ના યામ (___, ___) છે.\n(ii) બિંદુ M ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી M ના યામ (___, ___) છે.\n(iii) બિંદુ L ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી L ના યામ (___, ___) છે.\n(iv) બિંદુ S ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી S ના યામ (___, ___) છે.", 
+                solution: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલની સમજૂતી:</p>
+                    <p style='margin:0; font-size:14px; color:#334155;'><b>યાદ રાખો:</b> x-યામ એટલે કોટિ અને y-યામ એટલે ભુજ. યામ હંમેશા <b>(x, y)</b> સ્વરૂપમાં જ લખાય છે.</p>
+                </div>
+                
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:320px; text-align:center;'>
+                        <svg width="340" height="340" viewBox="-170 -170 340 340" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <g stroke="#f1f5f9" stroke-width="1.5">
+                                <line x1="-150" y1="-120" x2="150" y2="-120"/> <line x1="-150" y1="-90" x2="150" y2="-90"/>
+                                <line x1="-150" y1="-60" x2="150" y2="-60"/> <line x1="-150" y1="-30" x2="150" y2="-30"/>
+                                <line x1="-150" y1="30" x2="150" y2="30"/> <line x1="-150" y1="60" x2="150" y2="60"/>
+                                <line x1="-150" y1="90" x2="150" y2="90"/> <line x1="-150" y1="120" x2="150" y2="120"/>
+                                
+                                <line x1="-120" y1="-150" x2="-120" y2="150"/> <line x1="-90" y1="-150" x2="-90" y2="150"/>
+                                <line x1="-60" y1="-150" x2="-60" y2="150"/> <line x1="-30" y1="-150" x2="-30" y2="150"/>
+                                <line x1="30" y1="-150" x2="30" y2="150"/> <line x1="60" y1="-150" x2="60" y2="150"/>
+                                <line x1="90" y1="-150" x2="90" y2="150"/> <line x1="120" y1="-150" x2="120" y2="150"/>
+                            </g>
+
+                            <line x1="-150" y1="0" x2="150" y2="0" stroke="#1e3a8a" stroke-width="2.5"/>
+                            <line x1="0" y1="-150" x2="0" y2="150" stroke="#1e3a8a" stroke-width="2.5"/>
+                            
+                            <text x="135" y="-10" fill="#1e3a8a" font-weight="bold" font-size="14">X</text>
+                            <text x="-145" y="-10" fill="#1e3a8a" font-weight="bold" font-size="14">X'</text>
+                            <text x="10" y="-135" fill="#1e3a8a" font-weight="bold" font-size="14">Y</text>
+                            <text x="10" y="145" fill="#1e3a8a" font-weight="bold" font-size="14">Y'</text>
+                            
+                            <g fill="#64748b" font-size="10" font-weight="bold">
+                                <text x="25" y="15">1</text> <text x="55" y="15">2</text> <text x="85" y="15">3</text> <text x="115" y="15">4</text>
+                                <text x="-35" y="15">-1</text> <text x="-65" y="15">-2</text> <text x="-95" y="15">-3</text> <text x="-125" y="15">-4</text>
+                                <text x="5" y="-25">1</text> <text x="5" y="-55">2</text> <text x="5" y="-85">3</text> <text x="5" y="-115">4</text>
+                                <text x="5" y="35">-1</text> <text x="5" y="65">-2</text> <text x="5" y="95">-3</text> <text x="5" y="125">-4</text>
+                            </g>
+
+                            <circle cx="0" cy="0" r="4" fill="#ea580c"/>
+
+                            <line x1="120" y1="0" x2="120" y2="-90" stroke="#047857" stroke-width="2" stroke-dasharray="4,4"/>
+                            <line x1="0" y1="-90" x2="120" y2="-90" stroke="#047857" stroke-width="2" stroke-dasharray="4,4"/>
+                            <circle cx="120" cy="-90" r="5" fill="#047857"/>
+                            <text x="130" y="-95" fill="#047857" font-weight="bold" font-size="14">B</text>
+
+                            <line x1="-90" y1="0" x2="-90" y2="-120" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <line x1="0" y1="-120" x2="-90" y2="-120" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <circle cx="-90" cy="-120" r="5" fill="#be123c"/>
+                            <text x="-110" y="-125" fill="#be123c" font-weight="bold" font-size="14">M</text>
+
+                            <line x1="-150" y1="0" x2="-150" y2="120" stroke="#b45309" stroke-width="2" stroke-dasharray="4,4"/>
+                            <line x1="0" y1="120" x2="-150" y2="120" stroke="#b45309" stroke-width="2" stroke-dasharray="4,4"/>
+                            <circle cx="-150" cy="120" r="5" fill="#b45309"/>
+                            <text x="-140" y="135" fill="#b45309" font-weight="bold" font-size="14">L</text>
+
+                            <line x1="90" y1="0" x2="90" y2="120" stroke="#6d28d9" stroke-width="2" stroke-dasharray="4,4"/>
+                            <line x1="0" y1="120" x2="90" y2="120" stroke="#6d28d9" stroke-width="2" stroke-dasharray="4,4"/>
+                            <circle cx="90" cy="120" r="5" fill="#6d28d9"/>
+                            <text x="100" y="135" fill="#6d28d9" font-weight="bold" font-size="14">S</text>
+                        </svg>
+                        <p style='font-size:12px; color:#64748b; margin-top:5px;'>આકૃતિ: યામ સમતલમાં બિંદુઓનું નિરૂપણ</p>
+                    </div>
+                </div>
+
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='border:1px solid #bbf7d0; background-color:#f0fdf4; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#047857; margin:0 0 5px 0;'>(i) બિંદુ B માટે:</h4>
+                        <p style='margin:0; font-size:14px; color:#14532d;'>બિંદુ B નો x-અક્ષ પરનો લંબ 4 પર અને y-અક્ષ પરનો લંબ 3 પર મળે છે.<br>
+                        તેથી, કોટિ = <b>4</b> અને ભુજ = <b>3</b> છે. આથી <b>B ના યામ (4, 3)</b> છે.</p>
+                    </div>
+
+                    <div style='border:1px solid #fecdd3; background-color:#fff1f2; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#be123c; margin:0 0 5px 0;'>(ii) બિંદુ M માટે:</h4>
+                        <p style='margin:0; font-size:14px; color:#881337;'>બિંદુ M નો x-અક્ષ પરનો લંબ -3 પર અને y-અક્ષ પરનો લંબ 4 પર મળે છે.<br>
+                        તેથી, x-યામ = <b>-3</b> અને y-યામ = <b>4</b> છે. આથી <b>M ના યામ (-3, 4)</b> છે.</p>
+                    </div>
+
+                    <div style='border:1px solid #fde68a; background-color:#fffbeb; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#b45309; margin:0 0 5px 0;'>(iii) બિંદુ L માટે:</h4>
+                        <p style='margin:0; font-size:14px; color:#78350f;'>બિંદુ L નો x-અક્ષ પરનો લંબ -5 પર અને y-અક્ષ પરનો લંબ -4 પર મળે છે.<br>
+                        તેથી, x-યામ = <b>-5</b> અને y-યામ = <b>-4</b> છે. આથી <b>L ના યામ (-5, -4)</b> છે.</p>
+                    </div>
+
+                    <div style='border:1px solid #ddd6fe; background-color:#f5f3ff; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#6d28d9; margin:0 0 5px 0;'>(iv) બિંદુ S માટે:</h4>
+                        <p style='margin:0; font-size:14px; color:#4c1d95;'>બિંદુ S નો x-અક્ષ પરનો લંબ 3 પર અને y-અક્ષ પરનો લંબ -4 પર મળે છે.<br>
+                        તેથી, x-યામ = <b>3</b> અને y-યામ = <b>-4</b> છે. આથી <b>S ના યામ (3, -4)</b> છે.</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "આકૃતિમાં અક્ષો પર દર્શાવેલાં બિંદુઓના યામ લખો.", 
+                solution: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#c2410c; font-weight:bold;'>મહત્વનો નિયમ (અક્ષ પર આવેલા બિંદુઓ માટે):</p>
+                    <ul style='margin:0; font-size:14px; color:#9a3412; padding-left:20px; line-height:1.8;'>
+                        <li>જો બિંદુ <b>X-અક્ષ</b> પર હોય, તો તેનો <b>y-યામ હંમેશા શૂન્ય (0)</b> હોય છે. એટલે કે યામ (x, 0) સ્વરૂપમાં હોય.</li>
+                        <li>જો બિંદુ <b>Y-અક્ષ</b> પર હોય, તો તેનો <b>x-યામ હંમેશા શૂન્ય (0)</b> હોય છે. એટલે કે યામ (0, y) સ્વરૂપમાં હોય.</li>
+                    </ul>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:320px; text-align:center;'>
+                        <svg width="340" height="240" viewBox="-170 -120 340 240" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <g stroke="#f8fafc" stroke-width="1">
+                                <line x1="-150" y1="-90" x2="150" y2="-90"/> <line x1="-150" y1="-60" x2="150" y2="-60"/>
+                                <line x1="-150" y1="-30" x2="150" y2="-30"/> <line x1="-150" y1="30" x2="150" y2="30"/>
+                                <line x1="-150" y1="60" x2="150" y2="60"/> <line x1="-150" y1="90" x2="150" y2="90"/>
+                                
+                                <line x1="-120" y1="-100" x2="-120" y2="100"/> <line x1="-90" y1="-100" x2="-90" y2="100"/>
+                                <line x1="-60" y1="-100" x2="-60" y2="100"/> <line x1="-30" y1="-100" x2="-30" y2="100"/>
+                                <line x1="30" y1="-100" x2="30" y2="100"/> <line x1="60" y1="-100" x2="60" y2="100"/>
+                                <line x1="90" y1="-100" x2="90" y2="100"/> <line x1="120" y1="-100" x2="120" y2="100"/>
+                            </g>
+
+                            <line x1="-150" y1="0" x2="150" y2="0" stroke="#1e3a8a" stroke-width="2.5"/>
+                            <line x1="0" y1="-100" x2="0" y2="100" stroke="#1e3a8a" stroke-width="2.5"/>
+                            
+                            <text x="135" y="-10" fill="#1e3a8a" font-weight="bold" font-size="14">X</text>
+                            <text x="-145" y="-10" fill="#1e3a8a" font-weight="bold" font-size="14">X'</text>
+                            <text x="10" y="-85" fill="#1e3a8a" font-weight="bold" font-size="14">Y</text>
+                            <text x="10" y="95" fill="#1e3a8a" font-weight="bold" font-size="14">Y'</text>
+
+                            <circle cx="0" cy="0" r="4" fill="#64748b"/>
+                            <text x="5" y="15" fill="#64748b" font-weight="bold" font-size="12">O</text>
+
+                            <circle cx="120" cy="0" r="6" fill="#be123c"/>
+                            <text x="115" y="-10" fill="#be123c" font-weight="bold" font-size="14">A</text>
+
+                            <circle cx="0" cy="-90" r="6" fill="#047857"/>
+                            <text x="10" y="-90" fill="#047857" font-weight="bold" font-size="14">B</text>
+
+                            <circle cx="-150" cy="0" r="6" fill="#b45309"/>
+                            <text x="-155" y="-10" fill="#b45309" font-weight="bold" font-size="14">C</text>
+
+                            <circle cx="0" cy="120" r="6" fill="#6d28d9"/>
+                            <text x="10" y="125" fill="#6d28d9" font-weight="bold" font-size="14">D</text>
+
+                            <circle cx="20" cy="0" r="5" fill="#ea580c"/>
+                            <text x="15" y="-10" fill="#ea580c" font-weight="bold" font-size="14">E</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='overflow-x:auto;'>
+                    <table style='width:100%; min-width:320px; border-collapse: collapse; text-align:left; background-color:#ffffff; border-radius:8px; border:1px solid #cbd5e1;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:12px; border:1px solid #cbd5e1;'>બિંદુ</th>
+                            <th style='padding:12px; border:1px solid #cbd5e1;'>સ્થાન (અક્ષ)</th>
+                            <th style='padding:12px; border:1px solid #cbd5e1;'>યામ (Coordinates)</th>
+                        </tr>
+                        <tr>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>બિંદુ A</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#334155;'>X-અક્ષની ધન દિશામાં +4 અંતરે છે.</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:16px; font-weight:bold; color:#be123c;'>(4, 0)</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>બિંદુ B</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#334155;'>Y-અક્ષની ધન દિશામાં +3 અંતરે છે.</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:16px; font-weight:bold; color:#047857;'>(0, 3)</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>બિંદુ C</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#334155;'>X-અક્ષની ઋણ દિશામાં -5 અંતરે છે.</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:16px; font-weight:bold; color:#b45309;'>(-5, 0)</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-weight:bold; color:#6d28d9;'>બિંદુ D</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#334155;'>Y-અક્ષની ઋણ દિશામાં -4 અંતરે છે.</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:16px; font-weight:bold; color:#6d28d9;'>(0, -4)</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>બિંદુ E</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; color:#334155;'>X-અક્ષ પર (ધન દિશામાં 2/3 અંતરે).</td>
+                            <td style='padding:12px; border:1px solid #cbd5e1; font-size:16px; font-weight:bold; color:#ea580c;'>(2/3, 0)</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; margin-top:15px;'>
+                    <b>🎯 Nitesh Sir ની ટ્રીક:</b> જો પરીક્ષામાં આકૃતિ વગર માત્ર પ્રશ્ન પૂછાય કે <b>"બિંદુ (0, -7) કયા અક્ષ પર આવેલું છે?"</b> <br>
+                    -> સાવ સહેલું છે! યામમાં <b>જે સંખ્યા શૂન્ય (0) હોય તેને ભૂલી જાવ</b>. અહીં x-યામ 0 છે. સંખ્યા ક્યાં દેખાય છે? y ની જગ્યાએ (-7). તો જવાબ આવે: <b>Y-અક્ષ પર!</b>
+                </div>`
+            }
+        ]
     }
+
 };
