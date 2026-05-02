@@ -1146,7 +1146,137 @@ var njMathsExamples = {
                 </div>`
             }
         ]
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 5: યુક્લિડની ભૂમિતિનો પરિચય (ઉદાહરણો)
+    // ------------------------------------
+    "5": {
+        "chapterName": "પ્રકરણ 5",
+        "chapterTitle": "યુક્લિડની ભૂમિતિનો પરિચય (ઉદાહરણો)",
+        "example_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "જો A, B અને C એક રેખા પર આવેલાં ત્રણ બિંદુઓ હોય અને B બિંદુ એ A અને C ની વચ્ચે આવેલું હોય, તો સાબિત કરો કે AB + BC = AC.", 
+                solution: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>સાબિતીની સમજૂતી:</p>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપણે યુક્લિડના સ્વયંસિદ્ધ સત્યોનો ઉપયોગ કરીને આ સાબિત કરીશું.</p>
+                </div>
+                
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:300px; text-align:center;'>
+                        <svg width="320" height="100" viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <line x1="20" y1="50" x2="300" y2="50" stroke="#1e3a8a" stroke-width="3"/>
+                            
+                            <circle cx="50" cy="50" r="5" fill="#be123c"/>
+                            <text x="45" y="35" fill="#be123c" font-weight="bold" font-size="14">A</text>
+                            
+                            <circle cx="160" cy="50" r="5" fill="#047857"/>
+                            <text x="155" y="35" fill="#047857" font-weight="bold" font-size="14">B</text>
+                            
+                            <circle cx="270" cy="50" r="5" fill="#ea580c"/>
+                            <text x="265" y="35" fill="#ea580c" font-weight="bold" font-size="14">C</text>
+
+                            <path d="M 50 65 L 50 70 L 160 70 L 160 65" fill="none" stroke="#64748b" stroke-width="1.5"/>
+                            <text x="95" y="85" fill="#64748b" font-size="12" font-weight="bold">AB</text>
+
+                            <path d="M 160 65 L 160 70 L 270 70 L 270 65" fill="none" stroke="#64748b" stroke-width="1.5"/>
+                            <text x="205" y="85" fill="#64748b" font-size="12" font-weight="bold">BC</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='border:1px solid #cbd5e1; background-color:#ffffff; padding:12px; border-radius:8px;'>
+                        <ul style='margin:0; font-size:14px; color:#334155; padding-left:20px; line-height:1.8;'>
+                            <li>ઉપરની આકૃતિમાં જોઈ શકાય છે કે, રેખાખંડ <b>AC</b> એ બે રેખાખંડો <b>AB</b> અને <b>BC</b> થી બનેલો છે.</li>
+                            <li>એટલે કે, AB અને BC નો સરવાળો કરતાં મળતો રેખાખંડ, આખા રેખાખંડ AC પર સંપૂર્ણપણે બંધબેસતો આવે છે (સંપાતી છે).</li>
+                        </ul>
+                    </div>
+
+                    <div style='border:1px solid #fed7aa; background-color:#fff7ed; padding:15px; border-radius:8px;'>
+                        <h4 style='color:#c2410c; margin:0 0 5px 0;'>યુક્લિડનું સ્વયંસિદ્ધ સત્ય 4:</h4>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#9a3412; font-weight:bold; font-style:italic;'>"એકબીજા પર બંધબેસતી આવતી વસ્તુઓ એકબીજાને સમાન હોય છે."</p>
+                        <p style='margin:0; font-size:14px; color:#334155;'>આ સત્ય મુજબ, જો (AB + BC) એ AC પર બંધબેસતું હોય, તો તે બંને સમાન થાય.</p>
+                    </div>
+
+                    <div style='text-align:center; padding:10px; background-color:#f0fdf4; border:2px dashed #16a34a; border-radius:8px;'>
+                        <span style='font-size:18px; font-weight:bold; color:#166534;'>તેથી સાબિત થાય છે કે, AB + BC = AC</span>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "સાબિત કરો કે આપેલા કોઈ પણ રેખાખંડ પર એક સમબાજુ ત્રિકોણની રચના કરી શકાય છે.", 
+                solution: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપણે યુક્લિડની <b>પૂર્વધારણા 3</b> નો ઉપયોગ કરીને આપેલ રેખાખંડ AB પર સમબાજુ ત્રિકોણ રચીશું.</p>
+                    <p style='margin:0; font-size:14px; color:#1e3a8a; font-weight:bold;'>પૂર્વધારણા 3: "કોઈપણ બિંદુને કેન્દ્ર લઈ તથા કોઈપણ લંબાઈની ત્રિજ્યા લઈ વર્તુળ દોરી શકાય છે."</p>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:320px; text-align:center;'>
+                        <svg width="340" height="240" viewBox="0 0 340 240" xmlns="http://www.w3.org/2000/svg" style="background-color:#f8fafc; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            
+                            <circle cx="120" cy="150" r="100" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="5,5"/>
+                            
+                            <circle cx="220" cy="150" r="100" fill="none" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="5,5"/>
+
+                            <line x1="120" y1="150" x2="220" y2="150" stroke="#1e3a8a" stroke-width="3"/>
+                            
+                            <line x1="120" y1="150" x2="170" y2="63.4" stroke="#047857" stroke-width="3"/>
+                            <line x1="220" y1="150" x2="170" y2="63.4" stroke="#be123c" stroke-width="3"/>
+
+                            <circle cx="120" cy="150" r="5" fill="#1e3a8a"/>
+                            <text x="100" y="165" fill="#1e3a8a" font-weight="bold" font-size="14">A</text>
+                            
+                            <circle cx="220" cy="150" r="5" fill="#1e3a8a"/>
+                            <text x="230" y="165" fill="#1e3a8a" font-weight="bold" font-size="14">B</text>
+
+                            <circle cx="170" cy="63.4" r="5" fill="#1e3a8a"/>
+                            <text x="165" y="50" fill="#1e3a8a" font-weight="bold" font-size="14">C</text>
+
+                            <text x="160" y="170" fill="#1e3a8a" font-weight="bold" font-size="12">પાયો</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='border:1px solid #bbf7d0; background-color:#f0fdf4; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#047857; margin:0 0 5px 0;'>રચનાના પગલાં:</h4>
+                        <ol style='margin:0; font-size:14px; color:#14532d; padding-left:20px; line-height:1.8;'>
+                            <li>એક રેખાખંડ <b>AB</b> લો.</li>
+                            <li>બિંદુ <b>A</b> ને કેન્દ્ર લઈ અને <b>AB</b> જેટલી ત્રિજ્યા લઈ એક વર્તુળ દોરો. <span style='color:#64748b;'>(ભૂરા રંગનું વર્તુળ)</span></li>
+                            <li>તેવી જ રીતે, બિંદુ <b>B</b> ને કેન્દ્ર લઈ અને <b>BA (એટલે કે AB)</b> જેટલી જ ત્રિજ્યા લઈ બીજું વર્તુળ દોરો. <span style='color:#64748b;'>(કેસરી રંગનું વર્તુળ)</span></li>
+                            <li>આ બંને વર્તુળો એકબીજાને જ્યાં છેદે, તે બિંદુને <b>C</b> નામ આપો.</li>
+                            <li>હવે A થી C અને B થી C ને જોડી દો. આથી ત્રિકોણ &Delta;ABC તૈયાર થશે.</li>
+                        </ol>
+                    </div>
+
+                    <div style='border:1px solid #cbd5e1; background-color:#ffffff; padding:12px; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 5px 0;'>સાબિતી:</h4>
+                        <ul style='margin:0; font-size:14px; color:#334155; padding-left:20px; line-height:1.8;'>
+                            <li>અહીં <b>AB = AC</b> થશે. (કારણ: બંને એક જ વર્તુળની ત્રિજ્યા છે). --- (પરિણામ 1)</li>
+                            <li>તે જ રીતે, <b>AB = BC</b> થશે. (કારણ: બંને બીજા વર્તુળની ત્રિજ્યા છે). --- (પરિણામ 2)</li>
+                        </ul>
+                    </div>
+
+                    <div style='border:1px solid #fecdd3; background-color:#fff1f2; padding:15px; border-radius:8px;'>
+                        <h4 style='color:#be123c; margin:0 0 5px 0;'>યુક્લિડનું સ્વયંસિદ્ધ સત્ય 1:</h4>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#9f1239; font-weight:bold; font-style:italic;'>"એક વસ્તુને સમાન હોય તેવી વસ્તુઓ એકબીજાને સમાન થાય."</p>
+                        <p style='margin:0; font-size:14px; color:#881337;'>અહીં AC અને BC બંને એક જ વસ્તુ (AB) ને સમાન છે.<br>
+                        તેથી, <b>AB = BC = AC</b> થાય.</p>
+                    </div>
+                </div>
+
+                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04; margin-top:15px;'>
+                    <b>🎯 Nitesh Sir ની ટ્રીક:</b> આ સાબિતીમાં માત્ર બે જ વસ્તુ યાદ રાખવાની છે: (1) બંને વર્તુળની ત્રિજ્યા સરખી છે (કારણ કે પાયો કોમન છે) અને (2) યુક્લિડનો પહેલો નિયમ લખવાનો છે.
+                </div>`
+            }
+        ]
     }
+
+
 
 
 
