@@ -2908,11 +2908,289 @@ var njMathsExamples = {
                 </div>`
             }
         ]
-    }
-
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 12: આંકડાશાસ્ત્ર (ઉદાહરણો)
+    // ------------------------------------
+    "12": {
+        "chapterName": "પ્રકરણ 12",
+        "chapterTitle": "આંકડાશાસ્ત્ર (ઉદાહરણો)",
+        "example_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1 (લંબાલેખ)",
+                question: "ધોરણ 9 ના 40 વિદ્યાર્થીઓને તેમના જન્મનો મહિનો જણાવવાનું કહેવામાં આવ્યું. આ માહિતી પરથી નીચેનો લંબાલેખ (Bar Graph) તૈયાર કરો.\nમાહિતી: જાન્યુ(3), ફેબ્રુ(4), માર્ચ(2), એપ્રિલ(2), મે(5), જૂન(1), જુલાઈ(2), ઓગસ્ટ(6), સપ્ટે(3), ઓક્ટો(4), નવે(4), ડિસે(4).", 
+                solution: `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>લંબાલેખ (Bar Graph) ના નિયમો:</p>
+                    <ul style='margin:0; font-size:14px; color:#334155; padding-left:20px; line-height:1.8;'>
+                        <li>X-અક્ષ પર ગુણાત્મક માહિતી (મહિનાના નામ) અને Y-અક્ષ પર સંખ્યાત્મક માહિતી (વિદ્યાર્થીઓની સંખ્યા) લેવામાં આવે છે.</li>
+                        <li>દરેક સ્તંભની પહોળાઈ સમાન હોવી જોઈએ અને બે સ્તંભ વચ્ચેનું અંતર પણ સમાન હોવું જોઈએ.</li>
+                    </ul>
+                </div>
                 
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:550px; text-align:center;'>
+                        <svg width="550" height="300" viewBox="0 0 550 300" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <g stroke="#f1f5f9" stroke-width="1.5">
+                                <line x1="50" y1="50" x2="520" y2="50"/>  <line x1="50" y1="80" x2="520" y2="80"/>  <line x1="50" y1="110" x2="520" y2="110"/> <line x1="50" y1="140" x2="520" y2="140"/> <line x1="50" y1="170" x2="520" y2="170"/> <line x1="50" y1="200" x2="520" y2="200"/> </g>
 
+                            <line x1="50" y1="20" x2="50" y2="230" stroke="#1e3a8a" stroke-width="2.5"/> <line x1="50" y1="230" x2="530" y2="230" stroke="#1e3a8a" stroke-width="2.5"/> <g fill="#1e3a8a" font-size="12" font-weight="bold" text-anchor="end">
+                                <text x="40" y="235">0</text>
+                                <text x="40" y="205">1</text>
+                                <text x="40" y="175">2</text>
+                                <text x="40" y="145">3</text>
+                                <text x="40" y="115">4</text>
+                                <text x="40" y="85">5</text>
+                                <text x="40" y="55">6</text>
+                                <text x="40" y="25">7</text>
+                            </g>
+                            <text x="15" y="130" fill="#1e3a8a" font-size="12" font-weight="bold" transform="rotate(-90 15,130)">વિદ્યાર્થીઓની સંખ્યા</text>
 
+                            <g fill="#3b82f6" stroke="#1d4ed8" stroke-width="1">
+                                <rect x="65" y="140" width="20" height="90"/> <rect x="100" y="110" width="20" height="120"/> <rect x="135" y="170" width="20" height="60"/> <rect x="170" y="170" width="20" height="60"/> <rect x="205" y="80" width="20" height="150" fill="#ea580c"/> <rect x="240" y="200" width="20" height="30"/> <rect x="275" y="170" width="20" height="60"/> <rect x="310" y="50" width="20" height="180" fill="#047857"/> <rect x="345" y="140" width="20" height="90"/> <rect x="380" y="110" width="20" height="120"/> <rect x="415" y="110" width="20" height="120"/> <rect x="450" y="110" width="20" height="120"/> </g>
+
+                            <g fill="#1e3a8a" font-size="11" font-weight="bold" text-anchor="middle">
+                                <text x="75" y="250">Jan</text>
+                                <text x="110" y="250">Feb</text>
+                                <text x="145" y="250">Mar</text>
+                                <text x="180" y="250">Apr</text>
+                                <text x="215" y="250">May</text>
+                                <text x="250" y="250">Jun</text>
+                                <text x="285" y="250">Jul</text>
+                                <text x="320" y="250">Aug</text>
+                                <text x="355" y="250">Sep</text>
+                                <text x="390" y="250">Oct</text>
+                                <text x="425" y="250">Nov</text>
+                                <text x="460" y="250">Dec</text>
+                            </g>
+                            <text x="280" y="280" fill="#1e3a8a" font-size="14" font-weight="bold">જન્મનો મહિનો</text>
+                        </svg>
+                    </div>
+                </div>
+
+                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04;'>
+                    <b>🎯 Nitesh Sir ની ટ્રીક:</b> લંબાલેખ દોરતી વખતે સ્કેલમાપ (Scale) લખવું ફરજિયાત છે! અહીં આપણે <b>Y-અક્ષ પર 1 સેમી = 1 વિદ્યાર્થી</b> લીધેલ છે. આલેખમાં જોઈ શકાય છે કે સૌથી વધુ વિદ્યાર્થીઓનો જન્મ ઓગસ્ટ મહિનામાં (6) થયો છે.
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2 (સ્તંભાલેખ - સમાન વર્ગલંબાઈ)",
+                question: "ધોરણ 9 ના 36 વિદ્યાર્થીઓના વજન (કિગ્રા) ની માહિતી નીચે મુજબ છે. તેનો સ્તંભાલેખ (Histogram) દોરો.\n30.5-35.5 (9), 35.5-40.5 (6), 40.5-45.5 (15), 45.5-50.5 (3), 50.5-55.5 (1), 55.5-60.5 (2)", 
+                solution: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#c2410c; font-weight:bold;'>સ્તંભાલેખ (Histogram) ના નિયમો:</p>
+                    <ul style='margin:0; font-size:14px; color:#9a3412; padding-left:20px; line-height:1.8;'>
+                        <li>અહીં વર્ગો સતત છે (Continuous classes), તેથી સ્તંભો એકબીજાને <b>અડીને (જોડાયેલા)</b> આવશે. કોઈ ખાલી જગ્યા નહિ રહે.</li>
+                        <li>આલેખની શરૂઆત 0 થી થતી નથી પરંતુ 30.5 થી થાય છે. તેથી X-અક્ષ પર <b>ખંડિત રેખા (Kink / નિક)</b> દોરવી ફરજિયાત છે.</li>
+                    </ul>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
+                    <div style='min-width:500px; text-align:center;'>
+                        <svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <g stroke="#f1f5f9" stroke-width="1.5">
+                                <line x1="50" y1="40" x2="480" y2="40"/>  <line x1="50" y1="88" x2="480" y2="88"/>  <line x1="50" y1="136" x2="480" y2="136"/> <line x1="50" y1="184" x2="480" y2="184"/> </g>
+
+                            <line x1="50" y1="20" x2="50" y2="232" stroke="#1e3a8a" stroke-width="2.5"/> <line x1="50" y1="232" x2="480" y2="232" stroke="#1e3a8a" stroke-width="2.5"/> <polyline points="50,232 60,225 70,240 80,232" fill="none" stroke="#1e3a8a" stroke-width="2.5"/>
+                            <line x1="80" y1="232" x2="90" y2="232" stroke="#1e3a8a" stroke-width="2.5"/>
+
+                            <g fill="#1e3a8a" font-size="12" font-weight="bold" text-anchor="end">
+                                <text x="40" y="236">0</text>
+                                <text x="40" y="212">2</text>
+                                <text x="40" y="188">4</text>
+                                <text x="40" y="164">6</text>
+                                <text x="40" y="140">8</text>
+                                <text x="40" y="116">10</text>
+                                <text x="40" y="92">12</text>
+                                <text x="40" y="68">14</text>
+                                <text x="40" y="44">16</text>
+                            </g>
+                            <text x="15" y="130" fill="#1e3a8a" font-size="12" font-weight="bold" transform="rotate(-90 15,130)">વિદ્યાર્થીઓની સંખ્યા</text>
+
+                            <g fill="#10b981" stroke="#047857" stroke-width="2" opacity="0.85">
+                                <rect x="90" y="124" width="50" height="108"/> <rect x="140" y="160" width="50" height="72"/> <rect x="190" y="52" width="50" height="180" fill="#f59e0b"/> <rect x="240" y="196" width="50" height="36"/> <rect x="290" y="220" width="50" height="12"/> <rect x="340" y="208" width="50" height="24"/> </g>
+
+                            <g fill="#1e3a8a" font-size="12" font-weight="bold" text-anchor="middle">
+                                <text x="90" y="250">30.5</text>
+                                <text x="140" y="250">35.5</text>
+                                <text x="190" y="250">40.5</text>
+                                <text x="240" y="250">45.5</text>
+                                <text x="290" y="250">50.5</text>
+                                <text x="340" y="250">55.5</text>
+                                <text x="390" y="250">60.5</text>
+                            </g>
+                            <text x="240" y="280" fill="#1e3a8a" font-size="14" font-weight="bold">વજન (કિગ્રામાં)</text>
+                        </svg>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3 (સ્તંભાલેખ - અસમાન વર્ગલંબાઈ)",
+                question: "વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ વિતરણ નીચે મુજબ છે. તેનો સ્તંભાલેખ દોરો.\n0-20 (7), 20-30 (10), 30-40 (10), 40-50 (20), 50-60 (20), 60-70 (15), 70-100 (8).\n(આ દાખલો પરીક્ષા માટે મોસ્ટ IMP છે).", 
+                solution: `
+                <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
+                    <b style='color:#9f1239;'>ચેતવણી (મોટી ભૂલ થવાની શક્યતા):</b>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#881337;'>અહીં વર્ગલંબાઈ સમાન નથી! (પહેલા વર્ગમાં 20 નો ગેપ છે, વચ્ચે 10 નો ગેપ છે, અને છેલ્લામાં 30 નો ગેપ છે). જો તમે સીધો આલેખ દોરશો તો ખોટો પડશે. આપણે <b>લંબચોરસની પ્રમાણસર લંબાઈ (સુધારેલી આવૃત્તિ)</b> શોધવી પડશે.</p>
+                </div>
+
+                <div style='overflow-x:auto; margin-bottom:15px;'>
+                    <table style='width:100%; min-width:500px; border-collapse: collapse; text-align:center; background-color:#ffffff; border-radius:8px; border:1px solid #cbd5e1;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:12px; border:1px solid #cbd5e1;'>ગુણ (વર્ગ)</th>
+                            <th style='padding:12px; border:1px solid #cbd5e1;'>આવૃત્તિ (વિદ્યાર્થી)</th>
+                            <th style='padding:12px; border:1px solid #cbd5e1; background-color:#be123c;'>વર્ગલંબાઈ</th>
+                            <th style='padding:12px; border:1px solid #cbd5e1; background-color:#047857;'>પ્રમાણસર આવૃત્તિ (આલેખ માટે)</th>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>0 - 20</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>7</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>20</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#047857; font-weight:bold;'>(7 / 20) &times; 10 = 3.5</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>20 - 30</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>10</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>10</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#047857; font-weight:bold;'>(10 / 10) &times; 10 = 10</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>30 - 40</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>10</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>10</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#047857; font-weight:bold;'>(10 / 10) &times; 10 = 10</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>40 - 50</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>20</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>10</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#047857; font-weight:bold;'>(20 / 10) &times; 10 = 20</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>50 - 60</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>20</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>10</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#047857; font-weight:bold;'>(20 / 10) &times; 10 = 20</td>
+                        </tr>
+                        <tr style='background-color:#f8fafc;'>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>60 - 70</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>15</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>10</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#047857; font-weight:bold;'>(15 / 10) &times; 10 = 15</td>
+                        </tr>
+                        <tr>
+                            <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>70 - 100</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1;'>8</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>30</td>
+                            <td style='padding:10px; border:1px solid #cbd5e1; color:#047857; font-weight:bold;'>(8 / 30) &times; 10 = 2.67</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; margin-bottom:15px;'>
+                    <b>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> પ્રમાણસર આવૃત્તિ શોધવાનું સૂત્ર: <b>(આપેલ આવૃત્તિ / તે વર્ગની વર્ગલંબાઈ) &times; સૌથી નાની વર્ગલંબાઈ</b>. (અહીં સૌથી નાની વર્ગલંબાઈ 10 છે, તેથી બધાને 10 વડે ગુણ્યા છે). આલેખ દોરતી વખતે Y-અક્ષ પર આ <b>લીલા રંગવાળા</b> નવા માપ જ લેવા!
+                </div>
+                
+                <div style='overflow-x:auto; padding-bottom:10px;'>
+                    <div style='min-width:550px; text-align:center;'>
+                        <svg width="550" height="300" viewBox="0 0 550 300" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <line x1="40" y1="20" x2="40" y2="250" stroke="#1e3a8a" stroke-width="2.5"/> <line x1="40" y1="250" x2="520" y2="250" stroke="#1e3a8a" stroke-width="2.5"/> <g fill="#8b5cf6" stroke="#5b21b6" stroke-width="2" opacity="0.85">
+                                <rect x="40" y="215" width="80" height="35"/> 
+                                <rect x="120" y="150" width="40" height="100"/>
+                                <rect x="160" y="150" width="40" height="100"/>
+                                <rect x="200" y="50" width="40" height="200" fill="#f43f5e"/> <rect x="240" y="50" width="40" height="200" fill="#f43f5e"/> <rect x="280" y="100" width="40" height="150"/>
+                                <rect x="320" y="223.3" width="120" height="26.7"/>
+                            </g>
+
+                            <g fill="#1e3a8a" font-size="10" font-weight="bold" text-anchor="middle">
+                                <text x="40" y="265">0</text>
+                                <text x="80" y="265">10</text>
+                                <text x="120" y="265">20</text>
+                                <text x="160" y="265">30</text>
+                                <text x="200" y="265">40</text>
+                                <text x="240" y="265">50</text>
+                                <text x="280" y="265">60</text>
+                                <text x="320" y="265">70</text>
+                                <text x="360" y="265">80</text>
+                                <text x="400" y="265">90</text>
+                                <text x="440" y="265">100</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 4 (આવૃત્તિ બહુકોણ)",
+                question: "એક પરીક્ષામાં વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ બહુકોણ (Frequency Polygon) દોરો.\nગુણ: 0-10 (5), 10-20 (10), 20-30 (4), 30-40 (6), 40-50 (7), 50-60 (3), 60-70 (2).", 
+                solution: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+                    <p style='margin-top:0; color:#c2410c; font-weight:bold;'>આવૃત્તિ બહુકોણ દોરવાના સ્ટેપ્સ:</p>
+                    <ul style='margin:0; font-size:14px; color:#9a3412; padding-left:20px; line-height:1.8;'>
+                        <li>સૌપ્રથમ દરેક વર્ગની <b>મધ્યકિંમત (Class mark)</b> શોધવી પડે. <br>સૂત્ર: મધ્યકિંમત = (ઉર્ધ્વસીમા + અધઃસીમા) / 2.</li>
+                        <li>આલેખને X-અક્ષ સાથે જોડવા માટે આગળ એક કાલ્પનિક વર્ગ (-10 થી 0) અને પાછળ એક કાલ્પનિક વર્ગ (70 થી 80) ધારીને તેમની આવૃત્તિ શૂન્ય (0) લેવી.</li>
+                    </ul>
+                </div>
+
+                <div style='overflow-x:auto; margin-bottom:15px;'>
+                    <table style='width:100%; min-width:350px; border-collapse: collapse; text-align:center; background-color:#ffffff; border-radius:8px; border:1px solid #cbd5e1;'>
+                        <tr style='background-color:#1e3a8a; color:white;'>
+                            <th style='padding:8px; border:1px solid #cbd5e1;'>ગુણ (વર્ગ)</th>
+                            <th style='padding:8px; border:1px solid #cbd5e1; background-color:#ea580c;'>મધ્યકિંમત (X-અક્ષ)</th>
+                            <th style='padding:8px; border:1px solid #cbd5e1;'>આવૃત્તિ (Y-અક્ષ)</th>
+                        </tr>
+                        <tr style='background-color:#f1f5f9; color:#64748b;'>
+                            <td style='padding:8px; border:1px solid #cbd5e1;'>-10 - 0 (કાલ્પનિક)</td>
+                            <td style='padding:8px; border:1px solid #cbd5e1;'>-5</td>
+                            <td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>0</td>
+                        </tr>
+                        <tr><td style='padding:8px; border:1px solid #cbd5e1;'>0 - 10</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>5</td><td style='padding:8px; border:1px solid #cbd5e1;'>5</td></tr>
+                        <tr><td style='padding:8px; border:1px solid #cbd5e1;'>10 - 20</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>15</td><td style='padding:8px; border:1px solid #cbd5e1;'>10</td></tr>
+                        <tr><td style='padding:8px; border:1px solid #cbd5e1;'>20 - 30</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>25</td><td style='padding:8px; border:1px solid #cbd5e1;'>4</td></tr>
+                        <tr><td style='padding:8px; border:1px solid #cbd5e1;'>30 - 40</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>35</td><td style='padding:8px; border:1px solid #cbd5e1;'>6</td></tr>
+                        <tr><td style='padding:8px; border:1px solid #cbd5e1;'>40 - 50</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>45</td><td style='padding:8px; border:1px solid #cbd5e1;'>7</td></tr>
+                        <tr><td style='padding:8px; border:1px solid #cbd5e1;'>50 - 60</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>55</td><td style='padding:8px; border:1px solid #cbd5e1;'>3</td></tr>
+                        <tr><td style='padding:8px; border:1px solid #cbd5e1;'>60 - 70</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>65</td><td style='padding:8px; border:1px solid #cbd5e1;'>2</td></tr>
+                        <tr style='background-color:#f1f5f9; color:#64748b;'>
+                            <td style='padding:8px; border:1px solid #cbd5e1;'>70 - 80 (કાલ્પનિક)</td>
+                            <td style='padding:8px; border:1px solid #cbd5e1;'>75</td>
+                            <td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>0</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div style='overflow-x:auto; padding-bottom:10px;'>
+                    <div style='min-width:550px; text-align:center;'>
+                        <svg width="550" height="250" viewBox="0 0 550 250" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
+                            <line x1="80" y1="20" x2="80" y2="200" stroke="#1e3a8a" stroke-width="2.5"/> <line x1="30" y1="200" x2="520" y2="200" stroke="#1e3a8a" stroke-width="2.5"/> <polyline points="55,200 105,125 155,50 205,140 255,110 305,95 355,155 405,170 455,200" fill="none" stroke="#ea580c" stroke-width="3"/>
+                            
+                            <g fill="#be123c">
+                                <circle cx="55" cy="200" r="5"/>
+                                <circle cx="105" cy="125" r="5"/>
+                                <circle cx="155" cy="50" r="5"/>
+                                <circle cx="205" cy="140" r="5"/>
+                                <circle cx="255" cy="110" r="5"/>
+                                <circle cx="305" cy="95" r="5"/>
+                                <circle cx="355" cy="155" r="5"/>
+                                <circle cx="405" cy="170" r="5"/>
+                                <circle cx="455" cy="200" r="5"/>
+                            </g>
+
+                            <g fill="#1e3a8a" font-size="12" font-weight="bold" text-anchor="middle">
+                                <text x="55" y="220">-5</text>
+                                <text x="105" y="220">5</text>
+                                <text x="155" y="220">15</text>
+                                <text x="205" y="220">25</text>
+                                <text x="255" y="220">35</text>
+                                <text x="305" y="220">45</text>
+                                <text x="355" y="220">55</text>
+                                <text x="405" y="220">65</text>
+                                <text x="455" y="220">75</text>
+                            </g>
+                            <text x="255" y="245" fill="#1e3a8a" font-size="14" font-weight="bold">ગુણ (મધ્યકિંમત)</text>
+                        </svg>
+                    </div>
+                </div>`
+            }
+        ]
+    }
 
 };
 
