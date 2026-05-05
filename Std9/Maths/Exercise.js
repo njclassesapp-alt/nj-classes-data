@@ -6367,7 +6367,324 @@ var njMathsExercise = {
                         </div>
                     </div>
                 </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "આકૃતિમાં, કેન્દ્ર O વાળા વર્તુળ પર બિંદુઓ A, B અને C એવી રીતે આવેલાં છે કે જેથી ∠BOC = 30° અને ∠AOB = 60° થાય. જો ચાપ ABC સિવાયના વર્તુળના બાકીના ભાગ પર બિંદુ D હોય, તો ∠ADC શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="150" r="100" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="150" r="4" fill="#0f172a"/>
+                            <text x="140" y="165" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <line x1="150" y1="150" x2="150" y2="50" stroke="#0f172a" stroke-width="2"/> <line x1="150" y1="150" x2="250" y2="150" stroke="#0f172a" stroke-width="2"/> <line x1="150" y1="150" x2="236.6" y2="100" stroke="#0f172a" stroke-width="2"/> <line x1="150" y1="50" x2="50" y2="150" stroke="#be123c" stroke-width="2"/> <line x1="250" y1="150" x2="50" y2="150" stroke="#be123c" stroke-width="2"/> <circle cx="150" cy="50" r="4" fill="#be123c"/>
+                            <text x="145" y="40" fill="#be123c" font-weight="bold">A</text>
+                            
+                            <circle cx="236.6" cy="100" r="4" fill="#be123c"/>
+                            <text x="245" y="95" fill="#be123c" font-weight="bold">B</text>
+                            
+                            <circle cx="250" cy="150" r="4" fill="#be123c"/>
+                            <text x="260" y="155" fill="#be123c" font-weight="bold">C</text>
+                            
+                            <circle cx="50" cy="150" r="4" fill="#16a34a"/>
+                            <text x="35" y="155" fill="#16a34a" font-weight="bold">D</text>
+                            
+                            <path d="M 150 120 A 30 30 0 0 1 176 135" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="155" y="130" fill="#ea580c" font-size="12" font-weight="bold">60&deg;</text>
+                            
+                            <path d="M 176 135 A 30 30 0 0 1 180 150" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="185" y="145" fill="#ea580c" font-size="12" font-weight="bold">30&deg;</text>
+                            
+                            <path d="M 70 130 A 25 25 0 0 0 75 150" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="85" y="145" fill="#16a34a" font-size="14" font-weight="bold">?</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            આકૃતિ પરથી સ્પષ્ટ છે કે, કેન્દ્ર આગળ બનતો આખો ખૂણો &ang;AOC એ બે ખૂણાઓનો સરવાળો છે.<br>
+                            &there4; &ang;AOC = &ang;AOB + &ang;BOC<br>
+                            &there4; &ang;AOC = 60&deg; + 30&deg;<br>
+                            &there4; <b>&ang;AOC = 90&deg;</b><br><br>
+                            
+                            હવે, <b>પ્રમેય 9.7 મુજબ:</b> "વર્તુળના કોઈ ચાપે કેન્દ્ર આગળ આંતરેલો ખૂણો, તે ચાપે વર્તુળના બાકીના ભાગ પરના કોઈ પણ બિંદુ આગળ આંતરેલા ખૂણા કરતાં <b>બમણો (ડબલ)</b> હોય છે."<br><br>
+                            
+                            અહીં કેન્દ્ર આગળનો ખૂણો &ang;AOC છે અને બાકીના ભાગ પરનો ખૂણો &ang;ADC છે.<br>
+                            &there4; &ang;AOC = 2 &times; &ang;ADC<br>
+                            &there4; 90&deg; = 2 &times; &ang;ADC<br>
+                            &there4; &ang;ADC = 90&deg; / 2<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;ADC = 45&deg;</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ નિયમને <b>"કેન્દ્રનો ખૂણો ડબલ, બાકીનો ખૂણો અડધો!"</b> તરીકે યાદ રાખો. કેન્દ્ર O પાસે કુલ 90&deg; થયા, તો તેનાથી દૂર વર્તુળની સીમા પર (D પાસે) પહોંચતા ખૂણો અડધો (45&deg;) થઈ જાય. એમસીક્યુ (MCQ) માં ગણતરી વગર સીધો જ જવાબ લખી શકાય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "વર્તુળની એક જીવા અને તેની ત્રિજ્યા સમાન છે. આ જીવાએ લઘુચાપ પરના બિંદુ આગળ અને ગુરુચાપ પરના બિંદુ આગળ આંતરેલો ખૂણો શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="150" r="100" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="150" r="4" fill="#0f172a"/>
+                            <text x="145" y="140" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <polygon points="150,150 100,236.6 200,236.6" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <text x="80" y="250" fill="#0284c7" font-weight="bold">A</text>
+                            <text x="210" y="250" fill="#0284c7" font-weight="bold">B</text>
+                            
+                            <circle cx="150" cy="50" r="4" fill="#be123c"/>
+                            <text x="145" y="40" fill="#be123c" font-weight="bold">P (ગુરુચાપ)</text>
+                            <line x1="100" y1="236.6" x2="150" y2="50" stroke="#be123c" stroke-width="2"/>
+                            <line x1="200" y1="236.6" x2="150" y2="50" stroke="#be123c" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="250" r="4" fill="#ea580c"/>
+                            <text x="135" y="270" fill="#ea580c" font-weight="bold">Q (લઘુચાપ)</text>
+                            <line x1="100" y1="236.6" x2="150" y2="250" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="200" y1="236.6" x2="150" y2="250" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <text x="110" y="200" fill="#0284c7" font-weight="bold">r</text>
+                            <text x="180" y="200" fill="#0284c7" font-weight="bold">r</text>
+                            <text x="145" y="230" fill="#0284c7" font-weight="bold">r</text>
+                            
+                            <path d="M 140 167 A 15 15 0 0 0 160 167" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <text x="142" y="185" fill="#0284c7" font-size="12" font-weight="bold">60&deg;</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            <b>પગલું 1: કેન્દ્ર આગળનો ખૂણો</b><br>
+                            ધારો કે વર્તુળની જીવા AB છે. રકમ મુજબ <b>જીવા AB ની લંબાઈ = વર્તુળની ત્રિજ્યા (r)</b> છે.<br>
+                            તેથી, ત્રિકોણ OAB માં OA = OB = AB = r થાય.<br>
+                            જે ત્રિકોણની ત્રણેય બાજુઓ સમાન હોય, તે <b>સમબાજુ ત્રિકોણ</b> બને છે.<br>
+                            &there4; કેન્દ્ર આગળનો ખૂણો <b>&ang;AOB = 60&deg;</b> થાય.<br><br>
+                            
+                            <b>પગલું 2: ગુરુચાપ પરનો ખૂણો</b><br>
+                            ધારો કે બિંદુ P એ ગુરુચાપ પર આવેલું છે. આપણે જાણીએ છીએ કે કેન્દ્ર આગળનો ખૂણો ડબલ હોય.<br>
+                            &there4; &ang;AOB = 2 &times; &ang;APB<br>
+                            &there4; 60&deg; = 2 &times; &ang;APB<br>
+                            &there4; &ang;APB = 60&deg; / 2 = <b>30&deg;</b><br>
+                            <b style='color:#be123c; font-size:16px;'>જવાબ 1: ગુરુચાપ પરના બિંદુ આગળ આંતરેલો ખૂણો = 30&deg;</b><br><br>
+                            
+                            <b>પગલું 3: લઘુચાપ પરનો ખૂણો</b><br>
+                            ધારો કે બિંદુ Q એ લઘુચાપ પર આવેલું છે. 
+                            અહીં ચતુષ્કોણ <b>APBQ એ ચક્રીય ચતુષ્કોણ (Cyclic Quadrilateral)</b> બને છે, કારણ કે તેના ચારેય શિરોબિંદુઓ વર્તુળ પર છે.<br>
+                            ચક્રીય ચતુષ્કોણના સામસામેના ખૂણાઓનો સરવાળો 180&deg; થાય છે.<br>
+                            &there4; &ang;APB + &ang;AQB = 180&deg;<br>
+                            &there4; 30&deg; + &ang;AQB = 180&deg;<br>
+                            &there4; &ang;AQB = 180&deg; - 30&deg; = <b>150&deg;</b><br>
+                            <b style='color:#be123c; font-size:16px;'>જવાબ 2: લઘુચાપ પરના બિંદુ આગળ આંતરેલો ખૂણો = 150&deg;</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "આકૃતિમાં, ∠PQR = 100° છે, જ્યાં P, Q અને R એ O કેન્દ્રવાળા વર્તુળ પરનાં બિંદુઓ છે. ∠OPR શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="150" r="100" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="150" r="4" fill="#0f172a"/>
+                            <text x="145" y="170" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <circle cx="150" cy="50" r="4" fill="#be123c"/>
+                            <text x="145" y="40" fill="#be123c" font-weight="bold">Q</text>
+                            
+                            <circle cx="51.5" cy="167.4" r="4" fill="#be123c"/>
+                            <text x="35" y="175" fill="#be123c" font-weight="bold">P</text>
+                            
+                            <circle cx="248.5" cy="167.4" r="4" fill="#be123c"/>
+                            <text x="255" y="175" fill="#be123c" font-weight="bold">R</text>
+                            
+                            <line x1="51.5" y1="167.4" x2="150" y2="50" stroke="#be123c" stroke-width="2"/>
+                            <line x1="248.5" y1="167.4" x2="150" y2="50" stroke="#be123c" stroke-width="2"/>
+                            
+                            <path d="M 135 65 A 30 30 0 0 0 165 65" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="138" y="85" fill="#ea580c" font-size="12" font-weight="bold">100&deg;</text>
+                            
+                            <polygon points="150,150 51.5,167.4 248.5,167.4" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                            <line x1="51.5" y1="167.4" x2="248.5" y2="167.4" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <path d="M 110 143 A 40 40 0 0 1 190 143" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="135" y="130" fill="#16a34a" font-size="12" font-weight="bold">વિપરીત</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            આપેલ છે કે વર્તુળની સીમા પર <b>&ang;PQR = 100&deg;</b> છે.<br>
+                            આપણે જાણીએ છીએ કે કેન્દ્ર આગળનો ખૂણો વર્તુળના બાકીના ભાગ પરના ખૂણા કરતા બમણો (ડબલ) હોય છે.<br>
+                            પરંતુ અહીં ધ્યાન આપો! Q બિંદુ લઘુચાપ પર છે, તેથી કેન્દ્રનો <b>વિપરીત ખૂણો (Reflex Angle)</b> ડબલ થશે.<br>
+                            &there4; વિપરીત &ang;POR = 2 &times; &ang;PQR<br>
+                            &there4; વિપરીત &ang;POR = 2 &times; 100&deg; = <b>200&deg;</b><br><br>
+                            
+                            હવે, અંદરનો નાનો ખૂણો &ang;POR શોધવા માટે 360&deg; માંથી વિપરીત ખૂણો બાદ કરવો પડે.<br>
+                            &there4; અંદરનો &ang;POR = 360&deg; - 200&deg; = <b>160&deg;</b><br><br>
+                            
+                            હવે ત્રિકોણ <b>&Delta;OPR</b> માં જુઓ:<br>
+                            અહીં OP અને OR બંને એક જ વર્તુળની ત્રિજ્યાઓ છે. તેથી <b>OP = OR</b>.<br>
+                            સમદ્વિબાજુ ત્રિકોણ હોવાથી તેમની સામેના ખૂણાઓ સમાન થાય.<br>
+                            &there4; <b>&ang;OPR = &ang;ORP</b> (ધારો કે બંને x છે).<br><br>
+                            
+                            ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય.<br>
+                            &there4; &ang;OPR + &ang;ORP + &ang;POR = 180&deg;<br>
+                            &there4; x + x + 160&deg; = 180&deg;<br>
+                            &there4; 2x = 180&deg; - 160&deg;<br>
+                            &there4; 2x = 20&deg;<br>
+                            &there4; x = 20&deg; / 2 = 10&deg;<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;OPR = 10&deg;</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાને સોલ્વ કરવાનો <b>શોર્ટકટ રસ્તો ચક્રીય ચતુષ્કોણ</b> છે! વર્તુળ પર ગમે ત્યાં ચોથું બિંદુ S લઈ લો. PQRS ચક્રીય ચતુષ્કોણ બને. Q=100 હોય તો તેની સામે S=80 થાય. હવે S કેન્દ્રથી દૂર છે, તો કેન્દ્રનો ખૂણો તેનાથી ડબલ એટલે POR = 160 સીધો મળી જાય! પછી બાકી વધ્યા 20, જેને ત્રિકોણના બે સરખા ખૂણા વચ્ચે વહેંચી દો એટલે <b>10&deg; - 10&deg;</b> જવાબ!</p>
+                </div>`
+            },
+               { 
+                "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "આકૃતિમાં, ∠ABC = 69° અને ∠ACB = 31° છે, તો ∠BDC શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="150" r="100" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="70" cy="210" r="4" fill="#0f172a"/>
+                            <text x="55" y="225" fill="#0f172a" font-weight="bold">B</text>
+                            
+                            <circle cx="230" cy="210" r="4" fill="#0f172a"/>
+                            <text x="240" y="225" fill="#0f172a" font-weight="bold">C</text>
+                            
+                            <line x1="70" y1="210" x2="230" y2="210" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <circle cx="120" cy="55" r="4" fill="#be123c"/>
+                            <text x="110" y="45" fill="#be123c" font-weight="bold">A</text>
+                            
+                            <polygon points="70,210 230,210 120,55" fill="none" stroke="#be123c" stroke-width="2"/>
+                            
+                            <circle cx="210" cy="70" r="4" fill="#16a34a"/>
+                            <text x="220" y="65" fill="#16a34a" font-weight="bold">D</text>
+                            
+                            <polygon points="70,210 230,210 210,70" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <path d="M 90 210 A 30 30 0 0 0 95 185" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="105" y="195" fill="#ea580c" font-size="12" font-weight="bold">69&deg;</text>
+                            
+                            <path d="M 210 210 A 30 30 0 0 1 200 185" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="175" y="195" fill="#ea580c" font-size="12" font-weight="bold">31&deg;</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            પ્રથમ, <b>&Delta;ABC</b> માં જુઓ:<br>
+                            આપણને બે ખૂણાઓ આપેલા છે: <b>&ang;ABC = 69&deg;</b> અને <b>&ang;ACB = 31&deg;</b>.<br>
+                            ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય છે.<br>
+                            &there4; &ang;BAC + &ang;ABC + &ang;ACB = 180&deg;<br>
+                            &there4; &ang;BAC + 69&deg; + 31&deg; = 180&deg;<br>
+                            &there4; &ang;BAC + 100&deg; = 180&deg;<br>
+                            &there4; &ang;BAC = 180&deg; - 100&deg;<br>
+                            &there4; <b>&ang;BAC = 80&deg;</b><br><br>
+                            
+                            હવે, આકૃતિ પરથી સ્પષ્ટ છે કે <b>&ang;BAC અને &ang;BDC એ એક જ વૃત્તખંડ (Segment) ના ખૂણાઓ છે</b> (બંને જીવા BC દ્વારા આંતરેલા છે).<br>
+                            વર્તુળના એક જ વૃત્તખંડમાં આવેલા ખૂણાઓ હંમેશા સમાન હોય છે.<br>
+                            &there4; &ang;BDC = &ang;BAC<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;BDC = 80&deg;</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ <b>"જોડિયા ભાઈઓ (Twins)"</b> વાળો નિયમ છે! જીવા BC ના એક જ તરફ જેટલા પણ ખૂણા બને (A, D કે બીજા કોઈ પણ) એ બધા જોડિયા ભાઈઓ જેવા હોય એટલે કે એકદમ સરખા જ હોય. આપણે ખાલી ત્રિકોણના નિયમથી A ગોતવાનો હતો (180 - 100 = 80), A = 80 હોય તો D પણ 80 જ થાય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "આકૃતિમાં, A, B, C અને D એ વર્તુળ પરનાં ચાર બિંદુઓ છે. AC અને BD એ બિંદુ E માં એવી રીતે છેદે છે કે જેથી ∠BEC = 130° અને ∠ECD = 20° થાય. ∠BAC શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="150" r="100" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="70" cy="90" r="4" fill="#0f172a"/>
+                            <text x="55" y="85" fill="#0f172a" font-weight="bold">A</text>
+                            
+                            <circle cx="70" cy="210" r="4" fill="#0f172a"/>
+                            <text x="55" y="225" fill="#0f172a" font-weight="bold">B</text>
+                            
+                            <circle cx="230" cy="210" r="4" fill="#0f172a"/>
+                            <text x="240" y="225" fill="#0f172a" font-weight="bold">C</text>
+                            
+                            <circle cx="230" cy="90" r="4" fill="#0f172a"/>
+                            <text x="240" y="85" fill="#0f172a" font-weight="bold">D</text>
+                            
+                            <line x1="70" y1="90" x2="230" y2="210" stroke="#be123c" stroke-width="2"/> <line x1="70" y1="210" x2="230" y2="90" stroke="#1d4ed8" stroke-width="2"/> <line x1="70" y1="210" x2="230" y2="210" stroke="#0f172a" stroke-width="2"/> <line x1="70" y1="90" x2="70" y2="210" stroke="#0f172a" stroke-width="2"/> <line x1="230" y1="90" x2="230" y2="210" stroke="#0f172a" stroke-width="2"/> <circle cx="150" cy="150" r="4" fill="#ea580c"/>
+                            <text x="150" y="170" fill="#ea580c" font-weight="bold">E</text>
+                            
+                            <path d="M 170 150 A 20 20 0 0 1 160 165" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="175" y="165" fill="#ea580c" font-size="12" font-weight="bold">130&deg;</text>
+                            
+                            <path d="M 230 190 A 20 20 0 0 0 215 198" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="200" y="190" fill="#ea580c" font-size="12" font-weight="bold">20&deg;</text>
+                            
+                            <path d="M 70 110 A 20 20 0 0 0 82 100" fill="none" stroke="#be123c" stroke-width="2"/>
+                            <text x="85" y="115" fill="#be123c" font-size="14" font-weight="bold">?</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            આકૃતિમાં, રેખા BD પર બિંદુ E આવેલું છે. તેથી &ang;BEC અને &ang;CED રૈખિક જોડ બનાવે છે.<br>
+                            &there4; &ang;BEC + &ang;CED = 180&deg;<br>
+                            &there4; 130&deg; + &ang;CED = 180&deg;<br>
+                            &there4; &ang;CED = 180&deg; - 130&deg; = <b>50&deg;</b><br><br>
+                            
+                            હવે નાના ત્રિકોણ <b>&Delta;ECD</b> માં જુઓ:<br>
+                            આપણને &ang;CED = 50&deg; મળ્યો છે, અને &ang;ECD = 20&deg; રકમમાં આપેલો છે.<br>
+                            ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય છે.<br>
+                            &there4; &ang;CED + &ang;ECD + &ang;CDE = 180&deg;<br>
+                            &there4; 50&deg; + 20&deg; + &ang;CDE = 180&deg;<br>
+                            &there4; 70&deg; + &ang;CDE = 180&deg;<br>
+                            &there4; &ang;CDE = 180&deg; - 70&deg; = <b>110&deg;</b><br><br>
+                            
+                            અહીં, <b>&ang;BAC અને &ang;CDE (અથવા &ang;BDC) એ એક જ વૃત્તખંડના ખૂણાઓ છે</b> (જીવા BC દ્વારા આંતરેલા).<br>
+                            એક જ વૃત્તખંડના ખૂણાઓ હંમેશા સમાન હોય છે.<br>
+                            &there4; &ang;BAC = &ang;BDC<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;BAC = 110&deg;</b>
+                        </div>
+                    </div>
+                </div>`
             }
+            
        ]
     },
                 
@@ -6637,10 +6954,6 @@ var njMathsExercise = {
             }
         ]
     }    
-    
-    
-    
-    
     
 };
 
