@@ -1419,7 +1419,309 @@ var njMathsExercise = {
                     <b>સ્ટેપ 2:</b> x ની સાથે જે સંખ્યા ગુણાયેલી હોય (a), તેને છેદમાં મૂકી દો.<br>
                     <b>ઉદાહરણ:</b> 3x - 2 નું શૂન્ય &rarr; -2 નું નિશાન બદલતા +2 થાય, અને 3 છેદમાં જાય. સીધો જવાબ: <b>2/3</b> !</p>
                 </div>`
-                  }
+                  },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.3 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "નક્કી કરો કે નીચે આપેલી બહુપદીઓમાંથી કઈ બહુપદીનો અવયવ (x + 1) છે:\n(i) x³ + x² + x + 1\n(ii) x⁴ + x³ + x² + x + 1\n(iii) x⁴ + 3x³ + 3x² + x + 1\n(iv) x³ - x² - (2 + √2)x + √2", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155;'><b>અવયવ પ્રમેય મુજબ:</b> જો (x + 1) એ આપેલ બહુપદી p(x) નો અવયવ હોય, તો <b>x = -1</b> મૂકવાથી p(-1) નો જવાબ <b>શૂન્ય (0)</b> આવવો જોઈએ.</p>
+                    
+                    <div style='overflow-x:auto;'>
+                        <div style='display:flex; flex-direction:column; gap:12px; min-width:350px;'>
+                            <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <h4 style='color:#14532d; margin:0 0 5px 0;'>(i) p(x) = x<sup>3</sup> + x<sup>2</sup> + x + 1</h4>
+                                <div style='font-size:14px; color:#166534;'>
+                                    p(-1) = (-1)<sup>3</sup> + (-1)<sup>2</sup> + (-1) + 1<br>
+                                    p(-1) = -1 + 1 - 1 + 1<br>
+                                    p(-1) = 0<br>
+                                    <b style='font-size:15px;'>&there4; (x + 1) એ આ બહુપદીનો અવયવ છે.</b>
+                                </div>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <h4 style='color:#881337; margin:0 0 5px 0;'>(ii) p(x) = x<sup>4</sup> + x<sup>3</sup> + x<sup>2</sup> + x + 1</h4>
+                                <div style='font-size:14px; color:#9f1239;'>
+                                    p(-1) = (-1)<sup>4</sup> + (-1)<sup>3</sup> + (-1)<sup>2</sup> + (-1) + 1<br>
+                                    p(-1) = 1 - 1 + 1 - 1 + 1<br>
+                                    p(-1) = 1 (&ne; 0)<br>
+                                    <b style='font-size:15px;'>&there4; (x + 1) એ આ બહુપદીનો અવયવ નથી.</b>
+                                </div>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <h4 style='color:#881337; margin:0 0 5px 0;'>(iii) p(x) = x<sup>4</sup> + 3x<sup>3</sup> + 3x<sup>2</sup> + x + 1</h4>
+                                <div style='font-size:14px; color:#9f1239;'>
+                                    p(-1) = (-1)<sup>4</sup> + 3(-1)<sup>3</sup> + 3(-1)<sup>2</sup> + (-1) + 1<br>
+                                    p(-1) = 1 + 3(-1) + 3(1) - 1 + 1<br>
+                                    p(-1) = 1 - 3 + 3 - 1 + 1<br>
+                                    p(-1) = 1 (&ne; 0)<br>
+                                    <b style='font-size:15px;'>&there4; (x + 1) એ આ બહુપદીનો અવયવ નથી.</b>
+                                </div>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <h4 style='color:#881337; margin:0 0 5px 0;'>(iv) p(x) = x<sup>3</sup> - x<sup>2</sup> - (2 + &radic;2)x + &radic;2</h4>
+                                <div style='font-size:14px; color:#9f1239;'>
+                                    p(-1) = (-1)<sup>3</sup> - (-1)<sup>2</sup> - (2 + &radic;2)(-1) + &radic;2<br>
+                                    p(-1) = -1 - (1) + (2 + &radic;2) + &radic;2<br>
+                                    p(-1) = -2 + 2 + &radic;2 + &radic;2<br>
+                                    p(-1) = 2&radic;2 (&ne; 0)<br>
+                                    <b style='font-size:15px;'>&there4; (x + 1) એ આ બહુપદીનો અવયવ નથી.</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>હેતુલક્ષી પ્રશ્નો માટે ગણતરી વગર સીધું ચેક કરો! <br>જો બહુપદીના <b>એકી ઘાતવાળા પદોના સહગુણકોનો સરવાળો</b> અને <b>બેકી ઘાતવાળા પદોના સહગુણકોનો સરવાળો</b> સરખો થાય, તો જ <b>(x + 1)</b> તેનો અવયવ હોય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.3 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "બહુપદી g(x) એ આપેલ બહુપદી p(x) નો એક અવયવ છે કે નહિ તે અવયવ પ્રમેય પરથી નક્કી કરો:\n(i) p(x) = 2x³ + x² - 2x - 1, g(x) = x + 1\n(ii) p(x) = x³ + 3x² + 3x + 1, g(x) = x + 2\n(iii) p(x) = x³ - 4x² + x + 6, g(x) = x - 3", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border-left:4px solid #1e3a8a;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0;'>(i) g(x) = x + 1 હોવાથી, x = -1 લઈશું.</h4>
+                            <div style='font-size:14px; color:#334155; line-height:1.6;'>
+                                p(-1) = 2(-1)<sup>3</sup> + (-1)<sup>2</sup> - 2(-1) - 1<br>
+                                = 2(-1) + 1 + 2 - 1<br>
+                                = -2 + 1 + 2 - 1<br>
+                                = 0<br>
+                                <b style='color:#16a34a;'>અહીં શેષ 0 છે, તેથી g(x) એ p(x) નો અવયવ છે.</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border-left:4px solid #1e3a8a;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0;'>(ii) g(x) = x + 2 હોવાથી, x = -2 લઈશું.</h4>
+                            <div style='font-size:14px; color:#334155; line-height:1.6;'>
+                                p(-2) = (-2)<sup>3</sup> + 3(-2)<sup>2</sup> + 3(-2) + 1<br>
+                                = -8 + 3(4) - 6 + 1<br>
+                                = -8 + 12 - 6 + 1<br>
+                                = 13 - 14 = -1 (&ne; 0)<br>
+                                <b style='color:#be123c;'>અહીં શેષ 0 નથી, તેથી g(x) એ p(x) નો અવયવ નથી.</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border-left:4px solid #1e3a8a;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0;'>(iii) g(x) = x - 3 હોવાથી, x = 3 લઈશું.</h4>
+                            <div style='font-size:14px; color:#334155; line-height:1.6;'>
+                                p(3) = (3)<sup>3</sup> - 4(3)<sup>2</sup> + (3) + 6<br>
+                                = 27 - 4(9) + 3 + 6<br>
+                                = 27 - 36 + 9<br>
+                                = 36 - 36 = 0<br>
+                                <b style='color:#16a34a;'>અહીં શેષ 0 છે, તેથી g(x) એ p(x) નો અવયવ છે.</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.3 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "નીચેના દરેકમાં જો (x - 1) એ p(x) નો એક અવયવ હોય, તો k ની કિંમત શોધો:\n(i) p(x) = x² + x + k\n(ii) p(x) = 2x² + kx + √2\n(iii) p(x) = kx² - √2x + 1\n(iv) p(x) = kx² - 3x + k", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#ffedd5; padding:10px; border-radius:5px; margin-bottom:15px; border-left:4px solid #ea580c;'>
+                        <p style='margin:0; font-size:14px; color:#9a3412;'><b>નિયમ:</b> જો (x - 1) એ અવયવ હોય, તો અવયવ પ્રમેય મુજબ <b>p(1) = 0</b> થાય જ. આ સમીકરણનો ઉપયોગ કરી આપણે <b>k</b> શોધીશું.</p>
+                    </div>
+
+                    <div style='display:flex; flex-wrap:wrap; gap:15px;'>
+                        <div style='flex:1; min-width:250px; background-color:#f0f9ff; padding:12px; border-radius:5px; border:1px solid #bae6fd;'>
+                            <h4 style='color:#0369a1; margin:0 0 8px 0;'>(i) p(x) = x<sup>2</sup> + x + k</h4>
+                            <div style='font-size:14px; color:#0c4a6e;'>
+                                p(1) = 0<br>
+                                &there4; (1)<sup>2</sup> + (1) + k = 0<br>
+                                &there4; 1 + 1 + k = 0<br>
+                                &there4; 2 + k = 0<br>
+                                &there4; <b style='color:#be123c; font-size:16px;'>k = -2</b>
+                            </div>
+                        </div>
+
+                        <div style='flex:1; min-width:250px; background-color:#f0f9ff; padding:12px; border-radius:5px; border:1px solid #bae6fd;'>
+                            <h4 style='color:#0369a1; margin:0 0 8px 0;'>(ii) p(x) = 2x<sup>2</sup> + kx + &radic;2</h4>
+                            <div style='font-size:14px; color:#0c4a6e;'>
+                                p(1) = 0<br>
+                                &there4; 2(1)<sup>2</sup> + k(1) + &radic;2 = 0<br>
+                                &there4; 2 + k + &radic;2 = 0<br>
+                                &there4; <b style='color:#be123c; font-size:16px;'>k = -(2 + &radic;2)</b>
+                            </div>
+                        </div>
+
+                        <div style='flex:1; min-width:250px; background-color:#f0f9ff; padding:12px; border-radius:5px; border:1px solid #bae6fd;'>
+                            <h4 style='color:#0369a1; margin:0 0 8px 0;'>(iii) p(x) = kx<sup>2</sup> - &radic;2x + 1</h4>
+                            <div style='font-size:14px; color:#0c4a6e;'>
+                                p(1) = 0<br>
+                                &there4; k(1)<sup>2</sup> - &radic;2(1) + 1 = 0<br>
+                                &there4; k - &radic;2 + 1 = 0<br>
+                                &there4; <b style='color:#be123c; font-size:16px;'>k = &radic;2 - 1</b>
+                            </div>
+                        </div>
+
+                        <div style='flex:1; min-width:250px; background-color:#f0f9ff; padding:12px; border-radius:5px; border:1px solid #bae6fd;'>
+                            <h4 style='color:#0369a1; margin:0 0 8px 0;'>(iv) p(x) = kx<sup>2</sup> - 3x + k</h4>
+                            <div style='font-size:14px; color:#0c4a6e;'>
+                                p(1) = 0<br>
+                                &there4; k(1)<sup>2</sup> - 3(1) + k = 0<br>
+                                &there4; k - 3 + k = 0<br>
+                                &there4; 2k - 3 = 0<br>
+                                &there4; 2k = 3 &nbsp; &there4; <b style='color:#be123c; font-size:16px;'>k = 3/2</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.3 - પ્રશ્ન 4",
+                "marks": 4,
+                "question": "અવયવ પાડો:\n(i) 12x² - 7x + 1\n(ii) 2x² + 7x + 3\n(iii) 6x² + 5x - 6\n(iv) 3x² - x - 4", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:20px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>મધ્યમ પદનું વિભાજન (Splitting the Middle Term)</p>
+                        <svg width="300" height="100" xmlns="http://www.w3.org/2000/svg">
+                            <text x="20" y="40" fill="#16a34a" font-size="20" font-weight="bold">12x²</text>
+                            <text x="80" y="40" fill="#0f172a" font-size="20">-</text>
+                            <text x="110" y="40" fill="#be123c" font-size="20" font-weight="bold">7x</text>
+                            <text x="160" y="40" fill="#0f172a" font-size="20">+</text>
+                            <text x="190" y="40" fill="#16a34a" font-size="20" font-weight="bold">1</text>
+                            
+                            <path d="M 40 20 Q 115 -20 195 20" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#arrowGreen)"/>
+                            <text x="70" y="10" fill="#16a34a" font-size="12" font-weight="bold">ગુણાકાર (12 × 1 = 12)</text>
+                            
+                            <line x1="120" y1="50" x2="90" y2="80" stroke="#be123c" stroke-width="2"/>
+                            <line x1="120" y1="50" x2="150" y2="80" stroke="#be123c" stroke-width="2"/>
+                            <text x="65" y="95" fill="#be123c" font-size="14" font-weight="bold">- 4x</text>
+                            <text x="145" y="95" fill="#be123c" font-size="14" font-weight="bold">- 3x</text>
+                            
+                            <defs>
+                                <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                                    <path d="M0,0 L0,6 L9,3 z" fill="#16a34a" />
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0;'>(i) 12x<sup>2</sup> - 7x + 1</h4>
+                            <p style='margin:0 0 5px 0; font-size:13px; color:#52525b;'>ગુણાકાર 12 અને સરવાળો -7 લાવવાનો છે. (અવયવો: -4 અને -3)</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                                = 12x<sup>2</sup> - 4x - 3x + 1<br>
+                                = 4x(3x - 1) - 1(3x - 1)<br>
+                                = <b style='color:#1e3a8a; font-size:16px;'>(3x - 1)(4x - 1)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0;'>(ii) 2x<sup>2</sup> + 7x + 3</h4>
+                            <p style='margin:0 0 5px 0; font-size:13px; color:#52525b;'>ગુણાકાર 6 (2&times;3) અને સરવાળો 7 લાવવાનો છે. (અવયવો: 6 અને 1)</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                                = 2x<sup>2</sup> + 6x + 1x + 3<br>
+                                = 2x(x + 3) + 1(x + 3)<br>
+                                = <b style='color:#1e3a8a; font-size:16px;'>(x + 3)(2x + 1)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0;'>(iii) 6x<sup>2</sup> + 5x - 6</h4>
+                            <p style='margin:0 0 5px 0; font-size:13px; color:#52525b;'>ગુણાકાર -36 (6&times;-6) અને બાદબાકી 5 લાવવાની છે. (અવયવો: 9 અને -4)</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                                = 6x<sup>2</sup> + 9x - 4x - 6<br>
+                                = 3x(2x + 3) - 2(2x + 3)<br>
+                                = <b style='color:#1e3a8a; font-size:16px;'>(2x + 3)(3x - 2)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0;'>(iv) 3x<sup>2</sup> - x - 4</h4>
+                            <p style='margin:0 0 5px 0; font-size:13px; color:#52525b;'>ગુણાકાર -12 (3&times;-4) અને બાદબાકી -1 લાવવાની છે. (અવયવો: -4 અને 3)</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                                = 3x<sup>2</sup> - 4x + 3x - 4<br>
+                                = x(3x - 4) + 1(3x - 4)<br>
+                                = <b style='color:#1e3a8a; font-size:16px;'>(3x - 4)(x + 1)</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+               { 
+                "questionNumber": "સ્વાધ્યાય 2.3 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "અવયવ પાડો (ત્રિઘાત બહુપદી):\n(i) x³ - 2x² - x + 2\n(ii) x³ - 3x² - 9x - 5\n(iii) x³ + 13x² + 32x + 20\n(iv) 2y³ + y² - 2y - 1", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:20px;'>
+                        
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(i) x<sup>3</sup> - 2x<sup>2</sup> - x + 2</h4>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં પહેલા બે અને છેલ્લા બે પદોની સીધી જોડ બનાવી સામાન્ય કાઢીશું:</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bae6fd; font-family:monospace; font-size:15px;'>
+                                = x<sup>2</sup>(x - 2) - 1(x - 2)<br>
+                                = (x - 2)(x<sup>2</sup> - 1)<br>
+                                <span style='color:#64748b; font-size:12px;'>[(a<sup>2</sup>-b<sup>2</sup>) નું નિત્યસમ વાપરતા]</span><br>
+                                = <b style='color:#0369a1; font-size:16px;'>(x - 2)(x - 1)(x + 1)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(ii) x<sup>3</sup> - 3x<sup>2</sup> - 9x - 5</h4>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં p(-1) = 0 થાય છે, તેથી (x + 1) એક અવયવ છે. બહુપદીને (x + 1) વડે ભાગતા અથવા પદોની ગોઠવણી કરતા:</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bae6fd; font-family:monospace; font-size:15px;'>
+                                = x<sup>3</sup> + x<sup>2</sup> - 4x<sup>2</sup> - 4x - 5x - 5<br>
+                                = x<sup>2</sup>(x + 1) - 4x(x + 1) - 5(x + 1)<br>
+                                = (x + 1)(x<sup>2</sup> - 4x - 5)<br>
+                                <span style='color:#64748b; font-size:12px;'>[હવે કૌંસના મધ્યમ પદનું વિભાજન કરતા]</span><br>
+                                = (x + 1)(x<sup>2</sup> - 5x + 1x - 5)<br>
+                                = (x + 1)[x(x - 5) + 1(x - 5)]<br>
+                                = <b style='color:#0369a1; font-size:16px;'>(x + 1)(x + 1)(x - 5)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(iii) x<sup>3</sup> + 13x<sup>2</sup> + 32x + 20</h4>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં બધા પદો ધન છે, p(-1) = 0 થાય છે. તેથી (x + 1) એક અવયવ છે.</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bae6fd; font-family:monospace; font-size:15px;'>
+                                = x<sup>3</sup> + x<sup>2</sup> + 12x<sup>2</sup> + 12x + 20x + 20<br>
+                                = x<sup>2</sup>(x + 1) + 12x(x + 1) + 20(x + 1)<br>
+                                = (x + 1)(x<sup>2</sup> + 12x + 20)<br>
+                                <span style='color:#64748b; font-size:12px;'>[20 ના અવયવો 10 અને 2]</span><br>
+                                = (x + 1)(x<sup>2</sup> + 10x + 2x + 20)<br>
+                                = (x + 1)[x(x + 10) + 2(x + 10)]<br>
+                                = <b style='color:#0369a1; font-size:16px;'>(x + 1)(x + 2)(x + 10)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(iv) 2y<sup>3</sup> + y<sup>2</sup> - 2y - 1</h4>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>આ દાખલામાં દાખલા (i) ની જેમ પદોની જોડ બનાવી સીધું જ સામાન્ય કાઢી શકાશે:</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bae6fd; font-family:monospace; font-size:15px;'>
+                                = y<sup>2</sup>(2y + 1) - 1(2y + 1)<br>
+                                = (2y + 1)(y<sup>2</sup> - 1)<br>
+                                <span style='color:#64748b; font-size:12px;'>[(y<sup>2</sup> - 1) = (y-1)(y+1)]</span><br>
+                                = <b style='color:#0369a1; font-size:16px;'>(2y + 1)(y - 1)(y + 1)</b>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક (ત્રિઘાત માટે):</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>ત્રિઘાત બહુપદીમાં પહેલો અવયવ શોધવો એ જ સૌથી મોટું કામ છે! એના માટે 2 નિયમો મગજમાં ફિટ કરી દો:<br>
+                    <b>નિયમ 1:</b> જો બહુપદીના બધા જ સહગુણકોનો સરવાળો <b>0 (શૂન્ય)</b> થાય, તો તેનો પહેલો અવયવ હંમેશા <b>(x - 1)</b> હોય.<br>
+                    <b>નિયમ 2:</b> જો એકી પદોના સહગુણકોનો સરવાળો અને બેકી પદોના સહગુણકોનો સરવાળો સરખો થાય, તો પહેલો અવયવ હંમેશા <b>(x + 1)</b> હોય.<br>
+                    પછી તો બસ તેને 3 વાર લખીને પદો સેટ જ કરવાના રહે છે!</p>
+                </div>`
+               }
         ]
     }
 };
