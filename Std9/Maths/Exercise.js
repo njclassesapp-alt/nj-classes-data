@@ -4788,8 +4788,427 @@ var njMathsExercise = {
                         </div>
                     </div>
                 </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.2 - પ્રશ્ન 6",
+                "marks": 4,
+                "question": "ΔABC સમદ્વિબાજુ ત્રિકોણ છે, જેમાં AB = AC. બાજુ BA ને બિંદુ D સુધી એવી રીતે લંબાવી છે કે જેથી AD = AB થાય. સાબિત કરો કે ∠BCD કાટખૂણો છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,200 250,200 250,50" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="150" y1="125" x2="250" y2="200" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <line x1="95" y1="155" x2="105" y2="165" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="195" y1="155" x2="205" y2="165" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <line x1="195" y1="80" x2="205" y2="90" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <path d="M 80 200 A 30 30 0 0 0 75 185" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="85" y="195" fill="#ea580c" font-size="14" font-weight="bold">x</text>
+                            <path d="M 220 200 A 30 30 0 0 1 228 180" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="210" y="195" fill="#ea580c" font-size="14" font-weight="bold">x</text>
+                            
+                            <path d="M 250 80 A 30 30 0 0 0 230 65" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="235" y="90" fill="#16a34a" font-size="14" font-weight="bold">y</text>
+                            <path d="M 250 170 A 30 30 0 0 1 230 185" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="235" y="165" fill="#16a34a" font-size="14" font-weight="bold">y</text>
+                            
+                            <polyline points="250,185 235,185 235,200" fill="none" stroke="#be123c" stroke-width="1.5" stroke-dasharray="2,2"/>
+                            
+                            <text x="130" y="120" fill="#0284c7" font-weight="bold">A</text>
+                            <text x="35" y="215" fill="#0284c7" font-weight="bold">B</text>
+                            <text x="255" y="215" fill="#0284c7" font-weight="bold">C</text>
+                            <text x="255" y="45" fill="#0284c7" font-weight="bold">D</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            &Delta;ABC માં આપેલું છે કે <b>AB = AC</b>.<br>
+                            સમદ્વિબાજુ ત્રિકોણના નિયમ મુજબ સમાન બાજુઓની સામેના ખૂણા સમાન હોય.<br>
+                            &there4; &ang;ACB = &ang;ABC<br>
+                            ધારો કે આ બંને ખૂણા <b>x</b> છે. <b>(&ang;ACB = &ang;ABC = x)</b> ......(સમીકરણ 1)<br><br>
+                            
+                            હવે, રકમ મુજબ AD = AB છે. અને આપણી પાસે AB = AC છે.<br>
+                            તેથી <b>AD = AC</b> થશે.<br>
+                            હવે &Delta;ACD માં બે બાજુ સમાન (AD = AC) હોવાથી તેના સામેના ખૂણા પણ સમાન થાય.<br>
+                            &there4; &ang;ACD = &ang;ADC<br>
+                            ધારો કે આ બંને ખૂણા <b>y</b> છે. <b>(&ang;ACD = &ang;ADC = y)</b> ......(સમીકરણ 2)<br><br>
+                            
+                            હવે મોટા <b>&Delta;BCD</b> માં ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય છે.<br>
+                            &there4; &ang;B + &ang;D + &ang;BCD = 180&deg;<br>
+                            અહીં, આકૃતિ પરથી આખો ખૂણો <b>&ang;BCD = x + y</b> છે.<br>
+                            સમીકરણમાં કિંમત મૂકતાં:<br>
+                            &there4; (x) + (y) + (x + y) = 180&deg;<br>
+                            &there4; 2x + 2y = 180&deg;<br>
+                            &there4; 2(x + y) = 180&deg;<br>
+                            &there4; x + y = 180&deg; / 2<br>
+                            &there4; x + y = 90&deg;<br><br>
+                            
+                            પરંતુ x + y એ &ang;BCD છે.<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;BCD = 90&deg; (કાટખૂણો છે)</b> <span style='color:#16a34a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાને <b>"x-y ગેમ"</b> કહેવાય! નીચેના ત્રિકોણના બે ખૂણાને x નામ આપો, ઉપરના ત્રિકોણના બે ખૂણાને y નામ આપો. મોટા ત્રિકોણનો સરવાળો 180 થાય એટલે 2x + 2y = 180. બે ને સામાન્ય કાઢીને ભાગાકાર કરો એટલે x + y = 90 સીધું જ આવી જશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.2 - પ્રશ્ન 7",
+                "marks": 3,
+                "question": "કાટકોણ ત્રિકોણ ABC માં ∠A = 90° અને AB = AC છે. ∠B અને ∠C શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 200 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,150 150,150 50,50" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <polyline points="50,135 65,135 65,150" fill="none" stroke="#be123c" stroke-width="2"/>
+                            <text x="70" y="140" fill="#be123c" font-size="12" font-weight="bold">90&deg;</text>
+                            
+                            <line x1="40" y1="100" x2="60" y2="100" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="100" y1="140" x2="100" y2="160" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <path d="M 125 150 A 20 20 0 0 0 135 135" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 50 75 A 20 20 0 0 1 65 65" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <text x="35" y="165" fill="#16a34a" font-weight="bold">A</text>
+                            <text x="160" y="165" fill="#16a34a" font-weight="bold">C</text>
+                            <text x="35" y="45" fill="#16a34a" font-weight="bold">B</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            &Delta;ABC માં આપેલું છે કે <b>AB = AC</b>.<br>
+                            આપણે જાણીએ છીએ કે સમાન બાજુઓની સામેના ખૂણાઓ સમાન હોય છે.<br>
+                            &there4; <b>&ang;C = &ang;B</b> ......(સમીકરણ 1)<br><br>
+                            
+                            હવે, ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય છે.<br>
+                            &there4; &ang;A + &ang;B + &ang;C = 180&deg;<br>
+                            અહીં &ang;A = 90&deg; આપેલ છે, અને સમીકરણ 1 મુજબ &ang;C ની જગ્યાએ &ang;B લખી શકાય.<br>
+                            &there4; 90&deg; + &ang;B + &ang;B = 180&deg;<br>
+                            &there4; 90&deg; + 2&ang;B = 180&deg;<br>
+                            &there4; 2&ang;B = 180&deg; - 90&deg;<br>
+                            &there4; 2&ang;B = 90&deg;<br>
+                            &there4; &ang;B = 90&deg; / 2<br>
+                            &there4; <b style='color:#be123c; font-size:18px;'>&ang;B = 45&deg;</b><br><br>
+                            
+                            અને &ang;C = &ang;B હોવાથી,<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;C = 45&deg;</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.2 - પ્રશ્પ 8",
+                "marks": 3,
+                "question": "સાબિત કરો કે સમબાજુ ત્રિકોણના બધા જ ખૂણાનાં માપ 60° હોય છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 200 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="100,30 30,150 170,150" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <line x1="55" y1="85" x2="75" y2="95" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="145" y1="85" x2="125" y2="95" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="100" y1="140" x2="100" y2="160" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <path d="M 50 150 A 20 20 0 0 0 60 133" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 150 150 A 20 20 0 0 1 140 133" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 90 47 A 20 20 0 0 0 110 47" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            
+                            <text x="95" y="20" fill="#ca8a04" font-weight="bold">A</text>
+                            <text x="15" y="165" fill="#ca8a04" font-weight="bold">B</text>
+                            <text x="180" y="165" fill="#ca8a04" font-weight="bold">C</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ધારો કે &Delta;ABC એક સમબાજુ ત્રિકોણ છે.<br>
+                            સમબાજુ ત્રિકોણમાં ત્રણેય બાજુઓ સમાન હોય છે.<br>
+                            &there4; <b>AB = BC = AC</b><br><br>
+                            
+                            હવે, <b>AB = AC</b> હોવાથી,<br>
+                            તેમની સામેના ખૂણાઓ સમાન થશે. &there4; <b>&ang;C = &ang;B</b> ......(સમીકરણ 1)<br><br>
+                            
+                            તે જ રીતે, <b>BC = AC</b> હોવાથી,<br>
+                            તેમની સામેના ખૂણાઓ સમાન થશે. &there4; <b>&ang;A = &ang;B</b> ......(સમીકરણ 2)<br><br>
+                            
+                            સમીકરણ 1 અને 2 પરથી એ સ્પષ્ટ થાય છે કે:<br>
+                            <b>&ang;A = &ang;B = &ang;C</b><br>
+                            ધારો કે આ ત્રણેય ખૂણાઓનું માપ <b>x</b> છે.<br><br>
+                            
+                            ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય છે.<br>
+                            &there4; &ang;A + &ang;B + &ang;C = 180&deg;<br>
+                            &there4; x + x + x = 180&deg;<br>
+                            &there4; 3x = 180&deg;<br>
+                            &there4; x = 180&deg; / 3<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; x = 60&deg;</b><br><br>
+                            
+                            આમ, <b style='color:#16a34a; font-size:15px;'>&ang;A = 60&deg;, &ang;B = 60&deg;, &ang;C = 60&deg;</b> સાબિત થાય છે.
+                        </div>
+                    </div>
+                </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.3 - પ્રશ્ન 1",
+                "marks": 5,
+                "question": "ΔABC અને ΔDBC સમાન પાયા BC પર આવેલા બે સમદ્વિબાજુ ત્રિકોણો છે અને શિરોબિંદુઓ A અને D એ BC ની એક જ બાજુએ આવેલા છે. જો AD ને લંબાવતાં તે BC ને P બિંદુમાં છેદે, તો સાબિત કરો કે:<br>(i) ΔABD ≅ ΔACD<br>(ii) ΔABP ≅ ΔACP<br>(iii) AP એ ∠A તથા ∠D ને દુભાગે છે.<br>(iv) AP એ BC નો લંબદ્વિભાજક છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="175,30 50,200 300,200" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <polygon points="175,130 50,200 300,200" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <line x1="175" y1="30" x2="175" y2="200" stroke="#be123c" stroke-width="2"/>
+                            
+                            <line x1="105" y1="120" x2="115" y2="110" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="110" y1="125" x2="120" y2="115" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="235" y1="110" x2="245" y2="120" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="230" y1="115" x2="240" y2="125" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <line x1="105" y1="170" x2="115" y2="160" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="235" y1="160" x2="245" y2="170" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <polyline points="175,190 185,190 185,200" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            
+                            <text x="170" y="20" fill="#0284c7" font-weight="bold">A</text>
+                            <text x="35" y="215" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="310" y="215" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="185" y="125" fill="#16a34a" font-weight="bold">D</text>
+                            <text x="170" y="220" fill="#be123c" font-weight="bold">P</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>(i) &Delta;ABD &cong; &Delta;ACD:</b><br>
+                            &Delta;ABD અને &Delta;ACD માં:<br>
+                            1) AB = AC (પક્ષ)<br>
+                            2) BD = CD (પક્ષ)<br>
+                            3) AD = AD (સામાન્ય બાજુ)<br>
+                            <b style='color:#be123c;'>&there4; બાબાબા (SSS) નિયમ મુજબ &Delta;ABD &cong; &Delta;ACD</b>.<br>
+                            આથી &ang;BAD = &ang;CAD (CPCT). એટલે કે &ang;BAP = &ang;CAP.<br><br>
+                            
+                            <b>(ii) &Delta;ABP &cong; &Delta;ACP:</b><br>
+                            &Delta;ABP અને &Delta;ACP માં:<br>
+                            1) AB = AC (પક્ષ)<br>
+                            2) &ang;BAP = &ang;CAP (ઉપર સાબિત કર્યું)<br>
+                            3) AP = AP (સામાન્ય બાજુ)<br>
+                            <b style='color:#be123c;'>&there4; બાખૂબા (SAS) નિયમ મુજબ &Delta;ABP &cong; &Delta;ACP</b>.<br>
+                            આથી BP = CP અને &ang;APB = &ang;APC (CPCT).<br><br>
+                            
+                            <b>(iii) AP એ &ang;A અને &ang;D ને દુભાગે છે:</b><br>
+                            આપણે ઉપર જોયું કે &ang;BAP = &ang;CAP, એટલે કે AP એ &ang;A ને દુભાગે છે.<br>
+                            તે જ રીતે &Delta;BDP અને &Delta;CDP એકરૂપ સાબિત કરી શકાય (SSS થી), જેથી &ang;BDP = &ang;CDP મળે. આમ, <b>AP એ &ang;D ને પણ દુભાગે છે.</b><br><br>
+                            
+                            <b>(iv) AP એ BC નો લંબદ્વિભાજક છે:</b><br>
+                            ઉપર સાબિત કર્યું કે <b>BP = CP</b> (એટલે કે દુભાગે છે).<br>
+                            વળી, &ang;APB + &ang;APC = 180&deg; (રૈખિક જોડ).<br>
+                            પરંતુ &ang;APB = &ang;APC હોવાથી, બંને 90&deg; થાય (એટલે કે લંબ છે).<br>
+                            <b style='color:#16a34a;'>&there4; AP એ BC નો લંબદ્વિભાજક છે.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.3 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "AD એ સમદ્વિબાજુ ત્રિકોણ ABC નો વેધ છે, જેમાં AB = AC. સાબિત કરો કે:<br>(i) AD એ BC ને દુભાગે છે.<br>(ii) AD એ ∠A ને દુભાગે છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 220" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="150,30 50,180 250,180" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <line x1="150" y1="30" x2="150" y2="180" stroke="#be123c" stroke-width="2"/>
+                            
+                            <polyline points="150,170 160,170 160,180" fill="none" stroke="#be123c" stroke-width="1.5"/>
+                            <polyline points="150,170 140,170 140,180" fill="none" stroke="#be123c" stroke-width="1.5"/>
+                            
+                            <line x1="95" y1="100" x2="105" y2="110" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="195" y1="110" x2="205" y2="100" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <text x="145" y="20" fill="#ca8a04" font-weight="bold">A</text>
+                            <text x="35" y="195" fill="#ca8a04" font-weight="bold">B</text>
+                            <text x="255" y="195" fill="#ca8a04" font-weight="bold">C</text>
+                            <text x="145" y="200" fill="#be123c" font-weight="bold">D</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            &Delta;ABD અને &Delta;ACD (બંને કાટકોણ ત્રિકોણો) માં:<br>
+                            1) <b>&ang;ADB = &ang;ADC = 90&deg;</b> <span style='color:#64748b;'>(કારણ: AD વેધ છે) -> કાટખૂણો</span><br>
+                            2) <b>AB = AC</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે) -> કર્ણ</span><br>
+                            3) <b>AD = AD</b> <span style='color:#64748b;'>(બંને ત્રિકોણની સામાન્ય બાજુ) -> બાજુ</span><br><br>
+                            
+                            તેથી <b>કાકબા (RHS - Right Angle, Hypotenuse, Side)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; &Delta;ABD &cong; &Delta;ACD</b><br><br>
+                            
+                            એકરૂપ ત્રિકોણના અનુરૂપ અંગો (CPCT) સમાન હોય છે.<br>
+                            <b>(i) BD = CD</b> <span style='color:#16a34a;'>(અર્થાત્ AD એ BC ને દુભાગે છે)</span><br>
+                            <b>(ii) &ang;BAD = &ang;CAD</b> <span style='color:#16a34a;'>(અર્થાત્ AD એ &ang;A ને દુભાગે છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જ્યારે ત્રિકોણમાં વેધ (90&deg;) હોય અને કર્ણ (સૌથી મોટી બાજુ) સમાન આપેલી હોય, ત્યારે આંખ બંધ કરીને <b>કાકબા (RHS)</b> નિયમ લગાવી દેવો! કાટખૂણો, કર્ણ અને એક બાજુ (અહીં સામાન્ય લીટી) - બસ આ 3 વસ્તુથી ત્રિકોણ એકરૂપ થઈ જશે.</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.3 - પ્રશ્ન 3",
+                "marks": 4,
+                "question": "એક ત્રિકોણ ABC ની બે બાજુઓ AB અને BC તથા મધ્યગા AM એ અનુક્રમે બીજા ત્રિકોણ PQR ની બાજુઓ PQ અને QR તથા મધ્યગા PN ને સમાન છે. સાબિત કરો કે:<br>(i) ΔABM ≅ ΔPQN<br>(ii) ΔABC ≅ ΔPQR", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 450 180" style="width:100%; max-width:450px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="100,20 30,140 170,140" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <line x1="100" y1="20" x2="100" y2="140" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <text x="95" y="15" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="15" y="150" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="175" y="150" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="95" y="155" fill="#be123c" font-weight="bold">M</text>
+                            
+                            <line x1="60" y1="75" x2="70" y2="85" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="100" y1="75" x2="110" y2="85" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="90" y1="75" x2="100" y2="85" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <polygon points="350,20 280,140 420,140" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <line x1="350" y1="20" x2="350" y2="140" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <text x="345" y="15" fill="#0f172a" font-weight="bold">P</text>
+                            <text x="265" y="150" fill="#0f172a" font-weight="bold">Q</text>
+                            <text x="425" y="150" fill="#0f172a" font-weight="bold">R</text>
+                            <text x="345" y="155" fill="#be123c" font-weight="bold">N</text>
+                            
+                            <line x1="310" y1="75" x2="320" y2="85" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="350" y1="75" x2="360" y2="85" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="340" y1="75" x2="350" y2="85" stroke="#16a34a" stroke-width="2"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            અહીં મધ્યગા AM એ પાયા BC ના બે સરખા ભાગ કરે છે, અને PN એ QR ના બે સરખા ભાગ કરે છે.<br>
+                            રકમ મુજબ <b>BC = QR</b> આપેલું છે. બંને બાજુ અડધા કરતા:<br>
+                            &there4; 1/2 BC = 1/2 QR<br>
+                            <b style='color:#be123c;'>&there4; BM = QN</b> ......(પરિણામ 1)<br><br>
+                            
+                            <b>(i) &Delta;ABM &cong; &Delta;PQN માટે:</b><br>
+                            &Delta;ABM અને &Delta;PQN માં:<br>
+                            1) AB = PQ (પક્ષ)<br>
+                            2) AM = PN (પક્ષ: મધ્યગા સમાન છે)<br>
+                            3) BM = QN (પરિણામ 1 પરથી)<br>
+                            તેથી <b>બાબાબા (SSS)</b> નિયમ મુજબ: <b style='color:#15803d; font-size:16px;'>&Delta;ABM &cong; &Delta;PQN</b>.<br>
+                            આના પરથી CPCT મુજબ: <b>&ang;B = &ang;Q</b> ......(પરિણામ 2)<br><br>
+                            
+                            <b>(ii) &Delta;ABC &cong; &Delta;PQR માટે:</b><br>
+                            મોટા ત્રિકોણો &Delta;ABC અને &Delta;PQR માં:<br>
+                            1) AB = PQ (પક્ષ)<br>
+                            2) &ang;B = &ang;Q (પરિણામ 2 પરથી સાબિત કર્યું)<br>
+                            3) BC = QR (પક્ષ)<br>
+                            તેથી <b>બાખૂબા (SAS)</b> નિયમ મુજબ: <b style='color:#15803d; font-size:16px;'>&Delta;ABC &cong; &Delta;PQR</b>. <span style='color:#0f172a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.3 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "BE અને CF એ ΔABC ના બે સમાન વેધ છે. એકરૂપતાના કાકબા (RHS) નિયમનો ઉપયોગ કરીને સાબિત કરો કે ΔABC સમદ્વિબાજુ ત્રિકોણ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="175,30 50,200 300,200" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="50" y1="200" x2="230" y2="105" stroke="#be123c" stroke-width="2"/>
+                            <line x1="300" y1="200" x2="120" y2="105" stroke="#be123c" stroke-width="2"/>
+                            
+                            <polygon points="230,105 220,115 230,125 240,115" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            <polygon points="120,105 130,115 120,125 110,115" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            
+                            <line x1="50" y1="200" x2="300" y2="200" stroke="#16a34a" stroke-width="4"/>
+                            
+                            <text x="170" y="20" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="30" y="215" fill="#16a34a" font-weight="bold">B</text>
+                            <text x="310" y="215" fill="#16a34a" font-weight="bold">C</text>
+                            <text x="245" y="105" fill="#be123c" font-weight="bold">E</text>
+                            <text x="100" y="105" fill="#be123c" font-weight="bold">F</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            અહીં આપણે નીચેના બે કાટકોણ ત્રિકોણો &Delta;BFC અને &Delta;CEB ની સરખામણી કરીશું.<br><br>
+                            &Delta;BFC અને &Delta;CEB માં:<br>
+                            1) <b>&ang;BFC = &ang;CEB = 90&deg;</b> <span style='color:#64748b;'>(કારણ: CF અને BE વેધ છે) -> કાટખૂણો</span><br>
+                            2) <b>BC = CB</b> <span style='color:#64748b;'>(બંને ત્રિકોણનો સામાન્ય કર્ણ છે) -> કર્ણ</span><br>
+                            3) <b>CF = BE</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે કે વેધ સમાન છે) -> બાજુ</span><br><br>
+                            
+                            અહીં <b>કાકબા (RHS)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            &there4; &Delta;BFC &cong; &Delta;CEB<br><br>
+                            
+                            એકરૂપ ત્રિકોણના અનુરૂપ ખૂણાઓ (CPCT) સમાન હોય છે.<br>
+                            &there4; &ang;FBC = &ang;ECB (એટલે કે <b>&ang;B = &ang;C</b>)<br><br>
+                            
+                            આપણે જાણીએ છીએ કે જો ત્રિકોણના બે ખૂણા સમાન હોય, તો તેમની સામેની બાજુઓ પણ સમાન હોય છે.<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; AC = AB</b><br>
+                            આમ, <b style='color:#16a34a;'>&Delta;ABC એ સમદ્વિબાજુ ત્રિકોણ છે.</b> <span style='color:#0f172a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 7.3 - પ્રશ્ન 5",
+                "marks": 3,
+                "question": "ΔABC એ સમદ્વિબાજુ ત્રિકોણ છે જેમાં AB = AC. AP ⊥ BC દોરીને દર્શાવો કે ∠B = ∠C.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#ffedd5; padding:10px; border-radius:5px; border-left:4px solid #ea580c; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#9a3412;'><b>નોંધ:</b> આ પ્રશ્ન ખરેખર સમદ્વિબાજુ ત્રિકોણના પ્રમેયની સાબિતી જ છે, જેમાં કાકબા (RHS) નિયમનો ઉપયોગ થાય છે.</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            અહીં AP &perp; BC દોરવામાં આવ્યો છે, તેથી બે કાટકોણ ત્રિકોણો &Delta;APB અને &Delta;APC બને છે.<br><br>
+                            
+                            &Delta;APB અને &Delta;APC ની સરખામણી કરીએ:<br>
+                            1) <b>&ang;APB = &ang;APC = 90&deg;</b> <span style='color:#64748b;'>(કારણ: AP &perp; BC છે) -> કાટખૂણો</span><br>
+                            2) <b>AB = AC</b> <span style='color:#64748b;'>(પક્ષ: સમદ્વિબાજુ ત્રિકોણ છે) -> કર્ણ</span><br>
+                            3) <b>AP = AP</b> <span style='color:#64748b;'>(બંને ત્રિકોણની સામાન્ય બાજુ) -> બાજુ</span><br><br>
+                            
+                            તેથી <b>કાકબા (RHS)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            &there4; &Delta;APB &cong; &Delta;APC<br><br>
+                            
+                            જ્યારે બે ત્રિકોણ એકરૂપ હોય, ત્યારે તેમના અનુરૂપ અંગો (CPCT) સમાન હોય છે.<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;B = &ang;C</b> <span style='color:#16a34a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>`
             }
-        
         ]
     }
     
