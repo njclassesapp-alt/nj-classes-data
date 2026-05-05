@@ -2737,7 +2737,376 @@ var njMathsExercise = {
                 </div>`
             }  
         ]
+    },
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 4: દ્વિચલ સુરેખ સમીકરણો (સ્વાધ્યાય)
+    // ------------------------------------
+    "4": {
+        "chapterName": "પ્રકરણ 4",
+        "chapterTitle": "દ્વિચલ સુરેખ સમીકરણો (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 4.1 - પ્રશ્ન 1",
+                "marks": 2,
+                "question": "નોટબુકની કિંમત પેનની કિંમત કરતાં બમણી છે. આ વિધાનને દ્વિચલ સુરેખ સમીકરણ સ્વરૂપે દર્શાવો. (ધારો કે નોટબુકની કિંમત ₹ x અને પેનની કિંમત ₹ y છે.)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 8px 0; font-size:15px; color:#0c4a6e;'>પ્રશ્નમાં આપ્યા મુજબ:</p>
+                        <ul style='margin:0 0 10px 0; padding-left:20px; font-size:14px; color:#334155; line-height:1.6;'>
+                            <li>ધારો કે નોટબુકની કિંમત = <b>₹ x</b></li>
+                            <li>ધારો કે પેનની કિંમત = <b>₹ y</b></li>
+                        </ul>
+                    </div>
+                    
+                    <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#1e3a8a; font-weight:bold;'>શરત મુજબ: નોટબુકની કિંમત = 2 &times; (પેનની કિંમત)</p>
+                        <div style='font-family:monospace; font-size:16px; color:#0f172a; text-align:center; padding:10px; background-color:#ffffff; border-radius:5px; border:1px dashed #94a3b8;'>
+                            &there4; x = 2y<br>
+                            <span style='color:#64748b; font-size:13px;'>[2y ને બરાબરની ડાબી બાજુ લાવતાં નિશાની માઇનસ થશે]</span><br>
+                            &there4; <b style='color:#16a34a; font-size:18px;'>x - 2y = 0</b>
+                        </div>
+                        <p style='margin:10px 0 0 0; font-size:14px; color:#334155;'>આ માંગેલું દ્વિચલ સુરેખ સમીકરણ છે.</p>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>ગાણિતિક કૂટપ્રશ્નોમાં <b>જેની પાછળ 'કરતાં', 'થી' અથવા 'ના' શબ્દ લાગેલો હોય</b>, ગુણાકાર હંમેશા તેની સાથે જ કરવો! <br>
+                    અહીં "પેનની કિંમત <b>કરતાં</b>" લખ્યું છે, એટલે પેનની કિંમત (y) ને જ 2 વડે ગુણવાના. એટલે સમીકરણ સીધું જ <b>x = 2y</b> બની જશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 4.1 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "નીચે દર્શાવેલા દ્વિચલ સુરેખ સમીકરણોને ax + by + c = 0 સ્વરૂપે દર્શાવો અને દરેકમાં a, b અને c ની કિંમત શોધો:\n(i) 2x + 3y = 9.35̅\n(ii) x - y/5 - 10 = 0\n(iii) -2x + 3y = 6\n(iv) x = 3y\n(v) 2x = -5y\n(vi) 3x + 2 = 0\n(vii) y - 2 = 0\n(viii) 5 = 2x", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>નિયમ: સમીકરણને પ્રમાણિત સ્વરૂપ <span style='color:#be123c;'>ax + by + c = 0</span> માં ફેરવવા માટે, બરાબર (=) ની જમણી બાજુ 0 લાવવો પડે. (બધા જ પદો ડાબી બાજુ લાવી દેવા).</p>
+                    
+                    <div style='overflow-x:auto;'>
+                        <table style='width:100%; min-width:600px; border-collapse:collapse; text-align:center; font-size:15px;'>
+                            <thead>
+                                <tr style='background-color:#1e3a8a; color:#ffffff;'>
+                                    <th style='padding:12px; border:1px solid #cbd5e1;'>ક્રમ</th>
+                                    <th style='padding:12px; border:1px solid #cbd5e1;'>આપેલ સમીકરણ</th>
+                                    <th style='padding:12px; border:1px solid #cbd5e1;'>ax + by + c = 0 સ્વરૂપ</th>
+                                    <th style='padding:12px; border:1px solid #cbd5e1; color:#fde047;'>a (x નો સહગુણક)</th>
+                                    <th style='padding:12px; border:1px solid #cbd5e1; color:#fde047;'>b (y નો સહગુણક)</th>
+                                    <th style='padding:12px; border:1px solid #cbd5e1; color:#fde047;'>c (અચળ પદ)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(i)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>2x + 3y = 9.3<span style='text-decoration:overline;'>5</span></td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>2x + 3y - 9.3<span style='text-decoration:overline;'>5</span> = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>2</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>3</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-9.3<span style='text-decoration:overline;'>5</span></td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(ii)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>x - <div style='display:inline-block; vertical-align:middle;'><div style='border-bottom:1px solid #000;'>y</div><div>5</div></div> - 10 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>1x - <div style='display:inline-block; vertical-align:middle;'><div style='border-bottom:1px solid #0284c7;'>1</div><div>5</div></div>y - 10 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>1</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-1/5</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-10</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(iii)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>-2x + 3y = 6</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>-2x + 3y - 6 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-2</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>3</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-6</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(iv)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>x = 3y</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>1x - 3y + 0 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>1</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-3</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>0</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(v)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>2x = -5y</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>2x + 5y + 0 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>2</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>5</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>0</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(vi)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>3x + 2 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>3x + 0y + 2 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>3</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>2</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(vii)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>y - 2 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>0x + 1y - 2 = 0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>1</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-2</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(viii)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>5 = 2x</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#0284c7;'>-2x + 0y + 5 = 0 <br><span style='font-size:12px; font-weight:normal; color:#64748b;'>(અથવા 2x + 0y - 5 = 0)</span></td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#be123c;'>-2</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>0</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>5</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>$a, b$ અને $c$ શોધવા બહુ જ સરળ છે! <br>
+                    &bull; જે <b>x</b> ની સાથે ચોંટેલો હોય તે <b style='color:#be123c;'>a</b><br>
+                    &bull; જે <b>y</b> ની સાથે ચોંટેલો હોય તે <b style='color:#be123c;'>b</b><br>
+                    &bull; અને જે એકલો (અચળ) હોય તે <b style='color:#be123c;'>c</b><br>
+                    <b>ખાસ નોંધ:</b> જો કોઈ પદ સમીકરણમાં ગાયબ હોય (જેમ કે દાખલા vi માં y નથી), તો તેનો સહગુણક સીધો <b>0 (શૂન્ય)</b> લખી દેવો અને જો પદ છે પણ આગળ કોઈ અંક નથી (જેમ કે દાખલા ii માં x છે), તો તેનો સહગુણક <b>1</b> ગણાય!</p>
+                </div>`
+            },
+
+            { 
+                "questionNumber": "સ્વાધ્યાય 4.2 - પ્રશ્ન 1",
+                "marks": 2,
+                "question": "નીચેના પૈકી કયો વિકલ્પ સાચો છે અને શા માટે?\ny = 3x + 5 ને\n(i) અનન્ય ઉકેલ હોય.\n(ii) માત્ર બે ઉકેલ હોય.\n(iii) અનંત ઉકેલ હોય.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
+                        <h4 style='color:#14532d; margin:0 0 10px 0; font-size:16px;'>સાચો વિકલ્પ: (iii) અનંત ઉકેલ હોય.</h4>
+                        
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#166534;'><b>કારણ:</b> દ્વિચલ સુરેખ સમીકરણ $y = 3x + 5$ માં, $x$ ની કોઈપણ કિંમત મૂકવાથી આપણને $y$ ની અનુરૂપ નવી કિંમત મળે છે. $x$ ની કિંમતો અનંત હોઈ શકે, તેથી તેના ઉકેલો પણ અનંત મળે છે.</p>
+                        
+                        <div style='text-align:center; overflow-x:auto; background-color:#ffffff; padding:15px; border-radius:8px; border:1px dashed #22c55e; margin-top:15px;'>
+                            <p style='margin:0 0 10px 0; color:#15803d; font-weight:bold; font-size:14px;'>આલેખ પર સમજૂતી (રેખા પર અસંખ્ય બિંદુઓ હોય છે)</p>
+                            <svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="20" y1="120" x2="280" y2="120" stroke="#94a3b8" stroke-width="2"/>
+                                <line x1="150" y1="10" x2="150" y2="140" stroke="#94a3b8" stroke-width="2"/>
+                                
+                                <line x1="50" y1="140" x2="250" y2="20" stroke="#0284c7" stroke-width="3"/>
+                                
+                                <circle cx="83.3" cy="120" r="4" fill="#be123c"/>
+                                <circle cx="116.6" cy="100" r="4" fill="#be123c"/>
+                                <circle cx="150" cy="80" r="4" fill="#be123c"/>
+                                <circle cx="183.3" cy="60" r="4" fill="#be123c"/>
+                                <circle cx="216.6" cy="40" r="4" fill="#be123c"/>
+                                
+                                <text x="170" y="30" fill="#0284c7" font-weight="bold" font-size="14">y = 3x + 5</text>
+                                <text x="80" y="80" fill="#be123c" font-size="12">અનંત બિંદુઓ</text>
+                                
+                                <path d="M 250 20 L 240 15 L 245 25 z" fill="#0284c7"/>
+                                <path d="M 50 140 L 60 145 L 55 135 z" fill="#0284c7"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 4.2 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "નીચેનાં પૈકી પ્રત્યેક સમીકરણના ચાર ઉકેલ લખો:\n(i) 2x + y = 7\n(ii) πx + y = 9\n(iii) x = 4y", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>સમજૂતી: સમીકરણમાંથી કોઈ એક ચલ (x અથવા y) ને કર્તા બનાવીશું અને બીજા ચલની 4 અલગ-અલગ કિંમતો (જેમ કે 0, 1, 2, 3) ધારીશું.</p>
+
+                    <div style='display:flex; flex-direction:column; gap:20px;'>
+                        <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 10px 0;'>(i) 2x + y = 7</h4>
+                            <p style='margin:0 0 8px 0; font-size:14px; color:#334155;'>અહીં $y$ ને કર્તા બનાવવું સહેલું છે: <b style='color:#0284c7;'>y = 7 - 2x</b></p>
+                            <ul style='font-size:14px; color:#475569; padding-left:20px; line-height:1.6;'>
+                                <li>જો x = 0 લઈએ, તો y = 7 - 2(0) = <b>7</b> &rarr; ઉકેલ (0, 7)</li>
+                                <li>જો x = 1 લઈએ, તો y = 7 - 2(1) = 7 - 2 = <b>5</b> &rarr; ઉકેલ (1, 5)</li>
+                                <li>જો x = 2 લઈએ, તો y = 7 - 2(2) = 7 - 4 = <b>3</b> &rarr; ઉકેલ (2, 3)</li>
+                                <li>જો x = 3 લઈએ, તો y = 7 - 2(3) = 7 - 6 = <b>1</b> &rarr; ઉકેલ (3, 1)</li>
+                            </ul>
+                            <div style='overflow-x:auto; margin-top:10px;'>
+                                <table style='width:100%; min-width:300px; border-collapse:collapse; text-align:center;'>
+                                    <tr style='background-color:#bae6fd; color:#0369a1; font-weight:bold;'>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>x</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>0</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>1</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>2</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>3</td>
+                                    </tr>
+                                    <tr style='background-color:#ffffff;'>
+                                        <td style='padding:8px; border:1px solid #7dd3fc; font-weight:bold; color:#0369a1;'>y</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>7</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>5</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>3</td>
+                                        <td style='padding:8px; border:1px solid #7dd3fc;'>1</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 10px 0;'>(ii) &pi;x + y = 9</h4>
+                            <p style='margin:0 0 8px 0; font-size:14px; color:#334155;'>અહીં પણ $y$ ને કર્તા બનાવીએ: <b style='color:#16a34a;'>y = 9 - &pi;x</b></p>
+                            <ul style='font-size:14px; color:#475569; padding-left:20px; line-height:1.6;'>
+                                <li>જો x = 0 લઈએ, તો y = 9 - &pi;(0) = <b>9</b> &rarr; ઉકેલ (0, 9)</li>
+                                <li>જો x = 1 લઈએ, તો y = 9 - &pi;(1) = <b>9 - &pi;</b> &rarr; ઉકેલ (1, 9 - &pi;)</li>
+                                <li>જો x = 2 લઈએ, તો y = 9 - &pi;(2) = <b>9 - 2&pi;</b> &rarr; ઉકેલ (2, 9 - 2&pi;)</li>
+                                <li>જો x = -1 લઈએ, તો y = 9 - &pi;(-1) = <b>9 + &pi;</b> &rarr; ઉકેલ (-1, 9 + &pi;)</li>
+                            </ul>
+                            <div style='overflow-x:auto; margin-top:10px;'>
+                                <table style='width:100%; min-width:300px; border-collapse:collapse; text-align:center;'>
+                                    <tr style='background-color:#bbf7d0; color:#14532d; font-weight:bold;'>
+                                        <td style='padding:8px; border:1px solid #86efac;'>x</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>0</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>1</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>2</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>-1</td>
+                                    </tr>
+                                    <tr style='background-color:#ffffff;'>
+                                        <td style='padding:8px; border:1px solid #86efac; font-weight:bold; color:#14532d;'>y</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>9</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>9 - &pi;</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>9 - 2&pi;</td>
+                                        <td style='padding:8px; border:1px solid #86efac;'>9 + &pi;</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 10px 0;'>(iii) x = 4y</h4>
+                            <p style='margin:0 0 8px 0; font-size:14px; color:#334155;'>અહીં $x$ પહેલાથી જ કર્તા છે. તેથી આપણે $y$ ની કિંમતો ધારીશું: <b style='color:#be123c;'>x = 4y</b></p>
+                            <ul style='font-size:14px; color:#475569; padding-left:20px; line-height:1.6;'>
+                                <li>જો y = 0 લઈએ, તો x = 4(0) = <b>0</b> &rarr; ઉકેલ (0, 0)</li>
+                                <li>જો y = 1 લઈએ, તો x = 4(1) = <b>4</b> &rarr; ઉકેલ (4, 1)</li>
+                                <li>જો y = 2 લઈએ, તો x = 4(2) = <b>8</b> &rarr; ઉકેલ (8, 2)</li>
+                                <li>જો y = 3 લઈએ, તો x = 4(3) = <b>12</b> &rarr; ઉકેલ (12, 3)</li>
+                            </ul>
+                            <div style='overflow-x:auto; margin-top:10px;'>
+                                <table style='width:100%; min-width:300px; border-collapse:collapse; text-align:center;'>
+                                    <tr style='background-color:#fecdd3; color:#881337; font-weight:bold;'>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>x</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>0</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>4</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>8</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>12</td>
+                                    </tr>
+                                    <tr style='background-color:#ffffff;'>
+                                        <td style='padding:8px; border:1px solid #fda4af; font-weight:bold; color:#881337;'>y</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>0</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>1</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>2</td>
+                                        <td style='padding:8px; border:1px solid #fda4af;'>3</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>ઉકેલ શોધતી વખતે કયો ચલ ધરવો તેમાં મુંઝવણ થાય છે? સિમ્પલ છે! જે ચલની સાથે કોઈ સહગુણક ન હોય (એટલે કે જે એકલો હોય), તેને કર્તા બનાવી લો અને બીજા ચલની કિંમત <b>0, 1, 2, 3</b> ધારી લો. ગણતરી સાવ સરળ થઈ જશે અને ભાગાકાર નહિ કરવો પડે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 4.2 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "નીચેનામાંથી કયાં બિંદુઓ સમીકરણ x - 2y = 4 ના ઉકેલ છે અને કયાં બિંદુઓ ઉકેલ નથી તે ચકાસો:\n(i) (0, 2)\n(ii) (2, 0)\n(iii) (4, 0)\n(iv) (√2, 4√2)\n(v) (1, 1)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>રીત: દરેક બિંદુના યામ (x, y) ને સમીકરણની ડાબી બાજુ (LHS = x - 2y) માં મૂકીશું. જો જવાબ 4 આવે (RHS), તો ઉકેલ છે, નહિ તો નથી.</p>
+
+                    <div style='display:flex; flex-direction:column; gap:10px; overflow-x:auto;'>
+                        
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(i) (0, 2) માટે:</h4>
+                            <div style='font-size:14px; color:#4c0519;'>
+                                અહીં x = 0 અને y = 2.<br>
+                                ડા.બા. = x - 2y = (0) - 2(2) = 0 - 4 = -4<br>
+                                અહીં -4 &ne; 4 હોવાથી, <b style='color:#be123c; font-size:15px;'>(0, 2) એ ઉકેલ નથી.</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(ii) (2, 0) માટે:</h4>
+                            <div style='font-size:14px; color:#4c0519;'>
+                                અહીં x = 2 અને y = 0.<br>
+                                ડા.બા. = x - 2y = (2) - 2(0) = 2 - 0 = 2<br>
+                                અહીં 2 &ne; 4 હોવાથી, <b style='color:#be123c; font-size:15px;'>(2, 0) એ ઉકેલ નથી.</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(iii) (4, 0) માટે:</h4>
+                            <div style='font-size:14px; color:#064e3b;'>
+                                અહીં x = 4 અને y = 0.<br>
+                                ડા.બા. = x - 2y = (4) - 2(0) = 4 - 0 = 4<br>
+                                અહીં 4 = 4 હોવાથી, <b style='color:#16a34a; font-size:15px;'>(4, 0) એ સમીકરણનો ઉકેલ છે!</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(iv) (&radic;2, 4&radic;2) માટે:</h4>
+                            <div style='font-size:14px; color:#4c0519;'>
+                                અહીં x = &radic;2 અને y = 4&radic;2.<br>
+                                ડા.બા. = x - 2y = (&radic;2) - 2(4&radic;2) = &radic;2 - 8&radic;2 = -7&radic;2<br>
+                                અહીં -7&radic;2 &ne; 4 હોવાથી, <b style='color:#be123c; font-size:15px;'>(&radic;2, 4&radic;2) એ ઉકેલ નથી.</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(v) (1, 1) માટે:</h4>
+                            <div style='font-size:14px; color:#4c0519;'>
+                                અહીં x = 1 અને y = 1.<br>
+                                ડા.બા. = x - 2y = (1) - 2(1) = 1 - 2 = -1<br>
+                                અહીં -1 &ne; 4 હોવાથી, <b style='color:#be123c; font-size:15px;'>(1, 1) એ ઉકેલ નથી.</b>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ છે આપણી <b>"LHS = RHS ગેમ"</b>! ડાબી બાજુ x અને y ની કિંમત મૂકો. જો જવાબ જમણી બાજુ જેટલો જ (અહીં 4) આવે તો જ બિંદુ <b>પાસ</b> (ઉકેલ છે), નહિ તો <b>ફેલ</b> (ઉકેલ નથી)! હેતુલક્ષી પ્રશ્નમાં મનમાં જ ગણતરી કરી શકાય.</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 4.2 - પ્રશ્ન 4",
+                "marks": 2,
+                "question": "જો x = 2, y = 1 એ સમીકરણ 2x + 3y = k નો એક ઉકેલ હોય, તો k ની કિંમત શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0f9ff; padding:15px; border-radius:5px; border:1px solid #bae6fd;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0369a1;'><b>આપેલું સમીકરણ:</b> 2x + 3y = k</p>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'>અહીં (x = 2, y = 1) ઉકેલ હોવાથી, આપણે સમીકરણમાં x ની જગ્યાએ 2 અને y ની જગ્યાએ 1 મૂકીશું.</p>
+                        
+                        <div style='font-family:monospace; font-size:16px; color:#0f172a; text-align:center; padding:15px; background-color:#ffffff; border-radius:5px; border:1px dashed #0284c7;'>
+                            2(2) + 3(1) = k<br><br>
+                            &there4; 4 + 3 = k<br><br>
+                            &there4; 7 = k<br><br>
+                            <b style='color:#16a34a; font-size:20px;'>&there4; k = 7</b>
+                        </div>
+                        <p style='margin:10px 0 0 0; font-size:15px; color:#0369a1; text-align:center;'>આમ, માંગેલ k ની કિંમત <b>7</b> છે.</p>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવા દાખલા પરીક્ષા માટે <b>Free Marks</b> સમાન છે! k શોધવાનો હોય ત્યારે કોઈ સમીકરણ ઉકેલવાની જરૂર નથી, બસ આપેલી x અને y ની કિંમતો સીધી જ મૂકીને સાદું રૂપ આપી દો. 2 માર્ક્સ સીધા ખિસ્સામાં!</p>
+                </div>`
+            }
+    
+        
+        ]
     }
+    
     
 };
 
