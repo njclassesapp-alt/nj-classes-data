@@ -3792,7 +3792,317 @@ var njMathsExercise = {
                         </div>
                     </div>
                 </div>`
-            }
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "આકૃતિમાં, x અને y નાં મૂલ્યો શોધો અને પછી બતાવો કે AB || CD.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>પ્રશ્નની આકૃતિ</p>
+                        <svg viewBox="0 0 300 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="40" y1="80" x2="260" y2="80" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            <line x1="40" y1="180" x2="260" y2="180" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            
+                            <line x1="120" y1="20" x2="180" y2="230" stroke="#be123c" stroke-width="2" marker-start="url(#arrowRed)" marker-end="url(#arrowRed)"/>
+                            
+                            <text x="25" y="75" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="265" y="75" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="25" y="175" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="265" y="175" fill="#0f172a" font-weight="bold">D</text>
+                            
+                            <path d="M 134 70 A 20 20 0 0 0 125 50" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                            <text x="100" y="55" fill="#1d4ed8" font-size="14" font-weight="bold">50&deg;</text>
+                            
+                            <path d="M 145 80 A 20 20 0 0 1 138 100" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="150" y="105" fill="#16a34a" font-size="16" font-weight="bold">x</text>
+                            
+                            <path d="M 154 180 A 20 20 0 0 0 162 160" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="135" y="165" fill="#ea580c" font-size="16" font-weight="bold">y</text>
+                            
+                            <path d="M 166 180 A 20 20 0 0 1 173 200" fill="none" stroke="#9333ea" stroke-width="2"/>
+                            <text x="175" y="210" fill="#9333ea" font-size="14" font-weight="bold">130&deg;</text>
+                            
+                            <defs>
+                                <marker id="arrow62" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                                    <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                                </marker>
+                                <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                                    <path d="M0,0 L0,8 L8,4 z" fill="#be123c" />
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>1) x શોધવા માટે:</b><br>
+                            આકૃતિમાં 50&deg; અને x એ એક જ સીધી રેખા (છેદિકા) પર આવેલા રૈખિક જોડના ખૂણા છે.<br>
+                            &there4; x + 50&deg; = 180&deg;<br>
+                            &there4; x = 180&deg; - 50&deg;<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 130&deg;</b><br><br>
+                            
+                            <b>2) y શોધવા માટે:</b><br>
+                            આકૃતિમાં y અને 130&deg; એ સામસામેના ખૂણા (અભિકોણો) છે. અભિકોણો હંમેશા સમાન હોય છે.<br>
+                            &there4; <b style='color:#ea580c; font-size:16px;'>y = 130&deg;</b><br><br>
+                            
+                            <b>3) AB || CD સાબિત કરવા માટે:</b><br>
+                            અહીં, x = 130&deg; અને y = 130&deg; છે. એટલે કે, <b>x = y</b>.<br>
+                            પરંતુ આકૃતિ મુજબ, x અને y એ રેખાઓ AB અને CD ની છેદિકા દ્વારા બનતા <b>અંતઃયુગ્મકોણો (Alternate interior angles)</b> છે.<br>
+                            જ્યારે અંતઃયુગ્મકોણો સમાન હોય, ત્યારે તે બે રેખાઓ હંમેશા સમાંતર હોય છે (યુગ્મકોણ પ્રતીપ પ્રમેય).<br>
+                            &there4; <b style='color:#be123c; font-size:16px;'>AB || CD</b> (સાબિત થાય છે).
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આકૃતિમાં <b>Z</b> આકાર શોધો! જ્યાં પણ Z આકાર બને, ત્યાં Z ના અંદરના બંને ખૂણા (યુગ્મકોણ) સરખા જ હોય. અહીં x અને y મળીને ઊંધો <b>Z</b> બનાવે છે. બંને 130&deg; આવ્યા એટલે સાબિત થઈ ગયું કે લાઈનો સમાંતર છે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "આકૃતિમાં, જો AB || CD, CD || EF અને y : z = 3 : 7 છે, તો x નું મૂલ્ય શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 280" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="40" y1="60" x2="260" y2="60" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            <line x1="40" y1="140" x2="260" y2="140" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            <line x1="40" y1="220" x2="260" y2="220" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            
+                            <line x1="120" y1="20" x2="200" y2="260" stroke="#be123c" stroke-width="2" marker-start="url(#arrowRed)" marker-end="url(#arrowRed)"/>
+                            
+                            <text x="25" y="55" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="265" y="55" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="25" y="135" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="265" y="135" fill="#0f172a" font-weight="bold">D</text>
+                            <text x="25" y="215" fill="#0f172a" font-weight="bold">E</text>
+                            <text x="265" y="215" fill="#0f172a" font-weight="bold">F</text>
+                            
+                            <path d="M 140 60 A 20 20 0 0 1 135 80" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                            <text x="145" y="85" fill="#1d4ed8" font-size="16" font-weight="bold">x</text>
+                            
+                            <path d="M 160 140 A 20 20 0 0 0 155 120" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="135" y="125" fill="#16a34a" font-size="16" font-weight="bold">y</text>
+                            
+                            <path d="M 194 220 A 20 20 0 0 1 187 240" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="195" y="250" fill="#ea580c" font-size="16" font-weight="bold">z</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            આપેલ છે કે: AB || CD અને CD || EF.<br>
+                            જો બે રેખાઓ કોઈ ત્રીજી રેખાને સમાંતર હોય, તો તેઓ એકબીજાને પણ સમાંતર હોય છે.<br>
+                            &there4; <b>AB || EF</b><br><br>
+                            
+                            હવે AB || EF હોવાથી, x અને z એ <b>અંતઃયુગ્મકોણો (Alternate interior angles)</b> બને છે.<br>
+                            &there4; <b>x = z</b> ......(સમીકરણ 1)<br><br>
+                            
+                            ફરીથી, AB || CD હોવાથી, x અને y એ છેદિકાની <b>એક જ તરફના અંતઃકોણો</b> છે. તેમનો સરવાળો 180&deg; થાય.<br>
+                            &there4; x + y = 180&deg;<br>
+                            સમીકરણ 1 પરથી x ની જગ્યાએ z મૂકતાં:<br>
+                            &there4; <b>z + y = 180&deg;</b> ......(સમીકરણ 2)<br><br>
+                            
+                            આપણને ગુણોત્તર y : z = 3 : 7 આપેલ છે.<br>
+                            ધારો કે y = 3k અને z = 7k.<br>
+                            સમીકરણ 2 માં કિંમત મૂકતાં:<br>
+                            &there4; 7k + 3k = 180&deg;<br>
+                            &there4; 10k = 180&deg; &rArr; <b>k = 18&deg;</b><br><br>
+                            
+                            હવે, x = z હોવાથી, આપણે સીધું z શોધીએ:<br>
+                            z = 7k = 7 &times; 18&deg; = 126&deg;<br>
+                            &there4; <b style='color:#be123c; font-size:18px;'>x = 126&deg;</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "આકૃતિમાં, જો AB || CD, EF ⊥ CD અને &ang;GED = 126&deg; હોય, તો &ang;AGE, &ang;GEF અને &ang;FGE શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="30" y1="50" x2="320" y2="50" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            <line x1="30" y1="150" x2="320" y2="150" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            
+                            <text x="20" y="45" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="325" y="45" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="20" y="145" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="325" y="145" fill="#0f172a" font-weight="bold">D</text>
+                            
+                            <line x1="120" y1="50" x2="220" y2="150" stroke="#be123c" stroke-width="2"/>
+                            <line x1="220" y1="50" x2="220" y2="150" stroke="#1d4ed8" stroke-width="2"/>
+                            
+                            <text x="110" y="40" fill="#0f172a" font-weight="bold">G</text>
+                            <text x="215" y="40" fill="#0f172a" font-weight="bold">F</text>
+                            <text x="215" y="170" fill="#0f172a" font-weight="bold">E</text>
+                            
+                            <polyline points="220,140 210,140 210,150" fill="none" stroke="#1d4ed8" stroke-width="1.5"/>
+                            
+                            <path d="M 220 150 A 40 40 0 0 0 180 110" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="180" y="140" fill="#ea580c" font-size="12" font-weight="bold">126&deg;</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            આપેલ છે: &ang;GED = 126&deg; અને EF &perp; CD (એટલે કે &ang;FED = 90&deg;).<br><br>
+                            
+                            <b>1) &ang;AGE શોધવા માટે:</b><br>
+                            AB || CD છે અને છેદિકા GE છે. આથી &ang;AGE અને &ang;GED <b>અંતઃયુગ્મકોણો (Z આકાર)</b> બનાવે છે.<br>
+                            &there4; &ang;AGE = &ang;GED<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>&ang;AGE = 126&deg;</b><br><br>
+                            
+                            <b>2) &ang;GEF શોધવા માટે:</b><br>
+                            આકૃતિમાં, &ang;GED એ બે ખૂણાનો બનેલો છે: &ang;GEF અને &ang;FED.<br>
+                            &there4; &ang;GEF + &ang;FED = &ang;GED<br>
+                            &there4; &ang;GEF + 90&deg; = 126&deg;<br>
+                            &there4; &ang;GEF = 126&deg; - 90&deg;<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>&ang;GEF = 36&deg;</b><br><br>
+                            
+                            <b>3) &ang;FGE શોધવા માટે:</b><br>
+                            રેખા AB પર G બિંદુ આવેલું છે. તેથી &ang;AGE અને &ang;FGE રૈખિક જોડ બનાવે છે.<br>
+                            &there4; &ang;AGE + &ang;FGE = 180&deg;<br>
+                            &there4; 126&deg; + &ang;FGE = 180&deg;<br>
+                            &there4; &ang;FGE = 180&deg; - 126&deg;<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>&ang;FGE = 54&deg;</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 4",
+                "marks": 4,
+                "question": "આકૃતિમાં, જો PQ || ST, &ang;PQR = 110&deg; અને &ang;RST = 130&deg; હોય, તો &ang;QRS શોધો. (સૂચન : બિંદુ R માંથી પસાર થતી ST ને સમાંતર રેખા દોરો.)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="30" y1="50" x2="120" y2="50" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)"/>
+                            <line x1="120" y1="50" x2="180" y2="150" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="180" y1="150" x2="240" y2="70" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="240" y1="70" x2="320" y2="70" stroke="#0f172a" stroke-width="2" marker-end="url(#arrow62)"/>
+                            
+                            <line x1="130" y1="150" x2="280" y2="150" stroke="#be123c" stroke-width="2" stroke-dasharray="5,5"/>
+                            <text x="110" y="155" fill="#be123c" font-weight="bold">U</text>
+                            <text x="290" y="155" fill="#be123c" font-weight="bold">V</text>
+                            
+                            <text x="30" y="40" fill="#0f172a" font-weight="bold">P</text>
+                            <text x="120" y="40" fill="#0f172a" font-weight="bold">Q</text>
+                            <text x="180" y="170" fill="#0f172a" font-weight="bold">R</text>
+                            <text x="235" y="60" fill="#0f172a" font-weight="bold">S</text>
+                            <text x="320" y="60" fill="#0f172a" font-weight="bold">T</text>
+                            
+                            <path d="M 100 50 A 20 20 0 0 0 110 68" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                            <text x="80" y="80" fill="#1d4ed8" font-size="12" font-weight="bold">110&deg;</text>
+                            
+                            <path d="M 260 70 A 20 20 0 0 1 250 83" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="260" y="95" fill="#ea580c" font-size="12" font-weight="bold">130&deg;</text>
+                            
+                            <path d="M 172 135 A 15 15 0 0 0 188 139" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="175" y="125" fill="#16a34a" font-size="14" font-weight="bold">?</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            સૂચન મુજબ, R માંથી પસાર થતી અને ST ને સમાંતર હોય તેવી એક રેખા UV દોરો (આકૃતિમાં લાલ તૂટક રેખા).<br>
+                            આથી, <b>ST || UV</b> થશે. વળી રકમ મુજબ PQ || ST હોવાથી, <b>PQ || UV</b> પણ થશે.<br><br>
+                            
+                            હવે, ST || UV અને SR તેની છેદિકા છે.<br>
+                            તેથી, &ang;RST અને &ang;SRV એ છેદિકાની એક જ તરફના અંતઃકોણો (C આકાર) છે, જેનો સરવાળો 180&deg; થાય.<br>
+                            &there4; &ang;RST + &ang;SRV = 180&deg;<br>
+                            &there4; 130&deg; + &ang;SRV = 180&deg;<br>
+                            &there4; <b>&ang;SRV = 50&deg;</b><br><br>
+                            
+                            હવે, PQ || UV અને QR તેની છેદિકા છે.<br>
+                            તેથી, &ang;PQR અને &ang;QRV એ અંતઃયુગ્મકોણો (Z આકાર) બને છે.<br>
+                            &there4; &ang;QRV = &ang;PQR<br>
+                            &there4; <b>&ang;QRV = 110&deg;</b><br><br>
+                            
+                            આકૃતિમાં, &ang;QRV એ બે ખૂણાનો સરવાળો છે: &ang;QRS અને &ang;SRV.<br>
+                            &there4; &ang;QRS + &ang;SRV = &ang;QRV<br>
+                            &there4; &ang;QRS + 50&deg; = 110&deg;<br>
+                            &there4; &ang;QRS = 110&deg; - 50&deg;<br>
+                            &there4; <b style='color:#be123c; font-size:18px;'>&ang;QRS = 60&deg;</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ <b>"તૂટેલા પુલ (Broken Bridge)"</b> વાળો દાખલો છે! જ્યારે પણ લાઈન વચ્ચેથી તૂટેલી દેખાય, ત્યાં નીચે એક સીધી <b>Support Line (આધાર રેખા)</b> દોરી દેવી. પછી બસ ડાબી બાજુથી <b>Z આકાર</b> અને જમણી બાજુથી <b>C આકાર</b> નો નિયમ વાપરો એટલે જવાબ દોડતો આવશે!</p>
+                </div>`
+            },
+               { 
+                "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 5",
+                "marks": 3,
+                "question": "આકૃતિમાં, જો AB || CD, &ang;APQ = 50&deg; અને &ang;PRD = 127&deg; હોય, તો x અને y શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:380px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="30" y1="50" x2="320" y2="50" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            <line x1="30" y1="160" x2="320" y2="160" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                            
+                            <polygon points="120,50 90,160 220,160" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <text x="20" y="40" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="320" y="40" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="20" y="180" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="320" y="180" fill="#0f172a" font-weight="bold">D</text>
+                            <text x="120" y="35" fill="#be123c" font-weight="bold">P</text>
+                            <text x="75" y="175" fill="#be123c" font-weight="bold">Q</text>
+                            <text x="230" y="175" fill="#be123c" font-weight="bold">R</text>
+                            
+                            <path d="M 80 50 A 20 20 0 0 0 110 85" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="65" y="70" fill="#16a34a" font-size="12" font-weight="bold">50&deg;</text>
+                            
+                            <path d="M 105 160 A 20 20 0 0 1 113 130" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="115" y="150" fill="#ea580c" font-size="16" font-weight="bold">x</text>
+                            
+                            <path d="M 125 70 A 20 20 0 0 1 143 75" fill="none" stroke="#9333ea" stroke-width="2"/>
+                            <text x="135" y="95" fill="#9333ea" font-size="16" font-weight="bold">y</text>
+                            
+                            <path d="M 245 160 A 20 20 0 0 0 205 140" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                            <text x="235" y="145" fill="#1d4ed8" font-size="12" font-weight="bold">127&deg;</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            આપેલું છે કે AB || CD.<br><br>
+                            
+                            <b>1) x શોધવા માટે:</b><br>
+                            AB || CD અને PQ તેની છેદિકા છે.<br>
+                            આથી, &ang;APQ અને &ang;PQR એ <b>અંતઃયુગ્મકોણો (Z આકાર)</b> બને છે.<br>
+                            &there4; &ang;PQR = &ang;APQ<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 50&deg;</b><br><br>
+                            
+                            <b>2) y શોધવા માટે:</b><br>
+                            ફરીથી, AB || CD અને આ વખતે PR તેની છેદિકા છે.<br>
+                            આથી, આખો ખૂણો &ang;APR અને &ang;PRD પણ <b>અંતઃયુગ્મકોણો</b> બને છે.<br>
+                            &there4; &ang;APR = &ang;PRD<br>
+                            હવે, &ang;APR એ બે ખૂણાઓ 50&deg; અને y નો બનેલો છે.<br>
+                            &there4; 50&deg; + y = 127&deg;<br>
+                            &there4; y = 127&deg; - 50&deg;<br>
+                            &there4; <b style='color:#be123c; font-size:16px;'>y = 77&deg;</b>
+                        </div>
+                    </div>
+                </div>`
+               }
             
         ]
     }
