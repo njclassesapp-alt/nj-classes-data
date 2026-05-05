@@ -1721,7 +1721,259 @@ var njMathsExercise = {
                     <b>નિયમ 2:</b> જો એકી પદોના સહગુણકોનો સરવાળો અને બેકી પદોના સહગુણકોનો સરવાળો સરખો થાય, તો પહેલો અવયવ હંમેશા <b>(x + 1)</b> હોય.<br>
                     પછી તો બસ તેને 3 વાર લખીને પદો સેટ જ કરવાના રહે છે!</p>
                 </div>`
+               },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "યોગ્ય નિત્યસમનો ઉપયોગ કરીને નીચેના ગુણાકાર મેળવો:\n(i) (x + 4)(x + 10)\n(ii) (x + 8)(x - 10)\n(iii) (3x + 4)(3x - 5)\n(iv) (y² + 3/2)(y² - 3/2)\n(v) (3 - 2x)(3 + 2x)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f0fdf4; padding:10px; border-radius:8px; border:2px dashed #16a34a; margin-bottom:15px;'>
+                        <p style='margin:0 0 5px 0; color:#14532d; font-weight:bold; font-size:15px;'>ઉપયોગમાં લેવાતા નિત્યસમો (સૂત્રો):</p>
+                        <div style='font-size:16px; color:#166534; font-weight:bold; font-family:monospace;'>
+                            1) (x + a)(x + b) = x<sup>2</sup> + (a + b)x + ab<br>
+                            2) (x + y)(x - y) = x<sup>2</sup> - y<sup>2</sup>
+                        </div>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(i) (x + 4)(x + 10)</h4>
+                            <div style='font-size:15px; color:#334155; line-height:1.6;'>
+                                અહી a = 4 અને b = 10 છે.<br>
+                                = (x)<sup>2</sup> + (4 + 10)x + (4)(10)<br>
+                                = <b style='color:#0284c7; font-size:16px;'>x<sup>2</sup> + 14x + 40</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(ii) (x + 8)(x - 10)</h4>
+                            <div style='font-size:15px; color:#334155; line-height:1.6;'>
+                                અહી a = 8 અને b = -10 છે.<br>
+                                = (x)<sup>2</sup> + (8 - 10)x + (8)(-10)<br>
+                                = x<sup>2</sup> + (-2)x - 80<br>
+                                = <b style='color:#0284c7; font-size:16px;'>x<sup>2</sup> - 2x - 80</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(iii) (3x + 4)(3x - 5)</h4>
+                            <div style='font-size:15px; color:#334155; line-height:1.6;'>
+                                અહી પ્રથમ પદ 3x છે, a = 4 અને b = -5 છે.<br>
+                                = (3x)<sup>2</sup> + (4 - 5)(3x) + (4)(-5)<br>
+                                = 9x<sup>2</sup> + (-1)(3x) - 20<br>
+                                = <b style='color:#0284c7; font-size:16px;'>9x<sup>2</sup> - 3x - 20</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(iv) (y<sup>2</sup> + 3/2)(y<sup>2</sup> - 3/2)</h4>
+                            <div style='font-size:15px; color:#334155; line-height:1.6;'>
+                                <span style='color:#be123c; font-size:13px;'>[નિત્યસમ 2: (a+b)(a-b) = a<sup>2</sup> - b<sup>2</sup> મુજબ]</span><br>
+                                = (y<sup>2</sup>)<sup>2</sup> - (3/2)<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:16px;'>y<sup>4</sup> - 9/4</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(v) (3 - 2x)(3 + 2x)</h4>
+                            <div style='font-size:15px; color:#334155; line-height:1.6;'>
+                                <span style='color:#be123c; font-size:13px;'>[નિત્યસમ 2 મુજબ]</span><br>
+                                = (3)<sup>2</sup> - (2x)<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:16px;'>9 - 4x<sup>2</sup></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "સીધો ગુણાકાર કર્યા સિવાય નિત્યસમોનો ઉપયોગ કરીને નીચેના ગુણાકારની કિંમતો મેળવો:\n(i) 103 × 107\n(ii) 95 × 96\n(iii) 104 × 96", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(i) 103 &times; 107</h4>
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px;'>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#475569;'>બંને સંખ્યાઓ 100 ની નજીક છે.</p>
+                            = (100 + 3)(100 + 7)<br>
+                            <span style='color:#64748b; font-size:13px;'>[(x+a)(x+b) = x<sup>2</sup> + (a+b)x + ab મુજબ]</span><br>
+                            = (100)<sup>2</sup> + (3 + 7)(100) + (3)(7)<br>
+                            = 10000 + (10)(100) + 21<br>
+                            = 10000 + 1000 + 21<br>
+                            = <b style='color:#047857; font-size:18px;'>11021</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(ii) 95 &times; 96</h4>
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px;'>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#475569;'>બંને સંખ્યાઓ 100 માંથી અમુક બાદ કરવાથી મળે છે.</p>
+                            = (100 - 5)(100 - 4)<br>
+                            = (100)<sup>2</sup> + (-5 - 4)(100) + (-5)(-4)<br>
+                            = 10000 + (-9)(100) + 20<br>
+                            = 10000 - 900 + 20<br>
+                            = 9100 + 20<br>
+                            = <b style='color:#047857; font-size:18px;'>9120</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(iii) 104 &times; 96</h4>
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px;'>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#881337;'>એક 100 કરતા વધુ છે અને એક 100 કરતા ઓછી છે.</p>
+                            = (100 + 4)(100 - 4)<br>
+                            <span style='color:#be123c; font-size:13px;'>[(a+b)(a-b) = a<sup>2</sup> - b<sup>2</sup> મુજબ]</span><br>
+                            = (100)<sup>2</sup> - (4)<sup>2</sup><br>
+                            = 10000 - 16<br>
+                            = <b style='color:#be123c; font-size:18px;'>9984</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવા દાખલામાં હંમેશા <b>100</b> નો જ આધાર લેવો (જેમ કે 100+3 અથવા 100-5). કારણ કે 100 નો વર્ગ 10000 સીધો જ લખી શકાય છે અને ગણતરીમાં ભૂલ પડવાની શક્યતા સાવ નહિવત્ થઈ જાય છે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "યોગ્ય નિત્યસમનો ઉપયોગ કરીને અવયવ પાડો:\n(i) 9x² + 6xy + y²\n(ii) 4y² - 4y + 1\n(iii) x² - y²/100", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 8px 0;'>(i) 9x<sup>2</sup> + 6xy + y<sup>2</sup></h4>
+                            <div style='font-size:15px; color:#3f3f46;'>
+                                <p style='margin:0 0 5px 0; font-size:13px; color:#71717a;'>આ પૂર્ણવર્ગ ત્રિપદી છે. [a<sup>2</sup> + 2ab + b<sup>2</sup> = (a+b)<sup>2</sup>]</p>
+                                = (3x)<sup>2</sup> + 2(3x)(y) + (y)<sup>2</sup><br>
+                                = <b style='color:#1e3a8a; font-size:16px;'>(3x + y)<sup>2</sup></b><br>
+                                = (3x + y)(3x + y)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 8px 0;'>(ii) 4y<sup>2</sup> - 4y + 1</h4>
+                            <div style='font-size:15px; color:#3f3f46;'>
+                                <p style='margin:0 0 5px 0; font-size:13px; color:#71717a;'>વચ્ચે માઇનસ છે. [a<sup>2</sup> - 2ab + b<sup>2</sup> = (a-b)<sup>2</sup>]</p>
+                                = (2y)<sup>2</sup> - 2(2y)(1) + (1)<sup>2</sup><br>
+                                = <b style='color:#1e3a8a; font-size:16px;'>(2y - 1)<sup>2</sup></b><br>
+                                = (2y - 1)(2y - 1)
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 8px 0;'>(iii) x<sup>2</sup> - y<sup>2</sup> / 100</h4>
+                            <div style='font-size:15px; color:#3f3f46;'>
+                                <p style='margin:0 0 5px 0; font-size:13px; color:#be123c;'>બે પૂર્ણવર્ગનો તફાવત. [a<sup>2</sup> - b<sup>2</sup> = (a-b)(a+b)]</p>
+                                = (x)<sup>2</sup> - (y/10)<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:16px;'>(x - y/10)(x + y/10)</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>ત્રિપદીના અવયવમાં ફક્ત <b>પહેલા અને છેલ્લા પદનું વર્ગમૂળ</b> કાઢો, અને <b>વચ્ચેના પદની નિશાની</b> મૂકીને આખા કૌંસ પર વર્ગ લગાવી દો!<br>
+                    જેમ કે: 9x<sup>2</sup> નું વર્ગમૂળ 3x, 1 નું વર્ગમૂળ 1, અને વચ્ચે - ની નિશાની. સીધો જવાબ (3x - 1)<sup>2</sup>!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 4",
+                "marks": 4,
+                "question": "યોગ્ય નિત્યસમનો ઉપયોગ કરીને વિસ્તરણ કરો:\n(i) (x + 2y + 4z)²\n(ii) (2x - y + z)²\n(iii) (-2x + 3y + 2z)²\n(iv) (3a - 7b - c)²\n(v) (-2x + 5y - 3z)²\n(vi) [(1/4)a - (1/2)b + 1]²", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border:1px solid #bbf7d0; margin-bottom:15px; text-align:center;'>
+                        <p style='margin:0; font-size:16px; color:#14532d; font-weight:bold;'>મૂળભૂત સૂત્ર: (a + b + c)<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> + 2ab + 2bc + 2ca</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:12px; font-size:14px; overflow-x:auto;'>
+                        
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0; min-width:350px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(i) (x + 2y + 4z)<sup>2</sup></h4>
+                            = (x)<sup>2</sup> + (2y)<sup>2</sup> + (4z)<sup>2</sup> + 2(x)(2y) + 2(2y)(4z) + 2(4z)(x)<br>
+                            = <b style='color:#0284c7; font-size:15px;'>x<sup>2</sup> + 4y<sup>2</sup> + 16z<sup>2</sup> + 4xy + 16yz + 8zx</b>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0; min-width:350px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(ii) (2x - y + z)<sup>2</sup></h4>
+                            = (2x)<sup>2</sup> + (-y)<sup>2</sup> + (z)<sup>2</sup> + 2(2x)(-y) + 2(-y)(z) + 2(z)(2x)<br>
+                            = <b style='color:#0284c7; font-size:15px;'>4x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - 4xy - 2yz + 4zx</b>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0; min-width:350px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(iii) (-2x + 3y + 2z)<sup>2</sup></h4>
+                            = (-2x)<sup>2</sup> + (3y)<sup>2</sup> + (2z)<sup>2</sup> + 2(-2x)(3y) + 2(3y)(2z) + 2(2z)(-2x)<br>
+                            = <b style='color:#0284c7; font-size:15px;'>4x<sup>2</sup> + 9y<sup>2</sup> + 4z<sup>2</sup> - 12xy + 12yz - 8zx</b>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0; min-width:350px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(iv) (3a - 7b - c)<sup>2</sup></h4>
+                            = (3a)<sup>2</sup> + (-7b)<sup>2</sup> + (-c)<sup>2</sup> + 2(3a)(-7b) + 2(-7b)(-c) + 2(-c)(3a)<br>
+                            = <b style='color:#0284c7; font-size:15px;'>9a<sup>2</sup> + 49b<sup>2</sup> + c<sup>2</sup> - 42ab + 14bc - 6ca</b>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0; min-width:350px;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(v) (-2x + 5y - 3z)<sup>2</sup></h4>
+                            = (-2x)<sup>2</sup> + (5y)<sup>2</sup> + (-3z)<sup>2</sup> + 2(-2x)(5y) + 2(5y)(-3z) + 2(-3z)(-2x)<br>
+                            = <b style='color:#0284c7; font-size:15px;'>4x<sup>2</sup> + 25y<sup>2</sup> + 9z<sup>2</sup> - 20xy - 30yz + 12zx</b>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border:1px solid #fecdd3; min-width:350px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(vi) [(1/4)a - (1/2)b + 1]<sup>2</sup></h4>
+                            = (a/4)<sup>2</sup> + (-b/2)<sup>2</sup> + (1)<sup>2</sup> + 2(a/4)(-b/2) + 2(-b/2)(1) + 2(1)(a/4)<br>
+                            = a<sup>2</sup>/16 + b<sup>2</sup>/4 + 1 - 2ab/8 - 2b/2 + 2a/4<br>
+                            <span style='color:#be123c; font-size:13px;'>[છેદ ઉડાડતાં]</span><br>
+                            = <b style='color:#be123c; font-size:15px;'>a<sup>2</sup>/16 + b<sup>2</sup>/4 + 1 - ab/4 - b + a/2</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+               { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "અવયવ પાડો:\n(i) 4x² + 9y² + 16z² + 12xy - 24yz - 16xz\n(ii) 2x² + y² + 8z² - 2√2xy + 4√2yz - 8xz", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>સમજૂતી: આ દાખલાઓ ઉપરના પ્રશ્ન 4 થી બિલકુલ ઊંધા છે. વિસ્તરણ આપેલું છે, આપણે કૌંસનો વર્ગ શોધવાનો છે.</p>
+
+                    <div style='display:flex; flex-direction:column; gap:20px; overflow-x:auto;'>
+                        <div style='background-color:#f0f9ff; padding:15px; border-left:4px solid #0284c7; border-radius:5px; min-width:350px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 10px 0;'>(i) 4x<sup>2</sup> + 9y<sup>2</sup> + 16z<sup>2</sup> + 12xy - 24yz - 16xz</h4>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#0369a1;'>અહીં yz અને xz વાળા પદો માઇનસ (-) છે. બંનેમાં <b>z</b> સામાન્ય છે, તેથી <b>z વાળું પદ માઇનસ</b> હશે.</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bae6fd; font-family:monospace; font-size:14px;'>
+                                = (2x)<sup>2</sup> + (3y)<sup>2</sup> + (-4z)<sup>2</sup> + 2(2x)(3y) + 2(3y)(-4z) + 2(-4z)(2x)<br>
+                                <span style='color:#64748b; font-size:12px;'>[નિત્યસમ a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> + 2ab + 2bc + 2ca = (a+b+c)<sup>2</sup>]</span><br>
+                                = <b style='color:#1e3a8a; font-size:16px;'>(2x + 3y - 4z)<sup>2</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:15px; border-left:4px solid #be123c; border-radius:5px; min-width:350px;'>
+                            <h4 style='color:#881337; margin:0 0 10px 0;'>(ii) 2x<sup>2</sup> + y<sup>2</sup> + 8z<sup>2</sup> - 2&radic;2xy + 4&radic;2yz - 8xz</h4>
+                            <p style='margin:0 0 5px 0; font-size:14px; color:#be123c;'>અહીં xy અને xz વાળા પદો માઇનસ (-) છે. બંનેમાં <b>x</b> સામાન્ય છે, તેથી <b>x વાળું પદ માઇનસ</b> હશે.<br>
+                            (નોંધ: 2 નું વર્ગમૂળ &radic;2 અને 8 નું વર્ગમૂળ 2&radic;2 થાય.)</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #fecdd3; font-family:monospace; font-size:14px;'>
+                                = (-&radic;2x)<sup>2</sup> + (y)<sup>2</sup> + (2&radic;2z)<sup>2</sup> + 2(-&radic;2x)(y) + 2(y)(2&radic;2z) + 2(2&radic;2z)(-&radic;2x)<br>
+                                = <b style='color:#9f1239; font-size:16px;'>(-&radic;2x + y + 2&radic;2z)<sup>2</sup></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>માઇનસ (-) ની નિશાની કોને આપવી તેમાં કન્ફ્યુઝન થાય છે ને? <br>
+                    બસ રકમમાં જે <b>બે પદ માઇનસ વાળા</b> દેખાય તેમાં <b>કયો અક્ષર (ચલ) સમાન (Common)</b> છે તે પકડી લો. એ સમાન અક્ષર વાળા પદને જ માઇનસની નિશાની આપી દેવાની, બાકી બધા પ્લસ!</p>
+                </div>`
                }
+            
+        
         ]
     }
 };
