@@ -2424,10 +2424,6 @@ var njMathsExercise = {
                     </div>
                 </div>`
                 }
-            
-            
-            
-        
         ]
     }
 };
