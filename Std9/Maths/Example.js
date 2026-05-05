@@ -2918,7 +2918,42 @@ var njMathsExamples = {
         "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1 (લંબાલેખ)",
-                question: "ધોરણ 9 ના 40 વિદ્યાર્થીઓને તેમના જન્મનો મહિનો જણાવવાનું કહેવામાં આવ્યું. આ માહિતી પરથી નીચેનો લંબાલેખ (Bar Graph) તૈયાર કરો.\nમાહિતી: જાન્યુ(3), ફેબ્રુ(4), માર્ચ(2), એપ્રિલ(2), મે(5), જૂન(1), જુલાઈ(2), ઓગસ્ટ(6), સપ્ટે(3), ઓક્ટો(4), નવે(4), ડિસે(4).", 
+                question: `
+<p style='margin:0 0 10px 0; color:#334155; font-size:15px; line-height:1.6;'>ધોરણ 9 ના 40 વિદ્યાર્થીઓને તેમના જન્મનો મહિનો જણાવવાનું કહેવામાં આવ્યું. આ માહિતી પરથી નીચેનો લંબાલેખ (Bar Graph) તૈયાર કરો.</p>
+<div style='overflow-x:auto; margin-bottom:10px;'>
+    <table style='width:100%; min-width:600px; border-collapse: collapse; text-align:center; border:1px solid #cbd5e1; background-color:#ffffff;'>
+        <tr style='background-color:#1e3a8a; color:white;'>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>જન્મનો મહિનો</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>જાન્યુ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>ફેબ્રુ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>માર્ચ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>એપ્રિલ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>મે</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>જૂન</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>જુલાઈ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>ઓગસ્ટ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>સપ્ટે</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>ઓક્ટો</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>નવે</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>ડિસે</th>
+        </tr>
+        <tr style='background-color:#f8fafc; font-weight:bold; color:#334155;'>
+            <th style='padding:10px; border:1px solid #cbd5e1; color:#ea580c;'>વિદ્યાર્થીઓની સંખ્યા</th>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>3</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>4</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>2</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>2</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>5</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>1</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>2</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>6</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>3</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>4</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>4</td>
+            <td style='padding:10px; border:1px solid #cbd5e1;'>4</td>
+        </tr>
+    </table>
+</div>`,
                 answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>લંબાલેખ (Bar Graph) ના નિયમો:</p>
@@ -2974,7 +3009,22 @@ var njMathsExamples = {
             },
             { 
                 questionNumber: "ઉદાહરણ 2 (સ્તંભાલેખ - સમાન વર્ગલંબાઈ)",
-                question: "ધોરણ 9 ના 36 વિદ્યાર્થીઓના વજન (કિગ્રા) ની માહિતી નીચે મુજબ છે. તેનો સ્તંભાલેખ (Histogram) દોરો.\n30.5-35.5 (9), 35.5-40.5 (6), 40.5-45.5 (15), 45.5-50.5 (3), 50.5-55.5 (1), 55.5-60.5 (2)", 
+               question: `
+<p style='margin:0 0 10px 0; color:#334155; font-size:15px; line-height:1.6;'>ધોરણ 9 ના 36 વિદ્યાર્થીઓના વજન (કિગ્રા) ની માહિતી નીચે મુજબ છે. તેનો સ્તંભાલેખ (Histogram) દોરો.</p>
+<div style='overflow-x:auto; margin-bottom:10px;'>
+    <table style='width:100%; min-width:300px; border-collapse: collapse; text-align:center; border:1px solid #cbd5e1; background-color:#ffffff;'>
+        <tr style='background-color:#1e3a8a; color:white;'>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>વજન (કિગ્રામાં)</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>વિદ્યાર્થીઓની સંખ્યા</th>
+        </tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>30.5 - 35.5</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>9</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>35.5 - 40.5</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>6</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>40.5 - 45.5</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>15</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>45.5 - 50.5</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>3</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>50.5 - 55.5</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>1</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>55.5 - 60.5</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#ea580c;'>2</td></tr>
+    </table>
+</div>`,
                 answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>સ્તંભાલેખ (Histogram) ના નિયમો:</p>
@@ -3025,7 +3075,24 @@ var njMathsExamples = {
             },
             { 
                 questionNumber: "ઉદાહરણ 3 (સ્તંભાલેખ - અસમાન વર્ગલંબાઈ)",
-                question: "વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ વિતરણ નીચે મુજબ છે. તેનો સ્તંભાલેખ દોરો.\n0-20 (7), 20-30 (10), 30-40 (10), 40-50 (20), 50-60 (20), 60-70 (15), 70-100 (8).\n(આ દાખલો પરીક્ષા માટે મોસ્ટ IMP છે).", 
+              question: `
+<p style='margin:0 0 10px 0; color:#334155; font-size:15px; line-height:1.6;'>વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ વિતરણ નીચે મુજબ છે. તેનો સ્તંભાલેખ દોરો.</p>
+<div style='overflow-x:auto; margin-bottom:10px;'>
+    <table style='width:100%; min-width:300px; border-collapse: collapse; text-align:center; border:1px solid #cbd5e1; background-color:#ffffff;'>
+        <tr style='background-color:#1e3a8a; color:white;'>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>ગુણ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>વિદ્યાર્થીઓની સંખ્યા</th>
+        </tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>0 - 20</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>7</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>20 - 30</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>10</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>30 - 40</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>10</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>40 - 50</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>20</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>50 - 60</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>20</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>60 - 70</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>15</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>70 - 100</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#047857;'>8</td></tr>
+    </table>
+</div>
+<p style='margin:0; font-size:14px; font-weight:bold; color:#be123c;'>(આ દાખલો પરીક્ષા માટે મોસ્ટ IMP છે).</p>`,
                 answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#9f1239;'>ચેતવણી (મોટી ભૂલ થવાની શક્યતા):</b>
@@ -3119,7 +3186,23 @@ var njMathsExamples = {
             },
             { 
                 questionNumber: "ઉદાહરણ 4 (આવૃત્તિ બહુકોણ)",
-                question: "એક પરીક્ષામાં વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ બહુકોણ (Frequency Polygon) દોરો.\nગુણ: 0-10 (5), 10-20 (10), 20-30 (4), 30-40 (6), 40-50 (7), 50-60 (3), 60-70 (2).", 
+              question: `
+<p style='margin:0 0 10px 0; color:#334155; font-size:15px; line-height:1.6;'>એક પરીક્ષામાં વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ બહુકોણ (Frequency Polygon) દોરો.</p>
+<div style='overflow-x:auto; margin-bottom:10px;'>
+    <table style='width:100%; min-width:300px; border-collapse: collapse; text-align:center; border:1px solid #cbd5e1; background-color:#ffffff;'>
+        <tr style='background-color:#1e3a8a; color:white;'>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>ગુણ</th>
+            <th style='padding:10px; border:1px solid #cbd5e1;'>વિદ્યાર્થીઓની સંખ્યા</th>
+        </tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>0 - 10</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>5</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>10 - 20</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>10</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>20 - 30</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>4</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>30 - 40</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>6</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>40 - 50</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>7</td></tr>
+        <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>50 - 60</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>3</td></tr>
+        <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>60 - 70</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>2</td></tr>
+    </table>
+</div>`
                 answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>આવૃત્તિ બહુકોણ દોરવાના સ્ટેપ્સ:</p>
