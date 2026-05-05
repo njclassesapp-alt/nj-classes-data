@@ -9,7 +9,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "નીચેનાં વિધાનો સત્ય છે કે અસત્ય તે કારણ સહિત જણાવો:\n(i) દરેક પૂર્ણ સંખ્યા એ પ્રાકૃતિક સંખ્યા છે.\n(ii) દરેક પૂર્ણાંક એ સંમેય સંખ્યા છે.\n(iii) દરેક સંમેય સંખ્યા એ પૂર્ણાંક છે.", 
-                solution: `
+                answer: `
                 <div style='display:flex; flex-direction:column; gap:12px;'>
                     <div style='border-left:5px solid #be123c; background-color:#fff1f2; padding:12px; border-radius:0 8px 8px 0;'>
                         <h4 style='color:#be123c; margin:0 0 5px 0;'>(i) અસત્ય (False)</h4>
@@ -35,7 +35,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "1 અને 2 વચ્ચેની પાંચ સંમેય સંખ્યાઓ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલ:</p>
                     <p style='margin:0 0 10px 0; font-size:15px; color:#334155;'>આપણે 1 અને 2 વચ્ચેની <b>5</b> સંમેય સંખ્યાઓ શોધવી છે.</p>
@@ -68,7 +68,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "સંખ્યારેખા પર √2 દર્શાવો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>રચનાના પગલાં (પાયથાગોરસના પ્રમેયનો ઉપયોગ):</h4>
                     <ul style='color:#334155; font-size:14px; margin:0; padding-left:20px; line-height:1.8;'>
@@ -114,7 +114,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 6",
                 question: "સાબિત કરો કે 3.142678 સંમેય સંખ્યા છે. બીજા શબ્દોમાં, 3.142678 ને p/q સ્વરૂપમાં દર્શાવો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
                     <p style='margin-top:0; font-size:15px; color:#14532d;'>અહીં દશાંશ નિરૂપણ <b>શાંત (Terminating)</b> છે, એટલે કે તે અનંત સુધી ચાલતું નથી.</p>
                     <p style='margin:10px 0; font-size:15px; color:#14532d;'>જ્યારે શાંત દશાંશ હોય, ત્યારે દશાંશ ચિહ્ન (Point) પછી જેટલા અંકો હોય, છેદમાં 1 ની પાછળ એટલા મીંડા (0) મૂકવા.</p>
@@ -132,7 +132,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 7",
                 question: "સાબિત કરો કે 0.3333... = 0.3̄ ને p/q સ્વરૂપમાં દર્શાવી શકાય.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <h4 style='color:#be123c; margin:0 0 10px 0;'>ગાણિતિક રીત (પરીક્ષા માટે):</h4>
                     <div style='font-size:15px; color:#1e3a8a; line-height:1.8; background-color:#f8fafc; padding:10px; border-radius:5px;'>
@@ -160,7 +160,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 12",
                 question: "2√2 + 5√3 અને √2 - 3√3 નો સરવાળો કરો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px;'>
                     <p style='margin-top:0; color:#0369a1; font-size:14px;'>સરવાળો કે બાદબાકી <b>સજાતીય પદો (જેના વર્ગમૂળ સમાન હોય)</b> વચ્ચે જ થાય. (જેમ કે x વાળા પદનો સરવાળો x સાથે જ થાય).</p>
                     
@@ -178,7 +178,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 15",
                 question: "સાદું રૂપ આપો: \n(i) (5 + √7)(2 + √5) \n(ii) (5 + √5)(5 - √5) \n(iii) (√3 + √7)² \n(iv) (√11 - √7)(√11 + √7)", 
-                solution: `
+                answer: `
                 <p style='color:#334155;'>અહીં અગાઉ શીખેલા બૈજિક નિત્યસમોનો સીધો ઉપયોગ કરવાનો છે.</p>
                 <div style='display:flex; flex-direction:column; gap:10px;'>
                     
@@ -224,7 +224,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 18",
                 question: "5 / (√3 - √5) ના છેદનું સંમેયીકરણ કરો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px;'>
                     <p style='margin-top:0; color:#9a3412; font-size:14px;'><b>રીત:</b> છેદમાં <b>(&radic;3 - &radic;5)</b> છે, તેથી તેની નિશાની બદલીને <b>(&radic;3 + &radic;5)</b> વડે અંશ અને છેદ બંનેને ગુણવા પડશે.</p>
                     
@@ -246,7 +246,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 20",
                 question: "સાદું રૂપ આપો: \n(i) 2^(2/3) • 2^(1/3) \n(ii) (3^(1/5))^4 \n(iii) 7^(1/5) / 7^(1/3) \n(iv) 13^(1/5) • 17^(1/5)", 
-                solution: `
+                answer: `
                 <p style='color:#334155;'>અહીં <b>ઘાતાંકના નિયમો</b> નો સીધો ઉપયોગ કરવાનો છે.</p>
                 
                 <div style='overflow-x:auto; background-color:#ffffff; border-radius:10px; border:1px solid #e2e8f0;'>
@@ -310,7 +310,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "નીચે આપેલી બહુપદીઓની ઘાત જણાવો:\n(i) x⁵ - x⁴ + 3\n(ii) 2 - y² - y³ + 2y⁸\n(iii) 2", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલ:</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'><b>નિયમ:</b> બહુપદીમાં ચલના સૌથી મોટા (મહત્તમ) ઘાતાંકને બહુપદીની ઘાત કહે છે.</p>
@@ -336,7 +336,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "ચલની આપેલી કિંમતો માટે બહુપદીઓનાં મૂલ્ય શોધો:\n(i) x = 1 માટે p(x) = 5x² - 3x + 7 નું મૂલ્ય.\n(ii) y = 2 માટે q(y) = 3y³ - 4y + √11 નું મૂલ્ય.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <div style='margin-bottom:15px; padding-bottom:15px; border-bottom:1px dashed #cbd5e1;'>
                         <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(i) x = 1 માટે:</h4>
@@ -362,7 +362,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "ચકાસો કે -2 અને 2 એ બહુપદી x + 2 નાં શૂન્યો છે કે નહિ?", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px;'>
                     <p style='margin-top:0; color:#9a3412; font-size:14px;'><b>રીત:</b> આપેલ કિંમતને બહુપદીમાં મૂકો. જો જવાબ 0 આવે, તો તે શૂન્ય કહેવાય.</p>
                     
@@ -385,7 +385,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "બહુપદી p(x) = 2x + 1 નું શૂન્ય શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border:1px solid #bbf7d0; border-radius:8px;'>
                     <p style='margin-top:0; font-size:15px; color:#14532d;'>બહુપદીનું શૂન્ય શોધવા માટે આપણે <b>p(x) = 0</b> લેવું પડે.</p>
                     
@@ -402,7 +402,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 5",
                 question: "ચકાસો કે 2 અને 0 એ બહુપદી x² - 2x નાં શૂન્યો છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:15px; color:#334155;'>ધારો કે p(x) = x² - 2x</p>
                     
@@ -423,7 +423,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 6",
                 question: "ચકાસો કે x + 2 એ બહુપદી x³ + 3x² + 5x + 6 અને 2x + 4 નો અવયવ છે કે નહિ.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px;'>
                     <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>અવયવ પ્રમેયની રીત:</h4>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>x + 2 નું શૂન્ય શોધવા: x + 2 = 0 &rArr; <b>x = -2</b>.</p>
@@ -447,7 +447,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 7",
                 question: "જો x - 1 એ બહુપદી 4x³ + 3x² - 4x + k નો અવયવ હોય, તો k ની કિંમત શોધો. (Most IMP)", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border:2px solid #be123c; border-radius:10px;'>
                     <p style='margin-top:0; font-size:15px; color:#9f1239;'>અહીં પહેલેથી જ કહી દીધું છે કે <b>(x - 1) એ અવયવ છે.</b></p>
                     <p style='margin:0 0 10px 0; font-size:15px; color:#9f1239;'>તેથી, x - 1 = 0 &rArr; <b>x = 1</b> લેતાં, બહુપદીનું મૂલ્ય શૂન્ય (0) જ થવું જોઈએ. એટલે કે <b>p(1) = 0</b> થાય.</p>
@@ -470,7 +470,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 8",
                 question: "મધ્યમ પદના ભાગ પાડીને 6x² + 17x + 5 ના અવયવ પાડો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'><b>સ્ટેપ 1:</b> પ્રથમ પદનો સહગુણક (6) અને અંતિમ પદ (5) નો ગુણાકાર કરો: 6 &times; 5 = <b>30</b>.</p>
                     <p style='margin:0 0 15px 0; font-size:14px; color:#334155;'><b>સ્ટેપ 2:</b> 30 ના એવા બે ભાગ પાડો જેનો સરવાળો મધ્યમ પદ (17) થાય. (15 અને 2).</p>
@@ -507,7 +507,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 9",
                 question: "y² - 5y + 6 ના અવયવ પાડો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
                     <p style='margin-top:0; color:#14532d; font-size:14px;'>આ દાખલો મધ્યમ પદના ભાગ પાડીને પણ સરળતાથી ગણી શકાય.</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>અંતિમ પદ 6 ના એવા બે ભાગ પાડો જેનો સરવાળો મધ્યમ પદ (-5) થાય. (-3 અને -2).</p>
@@ -523,7 +523,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 10",
                 question: "અવયવ પાડો: x³ - 23x² + 142x - 120", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin-top:0; font-size:14px; color:#be123c; font-weight:bold;'>ત્રિઘાત બહુપદી (3 ઘાત વાળી) ના અવયવ પાડવાની ખાસ રીત:</p>
                     
@@ -557,7 +557,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 11",
                 question: "યોગ્ય નિત્યસમનો ઉપયોગ કરીને ગુણાકાર મેળવો:\n(i) (x + 3)(x + 3)\n(ii) (x - 3)(x + 5)", 
-                solution: `
+                answer: `
                 <div style='display:flex; flex-direction:column; gap:12px;'>
                     <div style='border:1px solid #bae6fd; padding:12px; border-radius:8px; background-color:#f0f9ff;'>
                         <h4 style='color:#0369a1; margin:0 0 5px 0;'>(i) (x + 3)(x + 3) = (x + 3)²</h4>
@@ -583,7 +583,7 @@ var njMathsExamples = {
                  { 
                 questionNumber: "ઉદાહરણ 12",
                 question: "સીધો ગુણાકાર કર્યા સિવાય 105 × 106 ની કિંમત શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px;'>
                     <p style='margin-top:0; font-size:15px; color:#9a3412;'>અહીં સંખ્યાઓને 100 ના આધારે (બેઝ) છૂટી પાડવાની છે.</p>
                     
@@ -601,7 +601,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 13",
                 question: "અવયવ પાડો:\n(i) 49a² + 70ab + 25b²\n(ii) 25/4 x² - y²/9", 
-                solution: `
+                answer: `
                 <div style='display:flex; flex-direction:column; gap:12px;'>
                     <div style='border:1px solid #cbd5e1; padding:12px; border-radius:8px; background-color:#ffffff;'>
                         <h4 style='color:#1e3a8a; margin:0 0 5px 0;'>(i) 49a² + 70ab + 25b²</h4>
@@ -626,7 +626,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 14",
                 question: "નિત્યસમનો ઉપયોગ કરી વિસ્તરણ કરો: (3a + 4b + 5c)²", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#be123c;'><b>નિત્યસમ:</b> (x + y + z)² = x² + y² + z² + 2xy + 2yz + 2zx</p>
                     
@@ -640,7 +640,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 15",
                 question: "વિસ્તરણ કરો: (4a - 2b - 3c)²", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આગળના ઉદાહરણ જેવું જ નિત્યસમ વપરાશે, માત્ર <b>માઈનસ (-) ની નિશાની કૌંસની અંદર</b> લેવાની છે.</p>
                     
@@ -654,7 +654,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 16",
                 question: "અવયવ પાડો: 4x² + y² + z² - 4xy - 2yz + 4xz", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border:1px solid #fed7aa; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#be123c; font-weight:bold;'>ઊલટું નિત્યસમ (વિસ્તરણ પરથી અવયવ):</p>
                     
@@ -669,7 +669,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 17",
                 question: "ઘનનું વિસ્તરણ કરો:\n(i) (3a + 4b)³\n(ii) (5p - 3q)³", 
-                solution: `
+                answer: `
                 <div style='display:flex; flex-direction:column; gap:15px;'>
                     <div style='border:1px solid #bae6fd; padding:15px; border-radius:8px; background-color:#f0f9ff;'>
                         <h4 style='color:#0369a1; margin:0 0 5px 0;'>(i) (3a + 4b)³</h4>
@@ -695,7 +695,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 18",
                 question: "યોગ્ય નિત્યસમનો ઉપયોગ કરી કિંમત શોધો:\n(i) (104)³\n(ii) (999)³", 
-                solution: `
+                answer: `
                 <div style='display:flex; flex-direction:column; gap:15px;'>
                     <div style='border:1px solid #cbd5e1; padding:15px; border-radius:8px; background-color:#ffffff;'>
                         <h4 style='color:#1e3a8a; margin:0 0 5px 0;'>(i) (104)³ = (100 + 4)³</h4>
@@ -721,7 +721,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 19",
                 question: "અવયવ પાડો: 8x³ + 27y³ + 36x²y + 54xy²", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
                     <p style='margin-top:0; font-size:14px; color:#14532d;'>અહીં ચાર પદો છે અને પ્રથમ બે પદો પૂર્ણઘન છે. આ <b>(x + y)³</b> ના વિસ્તરણનું ઊલટું છે.</p>
                     
@@ -750,7 +750,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "આપેલ આકૃતિ જોઈને નીચેનાં વિધાનો પૂર્ણ કરો:\n(i) બિંદુ B ના કોટિ અને ભુજ અનુક્રમે ___ અને ___ છે. આથી B ના યામ (___, ___) છે.\n(ii) બિંદુ M ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી M ના યામ (___, ___) છે.\n(iii) બિંદુ L ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી L ના યામ (___, ___) છે.\n(iv) બિંદુ S ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી S ના યામ (___, ___) છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલની સમજૂતી:</p>
                     <p style='margin:0; font-size:14px; color:#334155;'><b>યાદ રાખો:</b> x-યામ એટલે કોટિ અને y-યામ એટલે ભુજ. યામ હંમેશા <b>(x, y)</b> સ્વરૂપમાં જ લખાય છે.</p>
@@ -841,7 +841,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "આકૃતિમાં અક્ષો પર દર્શાવેલાં બિંદુઓના યામ લખો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>મહત્વનો નિયમ (અક્ષ પર આવેલા બિંદુઓ માટે):</p>
                     <ul style='margin:0; font-size:14px; color:#9a3412; padding-left:20px; line-height:1.8;'>
@@ -945,7 +945,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "નીચે દર્શાવેલ સમીકરણોને ax + by + c = 0 સ્વરૂપમાં દર્શાવો અને દરેક કિસ્સામાં a, b અને c ની કિંમતો જણાવો:\n(i) 2x + 3y = 4.37\n(ii) x - 4 = √3y\n(iii) 4 = 5x - 3y\n(iv) 2x = y", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલની સમજૂતી:</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'><b>પ્રમાણિત સ્વરૂપ (ax + by + c = 0):</b> આનો અર્થ એ છે કે બરાબર (=) ની જમણી બાજુએ માત્ર શૂન્ય (0) જ રહેવો જોઈએ. બાકીના બધા જ પદોને ડાબી બાજુ લઈ જવા.</p>
@@ -998,7 +998,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "નીચે દર્શાવેલ પ્રત્યેક સમીકરણને દ્વિચલ સુરેખ સમીકરણના સ્વરૂપમાં દર્શાવો:\n(i) x = -5\n(ii) y = 2\n(iii) 2x = 3\n(iv) 5y = 2", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
                     <p style='margin-top:0; color:#14532d; font-size:14px;'>અહીં આપેલા સમીકરણોમાં <b>માત્ર એક જ ચલ</b> છે. તેને બે ચલ (દ્વિચલ) વાળા સમીકરણમાં ફેરવવા માટે, જે ચલ ગાયબ છે તેનો સહગુણક <b>શૂન્ય (0)</b> લઈને ઉમેરવો પડે.</p>
                     
@@ -1032,7 +1032,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "સમીકરણ x + 2y = 6 ના ચાર ભિન્ન ઉકેલ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપેલ સમીકરણ: <b>x + 2y = 6</b></p>
                     <p style='margin:0 0 15px 0; font-size:14px; color:#334155;'>ઉકેલ શોધવા માટે આપણે વારાફરતી x અથવા y ની કોઈ પણ સહેલી કિંમત ધારી શકીએ છીએ.</p>
@@ -1064,7 +1064,7 @@ var njMathsExamples = {
                     </div>
 
                     <div style='text-align:center; overflow-x:auto;'>
-                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>ઉકેલ કોષ્ટક (Solution Table):</h4>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>ઉકેલ કોષ્ટક (answer Table):</h4>
                         <table style='margin:auto; border-collapse: collapse; text-align:center; min-width:250px;'>
                             <tr style='background-color:#1e3a8a; color:white;'>
                                 <th style='padding:10px; border:1px solid #cbd5e1; width:50px;'>x</th>
@@ -1087,7 +1087,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "નીચે આપેલા પ્રત્યેક સમીકરણના બે ઉકેલ શોધો:\n(i) 4x + 3y = 12\n(ii) 2x + 5y = 0\n(iii) 3y + 4 = 0", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#c2410c;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> જ્યારે માત્ર 2 જ ઉકેલ પૂછ્યા હોય, ત્યારે સૌથી સહેલી રીત એ છે કે એકવાર <b>x = 0</b> લેવું અને બીજી વાર <b>y = 0</b> લેવું!
                 </div>
@@ -1157,7 +1157,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "જો A, B અને C એક રેખા પર આવેલાં ત્રણ બિંદુઓ હોય અને B બિંદુ એ A અને C ની વચ્ચે આવેલું હોય, તો સાબિત કરો કે AB + BC = AC.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>સાબિતીની સમજૂતી:</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપણે યુક્લિડના સ્વયંસિદ્ધ સત્યોનો ઉપયોગ કરીને આ સાબિત કરીશું.</p>
@@ -1208,7 +1208,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "સાબિત કરો કે આપેલા કોઈ પણ રેખાખંડ પર એક સમબાજુ ત્રિકોણની રચના કરી શકાય છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપણે યુક્લિડની <b>પૂર્વધારણા 3</b> નો ઉપયોગ કરીને આપેલ રેખાખંડ AB પર સમબાજુ ત્રિકોણ રચીશું.</p>
                     <p style='margin:0; font-size:14px; color:#1e3a8a; font-weight:bold;'>પૂર્વધારણા 3: "કોઈપણ બિંદુને કેન્દ્ર લઈ તથા કોઈપણ લંબાઈની ત્રિજ્યા લઈ વર્તુળ દોરી શકાય છે."</p>
@@ -1285,7 +1285,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "આકૃતિમાં, રેખાઓ PQ અને RS પરસ્પર બિંદુ O માં છેદે છે. જો ∠POR : ∠ROQ = 5:7 હોય, તો તમામ ખૂણાઓ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલની સમજૂતી:</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>અહીં રેખા PQ પર કિરણ OR આવેલું છે. તેથી <b>રૈખિક જોડના ખૂણા</b> નો નિયમ લાગુ પડશે (સરવાળો 180°).</p>
@@ -1337,7 +1337,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "આકૃતિમાં, કિરણ OS એ રેખા POQ પર આવેલું છે. કિરણ OR અને કિરણ OT અનુક્રમે ∠POS અને ∠SOQ ના દુભાગકો છે. જો ∠POS = x હોય, તો ∠ROT શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9a3412; font-weight:bold;'>દુભાગક એટલે શું?</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#c2410c;'>દુભાગક એટલે ખૂણાના બરાબર <b>બે સરખા ભાગ</b> કરતું કિરણ. એટલે કે આખો ખૂણો $x$ હોય, તો બંને અડધા ભાગ $x/2$ થાય.</p>
@@ -1398,7 +1398,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "આકૃતિમાં, OP, OQ, OR અને OS ચાર કિરણો છે. સાબિત કરો કે ∠POQ + ∠QOR + ∠SOR + ∠POS = 360°.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#14532d; font-weight:bold;'>સાબિતીની સમજૂતી:</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપણે રૈખિક જોડનો નિયમ લગાવવા માટે એક <b>સીધી રેખા</b> ની જરૂર પડે. તેથી કોઈ એક કિરણને પાછળની તરફ લંબાવીને સીધી રેખા બનાવીશું.</p>
@@ -1452,7 +1452,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "આકૃતિમાં, જો PQ || RS, ∠MXQ = 135° અને ∠MYR = 40° હોય, તો ∠XMY શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>મહત્વની રચના:</p>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#9a3412;'>અહીં બિંદુ M આગળ કોઈ સીધી રેખા નથી. દાખલો ગણવા માટે આપણે બિંદુ <b>M માંથી પસાર થતી અને PQ ને સમાંતર હોય તેવી એક કાલ્પનિક રેખા AB દોરવી પડશે.</b></p>
@@ -1516,7 +1516,7 @@ var njMathsExamples = {
                { 
                 questionNumber: "ઉદાહરણ 5",
                 question: "જો એક છેદિકા બે રેખાઓને એવી રીતે છેદે કે જેથી અનુકોણની એક જોડના દુભાગકો પરસ્પર સમાંતર હોય, તો સાબિત કરો કે તે બંને રેખાઓ પણ સમાંતર છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#14532d; font-weight:bold;'>સાબિતીનો તર્ક:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>બે રેખાઓ સમાંતર ત્યારે જ કહેવાય જો તેમના <b>અનુકોણો (F આકાર) સમાન</b> થાય.</p>
@@ -1574,7 +1574,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 6",
                 question: "આકૃતિમાં, AB || CD અને CD || EF છે. વળી EA ⊥ AB છે. જો ∠BEF = 55° હોય, તો x, y અને z નાં મૂલ્યો શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9f1239; font-weight:bold;'>લોજિક મેપ:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#881337;'>ત્રણેય રેખાઓ એકબીજાને સમાંતર છે. આપણે Z (યુગ્મકોણ) અને C (અંતઃકોણ) ના આકાર શોધીશું.</p>
@@ -1655,7 +1655,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "આકૃતિમાં, OA = OB અને OD = OC છે. સાબિત કરો કે:\n(i) ∆AOD ≅ ∆BOC અને\n(ii) AD || BC", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>સાબિતીનો તર્ક:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં બે બાજુઓ સમાન આપેલી છે. તેમની વચ્ચેનો ખૂણો (અભિકોણ) સમાન બતાવીને આપણે <b>બાખૂબા (બાજુ-ખૂણો-બાજુ)</b> શરતનો ઉપયોગ કરીશું.</p>
@@ -1711,7 +1711,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "AB એક રેખાખંડ છે અને રેખા <i>l</i> તેનો લંબદ્વિભાજક છે. જો કોઈ બિંદુ P એ રેખા <i>l</i> પર આવેલું હોય, તો સાબિત કરો કે P એ A અને B થી સમાન અંતરે આવેલું છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9a3412; font-weight:bold;'>લંબદ્વિભાજક એટલે શું?</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#c2410c;'>લંબ એટલે <b>90° નો ખૂણો</b> બનાવે અને દ્વિભાજક એટલે રેખાખંડના <b>બે સરખા ભાગ</b> કરે. આ બે પોઈન્ટનો ઉપયોગ કરીને આપણે સાબિતી આપીશું.</p>
@@ -1767,7 +1767,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "રેખાખંડ AB એ બીજા રેખાખંડ CD ને સમાંતર છે. O એ AD નું મધ્યબિંદુ છે. સાબિત કરો કે:\n(i) ∆AOB ≅ ∆DOC\n(ii) O એ BC નું પણ મધ્યબિંદુ છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9f1239; font-weight:bold;'>મહત્વનો કન્સેપ્ટ:</p>
                     <p style='margin:0; font-size:14px; color:#881337;'>અહીં સમાંતર રેખાઓ (AB || CD) આપેલી છે, એટલે <b>યુગ્મકોણો (Z આકાર)</b> નો ઉપયોગ ચોક્કસ થશે! અને શરત લાગશે <b>ખૂખૂબા (ખૂણો-ખૂણો-બાજુ)</b>.</p>
@@ -1822,7 +1822,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "∆ABC માં ખૂણા A નો દુભાગક AD એ બાજુ BC ને લંબ છે. સાબિત કરો કે AB = AC અને ∆ABC સમદ્વિબાજુ ત્રિકોણ છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f8fafc; padding:15px; border-left:5px solid #0284c7; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#0369a1;'>રકમ પરથી ડેટા અલગ કરો:</b>
                     <ol style='color:#334155; margin:5px 0 0 0; padding-left:20px; font-size:14px;'>
@@ -1878,7 +1878,7 @@ var njMathsExamples = {
                   { 
                 questionNumber: "ઉદાહરણ 5",
                 question: "E અને F અનુક્રમે ∆ABC ની સમાન બાજુઓ AB અને AC નાં મધ્યબિંદુઓ છે. સાબિત કરો કે BF = CE.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>આપણે એવા બે ત્રિકોણ પસંદ કરીશું જેમાં <b>BF</b> અને <b>CE</b> આવતા હોય. અહીં આપણે <b>∆ABF</b> અને <b>∆ACE</b> પસંદ કરીશું.</p>
 
@@ -1923,7 +1923,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 6",
                 question: "સમદ્વિબાજુ ત્રિકોણ ABC માં AB = AC છે. BC પર બિંદુઓ D અને E એવાં છે કે જેથી BE = CD થાય. સાબિત કરો કે AD = AE.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9f1239; font-weight:bold;'>મહત્વનું લોજિક:</p>
                     <p style='margin:0; font-size:14px; color:#881337;'>અહીં BE = CD આપેલું છે. જો આપણે બંને બાજુમાંથી <b>વચ્ચેનો ભાગ (DE) બાદ કરીએ</b>, તો આપણને BD = CE મળી જશે, જે સાબિતી માટે ઉપયોગી થશે.</p>
@@ -1982,7 +1982,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "સાબિત કરો કે લંબચોરસનો દરેક ખૂણો કાટખૂણો છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>લંબચોરસની વ્યાખ્યા:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>જે સમાંતરબાજુ ચતુષ્કોણનો <b>કોઈ એક ખૂણો કાટખૂણો (90°)</b> હોય, તેને લંબચોરસ કહે છે. આપણે આ એક ખૂણા પરથી બાકીના ત્રણેય ખૂણા 90° સાબિત કરવાના છે.</p>
@@ -2026,7 +2026,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "સાબિત કરો કે સમબાજુ ચતુષ્કોણના વિકર્ણો પરસ્પર કાટખૂણે દુભાગે છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9a3412; font-weight:bold;'>મહત્વનો કન્સેપ્ટ:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#c2410c;'>અહીં આપણે બે પાસપાસેના ત્રિકોણો (દા.ત. ∆AOD અને ∆COD) ને <b>બાબાબા (SSS)</b> શરતથી એકરૂપ સાબિત કરીશું અને પછી રૈખિક જોડનો નિયમ લગાવીશું.</p>
@@ -2080,7 +2080,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "સમદ્વિબાજુ ત્રિકોણ ABC માં AB = AC છે. AD એ બહિષ્કોણ PAC નો દુભાગક છે અને CD || AB છે. સાબિત કરો કે:\n(i) ∠DAC = ∠BCA અને\n(ii) ABCD સમાંતરબાજુ ચતુષ્કોણ છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9f1239; font-weight:bold;'>બહિષ્કોણનો પ્રમેય યાદ કરો:</p>
                     <p style='margin:0; font-size:14px; color:#881337;'>ત્રિકોણના બહિષ્કોણનું માપ તેના બે <b>અંતઃસંમુખકોણના સરવાળા</b> જેટલું હોય છે. અહીં બહિષ્કોણ PAC નું માપ ∠B + ∠C જેટલું થશે.</p>
@@ -2127,7 +2127,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "સાબિત કરો કે સમાંતરબાજુ ચતુષ્કોણના ખૂણાઓના દુભાગકો લંબચોરસ બનાવે છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f8fafc; padding:15px; border-left:5px solid #0284c7; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#0369a1;'>રચનાનો તર્ક:</b>
                     <p style='margin:5px 0 0 0; color:#334155; font-size:14px;'>જ્યારે બે સમાંતર રેખાઓ વચ્ચે અંતઃકોણો બને, ત્યારે તેમનો સરવાળો 180° થાય છે. તેમના <b>અડધા ભાગ (દુભાગક) નો સરવાળો 90°</b> થાય. આ 90° નો નિયમ વાપરીને આપણે અંદર બનતા ચતુષ્કોણને લંબચોરસ સાબિત કરીશું.</p>
@@ -2182,7 +2182,7 @@ var njMathsExamples = {
                     { 
                 questionNumber: "ઉદાહરણ 6 (IMP)",
                 question: "મધ્યબિંદુ પ્રમેયનો ઉપયોગ: ∆ABC માં D, E અને F એ અનુક્રમે બાજુઓ AB, BC અને CA નાં મધ્યબિંદુઓ છે. સાબિત કરો કે D, E અને F ને જોડવાથી ∆ABC નું ચાર એકરૂપ ત્રિકોણોમાં વિભાજન થાય છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>મધ્યબિંદુ પ્રમેય શું છે?</p>
                     <p style='margin:0; font-size:14px; color:#9a3412;'>ત્રિકોણની બે બાજુઓના મધ્યબિંદુઓને જોડતો રેખાખંડ ત્રીજી બાજુને <b>સમાંતર</b> હોય છે અને તેનાથી <b>અડધો</b> હોય છે.</p>
@@ -2242,7 +2242,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "જો વર્તુળની બે છેદતી જીવાઓ તેમના છેદબિંદુમાંથી પસાર થતા વ્યાસ સાથે સમાન ખૂણા બનાવે, તો સાબિત કરો કે તે જીવાઓ સમાન છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>સાબિતીનો તર્ક:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં આપણે કેન્દ્રમાંથી જીવાઓ પર લંબ દોરીશું અને બંને નાના ત્રિકોણોને <b>ખૂખૂબા (AAS)</b> શરતથી એકરૂપ સાબિત કરીશું. જો લંબ અંતર સમાન હોય, તો જીવાઓ પણ સમાન હોય.</p>
@@ -2300,7 +2300,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "આકૃતિમાં, AB એ વર્તુળનો વ્યાસ છે, CD એ વર્તુળની ત્રિજ્યા જેટલી જીવા છે. AC અને BD ને લંબાવતા તેઓ બિંદુ E માં છેદે છે. સાબિત કરો કે ∠AEB = 60°.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9a3412; font-weight:bold;'>ખૂણા શોધવાનો નકશો:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#c2410c;'>1) સમબાજુ ત્રિકોણ પરથી 60° નો ખૂણો મળશે.<br> 2) વર્તુળના કેન્દ્ર આગળના ખૂણા કરતાં પરિઘ પરનો ખૂણો અડધો હોય છે.<br> 3) અર્ધવર્તુળમાં બનેલો ખૂણો હંમેશા 90° હોય છે.</p>
@@ -2356,7 +2356,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "આકૃતિમાં ચક્રીય ચતુષ્કોણ ABCD ના વિકર્ણો AC અને BD છે. જો ∠DBC = 55° અને ∠BAC = 45° હોય, તો ∠BCD શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#9f1239; font-weight:bold;'>બે પાવરફુલ નિયમો:</p>
                     <ul style='color:#881337; font-size:14px; margin:0; padding-left:20px; line-height:1.8;'>
@@ -2412,7 +2412,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "બે વર્તુળો બે બિંદુઓ A અને B માં છેદે છે. AD અને AC અનુક્રમે આ બે વર્તુળોના વ્યાસ છે. સાબિત કરો કે B એ રેખાખંડ DC પર આવેલું છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f8fafc; padding:15px; border-left:5px solid #0284c7; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#0369a1;'>લોજિક:</b>
                     <p style='margin:5px 0 0 0; color:#334155; font-size:14px;'>જો આપણે સાબિત કરી દઈએ કે બિંદુ B આગળ બનતા બે ખૂણાઓનો સરવાળો બરાબર <b>180° (એક સીધી રેખા)</b> થાય છે, તો સાબિત થઈ જશે કે B એ રેખા DC પર જ આવેલું છે.</p>
@@ -2461,7 +2461,7 @@ var njMathsExamples = {
                { 
                 questionNumber: "ઉદાહરણ 5",
                 question: "સાબિત કરો કે કોઈપણ ચતુષ્કોણના ખૂણાઓના દુભાગકોથી બનતો ચતુષ્કોણ (જો બને તો) ચક્રીય ચતુષ્કોણ છે.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>ચક્રીય ચતુષ્કોણ સાબિત કરવાની શરત:</p>
                     <p style='margin:0; font-size:14px; color:#9a3412;'>અંદર બનતા નવા ચતુષ્કોણ (EFGH) ના <b>સામસામેના ખૂણાઓનો સરવાળો 180°</b> બતાવી દઈશું, એટલે તે આપોઆપ ચક્રીય ચતુષ્કોણ સાબિત થઈ જશે.</p>
@@ -2520,7 +2520,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "એક ત્રિકોણની બે બાજુઓ 8 સેમી અને 11 સેમી છે અને તેની પરિમિતિ 32 સેમી છે. તે ત્રિકોણનું ક્ષેત્રફળ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>દાખલાનો નકશો:</p>
                     <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>ત્રિકોણનું ક્ષેત્રફળ શોધવા માટે ત્રણેય બાજુઓ હોવી જરૂરી છે. અહીં 2 બાજુઓ અને પરિમિતિ આપી છે, તો પહેલા આપણે <b>ત્રીજી બાજુ</b> શોધીશું અને પછી <b>હેરોનનું સૂત્ર</b> લગાવીશું.</p>
@@ -2570,7 +2570,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "એક ત્રિકોણાકાર બગીચો ABC ની બાજુઓ 120 મી, 80 મી અને 50 મી છે. એક માળી ધનિયાને તેની ચારે તરફ વાડ કરવાની છે અને અંદર ઘાસ વાવવાનું છે. તેને કેટલા ક્ષેત્રફળમાં વાવણી કરવાની રહેશે? એક બાજુએ 3 મીટર પહોળા દરવાજા માટેની જગ્યા છોડીને તેને ફરતે કાંટાળી તારની વાડ કરવાનો ખર્ચ ₹20 પ્રતિ મીટરના દરે શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#9a3412;'>અહીં બે પ્રશ્નો પૂછ્યા છે:</b>
                     <ol style='color:#c2410c; margin:5px 0 0 0; font-size:14px; padding-left:20px;'>
@@ -2630,7 +2630,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "એક ત્રિકોણાકાર જમીનના ટુકડાની બાજુઓનો ગુણોત્તર 3:5:7 છે અને તેની પરિમિતિ 300 મીટર છે. તેનું ક્ષેત્રફળ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#14532d;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b>
                     <p style='margin:5px 0 0 0; font-size:14px; color:#166534;'>જ્યારે પણ દાખલામાં <b>"ગુણોત્તર"</b> આપેલો હોય, ત્યારે તેની પાછળ <b>'x'</b> લગાવીને બાજુઓ ધારી લેવી. (જેમ કે 3x, 5x, 7x). પછી બધાનો સરવાળો પરિમિતિ જેટલો બતાવીને x શોધી લેવો!</p>
@@ -2692,7 +2692,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "જેની ત્રાંસી ઊંચાઈ 10 સેમી અને પાયાની ત્રિજ્યા 7 સેમી હોય, તેવા લંબવૃત્તીય શંકુની વક્ર સપાટીનું ક્ષેત્રફળ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>માહિતીનું વર્ગીકરણ:</p>
                     <p style='margin:0; font-size:14px; color:#334155;'>ત્રિજ્યા (r) = 7 સેમી, ત્રાંસી ઊંચાઈ (l) = 10 સેમી.<br>શંકુની વક્ર સપાટીનું ક્ષેત્રફળ = &pi;rl</p>
@@ -2733,7 +2733,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2",
                 question: "એક શંકુની ઊંચાઈ 16 સેમી અને પાયાની ત્રિજ્યા 12 સેમી છે. આ શંકુની વક્ર સપાટીનું ક્ષેત્રફળ અને કુલ પૃષ્ઠફળ શોધો. (&pi; = 3.14 લો).", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#9f1239;'>અગત્યનું ધ્યાન:</b>
                     <p style='margin:5px 0 0 0; font-size:14px; color:#881337;'>અહીં લંબ ઊંચાઈ (h) આપી છે, પરંતુ સૂત્રમાં ત્રાંસી ઊંચાઈ (l) ની જરૂર પડે છે. તેથી પહેલા <b>પાયથાગોરસના પ્રમેયથી 'l' શોધીશું</b>.</p>
@@ -2775,7 +2775,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "7 સેમી ત્રિજ્યાવાળા ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin:0 0 15px 0; font-size:14px; color:#334155;'>ગોલકની સપાટીનું ક્ષેત્રફળ એટલે <b>4 વર્તુળના ક્ષેત્રફળ (&pi;r&sup2;) જેટલું</b> થાય.</p>
 
@@ -2810,7 +2810,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 5",
                 question: "21 સેમી ત્રિજ્યાવાળા અર્ધગોલકની (i) વક્ર સપાટીનું ક્ષેત્રફળ અને (ii) કુલ પૃષ્ઠફળ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#0369a1;'>સૂત્રોનો તફાવત સમજો:</b>
                     <ul style='color:#334155; font-size:14px; margin:5px 0 0 0; padding-left:20px;'>
@@ -2864,7 +2864,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 8",
                 question: "જેની ત્રિજ્યા 6 સેમી અને ઊંચાઈ 7 સેમી હોય, તેવા શંકુનું ઘનફળ શોધો.", 
-                solution: `
+                answer: `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'><b>યાદ રાખો:</b> નળાકારનું ઘનફળ &pi;r&sup2;h છે, જ્યારે શંકુનું ઘનફળ તેનાથી ત્રીજા ભાગનું (1/3) હોય છે.</p>
 
@@ -2886,7 +2886,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 13",
                 question: "એક અર્ધગોળાકાર વાટકાની ત્રિજ્યા 3.5 સેમી છે. તો તેમાં કેટલા ઘનફળ જેટલું પાણી સમાવી શકાય?", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ગણતરીની ટિપ્સ:</p>
                     <p style='margin:0; font-size:14px; color:#334155;'>અહીં ત્રિજ્યા 3.5 સેમી છે. દશાંશ ચિહ્ન દૂર કરવા માટે તેને <b>35/10</b> લખીશું, જેથી છેદ ઉડાડવામાં ખૂબ જ સરળતા રહે.</p>
@@ -2919,7 +2919,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 1 (લંબાલેખ)",
                 question: "ધોરણ 9 ના 40 વિદ્યાર્થીઓને તેમના જન્મનો મહિનો જણાવવાનું કહેવામાં આવ્યું. આ માહિતી પરથી નીચેનો લંબાલેખ (Bar Graph) તૈયાર કરો.\nમાહિતી: જાન્યુ(3), ફેબ્રુ(4), માર્ચ(2), એપ્રિલ(2), મે(5), જૂન(1), જુલાઈ(2), ઓગસ્ટ(6), સપ્ટે(3), ઓક્ટો(4), નવે(4), ડિસે(4).", 
-                solution: `
+                answer: `
                 <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#0369a1; font-weight:bold;'>લંબાલેખ (Bar Graph) ના નિયમો:</p>
                     <ul style='margin:0; font-size:14px; color:#334155; padding-left:20px; line-height:1.8;'>
@@ -2975,7 +2975,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 2 (સ્તંભાલેખ - સમાન વર્ગલંબાઈ)",
                 question: "ધોરણ 9 ના 36 વિદ્યાર્થીઓના વજન (કિગ્રા) ની માહિતી નીચે મુજબ છે. તેનો સ્તંભાલેખ (Histogram) દોરો.\n30.5-35.5 (9), 35.5-40.5 (6), 40.5-45.5 (15), 45.5-50.5 (3), 50.5-55.5 (1), 55.5-60.5 (2)", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>સ્તંભાલેખ (Histogram) ના નિયમો:</p>
                     <ul style='margin:0; font-size:14px; color:#9a3412; padding-left:20px; line-height:1.8;'>
@@ -3026,7 +3026,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 3 (સ્તંભાલેખ - અસમાન વર્ગલંબાઈ)",
                 question: "વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ વિતરણ નીચે મુજબ છે. તેનો સ્તંભાલેખ દોરો.\n0-20 (7), 20-30 (10), 30-40 (10), 40-50 (20), 50-60 (20), 60-70 (15), 70-100 (8).\n(આ દાખલો પરીક્ષા માટે મોસ્ટ IMP છે).", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
                     <b style='color:#9f1239;'>ચેતવણી (મોટી ભૂલ થવાની શક્યતા):</b>
                     <p style='margin:5px 0 0 0; font-size:14px; color:#881337;'>અહીં વર્ગલંબાઈ સમાન નથી! (પહેલા વર્ગમાં 20 નો ગેપ છે, વચ્ચે 10 નો ગેપ છે, અને છેલ્લામાં 30 નો ગેપ છે). જો તમે સીધો આલેખ દોરશો તો ખોટો પડશે. આપણે <b>લંબચોરસની પ્રમાણસર લંબાઈ (સુધારેલી આવૃત્તિ)</b> શોધવી પડશે.</p>
@@ -3120,7 +3120,7 @@ var njMathsExamples = {
             { 
                 questionNumber: "ઉદાહરણ 4 (આવૃત્તિ બહુકોણ)",
                 question: "એક પરીક્ષામાં વિદ્યાર્થીઓએ મેળવેલા ગુણનું આવૃત્તિ બહુકોણ (Frequency Polygon) દોરો.\nગુણ: 0-10 (5), 10-20 (10), 20-30 (4), 30-40 (6), 40-50 (7), 50-60 (3), 60-70 (2).", 
-                solution: `
+                answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>આવૃત્તિ બહુકોણ દોરવાના સ્ટેપ્સ:</p>
                     <ul style='margin:0; font-size:14px; color:#9a3412; padding-left:20px; line-height:1.8;'>
