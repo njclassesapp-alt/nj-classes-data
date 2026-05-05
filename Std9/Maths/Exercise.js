@@ -1935,7 +1935,7 @@ var njMathsExercise = {
                     </div>
                 </div>`
             },
-               { 
+           { 
                 "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 5",
                 "marks": 4,
                 "question": "અવયવ પાડો:\n(i) 4x² + 9y² + 16z² + 12xy - 24yz - 16xz\n(ii) 2x² + y² + 8z² - 2√2xy + 4√2yz - 8xz", 
@@ -1971,7 +1971,253 @@ var njMathsExercise = {
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>માઇનસ (-) ની નિશાની કોને આપવી તેમાં કન્ફ્યુઝન થાય છે ને? <br>
                     બસ રકમમાં જે <b>બે પદ માઇનસ વાળા</b> દેખાય તેમાં <b>કયો અક્ષર (ચલ) સમાન (Common)</b> છે તે પકડી લો. એ સમાન અક્ષર વાળા પદને જ માઇનસની નિશાની આપી દેવાની, બાકી બધા પ્લસ!</p>
                 </div>`
-               }
+               },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 6",
+                "marks": 3,
+                "question": "નીચેના ઘનનું વિસ્તરણ કરો:\n(i) (2x + 1)³\n(ii) (2a - 3b)³\n(iii) [(3/2)x + 1]³\n(iv) [x - (2/3)y]³", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='background-color:#f8fafc; padding:10px; border-radius:5px; border:2px dashed #0284c7; margin-bottom:15px; text-align:center;'>
+                        <p style='margin:0 0 5px 0; color:#0c4a6e; font-weight:bold; font-size:15px;'>ઘનના વિસ્તરણના સૂત્રો:</p>
+                        <div style='font-size:15px; color:#0369a1; font-weight:bold;'>
+                            (x + y)<sup>3</sup> = x<sup>3</sup> + y<sup>3</sup> + 3xy(x + y)<br>
+                            (x - y)<sup>3</sup> = x<sup>3</sup> - y<sup>3</sup> - 3xy(x - y)
+                        </div>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        <div style='background-color:#f0fdf4; padding:12px; border-radius:5px; border-left:4px solid #16a34a; min-width:350px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(i) (2x + 1)<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#166534;'>
+                                = (2x)<sup>3</sup> + (1)<sup>3</sup> + 3(2x)(1)(2x + 1)<br>
+                                = 8x<sup>3</sup> + 1 + 6x(2x + 1)<br>
+                                = 8x<sup>3</sup> + 1 + 12x<sup>2</sup> + 6x<br>
+                                <span style='color:#64748b; font-size:12px;'>[ઘાતના ઉતરતા ક્રમમાં ગોઠવતા]</span><br>
+                                = <b style='color:#15803d; font-size:15px;'>8x<sup>3</sup> + 12x<sup>2</sup> + 6x + 1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border-left:4px solid #be123c; min-width:350px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(ii) (2a - 3b)<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239;'>
+                                = (2a)<sup>3</sup> - (3b)<sup>3</sup> - 3(2a)(3b)(2a - 3b)<br>
+                                = 8a<sup>3</sup> - 27b<sup>3</sup> - 18ab(2a - 3b)<br>
+                                = 8a<sup>3</sup> - 27b<sup>3</sup> - 36a<sup>2</sup>b + 54ab<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:15px;'>8a<sup>3</sup> - 36a<sup>2</sup>b + 54ab<sup>2</sup> - 27b<sup>3</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-radius:5px; border-left:4px solid #16a34a; min-width:350px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(iii) [(3/2)x + 1]<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#166534;'>
+                                = (3x/2)<sup>3</sup> + (1)<sup>3</sup> + 3(3x/2)(1)[(3x/2) + 1]<br>
+                                = 27x<sup>3</sup>/8 + 1 + (9x/2)[(3x/2) + 1]<br>
+                                = 27x<sup>3</sup>/8 + 1 + 27x<sup>2</sup>/4 + 9x/2<br>
+                                = <b style='color:#15803d; font-size:15px;'>27x<sup>3</sup>/8 + 27x<sup>2</sup>/4 + 9x/2 + 1</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border-left:4px solid #be123c; min-width:350px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(iv) [x - (2/3)y]<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239;'>
+                                = (x)<sup>3</sup> - (2y/3)<sup>3</sup> - 3(x)(2y/3)[x - 2y/3]<br>
+                                <span style='color:#64748b; font-size:12px;'>[અહીં 3 અને છેદનો 3 ઉડી જશે]</span><br>
+                                = x<sup>3</sup> - 8y<sup>3</sup>/27 - 2xy[x - 2y/3]<br>
+                                = x<sup>3</sup> - 8y<sup>3</sup>/27 - 2x<sup>2</sup>y + 4xy<sup>2</sup>/3<br>
+                                = <b style='color:#be123c; font-size:15px;'>x<sup>3</sup> - 2x<sup>2</sup>y + 4xy<sup>2</sup>/3 - 8y<sup>3</sup>/27</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 7",
+                "marks": 3,
+                "question": "યોગ્ય નિત્યસમનો ઉપયોગ કરીને કિંમત મેળવો:\n(i) (99)³\n(ii) (102)³\n(iii) (998)³", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border-left:4px solid #334155; min-width:300px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0;'>(i) (99)<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#334155;'>
+                                = (100 - 1)<sup>3</sup><br>
+                                = (100)<sup>3</sup> - (1)<sup>3</sup> - 3(100)(1)(100 - 1)<br>
+                                = 1000000 - 1 - 300(99)<br>
+                                = 1000000 - 1 - 29700<br>
+                                = 1000000 - 29701<br>
+                                = <b style='color:#0f172a; font-size:16px;'>970299</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0f9ff; padding:12px; border-radius:5px; border-left:4px solid #0284c7; min-width:300px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(ii) (102)<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#0369a1;'>
+                                = (100 + 2)<sup>3</sup><br>
+                                = (100)<sup>3</sup> + (2)<sup>3</sup> + 3(100)(2)(100 + 2)<br>
+                                = 1000000 + 8 + 600(102)<br>
+                                = 1000000 + 8 + 61200<br>
+                                = <b style='color:#0284c7; font-size:16px;'>1061208</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border-left:4px solid #334155; min-width:300px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0;'>(iii) (998)<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#334155;'>
+                                = (1000 - 2)<sup>3</sup><br>
+                                = (1000)<sup>3</sup> - (2)<sup>3</sup> - 3(1000)(2)(1000 - 2)<br>
+                                = 1000000000 - 8 - 6000(998)<br>
+                                = 1000000000 - 8 - 5988000<br>
+                                = 1000000000 - 5988008<br>
+                                = <b style='color:#0f172a; font-size:16px;'>994011992</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>મીંડા (0) નો ઘન કરવામાં ક્યારેય ભૂલ ન કરો! <b>જેટલા મીંડા હોય, તેના 3 ગણા મીંડા કરી નાખવા.</b> <br>
+                    દા.ત. 100 નો ઘન &rarr; બે મીંડાના 6 મીંડા (1000000). <br>
+                    1000 નો ઘન &rarr; ત્રણ મીંડાના 9 મીંડા (1000000000). આ ટ્રીકથી શૂન્ય ગણવામાં ભૂલ નહિ પડે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 8",
+                "marks": 4,
+                "question": "નીચેના પૈકી દરેકના અવયવ પાડો:\n(i) 8a³ + b³ + 12a²b + 6ab²\n(ii) 8a³ - b³ - 12a²b + 6ab²\n(iii) 27 - 125a³ - 135a + 225a²\n(iv) 64a³ - 27b³ - 144a²b + 108ab²\n(v) 27p³ - 1/216 - 9/2p² + 1/4p", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155;'><b>સમજૂતી:</b> આ દાખલા પ્રશ્ન 6 ની બિલકુલ ઊલટી પ્રક્રિયા છે. અહીં આપણે (a + b)<sup>3</sup> અથવા (a - b)<sup>3</sup> નિત્યસમ મુજબ પદોને ગોઠવવાના છે.</p>
+
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        <div style='background-color:#f0fdf4; padding:12px; border-radius:5px; border:1px solid #bbf7d0; min-width:380px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(i) 8a<sup>3</sup> + b<sup>3</sup> + 12a<sup>2</sup>b + 6ab<sup>2</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#166534;'>
+                                = (2a)<sup>3</sup> + (b)<sup>3</sup> + 3(2a)<sup>2</sup>(b) + 3(2a)(b)<sup>2</sup><br>
+                                = <b style='color:#15803d; font-size:15px;'>(2a + b)<sup>3</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border:1px solid #fecdd3; min-width:380px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(ii) 8a<sup>3</sup> - b<sup>3</sup> - 12a<sup>2</sup>b + 6ab<sup>2</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239;'>
+                                = (2a)<sup>3</sup> - (b)<sup>3</sup> - 3(2a)<sup>2</sup>(b) + 3(2a)(b)<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:15px;'>(2a - b)<sup>3</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border:1px solid #fecdd3; min-width:380px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(iii) 27 - 125a<sup>3</sup> - 135a + 225a<sup>2</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239;'>
+                                = (3)<sup>3</sup> - (5a)<sup>3</sup> - 3(3)<sup>2</sup>(5a) + 3(3)(5a)<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:15px;'>(3 - 5a)<sup>3</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border:1px solid #fecdd3; min-width:380px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(iv) 64a<sup>3</sup> - 27b<sup>3</sup> - 144a<sup>2</sup>b + 108ab<sup>2</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239;'>
+                                = (4a)<sup>3</sup> - (3b)<sup>3</sup> - 3(4a)<sup>2</sup>(3b) + 3(4a)(3b)<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:15px;'>(4a - 3b)<sup>3</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border:1px solid #fecdd3; min-width:380px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(v) 27p<sup>3</sup> - 1/216 - 9/2p<sup>2</sup> + 1/4p</h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239;'>
+                                = (3p)<sup>3</sup> - (1/6)<sup>3</sup> - 3(3p)<sup>2</sup>(1/6) + 3(3p)(1/6)<sup>2</sup><br>
+                                = <b style='color:#be123c; font-size:15px;'>(3p - 1/6)<sup>3</sup></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવા મોટા દાખલા જોઈને ડરવાનું બિલકુલ નહિ! <b>ફક્ત પહેલા બે પદ પકડી લો.</b> <br>
+                    પહેલા પદનું ઘનમૂળ કાઢો અને બીજા પદનું ઘનમૂળ કાઢો. જો રકમમાં માઇનસ હોય તો વચ્ચે માઇનસ મૂકી આખા કૌંસનો ઘન (Cube) કરી દો! જવાબ તમારા હાથમાં!<br>
+                    દા.ત. (v) માં: 27p<sup>3</sup> નું ઘનમૂળ <b>3p</b> અને 1/216 નું ઘનમૂળ <b>1/6</b>. વચ્ચે માઇનસ. સીધો જવાબ (3p - 1/6)<sup>3</sup> !</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 9",
+                "marks": 3,
+                "question": "ચકાસો:\n(i) x³ + y³ = (x + y)(x² - xy + y²)\n(ii) x³ - y³ = (x - y)(x² + xy + y²)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>ચકાસણી માટે આપણે જમણી બાજુ (RHS) નો ગુણાકાર કરી ડાબી બાજુ (LHS) લાવીશું.</p>
+
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        <div style='background-color:#f0f9ff; padding:12px; border-radius:5px; border-left:4px solid #0284c7; min-width:350px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(i) x<sup>3</sup> + y<sup>3</sup> = (x + y)(x<sup>2</sup> - xy + y<sup>2</sup>)</h4>
+                            <div style='font-family:monospace; font-size:14px; color:#0369a1; line-height:1.6;'>
+                                જ.બા. = (x + y)(x<sup>2</sup> - xy + y<sup>2</sup>)<br>
+                                <span style='color:#64748b; font-size:12px;'>[કૌંસ છૂટા પાડતા]</span><br>
+                                = x(x<sup>2</sup> - xy + y<sup>2</sup>) + y(x<sup>2</sup> - xy + y<sup>2</sup>)<br>
+                                = x<sup>3</sup> - x<sup>2</sup>y + xy<sup>2</sup> + x<sup>2</sup>y - xy<sup>2</sup> + y<sup>3</sup><br>
+                                <span style='color:#64748b; font-size:12px;'>[-x<sup>2</sup>y અને +x<sup>2</sup>y તેમજ +xy<sup>2</sup> અને -xy<sup>2</sup> ઉડી જશે]</span><br>
+                                = <b style='color:#0284c7;'>x<sup>3</sup> + y<sup>3</sup></b> = ડા.બા.
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border-left:4px solid #be123c; min-width:350px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) x<sup>3</sup> - y<sup>3</sup> = (x - y)(x<sup>2</sup> + xy + y<sup>2</sup>)</h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239; line-height:1.6;'>
+                                જ.બા. = (x - y)(x<sup>2</sup> + xy + y<sup>2</sup>)<br>
+                                <span style='color:#64748b; font-size:12px;'>[કૌંસ છૂટા પાડતા]</span><br>
+                                = x(x<sup>2</sup> + xy + y<sup>2</sup>) - y(x<sup>2</sup> + xy + y<sup>2</sup>)<br>
+                                = x<sup>3</sup> + x<sup>2</sup>y + xy<sup>2</sup> - x<sup>2</sup>y - xy<sup>2</sup> - y<sup>3</sup><br>
+                                <span style='color:#64748b; font-size:12px;'>[સરખા અને વિરુદ્ધ નિશાન વાળા પદો ઉડી જશે]</span><br>
+                                = <b style='color:#be123c;'>x<sup>3</sup> - y<sup>3</sup></b> = ડા.બા.
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 10",
+                "marks": 3,
+                "question": "નીચેના પૈકી દરેકના અવયવ પાડો:\n(i) 27y³ + 125z³\n(ii) 64m³ - 343n³\n[સૂચન: પ્રશ્ન 9 જુઓ]", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>ઉપરના પ્રશ્ન 9 માં સાબિત કરેલા સૂત્રોનો સીધો ઉપયોગ કરવાનો છે.</p>
+
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        <div style='background-color:#f0fdf4; padding:12px; border-radius:5px; border-left:4px solid #16a34a; min-width:350px;'>
+                            <h4 style='color:#14532d; margin:0 0 8px 0;'>(i) 27y<sup>3</sup> + 125z<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#166534; line-height:1.6;'>
+                                = (3y)<sup>3</sup> + (5z)<sup>3</sup><br>
+                                <span style='color:#64748b; font-size:12px;'>[સૂત્ર: a<sup>3</sup> + b<sup>3</sup> = (a+b)(a<sup>2</sup> - ab + b<sup>2</sup>)]</span><br>
+                                = (3y + 5z) [ (3y)<sup>2</sup> - (3y)(5z) + (5z)<sup>2</sup> ]<br>
+                                = <b style='color:#15803d; font-size:15px;'>(3y + 5z)(9y<sup>2</sup> - 15yz + 25z<sup>2</sup>)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; border-left:4px solid #be123c; min-width:350px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) 64m<sup>3</sup> - 343n<sup>3</sup></h4>
+                            <div style='font-family:monospace; font-size:14px; color:#9f1239; line-height:1.6;'>
+                                = (4m)<sup>3</sup> - (7n)<sup>3</sup><br>
+                                <span style='color:#64748b; font-size:12px;'>[સૂત્ર: a<sup>3</sup> - b<sup>3</sup> = (a-b)(a<sup>2</sup> + ab + b<sup>2</sup>)]</span><br>
+                                = (4m - 7n) [ (4m)<sup>2</sup> + (4m)(7n) + (7n)<sup>2</sup> ]<br>
+                                = <b style='color:#be123c; font-size:15px;'>(4m - 7n)(16m<sup>2</sup> + 28mn + 49n<sup>2</sup>)</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવા દાખલામાં બીજા કૌંસમાં નિશાનીની બહુ ભૂલ પડે છે! તેને યાદ રાખવાનો સિમ્પલ રસ્તો:<br>
+                    <b>SOAP નો નિયમ!</b><br>
+                    <b>S</b> = Same (પહેલા કૌંસમાં રકમ જેવી જ નિશાની)<br>
+                    <b>O</b> = Opposite (બીજા કૌંસના પહેલા પદમાં વિરુદ્ધ નિશાની)<br>
+                    <b>AP</b> = Always Positive (બીજા કૌંસનું છેલ્લું પદ હંમેશા પ્લસ જ હોય!)</p>
+                </div>`
+            }
+            
             
         
         ]
