@@ -2216,7 +2216,215 @@ var njMathsExercise = {
                     <b>O</b> = Opposite (બીજા કૌંસના પહેલા પદમાં વિરુદ્ધ નિશાની)<br>
                     <b>AP</b> = Always Positive (બીજા કૌંસનું છેલ્લું પદ હંમેશા પ્લસ જ હોય!)</p>
                 </div>`
-            }
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 11",
+                "marks": 3,
+                "question": "અવયવ પાડો:\n27x³ + y³ + z³ - 9xyz", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0f9ff; padding:10px; border-radius:5px; border:2px dashed #0284c7; margin-bottom:15px; text-align:center;'>
+                        <p style='margin:0 0 5px 0; color:#0c4a6e; font-weight:bold; font-size:14px;'>નિત્યસમનો ઉપયોગ:</p>
+                        <div style='font-size:15px; color:#0369a1; font-weight:bold;'>
+                            a<sup>3</sup> + b<sup>3</sup> + c<sup>3</sup> - 3abc = (a + b + c)(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup> - ab - bc - ca)
+                        </div>
+                    </div>
+
+                    <div style='overflow-x:auto; font-family:monospace; font-size:15px; color:#334155; line-height:1.8; background-color:#f8fafc; padding:15px; border-radius:5px; border-left:4px solid #1e3a8a;'>
+                        = (3x)<sup>3</sup> + (y)<sup>3</sup> + (z)<sup>3</sup> - 3(3x)(y)(z)<br>
+                        <span style='color:#64748b; font-size:12px;'>[અહીં a = 3x, b = y, અને c = z લેતાં]</span><br>
+                        = (3x + y + z)[ (3x)<sup>2</sup> + (y)<sup>2</sup> + (z)<sup>2</sup> - (3x)(y) - (y)(z) - (z)(3x) ]<br>
+                        = <b style='color:#1e3a8a; font-size:16px;'>(3x + y + z)(9x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - 3xy - yz - 3zx)</b>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 12",
+                "marks": 4,
+                "question": "ચકાસો:\nx³ + y³ + z³ - 3xyz = (1/2)(x + y + z)[(x - y)² + (y - z)² + (z - x)²]", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>જમણી બાજુ (RHS) પરથી ગણતરી શરૂ કરીશું:</p>
+
+                    <div style='overflow-x:auto; font-family:monospace; font-size:14px; color:#0f172a; line-height:1.8; background-color:#f0fdf4; padding:15px; border-radius:5px; border-left:4px solid #16a34a;'>
+                        જ.બા. = <span style='color:#166534;'>(1/2)(x + y + z) [ (x - y)<sup>2</sup> + (y - z)<sup>2</sup> + (z - x)<sup>2</sup> ]</span><br><br>
+                        <span style='color:#64748b; font-size:12px;'>[કૌંસમાં રહેલા વર્ગોનું વિસ્તરણ કરતા: (a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup>]</span><br>
+                        = (1/2)(x + y + z) [ (x<sup>2</sup> - 2xy + y<sup>2</sup>) + (y<sup>2</sup> - 2yz + z<sup>2</sup>) + (z<sup>2</sup> - 2zx + x<sup>2</sup>) ]<br><br>
+                        <span style='color:#64748b; font-size:12px;'>[સમાન પદોનો સરવાળો કરતા (દા.ત. x<sup>2</sup> + x<sup>2</sup> = 2x<sup>2</sup>)]</span><br>
+                        = (1/2)(x + y + z) [ 2x<sup>2</sup> + 2y<sup>2</sup> + 2z<sup>2</sup> - 2xy - 2yz - 2zx ]<br><br>
+                        <span style='color:#64748b; font-size:12px;'>[બીજા કૌંસમાંથી 2 સામાન્ય (Common) કાઢતા]</span><br>
+                        = (1/2) &times; 2 &times; (x + y + z) [ x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - xy - yz - zx ]<br><br>
+                        <span style='color:#64748b; font-size:12px;'>[1/2 અને 2 ઉડી જશે]</span><br>
+                        = (x + y + z)(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - xy - yz - zx)<br><br>
+                        <span style='color:#64748b; font-size:12px;'>[આ તો પ્રશ્ન 11 વાળું મુખ્ય નિત્યસમ જ બની ગયું!]</span><br>
+                        = <b style='color:#15803d; font-size:16px;'>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz</b><br>
+                        = ડા.બા. <b>(ચકાસણી પૂર્ણ)</b>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 13",
+                "marks": 3,
+                "question": "જો x + y + z = 0 હોય, તો સાબિત કરો કે x³ + y³ + z³ = 3xyz.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fff1f2; padding:15px; border-radius:5px; border-left:4px solid #be123c;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'>આપણે જાણીએ છીએ કે,<br>
+                        <b>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = (x + y + z)(x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - xy - yz - zx)</b></p>
+                        
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#334155;'>પરંતુ પ્રશ્નમાં આપેલું છે કે <b>x + y + z = 0</b>. તેથી આ કિંમત સૂત્રમાં મૂકતાં:</p>
+                        
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #fecdd3; font-family:monospace; font-size:15px;'>
+                            x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = <b>(0)</b> &times; (x<sup>2</sup> + y<sup>2</sup> + z<sup>2</sup> - xy - yz - zx)<br><br>
+                            <span style='color:#64748b; font-size:13px;'>[કોઈપણ સંખ્યાનો શૂન્ય સાથેનો ગુણાકાર શૂન્ય જ થાય]</span><br>
+                            &there4; x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> - 3xyz = 0<br><br>
+                            <span style='color:#64748b; font-size:13px;'>[-3xyz ને બરાબરની જમણી બાજુ લઈ જતા તે પ્લસ (+) થઈ જશે]</span><br>
+                            &there4; <b style='color:#be123c; font-size:16px;'>x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 3xyz</b> <span style='color:#881337;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ નિયમ ગોખી જ લો! જ્યારે પણ 3 સંખ્યાઓનો <b>સરવાળો 0 (શૂન્ય)</b> થતો હોય, ત્યારે તેમના ઘનનો સરવાળો હંમેશા તેમના <b>ગુણાકારથી 3 ગણો (3xyz)</b> જ થાય! આ શોર્ટકટ હવે પછીના પ્રશ્નમાં ડાયરેક્ટ વાપરવાનો છે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 14",
+                "marks": 3,
+                "question": "ઘનનું મૂલ્ય મેળવ્યા સિવાય નીચેના દરેકની કિંમત મેળવો:\n(i) (-12)³ + (7)³ + (5)³\n(ii) (28)³ + (-15)³ + (-13)³", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        
+                        <div style='background-color:#f0fdf4; padding:12px; border-radius:5px; border-left:4px solid #16a34a; min-width:350px;'>
+                            <h4 style='color:#14532d; margin:0 0 8px 0;'>(i) (-12)<sup>3</sup> + (7)<sup>3</sup> + (5)<sup>3</sup></h4>
+                            <div style='font-size:14px; color:#334155; line-height:1.6;'>
+                                ધારો કે x = -12, y = 7, z = 5<br>
+                                અહીં x + y + z = -12 + 7 + 5 = -12 + 12 = <b>0</b><br>
+                                <span style='color:#15803d; font-weight:bold;'>સરવાળો 0 હોવાથી પ્રશ્ન 13 ના નિયમ મુજબ: x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 3xyz થાય.</span><br>
+                                = 3 &times; (-12) &times; (7) &times; (5)<br>
+                                = -36 &times; 35<br>
+                                = <b style='color:#16a34a; font-size:18px;'>-1260</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border-left:4px solid #0284c7; min-width:350px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0;'>(ii) (28)<sup>3</sup> + (-15)<sup>3</sup> + (-13)<sup>3</sup></h4>
+                            <div style='font-size:14px; color:#334155; line-height:1.6;'>
+                                ધારો કે x = 28, y = -15, z = -13<br>
+                                અહીં x + y + z = 28 + (-15) + (-13) = 28 - 28 = <b>0</b><br>
+                                <span style='color:#0284c7; font-weight:bold;'>સરવાળો 0 હોવાથી: x<sup>3</sup> + y<sup>3</sup> + z<sup>3</sup> = 3xyz થાય.</span><br>
+                                = 3 &times; (28) &times; (-15) &times; (-13)<br>
+                                <span style='color:#64748b; font-size:12px;'>[બે માઇનસ નો ગુણાકાર પ્લસ થાય: (-15 &times; -13) = 195]</span><br>
+                                = 84 &times; 195<br>
+                                = <b style='color:#0284c7; font-size:18px;'>16380</b>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 15",
+                "marks": 3,
+                "question": "નીચે લંબચોરસનાં ક્ષેત્રફળ આપેલ છે, તેમની સંભવિત લંબાઈ અને પહોળાઈ શોધો:\n(i) ક્ષેત્રફળ: 25a² - 35a + 12\n(ii) ક્ષેત્રફળ: 35y² + 13y - 12", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#ffedd5; padding:15px; border-radius:8px; border:1px dashed #ea580c; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#9a3412; font-weight:bold; font-size:15px;'>લંબચોરસનું ક્ષેત્રફળ = લંબાઈ &times; પહોળાઈ</p>
+                        <svg width="240" height="120" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="20" y="20" width="200" height="80" fill="#fefce8" stroke="#ca8a04" stroke-width="3"/>
+                            <text x="120" y="65" fill="#a16207" font-size="16" font-weight="bold" text-anchor="middle">ક્ષેત્રફળ</text>
+                            <text x="120" y="115" fill="#ca8a04" font-size="14" font-weight="bold" text-anchor="middle">લંબાઈ (l)</text>
+                            <text x="10" y="65" fill="#ca8a04" font-size="14" font-weight="bold" transform="rotate(-90 10,65)" text-anchor="middle">પહોળાઈ (b)</text>
+                        </svg>
+                        <p style='margin:10px 0 0 0; font-size:14px; color:#c2410c;'>આથી આપણે આપેલી દ્વિઘાત બહુપદીના બે અવયવ (લંબાઈ અને પહોળાઈ) પાડવા પડશે.</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0;'>(i) 25a<sup>2</sup> - 35a + 12</h4>
+                            <p style='margin:0 0 5px 0; font-size:13px; color:#52525b;'>ગુણાકાર: 25 &times; 12 = 300, સરવાળો: -35 (અવયવો: -20 અને -15)</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7; font-family:monospace; font-size:14px;'>
+                                = 25a<sup>2</sup> - 20a - 15a + 12<br>
+                                = 5a(5a - 4) - 3(5a - 4)<br>
+                                = (5a - 4)(5a - 3)<br>
+                                <span style='color:#16a34a; font-weight:bold;'>&there4; લંબાઈ = (5a - 3) અને પહોળાઈ = (5a - 4) </span><br>
+                                <span style='color:#64748b; font-size:12px;'>(નોંધ: મોટા પદને લંબાઈ ગણી શકાય).</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0;'>(ii) 35y<sup>2</sup> + 13y - 12</h4>
+                            <p style='margin:0 0 5px 0; font-size:13px; color:#52525b;'>ગુણાકાર: 35 &times; -12 = -420, બાદબાકી: 13 (અવયવો: 28 અને -15)</p>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7; font-family:monospace; font-size:14px;'>
+                                = 35y<sup>2</sup> + 28y - 15y - 12<br>
+                                = 7y(5y + 4) - 3(5y + 4)<br>
+                                = (5y + 4)(7y - 3)<br>
+                                <span style='color:#16a34a; font-weight:bold;'>&there4; લંબાઈ = (5y + 4) અને પહોળાઈ = (7y - 3)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.4 - પ્રશ્ન 16",
+                "marks": 3,
+                "question": "નીચે લંબઘનનાં ઘનફળ આપેલ છે, તેમનાં શક્ય પરિમાણ (લંબાઈ, પહોળાઈ અને ઊંચાઈ) શોધો:\n(i) ઘનફળ: 3x² - 12x\n(ii) ઘનફળ: 12ky² + 8ky - 20k", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#e0f2fe; padding:15px; border-radius:8px; border:1px dashed #0284c7; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#0369a1; font-weight:bold; font-size:15px;'>લંબઘનનું ઘનફળ = લંબાઈ &times; પહોળાઈ &times; ઊંચાઈ</p>
+                        <svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="60,30 160,30 160,90 60,90" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <line x1="20" y1="60" x2="60" y2="30" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <line x1="20" y1="120" x2="60" y2="90" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <polygon points="20,60 120,60 120,120 20,120" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <line x1="120" y1="60" x2="160" y2="30" stroke="#0284c7" stroke-width="2"/>
+                            <line x1="120" y1="120" x2="160" y2="90" stroke="#0284c7" stroke-width="2"/>
+                            <polygon points="120,60 160,30 160,90 120,120" fill="#bae6fd" stroke="#0284c7" stroke-width="2"/>
+                            <polygon points="20,60 60,30 160,30 120,60" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <text x="70" y="95" fill="#0369a1" font-size="14" font-weight="bold">ઘનફળ</text>
+                            <text x="70" y="135" fill="#0284c7" font-size="12" font-weight="bold">લંબાઈ</text>
+                            <text x="-5" y="95" fill="#0284c7" font-size="12" font-weight="bold">ઊંચાઈ</text>
+                            <text x="145" y="120" fill="#0284c7" font-size="12" font-weight="bold">પહોળાઈ</text>
+                        </svg>
+                        <p style='margin:10px 0 0 0; font-size:14px; color:#0c4a6e;'>આથી આપણે આપેલી બહુપદીમાંથી 3 અવયવો (l, b અને h) છૂટા પાડવાના છે.</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(i) 3x<sup>2</sup> - 12x</h4>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bbf7d0; font-family:monospace; font-size:14px;'>
+                                <span style='color:#64748b; font-size:12px;'>[બંને પદોમાંથી 3x સામાન્ય કાઢતાં]</span><br>
+                                = 3x (x - 4)<br>
+                                = (3) &times; (x) &times; (x - 4)<br>
+                                <span style='color:#16a34a; font-weight:bold;'>&there4; શક્ય પરિમાણો: 3, x અને (x - 4) છે.</span>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(ii) 12ky<sup>2</sup> + 8ky - 20k</h4>
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bbf7d0; font-family:monospace; font-size:14px;'>
+                                <span style='color:#64748b; font-size:12px;'>[બધા પદોમાંથી 4k સામાન્ય કાઢતાં]</span><br>
+                                = 4k [ 3y<sup>2</sup> + 2y - 5 ]<br>
+                                <span style='color:#64748b; font-size:12px;'>[હવે કૌંસના અવયવ પાડો: ગુણાકાર -15, બાદબાકી 2]</span><br>
+                                = 4k [ 3y<sup>2</sup> + 5y - 3y - 5 ]<br>
+                                = 4k [ y(3y + 5) - 1(3y + 5) ]<br>
+                                = 4k [ (3y + 5)(y - 1) ]<br>
+                                = (4k) &times; (3y + 5) &times; (y - 1)<br>
+                                <span style='color:#16a34a; font-weight:bold;'>&there4; શક્ય પરિમાણો: 4k, (3y + 5) અને (y - 1) છે.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+                }
+            
             
             
         
