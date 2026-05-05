@@ -6368,10 +6368,277 @@ var njMathsExercise = {
                     </div>
                 </div>`
             }
-        
-    
+       ]
+    },
+                
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 10: હેરોનનું સૂત્ર (સ્વાધ્યાય)
+    // ------------------------------------
+    "10": {
+        "chapterName": "પ્રકરણ 10",
+        "chapterTitle": "હેરોનનું સૂત્ર (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 10.1 - પ્રશ્ન 1",
+                "marks": 4,
+                "question": "ટ્રાફિક સિગ્નલનું પાટિયું 'SCHOOL AHEAD' (આગળ શાળા છે) સમબાજુ ત્રિકોણ આકારનું છે અને તેની બાજુની લંબાઈ 'a' છે. હેરોનના સૂત્ર પરથી તેનું ક્ષેત્રફળ મેળવો. જો તેની પરિમિતિ 180 સેમી હોય, તો તેનું ક્ષેત્રફળ કેટલું થાય?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 200 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="100,20 20,160 180,160" fill="#fef08a" stroke="#ca8a04" stroke-width="6" stroke-linejoin="round"/>
+                            <text x="100" y="100" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">SCHOOL</text>
+                            <text x="100" y="120" fill="#0f172a" font-size="14" font-weight="bold" text-anchor="middle">AHEAD</text>
+                            
+                            <text x="45" y="85" fill="#be123c" font-size="16" font-weight="bold">a</text>
+                            <text x="145" y="85" fill="#be123c" font-size="16" font-weight="bold">a</text>
+                            <text x="100" y="180" fill="#be123c" font-size="16" font-weight="bold">a</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ભાગ 1: હેરોનના સૂત્ર પરથી 'a' બાજુવાળા ત્રિકોણનું ક્ષેત્રફળ</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            અહીં સમબાજુ ત્રિકોણની ત્રણેય બાજુઓ સમાન છે: બાજુ 1 = a, બાજુ 2 = a, બાજુ 3 = a.<br>
+                            અર્ધપરિમિતિ (s) = (a + a + a) / 2 = <b>3a/2</b><br><br>
+                            
+                            હેરોનનું સૂત્ર: ક્ષેત્રફળ = &radic;[s(s - a)(s - b)(s - c)]<br>
+                            &there4; ક્ષેત્રફળ = &radic;[ (3a/2) &times; (3a/2 - a) &times; (3a/2 - a) &times; (3a/2 - a) ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[લ.સા.અ. લેતાં: 3a/2 - 2a/2 = a/2]</span><br>
+                            &there4; ક્ષેત્રફળ = &radic;[ (3a/2) &times; (a/2) &times; (a/2) &times; (a/2) ]<br>
+                            &there4; ક્ષેત્રફળ = &radic;[ 3a<sup>4</sup> / 16 ]<br>
+                            <b style='color:#0284c7; font-size:16px;'>&there4; સમબાજુ ત્રિકોણનું ક્ષેત્રફળ = (&radic;3 / 4) a<sup>2</sup></b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ભાગ 2: પરિમિતિ 180 સેમી હોય ત્યારે ક્ષેત્રફળ</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            પરિમિતિ = 3a = 180 સેમી &rArr; <b>a = 60 સેમી</b><br>
+                            તેથી, ઉપર મળેલા સૂત્રમાં a ની કિંમત મૂકતાં:<br>
+                            ક્ષેત્રફળ = (&radic;3 / 4) &times; (60)<sup>2</sup><br>
+                            &there4; ક્ષેત્રફળ = (&radic;3 / 4) &times; 3600<br>
+                            &there4; ક્ષેત્રફળ = &radic;3 &times; 900<br>
+                            <b style='color:#15803d; font-size:18px;'>&there4; ક્ષેત્રફળ = 900&radic;3 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>હેતુલક્ષી પ્રશ્નો માટે <b>સમબાજુ ત્રિકોણના ક્ષેત્રફળનું સૂત્ર સીધું જ યાદ રાખી લો: (&radic;3 / 4) a<sup>2</sup></b>. રકમમાં પરિમિતિ 180 છે એટલે બાજુ 60 થઈ. 60 નો વર્ગ 3600. તેને 4 વડે ભાગો એટલે 900. અને પાછળ &radic;3 ચોંટાડી દો! <b>900&radic;3</b> જવાબ મૌખિક જ આવી જશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 10.1 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "એક ફ્લાયઓવરની ત્રિકોણાકાર દીવાલોનો ઉપયોગ જાહેરાત માટે થાય છે. દીવાલોની બાજુઓ 122 મી, 22 મી અને 120 મી છે. જાહેરાત પ્રતિ વર્ષ ₹ 5000 પ્રતિ મી² ના દરે કમાણી કરી આપે છે. એક કંપની તે દીવાલને 3 મહિના માટે ભાડે રાખે છે, તો તેણે કેટલું ભાડું ચૂકવવું પડે?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 150" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,130 290,130 290,30" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="20" y1="130" x2="330" y2="130" stroke="#475569" stroke-width="6"/>
+                            
+                            <text x="170" y="150" fill="#0f172a" font-weight="bold">120 મી</text>
+                            <text x="300" y="90" fill="#0f172a" font-weight="bold">22 મી</text>
+                            <text x="140" y="75" fill="#be123c" font-weight="bold" transform="rotate(-23 140,75)">122 મી</text>
+                            
+                            <text x="170" y="100" fill="#0284c7" font-weight="bold" font-size="14">ADVERTISEMENT</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>પગલું 1: ત્રિકોણાકાર દીવાલનું ક્ષેત્રફળ</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            અહીં દીવાલની બાજુઓ છે: a = 122 મી, b = 120 મી, c = 22 મી.<br>
+                            અર્ધપરિમિતિ (s) = (122 + 120 + 22) / 2 = 264 / 2 = <b>132 મી</b><br><br>
+                            
+                            ક્ષેત્રફળ = &radic;[s(s - a)(s - b)(s - c)]<br>
+                            = &radic;[ 132(132 - 122)(132 - 120)(132 - 22) ]<br>
+                            = &radic;[ 132 &times; 10 &times; 12 &times; 110 ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[અવયવ પાડીએ જેથી વર્ગમૂળ સહેલાઈથી નીકળે: 132 = 12 &times; 11, 110 = 11 &times; 10]</span><br>
+                            = &radic;[ (12 &times; 11) &times; 10 &times; 12 &times; (11 &times; 10) ]<br>
+                            = &radic;[ (12 &times; 12) &times; (11 &times; 11) &times; (10 &times; 10) ]<br>
+                            = 12 &times; 11 &times; 10<br>
+                            <b style='color:#0284c7; font-size:16px;'>&there4; ક્ષેત્રફળ = 1320 મી<sup>2</sup></b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>પગલું 2: ભાડાની ગણતરી</b></p>
+                        <div style='font-size:14px; color:#9f1239; line-height:1.8; margin-left:10px;'>
+                            જાહેરાતનો વાર્ષિક (12 મહિનાનો) દર = ₹ 5000 પ્રતિ મી<sup>2</sup><br>
+                            કંપની માત્ર <b>3 મહિના</b> માટે ભાડે રાખે છે.<br>
+                            &there4; ચૂકવવાનું કુલ ભાડું = ક્ષેત્રફળ &times; દર &times; સમય<br>
+                            &there4; ભાડું = 1320 &times; 5000 &times; (3 / 12)<br>
+                            &there4; ભાડું = 1320 &times; 5000 &times; (1 / 4)<br>
+                            &there4; ભાડું = 330 &times; 5000<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; કુલ ભાડું = ₹ 16,50,000 (16 લાખ 50 હજાર રૂપિયા)</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 10.1 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "બગીચામાં એક લપસણી છે. તેની એક બાજુની દીવાલ કોઈ રંગથી રંગી તેના પર 'KEEP THE PARK GREEN AND CLEAN' એવો સંદેશ લખેલો છે. જો દીવાલની બાજુઓ 15 મી, 11 મી અને 6 મી હોય, તો રંગેલ દીવાલનું ક્ષેત્રફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,150 250,150 120,40" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+                            
+                            <text x="140" y="100" fill="#14532d" font-size="12" font-weight="bold" text-anchor="middle">KEEP THE PARK</text>
+                            <text x="140" y="120" fill="#14532d" font-size="12" font-weight="bold" text-anchor="middle">GREEN & CLEAN</text>
+                            
+                            <text x="60" y="90" fill="#0f172a" font-weight="bold">11m</text>
+                            <text x="195" y="90" fill="#0f172a" font-weight="bold">15m</text>
+                            <text x="140" y="170" fill="#0f172a" font-weight="bold">6m</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            અહીં દીવાલની બાજુઓ છે: a = 15 મી, b = 11 મી, c = 6 મી.<br>
+                            સૌપ્રથમ અર્ધપરિમિતિ (s) શોધીશું:<br>
+                            s = (a + b + c) / 2<br>
+                            s = (15 + 11 + 6) / 2 = 32 / 2 = <b>16 મી</b><br><br>
+                            
+                            હેરોનના સૂત્ર મુજબ:<br>
+                            ક્ષેત્રફળ = &radic;[s(s - a)(s - b)(s - c)]<br>
+                            = &radic;[ 16(16 - 15)(16 - 11)(16 - 6) ]<br>
+                            = &radic;[ 16 &times; 1 &times; 5 &times; 10 ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[અવયવો પાડીએ: 16 નું વર્ગમૂળ 4 નીકળશે, 10 ને 5 &times; 2 લખીશું]</span><br>
+                            = &radic;[ 16 &times; 5 &times; (5 &times; 2) ]<br>
+                            = 4 &times; 5 &times; &radic;2<br>
+                            = 20 &times; &radic;2<br>
+                            <b style='color:#15803d; font-size:18px;'>&there4; રંગેલ દીવાલનું ક્ષેત્રફળ = 20&radic;2 મી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 10.1 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "જેની બે બાજુઓ 18 સેમી અને 10 સેમી હોય તથા પરિમિતિ 42 સેમી હોય તેવા ત્રિકોણનું ક્ષેત્રફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>પગલું 1: ત્રિકોણની ત્રીજી બાજુ શોધવી</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            ધારો કે a = 18 સેમી, b = 10 સેમી અને ત્રીજી બાજુ c શોધવાની છે.<br>
+                            પરિમિતિ = 42 સેમી આપેલ છે.<br>
+                            &there4; a + b + c = 42<br>
+                            &there4; 18 + 10 + c = 42<br>
+                            &there4; 28 + c = 42<br>
+                            &there4; c = 42 - 28 = <b>14 સેમી</b><br><br>
+                            
+                            અર્ધપરિમિતિ (s) = પરિમિતિ / 2 = 42 / 2 = <b>21 સેમી</b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>પગલું 2: હેરોનના સૂત્રથી ક્ષેત્રફળ</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ક્ષેત્રફળ = &radic;[s(s - a)(s - b)(s - c)]<br>
+                            = &radic;[ 21(21 - 18)(21 - 10)(21 - 14) ]<br>
+                            = &radic;[ 21 &times; 3 &times; 11 &times; 7 ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[અવયવ પાડીએ: 21 ને 7 &times; 3 લખી શકાય]</span><br>
+                            = &radic;[ (7 &times; 3) &times; 3 &times; 11 &times; 7 ]<br>
+                            = 7 &times; 3 &times; &radic;11<br>
+                            <b style='color:#0284c7; font-size:18px;'>&there4; ત્રિકોણનું ક્ષેત્રફળ = 21&radic;11 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 10.1 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "ત્રિકોણની બાજુઓ 12:17:25 ના પ્રમાણમાં હોય અને તેની પરિમિતિ 540 સેમી હોય, તો તેનું ક્ષેત્રફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f8fafc; padding:12px; border-left:4px solid #64748b; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#334155;'><b>પગલું 1: ત્રિકોણની ત્રણેય બાજુઓ શોધવી</b></p>
+                        <div style='font-size:14px; color:#475569; line-height:1.8; margin-left:10px;'>
+                            આપેલ ગુણોત્તર = 12 : 17 : 25<br>
+                            ધારો કે બાજુઓ અનુક્રમે a = 12x, b = 17x અને c = 25x છે.<br>
+                            પરિમિતિ = 540 સેમી<br>
+                            &there4; a + b + c = 540<br>
+                            &there4; 12x + 17x + 25x = 540<br>
+                            &there4; 54x = 540<br>
+                            &there4; <b>x = 10</b><br><br>
+                            
+                            બાજુઓની લંબાઈ:<br>
+                            a = 12(10) = <b>120 સેમી</b><br>
+                            b = 17(10) = <b>170 સેમી</b><br>
+                            c = 25(10) = <b>250 સેમી</b><br><br>
+                            
+                            અર્ધપરિમિતિ (s) = 540 / 2 = <b>270 સેમી</b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>પગલું 2: ક્ષેત્રફળની ગણતરી</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            ક્ષેત્રફળ = &radic;[s(s - a)(s - b)(s - c)]<br>
+                            = &radic;[ 270(270 - 120)(270 - 170)(270 - 250) ]<br>
+                            = &radic;[ 270 &times; 150 &times; 100 &times; 20 ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[ગણતરી સરળ કરવા 10 ના ગુણકો (મીંડા) અલગ કરીએ: 27 &times; 10, 15 &times; 10 વગેરે]</span><br>
+                            = &radic;[ (9 &times; 3 &times; 10) &times; (5 &times; 3 &times; 10) &times; (10 &times; 10) &times; (4 &times; 5) ]<br>
+                            = &radic;[ 9 &times; 9 &times; 25 &times; 4 &times; 10000 ]<br>
+                            = 3 &times; 3 &times; 5 &times; 2 &times; 100<br>
+                            = 9 &times; 10 &times; 100<br>
+                            <b style='color:#15803d; font-size:18px;'>&there4; ક્ષેત્રફળ = 9000 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>`
+            },
+             { 
+                "questionNumber": "સ્વાધ્યાય 10.1 - પ્રશ્ન 6",
+                "marks": 3,
+                "question": "સમદ્વિબાજુ ત્રિકોણની પરિમિતિ 30 સેમી અને સમાન બાજુઓ પૈકી પ્રત્યેકની લંબાઈ 12 સેમી છે, તો ત્રિકોણનું ક્ષેત્રફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 200 200" style="width:100%; max-width:200px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="100,20 30,170 170,170" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <line x1="60" y1="95" x2="70" y2="95" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="130" y1="95" x2="140" y2="95" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <text x="35" y="100" fill="#be123c" font-weight="bold">12</text>
+                            <text x="150" y="100" fill="#be123c" font-weight="bold">12</text>
+                            <text x="95" y="190" fill="#1d4ed8" font-weight="bold">c = ?</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            સમદ્વિબાજુ ત્રિકોણ હોવાથી બે બાજુઓ સમાન છે: a = 12 સેમી, b = 12 સેમી.<br>
+                            પરિમિતિ = 30 સેમી<br>
+                            &there4; a + b + c = 30<br>
+                            &there4; 12 + 12 + c = 30<br>
+                            &there4; 24 + c = 30<br>
+                            &there4; c = 30 - 24 = <b>6 સેમી</b> (ત્રીજી બાજુ મળી ગઈ)<br><br>
+                            
+                            અર્ધપરિમિતિ (s) = 30 / 2 = <b>15 સેમી</b><br><br>
+                            
+                            હેરોનના સૂત્ર પરથી ક્ષેત્રફળ = &radic;[s(s - a)(s - b)(s - c)]<br>
+                            = &radic;[ 15(15 - 12)(15 - 12)(15 - 6) ]<br>
+                            = &radic;[ 15 &times; 3 &times; 3 &times; 9 ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[9 નું વર્ગમૂળ 3, અને 3 &times; 3 નું વર્ગમૂળ પણ 3. 15 નું નહિ નીકળે]</span><br>
+                            = 3 &times; 3 &times; &radic;15<br>
+                            <b style='color:#0284c7; font-size:18px;'>&there4; ક્ષેત્રફળ = 9&radic;15 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>`
+            }
         ]
-    }
+    }    
+    
+    
     
     
     
