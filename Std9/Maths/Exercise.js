@@ -5432,7 +5432,190 @@ var njMathsExercise = {
                         </div>
                     </div>
                 </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.1 - પ્રશ્ન 5",
+                "marks": 5,
+                "question": "સમાંતરબાજુ ચતુષ્કોણ ABCD માં વિકર્ણ BD પર બે બિંદુઓ P અને Q એવાં લીધાં છે કે જેથી DP = BQ થાય. સાબિત કરો કે:<br>(i) ΔAPD ≅ ΔCQB<br>(ii) AP = CQ<br>(iii) ΔAQB ≅ ΔCPD<br>(iv) AQ = CP<br>(v) APCQ સમાંતરબાજુ ચતુષ્કોણ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,150 250,150 300,50 100,50" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="50" y1="150" x2="300" y2="50" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <circle cx="100" cy="130" r="4" fill="#ea580c"/>
+                            <text x="95" y="145" fill="#ea580c" font-weight="bold">Q</text>
+                            
+                            <circle cx="250" cy="70" r="4" fill="#be123c"/>
+                            <text x="245" y="65" fill="#be123c" font-weight="bold">P</text>
+                            
+                            <line x1="100" y1="50" x2="250" y2="70" stroke="#16a34a" stroke-width="2"/> <line x1="100" y1="50" x2="100" y2="130" stroke="#16a34a" stroke-width="2"/> <line x1="250" y1="150" x2="250" y2="70" stroke="#16a34a" stroke-width="2"/> <line x1="250" y1="150" x2="100" y2="130" stroke="#16a34a" stroke-width="2"/> <polygon points="100,50 100,130 250,150 250,70" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <text x="90" y="40" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="35" y="160" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="260" y="165" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="310" y="45" fill="#0f172a" font-weight="bold">D</text>
+                            
+                            <line x1="70" y1="135" x2="80" y2="145" stroke="#ea580c" stroke-width="2"/>
+                            <line x1="270" y1="55" x2="280" y2="65" stroke="#be123c" stroke-width="2"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>(i) &Delta;APD &cong; &Delta;CQB સાબિત કરવા:</b><br>
+                            &Delta;APD અને &Delta;CQB માં:<br>
+                            1) <b>AD = BC</b> <span style='color:#64748b;'>(સમાંતરબાજુ ચતુષ્કોણની સામસામેની બાજુઓ)</span><br>
+                            2) <b>DP = BQ</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે)</span><br>
+                            3) <b>&ang;ADP = &ang;CBQ</b> <span style='color:#64748b;'>(AD || BC અને BD છેદિકા હોવાથી અંતઃયુગ્મકોણો)</span><br>
+                            &there4; <b>બાખૂબા (SAS)</b> નિયમ મુજબ: <b style='color:#0284c7;'>&Delta;APD &cong; &Delta;CQB</b><br><br>
+                            
+                            <b>(ii) AP = CQ સાબિત કરવા:</b><br>
+                            ઉપર સાબિત કર્યા મુજબ ત્રિકોણો એકરૂપ હોવાથી તેમના અનુરૂપ અંગો સમાન થાય.<br>
+                            <b style='color:#be123c;'>&there4; AP = CQ (CPCT)</b> ......(પરિણામ 1)<br><br>
+                            
+                            <b>(iii) &Delta;AQB &cong; &Delta;CPD સાબિત કરવા:</b><br>
+                            &Delta;AQB અને &Delta;CPD માં:<br>
+                            1) <b>AB = CD</b> <span style='color:#64748b;'>(સમાંતરબાજુ ચતુષ્કોણની સામસામેની બાજુઓ)</span><br>
+                            2) <b>BQ = DP</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે)</span><br>
+                            3) <b>&ang;ABQ = &ang;CDP</b> <span style='color:#64748b;'>(AB || CD અને BD છેદિકા હોવાથી અંતઃયુગ્મકોણો)</span><br>
+                            &there4; <b>બાખૂબા (SAS)</b> નિયમ મુજબ: <b style='color:#0284c7;'>&Delta;AQB &cong; &Delta;CPD</b><br><br>
+                            
+                            <b>(iv) AQ = CP સાબિત કરવા:</b><br>
+                            આ ત્રિકોણો એકરૂપ હોવાથી તેમના અનુરૂપ અંગો સમાન થાય.<br>
+                            <b style='color:#be123c;'>&there4; AQ = CP (CPCT)</b> ......(પરિણામ 2)<br><br>
+                            
+                            <b>(v) APCQ સમાંતરબાજુ ચતુષ્કોણ છે:</b><br>
+                            ચતુષ્કોણ APCQ માં પરિણામ 1 અને 2 પરથી: સામસામેની બાજુઓની બંને જોડ સમાન છે. (AP = CQ અને AQ = CP).<br>
+                            જો કોઈ ચતુષ્કોણમાં સામસામેની બાજુઓની બંને જોડ સમાન હોય, તો તે સમાંતરબાજુ ચતુષ્કોણ કહેવાય છે.<br>
+                            <b style='color:#16a34a;'>&there4; APCQ સમાંતરબાજુ ચતુષ્કોણ છે.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલામાં 5 સાબિતીઓ છે પણ ગભરાવાની જરૂર નથી! આ <b>"2 ટિકિટમાં 5 પિક્ચર"</b> જેવી ઓફર છે! પહેલા બે સામસામેના ત્રિકોણને <b>બાખૂબા</b> થી એકરૂપ કરો, એટલે સીધી બે બાજુઓ (CPCT) મળી જશે. ફરીથી બીજા બે સામસામેના ત્રિકોણને <b>બાખૂબા</b> થી એકરૂપ કરો, એટલે બીજી બે બાજુઓ મળી જશે! ચારેય બાજુઓ મળી ગઈ એટલે અંદરનો ચતુષ્કોણ સીધો જ સમાંતરબાજુ સાબિત થઈ જશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.1 - પ્રશ્ન 6",
+                "marks": 4,
+                "question": "ABCD સમાંતરબાજુ ચતુષ્કોણ છે અને તેનાં શિરોબિંદુઓ A અને C માંથી વિકર્ણ BD પર દોરેલા લંબ અનુક્રમે AP અને CQ છે. સાબિત કરો કે:<br>(i) ΔAPB ≅ ΔCQD<br>(ii) AP = CQ", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,150 250,150 300,50 100,50" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="50" y1="150" x2="300" y2="50" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <line x1="100" y1="50" x2="160" y2="105" stroke="#be123c" stroke-width="2"/>
+                            <line x1="250" y1="150" x2="190" y2="95" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <polygon points="160,105 150,100 155,90 165,95" fill="none" stroke="#be123c" stroke-width="1.5"/>
+                            <polygon points="190,95 200,100 195,110 185,105" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+                            
+                            <text x="90" y="40" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="35" y="160" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="260" y="165" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="310" y="45" fill="#0f172a" font-weight="bold">D</text>
+                            <text x="165" y="125" fill="#be123c" font-weight="bold">P</text>
+                            <text x="175" y="85" fill="#16a34a" font-weight="bold">Q</text>
+                            
+                            <path d="M 80 150 A 30 30 0 0 0 85 135" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <path d="M 270 50 A 30 30 0 0 0 265 65" fill="none" stroke="#ea580c" stroke-width="2"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>(i) &Delta;APB &cong; &Delta;CQD સાબિત કરવા:</b><br>
+                            અહીં, આપણે બે ત્રિકોણો &Delta;APB અને &Delta;CQD ની સરખામણી કરીશું:<br>
+                            1) <b>&ang;APB = &ang;CQD = 90&deg;</b> <span style='color:#64748b;'>(કારણ કે AP અને CQ લંબ છે)</span><br>
+                            2) <b>AB = CD</b> <span style='color:#64748b;'>(સમાંતરબાજુ ચતુષ્કોણની સામસામેની બાજુઓ)</span><br>
+                            3) <b>&ang;ABP = &ang;CDQ</b> <span style='color:#64748b;'>(AB || CD અને BD છેદિકા હોવાથી બનતા <b>અંતઃયુગ્મકોણો - Z આકાર</b>)</span><br><br>
+                            
+                            અહીં બે ખૂણા અને એક બાજુ સમાન છે. તેથી <b>ખૂખૂબા (AAS)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            <b style='color:#0284c7; font-size:16px;'>&there4; &Delta;APB &cong; &Delta;CQD</b> <span style='color:#16a34a;'>(પહેલું પરિણામ સાબિત)</span><br><br>
+                            
+                            <b>(ii) AP = CQ સાબિત કરવા:</b><br>
+                            ઉપર સાબિત કર્યા મુજબ બંને ત્રિકોણો એકરૂપ છે.<br>
+                            આપણે જાણીએ છીએ કે એકરૂપ ત્રિકોણોના અનુરૂપ અંગો (CPCT) હંમેશા સમાન હોય છે.<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; AP = CQ (CPCT)</b> <span style='color:#16a34a;'>(બીજું પરિણામ સાબિત)</span>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.1 - પ્રશ્ન 7",
+                "marks": 5,
+                "question": "ΔABC અને ΔDEF માં, AB = DE, AB || DE, BC = EF અને BC || EF છે. શિરોબિંદુઓ A, B અને C ને અનુક્રમે D, E અને F સાથે જોડેલા છે. સાબિત કરો કે:<br>(i) ચતુષ્કોણ ABED સમાંતરબાજુ ચતુષ્કોણ છે.<br>(ii) ચતુષ્કોણ BEFC સમાંતરબાજુ ચતુષ્કોણ છે.<br>(iii) AD || CF અને AD = CF<br>(iv) ચતુષ્કોણ ACFD સમાંતરબાજુ ચતુષ્કોણ છે.<br>(v) AC = DF<br>(vi) ΔABC ≅ ΔDEF", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="100,50 50,150 150,150" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <polygon points="200,100 150,200 250,200" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="200" y1="100" x2="100" y2="50" stroke="#be123c" stroke-width="2"/> <line x1="150" y1="200" x2="50" y2="150" stroke="#16a34a" stroke-width="2"/> <line x1="250" y1="200" x2="150" y2="150" stroke="#ea580c" stroke-width="2"/> <text x="210" y="100" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="145" y="215" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="255" y="215" fill="#0f172a" font-weight="bold">C</text>
+                            
+                            <text x="90" y="45" fill="#0f172a" font-weight="bold">D</text>
+                            <text x="35" y="155" fill="#0f172a" font-weight="bold">E</text>
+                            <text x="155" y="145" fill="#0f172a" font-weight="bold">F</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>(i) ચતુષ્કોણ ABED સમાંતરબાજુ ચતુષ્કોણ છે:</b><br>
+                            પક્ષમાં આપેલું છે કે, <b>AB = DE અને AB || DE</b>.<br>
+                            જો કોઈ ચતુષ્કોણમાં સામસામેની બાજુઓની <b>એક જ જોડ</b> સમાન અને સમાંતર બંને હોય, તો તે ચતુષ્કોણ સમાંતરબાજુ ચતુષ્કોણ બને છે.<br>
+                            <b style='color:#0284c7;'>&there4; ABED સમાંતરબાજુ ચતુષ્કોણ છે.</b> (આ પરથી <b>AD = BE અને AD || BE</b> થશે).<br><br>
+                            
+                            <b>(ii) ચતુષ્કોણ BEFC સમાંતરબાજુ ચતુષ્કોણ છે:</b><br>
+                            તે જ રીતે, પક્ષમાં આપેલું છે કે, <b>BC = EF અને BC || EF</b>.<br>
+                            ઉપરના નિયમ મુજબ જ:<br>
+                            <b style='color:#0284c7;'>&there4; BEFC સમાંતરબાજુ ચતુષ્કોણ છે.</b> (આ પરથી <b>CF = BE અને CF || BE</b> થશે).<br><br>
+                            
+                            <b>(iii) AD || CF અને AD = CF:</b><br>
+                            પરિણામ (i) પરથી: AD = BE અને AD || BE.<br>
+                            પરિણામ (ii) પરથી: CF = BE અને CF || BE.<br>
+                            જ્યારે બે વસ્તુઓ કોઈ એક ત્રીજી વસ્તુ (અહીં BE) ને સમાન અને સમાંતર હોય, ત્યારે તેઓ એકબીજાને પણ સમાન અને સમાંતર થાય છે.<br>
+                            <b style='color:#0284c7;'>&there4; AD = CF અને AD || CF.</b><br><br>
+                            
+                            <b>(iv) ચતુષ્કોણ ACFD સમાંતરબાજુ ચતુષ્કોણ છે:</b><br>
+                            ઉપર પરિણામ (iii) માં આપણે સાબિત કર્યું કે AD અને CF સમાન અને સમાંતર છે.<br>
+                            તેથી ચતુષ્કોણ ACFD ની સામસામેની બાજુઓની એક જોડ સમાન અને સમાંતર થઈ ગઈ.<br>
+                            <b style='color:#0284c7;'>&there4; ACFD સમાંતરબાજુ ચતુષ્કોણ છે.</b><br><br>
+                            
+                            <b>(v) AC = DF:</b><br>
+                            ચતુષ્કોણ ACFD સમાંતરબાજુ ચતુષ્કોણ હોવાથી, તેની સામસામેની બાજુઓ સમાન હોય.<br>
+                            <b style='color:#0284c7;'>&there4; AC = DF.</b><br><br>
+                            
+                            <b>(vi) &Delta;ABC &cong; &Delta;DEF:</b><br>
+                            &Delta;ABC અને &Delta;DEF માં:<br>
+                            1) <b>AB = DE</b> (પક્ષમાં આપેલ છે)<br>
+                            2) <b>BC = EF</b> (પક્ષમાં આપેલ છે)<br>
+                            3) <b>AC = DF</b> (ઉપર પરિણામ v માં સાબિત કર્યું)<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; બાબાબા (SSS) એકરૂપતાના નિયમ મુજબ &Delta;ABC &cong; &Delta;DEF.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલો <b>"ટ્રેનના ડબ્બા"</b> જેવો છે! એક ડબ્બો સાબિત કરો એટલે બીજો તેની સાથે આપોઆપ ખેંચાઈને સાબિત થઈ જાય. ખાલી એક જ નિયમ યાદ રાખવાનો: <b>"જો એક જોડ સમાન અને સમાંતર હોય, તો આખો ચતુષ્કોણ સમાંતરબાજુ બની જાય."</b> બસ આ જ નિયમ વારંવાર લગાવતા જાવ એટલે 6 એ 6 સાબિતી પૂરી!</p>
+                </div>`
             }
+            
         ]
     }
     
