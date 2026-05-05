@@ -3105,6 +3105,340 @@ var njMathsExercise = {
     
         
         ]
+    },
+        
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 5: યુક્લિડની ભૂમિતિનો પરિચય (સ્વાધ્યાય)
+    // ------------------------------------
+    "5": {
+        "chapterName": "પ્રકરણ 5",
+        "chapterTitle": "યુક્લિડની ભૂમિતિનો પરિચય (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 5.1 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "નીચે આપેલાં વિધાનોમાંથી કયાં વિધાનો સત્ય છે અને કયાં વિધાનો અસત્ય છે ? તમારા જવાબ માટે કારણ આપો :\n(i) એક બિંદુમાંથી પસાર થતી માત્ર એક રેખા દોરી શકાય છે.\n(ii) બે ભિન્ન બિંદુઓમાંથી પસાર થતી અસંખ્ય રેખાઓ હોય છે.\n(iii) એક શાંત રેખાને બંને તરફ અનિશ્ચિત રીતે લંબાવી શકાય છે.\n(iv) જો બે વર્તુળ સમાન હોય, તો તેમની ત્રિજ્યાઓ સમાન હોય છે.\n(v) આકૃતિમાં, જો AB = PQ અને PQ = XY છે, તો AB = XY થાય.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(i) એક બિંદુમાંથી પસાર થતી માત્ર એક રેખા દોરી શકાય છે.</h4>
+                            <p style='margin:0 0 10px 0; font-size:15px; color:#be123c; font-weight:bold;'>જવાબ: અસત્ય</p>
+                            <p style='margin:0 0 10px 0; font-size:14px; color:#4c0519;'><b>કારણ:</b> કોઈ પણ એક બિંદુમાંથી અસંખ્ય (અનંત) રેખાઓ પસાર થઈ શકે છે.</p>
+                            <div style='text-align:center; overflow-x:auto; background-color:#ffffff; padding:10px; border-radius:5px; border:1px dashed #fecdd3;'>
+                                <svg width="150" height="150" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="10" y1="75" x2="140" y2="75" stroke="#0284c7" stroke-width="2"/>
+                                    <line x1="75" y1="10" x2="75" y2="140" stroke="#0284c7" stroke-width="2"/>
+                                    <line x1="20" y1="20" x2="130" y2="130" stroke="#0284c7" stroke-width="2"/>
+                                    <line x1="20" y1="130" x2="130" y2="20" stroke="#0284c7" stroke-width="2"/>
+                                    <circle cx="75" cy="75" r="5" fill="#be123c"/>
+                                    <text x="85" y="65" fill="#be123c" font-weight="bold">P</text>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(ii) બે ભિન્ન બિંદુઓમાંથી પસાર થતી અસંખ્ય રેખાઓ હોય છે.</h4>
+                            <p style='margin:0 0 10px 0; font-size:15px; color:#be123c; font-weight:bold;'>જવાબ: અસત્ય</p>
+                            <p style='margin:0 0 10px 0; font-size:14px; color:#4c0519;'><b>કારણ:</b> યુક્લિડની પૂર્વધારણા 5.1 મુજબ, આપેલા બે ભિન્ન બિંદુઓમાંથી પસાર થતી એક અને <b>માત્ર એક જ (અનન્ય)</b> રેખા હોય છે.</p>
+                            <div style='text-align:center; overflow-x:auto; background-color:#ffffff; padding:10px; border-radius:5px; border:1px dashed #fecdd3;'>
+                                <svg width="250" height="60" xmlns="http://www.w3.org/2000/svg">
+                                    <line x1="10" y1="30" x2="240" y2="30" stroke="#16a34a" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+                                    <circle cx="70" cy="30" r="5" fill="#1e3a8a"/>
+                                    <text x="65" y="20" fill="#1e3a8a" font-weight="bold">A</text>
+                                    <circle cx="180" cy="30" r="5" fill="#1e3a8a"/>
+                                    <text x="175" y="20" fill="#1e3a8a" font-weight="bold">B</text>
+                                    <defs>
+                                        <marker id="arrow" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+                                            <path d="M0,0 L0,6 L6,3 z" fill="#16a34a" />
+                                        </marker>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(iii) એક શાંત રેખાને બંને તરફ અનિશ્ચિત રીતે લંબાવી શકાય છે.</h4>
+                            <p style='margin:0 0 10px 0; font-size:15px; color:#16a34a; font-weight:bold;'>જવાબ: સત્ય</p>
+                            <p style='margin:0; font-size:14px; color:#14532d;'><b>કારણ:</b> યુક્લિડની પૂર્વધારણા 2 મુજબ, શાંત રેખા (જેને આપણે આજે <b>રેખાખંડ</b> કહીએ છીએ) તેને બંને તરફ અનંત સુધી લંબાવીને રેખા બનાવી શકાય છે.</p>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(iv) જો બે વર્તુળ સમાન હોય, તો તેમની ત્રિજ્યાઓ સમાન હોય છે.</h4>
+                            <p style='margin:0 0 10px 0; font-size:15px; color:#16a34a; font-weight:bold;'>જવાબ: સત્ય</p>
+                            <p style='margin:0; font-size:14px; color:#14532d;'><b>કારણ:</b> જો બે વર્તુળો સમાન (એકરૂપ) હોય, તો તે એકબીજા પર સંપૂર્ણપણે બંધબેસતા આવે છે. આથી તેમના કેન્દ્ર અને સીમાઓ એકરૂપ બને છે, પરિણામે તેમની ત્રિજ્યા પણ સમાન જ હોય.</p>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0;'>(v) જો AB = PQ અને PQ = XY છે, તો AB = XY થાય.</h4>
+                            <p style='margin:0 0 10px 0; font-size:15px; color:#16a34a; font-weight:bold;'>જવાબ: સત્ય</p>
+                            <p style='margin:0; font-size:14px; color:#14532d;'><b>કારણ:</b> યુક્લિડના સ્વયંસિદ્ધ સત્ય (1) મુજબ: "જે વસ્તુઓ કોઈ એક સમાન વસ્તુને સમાન હોય, તે વસ્તુઓ એકબીજાને પણ સમાન થાય." અહીં AB અને XY બંને PQ ને સમાન છે, તેથી તેઓ એકબીજાને સમાન થાય.</p>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 5.1 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "નીચે આપેલાં પદોની વ્યાખ્યા આપો. શું તેના માટે કોઈ એવા પદ છે જેને વ્યાખ્યાયિત કરવાની જરૂર છે ? એ કયા છે અને તમે તેને કેવી રીતે વ્યાખ્યાયિત કરશો ?\n(i) સમાંતર રેખાઓ\n(ii) લંબ રેખાઓ\n(iii) રેખાખંડ\n(iv) વર્તુળની ત્રિજ્યા\n(v) ચોરસ", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fffbeb; padding:12px; border-radius:5px; border-left:4px solid #d97706; margin-bottom:15px;'>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#92400e;'><b>નોંધ:</b> આ વ્યાખ્યાઓ આપવા માટે આપણને બિંદુ, રેખા, કિરણ, ખૂણો, સમતલ વગેરે પદોની જરૂર પડે છે. આ પદોને <b>અવ્યાખ્યાયિત પદો</b> માનવામાં આવે છે, છતાં તેને સામાન્ય સમજણથી સમજી શકાય છે.</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px;'>
+                        <div style='background-color:#f8fafc; padding:12px; border:1px solid #e2e8f0; border-radius:8px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0; font-size:16px;'>(i) સમાંતર રેખાઓ (Parallel Lines):</h4>
+                            <div style='display:flex; flex-wrap:wrap; align-items:center; gap:15px;'>
+                                <div style='flex:1; min-width:200px;'>
+                                    <p style='margin:0; font-size:14px; color:#334155; line-height:1.6;'><b>વ્યાખ્યા:</b> એક જ સમતલમાં આવેલી બે રેખાઓ એકબીજાને ક્યારેય છેદે નહિ (ગમે તેટલી લંબાવવામાં આવે તો પણ), તો તે બે રેખાઓને સમાંતર રેખાઓ કહે છે.</p>
+                                </div>
+                                <div style='flex-shrink:0; background-color:#ffffff; padding:5px; border-radius:5px; border:1px dashed #cbd5e1;'>
+                                    <svg width="150" height="60" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="10" y1="20" x2="140" y2="20" stroke="#0284c7" stroke-width="2"/>
+                                        <line x1="10" y1="40" x2="140" y2="40" stroke="#0284c7" stroke-width="2"/>
+                                        <text x="145" y="24" fill="#0284c7" font-size="12">m</text>
+                                        <text x="145" y="44" fill="#0284c7" font-size="12">n</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border:1px solid #e2e8f0; border-radius:8px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0; font-size:16px;'>(ii) લંબ રેખાઓ (Perpendicular Lines):</h4>
+                            <div style='display:flex; flex-wrap:wrap; align-items:center; gap:15px;'>
+                                <div style='flex:1; min-width:200px;'>
+                                    <p style='margin:0; font-size:14px; color:#334155; line-height:1.6;'><b>વ્યાખ્યા:</b> જો બે છેદતી રેખાઓ વચ્ચે બનતો ખૂણો <b>કાટખૂણો (90&deg;)</b> હોય, તો તે બે રેખાઓને લંબ રેખાઓ કહે છે.</p>
+                                </div>
+                                <div style='flex-shrink:0; background-color:#ffffff; padding:5px; border-radius:5px; border:1px dashed #cbd5e1;'>
+                                    <svg width="150" height="100" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="20" y1="80" x2="130" y2="80" stroke="#16a34a" stroke-width="2"/>
+                                        <line x1="75" y1="20" x2="75" y2="100" stroke="#16a34a" stroke-width="2"/>
+                                        <polyline points="75,70 85,70 85,80" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border:1px solid #e2e8f0; border-radius:8px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0; font-size:16px;'>(iii) રેખાખંડ (Line Segment):</h4>
+                            <div style='display:flex; flex-wrap:wrap; align-items:center; gap:15px;'>
+                                <div style='flex:1; min-width:200px;'>
+                                    <p style='margin:0; font-size:14px; color:#334155; line-height:1.6;'><b>વ્યાખ્યા:</b> રેખાનો એવો ભાગ જેને બે અંત્યબિંદુઓ (End points) હોય છે, તેને રેખાખંડ કહે છે. તેની લંબાઈ ચોક્કસ માપી શકાય છે.</p>
+                                </div>
+                                <div style='flex-shrink:0; background-color:#ffffff; padding:5px; border-radius:5px; border:1px dashed #cbd5e1;'>
+                                    <svg width="150" height="50" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="20" y1="25" x2="130" y2="25" stroke="#be123c" stroke-width="3"/>
+                                        <circle cx="20" cy="25" r="4" fill="#be123c"/>
+                                        <circle cx="130" cy="25" r="4" fill="#be123c"/>
+                                        <text x="15" y="15" fill="#be123c" font-weight="bold">A</text>
+                                        <text x="125" y="15" fill="#be123c" font-weight="bold">B</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border:1px solid #e2e8f0; border-radius:8px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0; font-size:16px;'>(iv) વર્તુળની ત્રિજ્યા (Radius):</h4>
+                            <div style='display:flex; flex-wrap:wrap; align-items:center; gap:15px;'>
+                                <div style='flex:1; min-width:200px;'>
+                                    <p style='margin:0; font-size:14px; color:#334155; line-height:1.6;'><b>વ્યાખ્યા:</b> વર્તુળના કેન્દ્ર અને વર્તુળ પરના કોઈ પણ બિંદુને જોડતા રેખાખંડને વર્તુળની ત્રિજ્યા કહે છે.</p>
+                                </div>
+                                <div style='flex-shrink:0; background-color:#ffffff; padding:5px; border-radius:5px; border:1px dashed #cbd5e1;'>
+                                    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="50" cy="50" r="40" fill="none" stroke="#ea580c" stroke-width="2"/>
+                                        <circle cx="50" cy="50" r="3" fill="#ea580c"/>
+                                        <line x1="50" y1="50" x2="90" y2="50" stroke="#ea580c" stroke-width="2"/>
+                                        <text x="65" y="45" fill="#ea580c" font-weight="bold">r</text>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border:1px solid #e2e8f0; border-radius:8px;'>
+                            <h4 style='color:#0f172a; margin:0 0 8px 0; font-size:16px;'>(v) ચોરસ (Square):</h4>
+                            <div style='display:flex; flex-wrap:wrap; align-items:center; gap:15px;'>
+                                <div style='flex:1; min-width:200px;'>
+                                    <p style='margin:0; font-size:14px; color:#334155; line-height:1.6;'><b>વ્યાખ્યા:</b> જે ચતુષ્કોણની ચારેય બાજુઓ સમાન હોય અને ચારેય ખૂણા કાટખૂણા (90&deg;) હોય, તેવા ચતુષ્કોણને ચોરસ કહે છે.</p>
+                                </div>
+                                <div style='flex-shrink:0; background-color:#ffffff; padding:5px; border-radius:5px; border:1px dashed #cbd5e1;'>
+                                    <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="10" y="10" width="60" height="60" fill="none" stroke="#6d28d9" stroke-width="2"/>
+                                        <polyline points="10,20 20,20 20,10" fill="none" stroke="#6d28d9" stroke-width="1"/>
+                                        <polyline points="70,20 60,20 60,10" fill="none" stroke="#6d28d9" stroke-width="1"/>
+                                        <polyline points="10,60 20,60 20,70" fill="none" stroke="#6d28d9" stroke-width="1"/>
+                                        <polyline points="70,60 60,60 60,70" fill="none" stroke="#6d28d9" stroke-width="1"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 5.1 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "નીચે આપેલી બે પૂર્વધારણાઓનો વિચાર કરો:\n(i) જો બે ભિન્ન બિંદુઓ A અને B આપ્યા હોય, તો તેમની વચ્ચે હોય તેવું ત્રીજું બિંદુ C મળે.\n(ii) અહીં ઓછામાં ઓછા એવા ત્રણ બિંદુઓ મળે કે જે એક જ રેખા પર ન હોય.\nશું આ પૂર્વધારણાઓમાં કોઈ અવ્યાખ્યાયિત પદ છે ? શું આ પૂર્વધારણાઓ સુસંગત છે ? શું આ પૂર્વધારણાઓ યુક્લિડની પૂર્વધારણાઓમાંથી મળે છે ? સ્પષ્ટ કરો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <ul style='margin:0; padding-left:20px; font-size:15px; color:#334155; line-height:1.8;'>
+                        <li><b>અવ્યાખ્યાયિત પદો:</b> હા, આ પૂર્વધારણાઓમાં 'બિંદુ' અને 'રેખા' જેવા પદો છે, જે ભૂમિતિમાં અવ્યાખ્યાયિત પદો માનવામાં આવે છે.</li>
+                        
+                        <li><b>સુસંગતતા:</b> હા, આ બંને પૂર્વધારણાઓ <b>સુસંગત (Consistent)</b> છે. કારણ કે બંને અલગ-અલગ પરિસ્થિતિઓ દર્શાવે છે અને એકબીજાનો વિરોધ કરતી નથી. 
+                            <br>&bull; પહેલી પૂર્વધારણા કહે છે કે રેખાખંડ AB ની વચ્ચે બિંદુ C હોઈ શકે. 
+                            <br>&bull; બીજી પૂર્વધારણા કહે છે કે સમતલમાં એવા બિંદુઓ પણ હોઈ શકે જે રેખા AB પર ન હોય (એટલે કે ત્રિકોણ બનાવી શકે).
+                        </li>
+                        
+                        <li><b>યુક્લિડની પૂર્વધારણા સાથે સંબંધ:</b> ના, આ પૂર્વધારણાઓ સીધી રીતે યુક્લિડની પાંચ પૂર્વધારણાઓમાંથી મળતી <b>નથી</b>. પરંતુ, તે યુક્લિડના પૂર્વધારણા 5.1 (આપેલા બે ભિન્ન બિંદુઓમાંથી પસાર થતી અનન્ય રેખા હોય છે) સાથે સંબંધિત સ્વયંસિદ્ધ સત્યો પર આધારિત છે.</li>
+                    </ul>
+                </div>`
+            },
+               { 
+                "questionNumber": "સ્વાધ્યાય 5.1 - પ્રશ્ન 4",
+                "marks": 4,
+                "question": "જો AC = BC થાય તેવું બિંદુ C, બિંદુઓ A અને B ની વચ્ચે હોય, તો સાબિત કરો કે AC = (1/2) AB છે. આકૃતિ દોરીને તેને સ્પષ્ટ કરો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg width="300" height="60" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="30" y1="30" x2="270" y2="30" stroke="#1e3a8a" stroke-width="3"/>
+                            
+                            <circle cx="30" cy="30" r="5" fill="#be123c"/>
+                            <text x="25" y="20" fill="#be123c" font-weight="bold">A</text>
+                            
+                            <circle cx="150" cy="30" r="5" fill="#16a34a"/>
+                            <text x="145" y="20" fill="#16a34a" font-weight="bold">C</text>
+                            
+                            <circle cx="270" cy="30" r="5" fill="#be123c"/>
+                            <text x="265" y="20" fill="#be123c" font-weight="bold">B</text>
+                            
+                            <path d="M 30 45 Q 90 60 150 45" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <path d="M 150 45 Q 210 60 270 45" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <text x="80" y="55" fill="#16a34a" font-size="12" font-weight="bold">AC</text>
+                            <text x="200" y="55" fill="#16a34a" font-size="12" font-weight="bold">BC</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#0f172a; font-size:14px; font-weight:bold;'>અહીં AC અને BC બંને સમાન લંબાઈના છે.</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:15px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0369a1;'><b>સાબિતી:</b></p>
+                        <div style='font-family:monospace; font-size:15px; color:#0c4a6e; line-height:1.8; margin-left:20px;'>
+                            આપેલ છે કે: <b>AC = BC</b> ......(સમીકરણ 1)<br><br>
+                            આપણે આકૃતિ પરથી સ્પષ્ટ જોઈ શકીએ છીએ કે બિંદુ C એ A અને B ની બરાબર વચ્ચે છે. તેથી, રેખાખંડ AB ના બે ટુકડા AC અને CB ભેગા મળીને આખો રેખાખંડ AB બનાવે છે.<br>
+                            &there4; <b>AC + BC = AB</b><br><br>
+                            હવે, સમીકરણ (1) મુજબ BC ની જગ્યાએ AC મૂકતાં:<br>
+                            &there4; AC + AC = AB<br>
+                            &there4; 2AC = AB<br><br>
+                            &there4; <b style='color:#be123c; font-size:18px;'>AC = (1/2) AB</b> &nbsp;&nbsp;&nbsp; <span style='color:#16a34a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલો એટલું જ કહેવા માંગે છે કે <b>"અડધું + અડધું = આખું"</b>. જો એક લાકડીના બે એકસરખા ટુકડા કરીએ, તો કોઈ એક ટુકડો એ આખી લાકડી કરતાં અડધો (1/2) જ હોય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 5.1 - પ્રશ્ન 5",
+                "marks": 3,
+                "question": "પ્રશ્ન 4 માં C રેખાખંડ AB નું મધ્યબિંદુ કહેવાય છે. સાબિત કરો કે દરેક રેખાખંડને એક અને માત્ર એક જ મધ્યબિંદુ હોય છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155;'><b>સાબિતી: વિરોધાભાસની રીત (Method of Contradiction) દ્વારા</b></p>
+                    
+                    <div style='background-color:#f8fafc; padding:15px; border-left:4px solid #475569; border-radius:5px;'>
+                        <ul style='margin:0; padding-left:20px; font-size:15px; color:#3f3f46; line-height:1.8;'>
+                            <li>ધારો કે રેખાખંડ AB ને એક કરતાં વધુ, એટલે કે <b>બે અલગ-અલગ મધ્યબિંદુઓ C અને D</b> છે.</li>
+                            <li>જો C મધ્યબિંદુ હોય, તો (પ્રશ્ન 4 મુજબ):<br>
+                            <b>AC = (1/2) AB</b> ......(સમીકરણ 1)</li>
+                            <li>તે જ રીતે, જો D પણ મધ્યબિંદુ હોય, તો:<br>
+                            <b>AD = (1/2) AB</b> ......(સમીકરણ 2)</li>
+                            <li>સમીકરણ 1 અને 2 ને સરખાવતાં (બંનેની જમણી બાજુ સમાન છે):<br>
+                            <b style='color:#be123c;'>AC = AD</b></li>
+                            <li>હવે, C અને D બિંદુઓ A અને B ની વચ્ચે જ છે. અને A થી C નું અંતર એ A થી D ના અંતર જેટલું જ છે. આ ત્યારે જ શક્ય બને જ્યારે <b>બિંદુ C અને બિંદુ D બંને એક જ જગ્યાએ હોય (એકબીજા પર સંપાતી હોય).</b></li>
+                            <li>આમ, આપણી ધારણા (કે બે અલગ મધ્યબિંદુઓ છે) ખોટી પડે છે.</li>
+                            <li><b>નિષ્કર્ષ:</b> તેથી સાબિત થાય છે કે કોઈપણ રેખાખંડને એક અને <b>માત્ર એક જ (અનન્ય)</b> મધ્યબિંદુ હોય છે.</li>
+                        </ul>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 5.1 - પ્રશ્ન 6",
+                "marks": 3,
+                "question": "આકૃતિમાં જો AC = BD હોય, તો સાબિત કરો કે AB = CD.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f0fdf4; padding:15px; border-radius:8px; border:1px dashed #16a34a; margin-bottom:15px;'>
+                        <svg width="400" height="80" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="30" y1="40" x2="370" y2="40" stroke="#16a34a" stroke-width="3"/>
+                            
+                            <circle cx="30" cy="40" r="5" fill="#be123c"/>
+                            <text x="25" y="30" fill="#be123c" font-weight="bold">A</text>
+                            
+                            <circle cx="140" cy="40" r="5" fill="#1e3a8a"/>
+                            <text x="135" y="30" fill="#1e3a8a" font-weight="bold">B</text>
+                            
+                            <circle cx="260" cy="40" r="5" fill="#1e3a8a"/>
+                            <text x="255" y="30" fill="#1e3a8a" font-weight="bold">C</text>
+                            
+                            <circle cx="370" cy="40" r="5" fill="#be123c"/>
+                            <text x="365" y="30" fill="#be123c" font-weight="bold">D</text>
+                            
+                            <path d="M 30 55 L 30 65 L 260 65 L 260 55" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="135" y="80" fill="#ea580c" font-size="14" font-weight="bold">AC</text>
+                            
+                            <path d="M 140 10 L 140 20 L 370 20 L 370 10" fill="none" stroke="#ea580c" stroke-width="2" transform="translate(0, -15)"/>
+                            <text x="245" y="0" fill="#ea580c" font-size="14" font-weight="bold">BD</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:15px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-family:monospace; font-size:15px; color:#4c0519; line-height:1.8; margin-left:20px;'>
+                            આપેલું છે કે: <br>
+                            <b>AC = BD</b> ......(સમીકરણ 1)<br><br>
+                            હવે આકૃતિ પરથી આપણે જોઈ શકીએ છીએ કે:<br>
+                            AC એ બે ભાગનો બનેલો છે: <b>AC = AB + BC</b> ......(સમીકરણ 2)<br>
+                            BD પણ બે ભાગનો બનેલો છે: <b>BD = BC + CD</b> ......(સમીકરણ 3)<br><br>
+                            સમીકરણ (2) અને (3) ની કિંમતો સમીકરણ (1) માં મૂકતાં:<br>
+                            &there4; <b>AB + BC = BC + CD</b><br><br>
+                            યુક્લિડના સ્વયંસિદ્ધ સત્ય (3) મુજબ: "સરખામાંથી સરખું બાદ કરીએ તો શેષફળ સરખું રહે".<br>
+                            અહીં બંને બાજુથી સામાન્ય ભાગ <b>BC</b> બાદ કરતાં:<br>
+                            &there4; AB + BC - BC = BC + CD - BC<br>
+                            &there4; <b style='color:#be123c; font-size:18px;'>AB = CD</b> &nbsp;&nbsp;&nbsp; <span style='color:#16a34a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જ્યારે બે મોટા ટુકડા સમાન હોય, અને બંનેમાં કોઈ એક ભાગ <b>Common (સામાન્ય)</b> આવતો હોય, તો તે Common ભાગને હટાવી દેવાથી વધેલા બાકીના ટુકડા હંમેશા સમાન જ થાય. અહીં <b>BC</b> એ common ભાગ છે, જેને કાઢી નાખવાથી AB અને CD સમાન થઈ ગયા!</p>
+                </div>`
+            },
+               { 
+                "questionNumber": "સ્વાધ્યાય 5.1 - પ્રશ્ન 7",
+                "marks": 2,
+                "question": "યુક્લિડના સ્વયંસિદ્ધ સત્યોની યાદીમાં આપેલ સ્વયંસિદ્ધ સત્ય 5 એક સનાતન સત્ય (Universal Truth) કેમ મનાય છે ? (યાદ રાખો કે આ પ્રશ્ન પાંચમી પૂર્વધારણા સાથે સંકળાયેલ નથી).", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>યુક્લિડનું સ્વયંસિદ્ધ સત્ય 5: "આખું તેના ભાગ કરતાં મોટું હોય છે." (The whole is greater than the part).</b></p>
+                        
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#334155;'><b>કારણ:</b></p>
+                        <ul style='margin:0; padding-left:20px; font-size:14px; color:#475569; line-height:1.6;'>
+                            <li>આ વિધાન માત્ર ભૂમિતિ પૂરતું સીમિત નથી, પરંતુ દુનિયાની કોઈપણ વસ્તુ, જથ્થા કે પરિસ્થિતિ માટે સાચું છે.</li>
+                            <li>ઉદાહરણ તરીકે: ભારત (આખું) એ ગુજરાત (ભાગ) કરતાં મોટું છે. એક આખું સફરજન તેના એક ટુકડા કરતાં મોટું જ હોય છે.</li>
+                            <li>આથી, જે સત્ય દુનિયાના કોઈપણ ક્ષેત્રમાં, કોઈપણ સ્થળે અને સમયે સાચું ઠરતું હોય, તેને <b>સનાતન સત્ય (Universal Truth)</b> કહેવામાં આવે છે.</li>
+                        </ul>
+                    </div>
+                </div>`
+            }
+        ]
     }
     
     
