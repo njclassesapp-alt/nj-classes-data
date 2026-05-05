@@ -5614,7 +5614,256 @@ var njMathsExercise = {
                     <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલો <b>"ટ્રેનના ડબ્બા"</b> જેવો છે! એક ડબ્બો સાબિત કરો એટલે બીજો તેની સાથે આપોઆપ ખેંચાઈને સાબિત થઈ જાય. ખાલી એક જ નિયમ યાદ રાખવાનો: <b>"જો એક જોડ સમાન અને સમાંતર હોય, તો આખો ચતુષ્કોણ સમાંતરબાજુ બની જાય."</b> બસ આ જ નિયમ વારંવાર લગાવતા જાવ એટલે 6 એ 6 સાબિતી પૂરી!</p>
                 </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.2 - પ્રશ્ન 1",
+                "marks": 4,
+                "question": "ચતુષ્કોણ ABCD ની બાજુઓ AB, BC, CD અને DA નાં મધ્યબિંદુઓ અનુક્રમે P, Q, R અને S છે. AC તેનો વિકર્ણ છે. સાબિત કરો કે:<br>(i) SR || AC અને SR = 1/2 AC<br>(ii) PQ = SR<br>(iii) PQRS સમાંતરબાજુ ચતુષ્કોણ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fefce8; padding:10px; border-radius:5px; border-left:4px solid #ca8a04; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#a16207;'><b>મધ્યબિંદુ પ્રમેય (Mid-point Theorem):</b> ત્રિકોણની કોઈપણ બે બાજુઓના મધ્યબિંદુઓને જોડતો રેખાખંડ ત્રીજી બાજુને સમાંતર હોય છે અને તેનાથી અડધા માપનો હોય છે.</p>
+                    </div>
+
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 220" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,180 250,200 300,50 100,20" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="50" y1="180" x2="300" y2="50" stroke="#be123c" stroke-width="2" stroke-dasharray="5,5"/>
+                            
+                            <polygon points="150,190 275,125 200,35 75,100" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="190" r="4" fill="#16a34a"/>
+                            <circle cx="275" cy="125" r="4" fill="#16a34a"/>
+                            <circle cx="200" cy="35" r="4" fill="#16a34a"/>
+                            <circle cx="75" cy="100" r="4" fill="#16a34a"/>
+                            
+                            <text x="30" y="195" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="250" y="220" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="310" y="45" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="90" y="15" fill="#0f172a" font-weight="bold">D</text>
+                            
+                            <text x="145" y="210" fill="#16a34a" font-weight="bold">P</text>
+                            <text x="285" y="130" fill="#16a34a" font-weight="bold">Q</text>
+                            <text x="195" y="25" fill="#16a34a" font-weight="bold">R</text>
+                            <text x="55" y="105" fill="#16a34a" font-weight="bold">S</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>(i) SR || AC અને SR = 1/2 AC:</b><br>
+                            ઉપરના ત્રિકોણ <b>&Delta;DAC</b> માં જુઓ:<br>
+                            S એ AD નું મધ્યબિંદુ છે અને R એ DC નું મધ્યબિંદુ છે.<br>
+                            તેથી, મધ્યબિંદુ પ્રમેય મુજબ, આ મધ્યબિંદુઓને જોડતો રેખાખંડ SR એ ત્રીજી બાજુ AC ને સમાંતર અને તેનાથી અડધો હોય.<br>
+                            <b style='color:#be123c;'>&there4; SR || AC અને SR = 1/2 AC</b> ......(પરિણામ 1)<br><br>
+                            
+                            <b>(ii) PQ = SR:</b><br>
+                            હવે નીચેના ત્રિકોણ <b>&Delta;BAC</b> માં જુઓ:<br>
+                            P એ AB નું મધ્યબિંદુ છે અને Q એ BC નું મધ્યબિંદુ છે.<br>
+                            તેથી, મધ્યબિંદુ પ્રમેય મુજબ:<br>
+                            <b style='color:#be123c;'>&there4; PQ || AC અને PQ = 1/2 AC</b> ......(પરિણામ 2)<br><br>
+                            
+                            પરિણામ 1 અને 2 પરથી, SR અને PQ બંને AC થી અડધા (1/2 AC) છે. તેથી બંને સમાન થાય.<br>
+                            <b style='color:#16a34a; font-size:16px;'>&there4; PQ = SR</b> ......(પરિણામ 3)<br><br>
+                            
+                            <b>(iii) PQRS સમાંતરબાજુ ચતુષ્કોણ છે:</b><br>
+                            પરિણામ 1 અને 2 પરથી, SR || AC અને PQ || AC છે.<br>
+                            &there4; <b>SR || PQ</b><br>
+                            અને પરિણામ 3 માં આપણે સાબિત કર્યું કે <b>PQ = SR</b>.<br>
+                            જો કોઈ ચતુષ્કોણમાં સામસામેની બાજુઓની એક જ જોડ સમાન અને સમાંતર બંને હોય, તો તે ચતુષ્કોણ સમાંતરબાજુ બને છે.<br>
+                            <b style='color:#16a34a; font-size:16px;'>&there4; PQRS સમાંતરબાજુ ચતુષ્કોણ છે.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાને <b>"સેન્ડવીચ ટ્રીક (Sandwich Trick)"</b> કહેવાય! વચ્ચેનો વિકર્ણ (AC) એ બ્રેડ છે. ઉપરના મધ્યબિંદુઓ (SR) અને નીચેના મધ્યબિંદુઓ (PQ) એ બ્રેડના અડધા જ હોય. બંને બ્રેડથી અડધા છે, એટલે એકબીજાને સમાન થઈ ગયા! અને સમાન થઈ ગયા એટલે આખો ચતુષ્કોણ સમાંતરબાજુ બની ગયો!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.2 - પ્રશ્ન 2",
+                "marks": 5,
+                "question": "સમબાજુ ચતુષ્કોણ ABCD ની બાજુઓ AB, BC, CD અને DA નાં મધ્યબિંદુઓ અનુક્રમે P, Q, R અને S છે. સાબિત કરો કે ચતુષ્કોણ PQRS લંબચોરસ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="175,20 300,125 175,230 50,125" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <line x1="175" y1="20" x2="175" y2="230" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <line x1="50" y1="125" x2="300" y2="125" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            
+                            <polygon points="112.5,72.5 237.5,72.5 237.5,177.5 112.5,177.5" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="112.5" cy="72.5" r="4" fill="#be123c"/>
+                            <circle cx="237.5" cy="72.5" r="4" fill="#be123c"/>
+                            <circle cx="237.5" cy="177.5" r="4" fill="#be123c"/>
+                            <circle cx="112.5" cy="177.5" r="4" fill="#be123c"/>
+                            
+                            <polyline points="122.5,72.5 122.5,82.5 112.5,82.5" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            
+                            <text x="170" y="15" fill="#16a34a" font-weight="bold">A</text>
+                            <text x="310" y="130" fill="#16a34a" font-weight="bold">B</text>
+                            <text x="170" y="245" fill="#16a34a" font-weight="bold">C</text>
+                            <text x="35" y="130" fill="#16a34a" font-weight="bold">D</text>
+                            
+                            <text x="95" y="65" fill="#be123c" font-weight="bold">P</text>
+                            <text x="245" y="65" fill="#be123c" font-weight="bold">Q</text>
+                            <text x="245" y="190" fill="#be123c" font-weight="bold">R</text>
+                            <text x="95" y="190" fill="#be123c" font-weight="bold">S</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            <b>પગલું 1: PQRS સમાંતરબાજુ ચતુષ્કોણ છે તેમ સાબિત કરવું.</b><br>
+                            આગળના પ્રશ્ન (પ્રશ્ન 1) ની જેમ જ, મધ્યબિંદુ પ્રમેયનો ઉપયોગ કરીને:<br>
+                            &Delta;ABC માં: PQ || AC અને PQ = 1/2 AC<br>
+                            &Delta;DAC માં: SR || AC અને SR = 1/2 AC<br>
+                            &there4; PQ || SR અને PQ = SR.<br>
+                            <b style='color:#be123c;'>&there4; PQRS સમાંતરબાજુ ચતુષ્કોણ છે.</b> ......(પરિણામ 1)<br><br>
+                            
+                            <b>પગલું 2: PQRS ને લંબચોરસ સાબિત કરવો.</b><br>
+                            સમાંતરબાજુ ચતુષ્કોણને લંબચોરસ સાબિત કરવા માટે તેનો <b>કોઈ એક ખૂણો 90&deg;</b> નો સાબિત કરવો પડે.<br>
+                            આપણે જાણીએ છીએ કે <b>સમબાજુ ચતુષ્કોણ (ABCD) ના વિકર્ણો (AC અને BD) એકબીજાને કાટખૂણે (90&deg; એ) છેદે છે.</b><br>
+                            ધારો કે AC અને BD બિંદુ O માં છેદે છે, તો &ang;AOB = 90&deg; થાય.<br><br>
+                            
+                            હવે, PQ || AC હોવાથી, અને QR || BD (બીજા વિકર્ણ માટે મધ્યબિંદુ પ્રમેય) હોવાથી,<br>
+                            વચ્ચે બનતો નાનો ચતુષ્કોણ (ધારો કે OMRN) પણ સમાંતરબાજુ ચતુષ્કોણ બને છે.<br>
+                            સમાંતરબાજુ ચતુષ્કોણના સામસામેના ખૂણા સમાન હોય છે.<br>
+                            &there4; <b>&ang;PQR = &ang;AOB</b><br>
+                            પરંતુ &ang;AOB = 90&deg; છે.<br>
+                            &there4; <b style='color:#be123c; font-size:16px;'>&ang;PQR = 90&deg;</b><br><br>
+                            
+                            જે સમાંતરબાજુ ચતુષ્કોણનો એક ખૂણો કાટખૂણો હોય, તે લંબચોરસ છે.<br>
+                            <b style='color:#1d4ed8; font-size:16px;'>&there4; PQRS એ લંબચોરસ છે.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.2 - પ્રશ્ન 3",
+                "marks": 5,
+                "question": "લંબચોરસ ABCD ની બાજુઓ AB, BC, CD અને DA નાં મધ્યબિંદુઓ અનુક્રમે P, Q, R અને S છે. સાબિત કરો કે ચતુષ્કોણ PQRS સમબાજુ ચતુષ્કોણ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#ffedd5; padding:10px; border-radius:5px; border-left:4px solid #ea580c; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#9a3412;'><b>નોંધ:</b> આ દાખલો ઉપરના પ્રશ્ન 2 નો <b>બિલકુલ ઉલટો (Reverse)</b> દાખલો છે! ત્યાં સમબાજુની અંદર લંબચોરસ હતો, અહીં લંબચોરસની અંદર સમબાજુ સાબિત કરવાનો છે.</p>
+                    </div>
+
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 220" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="40,180 310,180 310,40 40,40" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="40" y1="180" x2="310" y2="40" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <line x1="40" y1="40" x2="310" y2="180" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            
+                            <polygon points="175,40 310,110 175,180 40,110" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="175" cy="40" r="4" fill="#be123c"/>
+                            <circle cx="310" cy="110" r="4" fill="#be123c"/>
+                            <circle cx="175" cy="180" r="4" fill="#be123c"/>
+                            <circle cx="40" cy="110" r="4" fill="#be123c"/>
+                            
+                            <text x="25" y="35" fill="#0284c7" font-weight="bold">A</text>
+                            <text x="315" y="35" fill="#0284c7" font-weight="bold">B</text>
+                            <text x="315" y="195" fill="#0284c7" font-weight="bold">C</text>
+                            <text x="25" y="195" fill="#0284c7" font-weight="bold">D</text>
+                            
+                            <text x="170" y="30" fill="#be123c" font-weight="bold">P</text>
+                            <text x="320" y="115" fill="#be123c" font-weight="bold">Q</text>
+                            <text x="170" y="195" fill="#be123c" font-weight="bold">R</text>
+                            <text x="25" y="115" fill="#be123c" font-weight="bold">S</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>પગલું 1: PQRS સમાંતરબાજુ ચતુષ્કોણ છે તેમ સાબિત કરવું.</b><br>
+                            મધ્યબિંદુ પ્રમેય મુજબ (જેમ પ્રશ્ન 1 માં સાબિત કર્યું):<br>
+                            PQ || AC અને PQ = 1/2 AC<br>
+                            SR || AC અને SR = 1/2 AC<br>
+                            <b style='color:#0284c7;'>&there4; PQ || SR અને PQ = SR, તેથી PQRS સમાંતરબાજુ ચતુષ્કોણ છે.</b> ......(પરિણામ 1)<br><br>
+                            
+                            <b>પગલું 2: PQRS ને સમબાજુ ચતુષ્કોણ સાબિત કરવો.</b><br>
+                            સમાંતરબાજુ ચતુષ્કોણને સમબાજુ સાબિત કરવા માટે તેની <b>પાસપાસેની બાજુઓ (Adjacent sides) સમાન</b> સાબિત કરવી પડે.<br>
+                            આપણે જાણીએ છીએ કે <b>લંબચોરસ (ABCD) ના બંને વિકર્ણો સમાન હોય છે. (AC = BD)</b><br><br>
+                            
+                            હવે, મધ્યબિંદુ પ્રમેય મુજબ:<br>
+                            PQ = 1/2 AC (ત્રિકોણ ABC પરથી)<br>
+                            QR = 1/2 BD (ત્રિકોણ BCD પરથી)<br><br>
+                            
+                            પરંતુ, લંબચોરસના વિકર્ણો સમાન હોવાથી, <b>AC = BD</b> છે.<br>
+                            જો આખા વિકર્ણો સમાન હોય, તો તેમના અડધા ભાગ પણ સમાન જ થાય.<br>
+                            &there4; 1/2 AC = 1/2 BD<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; PQ = QR</b><br><br>
+                            
+                            જે સમાંતરબાજુ ચતુષ્કોણની પાસપાસેની બાજુઓ (PQ અને QR) સમાન હોય, તેની ચારેય બાજુઓ સમાન થઈ જાય.<br>
+                            <b style='color:#16a34a; font-size:16px;'>&there4; ચતુષ્કોણ PQRS એ સમબાજુ ચતુષ્કોણ છે.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.2 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "સમલંબ ચતુષ્કોણ ABCD માં AB || DC છે. BD તેનો વિકર્ણ છે અને E એ AD નું મધ્યબિંદુ છે. E માંથી પસાર થતી અને AB ને સમાંતર હોય તેવી રેખા દોરી છે, જે BC ને F બિંદુમાં છેદે છે. સાબિત કરો કે F એ BC નું મધ્યબિંદુ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#14532d;'><b>મધ્યબિંદુ પ્રમેયનો પ્રતીપ (Converse of Mid-point Theorem):</b> ત્રિકોણની એક બાજુના મધ્યબિંદુમાંથી બીજી બાજુને સમાંતર દોરેલી રેખા, ત્રીજી બાજુને દુભાગે છે (એટલે કે તેના મધ્યબિંદુમાં જ છેદે છે).</p>
+                    </div>
+
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,160 300,160 220,40 100,40" fill="#fffbeb" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <line x1="50" y1="160" x2="220" y2="40" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <line x1="75" y1="100" x2="260" y2="100" stroke="#be123c" stroke-width="2"/>
+                            
+                            <circle cx="135" cy="100" r="4" fill="#be123c"/>
+                            <text x="125" y="95" fill="#be123c" font-weight="bold">G</text>
+                            
+                            <circle cx="75" cy="100" r="4" fill="#1d4ed8"/>
+                            <circle cx="260" cy="100" r="4" fill="#1d4ed8"/>
+                            
+                            <text x="35" y="170" fill="#ca8a04" font-weight="bold">A</text>
+                            <text x="310" y="170" fill="#ca8a04" font-weight="bold">B</text>
+                            <text x="230" y="35" fill="#ca8a04" font-weight="bold">C</text>
+                            <text x="90" y="35" fill="#ca8a04" font-weight="bold">D</text>
+                            
+                            <text x="55" y="105" fill="#1d4ed8" font-weight="bold">E</text>
+                            <text x="270" y="105" fill="#1d4ed8" font-weight="bold">F</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>ધારો કે રેખા EF એ વિકર્ણ BD ને બિંદુ G માં છેદે છે.</p>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            <b>પગલું 1: &Delta;DAB માટે:</b><br>
+                            અહીં E એ AD નું મધ્યબિંદુ છે. અને પક્ષ મુજબ EG || AB છે (કારણ કે આખી લાઈન EF || AB છે).<br>
+                            મધ્યબિંદુ પ્રમેયના પ્રતીપ મુજબ: ત્રિકોણની એક બાજુના મધ્યબિંદુમાંથી દોરેલી સમાંતર રેખા ત્રીજી બાજુને દુભાગે.<br>
+                            <b style='color:#be123c;'>&there4; G એ વિકર્ણ BD નું મધ્યબિંદુ છે.</b> ......(પરિણામ 1)<br><br>
+                            
+                            <b>પગલું 2: &Delta;BCD માટે:</b><br>
+                            સમલંબ ચતુષ્કોણમાં AB || DC આપેલ છે, અને આપણે દોરેલી રેખા EF || AB છે.<br>
+                            તેથી, ત્રણેય સમાંતર થાય: <b>EF || AB || DC</b>. આથી GF || DC થાય.<br>
+                            હવે &Delta;BCD માં, G એ BD નું મધ્યબિંદુ છે (પરિણામ 1 પરથી), અને GF || DC છે.<br>
+                            ફરીથી મધ્યબિંદુ પ્રમેયના પ્રતીપ મુજબ: G માંથી દોરેલી સમાંતર રેખા ત્રીજી બાજુ BC ને દુભાગે.<br>
+                            <b style='color:#16a34a; font-size:16px;'>&there4; F એ બાજુ BC નું મધ્યબિંદુ છે.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>`
             }
+            
             
         ]
     }
