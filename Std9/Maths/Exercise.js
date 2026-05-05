@@ -307,6 +307,434 @@ var njMathsExercise = {
                     <b>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
                     કોઈપણ વર્ગમૂળ દર્શાવવા માટે તે સંખ્યાની નજીકનો <b>પૂર્ણવર્ગ</b> શોધી કાઢો. જેમ કે 5 ની નજીક પૂર્ણવર્ગ 4 છે (જે 2 નો વર્ગ છે). એટલે પાયામાં સીધા 2 એકમ લઈ લેવા અને ઊભી લાઈન (લંબ) હંમેશા <b>1 એકમ</b> જ લેવી. દાખલો એકદમ આસાનીથી પૂરો!
                 </div>`
+            },            
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.3 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "નીચેની સંખ્યાઓને દશાંશ સ્વરૂપમાં લખો અને તે કેવા પ્રકારની દશાંશ અભિવ્યક્તિ ધરાવે છે તે જણાવો:\n(i) 36/100  (ii) 1/11", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:20px;'>
+                    <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; border-top:1px solid #bbf7d0; border-right:1px solid #bbf7d0; border-bottom:1px solid #bbf7d0;'>
+                        <h4 style='color:#14532d; margin:0 0 10px 0; font-size:16px;'>(i) 36 / 100</h4>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bbf7d0; display:inline-block;'>
+                            <div style='display:inline-block; vertical-align:middle; text-align:center; font-size:18px; font-weight:bold;'>
+                                <div style='border-bottom:2px solid #047857; padding:0 5px; color:#047857;'>36</div>
+                                <div style='padding:0 5px; color:#1e3a8a;'>100</div>
+                            </div>
+                            <span style='font-size:20px; font-weight:bold; color:#1e3a8a;'> = 0.36</span>
+                        </div>
+                        <p style='margin:10px 0 0 0; font-size:15px; color:#166534;'>અહીં શેષ શૂન્ય થઈ જાય છે, તેથી આ <b>શાંત દશાંશ અભિવ્યક્તિ</b> છે.</p>
+                    </div>
+
+                    <div style='background-color:#f8fafc; padding:15px; border-left:5px solid #0284c7; border-radius:8px; border-top:1px solid #bae6fd; border-right:1px solid #bae6fd; border-bottom:1px solid #bae6fd;'>
+                        <h4 style='color:#0c4a6e; margin:0 0 10px 0; font-size:16px;'>(ii) 1 / 11</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>ચાલો 1 નો 11 વડે ભાગાકાર કરીએ (મોબાઈલમાં જોવા માટે ભાગાકારને ડાબી-જમણી બાજુ સ્ક્રોલ કરો):</p>
+                        
+                        <div style='overflow-x:auto; background-color:#ffffff; padding:15px; border-radius:8px; border:1px dashed #94a3b8;'>
+                            <div style='min-width:250px; font-family:monospace; font-size:16px; line-height:1.5; color:#0f172a;'>
+                                <div style='margin-left:45px; color:#be123c; font-weight:bold;'>&nbsp;&nbsp;0.0909...</div>
+                                <div style='margin-left:45px; border-top:2px solid #0f172a; width:100px;'></div>
+                                <div style='display:flex;'>
+                                    <div style='width:40px; text-align:right; padding-right:5px; color:#1e3a8a; font-weight:bold;'>11</div>
+                                    <div style='border-left:2px solid #0f172a; padding-left:5px;'>
+                                        <div>&nbsp;1.0000</div>
+                                        <div style='color:#64748b;'>-0</div>
+                                        <div style='border-bottom:1px solid #cbd5e1; width:50px;'></div>
+                                        <div>&nbsp;10</div>
+                                        <div style='color:#64748b;'>-&nbsp;0</div>
+                                        <div style='border-bottom:1px solid #cbd5e1; width:50px;'></div>
+                                        <div>&nbsp;100</div>
+                                        <div style='color:#be123c;'>-&nbsp;99</div>
+                                        <div style='border-bottom:1px solid #cbd5e1; width:50px;'></div>
+                                        <div>&nbsp;&nbsp;&nbsp;100</div>
+                                        <div style='color:#be123c;'>&nbsp;&nbsp;-&nbsp;99</div>
+                                        <div style='border-bottom:1px solid #cbd5e1; width:60px;'></div>
+                                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p style='margin:10px 0 0 0; font-size:15px; color:#0369a1;'>અહીં શેષ વારંવાર 1 આવે છે. ભાગફળમાં 09 નું પુનરાવર્તન થાય છે.<br>
+                        તેથી, <b>1/11 = 0.0909... = 0.<span style='text-decoration:overline;'>09</span></b></p>
+                        <p style='margin:5px 0 0 0; font-size:15px; color:#0c4a6e; font-weight:bold;'>આ અભિવ્યક્તિ <b>અનંત આવૃત દશાંશ અભિવ્યક્તિ</b> છે.</p>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:10px 0 0 0; font-size:15px; color:#854d0e;'>ભાગાકાર કર્યા વગર પણ દશાંશનો પ્રકાર જાણી શકાય! જો છેદના અવયવો <b>ફક્ત 2 અથવા 5</b> જ હોય (અથવા બંને હોય), તો તે હંમેશા <b>શાંત દશાંશ</b> જ હોય. જો 2 કે 5 સિવાયનો કોઈ પણ અવયવ (જેમ કે 3, 7, 11) આવે, તો તે <b>અનંત આવૃત</b> જ હોય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.3 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "p પૂર્ણાંક હોય અને q શૂન્યેતર પૂર્ણાંક હોય તેવા p, q માટે નીચેની સંખ્યાઓને p/q સ્વરૂપમાં દર્શાવો:\n(i) 0.6̅ \n(ii) 0.47̅", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(i) 0.<span style='text-decoration:overline;'>6</span> ને p/q સ્વરૂપમાં ફેરવવું:</h4>
+                        
+                        <div style='background-color:#f1f5f9; padding:12px; border-radius:5px; font-size:15px; color:#334155; line-height:1.8;'>
+                            ધારો કે <b>x = 0.<span style='text-decoration:overline;'>6</span></b><br>
+                            &there4; x = 0.6666... <b>--- (સમીકરણ 1)</b><br><br>
+                            અહીં 1 અંક (6) નું પુનરાવર્તન થાય છે, તેથી બંને બાજુ 10 વડે ગુણતા:<br>
+                            10x = 6.6666... <b>--- (સમીકરણ 2)</b><br><br>
+                            સમીકરણ 2 માંથી 1 બાદ કરતા:<br>
+                            <div style='font-family:monospace; margin-left:20px; font-size:16px;'>
+                                &nbsp;10x = 6.6666...<br>
+                                - &nbsp;x = 0.6666...<br>
+                                <div style='border-top:1px solid #94a3b8; width:150px;'></div>
+                                &nbsp;&nbsp;9x = 6.0000...
+                            </div><br>
+                            &there4; 9x = 6<br>
+                            &there4; x = 6/9 <br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 2/3</b> (છેદ ઉડાડતા)
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#be123c; margin:0 0 10px 0;'>(ii) 0.4<span style='text-decoration:overline;'>7</span> ને p/q સ્વરૂપમાં ફેરવવું:</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#64748b;'>(નોંધ: અહીં માત્ર 7 પર જ બાર છે, 4 પર નથી)</p>
+                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; font-size:15px; color:#881337; line-height:1.8;'>
+                            ધારો કે <b>x = 0.4777...</b> <b>--- (સમીકરણ 1)</b><br><br>
+                            અહીં માત્ર 1 અંક (7) નું પુનરાવર્તન થાય છે, તેથી 10 વડે ગુણતા:<br>
+                            10x = 4.7777... <b>--- (સમીકરણ 2)</b><br><br>
+                            સમીકરણ 2 માંથી 1 બાદ કરતા:<br>
+                            <div style='font-family:monospace; margin-left:20px; font-size:16px;'>
+                                &nbsp;10x = 4.777...<br>
+                                - &nbsp;x = 0.477...<br>
+                                <div style='border-top:1px solid #fecdd3; width:150px;'></div>
+                                &nbsp;&nbsp;9x = 4.300...
+                            </div><br>
+                            &there4; 9x = 4.3<br>
+                            &there4; 9x = 43/10<br>
+                            &there4; x = 43 / (10 &times; 9)<br>
+                            &there4; <b style='color:#e11d48; font-size:16px;'>x = 43/90</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક (Super Shortcut):</b> 
+                    <p style='margin:10px 0 0 0; font-size:15px; color:#854d0e;'>હેતુલક્ષી પ્રશ્નો માટે ગણતરી કર્યા વગર સીધો જ જવાબ લખો!</p>
+                    <ul style='margin:5px 0 0 0; font-size:14px; color:#78350f; padding-left:20px; line-height:1.8;'>
+                        <li><b>ટ્રીક 1:</b> પોઈન્ટ પછી જેટલા આંકડા પર બાર (રેખા) હોય, તેટલા <b>9</b> છેદમાં મૂકી દો.<br>
+                        દા.ત. 0.<span style='text-decoration:overline;'>6</span> &rarr; 6/9 (છેદ ઉડાડતા 2/3)<br>
+                        0.<span style='text-decoration:overline;'>001</span> &rarr; 1/999 (કારણ કે 3 અંક પર બાર છે)</li>
+                        <li><b>ટ્રીક 2:</b> જો અમુક અંક પર બાર ન હોય (જેમ કે 0.4<span style='text-decoration:overline;'>7</span>):<br>
+                        સ્ટેપ 1: આખી સંખ્યા (47) માંથી બાર વગરની સંખ્યા (4) <b>બાદ કરો</b> &rarr; 47 - 4 = <b>43</b> (આ તમારો અંશ).<br>
+                        સ્ટેપ 2: જેટલા અંક પર બાર છે તેટલા <b>9</b> અને જેટલા પર નથી તેટલા <b>0</b> છેદમાં લખો &rarr; એક 9 અને એક 0 એટલે <b>90</b>.<br>
+                        જવાબ: <b style='color:#be123c;'>43/90</b> સીધો તૈયાર!</li>
+                    </ul>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.3 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "1/17 ની દશાંશ અભિવ્યક્તિમાં પુનરાવર્તિત અંકોની સંખ્યા વધુમાં વધુ કેટલી હશે? તમારો જવાબ ભાગાકાર કરીને ચકાસો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155;'><b>નિયમ:</b> કોઈપણ અપૂર્ણાંક 1/n માટે, પુનરાવર્તિત અંકોની મહત્તમ સંખ્યા હંમેશા (n - 1) કરતાં ઓછી અથવા બરાબર હોય છે.</p>
+                    
+                    <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:15px; color:#14532d;'>અહીં n = 17 છે. તેથી પુનરાવર્તિત અંકોની મહત્તમ સંખ્યા <b>17 - 1 = 16</b> હોઈ શકે.</p>
+                    </div>
+                    
+                    <p style='margin:0 0 10px 0; font-size:15px; color:#1e3a8a; font-weight:bold;'>ભાગાકારની ચકાસણી (મોબાઈલમાં જોવા માટે સ્ક્રોલ કરો):</p>
+                    
+                    <div style='overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0;'>
+                         <div style='min-width:350px; font-family:monospace; font-size:14px; line-height:1.4; color:#0f172a;'>
+                            <div style='color:#be123c; font-weight:bold; letter-spacing:1px;'>&nbsp;&nbsp;&nbsp;0.0588235294117647...</div>
+                            <div style='border-top:2px solid #0f172a; width:190px; margin-left:30px;'></div>
+                            <div style='display:flex;'>
+                                <div style='width:30px; text-align:right; padding-right:5px; color:#1e3a8a; font-weight:bold;'>17</div>
+                                <div style='border-left:2px solid #0f172a; padding-left:5px;'>
+                                    <div>&nbsp;1.0000000000000000</div>
+                                    <div style='color:#64748b;'>-0</div>
+                                    <div style='border-bottom:1px dashed #cbd5e1; width:150px;'></div>
+                                    <div>&nbsp;10</div>
+                                    <div style='color:#64748b;'>-&nbsp;0</div>
+                                    <div style='border-bottom:1px dashed #cbd5e1; width:150px;'></div>
+                                    <div>&nbsp;100</div>
+                                    <div style='color:#ea580c;'>-&nbsp;85</div>
+                                    <div style='border-bottom:1px dashed #cbd5e1; width:150px;'></div>
+                                    <div>&nbsp;&nbsp;150</div>
+                                    <div style='color:#ea580c;'>-&nbsp;136</div>
+                                    <div style='border-bottom:1px dashed #cbd5e1; width:150px;'></div>
+                                    <div>&nbsp;&nbsp;&nbsp;140</div>
+                                    <div style='color:#ea580c;'>&nbsp;&nbsp;-136</div>
+                                    <div style='border-bottom:1px dashed #cbd5e1; width:150px;'></div>
+                                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40</div>
+                                    <div style='color:#ea580c;'>&nbsp;&nbsp;&nbsp;&nbsp;-34</div>
+                                    <div style='border-bottom:1px dashed #cbd5e1; width:150px;'></div>
+                                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60</div>
+                                    <div style='color:#64748b;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(આ રીતે આગળ વધતા અંતે ફરીથી 1 શેષ વધશે...)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-radius:5px; border:1px solid #bfdbfe; margin-top:15px;'>
+                        <p style='margin:0; font-size:15px; color:#1e40af;'>સંપૂર્ણ ભાગાકાર કરતા આપણને ભાગફળ <b>0.<span style='text-decoration:overline;'>0588235294117647</span></b> મળે છે. અહીં 16 અંકો પછી ફરીથી પુનરાવર્તન ચાલુ થાય છે. તેથી પુનરાવર્તિત અંકોની સંખ્યા <b>16</b> છે.</p>
+                    </div>
+                </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.4 - પ્રશ્ન 1",
+                "marks": 2,
+                "question": "આપેલી સંખ્યાઓ સંમેય છે કે અસંમેય તે જણાવો:\n(i) 2 - √5 \n(ii) (3 + √23) - √23 \n(iii) 2√7 / 7√7 \n(iv) 1/√2 \n(v) 2π", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <h4 style='color:#881337; margin:0 0 5px 0;'>(i) 2 - &radic;5</h4>
+                        <p style='margin:0; font-size:14px; color:#be123c;'><b>અસંમેય સંખ્યા</b>. (કારણ: સંમેય સંખ્યા 2 અને અસંમેય સંખ્યા &radic;5 ની બાદબાકી હંમેશા અસંમેય જ મળે.)</p>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <h4 style='color:#14532d; margin:0 0 5px 0;'>(ii) (3 + &radic;23) - &radic;23</h4>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#166534;'>સાદું રૂપ: 3 + &radic;23 - &radic;23 = <b>3</b></p>
+                        <p style='margin:0; font-size:14px; color:#16a34a;'><b>સંમેય સંખ્યા</b>. (કારણ: 3 ને 3/1 સ્વરૂપમાં લખી શકાય છે.)</p>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <h4 style='color:#14532d; margin:0 0 5px 0;'>(iii) (2&radic;7) / (7&radic;7)</h4>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#166534;'>સાદું રૂપ: અંશ અને છેદમાંથી &radic;7 ઉડી જશે, એટલે <b>2/7</b> વધશે.</p>
+                        <p style='margin:0; font-size:14px; color:#16a34a;'><b>સંમેય સંખ્યા</b>. (કારણ: તે p/q સ્વરૂપમાં છે.)</p>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <h4 style='color:#881337; margin:0 0 5px 0;'>(iv) 1 / &radic;2</h4>
+                        <p style='margin:0; font-size:14px; color:#be123c;'><b>અસંમેય સંખ્યા</b>. (કારણ: શૂન્યેતર સંમેય અને અસંમેય સંખ્યાનો ભાગાકાર અસંમેય જ હોય.)</p>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <h4 style='color:#881337; margin:0 0 5px 0;'>(v) 2&pi;</h4>
+                        <p style='margin:0; font-size:14px; color:#be123c;'><b>અસંમેય સંખ્યા</b>. (કારણ: &pi; અસંમેય છે, તેથી 2 નો તેની સાથેનો ગુણાકાર પણ અસંમેય થાય.)</p>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.4 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "નીચેનાં સાદું રૂપ આપો:\n(i) (3 + √3)(2 + √2)\n(ii) (3 + √3)(3 - √3)\n(iii) (√5 + √2)²\n(iv) (√5 - √2)(√5 + √2)", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(i) (3 + &radic;3)(2 + &radic;2)</h4>
+                        <div style='background-color:#f8fafc; padding:10px; border-radius:5px;'>
+                            = 3(2 + &radic;2) + &radic;3(2 + &radic;2)<br>
+                            = <b>6 + 3&radic;2 + 2&radic;3 + &radic;6</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(ii) (3 + &radic;3)(3 - &radic;3)</h4>
+                        <div style='background-color:#f8fafc; padding:10px; border-radius:5px;'>
+                            <span style='color:#64748b; font-size:13px;'>[નિત્યસમ: (a+b)(a-b) = a&sup2; - b&sup2; નો ઉપયોગ કરતા]</span><br>
+                            = (3)&sup2; - (&radic;3)&sup2;<br>
+                            = 9 - 3<br>
+                            = <b>6</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(iii) (&radic;5 + &radic;2)&sup2;</h4>
+                        <div style='background-color:#f8fafc; padding:10px; border-radius:5px;'>
+                            <span style='color:#64748b; font-size:13px;'>[નિત્યસમ: (a+b)&sup2; = a&sup2; + 2ab + b&sup2; નો ઉપયોગ કરતા]</span><br>
+                            = (&radic;5)&sup2; + 2(&radic;5)(&radic;2) + (&radic;2)&sup2;<br>
+                            = 5 + 2&radic;10 + 2<br>
+                            = <b>7 + 2&radic;10</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(iv) (&radic;5 - &radic;2)(&radic;5 + &radic;2)</h4>
+                        <div style='background-color:#f8fafc; padding:10px; border-radius:5px;'>
+                            <span style='color:#64748b; font-size:13px;'>[નિત્યસમ: (a-b)(a+b) = a&sup2; - b&sup2; નો ઉપયોગ કરતા]</span><br>
+                            = (&radic;5)&sup2; - (&radic;2)&sup2;<br>
+                            = 5 - 2<br>
+                            = <b>3</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.4 - પ્રશ્ન 3",
+                "marks": 2,
+                "question": "યાદ કરો કે π એ વર્તુળના પરિઘ (c) અને તેના વ્યાસ (d) ના ગુણોત્તર તરીકે દર્શાવવામાં આવે છે. એટલે કે π = c/d. તે એ હકીકતનો વિરોધાભાસ કરતો જણાય છે કે π એ અસંમેય છે. આ વિરોધાભાસનો ઉકેલ તમે કેવી રીતે લાવશો?", 
+                "answer": `
+                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #0284c7; border-radius:8px;'>
+                    <h4 style='color:#0c4a6e; margin:0 0 10px 0; font-size:18px;'>આમાં કોઈ જ વિરોધાભાસ નથી.</h4>
+                    <p style='margin:0 0 10px 0; font-size:15px; color:#334155;'><b>સમજૂતી:</b></p>
+                    <ul style='margin:0; padding-left:20px; font-size:15px; color:#1e3a8a; line-height:1.6;'>
+                        <li>જ્યારે આપણે માપપટ્ટી (Scale) કે અન્ય કોઈ સાધનથી લંબાઈ માપીએ છીએ, ત્યારે આપણને માત્ર એક <b>આશરે સંમેય કિંમત</b> (Approximate Rational Value) જ મળે છે.</li>
+                        <li>આથી આપણે એ ચોક્કસ જાણી શકતા નથી કે પરિઘ (c) અથવા વ્યાસ (d) બંનેમાંથી કોઈ એક અસંમેય છે કે નહીં.</li>
+                        <li>હકીકતમાં, વર્તુળના કિસ્સામાં c અથવા d બે માંથી એક ચોક્કસપણે <b>અસંમેય</b> હોય છે.</li>
+                        <li>તેથી, તેમનો ગુણોત્તર (c/d) પણ અસંમેય જ બને છે, એટલે જ &pi; અસંમેય સંખ્યા છે.</li>
+                    </ul>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.4 - પ્રશ્ન 4",
+                "marks": 4,
+                "question": "સંખ્યારેખા પર √9.3 દર્શાવો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='border:1px solid #bbf7d0; background-color:#f0fdf4; padding:12px; border-radius:8px; margin-bottom:15px;'>
+                        <h4 style='color:#047857; margin:0 0 5px 0; font-size:16px;'>રચનાના પગલાં:</h4>
+                        <ol style='margin:0; font-size:14px; color:#14532d; padding-left:20px; line-height:1.8;'>
+                            <li>એક કિરણ દોરી તેના પર બિંદુ <b>A</b> અને <b>B</b> એવા લો કે જેથી <b>AB = 9.3 એકમ</b> થાય.</li>
+                            <li>બિંદુ B થી આગળ એ જ રેખા પર <b>1 એકમ</b> ના અંતરે બિંદુ <b>C</b> લો (એટલે BC = 1 એકમ). તેથી AC = 9.3 + 1 = 10.3 એકમ થશે.</li>
+                            <li>રેખાખંડ AC નો લંબદ્વિભાજક દોરી તેનું મધ્યબિંદુ <b>O</b> મેળવો.</li>
+                            <li>O ને કેન્દ્ર અને OA (અથવા OC) જેટલી ત્રિજ્યા લઈ <b>અર્ધવર્તુળ</b> દોરો.</li>
+                            <li>બિંદુ <b>B</b> આગળથી રેખા AC ને લંબ હોય તેવી રેખા દોરો, જે અર્ધવર્તુળને <b>D</b> બિંદુમાં છેદે. અહીં <b>BD ની લંબાઈ &radic;9.3</b> થશે.</li>
+                            <li>હવે B ને શૂન્ય (0) માની, B ને કેન્દ્ર લઈ BD જેટલી ત્રિજ્યા લઈ પરિકરથી ચાપ મારો, જે સંખ્યારેખાને જ્યાં છેદે તે બિંદુ <b>E એ &radic;9.3</b> દર્શાવે છે.</li>
+                        </ol>
+                    </div>
+                    
+                    <p style='text-align:center; margin:0 0 10px 0; color:#1e3a8a; font-weight:bold;'>રચનાની આકૃતિ (મોબાઈલમાં જોવા માટે સ્ક્રોલ કરો)</p>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px solid #e2e8f0;'>
+                        <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+                            <line x1="20" y1="160" x2="380" y2="160" stroke="#1e3a8a" stroke-width="2"/>
+                            
+                            <circle cx="50" cy="160" r="4" fill="#1e3a8a"/>
+                            <text x="45" y="180" fill="#1e3a8a" font-weight="bold">A</text>
+                            
+                            <circle cx="236" cy="160" r="4" fill="#1e3a8a"/>
+                            <text x="230" y="180" fill="#1e3a8a" font-weight="bold">B (0)</text>
+                            
+                            <circle cx="256" cy="160" r="4" fill="#1e3a8a"/>
+                            <text x="252" y="180" fill="#1e3a8a" font-weight="bold">C (1)</text>
+                            
+                            <path d="M 50 190 L 50 185 L 236 185 L 236 190" fill="none" stroke="#64748b" stroke-width="1"/>
+                            <text x="135" y="198" fill="#64748b" font-size="12">9.3 એકમ</text>
+                            
+                            <circle cx="153" cy="160" r="4" fill="#ea580c"/>
+                            <text x="148" y="180" fill="#ea580c" font-weight="bold">O</text>
+                            
+                            <path d="M 50 160 A 103 103 0 0 1 256 160" fill="none" stroke="#047857" stroke-width="2"/>
+                            
+                            <line x1="236" y1="160" x2="236" y2="99" stroke="#be123c" stroke-width="2.5"/>
+                            <circle cx="236" cy="99" r="4" fill="#be123c"/>
+                            <text x="225" y="90" fill="#be123c" font-weight="bold">D</text>
+                            <text x="242" y="130" fill="#be123c" font-weight="bold">√9.3</text>
+                            
+                            <path d="M 236 99 A 61 61 0 0 1 297 160" fill="none" stroke="#ea580c" stroke-width="2" stroke-dasharray="5,5"/>
+                            <circle cx="297" cy="160" r="4" fill="#ea580c"/>
+                            <text x="285" y="180" fill="#ea580c" font-weight="bold">E (√9.3)</text>
+                        </svg>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.4 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "નીચે આપેલી સંખ્યાઓના છેદનું સંમેયીકરણ કરો:\n(i) 1/√7\n(ii) 1/(√7 - √6)\n(iii) 1/(√5 + √2)\n(iv) 1/(√7 - 2)", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#0c4a6e; margin:0 0 10px 0;'>(i) 1 / &radic;7</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#475569;'>અંશ અને છેદ બંનેને <b>&radic;7</b> વડે ગુણતા:</p>
+                        <div style='background-color:#f1f5f9; padding:10px; border-radius:5px;'>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>1</div>
+                                <div style='padding:0 5px;'>&radic;7</div>
+                            </div>
+                            &times;
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px; color:#be123c;'>&radic;7</div>
+                                <div style='padding:0 5px; color:#be123c;'>&radic;7</div>
+                            </div>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; font-size:16px;'>
+                                <div style='border-bottom:2px solid #16a34a; padding:0 5px;'>&radic;7</div>
+                                <div style='padding:0 5px; color:#16a34a;'>7</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#0c4a6e; margin:0 0 10px 0;'>(ii) 1 / (&radic;7 - &radic;6)</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#475569;'>અહીં છેદમાં માઇનસ (-) છે, તેથી વિરોધી ચિહ્ન <b>(&radic;7 + &radic;6)</b> વડે અંશ-છેદને ગુણતા:</p>
+                        <div style='background-color:#f1f5f9; padding:10px; border-radius:5px;'>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>1</div>
+                                <div style='padding:0 5px;'>(&radic;7 - &radic;6)</div>
+                            </div>
+                            &times;
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px; color:#be123c;'>(&radic;7 + &radic;6)</div>
+                                <div style='padding:0 5px; color:#be123c;'>(&radic;7 + &radic;6)</div>
+                            </div><br><br>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>&radic;7 + &radic;6</div>
+                                <div style='padding:0 5px;'>(&radic;7)&sup2; - (&radic;6)&sup2;</div>
+                            </div>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>&radic;7 + &radic;6</div>
+                                <div style='padding:0 5px;'>7 - 6</div>
+                            </div>
+                            = <b style='color:#16a34a; font-size:16px;'>&radic;7 + &radic;6</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#0c4a6e; margin:0 0 10px 0;'>(iii) 1 / (&radic;5 + &radic;2)</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#475569;'>અહીં છેદમાં પ્લસ (+) છે, તેથી <b>(&radic;5 - &radic;2)</b> વડે અંશ-છેદને ગુણતા:</p>
+                        <div style='background-color:#f1f5f9; padding:10px; border-radius:5px;'>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>1</div>
+                                <div style='padding:0 5px;'>(&radic;5 + &radic;2)</div>
+                            </div>
+                            &times;
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px; color:#be123c;'>(&radic;5 - &radic;2)</div>
+                                <div style='padding:0 5px; color:#be123c;'>(&radic;5 - &radic;2)</div>
+                            </div><br><br>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>&radic;5 - &radic;2</div>
+                                <div style='padding:0 5px;'>(&radic;5)&sup2; - (&radic;2)&sup2;</div>
+                            </div>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; font-size:16px;'>
+                                <div style='border-bottom:2px solid #16a34a; padding:0 5px;'>&radic;5 - &radic;2</div>
+                                <div style='padding:0 5px; color:#16a34a;'>3</div>
+                            </div>
+                        </div>
+                    </div>
+
+            <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#0c4a6e; margin:0 0 10px 0;'>(iv) 1 / (&radic;7 - 2)</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#475569;'>વિરોધી ચિહ્ન <b>(&radic;7 + 2)</b> વડે અંશ-છેદને ગુણતા:</p>
+                        <div style='background-color:#f1f5f9; padding:10px; border-radius:5px;'>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>1</div>
+                                <div style='padding:0 5px;'>(&radic;7 - 2)</div>
+                            </div>
+                            &times;
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px; color:#be123c;'>(&radic;7 + 2)</div>
+                                <div style='padding:0 5px; color:#be123c;'>(&radic;7 + 2)</div>
+                            </div><br><br>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #0f172a; padding:0 5px;'>&radic;7 + 2</div>
+                                <div style='padding:0 5px;'>(&radic;7)&sup2; - (2)&sup2;</div>
+                            </div>
+                            = <div style='display:inline-block; vertical-align:middle; text-align:center; font-weight:bold; font-size:16px;'>
+                                <div style='border-bottom:2px solid #16a34a; padding:0 5px;'>&radic;7 + 2</div>
+                                <div style='padding:0 5px; color:#16a34a;'>3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક (Shortcut):</b> 
+                    <p style='margin:10px 0 0 0; font-size:15px; color:#854d0e;'>જ્યારે અંશમાં 1 હોય અને છેદમાં <b>&radic;a &plusmn; &radic;b</b> જેવું પદ હોય, ત્યારે હેતુલક્ષી પ્રશ્નમાં સીધો જવાબ લખવા માટે:</p>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#78350f;'><b>સ્ટેપ 1:</b> છેદનું ચિહ્ન બદલીને પદને ઉપર (અંશમાં) મૂકી દો.<br><b>સ્ટેપ 2:</b> છેદમાં બંને સંખ્યાઓના વર્ગની બાદબાકી (મોટામાંથી નાનું) મૂકી દો.</p>
+                    <p style='margin:5px 0 0 0; font-size:14px; color:#b45309; font-weight:bold;'>ઉદાહરણ તરીકે: 1 / (&radic;5 + &radic;2) &rarr; ચિહ્ન બદલો: &radic;5 - &radic;2 (આ અંશ છે). નીચે 5 - 2 = 3 મૂકો. જવાબ: (&radic;5 - &radic;2) / 3</p>
+                </div>`
             }
             
         ]
