@@ -5210,7 +5210,232 @@ var njMathsExercise = {
                 </div>`
             }
         ]
+    },
+        
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 8: ચતુષ્કોણ (સ્વાધ્યાય)
+    // ------------------------------------
+    "8": {
+        "chapterName": "પ્રકરણ 8",
+        "chapterTitle": "ચતુષ્કોણ (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.1 - પ્રશ્ન 1",
+                "marks": 4,
+                "question": "જો સમાંતરબાજુ ચતુષ્કોણના વિકર્ણો સમાન હોય, તો દર્શાવો કે તે લંબચોરસ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,150 250,150 250,50 50,50" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="50" y1="150" x2="250" y2="50" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <line x1="50" y1="50" x2="250" y2="150" stroke="#16a34a" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <text x="35" y="165" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="260" y="165" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="260" y="40" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="35" y="40" fill="#0f172a" font-weight="bold">D</text>
+                            
+                            <line x1="50" y1="150" x2="250" y2="150" stroke="#ea580c" stroke-width="4"/>
+                            <text x="145" y="170" fill="#ea580c" font-size="12" font-weight="bold">સામાન્ય પાયો</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            ધારો કે ABCD એક સમાંતરબાજુ ચતુષ્કોણ છે, જેના વિકર્ણો સમાન છે. (એટલે કે <b>AC = BD</b>).<br>
+                            આપણે સાબિત કરવાનું છે કે ABCD એક લંબચોરસ છે. (જો આપણે તેનો કોઈ એક ખૂણો 90&deg; સાબિત કરી દઈએ, તો તે લંબચોરસ સાબિત થઈ જશે).<br><br>
+                            
+                            &Delta;ABC અને &Delta;BAD માં સરખામણી કરીએ:<br>
+                            1) <b>BC = AD</b> <span style='color:#64748b;'>(કારણ: સમાંતરબાજુ ચતુષ્કોણની સામસામેની બાજુઓ સમાન હોય છે)</span><br>
+                            2) <b>AC = BD</b> <span style='color:#64748b;'>(પક્ષમાં આપેલું છે કે વિકર્ણો સમાન છે)</span><br>
+                            3) <b>AB = BA</b> <span style='color:#64748b;'>(બંને ત્રિકોણનો સામાન્ય પાયો)</span><br><br>
+                            
+                            અહીં <b>બાબાબા (SSS)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            &there4; &Delta;ABC &cong; &Delta;BAD<br><br>
+                            
+                            એકરૂપ ત્રિકોણોના અનુરૂપ ખૂણાઓ સમાન હોય છે.<br>
+                            <b style='color:#be123c;'>&there4; &ang;ABC = &ang;BAD</b> ......(પરિણામ 1)<br><br>
+                            
+                            હવે, સમાંતરબાજુ ચતુષ્કોણમાં AD || BC હોય છે અને AB તેમની છેદિકા છે. તેથી, છેદિકાની એક જ તરફના અંતઃકોણોનો સરવાળો 180&deg; થાય છે.<br>
+                            &there4; &ang;BAD + &ang;ABC = 180&deg;<br>
+                            પરિણામ 1 મુજબ બંને ખૂણા સમાન છે, તેથી &ang;BAD ની જગ્યાએ &ang;ABC મૂકતાં:<br>
+                            &there4; &ang;ABC + &ang;ABC = 180&deg;<br>
+                            &there4; 2&ang;ABC = 180&deg;<br>
+                            &there4; &ang;ABC = 90&deg;<br><br>
+                            
+                            <b style='color:#15803d; font-size:16px;'>આમ, સમાંતરબાજુ ચતુષ્કોણ ABCD નો એક ખૂણો 90&deg; સાબિત થાય છે, તેથી તે લંબચોરસ છે.</b> <span style='color:#0f172a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાનો કોન્સેપ્ટ સિમ્પલ છે: <b>"સમાંતરબાજુ ચતુષ્કોણને સીધો કરો!"</b> જો તમે ચતુષ્કોણને સીધો (90 ડિગ્રી પર) કરી દેશો, તો જ તેના બંને વિકર્ણો સરખા થશે, નહિ તો ત્રાસા ચતુષ્કોણમાં એક વિકર્ણ લાંબો અને એક ટૂંકો હોય. એટલે જ 90&deg; સાબિત કરવો પડે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.1 - પ્રશ્ન 2",
+                "marks": 5,
+                "question": "દર્શાવો કે ચોરસના વિકર્ણો સમાન હોય છે અને તે એકબીજાને કાટખૂણે દુભાગે છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="50,250 250,250 250,50 50,50" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <line x1="50" y1="250" x2="250" y2="50" stroke="#1d4ed8" stroke-width="2"/>
+                            <line x1="50" y1="50" x2="250" y2="250" stroke="#be123c" stroke-width="2"/>
+                            
+                            <polyline points="150,140 160,140 160,150" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            <text x="135" y="165" fill="#ea580c" font-weight="bold">O</text>
+                            
+                            <text x="35" y="265" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="260" y="265" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="260" y="35" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="35" y="35" fill="#0f172a" font-weight="bold">D</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            ધારો કે ABCD એક ચોરસ છે. તેથી તેની ચારેય બાજુઓ સમાન હોય (AB=BC=CD=AD) અને ચારેય ખૂણા 90&deg; હોય.<br><br>
+                            
+                            <b>ભાગ 1: વિકર્ણો સમાન છે (AC = BD)</b><br>
+                            &Delta;ABC અને &Delta;BAD માં:<br>
+                            1) AB = BA (સામાન્ય બાજુ)<br>
+                            2) &ang;ABC = &ang;BAD = 90&deg; (ચોરસના ખૂણા)<br>
+                            3) BC = AD (ચોરસની બાજુઓ)<br>
+                            &there4; બાખૂબા (SAS) નિયમથી &Delta;ABC &cong; &Delta;BAD.<br>
+                            <b style='color:#1d4ed8;'>&there4; AC = BD (CPCT)</b> ......(સાબિતી 1)<br><br>
+                            
+                            <b>ભાગ 2: વિકર્ણો દુભાગે છે (OA=OC, OB=OD)</b><br>
+                            &Delta;AOB અને &Delta;COD માં:<br>
+                            1) &ang;OAB = &ang;OCD (અંતઃયુગ્મકોણો, કારણ કે AB || CD)<br>
+                            2) AB = CD (ચોરસની બાજુઓ)<br>
+                            3) &ang;OBA = &ang;ODC (અંતઃયુગ્મકોણો)<br>
+                            &there4; ખૂબાખૂ (ASA) નિયમથી &Delta;AOB &cong; &Delta;COD.<br>
+                            <b style='color:#1d4ed8;'>&there4; OA = OC અને OB = OD (CPCT)</b> ......(સાબિતી 2)<br><br>
+                            
+                            <b>ભાગ 3: કાટખૂણે છેદે છે (&ang;AOB = 90&deg;)</b><br>
+                            &Delta;AOB અને &Delta;AOD માં:<br>
+                            1) OB = OD (ઉપર સાબિત કર્યું)<br>
+                            2) AB = AD (ચોરસની બાજુઓ)<br>
+                            3) OA = OA (સામાન્ય બાજુ)<br>
+                            &there4; બાબાબા (SSS) નિયમથી &Delta;AOB &cong; &Delta;AOD.<br>
+                            &there4; &ang;AOB = &ang;AOD (CPCT).<br>
+                            પરંતુ &ang;AOB + &ang;AOD = 180&deg; (રૈખિક જોડ).<br>
+                            &there4; 2&ang;AOB = 180&deg; &rArr; <b style='color:#1d4ed8;'>&ang;AOB = 90&deg;</b> ......(સાબિતી 3)<br><br>
+                            
+                            આમ, ત્રણેય બાબતો સાબિત થાય છે.
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.1 - પ્રશ્ન 3",
+                "marks": 4,
+                "question": "સમાંતરબાજુ ચતુષ્કોણ ABCD નો વિકર્ણ AC ખૂણા A નો દ્વિભાજક છે. સાબિત કરો કે:<br>(i) તે ∠C નો પણ દ્વિભાજક છે.<br>(ii) ABCD સમબાજુ ચતુષ્કોણ છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="100,160 300,160 250,40 50,40" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="50" y1="40" x2="300" y2="160" stroke="#be123c" stroke-width="2"/>
+                            
+                            <text x="30" y="35" fill="#0f172a" font-weight="bold">A</text>
+                            <text x="260" y="30" fill="#0f172a" font-weight="bold">B</text>
+                            <text x="315" y="165" fill="#0f172a" font-weight="bold">C</text>
+                            <text x="80" y="175" fill="#0f172a" font-weight="bold">D</text>
+                            
+                            <path d="M 80 40 A 30 30 0 0 0 70 50" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="85" y="40" fill="#ea580c" font-size="12" font-weight="bold">1</text>
+                            
+                            <path d="M 50 70 A 30 30 0 0 1 70 50" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="55" y="70" fill="#ea580c" font-size="12" font-weight="bold">2</text>
+                            
+                            <path d="M 270 160 A 30 30 0 0 0 280 150" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="265" y="155" fill="#16a34a" font-size="12" font-weight="bold">3</text>
+                            
+                            <path d="M 300 130 A 30 30 0 0 1 280 150" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            <text x="290" y="130" fill="#16a34a" font-size="12" font-weight="bold">4</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            <b>(i) તે &ang;C નો દ્વિભાજક છે તેમ સાબિત કરવા:</b><br>
+                            આપેલ છે કે AC એ &ang;A નો દ્વિભાજક છે. તેથી, <b>&ang;1 = &ang;2</b> ......(સમીકરણ 1)<br><br>
+                            
+                            હવે, ABCD એક સમાંતરબાજુ ચતુષ્કોણ છે, તેથી AB || CD અને AD || BC.<br>
+                            AB || CD અને AC તેમની છેદિકા છે. આથી અંતઃયુગ્મકોણો (Z આકાર) સમાન થાય:<br>
+                            <b>&ang;1 = &ang;4</b> ......(સમીકરણ 2)<br>
+                            તે જ રીતે, AD || BC અને AC છેદિકા હોવાથી:<br>
+                            <b>&ang;2 = &ang;3</b> ......(સમીકરણ 3)<br><br>
+                            
+                            સમીકરણ 1, 2 અને 3 પરથી આપણે કહી શકીએ કે:<br>
+                            &there4; &ang;3 = &ang;2 (સમી. 3 પરથી)<br>
+                            &there4; &ang;3 = &ang;1 (કારણ કે &ang;2 = &ang;1)<br>
+                            &there4; <b>&ang;3 = &ang;4</b> (કારણ કે &ang;1 = &ang;4)<br>
+                            આનો અર્થ એ કે AC એ &ang;C ના પણ બે સરખા ભાગ કરે છે.<br>
+                            <b style='color:#15803d;'>&there4; AC એ &ang;C નો પણ દ્વિભાજક છે.</b><br><br>
+                            
+                            <b>(ii) ABCD સમબાજુ ચતુષ્કોણ છે તેમ સાબિત કરવા:</b><br>
+                            ઉપર આપણે જોયું કે <b>&ang;2 = &ang;4</b> થાય છે.<br>
+                            હવે &Delta;ADC માં જુઓ. જો ત્રિકોણના બે ખૂણા (&ang;2 અને &ang;4) સમાન હોય, તો તેમની સામેની બાજુઓ પણ સમાન હોય છે.<br>
+                            &there4; <b>AD = CD</b><br>
+                            સમાંતરબાજુ ચતુષ્કોણની પાસપાસેની બાજુઓ સમાન થઈ ગઈ, અને સામસામેની બાજુઓ તો સમાન હોય જ છે.<br>
+                            તેથી, AB = BC = CD = AD.<br>
+                            <b style='color:#15803d;'>&there4; ABCD એ સમબાજુ ચતુષ્કોણ છે.</b> (સાબિત થાય છે)
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાને <b>"Z ગેમ"</b> કહી શકાય! આકૃતિમાં 1, 2, 3 અને 4 નંબર આપી દો. પછી બે વાર Z બનાવો. 1 ની સામે 4 આવશે અને 2 ની સામે 3 આવશે. 1 અને 2 તો પહેલાથી જ સરખા હતા, એટલે 3 અને 4 પણ સરખા થઈ જ ગયા! બસ આ જ રીતે આખી સાબિતી લખી નાખવાની!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 8.1 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "ABCD એક લંબચોરસ છે, જેમાં વિકર્ણ AC એ ∠A તેમજ ∠C બંનેને દુભાગે છે. સાબિત કરો કે:<br>(i) ABCD ચોરસ છે.<br>(ii) વિકર્ણ BD એ ∠B અને ∠D બંનેને દુભાગે છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#ffedd5; padding:10px; border-radius:5px; border-left:4px solid #ea580c; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#9a3412;'><b>નોંધ:</b> આ પ્રશ્નની સાબિતીની રીત બિલકુલ <b>પ્રશ્ન 3 ના જેવી જ</b> છે, માત્ર અહીં ચતુષ્કોણ લંબચોરસ આપેલો છે અને તેને ચોરસ સાબિત કરવાનો છે.</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            <b>(i) ABCD ચોરસ છે તેમ સાબિત કરવા:</b><br>
+                            આપેલ છે કે લંબચોરસ ABCD નો વિકર્ણ AC એ &ang;A અને &ang;C બંનેને દુભાગે છે.<br>
+                            તેથી, &ang;DAC = &ang;BAC અને &ang;DCA = &ang;BCA.<br>
+                            આપણે જાણીએ છીએ કે લંબચોરસના બધા ખૂણા 90&deg; ના હોય છે. તેથી &ang;A = 90&deg; અને &ang;C = 90&deg;.<br>
+                            દુભાગતા હોવાથી, &ang;DAC = 45&deg; અને &ang;DCA = 45&deg; થશે.<br><br>
+                            
+                            હવે &Delta;ADC માં, &ang;DAC = &ang;DCA = 45&deg; હોવાથી,<br>
+                            સમાન ખૂણાની સામેની બાજુઓ સમાન થાય.<br>
+                            &there4; <b>AD = CD</b><br>
+                            લંબચોરસની પાસપાસેની બાજુઓ સમાન થઈ ગઈ. જે લંબચોરસની પાસપાસેની બાજુઓ સમાન હોય, તેને ચોરસ કહેવાય.<br>
+                            <b style='color:#0284c7;'>&there4; ABCD એ ચોરસ છે.</b><br><br>
+                            
+                            <b>(ii) વિકર્ણ BD એ &ang;B અને &ang;D ને દુભાગે છે:</b><br>
+                            હવે સાબિત થઈ ગયું છે કે ABCD ચોરસ છે. અને ચોરસના વિકર્ણો હંમેશા તેના શિરોબિંદુ આગળના ખૂણાઓને દુભાગે છે જ. (પ્રશ્ન 2 માં જોયું તેમ).<br>
+                            <b style='color:#0284c7;'>&there4; વિકર્ણ BD એ &ang;B અને &ang;D બંનેને દુભાગે છે.</b>
+                        </div>
+                    </div>
+                </div>`
+            }
+        ]
     }
+    
     
 };
 
