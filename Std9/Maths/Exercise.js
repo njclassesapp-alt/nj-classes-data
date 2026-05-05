@@ -5862,11 +5862,517 @@ var njMathsExercise = {
                         </div>
                     </div>
                 </div>`
+            }   
+        ]
+    },
+        
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 9: વર્તુળ (સ્વાધ્યાય)
+    // ------------------------------------
+    "9": {
+        "chapterName": "પ્રકરણ 9",
+        "chapterTitle": "વર્તુળ (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.1 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "યાદ કરો કે જો બે વર્તુળોની ત્રિજ્યા સમાન હોય, તો તે બે વર્તુળો સમાન છે. સાબિત કરો કે સમાન વર્તુળોની સમાન જીવાઓ તેમના કેન્દ્રો આગળ સમાન ખૂણા આંતરે છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>સમાન વર્તુળો અને સમાન જીવાઓ</p>
+                        <svg viewBox="0 0 350 150" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="80" cy="75" r="60" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <circle cx="80" cy="75" r="3" fill="#0f172a"/>
+                            <text x="75" y="65" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <line x1="38" y1="117" x2="122" y2="117" stroke="#be123c" stroke-width="3"/>
+                            <line x1="80" y1="75" x2="38" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="80" y1="75" x2="122" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <text x="25" y="130" fill="#be123c" font-weight="bold">A</text>
+                            <text x="125" y="130" fill="#be123c" font-weight="bold">B</text>
+                            
+                            <path d="M 68 87 A 15 15 0 0 0 92 87" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="75" y="105" fill="#ea580c" font-size="16" font-weight="bold">?</text>
+                            
+                            <circle cx="270" cy="75" r="60" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <circle cx="270" cy="75" r="3" fill="#0f172a"/>
+                            <text x="260" y="65" fill="#0f172a" font-weight="bold">O'</text>
+                            
+                            <line x1="228" y1="117" x2="312" y2="117" stroke="#be123c" stroke-width="3"/>
+                            <line x1="270" y1="75" x2="228" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="270" y1="75" x2="312" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <text x="215" y="130" fill="#be123c" font-weight="bold">C</text>
+                            <text x="315" y="130" fill="#be123c" font-weight="bold">D</text>
+                            
+                            <path d="M 258 87 A 15 15 0 0 0 282 87" fill="none" stroke="#ea580c" stroke-width="2"/>
+                            <text x="265" y="105" fill="#ea580c" font-size="16" font-weight="bold">?</text>
+                            
+                            <line x1="80" y1="112" x2="80" y2="122" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="270" y1="112" x2="270" y2="122" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <line x1="55" y1="90" x2="63" y2="100" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="60" y1="86" x2="68" y2="96" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <line x1="97" y1="100" x2="105" y2="90" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="92" y1="96" x2="100" y2="86" stroke="#0f172a" stroke-width="2"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            ધારો કે O અને O' કેન્દ્રવાળા બે સમાન વર્તુળો આપેલા છે.<br>
+                            તેમાં બે સમાન જીવાઓ <b>AB અને CD</b> આપેલી છે. (એટલે કે <b>AB = CD</b>).<br>
+                            આપણે સાબિત કરવાનું છે કે આ જીવાઓ કેન્દ્ર આગળ સમાન ખૂણા બનાવે છે, એટલે કે <b>&ang;AOB = &ang;CO'D</b>.<br><br>
+                            
+                            હવે &Delta;AOB અને &Delta;CO'D માં સરખામણી કરીએ:<br>
+                            1) <b>OA = O'C</b> <span style='color:#64748b;'>(સમાન વર્તુળોની ત્રિજ્યાઓ સમાન જ હોય)</span><br>
+                            2) <b>OB = O'D</b> <span style='color:#64748b;'>(સમાન વર્તુળોની ત્રિજ્યાઓ)</span><br>
+                            3) <b>AB = CD</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે કે જીવાઓ સમાન છે)</span><br><br>
+                            
+                            અહીં ત્રણેય બાજુઓ સમાન છે. તેથી <b>બાબાબા (SSS)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            <b style='color:#15803d; font-size:16px;'>&there4; &Delta;AOB &cong; &Delta;CO'D</b><br><br>
+                            
+                            આપણે જાણીએ છીએ કે એકરૂપ ત્રિકોણોના અનુરૂપ અંગો (CPCT) સમાન હોય છે.<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; &ang;AOB = &ang;CO'D (CPCT)</b> <span style='color:#0f172a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આખી ભૂમિતિનો સૌથી સહેલો દાખલો! બે વર્તુળ સમાન છે એટલે તેમની 2-2 ત્રિજ્યા તો સમાન થઈ જ ગઈ (OA=O'C, OB=O'D). અને નીચેની બાજુ (જીવા) રકમમાં જ સમાન આપી છે. એટલે ત્રણેય બાજુ <b>(SSS)</b> સરખી! તો પછી ત્રિકોણની અંદરનો ખૂણો <b>(CPCT)</b> થી સીધો જ સરખો થઈ જાય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.1 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "સાબિત કરો કે જો સમાન વર્તુળોની જીવાઓ તેમના કેન્દ્રો આગળ સમાન ખૂણા આંતરે, તો તે જીવાઓ સમાન છે. (પ્રશ્ન 1 નું પ્રતીપ)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>સમાન ખૂણા અને સમાન ત્રિજ્યા</p>
+                        <svg viewBox="0 0 350 150" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="80" cy="75" r="60" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                            <circle cx="80" cy="75" r="3" fill="#0f172a"/>
+                            <text x="75" y="65" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <line x1="38" y1="117" x2="122" y2="117" stroke="#0284c7" stroke-width="3" stroke-dasharray="4,4"/>
+                            <line x1="80" y1="75" x2="38" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="80" y1="75" x2="122" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <text x="25" y="130" fill="#0284c7" font-weight="bold">A</text>
+                            <text x="125" y="130" fill="#0284c7" font-weight="bold">B</text>
+                            
+                            <path d="M 68 87 A 15 15 0 0 0 92 87" fill="none" stroke="#be123c" stroke-width="2"/>
+                            <line x1="78" y1="85" x2="82" y2="95" stroke="#be123c" stroke-width="2"/>
+                            
+                            <circle cx="270" cy="75" r="60" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                            <circle cx="270" cy="75" r="3" fill="#0f172a"/>
+                            <text x="260" y="65" fill="#0f172a" font-weight="bold">O'</text>
+                            
+                            <line x1="228" y1="117" x2="312" y2="117" stroke="#0284c7" stroke-width="3" stroke-dasharray="4,4"/>
+                            <line x1="270" y1="75" x2="228" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="270" y1="75" x2="312" y2="117" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <text x="215" y="130" fill="#0284c7" font-weight="bold">C</text>
+                            <text x="315" y="130" fill="#0284c7" font-weight="bold">D</text>
+                            
+                            <path d="M 258 87 A 15 15 0 0 0 282 87" fill="none" stroke="#be123c" stroke-width="2"/>
+                            <line x1="268" y1="85" x2="272" y2="95" stroke="#be123c" stroke-width="2"/>
+                            
+                            <line x1="55" y1="90" x2="63" y2="100" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="60" y1="86" x2="68" y2="96" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <line x1="97" y1="100" x2="105" y2="90" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="92" y1="96" x2="100" y2="86" stroke="#0f172a" stroke-width="2"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            અહીં આપણને પક્ષમાં આપેલું છે કે કેન્દ્ર આગળ બનતા ખૂણા સમાન છે.<br>
+                            એટલે કે <b>&ang;AOB = &ang;CO'D</b> છે.<br>
+                            આપણે સાબિત કરવાનું છે કે બંને જીવાઓ સમાન છે <b>(AB = CD)</b>.<br><br>
+                            
+                            &Delta;AOB અને &Delta;CO'D માં સરખામણી કરીએ:<br>
+                            1) <b>OA = O'C</b> <span style='color:#64748b;'>(સમાન વર્તુળોની ત્રિજ્યાઓ)</span><br>
+                            2) <b>&ang;AOB = &ang;CO'D</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે)</span><br>
+                            3) <b>OB = O'D</b> <span style='color:#64748b;'>(સમાન વર્તુળોની ત્રિજ્યાઓ)</span><br><br>
+                            
+                            અહીં બે બાજુઓ અને તેમની વચ્ચેનો ખૂણો સમાન છે. તેથી <b>બાખૂબા (SAS - Side-Angle-Side)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; &Delta;AOB &cong; &Delta;CO'D</b><br><br>
+                            
+                            જ્યારે બે ત્રિકોણો એકરૂપ હોય, ત્યારે તેમના અનુરૂપ અંગો (CPCT) સમાન હોય છે.<br>
+                            <b style='color:#1d4ed8; font-size:16px;'>&there4; AB = CD (CPCT)</b> <span style='color:#16a34a;'>(સાબિત થાય છે કે જીવાઓ સમાન છે.)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલો પહેલા દાખલાનો <b>"Replay (રિવર્સ)"</b> જ છે! ત્યાં આપણે બાજુ (જીવા) નો ઉપયોગ કરીને ખૂણો શોધ્યો હતો (SSS થી), અહીં આપણને ખૂણો આપી દીધો છે અને જીવા શોધવાની છે. એટલે બે બાજુઓની વચ્ચે ખૂણો આવ્યો, તો <b>બાખૂબા (SAS)</b> નિયમ લગાવી દેવાનો!</p>
+                </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "બે વર્તુળોની ત્રિજ્યા 5 સેમી અને 3 સેમી છે. તેઓ બે બિંદુઓમાં છેદે છે અને તેમના કેન્દ્રો વચ્ચેનું અંતર 4 સેમી છે. સામાન્ય જીવાની લંબાઈ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="80" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <circle cx="164" cy="100" r="48" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="100" cy="100" r="3" fill="#0f172a"/>
+                            <text x="95" y="115" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <circle cx="164" cy="100" r="3" fill="#0f172a"/>
+                            <text x="165" y="115" fill="#0f172a" font-weight="bold">O'</text>
+                            
+                            <line x1="164" y1="52" x2="164" y2="148" stroke="#be123c" stroke-width="3"/>
+                            <text x="170" y="45" fill="#be123c" font-weight="bold">A</text>
+                            <text x="170" y="165" fill="#be123c" font-weight="bold">B</text>
+                            
+                            <line x1="100" y1="100" x2="164" y2="100" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="100" y1="100" x2="164" y2="52" stroke="#0284c7" stroke-width="2"/>
+                            <line x1="164" y1="100" x2="164" y2="52" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <polyline points="154,100 154,90 164,90" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            
+                            <text x="120" y="70" fill="#0284c7" font-weight="bold">5 cm</text>
+                            <text x="168" y="80" fill="#16a34a" font-weight="bold">3 cm</text>
+                            <text x="125" y="115" fill="#0f172a" font-weight="bold">4 cm</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ધારો કે મોટા વર્તુળનું કેન્દ્ર O અને નાના વર્તુળનું કેન્દ્ર O' છે. તેમની સામાન્ય જીવા AB છે.<br>
+                            અહીં મોટા વર્તુળની ત્રિજ્યા OA = 5 cm, નાના વર્તુળની ત્રિજ્યા O'A = 3 cm અને કેન્દ્રો વચ્ચેનું અંતર OO' = 4 cm છે.<br><br>
+                            
+                            &Delta;AOO' માં બાજુઓના વર્ગોનો સરવાળો ચકાસીએ:<br>
+                            (O'A)<sup>2</sup> + (OO')<sup>2</sup> = 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = <b>25</b><br>
+                            અને (OA)<sup>2</sup> = 5<sup>2</sup> = <b>25</b><br><br>
+                            
+                            અહીં પાયથાગોરસના પ્રમેયનું પાલન થાય છે: (O'A)<sup>2</sup> + (OO')<sup>2</sup> = (OA)<sup>2</sup><br>
+                            તેથી, <b>&ang;AO'O = 90&deg;</b> થાય (એટલે કે નાના વર્તુળનું કેન્દ્ર O' એ જ જીવા AB નું મધ્યબિંદુ છે).<br><br>
+                            
+                            આપણે જાણીએ છીએ કે કેન્દ્રમાંથી જીવા પર દોરેલો લંબ જીવાને દુભાગે છે.<br>
+                            તેથી, આખી જીવા AB = 2 &times; O'A<br>
+                            &there4; AB = 2 &times; 3<br>
+                            &there4; <b style='color:#be123c; font-size:16px;'>AB = 6 સેમી</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જ્યારે પણ રકમમાં <b>3, 4 અને 5</b> સંખ્યા દેખાય, સમજી જવાનું કે આ <b>પાયથાગોરસની ત્રિપુટી</b> જ છે! આનો મતલબ કે કાટખૂણો બને છે અને નાના વર્તુળનું કેન્દ્ર જ જીવાની વચોવચ આવેલું છે. એટલે જીવાની લંબાઈ સીધી જ નાની ત્રિજ્યા (3) થી ડબલ એટલે <b>6 સેમી</b> થઈ જાય. ગણતરી વગર જવાબ!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "જો વર્તુળની બે સમાન જીવાઓ વર્તુળની અંદર છેદે, તો સાબિત કરો કે એક જીવાના રેખાખંડો બીજી જીવાના અનુરૂપ રેખાખંડોને સમાન છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="150" r="120" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="150" r="4" fill="#0f172a"/>
+                            <text x="140" y="140" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <line x1="56" y1="75" x2="245" y2="225" stroke="#1d4ed8" stroke-width="2"/>
+                            <line x1="56" y1="225" x2="245" y2="75" stroke="#1d4ed8" stroke-width="2"/>
+                            
+                            <text x="40" y="70" fill="#1d4ed8" font-weight="bold">A</text>
+                            <text x="255" y="240" fill="#1d4ed8" font-weight="bold">B</text>
+                            <text x="40" y="240" fill="#1d4ed8" font-weight="bold">C</text>
+                            <text x="255" y="70" fill="#1d4ed8" font-weight="bold">D</text>
+                            
+                            <circle cx="195" cy="150" r="4" fill="#be123c"/>
+                            <text x="205" y="155" fill="#be123c" font-weight="bold">P</text>
+                            
+                            <line x1="150" y1="150" x2="150" y2="114" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <line x1="150" y1="150" x2="150" y2="186" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <line x1="150" y1="150" x2="195" y2="150" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <text x="135" y="105" fill="#ea580c" font-weight="bold">M</text>
+                            <text x="135" y="200" fill="#ea580c" font-weight="bold">N</text>
+                            
+                            <polyline points="150,120 156,120 156,114" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            <polyline points="150,180 156,180 156,186" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            ધારો કે વર્તુળનું કેન્દ્ર O છે. જીવા AB અને CD બિંદુ P આગળ છેદે છે.<br>
+                            આપેલ છે: <b>AB = CD</b>.<br>
+                            સાબિત કરવાનું છે: <b>AP = CP</b> અને <b>PB = PD</b>.<br><br>
+                            
+                            કેન્દ્ર O માંથી AB પર લંબ OM અને CD પર લંબ ON દોરો. બિંદુ O અને P ને જોડો.<br>
+                            આપણે જાણીએ છીએ કે સમાન જીવાઓ કેન્દ્રથી સમાન અંતરે હોય છે.<br>
+                            &there4; <b>OM = ON</b> ......(પરિણામ 1)<br><br>
+                            
+                            હવે, કાટકોણ ત્રિકોણો &Delta;OMP અને &Delta;ONP માં:<br>
+                            1) <b>&ang;OMP = &ang;ONP = 90&deg;</b> <span style='color:#64748b;'>(કાટખૂણો)</span><br>
+                            2) <b>OP = OP</b> <span style='color:#64748b;'>(સામાન્ય કર્ણ)</span><br>
+                            3) <b>OM = ON</b> <span style='color:#64748b;'>(પરિણામ 1 પરથી બાજુ)</span><br>
+                            તેથી <b>કાકબા (RHS)</b> એકરૂપતાના નિયમ મુજબ: <b>&Delta;OMP &cong; &Delta;ONP</b><br>
+                            &there4; <b style='color:#0284c7;'>MP = NP (CPCT)</b> ......(પરિણામ 2)<br><br>
+                            
+                            હવે, AB = CD હોવાથી તેમના અડધા ભાગ પણ સમાન થાય.<br>
+                            &there4; <b>AM = CN</b> ......(પરિણામ 3)<br>
+                            અને <b>MB = ND</b> ......(પરિણામ 4)<br><br>
+                            
+                            પરિણામ 3 અને 2 નો સરવાળો કરતાં:<br>
+                            AM + MP = CN + NP &rArr; <b style='color:#16a34a; font-size:16px;'>AP = CP</b> (મોટા રેખાખંડો સમાન સાબિત થયા)<br><br>
+                            
+                            પરિણામ 4 માંથી 2 બાદ કરતાં:<br>
+                            MB - MP = ND - NP &rArr; <b style='color:#16a34a; font-size:16px;'>PB = PD</b> (નાના રેખાખંડો સમાન સાબિત થયા)
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "જો વર્તુળની બે સમાન જીવાઓ વર્તુળની અંદર છેદે, તો સાબિત કરો કે છેદબિંદુને કેન્દ્ર સાથે જોડતી રેખા જીવાઓ સાથે સમાન ખૂણા બનાવે છે.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#ffedd5; padding:10px; border-radius:5px; border-left:4px solid #ea580c; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#9a3412;'><b>નોંધ:</b> આ પ્રશ્નની આકૃતિ અને શરૂઆતની સાબિતી બિલકુલ <b>પ્રશ્ન 2 જેવી જ</b> છે!</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            કેન્દ્ર O માંથી જીવા AB પર લંબ OM અને જીવા CD પર લંબ ON દોરો.<br>
+                            જીવાઓ સમાન હોવાથી તેમના કેન્દ્રથી અંતર સમાન હોય છે. &there4; <b>OM = ON</b>.<br><br>
+                            
+                            કાટકોણ ત્રિકોણો &Delta;OMP અને &Delta;ONP માં:<br>
+                            1) <b>&ang;OMP = &ang;ONP = 90&deg;</b> <span style='color:#64748b;'>(કાટખૂણો)</span><br>
+                            2) <b>OP = OP</b> <span style='color:#64748b;'>(સામાન્ય કર્ણ)</span><br>
+                            3) <b>OM = ON</b> <span style='color:#64748b;'>(સમાન જીવાઓનું કેન્દ્રથી અંતર)</span><br><br>
+                            
+                            તેથી <b>કાકબા (RHS)</b> એકરૂપતાના નિયમ મુજબ:<br>
+                            &there4; &Delta;OMP &cong; &Delta;ONP<br><br>
+                            
+                            આપણે જાણીએ છીએ કે એકરૂપ ત્રિકોણોના અનુરૂપ ખૂણાઓ (CPCT) સમાન હોય છે.<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; &ang;OPM = &ang;OPN</b><br><br>
+                            
+                            આનો અર્થ એ થયો કે છેદબિંદુ P ને કેન્દ્ર O સાથે જોડતી રેખા OP એ બંને જીવાઓ (AB અને CD) સાથે સમાન ખૂણા બનાવે છે. <span style='color:#16a34a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "જો એક રેખા બે સમકેન્દ્રી વર્તુળોને (એક જ કેન્દ્ર ધરાવતાં વર્તુળો) A, B, C અને D બિંદુઓમાં છેદે, તો સાબિત કરો કે AB = CD.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="175" cy="100" r="80" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <circle cx="175" cy="100" r="50" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="175" cy="100" r="4" fill="#0f172a"/>
+                            <text x="165" y="90" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <line x1="50" y1="130" x2="300" y2="130" stroke="#be123c" stroke-width="2" marker-start="url(#arrow92)" marker-end="url(#arrow92)"/>
+                            
+                            <circle cx="100.8" cy="130" r="4" fill="#be123c"/>
+                            <circle cx="135" cy="130" r="4" fill="#be123c"/>
+                            <circle cx="215" cy="130" r="4" fill="#be123c"/>
+                            <circle cx="249.2" cy="130" r="4" fill="#be123c"/>
+                            
+                            <text x="95" y="150" fill="#be123c" font-weight="bold">A</text>
+                            <text x="130" y="150" fill="#be123c" font-weight="bold">B</text>
+                            <text x="210" y="150" fill="#be123c" font-weight="bold">C</text>
+                            <text x="245" y="150" fill="#be123c" font-weight="bold">D</text>
+                            
+                            <line x1="175" y1="100" x2="175" y2="130" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <polyline points="175,120 185,120 185,130" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            <text x="168" y="145" fill="#ea580c" font-weight="bold">M</text>
+                            
+                            <defs>
+                                <marker id="arrow92" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                                    <path d="M0,0 L0,8 L8,4 z" fill="#be123c" />
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>સાબિતી:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            કેન્દ્ર O માંથી રેખા AD પર <b>લંબ OM</b> દોરો.<br><br>
+                            
+                            1) <b>મોટા વર્તુળ માટે:</b><br>
+                            AD એ મોટા વર્તુળની જીવા છે અને OM તેના પર લંબ છે.<br>
+                            કેન્દ્રમાંથી જીવા પર દોરેલો લંબ જીવાને દુભાગે છે.<br>
+                            &there4; <b>AM = MD</b> ......(સમીકરણ 1)<br><br>
+                            
+                            2) <b>નાના વર્તુળ માટે:</b><br>
+                            BC એ નાના વર્તુળની જીવા છે અને OM તેના પર પણ લંબ છે.<br>
+                            &there4; <b>BM = MC</b> ......(સમીકરણ 2)<br><br>
+                            
+                            હવે, સમીકરણ 1 માંથી સમીકરણ 2 બાદ કરતાં:<br>
+                            AM - BM = MD - MC<br>
+                            આકૃતિ પરથી સ્પષ્ટ છે કે AM માંથી BM બાદ કરીએ તો <b>AB</b> વધે અને MD માંથી MC બાદ કરીએ તો <b>CD</b> વધે.<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; AB = CD</b> <span style='color:#0f172a;'>(સાબિત થાય છે)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>માત્ર 3 લીટીનો દાખલો! કેન્દ્રમાંથી લંબ દોરો એટલે મોટી જીવાના બે સરખા કટકા (AM = MD) અને નાની જીવાના બે સરખા કટકા (BM = MC). પછી મોટા કટકામાંથી નાનો કટકો બાદ કરો એટલે બાજુમાં વધેલા <b>AB = CD</b> આપોઆપ સમાન મળી જશે!</p>
+                </div>`
+            },
+               { 
+                "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 5",
+                "marks": 5,
+                "question": "એક વિહારસ્થાનમાં 5 મી ત્રિજ્યાવાળા દોરેલા વર્તુળ પર રમત રમવા માટે ત્રણ છોકરીઓ રેશ્મા, સલમા અને મનદીપ ઊભાં છે. રેશ્મા દડો સલમા તરફ, સલમા મનદીપ તરફ અને મનદીપ રેશ્મા તરફ ફેંકે છે. જો રેશ્મા અને સલમા વચ્ચેનું તથા સલમા અને મનદીપ વચ્ચેનું અંતર 6 મી હોય, તો રેશ્મા અને મનદીપ વચ્ચેનું અંતર કેટલું હશે?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="175" cy="125" r="100" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="175" cy="125" r="4" fill="#0f172a"/>
+                            <text x="160" y="120" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <circle cx="95" cy="185" r="5" fill="#be123c"/>
+                            <text x="75" y="195" fill="#be123c" font-weight="bold">R (રેશ્મા)</text>
+                            
+                            <circle cx="175" cy="25" r="5" fill="#be123c"/>
+                            <text x="165" y="15" fill="#be123c" font-weight="bold">S (સલમા)</text>
+                            
+                            <circle cx="255" cy="185" r="5" fill="#be123c"/>
+                            <text x="265" y="195" fill="#be123c" font-weight="bold">M (મનદીપ)</text>
+                            
+                            <line x1="95" y1="185" x2="175" y2="25" stroke="#16a34a" stroke-width="2"/>
+                            <line x1="255" y1="185" x2="175" y2="25" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <line x1="95" y1="185" x2="255" y2="185" stroke="#ea580c" stroke-width="3" stroke-dasharray="5,5"/>
+                            
+                            <line x1="175" y1="125" x2="95" y2="185" stroke="#0f172a" stroke-width="1.5"/>
+                            <line x1="175" y1="125" x2="175" y2="25" stroke="#0f172a" stroke-width="1.5"/>
+                            <line x1="175" y1="125" x2="255" y2="185" stroke="#0f172a" stroke-width="1.5"/>
+                            
+                            <text x="180" y="175" fill="#0f172a" font-weight="bold">K</text>
+                            <polyline points="175,175 165,175 165,185" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                            
+                            <text x="110" y="100" fill="#16a34a" font-size="14" font-weight="bold">6m</text>
+                            <text x="225" y="100" fill="#16a34a" font-size="14" font-weight="bold">6m</text>
+                            <text x="135" y="165" fill="#0f172a" font-size="12">5m</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ધારો કે રેશ્મા (R), સલમા (S) અને મનદીપ (M) ની સ્થિતિ આકૃતિમાં દર્શાવ્યા મુજબ છે.<br>
+                            અહીં, RS = 6 m અને SM = 6 m. ત્રિજ્યા OR = OS = OM = 5 m છે.<br>
+                            આપણે <b>RM</b> (રેશ્મા અને મનદીપ વચ્ચેનું અંતર) શોધવાનું છે.<br><br>
+                            
+                            ચતુષ્કોણ ORSM માં OR = OM = 5 અને RS = SM = 6 હોવાથી તે <b>પતંગાકાર ચતુષ્કોણ (Kite)</b> બને છે.<br>
+                            પતંગાકાર ચતુષ્કોણના વિકર્ણો એકબીજાને કાટખૂણે છેદે. ધારો કે OS અને RM બિંદુ <b>K</b> માં છેદે છે.<br>
+                            તેથી RM &perp; OS અને RK = KM થાય.<br><br>
+                            
+                            હવે &Delta;ORS નું ક્ષેત્રફળ આપણે બે રીતે શોધીશું:<br>
+                            <b>રીત 1 (હેરોનનું સૂત્ર):</b><br>
+                            બાજુઓ a=5, b=5, c=6. અર્ધપરિમિતિ s = (5+5+6)/2 = 8.<br>
+                            ક્ષેત્રફળ = &radic;[8(8-5)(8-5)(8-6)] = &radic;[8 &times; 3 &times; 3 &times; 2] = &radic;144 = <b>12 m<sup>2</sup></b><br><br>
+                            
+                            <b>રીત 2 (પાયો &times; વેધ):</b><br>
+                            &Delta;ORS નું ક્ષેત્રફળ = 1/2 &times; પાયો(OS) &times; વેધ(RK)<br>
+                            &there4; 12 = 1/2 &times; 5 &times; RK<br>
+                            &there4; 24 = 5 &times; RK<br>
+                            &there4; RK = 24 / 5 = <b>4.8 m</b><br><br>
+                            
+                            આપણે RM શોધવાનો છે. RM = 2 &times; RK (કારણ કે K મધ્યબિંદુ છે).<br>
+                            &there4; RM = 2 &times; 4.8<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; રેશ્મા અને મનદીપ વચ્ચેનું અંતર = 9.6 મીટર</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 6",
+                "marks": 5,
+                "question": "20 મી ત્રિજ્યાવાળો એક ગોળ બગીચો એક વસાહતમાં આવેલો છે. ત્રણ છોકરાઓ અંકુર, સૈયદ અને ડેવિડ તેમના હાથમાં રમકડાનો ટેલિફોન રાખીને એકબીજા સાથે વાત કરવા માટે વર્તુળની સીમા પર સરખા અંતરે બેઠા છે. દરેકના ટેલિફોનની દોરીની લંબાઈ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="150" r="100" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <polygon points="150,50 63.4,200 236.6,200" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="150" r="4" fill="#0f172a"/>
+                            <text x="160" y="155" fill="#0f172a" font-weight="bold">O</text>
+                            
+                            <line x1="150" y1="50" x2="150" y2="200" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <text x="145" y="40" fill="#0284c7" font-weight="bold">A (અંકુર)</text>
+                            <text x="35" y="215" fill="#0284c7" font-weight="bold">S (સૈયદ)</text>
+                            <text x="240" y="215" fill="#0284c7" font-weight="bold">D (ડેવિડ)</text>
+                            <text x="155" y="215" fill="#be123c" font-weight="bold">M</text>
+                            
+                            <text x="120" y="110" fill="#16a34a" font-size="14" font-weight="bold">20</text>
+                            <text x="125" y="180" fill="#ea580c" font-size="14" font-weight="bold">10</text>
+                            <polyline points="150,190 160,190 160,200" fill="none" stroke="#be123c" stroke-width="1.5"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            ધારો કે અંકુર, સૈયદ અને ડેવિડ ની સ્થિતિ A, S અને D છે.<br>
+                            તેઓ સમાન અંતરે બેઠા હોવાથી, &Delta;ASD એ <b>સમબાજુ ત્રિકોણ</b> બને છે.<br>
+                            વર્તુળનું કેન્દ્ર O એ આ સમબાજુ ત્રિકોણનું મધ્યકેન્દ્ર (Centroid) પણ બને છે.<br><br>
+                            
+                            આપણે A માંથી SD પર મધ્યગા AM દોરીએ. સમબાજુ ત્રિકોણમાં મધ્યગા એ જ વેધ હોય છે, તેથી &ang;AMD = 90&deg;.<br>
+                            મધ્યકેન્દ્ર O એ મધ્યગા AM નું <b>2:1 ગુણોત્તરમાં વિભાજન</b> કરે છે.<br>
+                            અહીં, OA = વર્તુળની ત્રિજ્યા = 20 m.<br>
+                            &there4; OA/OM = 2/1<br>
+                            &there4; 20/OM = 2 &rArr; <b>OM = 10 m</b><br><br>
+                            
+                            આમ, આખી મધ્યગા <b>AM = OA + OM = 20 + 10 = 30 m</b> થશે.<br>
+                            હવે કાટકોણ ત્રિકોણ &Delta;AMD માં પાયથાગોરસના પ્રમેય મુજબ:<br>
+                            AD<sup>2</sup> = AM<sup>2</sup> + MD<sup>2</sup><br>
+                            ધારો કે સમબાજુ ત્રિકોણની બાજુ 2x છે (એટલે AD = 2x). તો MD તેનું અડધું એટલે કે x થશે.<br>
+                            &there4; (2x)<sup>2</sup> = (30)<sup>2</sup> + (x)<sup>2</sup><br>
+                            &there4; 4x<sup>2</sup> = 900 + x<sup>2</sup><br>
+                            &there4; 3x<sup>2</sup> = 900<br>
+                            &there4; x<sup>2</sup> = 300 &rArr; x = &radic;300 = <b>10&radic;3 m</b><br><br>
+                            
+                            દરેકના ટેલિફોનની દોરીની લંબાઈ (બાજુ AD) = 2x.<br>
+                            &there4; લંબાઈ = 2 &times; 10&radic;3<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; ટેલિફોનની દોરીની લંબાઈ = 20&radic;3 મીટર</b>
+                        </div>
+                    </div>
+                </div>`
             }
-            
-            
+        
+    
         ]
     }
+    
     
     
 };
