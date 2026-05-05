@@ -3202,7 +3202,7 @@ var njMathsExamples = {
         <tr><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>50 - 60</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>3</td></tr>
         <tr style='background-color:#f8fafc;'><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#334155;'>60 - 70</td><td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold; color:#b45309;'>2</td></tr>
     </table>
-</div>`
+</div>`,
                 answer: `
                 <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
                     <p style='margin-top:0; color:#c2410c; font-weight:bold;'>આવૃત્તિ બહુકોણ દોરવાના સ્ટેપ્સ:</p>
