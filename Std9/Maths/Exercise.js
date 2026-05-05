@@ -5,7 +5,7 @@ var njMathsExercises = {
     "1": {
         "chapterName": "પ્રકરણ 1",
         "chapterTitle": "સંખ્યા પદ્ધતિ (સ્વાધ્યાય)",
-        "example_list": [
+        "qa_list": [
             { 
                 "questionNumber": "સ્વાધ્યાય 1.1 - પ્રશ્ન 1",
                 "marks": 2,
