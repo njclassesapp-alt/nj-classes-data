@@ -890,7 +890,247 @@ var njMathsExercise = {
                     </div>
                 </div>`
             }
-            
+            ]
+    },
+                
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 2: બહુપદીઓ (સ્વાધ્યાય)
+    // ------------------------------------
+    "2": {
+        "chapterName": "પ્રકરણ 2",
+        "chapterTitle": "બહુપદીઓ (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.1 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "નીચે આપેલી અભિવ્યક્તિઓ પૈકી કઈ બહુપદી એક ચલવાળી છે અને કઈ નથી? તમારા જવાબ માટે કારણ આપો.\n(i) 4x² - 3x + 7\n(ii) y² + √2\n(iii) 3√t + t√2\n(iv) y + 2/y\n(v) x¹⁰ + y³ + t⁵⁰", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>નિયમ: જો અભિવ્યક્તિમાં માત્ર એક જ પ્રકારનો અક્ષર (ચલ) હોય અને તેની ઘાત હંમેશા 'પૂર્ણ સંખ્યા' (0, 1, 2, 3...) હોય, તો જ તેને એક ચલવાળી બહુપદી કહેવાય.</p>
+                    
+                    <div style='overflow-x:auto;'>
+                        <div style='display:flex; flex-direction:column; gap:10px; min-width:300px;'>
+                            <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <h4 style='color:#14532d; margin:0 0 5px 0;'>(i) 4x<sup>2</sup> - 3x + 7</h4>
+                                <p style='margin:0; font-size:14px; color:#166534;'><b>હા</b>, આ એક ચલવાળી બહુપદી છે. કારણ કે તેમાં માત્ર એક જ ચલ '$x$' છે અને તેની તમામ ઘાત (2 અને 1) પૂર્ણ સંખ્યાઓ છે.</p>
+                            </div>
+
+                            <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <h4 style='color:#14532d; margin:0 0 5px 0;'>(ii) y<sup>2</sup> + &radic;2</h4>
+                                <p style='margin:0; font-size:14px; color:#166534;'><b>હા</b>, આ એક ચલવાળી બહુપદી છે. ચલ '$y$' ની ઘાત 2 છે જે પૂર્ણ સંખ્યા છે. (અચળ પદ &radic;2 હોય તેનાથી કોઈ ફરક પડતો નથી).</p>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <h4 style='color:#881337; margin:0 0 5px 0;'>(iii) 3&radic;t + t&radic;2</h4>
+                                <p style='margin:0; font-size:14px; color:#be123c;'><b>ના</b>, આ બહુપદી નથી. કારણ કે &radic;t એટલે t ની 1/2 ઘાત. અહીં ઘાત 1/2 એ પૂર્ણ સંખ્યા નથી.</p>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <h4 style='color:#881337; margin:0 0 5px 0;'>(iv) y + <div style='display:inline-block; vertical-align:middle; text-align:center;'><div style='border-bottom:1px solid #be123c; padding:0 2px;'>2</div><div>y</div></div></h4>
+                                <p style='margin:0; font-size:14px; color:#be123c;'><b>ના</b>, આ બહુપદી નથી. કારણ કે છેદમાં રહેલા y ને અંશમાં લાવતા તેની ઘાત -1 (ઋણ) થઈ જાય છે, જે પૂર્ણ સંખ્યા નથી.</p>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <h4 style='color:#881337; margin:0 0 5px 0;'>(v) x<sup>10</sup> + y<sup>3</sup> + t<sup>50</sup></h4>
+                                <p style='margin:0; font-size:14px; color:#be123c;'><b>ના</b>, આ 'એક ચલવાળી' બહુપદી નથી. આ બહુપદી છે, પરંતુ તેમાં ત્રણ અલગ અલગ ચલ (x, y, અને t) આવેલા છે.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:10px 0 0 0; font-size:15px; color:#854d0e;'>કોઈપણ પદાવલિને જોતાં જ ઓળખી જાવ કે તે બહુપદી છે કે નહિ! બસ આ 3 વસ્તુ ચકાસો:<br>
+                    1️⃣ ચલ (x કે y) ક્યારેય <b>છેદમાં</b> ન હોવો જોઈએ.<br>
+                    2️⃣ ચલ ક્યારેય <b>વર્ગમૂળ (કે ઘનમૂળ)</b> માં ન હોવો જોઈએ.<br>
+                    3️⃣ ચલની ઘાત ક્યારેય <b>માઇનસ (-)</b> કે <b>અપૂર્ણાંક</b> ન હોવી જોઈએ.<br>
+                    જો આ ત્રણેય વસ્તુ પાસ થાય, તો તે બહુપદી કહેવાય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.1 - પ્રશ્ન 2",
+                "marks": 2,
+                "question": "નીચેનામાં x² નો સહગુણક લખો:\n(i) 2 + x² + x\n(ii) 2 - x² + x³\n(iii) (π/2)x² + x\n(iv) √2x - 1", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:14px;'>સમજૂતી આકૃતિ (બહુપદીના અંગો):</p>
+                        <svg width="250" height="100" xmlns="http://www.w3.org/2000/svg">
+                            <text x="60" y="60" fill="#be123c" font-size="24" font-weight="bold">- 5</text>
+                            <text x="100" y="60" fill="#1e3a8a" font-size="24" font-weight="bold">x</text>
+                            <text x="115" y="45" fill="#047857" font-size="16" font-weight="bold">2</text>
+                            
+                            <line x1="75" y1="65" x2="75" y2="85" stroke="#be123c" stroke-width="2"/>
+                            <text x="50" y="98" fill="#be123c" font-size="12" font-weight="bold">સહગુણક</text>
+                            
+                            <line x1="105" y1="65" x2="105" y2="85" stroke="#1e3a8a" stroke-width="2"/>
+                            <text x="95" y="98" fill="#1e3a8a" font-size="12" font-weight="bold">ચલ</text>
+                            
+                            <line x1="120" y1="30" x2="120" y2="15" stroke="#047857" stroke-width="2"/>
+                            <text x="105" y="10" fill="#047857" font-size="12" font-weight="bold">ઘાતાંક</text>
+                        </svg>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:10px;'>
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0; font-size:15px;'>(i) 2 + <b>x<sup>2</sup></b> + x</h4>
+                            <p style='margin:0; font-size:15px; color:#334155;'>અહીં x<sup>2</sup> ની આગળ કોઈ સંખ્યા નથી, એટલે 1 ગણાય. તેથી x<sup>2</sup> નો સહગુણક = <b style='color:#16a34a; font-size:18px;'>1</b></p>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0; font-size:15px;'>(ii) 2 <b>- x<sup>2</sup></b> + x<sup>3</sup></h4>
+                            <p style='margin:0; font-size:15px; color:#334155;'>અહીં x<sup>2</sup> ની આગળ માઇનસ (-) ની નિશાની છે. તેથી x<sup>2</sup> નો સહગુણક = <b style='color:#be123c; font-size:18px;'>-1</b></p>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0; font-size:15px;'>(iii) <b>(&pi;/2)x<sup>2</sup></b> + x</h4>
+                            <p style='margin:0; font-size:15px; color:#334155;'>અહીં x<sup>2</sup> ની સાથે ગુણાકારમાં &pi;/2 છે. તેથી x<sup>2</sup> નો સહગુણક = <b style='color:#1e3a8a; font-size:18px;'>&pi;/2</b></p>
+                        </div>
+
+                        <div style='background-color:#f8fafc; padding:12px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0; font-size:15px;'>(iv) &radic;2x - 1</h4>
+                            <p style='margin:0; font-size:15px; color:#334155;'>અહીં x<sup>2</sup> વાળું પદ <b>આપેલું જ નથી</b>. તેથી x<sup>2</sup> નો સહગુણક = <b style='color:#ea580c; font-size:18px;'>0</b></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જેનો પણ સહગુણક પૂછ્યો હોય (દા.ત. x<sup>2</sup>), તેની પર આંગળી મૂકી દો! હવે તેની <b>બરાબર આગળ</b> (ડાબી બાજુ) નિશાની સહિત જે દેખાય તે તમારો જવાબ. અને જો તે પદ હોય જ નહિ, તો સીધો ઝીરો (0) મૂકી દેવો!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.1 - પ્રશ્ન 3",
+                "marks": 2,
+                "question": "35 ઘાતવાળી દ્વિપદીનું કોઈ પણ એક ઉદાહરણ અને 100 ઘાતવાળી એકપદીનું કોઈ પણ એક ઉદાહરણ આપો.", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #0284c7; border-radius:8px;'>
+                        <h4 style='color:#0c4a6e; margin:0 0 8px 0; font-size:16px;'>(1) 35 ઘાતવાળી દ્વિપદી:</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'><b>સમજૂતી:</b> દ્વિપદી એટલે જેમાં બે પદ હોય (વત્તા કે ઓછાથી જોડાયેલા). અને મોટી ઘાત 35 હોવી જોઈએ.</p>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bae6fd; font-size:18px;'>
+                            <b>ઉદાહરણ:</b> <span style='color:#1d4ed8;'>3x<sup>35</sup> - 4</span><br>
+                            <span style='font-size:14px; color:#64748b;'>(અન્ય ઉદાહરણ: y<sup>35</sup> + 10, 5t<sup>35</sup> - t<sup>2</sup> વગેરે લખી શકાય.)</span>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
+                        <h4 style='color:#14532d; margin:0 0 8px 0; font-size:16px;'>(2) 100 ઘાતવાળી એકપદી:</h4>
+                        <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'><b>સમજૂતી:</b> એકપદી એટલે જેમાં માત્ર એક જ પદ હોય. અને તેની ઘાત 100 હોવી જોઈએ.</p>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bbf7d0; font-size:18px;'>
+                            <b>ઉદાહરણ:</b> <span style='color:#15803d;'>&radic;2y<sup>100</sup></span><br>
+                            <span style='font-size:14px; color:#64748b;'>(અન્ય ઉદાહરણ: 5x<sup>100</sup>, -t<sup>100</sup> વગેરે લખી શકાય.)</span>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.1 - પ્રશ્ન 4",
+                "marks": 2,
+                "question": "નીચે આપેલી બહુપદીઓની ઘાત જણાવો:\n(i) 5x³ + 4x² + 7x\n(ii) 4 - y²\n(iii) 5t - √7\n(iv) 3", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:10px;'>
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0; font-size:15px;'>(i) 5x<sup>3</sup> + 4x<sup>2</sup> + 7x</h4>
+                            <p style='margin:0; font-size:15px; color:#3f3f46;'>અહીં ચલ x ની સૌથી મોટી ઘાત 3 છે. તેથી બહુપદીની ઘાત = <b style='color:#1e3a8a; font-size:18px;'>3</b></p>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0; font-size:15px;'>(ii) 4 - y<sup>2</sup></h4>
+                            <p style='margin:0; font-size:15px; color:#3f3f46;'>અહીં ચલ y ની સૌથી મોટી ઘાત 2 છે. તેથી બહુપદીની ઘાત = <b style='color:#1e3a8a; font-size:18px;'>2</b></p>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0; font-size:15px;'>(iii) 5t - &radic;7</h4>
+                            <p style='margin:0; font-size:15px; color:#3f3f46;'>અહીં ચલ t ની ઉપર કોઈ ઘાત નથી દેખાતી, એટલે 1 હોય. તેથી બહુપદીની ઘાત = <b style='color:#1e3a8a; font-size:18px;'>1</b></p>
+                        </div>
+
+                        <div style='background-color:#f4f4f5; padding:12px; border-left:4px solid #52525b; border-radius:5px;'>
+                            <h4 style='color:#27272a; margin:0 0 5px 0; font-size:15px;'>(iv) 3</h4>
+                            <p style='margin:0; font-size:15px; color:#3f3f46;'>અહીં કોઈ ચલ જ નથી (આ અચળ પદ છે). તેથી અચળ બહુપદીની ઘાત = <b style='color:#be123c; font-size:18px;'>0</b></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>બહુપદીની ઘાત એટલે <b>"ક્લાસનો ડોન (Don)"</b>! આખી રકમમાં ચલના માથા પર જે આંકડો <b>સૌથી મોટો</b> દેખાય, એ જ આખી બહુપદીની ઘાત. અને જો ચલ હોય જ નહિ માત્ર આંકડો હોય, તો તેની ઘાત હંમેશા <b>ઝીરો (0)</b> લખી દેવી.</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.1 - પ્રશ્ન 5",
+                "marks": 3,
+                "question": "નીચે આપેલી બહુપદીઓને સુરેખ, દ્વિઘાત કે ત્રિઘાત બહુપદીમાં વર્ગીકૃત કરો:\n(i) x² + x  (ii) x - x³  (iii) y + y² + 4  (iv) 1 + x  (v) 3t  (vi) r²  (vii) 7x³", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='overflow-x:auto;'>
+                        <table style='width:100%; min-width:400px; border-collapse:collapse; text-align:left; font-size:15px;'>
+                            <thead>
+                                <tr style='background-color:#1e3a8a; color:#ffffff;'>
+                                    <th style='padding:10px; border:1px solid #cbd5e1;'>ક્રમ</th>
+                                    <th style='padding:10px; border:1px solid #cbd5e1;'>બહુપદી</th>
+                                    <th style='padding:10px; border:1px solid #cbd5e1;'>મહત્તમ ઘાત</th>
+                                    <th style='padding:10px; border:1px solid #cbd5e1;'>બહુપદીનો પ્રકાર</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(i)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>x<sup>2</sup> + x</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; text-align:center;'>2</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; color:#16a34a; font-weight:bold;'>દ્વિઘાત બહુપદી</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(ii)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>x - x<sup>3</sup></td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; text-align:center;'>3</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>ત્રિઘાત બહુપદી</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(iii)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>y + y<sup>2</sup> + 4</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; text-align:center;'>2</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; color:#16a34a; font-weight:bold;'>દ્વિઘાત બહુપદી</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(iv)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>1 + x</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; text-align:center;'>1</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; color:#0284c7; font-weight:bold;'>સુરેખ બહુપદી</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(v)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>3t</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; text-align:center;'>1</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; color:#0284c7; font-weight:bold;'>સુરેખ બહુપદી</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(vi)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>r<sup>2</sup></td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; text-align:center;'>2</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; color:#16a34a; font-weight:bold;'>દ્વિઘાત બહુપદી</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:10px; border:1px solid #cbd5e1;'>(vii)</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; font-weight:bold;'>7x<sup>3</sup></td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; text-align:center;'>3</td>
+                                    <td style='padding:10px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>ત્રિઘાત બહુપદી</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>બહુપદીના પ્રકાર ઓળખવા માટે માત્ર તેની <b>સૌથી મોટી ઘાત</b> જ જોવાની, પદોની સંખ્યા નહિ!<br>
+                    &bull; જો <b>1 ઘાત</b> હોય (કે કોઈ ઘાત ન દેખાય) &rarr; સુરેખ<br>
+                    &bull; જો <b>2 ઘાત</b> હોય &rarr; દ્વિઘાત<br>
+                    &bull; જો <b>3 ઘાત</b> હોય &rarr; ત્રિઘાત</p>
+                </div>`
+            }
+    
             
         ]
     }
