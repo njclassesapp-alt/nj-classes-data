@@ -5,7 +5,7 @@ var njMathsExamples = {
     "1": {
         "chapterName": "પ્રકરણ 1",
         "chapterTitle": "સંખ્યા પદ્ધતિ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "નીચેનાં વિધાનો સત્ય છે કે અસત્ય તે કારણ સહિત જણાવો:\n(i) દરેક પૂર્ણ સંખ્યા એ પ્રાકૃતિક સંખ્યા છે.\n(ii) દરેક પૂર્ણાંક એ સંમેય સંખ્યા છે.\n(iii) દરેક સંમેય સંખ્યા એ પૂર્ણાંક છે.", 
@@ -306,7 +306,7 @@ var njMathsExamples = {
     "2": {
         "chapterName": "પ્રકરણ 2",
         "chapterTitle": "બહુપદીઓ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "નીચે આપેલી બહુપદીઓની ઘાત જણાવો:\n(i) x⁵ - x⁴ + 3\n(ii) 2 - y² - y³ + 2y⁸\n(iii) 2", 
@@ -746,7 +746,7 @@ var njMathsExamples = {
     "3": {
         "chapterName": "પ્રકરણ 3",
         "chapterTitle": "યામ ભૂમિતિ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "આપેલ આકૃતિ જોઈને નીચેનાં વિધાનો પૂર્ણ કરો:\n(i) બિંદુ B ના કોટિ અને ભુજ અનુક્રમે ___ અને ___ છે. આથી B ના યામ (___, ___) છે.\n(ii) બિંદુ M ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી M ના યામ (___, ___) છે.\n(iii) બિંદુ L ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી L ના યામ (___, ___) છે.\n(iv) બિંદુ S ના x-યામ અને y-યામ અનુક્રમે ___ અને ___ છે. આથી S ના યામ (___, ___) છે.", 
@@ -941,7 +941,7 @@ var njMathsExamples = {
     "4": {
         "chapterName": "પ્રકરણ 4",
         "chapterTitle": "દ્વિચલ સુરેખ સમીકરણો (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "નીચે દર્શાવેલ સમીકરણોને ax + by + c = 0 સ્વરૂપમાં દર્શાવો અને દરેક કિસ્સામાં a, b અને c ની કિંમતો જણાવો:\n(i) 2x + 3y = 4.37\n(ii) x - 4 = √3y\n(iii) 4 = 5x - 3y\n(iv) 2x = y", 
@@ -1153,7 +1153,7 @@ var njMathsExamples = {
     "5": {
         "chapterName": "પ્રકરણ 5",
         "chapterTitle": "યુક્લિડની ભૂમિતિનો પરિચય (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "જો A, B અને C એક રેખા પર આવેલાં ત્રણ બિંદુઓ હોય અને B બિંદુ એ A અને C ની વચ્ચે આવેલું હોય, તો સાબિત કરો કે AB + BC = AC.", 
@@ -1281,7 +1281,7 @@ var njMathsExamples = {
     "6": {
         "chapterName": "પ્રકરણ 6",
         "chapterTitle": "રેખાઓ અને ખૂણાઓ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "આકૃતિમાં, રેખાઓ PQ અને RS પરસ્પર બિંદુ O માં છેદે છે. જો ∠POR : ∠ROQ = 5:7 હોય, તો તમામ ખૂણાઓ શોધો.", 
@@ -1651,7 +1651,7 @@ var njMathsExamples = {
     "7": {
         "chapterName": "પ્રકરણ 7",
         "chapterTitle": "ત્રિકોણ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "આકૃતિમાં, OA = OB અને OD = OC છે. સાબિત કરો કે:\n(i) ∆AOD ≅ ∆BOC અને\n(ii) AD || BC", 
@@ -1978,7 +1978,7 @@ var njMathsExamples = {
     "8": {
         "chapterName": "પ્રકરણ 8",
         "chapterTitle": "ચતુષ્કોણ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "સાબિત કરો કે લંબચોરસનો દરેક ખૂણો કાટખૂણો છે.", 
@@ -2238,7 +2238,7 @@ var njMathsExamples = {
     "9": {
         "chapterName": "પ્રકરણ 9",
         "chapterTitle": "વર્તુળ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "જો વર્તુળની બે છેદતી જીવાઓ તેમના છેદબિંદુમાંથી પસાર થતા વ્યાસ સાથે સમાન ખૂણા બનાવે, તો સાબિત કરો કે તે જીવાઓ સમાન છે.", 
@@ -2516,7 +2516,7 @@ var njMathsExamples = {
     "10": {
         "chapterName": "પ્રકરણ 10",
         "chapterTitle": "હેરોનનું સૂત્ર (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "એક ત્રિકોણની બે બાજુઓ 8 સેમી અને 11 સેમી છે અને તેની પરિમિતિ 32 સેમી છે. તે ત્રિકોણનું ક્ષેત્રફળ શોધો.", 
@@ -2688,7 +2688,7 @@ var njMathsExamples = {
     "11": {
         "chapterName": "પ્રકરણ 11",
         "chapterTitle": "પૃષ્ઠફળ અને ઘનફળ (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1",
                 question: "જેની ત્રાંસી ઊંચાઈ 10 સેમી અને પાયાની ત્રિજ્યા 7 સેમી હોય, તેવા લંબવૃત્તીય શંકુની વક્ર સપાટીનું ક્ષેત્રફળ શોધો.", 
@@ -2915,7 +2915,7 @@ var njMathsExamples = {
     "12": {
         "chapterName": "પ્રકરણ 12",
         "chapterTitle": "આંકડાશાસ્ત્ર (ઉદાહરણો)",
-        "example_list": [
+        "qa_list": [
             { 
                 questionNumber: "ઉદાહરણ 1 (લંબાલેખ)",
                 question: "ધોરણ 9 ના 40 વિદ્યાર્થીઓને તેમના જન્મનો મહિનો જણાવવાનું કહેવામાં આવ્યું. આ માહિતી પરથી નીચેનો લંબાલેખ (Bar Graph) તૈયાર કરો.\nમાહિતી: જાન્યુ(3), ફેબ્રુ(4), માર્ચ(2), એપ્રિલ(2), મે(5), જૂન(1), જુલાઈ(2), ઓગસ્ટ(6), સપ્ટે(3), ઓક્ટો(4), નવે(4), ડિસે(4).", 
