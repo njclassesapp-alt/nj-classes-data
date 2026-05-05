@@ -2555,8 +2555,187 @@ var njMathsExercise = {
                     <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આખા ગ્રાફમાં કોઈપણ યામ (x, y) હંમેશા <b>અનન્ય (Unique)</b> જ હોય છે! એક નામનું એક જ ઘર હોય! તેથી આવા પ્રશ્નનો જવાબ હંમેશા <b>"માત્ર એક જ"</b> આવે. (4, 3) અને (3, 4) બંને તદ્દન અલગ જગ્યાઓ છે, તે ક્યારેય એક ન હોઈ શકે.</p>
                 </div>`
-            }
-            
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 3.2 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "નીચેના દરેક પ્રશ્નનો જવાબ આપો:\n(i) યામ સમતલમાં કોઈ પણ બિંદુ દર્શાવવા ઉપયોગમાં લેવાતી સમક્ષિતિજ અને શિરોલંબ રેખાઓનાં નામ શું છે?\n(ii) આ બે રેખાઓથી બનતા સમતલના દરેક ભાગનું નામ શું છે?\n(iii) આ બે રેખાઓ જ્યાં છેદે છે તે બિંદુનું નામ લખો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:12px;'>
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 5px 0; font-size:15px;'>(i) સમક્ષિતિજ અને શિરોલંબ રેખાઓનાં નામ:</h4>
+                            <p style='margin:0; font-size:15px; color:#334155;'>
+                                &bull; <b>સમક્ષિતિજ (આડી) રેખા:</b> તેને <b style='color:#0284c7;'>x-અક્ષ (X-axis)</b> કહે છે.<br>
+                                &bull; <b>શિરોલંબ (ઊભી) રેખા:</b> તેને <b style='color:#be123c;'>y-અક્ષ (Y-axis)</b> કહે છે.
+                            </p>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#14532d; margin:0 0 5px 0; font-size:15px;'>(ii) સમતલના દરેક ભાગનું નામ:</h4>
+                            <p style='margin:0; font-size:15px; color:#334155;'>
+                                આ બે રેખાઓ સમતલને 4 સરખા ભાગમાં વહેંચે છે. તે દરેક ભાગને <b style='color:#16a34a;'>ચરણ (Quadrant)</b> અથવા <b>પાદ</b> કહે છે. (પ્રથમ, દ્વિતીય, તૃતીય અને ચતુર્થ ચરણ).
+                            </p>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0; font-size:15px;'>(iii) બે રેખાઓના છેદબિંદુનું નામ:</h4>
+                            <p style='margin:0; font-size:15px; color:#334155;'>
+                                જ્યાં x-અક્ષ અને y-અક્ષ એકબીજાને છેદે છે (ભેગા થાય છે), તે બિંદુને <b style='color:#be123c;'>ઉગમબિંદુ (Origin)</b> કહે છે. તેને 'O' વડે દર્શાવાય છે અને તેના યામ <b>(0, 0)</b> હોય છે.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>શબ્દોમાં કન્ફ્યુઝન ન થાય તે માટે ટૂંકમાં યાદ રાખો: <br>
+                    &bull; <b>આડી લાઈન = x-અક્ષ</b> (જેમ આપણે સૂતા હોઈએ)<br>
+                    &bull; <b>ઊભી લાઈન = y-અક્ષ</b> (જેમ આપણે ઊભા હોઈએ)<br>
+                    &bull; <b>ચોકડી = ઉગમબિંદુ</b> (બિંદુ ઝીરો ઝીરો!)</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 3.2 - પ્રશ્ન 2",
+                "marks": 5,
+                "question": "પાઠ્યપુસ્તકની આકૃતિ જુઓ અને નીચેના પ્રશ્નોના જવાબ લખો:\n(i) બિંદુ B ના યામ જણાવો.\n(ii) બિંદુ C ના યામ જણાવો.\n(iii) (-3, -5) દ્વારા દર્શાવાતું બિંદુ લખો.\n(iv) (2, -4) દ્વારા દર્શાવાતું બિંદુ લખો.\n(v) બિંદુ D નો x-યામ (કોટિ) જણાવો.\n(vi) બિંદુ H નો y-યામ (ભુજ) જણાવો.\n(vii) બિંદુ L ના યામ જણાવો.\n(viii) બિંદુ M ના યામ જણાવો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:20px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>યામ સમતલ (Cartesian Plane)</p>
+                        <svg viewBox="-20 -20 340 340" style="width:100%; min-width:320px; max-width:400px; background-color:#ffffff; border:1px solid #e2e8f0;" xmlns="http://www.w3.org/2000/svg">
+                            
+                            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+                                <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e2e8f0" stroke-width="1"/>
+                            </pattern>
+                            <rect width="300" height="300" fill="url(#grid)" />
+                            
+                            <line x1="0" y1="150" x2="300" y2="150" stroke="#0f172a" stroke-width="2"/>
+                            <line x1="150" y1="0" x2="150" y2="300" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <polygon points="300,146 306,150 300,154" fill="#0f172a"/>
+                            <text x="310" y="154" fill="#0f172a" font-size="12" font-weight="bold">X</text>
+                            <polygon points="0,146 -6,150 0,154" fill="#0f172a"/>
+                            <text x="-15" y="154" fill="#0f172a" font-size="12" font-weight="bold">X'</text>
+                            
+                            <polygon points="146,0 150,-6 154,0" fill="#0f172a"/>
+                            <text x="156" y="-10" fill="#0f172a" font-size="12" font-weight="bold">Y</text>
+                            <polygon points="146,300 150,306 154,300" fill="#0f172a"/>
+                            <text x="156" y="315" fill="#0f172a" font-size="12" font-weight="bold">Y'</text>
+                            
+                            <text x="166" y="165" fill="#475569" font-size="10">1</text>
+                            <text x="186" y="165" fill="#475569" font-size="10">2</text>
+                            <text x="206" y="165" fill="#475569" font-size="10">3</text>
+                            <text x="226" y="165" fill="#475569" font-size="10">4</text>
+                            <text x="246" y="165" fill="#475569" font-size="10">5</text>
+                            <text x="266" y="165" fill="#475569" font-size="10">6</text>
+                            
+                            <text x="123" y="165" fill="#475569" font-size="10">-1</text>
+                            <text x="103" y="165" fill="#475569" font-size="10">-2</text>
+                            <text x="83" y="165" fill="#475569" font-size="10">-3</text>
+                            <text x="63" y="165" fill="#475569" font-size="10">-4</text>
+                            <text x="43" y="165" fill="#475569" font-size="10">-5</text>
+                            <text x="23" y="165" fill="#475569" font-size="10">-6</text>
+                            
+                            <text x="135" y="133" fill="#475569" font-size="10">1</text>
+                            <text x="135" y="113" fill="#475569" font-size="10">2</text>
+                            <text x="135" y="93" fill="#475569" font-size="10">3</text>
+                            <text x="135" y="73" fill="#475569" font-size="10">4</text>
+                            <text x="135" y="53" fill="#475569" font-size="10">5</text>
+                            <text x="135" y="33" fill="#475569" font-size="10">6</text>
+                            
+                            <text x="130" y="173" fill="#475569" font-size="10">-1</text>
+                            <text x="130" y="193" fill="#475569" font-size="10">-2</text>
+                            <text x="130" y="213" fill="#475569" font-size="10">-3</text>
+                            <text x="130" y="233" fill="#475569" font-size="10">-4</text>
+                            <text x="130" y="253" fill="#475569" font-size="10">-5</text>
+                            <text x="130" y="273" fill="#475569" font-size="10">-6</text>
+                            
+                            <text x="135" y="165" fill="#0f172a" font-size="12" font-weight="bold">O</text>
+                            
+                            <polyline points="50,150 50,110 150,110" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,4"/> <polyline points="150,250 250,250 250,150" fill="none" stroke="#be123c" stroke-width="1.5" stroke-dasharray="4,4"/> <polyline points="270,150 270,110 150,110" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,4"/> <polyline points="90,150 90,250 150,250" fill="none" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4,4"/> <polyline points="190,150 190,230 150,230" fill="none" stroke="#9333ea" stroke-width="1.5" stroke-dasharray="4,4"/> <polyline points="50,150 50,210 150,210" fill="none" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,4"/> <circle cx="50" cy="110" r="4" fill="#0284c7"/>
+                            <text x="35" y="105" fill="#0284c7" font-size="14" font-weight="bold">B</text>
+                            
+                            <circle cx="250" cy="250" r="4" fill="#be123c"/>
+                            <text x="260" y="260" fill="#be123c" font-size="14" font-weight="bold">C</text>
+                            
+                            <circle cx="270" cy="110" r="4" fill="#16a34a"/>
+                            <text x="280" y="105" fill="#16a34a" font-size="14" font-weight="bold">D</text>
+                            
+                            <circle cx="90" cy="250" r="4" fill="#ea580c"/>
+                            <text x="75" y="260" fill="#ea580c" font-size="14" font-weight="bold">E</text>
+                            
+                            <circle cx="190" cy="230" r="4" fill="#9333ea"/>
+                            <text x="200" y="240" fill="#9333ea" font-size="14" font-weight="bold">G</text>
+                            
+                            <circle cx="50" cy="210" r="4" fill="#d97706"/>
+                            <text x="35" y="220" fill="#d97706" font-size="14" font-weight="bold">H</text>
+                            
+                            <circle cx="150" cy="50" r="4" fill="#0f172a"/>
+                            <text x="160" y="55" fill="#0f172a" font-size="14" font-weight="bold">L</text>
+                            
+                            <circle cx="90" cy="150" r="4" fill="#0f172a"/>
+                            <text x="85" y="140" fill="#0f172a" font-size="14" font-weight="bold">M</text>
+                            
+                        </svg>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:10px;'>
+                        <p style='margin:0 0 5px 0; font-size:15px; color:#334155; font-weight:bold;'>આકૃતિ પરથી જવાબો:</p>
+                        
+                        <div style='display:flex; flex-wrap:wrap; gap:10px;'>
+                            <div style='flex:1; min-width:250px; background-color:#f0f9ff; padding:10px; border-radius:5px; border-left:4px solid #0284c7;'>
+                                <h4 style='color:#0c4a6e; margin:0 0 5px 0; font-size:14px;'>(i) બિંદુ B ના યામ:</h4>
+                                <p style='margin:0; font-size:14px; color:#0369a1;'>x-અક્ષ પર -5 અને y-અક્ષ પર 2 છે. તેથી યામ <b>(-5, 2)</b> મળે.</p>
+                            </div>
+                            
+                            <div style='flex:1; min-width:250px; background-color:#fff1f2; padding:10px; border-radius:5px; border-left:4px solid #be123c;'>
+                                <h4 style='color:#881337; margin:0 0 5px 0; font-size:14px;'>(ii) બિંદુ C ના યામ:</h4>
+                                <p style='margin:0; font-size:14px; color:#9f1239;'>x-અક્ષ પર 5 અને y-અક્ષ પર -5 છે. તેથી યામ <b>(5, -5)</b> મળે.</p>
+                            </div>
+
+                            <div style='flex:1; min-width:250px; background-color:#fff7ed; padding:10px; border-radius:5px; border-left:4px solid #ea580c;'>
+                                <h4 style='color:#9a3412; margin:0 0 5px 0; font-size:14px;'>(iii) (-3, -5) વાળું બિંદુ:</h4>
+                                <p style='margin:0; font-size:14px; color:#c2410c;'>x-અક્ષ પર -3 અને y-અક્ષ પર -5 વાળું બિંદુ <b>E</b> છે.</p>
+                            </div>
+
+                            <div style='flex:1; min-width:250px; background-color:#faf5ff; padding:10px; border-radius:5px; border-left:4px solid #9333ea;'>
+                                <h4 style='color:#6b21a8; margin:0 0 5px 0; font-size:14px;'>(iv) (2, -4) વાળું બિંદુ:</h4>
+                                <p style='margin:0; font-size:14px; color:#7e22ce;'>x-અક્ષ પર 2 અને y-અક્ષ પર -4 વાળું બિંદુ <b>G</b> છે.</p>
+                            </div>
+
+                            <div style='flex:1; min-width:250px; background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a;'>
+                                <h4 style='color:#14532d; margin:0 0 5px 0; font-size:14px;'>(v) બિંદુ D નો x-યામ (કોટિ):</h4>
+                                <p style='margin:0; font-size:14px; color:#15803d;'>બિંદુ D ના યામ (6, 2) છે. તેથી તેનો x-યામ <b>6</b> છે.</p>
+                            </div>
+
+                            <div style='flex:1; min-width:250px; background-color:#fef3c7; padding:10px; border-radius:5px; border-left:4px solid #d97706;'>
+                                <h4 style='color:#b45309; margin:0 0 5px 0; font-size:14px;'>(vi) બિંદુ H નો y-યામ (ભુજ):</h4>
+                                <p style='margin:0; font-size:14px; color:#b45309;'>બિંદુ H ના યામ (-5, -3) છે. તેથી તેનો y-યામ <b>-3</b> છે.</p>
+                            </div>
+
+                            <div style='flex:1; min-width:250px; background-color:#f8fafc; padding:10px; border-radius:5px; border-left:4px solid #475569;'>
+                                <h4 style='color:#0f172a; margin:0 0 5px 0; font-size:14px;'>(vii) બિંદુ L ના યામ:</h4>
+                                <p style='margin:0; font-size:14px; color:#334155;'>બિંદુ L માત્ર y-અક્ષ પર છે, તેનો x-યામ શૂન્ય થાય. તેથી યામ <b>(0, 5)</b> મળે.</p>
+                            </div>
+
+                            <div style='flex:1; min-width:250px; background-color:#f8fafc; padding:10px; border-radius:5px; border-left:4px solid #475569;'>
+                                <h4 style='color:#0f172a; margin:0 0 5px 0; font-size:14px;'>(viii) બિંદુ M ના યામ:</h4>
+                                <p style='margin:0; font-size:14px; color:#334155;'>બિંદુ M માત્ર x-અક્ષ પર છે, તેનો y-યામ શૂન્ય થાય. તેથી યામ <b>(-3, 0)</b> મળે.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>બે મહત્વની વાતો ગોખી લો:<br>
+                    1) <b>x-યામ ને 'કોટિ'</b> કહેવાય અને <b>y-યામ ને 'ભુજ'</b> કહેવાય. આ હેતુલક્ષી પ્રશ્નોમાં અવારનવાર પૂછાય છે.<br>
+                    2) જો બિંદુ <b>x-અક્ષ પર બેઠું હોય</b>, તો તેનો y-યામ હંમેશા શૂન્ય <b>(x, 0)</b> જ હોય. અને જો બિંદુ <b>y-અક્ષ પર બેઠું હોય</b>, તો તેનો x-યામ હંમેશા શૂન્ય <b>(0, y)</b> જ હોય!</p>
+                </div>`
+            }  
         ]
     }
     
