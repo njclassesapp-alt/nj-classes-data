@@ -2425,6 +2425,140 @@ var njMathsExercise = {
                 </div>`
                 }
         ]
+    },
+        
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 3: યામ ભૂમિતિ (સ્વાધ્યાય)
+    // ------------------------------------
+    "3": {
+        "chapterName": "પ્રકરણ 3",
+        "chapterTitle": "યામ ભૂમિતિ (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 3.1 - પ્રશ્ન 1",
+                "marks": 2,
+                "question": "બીજી કોઈ વ્યક્તિને તમારા અભ્યાસ કરવાના ટેબલ પર મૂકેલા ટેબલ લૅમ્પનું સ્થાન કેવી રીતે વર્ણવશો?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155;'><b>સમજૂતી:</b> ટેબલને આપણે એક <b>સમતલ (Plane)</b> તરીકે અને ટેબલ લૅમ્પને એક <b>બિંદુ (Point)</b> તરીકે લઈશું.</p>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>ટેબલ અને લૅમ્પની આકૃતિ</p>
+                        <svg viewBox="0 0 400 250" style="width:100%; min-width:320px; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="40" y="20" width="320" height="180" fill="#fef3c7" stroke="#d97706" stroke-width="4" rx="10"/>
+                            <text x="200" y="18" fill="#b45309" font-size="14" font-weight="bold" text-anchor="middle">લાંબી ધાર (x-અક્ષ)</text>
+                            <text x="25" y="110" fill="#b45309" font-size="14" font-weight="bold" transform="rotate(-90 25,110)" text-anchor="middle">ટૂંકી ધાર (y-અક્ષ)</text>
+                            
+                            <circle cx="40" cy="200" r="5" fill="#1e3a8a"/>
+                            <text x="20" y="215" fill="#1e3a8a" font-size="14" font-weight="bold">O</text>
+                            
+                            <circle cx="160" cy="110" r="12" fill="#ef4444"/>
+                            <circle cx="160" cy="110" r="6" fill="#fca5a5"/>
+                            <text x="175" y="105" fill="#b91c1c" font-size="14" font-weight="bold">લૅમ્પ P (25, 30)</text>
+                            
+                            <line x1="40" y1="110" x2="160" y2="110" stroke="#0284c7" stroke-width="2" stroke-dasharray="5,5"/>
+                            <line x1="160" y1="200" x2="160" y2="110" stroke="#16a34a" stroke-width="2" stroke-dasharray="5,5"/>
+                            
+                            <text x="100" y="100" fill="#0284c7" font-size="14" font-weight="bold" text-anchor="middle">30 cm</text>
+                            <text x="170" y="160" fill="#16a34a" font-size="14" font-weight="bold">25 cm</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <ul style='margin:0; padding-left:20px; font-size:15px; color:#14532d; line-height:1.6;'>
+                            <li>ટેબલની કોઈપણ બે લંબ (કાટખૂણે રહેલી) ધાર પસંદ કરો. દા.ત. ડાબી બાજુની ટૂંકી ધાર અને નીચેની લાંબી ધાર.</li>
+                            <li>ધારો કે લૅમ્પનું ડાબી બાજુની ટૂંકી ધારથી અંતર માપતાં <b>30 cm</b> મળે છે.</li>
+                            <li>અને લૅમ્પનું નીચેની લાંબી ધારથી અંતર માપતાં <b>25 cm</b> મળે છે.</li>
+                            <li>આથી, જો આપણે નીચેની ધારને x-અક્ષ અને ડાબી ધારને y-અક્ષ માનીએ, તો લૅમ્પનું સ્થાન <b>(25, 30)</b> અથવા (30, 25) કહી શકાય (કઈ ધારને x-અક્ષ માની છે તેના પર આધાર રાખે છે).</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ બીજું કઈ નહિ પણ <b>GPS લોકેશન</b> જ છે! જેમ નકશામાં અક્ષાંશ અને રેખાંશથી ચોક્કસ જગ્યા મળે, તેમ ટેબલ પર બે લાઈનોથી લૅમ્પનું ચોક્કસ લોકેશન (યામ) મળી જાય. (x, y) એટલે (નીચેથી અંતર, ડાબી બાજુથી અંતર).</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 3.1 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "શેરીનો નકશો (Street Plan): એક શહેરના બે મુખ્ય રસ્તાઓ શહેરના કેન્દ્ર આગળ એકબીજાને છેદે છે. આ બે રસ્તાઓ ઉત્તર-દક્ષિણ દિશાઓ અને પૂર્વ-પશ્ચિમ દિશાઓમાં છે. શહેરની બાકીની બધી શેરીઓ આ રસ્તાઓની સમાંતરે છે અને પરસ્પર 200 મીટર દૂર છે. દરેક દિશામાં 5 શેરીઓ છે. 1 cm = 200 m માપ લઈ તમારી નોટબુકમાં શહેરનું આદર્શ ચિત્ર દોરો.\n(i) કેટલી છેદતી શેરીઓનું નામાભિધાન (4, 3) તરીકે થઈ શકે?\n(ii) કેટલી છેદતી શેરીઓનું નામાભિધાન (3, 4) તરીકે થઈ શકે?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>શહેરનો નકશો (Street Plan Model)</p>
+                        <svg viewBox="-20 -20 380 380" style="width:100%; min-width:320px; max-width:400px; background-color:#ffffff; border:1px solid #e2e8f0;" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                                    <path d="M0,0 L0,6 L9,3 z" fill="#0f172a" />
+                                </marker>
+                            </defs>
+                            
+                            <line x1="0" y1="300" x2="350" y2="300" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)"/>
+                            <line x1="50" y1="350" x2="50" y2="0" stroke="#0f172a" stroke-width="3" marker-end="url(#arrow)"/>
+                            
+                            <text x="320" y="320" fill="#0f172a" font-size="12" font-weight="bold">પૂર્વ (E)</text>
+                            <text x="-15" y="305" fill="#0f172a" font-size="12" font-weight="bold">પશ્ચિમ (W)</text>
+                            <text x="55" y="10" fill="#0f172a" font-size="12" font-weight="bold">ઉત્તર (N)</text>
+                            <text x="55" y="360" fill="#0f172a" font-size="12" font-weight="bold">દક્ષિણ (S)</text>
+                            <text x="35" y="315" fill="#0f172a" font-size="12" font-weight="bold">C</text>
+                            
+                            <line x1="50" y1="250" x2="350" y2="250" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="50" y1="200" x2="350" y2="200" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="50" y1="150" x2="350" y2="150" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="50" y1="100" x2="350" y2="100" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="50" y1="50" x2="350" y2="50" stroke="#94a3b8" stroke-width="1.5"/>
+                            
+                            <text x="15" y="254" fill="#64748b" font-size="10">શેરી 1</text>
+                            <text x="15" y="204" fill="#64748b" font-size="10">શેરી 2</text>
+                            <text x="15" y="154" fill="#64748b" font-size="10">શેરી 3</text>
+                            <text x="15" y="104" fill="#64748b" font-size="10">શેરી 4</text>
+                            <text x="15" y="54" fill="#64748b" font-size="10">શેરી 5</text>
+                            
+                            <line x1="100" y1="300" x2="100" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="150" y1="300" x2="150" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="200" y1="300" x2="200" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="250" y1="300" x2="250" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+                            <line x1="300" y1="300" x2="300" y2="0" stroke="#94a3b8" stroke-width="1.5"/>
+                            
+                            <text x="85" y="320" fill="#64748b" font-size="10">શેરી 1</text>
+                            <text x="135" y="320" fill="#64748b" font-size="10">શેરી 2</text>
+                            <text x="185" y="320" fill="#64748b" font-size="10">શેરી 3</text>
+                            <text x="235" y="320" fill="#64748b" font-size="10">શેરી 4</text>
+                            <text x="285" y="320" fill="#64748b" font-size="10">શેરી 5</text>
+                            
+                            <circle cx="250" cy="150" r="6" fill="#be123c"/>
+                            <text x="260" y="145" fill="#be123c" font-size="12" font-weight="bold">(4, 3)</text>
+                            
+                            <circle cx="200" cy="100" r="6" fill="#1d4ed8"/>
+                            <text x="210" y="95" fill="#1d4ed8" font-size="12" font-weight="bold">(3, 4)</text>
+                        </svg>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:12px;'>
+                        <p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>જવાબો:</b></p>
+                        
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#881337; margin:0 0 5px 0;'>(i) કેટલી છેદતી શેરીઓનું નામાભિધાન (4, 3) તરીકે થઈ શકે?</h4>
+                            <p style='margin:0; font-size:14px; color:#9f1239;'>ઉત્તર-દક્ષિણ દિશાની ચોથી (4) શેરી અને પૂર્વ-પશ્ચિમ દિશાની ત્રીજી (3) શેરી માત્ર એક જ બિંદુમાં છેદે છે. તેથી, <b>માત્ર 1 (એક અને માત્ર એક જ)</b> છેદતી શેરીનું નામાભિધાન (4, 3) તરીકે થઈ શકે.</p>
+                        </div>
+
+                        <div style='background-color:#eff6ff; padding:12px; border-left:4px solid #1d4ed8; border-radius:5px;'>
+                            <h4 style='color:#1e3a8a; margin:0 0 5px 0;'>(ii) કેટલી છેદતી શેરીઓનું નામાભિધાન (3, 4) તરીકે થઈ શકે?</h4>
+                            <p style='margin:0; font-size:14px; color:#1e40af;'>ઉત્તર-દક્ષિણ દિશાની ત્રીજી (3) શેરી અને પૂર્વ-પશ્ચિમ દિશાની ચોથી (4) શેરી પણ માત્ર એક જ બિંદુમાં છેદે છે. તેથી, <b>માત્ર 1 (એક અને માત્ર એક જ)</b> છેદતી શેરીનું નામાભિધાન (3, 4) તરીકે થઈ શકે.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આખા ગ્રાફમાં કોઈપણ યામ (x, y) હંમેશા <b>અનન્ય (Unique)</b> જ હોય છે! એક નામનું એક જ ઘર હોય! તેથી આવા પ્રશ્નનો જવાબ હંમેશા <b>"માત્ર એક જ"</b> આવે. (4, 3) અને (3, 4) બંને તદ્દન અલગ જગ્યાઓ છે, તે ક્યારેય એક ન હોઈ શકે.</p>
+                </div>`
+            }
+            
+        ]
     }
+    
 };
 
