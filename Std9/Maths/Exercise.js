@@ -735,7 +735,162 @@ var njMathsExercise = {
                     <p style='margin:5px 0 0 0; font-size:14px; color:#78350f;'><b>સ્ટેપ 1:</b> છેદનું ચિહ્ન બદલીને પદને ઉપર (અંશમાં) મૂકી દો.<br><b>સ્ટેપ 2:</b> છેદમાં બંને સંખ્યાઓના વર્ગની બાદબાકી (મોટામાંથી નાનું) મૂકી દો.</p>
                     <p style='margin:5px 0 0 0; font-size:14px; color:#b45309; font-weight:bold;'>ઉદાહરણ તરીકે: 1 / (&radic;5 + &radic;2) &rarr; ચિહ્ન બદલો: &radic;5 - &radic;2 (આ અંશ છે). નીચે 5 - 2 = 3 મૂકો. જવાબ: (&radic;5 - &radic;2) / 3</p>
                 </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.5 - પ્રશ્ન 1",
+                "marks": 2,
+                "question": "કિંમત શોધો:\n(i) 64<sup>1/2</sup>\n(ii) 32<sup>1/5</sup>\n(iii) 125<sup>1/3</sup>", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'>
+                        <h4 style='color:#14532d; margin:0 0 8px 0; font-size:16px;'>(i) 64<sup>1/2</sup></h4>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bbf7d0;'>
+                            <p style='margin:0; font-size:15px; color:#166534; line-height:1.6;'>
+                                આપણે જાણીએ છીએ કે 64 એ 8 નો વર્ગ છે. એટલે કે 64 = 8<sup>2</sup><br>
+                                &there4; (8<sup>2</sup>)<sup>1/2</sup><br>
+                                <span style='color:#64748b; font-size:13px;'>[નિયમ: (a<sup>m</sup>)<sup>n</sup> = a<sup>m &times; n</sup> મુજબ ઘાતોનો ગુણાકાર થશે]</span><br>
+                                = 8<sup>2 &times; (1/2)</sup><br>
+                                = 8<sup>1</sup><br>
+                                = <b style='font-size:18px; color:#15803d;'>8</b>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #0284c7; border-radius:8px;'>
+                        <h4 style='color:#0c4a6e; margin:0 0 8px 0; font-size:16px;'>(ii) 32<sup>1/5</sup></h4>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #bae6fd;'>
+                            <p style='margin:0; font-size:15px; color:#0369a1; line-height:1.6;'>
+                                32 ના અવયવો પાડીએ તો: 32 = 2 &times; 2 &times; 2 &times; 2 &times; 2 = 2<sup>5</sup><br>
+                                &there4; (2<sup>5</sup>)<sup>1/5</sup><br>
+                                = 2<sup>5 &times; (1/5)</sup><br>
+                                = 2<sup>1</sup><br>
+                                = <b style='font-size:18px; color:#1d4ed8;'>2</b>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px;'>
+                        <h4 style='color:#881337; margin:0 0 8px 0; font-size:16px;'>(iii) 125<sup>1/3</sup></h4>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #fecdd3;'>
+                            <p style='margin:0; font-size:15px; color:#be123c; line-height:1.6;'>
+                                125 એ 5 નો ઘન છે. એટલે કે 125 = 5<sup>3</sup><br>
+                                &there4; (5<sup>3</sup>)<sup>1/3</sup><br>
+                                = 5<sup>3 &times; (1/3)</sup><br>
+                                = 5<sup>1</sup><br>
+                                = <b style='font-size:18px; color:#b91c1c;'>5</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.5 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "કિંમત શોધો:\n(i) 9<sup>3/2</sup>\n(ii) 32<sup>2/5</sup>\n(iii) 16<sup>3/4</sup>\n(iv) 125<sup>-1/3</sup>", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(i) 9<sup>3/2</sup></h4>
+                        <div style='background-color:#f8fafc; padding:10px; border-radius:5px; color:#334155;'>
+                            અહીં 9 = 3<sup>2</sup><br>
+                            &there4; (3<sup>2</sup>)<sup>3/2</sup><br>
+                            = 3<sup>2 &times; (3/2)</sup> <span style='color:#64748b; font-size:13px;'>(2 અને 2 ઊડી જશે)</span><br>
+                            = 3<sup>3</sup><br>
+                            = 3 &times; 3 &times; 3 = <b style='color:#047857; font-size:18px;'>27</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(ii) 32<sup>2/5</sup></h4>
+                        <div style='background-color:#f8fafc; padding:10px; border-radius:5px; color:#334155;'>
+                            અહીં 32 = 2<sup>5</sup><br>
+                            &there4; (2<sup>5</sup>)<sup>2/5</sup><br>
+                            = 2<sup>5 &times; (2/5)</sup> <span style='color:#64748b; font-size:13px;'>(5 અને 5 ઊડી જશે)</span><br>
+                            = 2<sup>2</sup><br>
+                            = 2 &times; 2 = <b style='color:#047857; font-size:18px;'>4</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(iii) 16<sup>3/4</sup></h4>
+                        <div style='background-color:#f8fafc; padding:10px; border-radius:5px; color:#334155;'>
+                            અહીં 16 = 2<sup>4</sup><br>
+                            &there4; (2<sup>4</sup>)<sup>3/4</sup><br>
+                            = 2<sup>4 &times; (3/4)</sup> <span style='color:#64748b; font-size:13px;'>(4 અને 4 ઊડી જશે)</span><br>
+                            = 2<sup>3</sup><br>
+                            = 2 &times; 2 &times; 2 = <b style='color:#047857; font-size:18px;'>8</b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#be123c; margin:0 0 8px 0;'>(iv) 125<sup>-1/3</sup></h4>
+                        <div style='background-color:#fff1f2; padding:10px; border-radius:5px; color:#881337;'>
+                            અહીં 125 = 5<sup>3</sup><br>
+                            &there4; (5<sup>3</sup>)<sup>-1/3</sup><br>
+                            = 5<sup>3 &times; (-1/3)</sup> <span style='color:#64748b; font-size:13px;'>(3 અને 3 ઊડી જશે)</span><br>
+                            = 5<sup>-1</sup><br>
+                            <span style='color:#64748b; font-size:13px;'>[નિયમ: a<sup>-n</sup> = 1/a<sup>n</sup> મુજબ]</span><br>
+                            = <b style='color:#be123c; font-size:18px;'>1 / 5</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:10px 0 0 0; font-size:15px; color:#854d0e;'>આવા દાખલામાં હંમેશા ઘાતાંકનો <b>છેદ</b> જુઓ. જેમ કે 32<sup>2/5</sup> માં છેદમાં <b>5</b> છે. તો સમજી લેવું કે કૌંસની અંદર આપેલી સંખ્યા કોઈકની <b>5 ઘાત</b> જ હશે! (અહીં 32 એ 2 ની 5 ઘાત છે). આ ટ્રીકથી દાખલો કઈ દિશામાં ગણવો તેનો સીધો આઇડિયા આવી જશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 1.5 - પ્રશ્ન 3",
+                "marks": 4,
+                "question": "સાદું રૂપ આપો:\n(i) 2<sup>2/3</sup> &cdot; 2<sup>1/5</sup>\n(ii) (1 / 3<sup>3</sup>)<sup>7</sup>\n(iii) 11<sup>1/2</sup> / 11<sup>1/4</sup>\n(iv) 7<sup>1/2</sup> &cdot; 8<sup>1/2</sup>", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#f4f4f5; padding:15px; border-left:4px solid #52525b; border-radius:5px;'>
+                        <h4 style='color:#27272a; margin:0 0 8px 0;'>(i) 2<sup>2/3</sup> &cdot; 2<sup>1/5</sup></h4>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#52525b;'><b>નિયમ:</b> આધાર સરખો હોય અને ગુણાકાર હોય, તો ઘાતાંકનો સરવાળો થાય. (a<sup>m</sup> &cdot; a<sup>n</sup> = a<sup>m+n</sup>)</p>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                            = 2<sup>(2/3 + 1/5)</sup><br>
+                            <span style='color:#64748b; font-size:13px;'>(લ.સા.અ. 15 લેતા)</span><br>
+                            = 2<sup>(10 + 3) / 15</sup><br>
+                            = <b style='color:#1e3a8a; font-size:16px;'>2<sup>13/15</sup></b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#f4f4f5; padding:15px; border-left:4px solid #52525b; border-radius:5px;'>
+                        <h4 style='color:#27272a; margin:0 0 8px 0;'>(ii) (1 / 3<sup>3</sup>)<sup>7</sup></h4>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#52525b;'><b>નિયમ:</b> (a/b)<sup>m</sup> = a<sup>m</sup> / b<sup>m</sup></p>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                            = 1<sup>7</sup> / (3<sup>3</sup>)<sup>7</sup><br>
+                            = 1 / 3<sup>(3 &times; 7)</sup><br>
+                            = 1 / 3<sup>21</sup> <br>
+                            = <b style='color:#1e3a8a; font-size:16px;'>3<sup>-21</sup></b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#f4f4f5; padding:15px; border-left:4px solid #52525b; border-radius:5px;'>
+                        <h4 style='color:#27272a; margin:0 0 8px 0;'>(iii) 11<sup>1/2</sup> / 11<sup>1/4</sup></h4>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#52525b;'><b>નિયમ:</b> આધાર સરખો હોય અને ભાગાકાર હોય, તો ઘાતાંકની બાદબાકી થાય. (a<sup>m</sup> / a<sup>n</sup> = a<sup>m-n</sup>)</p>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                            = 11<sup>(1/2 - 1/4)</sup><br>
+                            <span style='color:#64748b; font-size:13px;'>(અડધામાંથી પા બાદ જાય તો પા વધે, અથવા લ.સા.અ. 4 લેતા)</span><br>
+                            = 11<sup>(2 - 1) / 4</sup><br>
+                            = <b style='color:#1e3a8a; font-size:16px;'>11<sup>1/4</sup></b>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#f4f4f5; padding:15px; border-left:4px solid #52525b; border-radius:5px;'>
+                        <h4 style='color:#27272a; margin:0 0 8px 0;'>(iv) 7<sup>1/2</sup> &cdot; 8<sup>1/2</sup></h4>
+                        <p style='margin:0 0 5px 0; font-size:14px; color:#52525b;'><b>નિયમ:</b> આધાર અલગ હોય પરંતુ ઘાતાંક સરખો હોય, તો આધારનો ગુણાકાર થાય. (a<sup>m</sup> &cdot; b<sup>m</sup> = (ab)<sup>m</sup>)</p>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e4e4e7;'>
+                            = (7 &times; 8)<sup>1/2</sup><br>
+                            = <b style='color:#1e3a8a; font-size:16px;'>56<sup>1/2</sup></b>
+                        </div>
+                    </div>
+                </div>`
             }
+            
             
         ]
     }
