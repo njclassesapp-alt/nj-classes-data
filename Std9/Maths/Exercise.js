@@ -1129,9 +1129,297 @@ var njMathsExercise = {
                     &bull; જો <b>2 ઘાત</b> હોય &rarr; દ્વિઘાત<br>
                     &bull; જો <b>3 ઘાત</b> હોય &rarr; ત્રિઘાત</p>
                 </div>`
-            }
-    
-            
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.2 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "x ની નીચેની કિંમતો માટે 5x - 4x² + 3 બહુપદીનું મૂલ્ય શોધો:\n(i) x = 0\n(ii) x = -1\n(iii) x = 2", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>સમજૂતી: બહુપદી p(x) = 5x - 4x<sup>2</sup> + 3 માં જ્યાં પણ 'x' દેખાય, ત્યાં આપેલી કિંમત મૂકવાની છે.</p>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg width="280" height="120" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="10" y="40" width="40" height="40" rx="5" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            <text x="30" y="65" fill="#0284c7" font-size="16" font-weight="bold" text-anchor="middle">x</text>
+                            
+                            <line x1="50" y1="60" x2="80" y2="60" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+                            
+                            <rect x="80" y="20" width="120" height="80" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            <text x="140" y="55" fill="#14532d" font-size="14" font-weight="bold" text-anchor="middle">p(x) મશીન</text>
+                            <text x="140" y="80" fill="#166534" font-size="12" font-weight="bold" text-anchor="middle">5x - 4x&sup2; + 3</text>
+                            
+                            <line x1="200" y1="60" x2="230" y2="60" stroke="#64748b" stroke-width="3" marker-end="url(#arrow)"/>
+                            
+                            <rect x="230" y="40" width="40" height="40" rx="5" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/>
+                            <text x="250" y="65" fill="#ea580c" font-size="16" font-weight="bold" text-anchor="middle">જવાબ</text>
+                            
+                            <defs>
+                                <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+                                    <path d="M0,0 L0,6 L9,3 z" fill="#64748b" />
+                                </marker>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:12px;'>
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0; font-size:15px;'>(i) x = 0 મૂકતાં:</h4>
+                            <div style='background-color:#ffffff; padding:8px; border-radius:5px; border:1px solid #bae6fd; font-size:15px; line-height:1.6;'>
+                                p(0) = 5(0) - 4(0)<sup>2</sup> + 3<br>
+                                p(0) = 0 - 4(0) + 3<br>
+                                <b>p(0) = <span style='color:#0284c7; font-size:18px;'>3</span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0; font-size:15px;'>(ii) x = -1 મૂકતાં:</h4>
+                            <div style='background-color:#ffffff; padding:8px; border-radius:5px; border:1px solid #fecdd3; font-size:15px; line-height:1.6;'>
+                                p(-1) = 5(-1) - 4(-1)<sup>2</sup> + 3<br>
+                                <span style='color:#64748b; font-size:13px;'>(નોંધ: માઇનસ સંખ્યાનો વર્ગ હંમેશા પ્લસ થાય, એટલે (-1)<sup>2</sup> = 1)</span><br>
+                                p(-1) = -5 - 4(1) + 3<br>
+                                p(-1) = -5 - 4 + 3<br>
+                                p(-1) = -9 + 3<br>
+                                <b>p(-1) = <span style='color:#be123c; font-size:18px;'>-6</span></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                            <h4 style='color:#14532d; margin:0 0 8px 0; font-size:15px;'>(iii) x = 2 મૂકતાં:</h4>
+                            <div style='background-color:#ffffff; padding:8px; border-radius:5px; border:1px solid #bbf7d0; font-size:15px; line-height:1.6;'>
+                                p(2) = 5(2) - 4(2)<sup>2</sup> + 3<br>
+                                p(2) = 10 - 4(4) + 3<br>
+                                p(2) = 10 - 16 + 3<br>
+                                p(2) = 13 - 16<br>
+                                <b>p(2) = <span style='color:#16a34a; font-size:18px;'>-3</span></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.2 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "નીચે આપેલ દરેક બહુપદી માટે p(0), p(1) અને p(2) શોધો:\n(i) p(y) = y² - y + 1\n(ii) p(t) = 2 + t + 2t² - t³\n(iii) p(x) = x³\n(iv) p(x) = (x - 1)(x + 1)", 
+                "answer": `
+                <div style='display:flex; flex-direction:column; gap:15px;'>
+                    <div style='background-color:#ffffff; padding:12px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(i) p(y) = y<sup>2</sup> - y + 1</h4>
+                        <div style='display:flex; flex-wrap:wrap; gap:10px; font-size:14px;'>
+                            <div style='flex:1; min-width:100px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #0284c7;'>
+                                <b>y = 0 મૂકતાં:</b><br>
+                                p(0) = (0)<sup>2</sup> - 0 + 1<br>
+                                <b>p(0) = 1</b>
+                            </div>
+                            <div style='flex:1; min-width:100px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #16a34a;'>
+                                <b>y = 1 મૂકતાં:</b><br>
+                                p(1) = (1)<sup>2</sup> - 1 + 1<br>
+                                p(1) = 1 - 1 + 1<br>
+                                <b>p(1) = 1</b>
+                            </div>
+                            <div style='flex:1; min-width:100px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #ea580c;'>
+                                <b>y = 2 મૂકતાં:</b><br>
+                                p(2) = (2)<sup>2</sup> - 2 + 1<br>
+                                p(2) = 4 - 2 + 1<br>
+                                <b>p(2) = 3</b>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:12px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(ii) p(t) = 2 + t + 2t<sup>2</sup> - t<sup>3</sup></h4>
+                        <div style='display:flex; flex-wrap:wrap; gap:10px; font-size:14px;'>
+                            <div style='flex:1; min-width:150px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #0284c7;'>
+                                <b>t = 0 મૂકતાં:</b><br>
+                                p(0) = 2 + 0 + 0 - 0<br>
+                                <b>p(0) = 2</b>
+                            </div>
+                            <div style='flex:1; min-width:150px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #16a34a;'>
+                                <b>t = 1 મૂકતાં:</b><br>
+                                p(1) = 2 + 1 + 2(1)<sup>2</sup> - (1)<sup>3</sup><br>
+                                p(1) = 3 + 2 - 1<br>
+                                <b>p(1) = 4</b>
+                            </div>
+                            <div style='flex:1; min-width:150px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #ea580c;'>
+                                <b>t = 2 મૂકતાં:</b><br>
+                                p(2) = 2 + 2 + 2(2)<sup>2</sup> - (2)<sup>3</sup><br>
+                                p(2) = 4 + 2(4) - 8<br>
+                                p(2) = 4 + 8 - 8<br>
+                                <b>p(2) = 4</b>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:12px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(iii) p(x) = x<sup>3</sup></h4>
+                        <div style='display:flex; flex-wrap:wrap; gap:10px; font-size:14px;'>
+                            <div style='flex:1; min-width:100px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #0284c7;'>
+                                p(0) = (0)<sup>3</sup> = <b>0</b>
+                            </div>
+                            <div style='flex:1; min-width:100px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #16a34a;'>
+                                p(1) = (1)<sup>3</sup> = <b>1</b>
+                            </div>
+                            <div style='flex:1; min-width:100px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #ea580c;'>
+                                p(2) = (2)<sup>3</sup> = <b>8</b>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:12px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(iv) p(x) = (x - 1)(x + 1)</h4>
+                        <div style='display:flex; flex-wrap:wrap; gap:10px; font-size:14px;'>
+                            <div style='flex:1; min-width:120px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #0284c7;'>
+                                <b>x = 0 મૂકતાં:</b><br>
+                                p(0) = (0 - 1)(0 + 1)<br>
+                                p(0) = (-1)(1) = <b>-1</b>
+                            </div>
+                            <div style='flex:1; min-width:120px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #16a34a;'>
+                                <b>x = 1 મૂકતાં:</b><br>
+                                p(1) = (1 - 1)(1 + 1)<br>
+                                p(1) = (0)(2) = <b>0</b>
+                            </div>
+                            <div style='flex:1; min-width:120px; background-color:#f8fafc; padding:8px; border-radius:5px; border-top:3px solid #ea580c;'>
+                                <b>x = 2 મૂકતાં:</b><br>
+                                p(2) = (2 - 1)(2 + 1)<br>
+                                p(2) = (1)(3) = <b>3</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 2.2 - પ્રશ્ન 3",
+                "marks": 4,
+                "question": "નીચેની બહુપદીની સામે દર્શાવેલ x ની કિંમતો એ આપેલ બહુપદીનાં શૂન્યો છે કે નહિ તે ચકાસો:", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155;'><b>નિયમ:</b> x ની કિંમત બહુપદીમાં મૂકતાં જો છેલ્લો જવાબ <b>શૂન્ય (0)</b> આવે, તો તે બહુપદીનું શૂન્ય <b>છે</b>. જો શૂન્ય સિવાય કોઈ પણ સંખ્યા આવે, તો તે શૂન્ય <b>નથી</b>.</p>
+                    
+                    <div style='overflow-x:auto;'>
+                        <div style='display:flex; flex-direction:column; gap:10px; min-width:350px;'>
+                            
+                            <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <b>(i) p(x) = 3x + 1; x = -1/3</b><br>
+                                p(-1/3) = 3(-1/3) + 1 = -1 + 1 = 0<br>
+                                <span style='color:#16a34a; font-weight:bold;'>જવાબ: હા, શૂન્ય છે.</span>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:10px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <b>(ii) p(x) = 5x - &pi;; x = 4/5</b><br>
+                                p(4/5) = 5(4/5) - &pi; = 4 - &pi; (&ne; 0)<br>
+                                <span style='color:#be123c; font-weight:bold;'>જવાબ: ના, શૂન્ય નથી.</span>
+                            </div>
+
+                            <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <b>(iii) p(x) = x<sup>2</sup> - 1; x = 1, -1</b><br>
+                                x = 1 લેતાં: p(1) = (1)<sup>2</sup> - 1 = 1 - 1 = 0 (હા)<br>
+                                x = -1 લેતાં: p(-1) = (-1)<sup>2</sup> - 1 = 1 - 1 = 0 (હા)<br>
+                                <span style='color:#16a34a; font-weight:bold;'>જવાબ: હા, 1 અને -1 બંને શૂન્ય છે.</span>
+                            </div>
+
+                            <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <b>(iv) p(x) = (x + 1)(x - 2); x = -1, 2</b><br>
+                                x = -1 લેતાં: p(-1) = (-1 + 1)(-1 - 2) = (0)(-3) = 0 (હા)<br>
+                                x = 2 લેતાં: p(2) = (2 + 1)(2 - 2) = (3)(0) = 0 (હા)<br>
+                                <span style='color:#16a34a; font-weight:bold;'>જવાબ: હા, બંને શૂન્ય છે.</span>
+                            </div>
+
+                            <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <b>(v) p(x) = x<sup>2</sup>; x = 0</b><br>
+                                p(0) = (0)<sup>2</sup> = 0<br>
+                                <span style='color:#16a34a; font-weight:bold;'>જવાબ: હા, શૂન્ય છે.</span>
+                            </div>
+
+                            <div style='background-color:#f0fdf4; padding:10px; border-left:4px solid #16a34a; border-radius:5px;'>
+                                <b>(vi) p(x) = lx + m; x = -m/l</b><br>
+                                p(-m/l) = l(-m/l) + m = -m + m = 0<br>
+                                <span style='color:#16a34a; font-weight:bold;'>જવાબ: હા, શૂન્ય છે.</span>
+                            </div>
+
+                            <div style='background-color:#f8fafc; padding:10px; border-left:4px solid #0284c7; border-radius:5px;'>
+                                <b>(vii) p(x) = 3x<sup>2</sup> - 1; x = -1/&radic;3, 2/&radic;3</b><br>
+                                x = -1/&radic;3 લેતાં: p(-1/&radic;3) = 3(-1/&radic;3)<sup>2</sup> - 1 = 3(1/3) - 1 = 1 - 1 = 0 <span style='color:#16a34a; font-weight:bold;'>(હા)</span><br>
+                                x = 2/&radic;3 લેતાં: p(2/&radic;3) = 3(2/&radic;3)<sup>2</sup> - 1 = 3(4/3) - 1 = 4 - 1 = 3 <span style='color:#be123c; font-weight:bold;'>(ના)</span><br>
+                                <span style='color:#0284c7; font-weight:bold;'>જવાબ: -1/&radic;3 શૂન્ય છે, પરંતુ 2/&radic;3 શૂન્ય નથી.</span>
+                            </div>
+
+                            <div style='background-color:#fff1f2; padding:10px; border-left:4px solid #be123c; border-radius:5px;'>
+                                <b>(viii) p(x) = 2x + 1; x = 1/2</b><br>
+                                p(1/2) = 2(1/2) + 1 = 1 + 1 = 2 (&ne; 0)<br>
+                                <span style='color:#be123c; font-weight:bold;'>જવાબ: ના, શૂન્ય નથી.</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>`
+            },
+                  { 
+                "questionNumber": "સ્વાધ્યાય 2.2 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "નીચે આપેલી દરેક બહુપદીનાં શૂન્યો શોધો:", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>બહુપદીનું શૂન્ય શોધવા માટે આપણે હંમેશા p(x) = 0 લઈશું.</p>
+                    
+                    <div style='display:flex; flex-wrap:wrap; gap:12px;'>
+                        <div style='flex:1; min-width:200px; background-color:#f8fafc; padding:10px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(i) p(x) = x + 5</h4>
+                            <p style='margin:0; font-size:14px;'>x + 5 = 0<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = -5</b></p>
+                        </div>
+
+                        <div style='flex:1; min-width:200px; background-color:#f8fafc; padding:10px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(ii) p(x) = x - 5</h4>
+                            <p style='margin:0; font-size:14px;'>x - 5 = 0<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 5</b></p>
+                        </div>
+
+                        <div style='flex:1; min-width:200px; background-color:#f8fafc; padding:10px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(iii) p(x) = 2x + 5</h4>
+                            <p style='margin:0; font-size:14px;'>2x + 5 = 0<br>
+                            &there4; 2x = -5<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = -5/2</b></p>
+                        </div>
+
+                        <div style='flex:1; min-width:200px; background-color:#f8fafc; padding:10px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(iv) p(x) = 3x - 2</h4>
+                            <p style='margin:0; font-size:14px;'>3x - 2 = 0<br>
+                            &there4; 3x = 2<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 2/3</b></p>
+                        </div>
+
+                        <div style='flex:1; min-width:200px; background-color:#f8fafc; padding:10px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(v) p(x) = 3x</h4>
+                            <p style='margin:0; font-size:14px;'>3x = 0<br>
+                            &there4; x = 0/3<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 0</b></p>
+                        </div>
+
+                        <div style='flex:1; min-width:200px; background-color:#f8fafc; padding:10px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(vi) p(x) = ax (a &ne; 0)</h4>
+                            <p style='margin:0; font-size:14px;'>ax = 0<br>
+                            &there4; x = 0/a<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 0</b></p>
+                        </div>
+
+                        <div style='flex:1; min-width:200px; background-color:#f8fafc; padding:10px; border-radius:5px; border:1px solid #e2e8f0;'>
+                            <h4 style='color:#0f172a; margin:0 0 5px 0;'>(vii) p(x) = cx + d (c &ne; 0)</h4>
+                            <p style='margin:0; font-size:14px;'>cx + d = 0<br>
+                            &there4; cx = -d<br>
+                            &there4; <b style='color:#16a34a; font-size:16px;'>x = -d/c</b></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>કોઈપણ <b>સુરેખ બહુપદી (ax + b)</b> નું શૂન્ય ગણતરી કર્યા વગર સીધું જ શોધવું હોય, તો બસ આ 2 સ્ટેપ ફોલો કરો:<br>
+                    <b>સ્ટેપ 1:</b> અચળ પદ (b) ની નિશાની બદલી નાખો (પ્લસ હોય તો માઇનસ, માઇનસ હોય તો પ્લસ). આ તમારો <b>અંશ</b> બનશે.<br>
+                    <b>સ્ટેપ 2:</b> x ની સાથે જે સંખ્યા ગુણાયેલી હોય (a), તેને છેદમાં મૂકી દો.<br>
+                    <b>ઉદાહરણ:</b> 3x - 2 નું શૂન્ય &rarr; -2 નું નિશાન બદલતા +2 થાય, અને 3 છેદમાં જાય. સીધો જવાબ: <b>2/3</b> !</p>
+                </div>`
+                  }
         ]
     }
 };
