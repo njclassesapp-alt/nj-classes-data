@@ -8636,7 +8636,247 @@ var njMathsExercise = {
                     <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>લંબ આલેખ (Bar Graph) અને સ્તંભાલેખ (Histogram) વચ્ચેનો મુખ્ય તફાવત યાદ રાખો: <b>લંબ આલેખમાં સ્તંભો વચ્ચે જગ્યા (Gap) હોય છે, જ્યારે સ્તંભાલેખમાં સ્તંભો એકબીજા સાથે ચોંટેલા (સતત) હોય છે.</b> જો રકમમાં વર્ગો વચ્ચે ગેપ હોય (જેમ કે 126 અને 127), તો 0.5 બાદ અને પ્લસ કરીને વર્ગોને પહેલા ચોંટાડવા પડે!</p>
                 </div>`
-            }
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 12.1 - પ્રશ્ન 4",
+                "marks": 4,
+                "question": "નીચેનું કોષ્ટક 400 નિઓન ગોળા (Neon Lamps) નું આયુષ્ય આપે છે:<br>આયુષ્ય (કલાકમાં): 300-400, 400-500, 500-600, 600-700, 700-800, 800-900, 900-1000<br>ગોળાની સંખ્યા: 14, 56, 60, 86, 74, 62, 48<br>(i) આપેલી માહિતીને દર્શાવતો સ્તંભાલેખ દોરો.<br>(ii) કેટલા ગોળાઓનું આયુષ્ય 700 કલાકથી વધુ છે?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#334155; font-weight:bold;'>(i) સ્તંભાલેખ (Histogram):</p>
+                    
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 500 300" style="width:100%; min-width:480px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="50" y1="50" x2="480" y2="50" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="90" x2="480" y2="90" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="130" x2="480" y2="130" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="170" x2="480" y2="170" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="210" x2="480" y2="210" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="30" x2="50" y2="250" stroke="#0f172a" stroke-width="2"/> <line x1="50" y1="250" x2="480" y2="250" stroke="#0f172a" stroke-width="2"/> <polyline points="55,250 60,240 65,260 70,250" fill="none" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <text x="40" y="255" fill="#475569" font-size="12" text-anchor="end">0</text>
+                            <text x="40" y="215" fill="#475569" font-size="12" text-anchor="end">20</text>
+                            <text x="40" y="175" fill="#475569" font-size="12" text-anchor="end">40</text>
+                            <text x="40" y="135" fill="#475569" font-size="12" text-anchor="end">60</text>
+                            <text x="40" y="95" fill="#475569" font-size="12" text-anchor="end">80</text>
+                            <text x="40" y="55" fill="#475569" font-size="12" text-anchor="end">100</text>
+                            
+                            <text x="15" y="140" fill="#0f172a" font-weight="bold" font-size="12" transform="rotate(-90 15,140)" text-anchor="middle">ગોળાની સંખ્યા</text>
+                            <text x="265" y="290" fill="#0f172a" font-weight="bold" font-size="12" text-anchor="middle">આયુષ્ય (કલાકમાં)</text>
+                            
+                            <rect x="80" y="222" width="50" height="28" fill="#f59e0b" stroke="#b45309" stroke-width="1"/>
+                            <text x="105" y="217" fill="#b45309" font-size="10" font-weight="bold" text-anchor="middle">14</text>
+                            
+                            <rect x="130" y="138" width="50" height="112" fill="#f59e0b" stroke="#b45309" stroke-width="1"/>
+                            <text x="155" y="133" fill="#b45309" font-size="10" font-weight="bold" text-anchor="middle">56</text>
+                            
+                            <rect x="180" y="130" width="50" height="120" fill="#f59e0b" stroke="#b45309" stroke-width="1"/>
+                            <text x="205" y="125" fill="#b45309" font-size="10" font-weight="bold" text-anchor="middle">60</text>
+                            
+                            <rect x="230" y="78" width="50" height="172" fill="#f59e0b" stroke="#b45309" stroke-width="1"/>
+                            <text x="255" y="73" fill="#b45309" font-size="10" font-weight="bold" text-anchor="middle">86</text>
+                            
+                            <rect x="280" y="102" width="50" height="148" fill="#10b981" stroke="#047857" stroke-width="1"/>
+                            <text x="305" y="97" fill="#047857" font-size="10" font-weight="bold" text-anchor="middle">74</text>
+                            
+                            <rect x="330" y="126" width="50" height="124" fill="#10b981" stroke="#047857" stroke-width="1"/>
+                            <text x="355" y="121" fill="#047857" font-size="10" font-weight="bold" text-anchor="middle">62</text>
+                            
+                            <rect x="380" y="154" width="50" height="96" fill="#10b981" stroke="#047857" stroke-width="1"/>
+                            <text x="405" y="149" fill="#047857" font-size="10" font-weight="bold" text-anchor="middle">48</text>
+                            
+                            <text x="80" y="265" fill="#475569" font-size="10" text-anchor="middle">300</text>
+                            <text x="130" y="265" fill="#475569" font-size="10" text-anchor="middle">400</text>
+                            <text x="180" y="265" fill="#475569" font-size="10" text-anchor="middle">500</text>
+                            <text x="230" y="265" fill="#475569" font-size="10" text-anchor="middle">600</text>
+                            <text x="280" y="265" fill="#475569" font-size="10" text-anchor="middle">700</text>
+                            <text x="330" y="265" fill="#475569" font-size="10" text-anchor="middle">800</text>
+                            <text x="380" y="265" fill="#475569" font-size="10" text-anchor="middle">900</text>
+                            <text x="430" y="265" fill="#475569" font-size="10" text-anchor="middle">1000</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 5px 0; font-size:15px; color:#14532d; font-weight:bold;'>(ii) 700 કલાકથી વધુ આયુષ્ય ધરાવતા ગોળાઓ:</p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            700 કલાકથી વધુ એટલે કે 700-800, 800-900 અને 900-1000 ના વર્ગની આવૃત્તિઓનો સરવાળો (જે આલેખમાં <b>લીલા રંગ</b> થી દર્શાવેલ છે).<br>
+                            કુલ ગોળાઓ = 74 + 62 + 48<br>
+                            <b style='color:#15803d; font-size:16px;'>= 184 ગોળાઓ</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 12.1 - પ્રશ્ન 5",
+                "marks": 5,
+                "question": "નીચે આપેલા કોષ્ટકમાં એક પરીક્ષામાં બે વિભાગ (Section A અને Section B) ના વિદ્યાર્થીઓએ મેળવેલા ગુણ આપેલા છે:<br>ગુણ (0-10, 10-20, 20-30, 30-40, 40-50)<br>વિભાગ A ની આવૃત્તિ: 3, 9, 17, 12, 9<br>વિભાગ B ની આવૃત્તિ: 5, 19, 15, 10, 1<br>બંને વિભાગના વિદ્યાર્થીઓનો દેખાવ એક જ આલેખમાં 'આવૃત્તિ બહુકોણ' (Frequency Polygon) દ્વારા દર્શાવો અને બંનેના દેખાવની તુલના કરો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fffbeb; padding:12px; border-left:4px solid #d97706; border-radius:5px; margin-bottom:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#92400e;'><b>પગલું 1: વર્ગ-મધ્યક (Class Mark) શોધવો:</b></p>
+                        <div style='font-size:14px; color:#b45309; line-height:1.8;'>
+                            આવૃત્તિ બહુકોણ દોરવા માટે આપણે દરેક વર્ગની <b>વર્ગ-મધ્યક = (નીચલી સીમા + ઉપલી સીમા) / 2</b> શોધવી પડે. આલેખને બંધ કરવા માટે શરૂઆતમાં એક કાલ્પનિક વર્ગ (-10 થી 0) અને અંતમાં એક વર્ગ (50 થી 60) લેવો પડે, જેમની આવૃત્તિ 0 હોય.
+                        </div>
+                    </div>
+
+                    <div style='overflow-x:auto; margin-bottom:15px;'>
+                        <table style='width:100%; min-width:400px; border-collapse:collapse; text-align:center; font-size:14px;'>
+                            <thead>
+                                <tr style='background-color:#1e3a8a; color:#ffffff;'>
+                                    <th style='padding:10px; border:1px solid #cbd5e1;'>ગુણ (વર્ગ)</th>
+                                    <th style='padding:10px; border:1px solid #cbd5e1; background-color:#1e40af;'>વર્ગ-મધ્યક (x-axis)</th>
+                                    <th style='padding:10px; border:1px solid #cbd5e1; color:#fde047;'>વિભાગ A (y-axis)</th>
+                                    <th style='padding:10px; border:1px solid #cbd5e1; color:#fde047;'>વિભાગ B (y-axis)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style='background-color:#f1f5f9; color:#64748b;'>
+                                    <td style='padding:8px; border:1px solid #cbd5e1;'>(-10 - 0)</td><td style='padding:8px; border:1px solid #cbd5e1;'>-5</td><td style='padding:8px; border:1px solid #cbd5e1;'>0</td><td style='padding:8px; border:1px solid #cbd5e1;'>0</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:8px; border:1px solid #cbd5e1;'>0 - 10</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>5</td><td style='padding:8px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>3</td><td style='padding:8px; border:1px solid #cbd5e1; color:#1d4ed8; font-weight:bold;'>5</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:8px; border:1px solid #cbd5e1;'>10 - 20</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>15</td><td style='padding:8px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>9</td><td style='padding:8px; border:1px solid #cbd5e1; color:#1d4ed8; font-weight:bold;'>19</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:8px; border:1px solid #cbd5e1;'>20 - 30</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>25</td><td style='padding:8px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>17</td><td style='padding:8px; border:1px solid #cbd5e1; color:#1d4ed8; font-weight:bold;'>15</td>
+                                </tr>
+                                <tr style='background-color:#f8fafc;'>
+                                    <td style='padding:8px; border:1px solid #cbd5e1;'>30 - 40</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>35</td><td style='padding:8px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>12</td><td style='padding:8px; border:1px solid #cbd5e1; color:#1d4ed8; font-weight:bold;'>10</td>
+                                </tr>
+                                <tr>
+                                    <td style='padding:8px; border:1px solid #cbd5e1;'>40 - 50</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>45</td><td style='padding:8px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>9</td><td style='padding:8px; border:1px solid #cbd5e1; color:#1d4ed8; font-weight:bold;'>1</td>
+                                </tr>
+                                <tr style='background-color:#f1f5f9; color:#64748b;'>
+                                    <td style='padding:8px; border:1px solid #cbd5e1;'>(50 - 60)</td><td style='padding:8px; border:1px solid #cbd5e1;'>55</td><td style='padding:8px; border:1px solid #cbd5e1;'>0</td><td style='padding:8px; border:1px solid #cbd5e1;'>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p style='margin:0 0 10px 0; font-size:15px; color:#334155; font-weight:bold;'>પગલું 2: આવૃત્તિ બહુકોણ (Frequency Polygon)</p>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1;'>
+                        <svg viewBox="0 0 500 300" style="width:100%; min-width:480px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="50" y1="50" x2="480" y2="50" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="90" x2="480" y2="90" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="130" x2="480" y2="130" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="170" x2="480" y2="170" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="210" x2="480" y2="210" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="30" x2="50" y2="250" stroke="#0f172a" stroke-width="2"/> <line x1="50" y1="250" x2="480" y2="250" stroke="#0f172a" stroke-width="2"/> <text x="40" y="255" fill="#475569" font-size="12" text-anchor="end">0</text>
+                            <text x="40" y="215" fill="#475569" font-size="12" text-anchor="end">4</text>
+                            <text x="40" y="175" fill="#475569" font-size="12" text-anchor="end">8</text>
+                            <text x="40" y="135" fill="#475569" font-size="12" text-anchor="end">12</text>
+                            <text x="40" y="95" fill="#475569" font-size="12" text-anchor="end">16</text>
+                            <text x="40" y="55" fill="#475569" font-size="12" text-anchor="end">20</text>
+                            
+                            <text x="15" y="140" fill="#0f172a" font-weight="bold" font-size="12" transform="rotate(-90 15,140)" text-anchor="middle">વિદ્યાર્થીઓની સંખ્યા</text>
+                            <text x="265" y="290" fill="#0f172a" font-weight="bold" font-size="12" text-anchor="middle">ગુણ (વર્ગ-મધ્યક)</text>
+                            
+                            <line x1="360" y1="40" x2="380" y2="40" stroke="#be123c" stroke-width="2"/>
+                            <circle cx="370" cy="40" r="3" fill="#be123c"/>
+                            <text x="390" y="45" fill="#be123c" font-size="12" font-weight="bold">વિભાગ A</text>
+                            
+                            <line x1="360" y1="60" x2="380" y2="60" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="4,4"/>
+                            <circle cx="370" cy="60" r="3" fill="#1d4ed8"/>
+                            <text x="390" y="65" fill="#1d4ed8" font-size="12" font-weight="bold">વિભાગ B</text>
+                            
+                            <polyline points="70,250 130,220 190,160 250,80 310,130 370,160 430,250" fill="none" stroke="#be123c" stroke-width="2"/>
+                            <circle cx="70" cy="250" r="4" fill="#be123c"/><circle cx="130" cy="220" r="4" fill="#be123c"/><circle cx="190" cy="160" r="4" fill="#be123c"/><circle cx="250" cy="80" r="4" fill="#be123c"/><circle cx="310" cy="130" r="4" fill="#be123c"/><circle cx="370" cy="160" r="4" fill="#be123c"/><circle cx="430" cy="250" r="4" fill="#be123c"/>
+                            
+                            <polyline points="70,250 130,200 190,60 250,100 310,150 370,240 430,250" fill="none" stroke="#1d4ed8" stroke-width="2" stroke-dasharray="5,5"/>
+                            <circle cx="70" cy="250" r="4" fill="#1d4ed8"/><circle cx="130" cy="200" r="4" fill="#1d4ed8"/><circle cx="190" cy="60" r="4" fill="#1d4ed8"/><circle cx="250" cy="100" r="4" fill="#1d4ed8"/><circle cx="310" cy="150" r="4" fill="#1d4ed8"/><circle cx="370" cy="240" r="4" fill="#1d4ed8"/><circle cx="430" cy="250" r="4" fill="#1d4ed8"/>
+                            
+                            <text x="70" y="265" fill="#475569" font-size="10" text-anchor="middle">-5</text>
+                            <text x="130" y="265" fill="#475569" font-size="10" text-anchor="middle">5</text>
+                            <text x="190" y="265" fill="#475569" font-size="10" text-anchor="middle">15</text>
+                            <text x="250" y="265" fill="#475569" font-size="10" text-anchor="middle">25</text>
+                            <text x="310" y="265" fill="#475569" font-size="10" text-anchor="middle">35</text>
+                            <text x="370" y="265" fill="#475569" font-size="10" text-anchor="middle">45</text>
+                            <text x="430" y="265" fill="#475569" font-size="10" text-anchor="middle">55</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 5px 0; font-size:15px; color:#0c4a6e; font-weight:bold;'>તુલના (Conclusion):</p>
+                        <ul style='margin:0; padding-left:20px; font-size:14px; color:#0369a1; line-height:1.8;'>
+                            <li><b>વિભાગ A (લાલ લાઈન)</b> નો આલેખ જમણી બાજુ (વધુ ગુણ તરફ) ઊંચો રહે છે, કારણ કે તેમાં 20 થી 50 ગુણ મેળવનાર વિદ્યાર્થીઓ વધુ છે.</li>
+                            <li><b>વિભાગ B (ભૂરી તૂટક લાઈન)</b> નો આલેખ ડાબી બાજુ (ઓછા ગુણ તરફ) ઊંચો છે (પીક 15 ગુણ પર છે).</li>
+                            <li>તેથી, કહી શકાય કે <b>વિભાગ A ના વિદ્યાર્થીઓનો દેખાવ વિભાગ B ના વિદ્યાર્થીઓ કરતાં ઘણો સારો છે.</b></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવૃત્તિ બહુકોણ (Polygon) નો સીધો નિયમ: <b>તે હવામાં લટકતો ન રહેવો જોઈએ!</b> એટલે જ આપણે શરૂઆતમાં એક કાલ્પનિક વર્ગ (-5) અને અંતમાં એક કાલ્પનિક વર્ગ (55) લઈને તેની આવૃત્તિ 0 (શૂન્ય) લીધી, જેથી આલેખ જમીન (x-axis) ને અડીને બરાબર બંધ થઈ જાય.</p>
+                </div>`
+            },
+              { 
+                "questionNumber": "સ્વાધ્યાય 12.1 - પ્રશ્ન 6",
+                "marks": 4,
+                "question": "એક શહેરમાં 30 દિવસમાં નોંધાયેલ મહત્તમ તાપમાન (સેલ્સિયસમાં) નીચે મુજબ છે:<br>28.5, 30.1, 29.2, 31.4, ... વગેરે.<br>અહીં 30 દિવસનું તાપમાન આપેલ છે. ધારો કે 28.0 - 29.0, 29.0 - 30.0, ... આ પ્રમાણેના વર્ગો બનાવીને એક સતત આવૃત્તિ-વિતરણ કોષ્ટક તૈયાર કરો અને તેના પરથી સ્તંભાલેખ દોરો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fefce8; padding:10px; border-radius:5px; border-left:4px solid #ca8a04; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#a16207;'><b>નોંધ:</b> પરીક્ષામાં આવો પ્રશ્ન પૂછાય ત્યારે તમારે આપેલા કાચા ડેટા (Raw Data) ને વર્ગોમાં ગોઠવીને ગણતરી (Tally Marks) કરવી પડે છે. અહીં આપણે સીધું જ આવૃત્તિ-વિતરણ કોષ્ટક અને તેનો સ્તંભાલેખ દર્શાવેલ છે.</p>
+                    </div>
+
+                    <div style='overflow-x:auto; margin-bottom:15px;'>
+                        <table style='width:100%; min-width:300px; border-collapse:collapse; text-align:center; font-size:14px;'>
+                            <thead>
+                                <tr style='background-color:#1e3a8a; color:#ffffff;'>
+                                    <th style='padding:10px; border:1px solid #cbd5e1;'>તાપમાન (વર્ગ)</th>
+                                    <th style='padding:10px; border:1px solid #cbd5e1;'>દિવસોની સંખ્યા (આવૃત્તિ)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style='background-color:#f8fafc;'><td style='padding:8px; border:1px solid #cbd5e1;'>28.0 - 29.0</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>2</td></tr>
+                                <tr><td style='padding:8px; border:1px solid #cbd5e1;'>29.0 - 30.0</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>5</td></tr>
+                                <tr style='background-color:#f8fafc;'><td style='padding:8px; border:1px solid #cbd5e1;'>30.0 - 31.0</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>8</td></tr>
+                                <tr><td style='padding:8px; border:1px solid #cbd5e1;'>31.0 - 32.0</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>10</td></tr>
+                                <tr style='background-color:#f8fafc;'><td style='padding:8px; border:1px solid #cbd5e1;'>32.0 - 33.0</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>4</td></tr>
+                                <tr><td style='padding:8px; border:1px solid #cbd5e1;'>33.0 - 34.0</td><td style='padding:8px; border:1px solid #cbd5e1; font-weight:bold;'>1</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <p style='margin:0 0 10px 0; font-size:15px; color:#334155; font-weight:bold;'>સ્તંભાલેખ (Histogram):</p>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1;'>
+                        <svg viewBox="0 0 500 300" style="width:100%; min-width:450px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="50" y1="50" x2="450" y2="50" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="90" x2="450" y2="90" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="130" x2="450" y2="130" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="170" x2="450" y2="170" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="210" x2="450" y2="210" stroke="#e2e8f0" stroke-width="1"/> <line x1="50" y1="30" x2="50" y2="250" stroke="#0f172a" stroke-width="2"/> <line x1="50" y1="250" x2="450" y2="250" stroke="#0f172a" stroke-width="2"/> <polyline points="55,250 60,240 65,260 70,250" fill="none" stroke="#0f172a" stroke-width="2"/>
+                            
+                            <text x="40" y="255" fill="#475569" font-size="12" text-anchor="end">0</text>
+                            <text x="40" y="215" fill="#475569" font-size="12" text-anchor="end">2</text>
+                            <text x="40" y="175" fill="#475569" font-size="12" text-anchor="end">4</text>
+                            <text x="40" y="135" fill="#475569" font-size="12" text-anchor="end">6</text>
+                            <text x="40" y="95" fill="#475569" font-size="12" text-anchor="end">8</text>
+                            <text x="40" y="55" fill="#475569" font-size="12" text-anchor="end">10</text>
+                            
+                            <text x="15" y="140" fill="#0f172a" font-weight="bold" font-size="12" transform="rotate(-90 15,140)" text-anchor="middle">દિવસોની સંખ્યા</text>
+                            <text x="250" y="295" fill="#0f172a" font-weight="bold" font-size="12" text-anchor="middle">તાપમાન (&deg;C)</text>
+                            
+                            <rect x="80" y="220" width="55" height="30" fill="#fca5a5" stroke="#be123c" stroke-width="1"/>
+                            <text x="107.5" y="215" fill="#be123c" font-size="10" font-weight="bold" text-anchor="middle">2</text>
+                            
+                            <rect x="135" y="175" width="55" height="75" fill="#fca5a5" stroke="#be123c" stroke-width="1"/>
+                            <text x="162.5" y="170" fill="#be123c" font-size="10" font-weight="bold" text-anchor="middle">5</text>
+                            
+                            <rect x="190" y="130" width="55" height="120" fill="#fca5a5" stroke="#be123c" stroke-width="1"/>
+                            <text x="217.5" y="125" fill="#be123c" font-size="10" font-weight="bold" text-anchor="middle">8</text>
+                            
+                            <rect x="245" y="100" width="55" height="150" fill="#fca5a5" stroke="#be123c" stroke-width="1"/>
+                            <text x="272.5" y="95" fill="#be123c" font-size="10" font-weight="bold" text-anchor="middle">10</text>
+                            
+                            <rect x="300" y="190" width="55" height="60" fill="#fca5a5" stroke="#be123c" stroke-width="1"/>
+                            <text x="327.5" y="185" fill="#be123c" font-size="10" font-weight="bold" text-anchor="middle">4</text>
+                            
+                            <rect x="355" y="235" width="55" height="15" fill="#fca5a5" stroke="#be123c" stroke-width="1"/>
+                            <text x="382.5" y="230" fill="#be123c" font-size="10" font-weight="bold" text-anchor="middle">1</text>
+                            
+                            <text x="80" y="265" fill="#475569" font-size="10" text-anchor="middle">28</text>
+                            <text x="135" y="265" fill="#475569" font-size="10" text-anchor="middle">29</text>
+                            <text x="190" y="265" fill="#475569" font-size="10" text-anchor="middle">30</text>
+                            <text x="245" y="265" fill="#475569" font-size="10" text-anchor="middle">31</text>
+                            <text x="300" y="265" fill="#475569" font-size="10" text-anchor="middle">32</text>
+                            <text x="355" y="265" fill="#475569" font-size="10" text-anchor="middle">33</text>
+                            <text x="410" y="265" fill="#475569" font-size="10" text-anchor="middle">34</text>
+                        </svg>
+                    </div>
+                </div>`
+              }
+            
         ]
     }
     
