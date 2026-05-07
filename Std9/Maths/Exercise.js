@@ -7986,9 +7986,433 @@ var njMathsExercise = {
                         </div>
                     </div>
                 </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "આપેલી ત્રિજ્યાવાળા ગોલકનું ઘનફળ શોધો:<br>(i) 7 સેમી<br>(ii) 0.63 મીટર", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="100" r="80" fill="#bae6fd" stroke="#0284c7" stroke-width="2"/>
+                            <ellipse cx="150" cy="100" rx="80" ry="30" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <path d="M 70 100 A 80 30 0 0 0 230 100" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="100" r="4" fill="#be123c"/>
+                            <line x1="150" y1="100" x2="230" y2="100" stroke="#be123c" stroke-width="2"/>
+                            <text x="180" y="90" fill="#be123c" font-weight="bold">r</text>
+                            
+                            <text x="145" y="50" fill="#0369a1" font-weight="bold" font-size="14">ઘનફળ (V)</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#0f172a; font-weight:bold; font-size:14px;'>ગોલકનું ઘનફળ (V) = (4/3) &pi;r&sup3;</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px; min-width:300px;'>
+                            <h4 style='color:#14532d; margin:0 0 8px 0;'>(i) r = 7 સેમી</h4>
+                            <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                                ગોલકનું ઘનફળ = (4 / 3) &times; &pi; &times; r<sup>3</sup><br>
+                                = (4 / 3) &times; (22 / 7) &times; 7 &times; 7 &times; 7<br>
+                                <span style='color:#64748b; font-size:12px;'>[એક 7 અને 7 ઉડી જશે]</span><br>
+                                = (4 / 3) &times; 22 &times; 49<br>
+                                = 88 &times; 49 / 3<br>
+                                = 4312 / 3<br>
+                                <b style='color:#15803d; font-size:16px;'>= 1437.33 સેમી<sup>3</sup> (આશરે)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:300px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) r = 0.63 મીટર</h4>
+                            <div style='font-size:14px; color:#9f1239; line-height:1.8; margin-left:10px;'>
+                                <span style='color:#64748b; font-size:12px;'>[0.63 ને 63/100 લખીશું]</span><br>
+                                ગોલકનું ઘનફળ = (4 / 3) &times; (22 / 7) &times; (63 / 100) &times; (63 / 100) &times; (63 / 100)<br>
+                                <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 7 &times; 3 = 21, અને 63 / 21 = 3]</span><br>
+                                = 4 &times; 22 &times; 3 &times; 63 &times; 63 / 1000000<br>
+                                = 264 &times; 3969 / 1000000<br>
+                                = 1047816 / 1000000<br>
+                                <b style='color:#be123c; font-size:16px;'>= 1.05 મીટર<sup>3</sup> (આશરે)</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "આપેલા વ્યાસવાળા નક્કર ગોલક દ્વારા વિસ્થાપિત થતા પાણીનું કદ શોધો:<br>(i) 28 સેમી<br>(ii) 0.21 મીટર", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fefce8; padding:10px; border-radius:5px; border-left:4px solid #ca8a04; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#a16207;'><b>નોંધ:</b> આર્કિમિડીઝના સિદ્ધાંત મુજબ, જ્યારે કોઈ નક્કર વસ્તુને પાણીમાં ડુબાડવામાં આવે, ત્યારે તે પોતાના <b>ઘનફળ જેટલું જ પાણી વિસ્થાપિત (બહાર કાઢે)</b> છે. એટલે આપણે માત્ર ગોલકનું ઘનફળ જ શોધવાનું છે.</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:20px; overflow-x:auto;'>
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(i) વ્યાસ (d) = 28 સેમી</h4>
+                            <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                                ત્રિજ્યા (r) = 28 / 2 = <b>14 સેમી</b><br><br>
+                                વિસ્થાપિત પાણીનું કદ = ગોલકનું ઘનફળ = (4 / 3) &pi;r<sup>3</sup><br>
+                                = (4 / 3) &times; (22 / 7) &times; 14 &times; 14 &times; 14<br>
+                                <span style='color:#64748b; font-size:12px;'>[14 / 7 = 2]</span><br>
+                                = (4 / 3) &times; 22 &times; 2 &times; 196<br>
+                                = 176 &times; 196 / 3<br>
+                                = 34496 / 3<br>
+                                <b style='color:#0284c7; font-size:16px;'>= 11498.66 સેમી<sup>3</sup> (આશરે)</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) વ્યાસ (d) = 0.21 મીટર</h4>
+                            <div style='font-size:14px; color:#9f1239; line-height:1.8; margin-left:10px;'>
+                                ત્રિજ્યા (r) = 0.21 / 2 = <b>0.105 મીટર (અથવા 105/1000)</b><br><br>
+                                વિસ્થાપિત પાણીનું કદ = (4 / 3) &times; (22 / 7) &times; (105 / 1000) &times; (105 / 1000) &times; (105 / 1000)<br>
+                                <span style='color:#64748b; font-size:12px;'>[7 &times; 3 = 21, અને 105 / 21 = 5]</span><br>
+                                = 4 &times; 22 &times; 5 &times; 105 &times; 105 / 1000000000<br>
+                                = 440 &times; 11025 / 1000000000<br>
+                                = 4851000 / 1000000000<br>
+                                <b style='color:#be123c; font-size:16px;'>= 0.004851 મીટર<sup>3</sup></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "ધાતુના એક ગોળાનો વ્યાસ 4.2 સેમી છે. જો તેના દ્રવ્યની ઘનતા 8.9 ગ્રામ પ્રતિ સેમી³ હોય, તો તેનું દળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>પગલું 1: ગોળાનું ઘનફળ શોધવું</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            વ્યાસ = 4.2 સેમી &there4; ત્રિજ્યા (r) = 4.2 / 2 = <b>2.1 સેમી (એટલે કે 21/10)</b><br><br>
+                            
+                            ગોળાનું ઘનફળ = (4 / 3) &pi;r<sup>3</sup><br>
+                            = (4 / 3) &times; (22 / 7) &times; (21 / 10) &times; (21 / 10) &times; (21 / 10)<br>
+                            <span style='color:#64748b; font-size:12px;'>[7 &times; 3 = 21, એટલે છેદનો 21 અને અંશનો એક 21 ઉડી જશે]</span><br>
+                            = 4 &times; 22 &times; 21 &times; 21 / 1000<br>
+                            = 88 &times; 441 / 1000<br>
+                            = 38808 / 1000<br>
+                            <b style='color:#15803d; font-size:16px;'>= 38.808 સેમી<sup>3</sup></b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-left:4px solid #1d4ed8; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#1e3a8a;'><b>પગલું 2: ગોળાનું દળ (Mass) શોધવું</b></p>
+                        <div style='font-size:14px; color:#1d4ed8; line-height:1.8; margin-left:10px;'>
+                            દળ = ઘનફળ &times; ઘનતા<br>
+                            = 38.808 &times; 8.9<br>
+                            <b style='color:#1d4ed8; font-size:18px;'>= 345.39 ગ્રામ (આશરે)</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>વિજ્ઞાનનો નિયમ ગણિતમાં! જ્યારે પણ "દળ" શોધવાનું કહે અને "ઘનતા" આપી હોય, ત્યારે સીધું સમજી જવાનું કે <b>દળ = કદ (ઘનફળ) &times; ઘનતા</b> થાય. એટલે પહેલા માત્ર ઘનફળ શોધી લો અને પછી તેને ઘનતા સાથે ગુણી નાખો!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "ચંદ્રનો વ્યાસ પૃથ્વીના વ્યાસના આશરે ચોથા ભાગ જેટલો છે. પૃથ્વીના ઘનફળના કેટલામા ભાગનું ઘનફળ ચંદ્રનું ઘનફળ થાય?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="70" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            <ellipse cx="100" cy="100" rx="70" ry="25" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <text x="100" y="100" fill="#0284c7" font-weight="bold" font-size="16" text-anchor="middle">પૃથ્વી (r)</text>
+                            
+                            <text x="200" y="105" fill="#0f172a" font-size="20" font-weight="bold">&rarr;</text>
+                            
+                            <circle cx="270" cy="100" r="17.5" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+                            <ellipse cx="270" cy="100" rx="17.5" ry="6" fill="none" stroke="#64748b" stroke-width="1" stroke-dasharray="2,2"/>
+                            <text x="270" y="70" fill="#475569" font-weight="bold" font-size="14" text-anchor="middle">ચંદ્ર (r/4)</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>ક્ષેત્રફળનો ગુણોત્તર સ્ક્વેર (Square) માં આવે, જ્યારે ઘનફળનો ગુણોત્તર ક્યુબ (Cube) માં આવે.</p>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            ધારો કે પૃથ્વીની ત્રિજ્યા = <b>r</b> છે.<br>
+                            રકમ મુજબ ચંદ્રનો વ્યાસ પૃથ્વી કરતા ચોથા ભાગનો છે, તેથી ત્રિજ્યા પણ ચોથા ભાગની જ થાય.<br>
+                            &there4; ચંદ્રની ત્રિજ્યા = <b>r / 4</b><br><br>
+                            
+                            માંગેલ ભાગ (ગુણોત્તર) = (ચંદ્રનું ઘનફળ) / (પૃથ્વીનું ઘનફળ)<br>
+                            = [ (4 / 3) &pi;(r / 4)<sup>3</sup> ] / [ (4 / 3) &pi;(r)<sup>3</sup> ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[(4/3)&pi; બંને બાજુથી ઉડી જશે]</span><br>
+                            = (r / 4)<sup>3</sup> / (r)<sup>3</sup><br>
+                            = (r<sup>3</sup> / 64) / r<sup>3</sup><br>
+                            = 1 / 64<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; ચંદ્રનું ઘનફળ પૃથ્વીના ઘનફળના 1/64 માં ભાગનું છે.</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 5",
+                "marks": 3,
+                "question": "10.5 સેમી વ્યાસવાળા અર્ધગોળાકાર વાટકામાં કેટલા લિટર દૂધ સમાવી શકાય?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="80" rx="90" ry="30" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <path d="M 60 80 A 90 90 0 0 0 240 80 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+                            <ellipse cx="150" cy="80" rx="85" ry="25" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+                            
+                            <text x="145" y="140" fill="#a16207" font-weight="bold">ઘનફળ (V)</text>
+                            
+                            <circle cx="150" cy="80" r="3" fill="#be123c"/>
+                            <line x1="150" y1="80" x2="235" y2="80" stroke="#be123c" stroke-width="2" stroke-dasharray="2,2"/>
+                            <text x="160" y="70" fill="#be123c" font-weight="bold" font-size="12">d = 10.5</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            વાટકાનો વ્યાસ (d) = 10.5 સેમી<br>
+                            &there4; ત્રિજ્યા (r) = 10.5 / 2 = <b>5.25 સેમી (અથવા 21/4 સેમી)</b><br><br>
+                            
+                            વાટકો અર્ધગોલાકાર છે, તેથી તેમાં સમાઈ શકતા દૂધનું કદ (ઘનફળ) = <b>(2 / 3) &pi;r<sup>3</sup></b><br>
+                            = (2 / 3) &times; (22 / 7) &times; (21 / 4) &times; (21 / 4) &times; (21 / 4)<br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 7 &times; 3 = 21, જેથી અંશનો એક 21 ઉડી જશે. 2 અને 22 થી છેદના 4 ઉડશે]</span><br>
+                            = 11 &times; 21 &times; 21 / (2 &times; 4)<br>
+                            = 11 &times; 441 / 8<br>
+                            = 4851 / 8<br>
+                            = <b>606.375 સેમી<sup>3</sup></b> (આશરે)<br><br>
+                            
+                            હવે તેને લિટરમાં ફેરવવા માટે 1000 વડે ભાગીશું. (કારણ કે 1000 સેમી<sup>3</sup> = 1 લિટર)<br>
+                            દૂધ (લિટરમાં) = 606.375 / 1000<br>
+                            <b style='color:#15803d; font-size:18px;'>= 0.303 લિટર (આશરે)</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 6",
+                "marks": 3,
+                "question": "એક અર્ધગોળાકાર ટાંકી 1 સેમી જાડા લોખંડના પતરામાંથી બનાવેલી છે. જો તેની અંદરની ત્રિજ્યા 1 મીટર હોય, તો આ ટાંકીમાં વપરાયેલા લોખંડનું ઘનફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 50 80 A 100 100 0 0 0 250 80" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+                            <path d="M 70 80 A 80 80 0 0 0 230 80" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+                            
+                            <ellipse cx="150" cy="80" rx="100" ry="25" fill="none" stroke="#334155" stroke-width="2"/>
+                            <ellipse cx="150" cy="80" rx="80" ry="20" fill="#f8fafc" stroke="#334155" stroke-width="2"/>
+                            
+                            <path d="M 50 80 A 100 25 0 0 0 250 80 A 80 20 0 0 1 50 80 Z" fill="#64748b"/>
+                            
+                            <circle cx="150" cy="80" r="3" fill="#be123c"/>
+                            
+                            <line x1="150" y1="80" x2="230" y2="80" stroke="#be123c" stroke-width="2"/>
+                            <text x="180" y="70" fill="#be123c" font-weight="bold" font-size="12">r = 1 m</text>
+                            
+                            <line x1="230" y1="80" x2="250" y2="80" stroke="#ea580c" stroke-width="3"/>
+                            <text x="255" y="85" fill="#ea580c" font-weight="bold" font-size="12">જાડાઈ = 1 cm</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#475569; font-size:13px;'>લોખંડનું ઘનફળ = બહારનું ઘનફળ - અંદરનું ઘનફળ</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            અંદરની ત્રિજ્યા (r) = <b>1 મીટર</b><br>
+                            ટાંકીની જાડાઈ = 1 સેમી = <b>0.01 મીટર</b><br>
+                            &there4; બહારની ત્રિજ્યા (R) = 1 + 0.01 = <b>1.01 મીટર</b><br><br>
+                            
+                            લોખંડનું ઘનફળ = અર્ધગોળાકાર ટાંકીનું બહારનું ઘનફળ - અંદરનું ઘનફળ<br>
+                            = (2 / 3) &pi;R<sup>3</sup> - (2 / 3) &pi;r<sup>3</sup><br>
+                            = (2 / 3) &pi; (R<sup>3</sup> - r<sup>3</sup>)<br>
+                            = (2 / 3) &times; (22 / 7) &times; [ (1.01)<sup>3</sup> - (1)<sup>3</sup> ]<br>
+                            = (44 / 21) &times; [ 1.030301 - 1 ]<br>
+                            = (44 / 21) &times; 0.030301<br>
+                            = 1.333244 / 21<br>
+                            <b style='color:#be123c; font-size:18px;'>= 0.06348 મીટર<sup>3</sup> (આશરે)</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જ્યારે પણ "જાડાઈ" આપી હોય અને વપરાયેલા મટીરીયલ (ધાતુ/લાકડું) નું ઘનફળ શોધવું હોય, ત્યારે <b>મોટા ઘનફળમાંથી નાનું ઘનફળ બાદ કરવું પડે</b>. સૂત્ર <b>(2/3)&pi;(R&sup3; - r&sup3;)</b> સીધું જ વાપરવું, જેથી ગણતરીમાં &pi; બે વાર ન લખવો પડે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 7",
+                "marks": 3,
+                "question": "જેની વક્ર સપાટીનું ક્ષેત્રફળ 154 સેમી² હોય તેવા ગોલકનું ઘનફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>પગલું 1: ગોલકની ત્રિજ્યા (r) શોધવી</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ = 154 સેમી<sup>2</sup><br>
+                            &there4; 4&pi;r<sup>2</sup> = 154<br>
+                            &there4; 4 &times; (22 / 7) &times; r<sup>2</sup> = 154<br>
+                            &there4; r<sup>2</sup> = (154 &times; 7) / (4 &times; 22)<br>
+                            <span style='color:#64748b; font-size:12px;'>[154 / 22 = 7]</span><br>
+                            &there4; r<sup>2</sup> = (7 &times; 7) / 4<br>
+                            &there4; r = 7 / 2 = <b>3.5 સેમી</b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-left:4px solid #1d4ed8; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#1e3a8a;'><b>પગલું 2: ગોલકનું ઘનફળ શોધવું</b></p>
+                        <div style='font-size:14px; color:#1d4ed8; line-height:1.8; margin-left:10px;'>
+                            ગોલકનું ઘનફળ (V) = (4 / 3) &pi;r<sup>3</sup><br>
+                            = (4 / 3) &times; (22 / 7) &times; (7 / 2) &times; (7 / 2) &times; (7 / 2)<br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 7 અને 7 ઉડશે, છેદમાં 2&times;2=4 એ અંશના 4 સાથે ઉડશે. અને 22/2 = 11]</span><br>
+                            = (11 &times; 7 &times; 7) / 3<br>
+                            = (11 &times; 49) / 3<br>
+                            = 539 / 3<br>
+                            <b style='color:#1d4ed8; font-size:18px;'>= 179.66 સેમી<sup>3</sup> (અથવા 179 પૂર્ણાંક 2/3)</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 8",
+                "marks": 5,
+                "question": "એક મકાનનો ઘુમ્મટ અર્ધગોળાકાર છે. તેને અંદરની બાજુએથી ચૂનો કરવાનો ખર્ચ ₹ 498.96 થાય છે. જો ચૂનો કરવાનો દર ₹ 2.00 પ્રતિ ચોરસ મીટર હોય, તો શોધો:<br>(i) ઘુમ્મટની અંદરની વક્ર સપાટીનું ક્ષેત્રફળ<br>(ii) ઘુમ્મટમાં રહેલી હવાનું ઘનફળ", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="70" y="100" width="160" height="80" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+                            
+                            <path d="M 70 100 A 80 80 0 0 1 230 100" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <ellipse cx="150" cy="100" rx="80" ry="15" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <text x="150" y="60" fill="#0284c7" font-weight="bold" text-anchor="middle">અર્ધગોળાકાર ઘુમ્મટ</text>
+                            <text x="150" y="150" fill="#475569" font-weight="bold" text-anchor="middle">મકાન</text>
+                        </svg>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:20px; overflow-x:auto;'>
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(i) ઘુમ્મટની અંદરની વક્ર સપાટીનું ક્ષેત્રફળ:</h4>
+                            <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                                આપણે જાણીએ છીએ કે: <b>ક્ષેત્રફળ = કુલ ખર્ચ / પ્રતિ મીટર<sup>2</sup> દર</b><br>
+                                &there4; અંદરની વક્ર સપાટીનું ક્ષેત્રફળ = 498.96 / 2<br>
+                                <b style='color:#0284c7; font-size:16px;'>= 249.48 મીટર<sup>2</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) ઘુમ્મટમાં રહેલી હવાનું ઘનફળ:</h4>
+                            <div style='font-size:14px; color:#9f1239; line-height:1.8; margin-left:10px;'>
+                                ઘનફળ શોધવા માટે ત્રિજ્યા (r) શોધવી પડશે.<br>
+                                અર્ધગોલકની વક્ર સપાટી = 2&pi;r<sup>2</sup><br>
+                                &there4; 2 &times; (22 / 7) &times; r<sup>2</sup> = 249.48<br>
+                                &there4; r<sup>2</sup> = (249.48 &times; 7) / 44<br>
+                                &there4; r<sup>2</sup> = 1746.36 / 44<br>
+                                &there4; r<sup>2</sup> = 39.69<br>
+                                &there4; <b>r = &radic;39.69 = 6.3 મીટર</b><br><br>
+                                
+                                હવે, ઘુમ્મટમાં રહેલી હવાનું ઘનફળ (અર્ધગોલકનું ઘનફળ) = (2 / 3) &pi;r<sup>3</sup><br>
+                                = (2 / 3) &times; (22 / 7) &times; 6.3 &times; 6.3 &times; 6.3<br>
+                                <span style='color:#64748b; font-size:12px;'>[6.3 / 7 = 0.9, અને 0.9 / 3 = 0.3]</span><br>
+                                = 2 &times; 22 &times; 0.3 &times; 6.3 &times; 6.3<br>
+                                = 44 &times; 0.3 &times; 39.69<br>
+                                = 13.2 &times; 39.69<br>
+                                <b style='color:#be123c; font-size:16px;'>= 523.9 મીટર<sup>3</sup> (આશરે)</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 9",
+                "marks": 4,
+                "question": "r ત્રિજ્યા અને S વક્ર સપાટીનું ક્ષેત્રફળ ધરાવતા 27 લોખંડના ગોલકો ઓગાળીને એક મોટો ગોલક બનાવવામાં આવે છે, જેની વક્ર સપાટીનું ક્ષેત્રફળ S' છે. તો શોધો:<br>(i) નવા ગોલકની ત્રિજ્યા r'<br>(ii) S અને S' નો ગુણોત્તર", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="80" r="10" fill="#fecdd3" stroke="#be123c" stroke-width="1.5"/>
+                            <circle cx="80" cy="80" r="10" fill="#fecdd3" stroke="#be123c" stroke-width="1.5"/>
+                            <circle cx="110" cy="80" r="10" fill="#fecdd3" stroke="#be123c" stroke-width="1.5"/>
+                            <circle cx="50" cy="110" r="10" fill="#fecdd3" stroke="#be123c" stroke-width="1.5"/>
+                            <circle cx="80" cy="110" r="10" fill="#fecdd3" stroke="#be123c" stroke-width="1.5"/>
+                            <circle cx="110" cy="110" r="10" fill="#fecdd3" stroke="#be123c" stroke-width="1.5"/>
+                            
+                            <text x="80" y="140" fill="#be123c" font-size="12" font-weight="bold" text-anchor="middle">27 નાના ગોલક</text>
+                            <text x="80" y="155" fill="#be123c" font-size="12" font-weight="bold" text-anchor="middle">ત્રિજ્યા = r</text>
+                            
+                            <text x="160" y="105" fill="#0f172a" font-size="20" font-weight="bold">&rarr;</text>
+                            
+                            <circle cx="250" cy="95" r="40" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <text x="250" y="155" fill="#16a34a" font-size="12" font-weight="bold" text-anchor="middle">1 મોટો ગોલક</text>
+                            <text x="250" y="170" fill="#16a34a" font-size="12" font-weight="bold" text-anchor="middle">ત્રિજ્યા = r'</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>(i) નવા ગોલકની ત્રિજ્યા r':</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            જ્યારે વસ્તુઓને ઓગાળીને નવી વસ્તુ બનાવાય, ત્યારે <b>કુલ ઘનફળ સમાન રહે છે</b>.<br>
+                            &there4; 1 મોટા ગોલકનું ઘનફળ = 27 નાના ગોલકનું ઘનફળ<br>
+                            &there4; (4 / 3) &pi;(r')<sup>3</sup> = 27 &times; [ (4 / 3) &pi;r<sup>3</sup> ]<br>
+                            <span style='color:#64748b; font-size:12px;'>[બંને બાજુથી (4/3)&pi; ઉડી જશે]</span><br>
+                            &there4; (r')<sup>3</sup> = 27 r<sup>3</sup><br>
+                            બંને બાજુ ઘનમૂળ (Cube root) લેતાં:<br>
+                            &there4; r' = 3r<br>
+                            <b style='color:#0284c7; font-size:16px;'>&there4; નવા ગોલકની ત્રિજ્યા r' = 3r</b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>(ii) S અને S' નો ગુણોત્તર:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            S = નાના ગોલકનું ક્ષેત્રફળ = 4&pi;r<sup>2</sup><br>
+                            S' = મોટા ગોલકનું ક્ષેત્રફળ = 4&pi;(r')<sup>2</sup><br><br>
+                            
+                            ગુણોત્તર = S / S'<br>
+                            = (4&pi;r<sup>2</sup>) / (4&pi;(r')<sup>2</sup>)<br>
+                            <span style='color:#64748b; font-size:12px;'>[4&pi; ઉડી જશે અને r' = 3r મુકતાં]</span><br>
+                            = r<sup>2</sup> / (3r)<sup>2</sup><br>
+                            = r<sup>2</sup> / 9r<sup>2</sup><br>
+                            = 1 / 9<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; S અને S' નો ગુણોત્તર = 1 : 9</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.4 - પ્રશ્ન 10",
+                "marks": 2,
+                "question": "દવાની એક કેપ્સુલ 3.5 મિમી વ્યાસવાળા ગોલક આકારની છે. આ કેપ્સુલને પૂરેપૂરી ભરવા માટે કેટલી દવાની (મિમી³ માં) જરૂર પડે?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            વ્યાસ (d) = 3.5 મિમી<br>
+                            &there4; ત્રિજ્યા (r) = 3.5 / 2 = <b>35 / 20 = 7 / 4 મિમી</b><br><br>
+                            
+                            દવાનું કદ = ગોલક આકારની કેપ્સુલનું ઘનફળ<br>
+                            = (4 / 3) &pi;r<sup>3</sup><br>
+                            = (4 / 3) &times; (22 / 7) &times; (7 / 4) &times; (7 / 4) &times; (7 / 4)<br>
+                            <span style='color:#64748b; font-size:12px;'>[એક 7 અને 7 ઉડી જશે. એક 4 અને 4 ઉડી જશે. 22 અને 4 ના અડધા કરતાં 11 અને 2 વધશે]</span><br>
+                            = (11 &times; 7 &times; 7) / (3 &times; 2 &times; 4)<br>
+                            = (11 &times; 49) / 24<br>
+                            = 539 / 24<br>
+                            <b style='color:#15803d; font-size:18px;'>&there4; દવાનું કદ = 22.46 મિમી<sup>3</sup> (આશરે)</b>
+                        </div>
+                    </div>
+                </div>`
             }
-        
-    
         ]
     }
     
