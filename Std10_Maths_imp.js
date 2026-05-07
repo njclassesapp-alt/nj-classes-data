@@ -11,7 +11,7 @@ var Std10_Maths_imp = [
         question: "<div style='color: #1a237e; font-size: 16px; font-weight: bold;'>જો બે ધન પૂર્ણાંકો p અને q ને p = ab<sup>2</sup> અને q = a<sup>3</sup>b સ્વરૂપમાં દર્શાવી શકાય (જ્યાં a અને b અવિભાજ્ય સંખ્યાઓ છે), તો લ.સા.અ. (p, q) શોધો.</div>",
         answer: "<div style='background-color: #f5f7fa; padding: 12px; border-left: 4px solid #2196f3; border-radius: 5px; font-size: 15px; color: #333;'><h4 style='color: #0d47a1; margin-top: 0;'>ઉકેલ:</h4>લ.સા.અ. શોધવા માટે આપણે આપેલા અવિભાજ્ય અવયવોની <b>મહત્તમ (મોટી) ઘાત</b> લઈએ છીએ.<br><br><span style='color: #e65100;'>&#8226;</span> અહીં, <b>a</b> ની મહત્તમ ઘાત <b>a<sup>3</sup></b> છે.<br><span style='color: #e65100;'>&#8226;</span> અને <b>b</b> ની મહત્તમ ઘાત <b>b<sup>2</sup></b> છે.<br><br>તેથી, <b>લ.સા.અ. (p, q) = a<sup>3</sup>b<sup>2</sup></b>.</div>",
         trick: "<div style='background-color: #e8f5e9; padding: 10px; border-radius: 5px; color: #1b5e20; font-weight: bold;'>💡 શોર્ટકટ ટ્રીક: લ.સા.અ. (LCM) પૂછે તો બંનેમાંથી મોટી ઘાત લેવી (a<sup>3</sup> અને b<sup>2</sup>). જો ગુ.સા.અ. (HCF) પૂછે તો નાની ઘાત લેવી (ab).</div>"
-    },
+    },,
     
     {
         chapter: 1,
