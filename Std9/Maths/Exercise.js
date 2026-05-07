@@ -6953,7 +6953,639 @@ var njMathsExercise = {
                 </div>`
             }
         ]
-    }    
+    },
+        
+    // ------------------------------------
+    // ધોરણ 9 - પ્રકરણ 11: પૃષ્ઠફળ અને ઘનફળ (સ્વાધ્યાય)
+    // ------------------------------------
+    "11": {
+        "chapterName": "પ્રકરણ 11",
+        "chapterTitle": "પૃષ્ઠફળ અને ઘનફળ (સ્વાધ્યાય)",
+        "qa_list": [
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.1 - પ્રશ્ન 1",
+                "marks": 2,
+                "question": "જે શંકુના પાયાનો વ્યાસ 10.5 સેમી અને ત્રાંસી ઊંચાઈ 10 સેમી હોય, તેની વક્ર સપાટીનું ક્ષેત્રફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 250" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="180" rx="80" ry="25" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            <ellipse cx="150" cy="180" rx="80" ry="25" fill="none" stroke="#0284c7" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <path d="M 70 180 L 150 30 L 230 180" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="150" y1="30" x2="230" y2="180" stroke="#be123c" stroke-width="3"/>
+                            <text x="210" y="110" fill="#be123c" font-weight="bold">l = 10 cm</text>
+                            
+                            <line x1="70" y1="180" x2="230" y2="180" stroke="#16a34a" stroke-width="2"/>
+                            <text x="110" y="220" fill="#16a34a" font-weight="bold">d = 10.5 cm</text>
+                            
+                            <circle cx="150" cy="180" r="3" fill="#0f172a"/>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            અહીં શંકુ માટે આપેલ માહિતી:<br>
+                            પાયાનો વ્યાસ (d) = 10.5 સેમી<br>
+                            તેથી, ત્રિજ્યા (r) = d / 2 = 10.5 / 2 = <b>5.25 સેમી</b><br>
+                            ત્રાંસી ઊંચાઈ (l) = <b>10 સેમી</b><br><br>
+                            
+                            શંકુની વક્ર સપાટીનું ક્ષેત્રફળ (CSA) = <b>&pi;rl</b><br>
+                            <span style='color:#64748b; font-size:12px;'>[અહીં &pi; = 22/7 લઈશું]</span><br>
+                            = (22 / 7) &times; 5.25 &times; 10<br>
+                            = (22 / 7) &times; (525 / 100) &times; 10<br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 525 / 7 = 75]</span><br>
+                            = 22 &times; (75 / 10)<br>
+                            = 22 &times; 7.5<br>
+                            = <b style='color:#be123c; font-size:18px;'>165 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>દશાંશ ચિહ્ન (પોઇન્ટ) વાળા ગુણાકારમાં ભૂલ ન થાય તે માટે <b>પોઇન્ટ કાઢીને છેદમાં 10 કે 100 મૂકી દેવા!</b> જેમ કે 10.5 ના અડધા 5.25 થાય. તેને સીધું 525/100 લખીને ગણતરી કરશો તો 7 વડે આસાનીથી છેદ ઉડી જશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.1 - પ્રશ્ન 2",
+                "marks": 3,
+                "question": "જેની ત્રાંસી ઊંચાઈ 21 મીટર અને પાયાનો વ્યાસ 24 મીટર હોય તેવા શંકુનું કુલ પૃષ્ઠફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 250" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="180" rx="80" ry="25" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <path d="M 70 180 L 150 30 L 230 180" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <text x="145" y="140" fill="#a16207" font-weight="bold">TSA</text>
+                            
+                            <line x1="150" y1="30" x2="230" y2="180" stroke="#be123c" stroke-width="2"/>
+                            <text x="210" y="110" fill="#be123c" font-weight="bold">l = 21 m</text>
+                            
+                            <line x1="150" y1="180" x2="230" y2="180" stroke="#16a34a" stroke-width="2"/>
+                            <circle cx="150" cy="180" r="3" fill="#0f172a"/>
+                            <text x="160" y="200" fill="#16a34a" font-weight="bold">r = 12 m</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>કુલ પૃષ્ઠફળ (TSA) = વક્ર સપાટી + પાયાનું ક્ષેત્રફળ</p>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            વ્યાસ (d) = 24 મીટર<br>
+                            &there4; ત્રિજ્યા (r) = 24 / 2 = <b>12 મીટર</b><br>
+                            ત્રાંસી ઊંચાઈ (l) = <b>21 મીટર</b><br><br>
+                            
+                            શંકુનું કુલ પૃષ્ઠફળ (TSA) = <b>&pi;r(l + r)</b><br>
+                            = (22 / 7) &times; 12 &times; (21 + 12)<br>
+                            = (22 / 7) &times; 12 &times; 33<br>
+                            = (264 / 7) &times; 33<br>
+                            = 8712 / 7<br>
+                            <b style='color:#be123c; font-size:18px;'>= 1244.57 મીટર<sup>2</sup> (આશરે)</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.1 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "એક શંકુની વક્ર સપાટીનું ક્ષેત્રફળ 308 સેમી² અને તેની ત્રાંસી ઊંચાઈ 14 સેમી છે. તો (i) પાયાની ત્રિજ્યા (ii) શંકુનું કુલ પૃષ્ઠફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>(i) પાયાની ત્રિજ્યા (r) શોધવી:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            આપેલ છે: વક્ર સપાટીનું ક્ષેત્રફળ (CSA) = 308 સેમી<sup>2</sup><br>
+                            ત્રાંસી ઊંચાઈ (l) = 14 સેમી<br><br>
+                            
+                            સૂત્ર: CSA = &pi;rl<br>
+                            &there4; 308 = (22 / 7) &times; r &times; 14<br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 14 / 7 = 2]</span><br>
+                            &there4; 308 = 22 &times; r &times; 2<br>
+                            &there4; 308 = 44 &times; r<br>
+                            &there4; r = 308 / 44<br>
+                            <b style='color:#15803d; font-size:16px;'>&there4; r = 7 સેમી</b> (પાયાની ત્રિજ્યા)
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-left:4px solid #1d4ed8; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#1e3a8a;'><b>(ii) શંકુનું કુલ પૃષ્ઠફળ (TSA) શોધવું:</b></p>
+                        <div style='font-size:14px; color:#1d4ed8; line-height:1.8; margin-left:10px;'>
+                            કુલ પૃષ્ઠફળ = વક્ર સપાટીનું ક્ષેત્રફળ + પાયાનું ક્ષેત્રફળ<br>
+                            TSA = CSA + &pi;r<sup>2</sup><br>
+                            <span style='color:#64748b; font-size:12px;'>[અહીં આપણને CSA = 308 પહેલેથી જ આપેલું છે, તેથી ગણતરી બચી જશે!]</span><br>
+                            = 308 + [(22 / 7) &times; 7 &times; 7]<br>
+                            = 308 + (22 &times; 7)<br>
+                            = 308 + 154<br>
+                            <b style='color:#1d4ed8; font-size:18px;'>= 462 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>બીજા ભાગમાં કુલ પૃષ્ઠફળ શોધવા માટે મોટું સૂત્ર <b>&pi;r(l+r)</b> વાપરવાની કોઈ જરૂર નથી! વક્ર સપાટી (308) તો પહેલેથી જ આપેલી છે, બસ તેમાં નીચેના ગોળ પાયાનું ક્ષેત્રફળ <b>(&pi;r<sup>2</sup>)</b> ઉમેરી દો એટલે સીધો જવાબ 462 મળી જાય. સમય અને મહેનત બંનેની બચત!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.1 - પ્રશ્ન 4",
+                "marks": 4,
+                "question": "શંકુ આકારનો તંબુ 10 મીટર ઊંચો છે અને તેના પાયાની ત્રિજ્યા 24 મીટર છે, તો:<br>(i) તંબુની ત્રાંસી ઊંચાઈ શોધો.<br>(ii) 1 મી² ના ₹ 70 લેખે તંબુ બનાવવા માટે વપરાતા કેનવાસનો કુલ ખર્ચ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 250" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="180" rx="100" ry="25" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                            <path d="M 50 180 L 150 20 L 250 180" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="150" y1="20" x2="150" y2="180" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <text x="125" y="110" fill="#be123c" font-weight="bold">h = 10</text>
+                            
+                            <line x1="150" y1="180" x2="250" y2="180" stroke="#16a34a" stroke-width="2"/>
+                            <text x="175" y="175" fill="#16a34a" font-weight="bold">r = 24</text>
+                            
+                            <line x1="150" y1="20" x2="250" y2="180" stroke="#ea580c" stroke-width="3"/>
+                            <text x="215" y="90" fill="#ea580c" font-weight="bold">l = ?</text>
+                            
+                            <polyline points="150,170 160,170 160,180" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>કાટકોણ ત્રિકોણ રચાતો હોવાથી પાયથાગોરસ વપરાશે.</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>(i) તંબુની ત્રાંસી ઊંચાઈ (l):</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ઊંચાઈ (h) = 10 મી, ત્રિજ્યા (r) = 24 મી.<br>
+                            પાયથાગોરસના પ્રમેય મુજબ, l<sup>2</sup> = r<sup>2</sup> + h<sup>2</sup><br>
+                            &there4; l<sup>2</sup> = (24)<sup>2</sup> + (10)<sup>2</sup><br>
+                            &there4; l<sup>2</sup> = 576 + 100<br>
+                            &there4; l<sup>2</sup> = 676<br>
+                            &there4; l = &radic;676<br>
+                            <b style='color:#be123c; font-size:16px;'>&there4; l = 26 મીટર</b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>(ii) કેનવાસનો કુલ ખર્ચ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            તંબુ બનાવવા માટે ફક્ત <b>વક્ર સપાટી</b> પર જ કાપડ (કેનવાસ) લાગે, નીચે ભોંયતળિયે નહિ.<br>
+                            તેથી, કેનવાસનું ક્ષેત્રફળ = CSA = <b>&pi;rl</b><br>
+                            = (22 / 7) &times; 24 &times; 26<br>
+                            = 13728 / 7 મીટર<sup>2</sup><br><br>
+                            
+                            હવે, 1 મી<sup>2</sup> કેનવાસનો ખર્ચ = ₹ 70<br>
+                            &there4; કુલ ખર્ચ = ક્ષેત્રફળ &times; દર<br>
+                            = (13728 / 7) &times; 70<br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 70 / 7 = 10]</span><br>
+                            = 13728 &times; 10<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; કુલ ખર્ચ = ₹ 1,37,280</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.1 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "જેની ઊંચાઈ 8 મીટર અને પાયાની ત્રિજ્યા 6 મીટર હોય તેવો શંકુ આકારનો તંબુ બનાવવા માટે 3 મીટર પહોળી કેટલી તાડપત્રીની જરૂર પડે? માની લો કે સિલાઈના માપ અને કાપકૂપમાં થતા બગાડ માટે આશરે 20 સેમી જેટલી વધારાની તાડપત્રી વપરાય છે. (π = 3.14 લો.)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>પગલું 1: તંબુનું ક્ષેત્રફળ શોધવું</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            ઊંચાઈ (h) = 8 મી, ત્રિજ્યા (r) = 6 મી.<br>
+                            પ્રથમ ત્રાંસી ઊંચાઈ (l) શોધીએ: l = &radic;(r<sup>2</sup> + h<sup>2</sup>)<br>
+                            &there4; l = &radic;(6<sup>2</sup> + 8<sup>2</sup>) = &radic;(36 + 64) = &radic;100 = <b>10 મીટર</b><br><br>
+                            
+                            તંબુની વક્ર સપાટીનું ક્ષેત્રફળ = <b>&pi;rl</b><br>
+                            = 3.14 &times; 6 &times; 10<br>
+                            = 31.4 &times; 6<br>
+                            = <b>188.4 મીટર<sup>2</sup></b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>પગલું 2: તાડપત્રીની લંબાઈ શોધવી</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            તાડપત્રી (લંબચોરસ આકારની હોય છે) નું ક્ષેત્રફળ = તંબુનું વક્ર પૃષ્ઠફળ<br>
+                            &there4; લંબાઈ (L) &times; પહોળાઈ (B) = 188.4<br>
+                            અહીં પહોળાઈ (B) = 3 મીટર આપેલ છે.<br>
+                            &there4; L &times; 3 = 188.4<br>
+                            &there4; L = 188.4 / 3 = <b>62.8 મીટર</b><br><br>
+                            
+                            હવે, કાપકૂપમાં થતો બગાડ = 20 સેમી = <b>0.2 મીટર</b><br>
+                            &there4; કુલ જરૂરી લંબાઈ = મૂળ લંબાઈ + બગાડ<br>
+                            = 62.8 + 0.2<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; કુલ લંબાઈ = 63 મીટર</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 1",
+                "marks": 2,
+                "question": "આપેલી ત્રિજ્યાવાળા ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ શોધો: (i) 10.5 સેમી", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="100" r="80" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <ellipse cx="150" cy="100" rx="80" ry="30" fill="none" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <path d="M 70 100 A 80 30 0 0 0 230 100" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="100" r="4" fill="#be123c"/>
+                            <text x="140" y="90" fill="#be123c" font-weight="bold">O</text>
+                            
+                            <line x1="150" y1="100" x2="230" y2="100" stroke="#be123c" stroke-width="2"/>
+                            <text x="175" y="90" fill="#be123c" font-weight="bold">r = 10.5</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ગોલકની ત્રિજ્યા (r) = <b>10.5 સેમી</b><br><br>
+                            
+                            ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ = <b>4&pi;r<sup>2</sup></b><br>
+                            <span style='color:#64748b; font-size:12px;'>[ગણતરી સરળ કરવા 10.5 ને 105/10 લખીશું]</span><br>
+                            = 4 &times; (22 / 7) &times; (105 / 10) &times; (105 / 10)<br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 105 / 7 = 15]</span><br>
+                            = 4 &times; 22 &times; 15 &times; (105 / 100)<br>
+                            = 88 &times; 15 &times; 1.05<br>
+                            = 1320 &times; 1.05<br>
+                            <b style='color:#be123c; font-size:18px;'>= 1386 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આખા ગોળા (Sphere) ને ક્યાંયથી પણ જુઓ, બધેથી ગોળ જ દેખાય! તેથી ગોલકમાં વક્ર સપાટી અને કુલ પૃષ્ઠફળ બંને એક જ હોય છે. તેનું એક માત્ર સૂત્ર છે <b>4&pi;r<sup>2</sup></b> (એટલે કે 4 વર્તુળના ક્ષેત્રફળ જેટલું)!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 2",
+                "marks": 2,
+                "question": "આપેલા વ્યાસવાળા ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ શોધો: (i) 14 સેમી", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            ગોલકનો વ્યાસ (d) = 14 સેમી<br>
+                            &there4; ત્રિજ્યા (r) = d / 2 = 14 / 2 = <b>7 સેમી</b><br><br>
+                            
+                            ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ = <b>4&pi;r<sup>2</sup></b><br>
+                            = 4 &times; (22 / 7) &times; 7 &times; 7<br>
+                            <span style='color:#64748b; font-size:12px;'>[એક 7 અને 7 ઊડી જશે]</span><br>
+                            = 4 &times; 22 &times; 7<br>
+                            = 88 &times; 7<br>
+                            <b style='color:#15803d; font-size:18px;'>= 616 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "10 સેમી ત્રિજ્યાવાળા અર્ધગોલકનું કુલ પૃષ્ઠફળ શોધો. (π = 3.14 લો)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="80" rx="80" ry="25" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <path d="M 70 80 A 80 80 0 0 0 230 80" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <text x="145" y="140" fill="#a16207" font-weight="bold">વક્ર સપાટી (2&pi;r&sup2;)</text>
+                            <text x="145" y="75" fill="#a16207" font-weight="bold">પાયો (&pi;r&sup2;)</text>
+                            
+                            <circle cx="150" cy="80" r="3" fill="#be123c"/>
+                            <line x1="150" y1="80" x2="230" y2="80" stroke="#be123c" stroke-width="2"/>
+                            <text x="175" y="70" fill="#be123c" font-weight="bold">r = 10</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>કુલ પૃષ્ઠફળ = 2&pi;r&sup2; + &pi;r&sup2; = 3&pi;r&sup2;</p>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            અર્ધગોલકની ત્રિજ્યા (r) = <b>10 સેમી</b><br>
+                            &pi; = 3.14<br><br>
+                            
+                            અર્ધગોલકનું કુલ પૃષ્ઠફળ = <b>3&pi;r<sup>2</sup></b><br>
+                            = 3 &times; 3.14 &times; (10)<sup>2</sup><br>
+                            = 3 &times; 3.14 &times; 100<br>
+                            <span style='color:#64748b; font-size:12px;'>[3.14 ને 100 વડે ગુણતા દશાંશ ચિહ્ન દૂર થશે]</span><br>
+                            = 3 &times; 314<br>
+                            <b style='color:#be123c; font-size:18px;'>= 942 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>અર્ધગોલકમાં વિદ્યાર્થીઓ સૌથી મોટી ભૂલ સૂત્રમાં કરે છે! જો માત્ર <b>"વક્ર સપાટી"</b> પૂછે (જેમ કે વાટકો), તો <b>2&pi;r<sup>2</sup></b> લેવું. પણ જો <b>"કુલ પૃષ્ઠફળ"</b> પૂછે (જેમ કે અડધું કાપેલું લીંબુ), તો ઉપરની ગોળ સપાટી પણ ઉમેરવી પડે, એટલે સૂત્ર <b>3&pi;r<sup>2</sup></b> બની જાય!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "એક ગોળાકાર ફુગ્ગામાં હવા ભરવાથી તેની ત્રિજ્યા 7 સેમીથી વધીને 14 સેમી થાય છે. આ બંને કિસ્સાઓમાં ગોળાકાર ફુગ્ગાની વક્ર સપાટીના ક્ષેત્રફળનો ગુણોત્તર શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="80" cy="100" r="40" fill="#fecdd3" stroke="#be123c" stroke-width="2"/>
+                            <line x1="80" y1="100" x2="120" y2="100" stroke="#0f172a" stroke-width="2"/>
+                            <text x="95" y="90" fill="#0f172a" font-weight="bold">7</text>
+                            
+                            <text x="145" y="105" fill="#0f172a" font-size="20" font-weight="bold">&rarr;</text>
+                            
+                            <circle cx="240" cy="100" r="80" fill="#fecdd3" stroke="#be123c" stroke-width="2"/>
+                            <line x1="240" y1="100" x2="320" y2="100" stroke="#0f172a" stroke-width="2"/>
+                            <text x="270" y="90" fill="#0f172a" font-weight="bold">14</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ધારો કે હવા ભર્યા પહેલાંની ત્રિજ્યા r<sub>1</sub> = 7 સેમી<br>
+                            હવા ભર્યા પછીની ત્રિજ્યા r<sub>2</sub> = 14 સેમી<br><br>
+                            
+                            માગેલ ગુણોત્તર = (મૂળ ફુગ્ગાનું ક્ષેત્રફળ) / (નવા ફુગ્ગાનું ક્ષેત્રફળ)<br>
+                            ગુણોત્તર = (4&pi;r<sub>1</sub><sup>2</sup>) / (4&pi;r<sub>2</sub><sup>2</sup>)<br><br>
+                            
+                            અહીં અંશ અને છેદમાંથી <b>4&pi;</b> ઊડી જશે.<br>
+                            &there4; ગુણોત્તર = (r<sub>1</sub> / r<sub>2</sub>)<sup>2</sup><br>
+                            &there4; ગુણોત્તર = (7 / 14)<sup>2</sup><br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 7/14 = 1/2]</span><br>
+                            &there4; ગુણોત્તર = (1 / 2)<sup>2</sup><br>
+                            &there4; ગુણોત્તર = 1 / 4<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; બંને કિસ્સાઓના ક્ષેત્રફળનો ગુણોત્તર = 1 : 4</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>ગુણોત્તર પૂછ્યો હોય ત્યારે ક્યારેય પહેલાં ક્ષેત્રફળ શોધવા ન બેસવું! કારણ કે <b>4&pi;</b> તો કેન્સલ જ થવાનું છે. સીધો જ ત્રિજ્યાઓનો ગુણોત્તર લો (7 અને 14 એટલે 1:2) અને તેનો વર્ગ કરી દો. 1 નો વર્ગ 1, 2 નો વર્ગ 4. સીધો જવાબ <b>1:4</b>!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 5",
+                "marks": 4,
+                "question": "પિત્તળના બનેલા એક અર્ધગોળાકાર વાટકાની અંદરનો વ્યાસ 10.5 સેમી છે. તેની અંદરની સપાટીને કલાઈ (Plating) કરવાનો ખર્ચ ₹ 16 પ્રતિ 100 સેમી² હોય, તો કુલ ખર્ચ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>પગલું 1: વાટકાની અંદરની વક્ર સપાટીનું ક્ષેત્રફળ</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            વાટકાનો વ્યાસ (d) = 10.5 સેમી<br>
+                            &there4; ત્રિજ્યા (r) = 10.5 / 2 = <b>5.25 સેમી</b><br><br>
+                            
+                            વાટકો એટલે અર્ધગોલક. માત્ર અંદર કલાઈ કરવાની છે, તેથી વક્ર સપાટી લઈશું.<br>
+                            અર્ધગોલકની વક્ર સપાટીનું ક્ષેત્રફળ (CSA) = <b>2&pi;r<sup>2</sup></b><br>
+                            = 2 &times; (22 / 7) &times; 5.25 &times; 5.25<br>
+                            <span style='color:#64748b; font-size:12px;'>[5.25 ને 525/100 લખતા]</span><br>
+                            = 2 &times; (22 / 7) &times; (525 / 100) &times; (525 / 100)<br>
+                            = 2 &times; 22 &times; 75 &times; 5.25 / 100<br>
+                            = 44 &times; 0.75 &times; 5.25<br>
+                            = 33 &times; 5.25<br>
+                            <b style='color:#15803d; font-size:16px;'>= 173.25 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>પગલું 2: કલાઈ કરવાનો ખર્ચ</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            100 સેમી<sup>2</sup> પર કલાઈ કરવાનો ખર્ચ = ₹ 16<br>
+                            &there4; 1 સેમી<sup>2</sup> નો ખર્ચ = 16 / 100 = <b>₹ 0.16</b><br><br>
+                            
+                            &there4; કુલ ખર્ચ = ક્ષેત્રફળ &times; દર<br>
+                            = 173.25 &times; (16 / 100)<br>
+                            = 2772 / 100<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; કુલ ખર્ચ = ₹ 27.72</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+        
+                
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 6",
+                "marks": 2,
+                "question": "154 સેમી² વક્ર સપાટીનું ક્ષેત્રફળ ધરાવતા ગોલકની ત્રિજ્યા શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="150" cy="100" r="80" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                            <ellipse cx="150" cy="100" rx="80" ry="30" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            <path d="M 70 100 A 80 30 0 0 0 230 100" fill="none" stroke="#16a34a" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="100" r="4" fill="#be123c"/>
+                            <line x1="150" y1="100" x2="230" y2="100" stroke="#be123c" stroke-width="2"/>
+                            <text x="175" y="90" fill="#be123c" font-weight="bold" font-size="16">r = ?</text>
+                            
+                            <text x="150" y="30" fill="#0284c7" font-weight="bold" text-anchor="middle">ક્ષેત્રફળ = 154 cm²</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            આપેલ છે: ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ = 154 સેમી<sup>2</sup><br>
+                            આપણે જાણીએ છીએ કે ગોલકનું ક્ષેત્રફળ = <b>4&pi;r<sup>2</sup></b><br><br>
+                            
+                            &there4; 4&pi;r<sup>2</sup> = 154<br>
+                            &there4; 4 &times; (22 / 7) &times; r<sup>2</sup> = 154<br>
+                            &there4; r<sup>2</sup> = (154 &times; 7) / (4 &times; 22)<br>
+                            <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 154 / 22 = 7]</span><br>
+                            &there4; r<sup>2</sup> = (7 &times; 7) / 4<br>
+                            &there4; r<sup>2</sup> = 49 / 4<br>
+                            બંને બાજુ વર્ગમૂળ લેતાં:<br>
+                            &there4; r = &radic;(49 / 4)<br>
+                            &there4; r = 7 / 2<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; ત્રિજ્યા (r) = 3.5 સેમી</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 7",
+                "marks": 3,
+                "question": "ચંદ્રનો વ્યાસ પૃથ્વીના વ્યાસના આશરે ચોથા ભાગ જેટલો છે. તેમની વક્ર સપાટીના ક્ષેત્રફળોનો ગુણોત્તર શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="100" r="70" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            <text x="100" y="100" fill="#0284c7" font-weight="bold" font-size="16" text-anchor="middle">પૃથ્વી</text>
+                            <line x1="30" y1="100" x2="170" y2="100" stroke="#0f172a" stroke-width="2" stroke-dasharray="4,4"/>
+                            <text x="100" y="115" fill="#0f172a" font-size="12" font-weight="bold" text-anchor="middle">વ્યાસ: d</text>
+                            
+                            <text x="200" y="105" fill="#0f172a" font-size="20" font-weight="bold">&rarr;</text>
+                            
+                            <circle cx="270" cy="100" r="17.5" fill="#f1f5f9" stroke="#64748b" stroke-width="2"/>
+                            <text x="270" y="70" fill="#475569" font-weight="bold" font-size="14" text-anchor="middle">ચંદ્ર</text>
+                            <line x1="252.5" y1="100" x2="287.5" y2="100" stroke="#0f172a" stroke-width="1.5" stroke-dasharray="2,2"/>
+                            <text x="270" y="115" fill="#0f172a" font-size="10" font-weight="bold" text-anchor="middle">d / 4</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ધારો કે પૃથ્વીનો વ્યાસ = <b>d</b> છે.<br>
+                            તેથી, પૃથ્વીની ત્રિજ્યા (r<sub>e</sub>) = <b>d / 2</b> થાય.<br><br>
+                            
+                            રકમ મુજબ ચંદ્રનો વ્યાસ એ પૃથ્વીના વ્યાસથી ચોથા ભાગનો છે.<br>
+                            તેથી, ચંદ્રનો વ્યાસ = <b>d / 4</b><br>
+                            આથી, ચંદ્રની ત્રિજ્યા (r<sub>m</sub>) = (d / 4) / 2 = <b>d / 8</b> થાય.<br><br>
+                            
+                            હવે ક્ષેત્રફળનો ગુણોત્તર = (ચંદ્રનું ક્ષેત્રફળ) / (પૃથ્વીનું ક્ષેત્રફળ)<br>
+                            ગુણોત્તર = (4&pi;r<sub>m</sub><sup>2</sup>) / (4&pi;r<sub>e</sub><sup>2</sup>)<br>
+                            અહીં 4&pi; ઉડી જશે.<br>
+                            &there4; ગુણોત્તર = (r<sub>m</sub> / r<sub>e</sub>)<sup>2</sup><br>
+                            &there4; ગુણોત્તર = [ (d / 8) / (d / 2) ]<sup>2</sup><br>
+                            &there4; ગુણોત્તર = [ (d &times; 2) / (8 &times; d) ]<sup>2</sup><br>
+                            <span style='color:#64748b; font-size:12px;'>[d અને d ઉડી જશે, 2/8 એટલે 1/4]</span><br>
+                            &there4; ગુણોત્તર = (1 / 4)<sup>2</sup><br>
+                            &there4; ગુણોત્તર = 1 / 16<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; ક્ષેત્રફળોનો ગુણોત્તર = 1 : 16</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>ગુણોત્તરના દાખલામાં ત્રિજ્યાને બદલે સીધો વ્યાસનો ગુણોત્તર લેશો તો પણ જવાબ એ જ આવશે! અહીં ચંદ્ર અને પૃથ્વીના વ્યાસનો ગુણોત્તર 1:4 છે. ક્ષેત્રફળ પૂછ્યું છે, તો સીધો જ તેનો વર્ગ (Square) કરી દો. 1 નો વર્ગ 1 અને 4 નો વર્ગ 16. સીધો જવાબ <b>1:16</b> તૈયાર!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 8",
+                "marks": 3,
+                "question": "એક અર્ધગોળાકાર વાટકો 0.25 સેમી જાડા સ્ટીલનો બનેલો છે. વાટકાની અંદરની ત્રિજ્યા 5 સેમી છે. વાટકાની બહારની વક્ર સપાટીનું ક્ષેત્રફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M 50 80 A 100 100 0 0 0 250 80" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+                            <path d="M 60 80 A 90 90 0 0 0 240 80" fill="#ffffff" stroke="#475569" stroke-width="2"/>
+                            
+                            <ellipse cx="150" cy="80" rx="100" ry="25" fill="none" stroke="#475569" stroke-width="2"/>
+                            <ellipse cx="150" cy="80" rx="90" ry="20" fill="none" stroke="#475569" stroke-width="2"/>
+                            
+                            <path d="M 50 80 A 100 25 0 0 0 250 80 A 90 20 0 0 1 50 80 Z" fill="#94a3b8"/>
+                            <path d="M 50 80 A 100 25 0 0 1 250 80 A 90 20 0 0 0 50 80 Z" fill="#e2e8f0"/>
+                            
+                            <circle cx="150" cy="80" r="3" fill="#be123c"/>
+                            
+                            <line x1="150" y1="80" x2="240" y2="80" stroke="#be123c" stroke-width="2"/>
+                            <text x="175" y="75" fill="#be123c" font-weight="bold" font-size="12">r = 5</text>
+                            
+                            <line x1="240" y1="80" x2="250" y2="80" stroke="#ea580c" stroke-width="4"/>
+                            <text x="255" y="75" fill="#ea580c" font-weight="bold" font-size="12">0.25 (જાડાઈ)</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#475569; font-size:13px;'>બહારની ત્રિજ્યા (R) = અંદરની ત્રિજ્યા (r) + જાડાઈ</p>
+                    </div>
+
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            વાટકાની અંદરની ત્રિજ્યા (r) = 5 સેમી<br>
+                            સ્ટીલની જાડાઈ = 0.25 સેમી<br><br>
+                            
+                            આપણે બહારની વક્ર સપાટીનું ક્ષેત્રફળ શોધવાનું છે, તેથી આપણે <b>બહારની ત્રિજ્યા (R)</b> લેવી પડશે.<br>
+                            બહારની ત્રિજ્યા (R) = અંદરની ત્રિજ્યા + જાડાઈ<br>
+                            &there4; R = 5 + 0.25 = <b>5.25 સેમી</b><br><br>
+                            
+                            બહારની વક્ર સપાટીનું ક્ષેત્રફળ (અર્ધગોલક) = <b>2&pi;R<sup>2</sup></b><br>
+                            = 2 &times; (22 / 7) &times; 5.25 &times; 5.25<br>
+                            <span style='color:#64748b; font-size:12px;'>[5.25 ને 525/100 લખીશું]</span><br>
+                            = 2 &times; (22 / 7) &times; (525 / 100) &times; (525 / 100)<br>
+                            = 44 &times; (75 / 100) &times; 5.25<br>
+                            = 44 &times; 0.75 &times; 5.25<br>
+                            = 33 &times; 5.25<br>
+                            <b style='color:#be123c; font-size:18px;'>= 173.25 સેમી<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.2 - પ્રશ્ન 9",
+                "marks": 5,
+                "question": "એક લંબવૃત્તીય નળાકારમાં r ત્રિજ્યાવાળો એક ગોલક બરાબર બંધબેસતો આવેલો છે. તો શોધો:<br>(i) ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ<br>(ii) નળાકારની વક્ર સપાટીનું ક્ષેત્રફળ<br>(iii) (i) અને (ii) માં મળતા ક્ષેત્રફળોનો ગુણોત્તર", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="40" rx="80" ry="20" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <ellipse cx="150" cy="200" rx="80" ry="20" fill="none" stroke="#0284c7" stroke-width="2"/>
+                            <line x1="70" y1="40" x2="70" y2="200" stroke="#0284c7" stroke-width="2"/>
+                            <line x1="230" y1="40" x2="230" y2="200" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <circle cx="150" cy="120" r="80" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" fill-opacity="0.7"/>
+                            <ellipse cx="150" cy="120" rx="80" ry="25" fill="none" stroke="#16a34a" stroke-width="1.5" stroke-dasharray="4,4"/>
+                            
+                            <circle cx="150" cy="120" r="4" fill="#be123c"/>
+                            
+                            <line x1="150" y1="120" x2="230" y2="120" stroke="#be123c" stroke-width="2"/>
+                            <text x="180" y="110" fill="#be123c" font-weight="bold">r</text>
+                            
+                            <line x1="260" y1="40" x2="260" y2="200" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow93)" marker-end="url(#arrow93)"/>
+                            <text x="270" y="125" fill="#0f172a" font-weight="bold">h = 2r</text>
+                            
+                            <defs>
+                                <marker id="arrow93" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                                    <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                                </marker>
+                            </defs>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>ગોલક બરાબર બંધબેસતો હોવાથી નળાકારની ઊંચાઈ એ ગોલકના વ્યાસ (2r) જેટલી થાય.</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            આકૃતિ પરથી સ્પષ્ટ છે કે ગોલક નળાકારમાં બરાબર બંધબેસતો હોવાથી:<br>
+                            નળાકારની ત્રિજ્યા = ગોલકની ત્રિજ્યા = <b>r</b><br>
+                            નળાકારની ઊંચાઈ (h) = ગોલકનો વ્યાસ = <b>2r</b><br><br>
+                            
+                            <b>(i) ગોલકની વક્ર સપાટીનું ક્ષેત્રફળ:</b><br>
+                            ગોલકની ત્રિજ્યા r હોવાથી, તેનું ક્ષેત્રફળ = <b style='color:#be123c; font-size:16px;'>4&pi;r<sup>2</sup></b><br><br>
+                            
+                            <b>(ii) નળાકારની વક્ર સપાટીનું ક્ષેત્રફળ:</b><br>
+                            નળાકારની વક્ર સપાટીનું સૂત્ર = 2&pi;rh<br>
+                            અહીં h ની જગ્યાએ 2r મૂકતાં:<br>
+                            = 2&pi;r(2r)<br>
+                            = <b style='color:#16a34a; font-size:16px;'>4&pi;r<sup>2</sup></b><br><br>
+                            
+                            <b>(iii) બંને ક્ષેત્રફળોનો ગુણોત્તર:</b><br>
+                            ગુણોત્તર = (ગોલકનું ક્ષેત્રફળ) / (નળાકારનું ક્ષેત્રફળ)<br>
+                            = 4&pi;r<sup>2</sup> / 4&pi;r<sup>2</sup><br>
+                            = 1 / 1<br>
+                            <b style='color:#ea580c; font-size:18px;'>&there4; ગુણોત્તર = 1 : 1</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>મહાન ગણિતશાસ્ત્રી આર્કિમિડીઝે પણ આજ સાબિત કર્યું હતું! જો કોઈ નળાકારમાં ગોળો બરાબર ફિટ બેસાડવામાં આવે, તો <b>બંનેની વક્ર સપાટીઓનું ક્ષેત્રફળ હંમેશા સમાન જ થાય છે</b>. તેથી તેમનો ગુણોત્તર હંમેશા <b>1:1</b> જ રહે. આ ફેક્ટ સીધો જ MCQ માં પૂછાઈ શકે છે!</p>
+                </div>`
+            }
+        
+        ]
+    }
+    
     
 };
 
