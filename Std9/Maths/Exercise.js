@@ -7581,8 +7581,414 @@ var njMathsExercise = {
                     <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>મહાન ગણિતશાસ્ત્રી આર્કિમિડીઝે પણ આજ સાબિત કર્યું હતું! જો કોઈ નળાકારમાં ગોળો બરાબર ફિટ બેસાડવામાં આવે, તો <b>બંનેની વક્ર સપાટીઓનું ક્ષેત્રફળ હંમેશા સમાન જ થાય છે</b>. તેથી તેમનો ગુણોત્તર હંમેશા <b>1:1</b> જ રહે. આ ફેક્ટ સીધો જ MCQ માં પૂછાઈ શકે છે!</p>
                 </div>`
+            },
+                        
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 1",
+                "marks": 3,
+                "question": "નીચે આપેલા લંબવૃત્તીય શંકુનું ઘનફળ શોધો:<br>(i) ત્રિજ્યા 6 સેમી, ઊંચાઈ 7 સેમી<br>(ii) ત્રિજ્યા 3.5 સેમી, ઊંચાઈ 12 સેમી", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 250" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="180" rx="80" ry="25" fill="#bae6fd" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <path d="M 70 180 L 150 30 L 230 180 Z" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <line x1="150" y1="30" x2="150" y2="180" stroke="#be123c" stroke-width="2"/>
+                            <text x="135" y="110" fill="#be123c" font-weight="bold">h</text>
+                            
+                            <line x1="150" y1="180" x2="230" y2="180" stroke="#16a34a" stroke-width="2"/>
+                            <text x="180" y="175" fill="#16a34a" font-weight="bold">r</text>
+                            
+                            <circle cx="150" cy="180" r="3" fill="#0f172a"/>
+                            <text x="145" y="140" fill="#0369a1" font-weight="bold" font-size="14">ઘનફળ (V)</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#0f172a; font-weight:bold; font-size:14px;'>શંકુનું ઘનફળ (V) = (1/3) &pi;r&sup2;h</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:15px; overflow-x:auto;'>
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px; min-width:300px;'>
+                            <h4 style='color:#14532d; margin:0 0 8px 0;'>(i) r = 6 સેમી, h = 7 સેમી</h4>
+                            <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                                શંકુનું ઘનફળ = (1 / 3) &times; &pi; &times; r<sup>2</sup> &times; h<br>
+                                = (1 / 3) &times; (22 / 7) &times; 6 &times; 6 &times; 7<br>
+                                <span style='color:#64748b; font-size:12px;'>[અહીં 7 અને 7 ઉડી જશે, તથા 6 / 3 = 2 થશે]</span><br>
+                                = 22 &times; 2 &times; 6<br>
+                                = 44 &times; 6<br>
+                                <b style='color:#15803d; font-size:16px;'>= 264 સેમી<sup>3</sup></b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:300px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) r = 3.5 સેમી, h = 12 સેમી</h4>
+                            <div style='font-size:14px; color:#9f1239; line-height:1.8; margin-left:10px;'>
+                                <span style='color:#64748b; font-size:12px;'>[3.5 ને 35/10 અથવા 7/2 લખીશું]</span><br>
+                                શંકુનું ઘનફળ = (1 / 3) &times; (22 / 7) &times; (7 / 2) &times; (7 / 2) &times; 12<br>
+                                <span style='color:#64748b; font-size:12px;'>[છેદ ઉડાડતાં: 12 / 3 = 4, 7 અને 7 કેન્સલ]</span><br>
+                                = 22 &times; (7 / 4) &times; 4<br>
+                                <span style='color:#64748b; font-size:12px;'>[અહીં 4 અને 4 ઉડી જશે]</span><br>
+                                = 22 &times; 7<br>
+                                <b style='color:#be123c; font-size:16px;'>= 154 સેમી<sup>3</sup></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>ઘનફળના દાખલામાં પોઈન્ટ વાળી રકમ આવે એટલે <b>અપૂર્ણાંક (Fraction)</b> વાપરી જ લેવાનો! 3.5 એટલે 7 ના અડધા (7/2). સૂત્રમાં 7/2 મૂકો એટલે 22 અને 12 સાથે આરામથી છેદ ઉડી જશે અને ગુણાકાર સાવ સહેલો બની જશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 2",
+                "marks": 4,
+                "question": "નીચેના શંકુ આકારના વાસણની ક્ષમતા લિટરમાં શોધો:<br>(i) ત્રિજ્યા 7 સેમી, ત્રાંસી ઊંચાઈ 25 સેમી<br>(ii) ઊંચાઈ 12 સેમી, ત્રાંસી ઊંચાઈ 13 સેમી", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fefce8; padding:10px; border-radius:5px; border-left:4px solid #ca8a04; margin-bottom:15px;'>
+                        <p style='margin:0; font-size:14px; color:#a16207;'><b>ખાસ નોંધ:</b> ઘનફળ શોધવા માટે આપણે <b>સીધી ઊંચાઈ (h)</b> જોઈએ, જ્યારે અહીં ત્રાંસી ઊંચાઈ (l) આપેલી છે. તેથી પહેલા <b>પાયથાગોરસનો પ્રમેય (h&sup2; + r&sup2; = l&sup2;)</b> વાપરવો પડશે. વળી, <b>1000 સેમી<sup>3</sup> = 1 લિટર</b> થાય.</p>
+                    </div>
+
+                    <div style='display:flex; flex-direction:column; gap:20px; overflow-x:auto;'>
+                        <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#0c4a6e; margin:0 0 8px 0;'>(i) r = 7 સેમી, l = 25 સેમી</h4>
+                            <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                                <b>પગલું 1: ઊંચાઈ (h) શોધવી</b><br>
+                                h<sup>2</sup> = l<sup>2</sup> - r<sup>2</sup><br>
+                                &there4; h<sup>2</sup> = (25)<sup>2</sup> - (7)<sup>2</sup><br>
+                                &there4; h<sup>2</sup> = 625 - 49 = 576<br>
+                                &there4; <b>h = &radic;576 = 24 સેમી</b><br><br>
+                                
+                                <b>પગલું 2: ઘનફળ (ક્ષમતા) શોધવી</b><br>
+                                ઘનફળ = (1 / 3) &pi;r<sup>2</sup>h<br>
+                                = (1 / 3) &times; (22 / 7) &times; 7 &times; 7 &times; 24<br>
+                                <span style='color:#64748b; font-size:12px;'>[7 અને 7 ઉડી જશે, 24 / 3 = 8]</span><br>
+                                = 22 &times; 7 &times; 8<br>
+                                = 154 &times; 8 = <b>1232 સેમી<sup>3</sup></b><br><br>
+                                
+                                <b>પગલું 3: લિટરમાં રૂપાંતર</b><br>
+                                ક્ષમતા (લિટરમાં) = 1232 / 1000<br>
+                                <b style='color:#0284c7; font-size:16px;'>= 1.232 લિટર</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) h = 12 સેમી, l = 13 સેમી</h4>
+                            <div style='font-size:14px; color:#9f1239; line-height:1.8; margin-left:10px;'>
+                                <b>પગલું 1: ત્રિજ્યા (r) શોધવી</b><br>
+                                r<sup>2</sup> = l<sup>2</sup> - h<sup>2</sup><br>
+                                &there4; r<sup>2</sup> = (13)<sup>2</sup> - (12)<sup>2</sup><br>
+                                &there4; r<sup>2</sup> = 169 - 144 = 25<br>
+                                &there4; <b>r = &radic;25 = 5 સેમી</b><br><br>
+                                
+                                <b>પગલું 2: ઘનફળ (ક્ષમતા) શોધવી</b><br>
+                                ઘનફળ = (1 / 3) &pi;r<sup>2</sup>h<br>
+                                = (1 / 3) &times; (22 / 7) &times; 5 &times; 5 &times; 12<br>
+                                <span style='color:#64748b; font-size:12px;'>[12 / 3 = 4]</span><br>
+                                = (22 / 7) &times; 25 &times; 4<br>
+                                = 2200 / 7 સેમી<sup>3</sup><br><br>
+                                
+                                <b>પગલું 3: લિટરમાં રૂપાંતર</b><br>
+                                ક્ષમતા (લિટરમાં) = (2200 / 7) / 1000<br>
+                                = 2200 / 7000<br>
+                                <span style='color:#64748b; font-size:12px;'>[મીંડા ઉડાડતાં અને 2 વડે ભાગતાં]</span><br>
+                                <b style='color:#be123c; font-size:16px;'>= 11 / 35 લિટર</b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 3",
+                "marks": 3,
+                "question": "એક શંકુની ઊંચાઈ 15 સેમી છે. જો તેનું ઘનફળ 1570 સેમી³ હોય, તો તેના પાયાની ત્રિજ્યા શોધો. (π = 3.14 લો)", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            ઊંચાઈ (h) = 15 સેમી<br>
+                            ઘનફળ (V) = 1570 સેમી<sup>3</sup><br>
+                            &pi; = 3.14 લેવાનું છે.<br><br>
+                            
+                            શંકુનું ઘનફળ = (1 / 3) &pi;r<sup>2</sup>h<br>
+                            &there4; 1570 = (1 / 3) &times; 3.14 &times; r<sup>2</sup> &times; 15<br>
+                            <span style='color:#64748b; font-size:12px;'>[15 / 3 = 5]</span><br>
+                            &there4; 1570 = 3.14 &times; 5 &times; r<sup>2</sup><br>
+                            &there4; 1570 = 15.70 &times; r<sup>2</sup><br><br>
+                            
+                            r<sup>2</sup> ને કર્તા બનાવતાં:<br>
+                            &there4; r<sup>2</sup> = 1570 / 15.7<br>
+                            &there4; r<sup>2</sup> = (1570 &times; 10) / 157<br>
+                            &there4; r<sup>2</sup> = 10 &times; 10 = 100<br><br>
+                            
+                            બંને બાજુ વર્ગમૂળ લેતાં:<br>
+                            &there4; r = &radic;100<br>
+                            <b style='color:#15803d; font-size:18px;'>&there4; પાયાની ત્રિજ્યા (r) = 10 સેમી</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જ્યારે પણ રકમમાં ઘનફળ <b>1570, 314 અથવા 4710</b> જેવું કંઈક આપે, ત્યારે તરત જ સમજી લેવું કે તેમાં <b>&pi; = 3.14</b> નો કમાલ છે! કારણ કે 1570 એ 3.14 ના સીધા ગુણકમાં (314 ના અડધા 157) આવે છે. છેદ ઉડાડવામાં આ હિન્ટ બહુ જ કામ લાગશે!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 4",
+                "marks": 3,
+                "question": "જો 9 સેમી ઊંચાઈવાળા શંકુનું ઘનફળ 48π સેમી³ હોય, તો તેના પાયાનો વ્યાસ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            ઊંચાઈ (h) = 9 સેમી<br>
+                            ઘનફળ (V) = 48&pi; સેમી<sup>3</sup><br><br>
+                            
+                            શંકુનું ઘનફળ = (1 / 3) &pi;r<sup>2</sup>h<br>
+                            &there4; 48&pi; = (1 / 3) &times; &pi; &times; r<sup>2</sup> &times; 9<br><br>
+                            
+                            <span style='color:#64748b; font-size:12px;'>[બંને બાજુથી &pi; ઉડી જશે, અને જમણી બાજુ 9 / 3 = 3 થશે]</span><br>
+                            &there4; 48 = 3 &times; r<sup>2</sup><br>
+                            &there4; r<sup>2</sup> = 48 / 3<br>
+                            &there4; r<sup>2</sup> = 16<br><br>
+                            
+                            વર્ગમૂળ લેતાં:<br>
+                            &there4; r = &radic;16 = <b>4 સેમી</b> (ત્રિજ્યા)<br><br>
+                            
+                            આપણે પાયાનો વ્યાસ (d) શોધવાનો છે.<br>
+                            વ્યાસ (d) = 2 &times; ત્રિજ્યા (r)<br>
+                            &there4; d = 2 &times; 4<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; પાયાનો વ્યાસ = 8 સેમી</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 5",
+                "marks": 3,
+                "question": "3.5 મીટર વ્યાસવાળા શંકુ આકારના ખાડાની ઊંડાઈ 12 મીટર છે. તેની ક્ષમતા કિલોલિટરમાં કેટલી થાય?", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 300 200" style="width:100%; max-width:250px;" xmlns="http://www.w3.org/2000/svg">
+                            <ellipse cx="150" cy="40" rx="80" ry="20" fill="#fef08a" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <path d="M 70 40 L 150 180 L 230 40 Z" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+                            
+                            <line x1="150" y1="40" x2="150" y2="180" stroke="#be123c" stroke-width="2" stroke-dasharray="4,4"/>
+                            <text x="130" y="110" fill="#be123c" font-weight="bold">h=12</text>
+                            
+                            <line x1="70" y1="40" x2="230" y2="40" stroke="#16a34a" stroke-width="2"/>
+                            <text x="120" y="30" fill="#16a34a" font-weight="bold">d = 3.5 m</text>
+                        </svg>
+                        <p style='margin:5px 0 0 0; color:#a16207; font-size:13px;'>નોંધ: 1 m&sup3; = 1 કિલોલિટર (kL) થાય.</p>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            ખાડાનો વ્યાસ (d) = 3.5 મી.<br>
+                            &there4; ત્રિજ્યા (r) = 3.5 / 2 = 35 / 20 = <b>7 / 4 મીટર</b><br>
+                            ઊંડાઈ એટલે કે ઊંચાઈ (h) = <b>12 મીટર</b><br><br>
+                            
+                            ખાડાની ક્ષમતા (ઘનફળ) = (1 / 3) &pi;r<sup>2</sup>h<br>
+                            = (1 / 3) &times; (22 / 7) &times; (7 / 4) &times; (7 / 4) &times; 12<br>
+                            <span style='color:#64748b; font-size:12px;'>[અહીં 7 અને 7 ઉડી જશે. 12 અને 3 નો છેદ ઉડતા 4 વધશે. આ 4 છેદના એક 4 સાથે ઉડી જશે.]</span><br>
+                            = 22 &times; (7 / 4)<br>
+                            <span style='color:#64748b; font-size:12px;'>[22 અને 4 ના અડધા કરતા]</span><br>
+                            = 11 &times; 7 / 2<br>
+                            = 77 / 2<br>
+                            = <b>38.5 મીટર<sup>3</sup></b><br><br>
+                            
+                            આપણે જાણીએ છીએ કે <b>1 મીટર<sup>3</sup> = 1 કિલોલિટર (kL)</b> થાય છે.<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; ખાડાની ક્ષમતા = 38.5 કિલોલિટર</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+                 { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 6",
+                "marks": 4,
+                "question": "એક લંબવૃત્તીય શંકુનું ઘનફળ 9856 સેમી³ છે. જો તેના પાયાનો વ્યાસ 28 સેમી હોય, તો શોધો:<br>(i) શંકુની ઊંચાઈ<br>(ii) શંકુની ત્રાંસી ઊંચાઈ<br>(iii) શંકુની વક્ર સપાટીનું ક્ષેત્રફળ", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='display:flex; flex-direction:column; gap:20px; overflow-x:auto;'>
+                        
+                        <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#14532d; margin:0 0 8px 0;'>(i) શંકુની ઊંચાઈ (h):</h4>
+                            <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                                વ્યાસ = 28 સેમી &there4; ત્રિજ્યા (r) = <b>14 સેમી</b><br>
+                                ઘનફળ (V) = 9856 સેમી<sup>3</sup><br><br>
+                                
+                                (1 / 3) &pi;r<sup>2</sup>h = 9856<br>
+                                &there4; (1 / 3) &times; (22 / 7) &times; 14 &times; 14 &times; h = 9856<br>
+                                <span style='color:#64748b; font-size:12px;'>[14 / 7 = 2]</span><br>
+                                &there4; (1 / 3) &times; 22 &times; 2 &times; 14 &times; h = 9856<br>
+                                &there4; 616 &times; h / 3 = 9856<br>
+                                &there4; h = (9856 &times; 3) / 616<br>
+                                <span style='color:#64748b; font-size:12px;'>[9856 ભાગ્યા 616 = 16]</span><br>
+                                &there4; h = 16 &times; 3<br>
+                                <b style='color:#15803d; font-size:16px;'>&there4; ઊંચાઈ (h) = 48 સેમી</b>
+                            </div>
+                        </div>
+
+                        <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#881337; margin:0 0 8px 0;'>(ii) શંકુની ત્રાંસી ઊંચાઈ (l):</h4>
+                            <div style='font-size:14px; color:#9f1239; line-height:1.8; margin-left:10px;'>
+                                પાયથાગોરસના પ્રમેય મુજબ: l<sup>2</sup> = r<sup>2</sup> + h<sup>2</sup><br>
+                                &there4; l<sup>2</sup> = (14)<sup>2</sup> + (48)<sup>2</sup><br>
+                                &there4; l<sup>2</sup> = 196 + 2304<br>
+                                &there4; l<sup>2</sup> = 2500<br>
+                                &there4; l = &radic;2500<br>
+                                <b style='color:#be123c; font-size:16px;'>&there4; ત્રાંસી ઊંચાઈ (l) = 50 સેમી</b>
+                            </div>
+                        </div>
+                        
+                        <div style='background-color:#eff6ff; padding:12px; border-left:4px solid #1d4ed8; border-radius:5px; min-width:320px;'>
+                            <h4 style='color:#1e3a8a; margin:0 0 8px 0;'>(iii) વક્ર સપાટીનું ક્ષેત્રફળ (CSA):</h4>
+                            <div style='font-size:14px; color:#1d4ed8; line-height:1.8; margin-left:10px;'>
+                                શંકુની વક્ર સપાટી = <b>&pi;rl</b><br>
+                                = (22 / 7) &times; 14 &times; 50<br>
+                                <span style='color:#64748b; font-size:12px;'>[14 / 7 = 2]</span><br>
+                                = 22 &times; 2 &times; 50<br>
+                                = 44 &times; 50<br>
+                                <b style='color:#1d4ed8; font-size:16px;'>= 2200 સેમી<sup>2</sup></b>
+                            </div>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 7",
+                "marks": 3,
+                "question": "કાટકોણ ત્રિકોણ ABC માં બાજુઓનાં માપ 5 સેમી, 12 સેમી અને 13 સેમી છે. તેને 12 સેમી લંબાઈવાળી બાજુની આસપાસ પરિભ્રમણ કરાવવામાં આવે છે, તો તેનાથી બનતા ઘન આકારનું ઘનફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
+                            <line x1="175" y1="20" x2="175" y2="180" stroke="#be123c" stroke-width="3" stroke-dasharray="5,5"/>
+                            <text x="185" y="100" fill="#be123c" font-weight="bold">h = 12 cm</text>
+                            
+                            <polygon points="175,20 175,180 255,180" fill="#bae6fd" stroke="#0284c7" stroke-width="2"/>
+                            
+                            <text x="210" y="195" fill="#16a34a" font-weight="bold">r = 5 cm</text>
+                            
+                            <text x="225" y="100" fill="#ea580c" font-weight="bold">13 cm</text>
+                            
+                            <ellipse cx="175" cy="180" rx="80" ry="25" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                            <path d="M 95 180 L 175 20" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4"/>
+                            
+                            <text x="175" y="230" fill="#0f172a" font-weight="bold" font-size="14" text-anchor="middle">બનતો આકાર: શંકુ</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            જ્યારે કાટકોણ ત્રિકોણને તેની કોઈ એક કાટખૂણો બનાવતી બાજુની આસપાસ ફેરવવામાં (પરિભ્રમણ) આવે, ત્યારે <b>શંકુ (Cone)</b> આકાર બને છે.<br><br>
+                            
+                            અહીં, 12 સેમી વાળી બાજુની આસપાસ ફેરવવાનો છે, તેથી તે તેની <b>ઊંચાઈ (h)</b> બનશે.<br>
+                            અને બીજી બાજુ 5 સેમી છે, તે તેનો <b>પાયો (ત્રિજ્યા r)</b> બનશે. (13 સેમી એ કર્ણ એટલે કે ત્રાંસી ઊંચાઈ l બને).<br>
+                            &there4; h = 12 સેમી, r = 5 સેમી.<br><br>
+                            
+                            શંકુનું ઘનફળ = (1 / 3) &pi;r<sup>2</sup>h<br>
+                            = (1 / 3) &times; &pi; &times; 5 &times; 5 &times; 12<br>
+                            <span style='color:#64748b; font-size:12px;'>[12 / 3 = 4]</span><br>
+                            = &pi; &times; 25 &times; 4<br>
+                            <b style='color:#be123c; font-size:18px;'>= 100&pi; સેમી<sup>3</sup></b><br>
+                            <span style='color:#64748b; font-size:12px;'>(નોંધ: અહીં &pi; ની કિંમત મૂક્યા વગર જવાબ લખવો વધુ યોગ્ય છે, કારણ કે પછીના પ્રશ્નમાં ગુણોત્તર લેવાનો છે).</span>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 8",
+                "marks": 3,
+                "question": "જો પ્રશ્ન 7 માં આપેલા ત્રિકોણ ABC ને 5 સેમી લંબાઈવાળી બાજુની આસપાસ પરિભ્રમણ કરાવવામાં આવે, તો બનતા ઘન આકારનું ઘનફળ શોધો. પ્રશ્ન 7 અને 8 માં મળતા બે ઘનફળનો ગુણોત્તર પણ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>પગલું 1: નવા શંકુનું ઘનફળ</b></p>
+                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                            આ વખતે ત્રિકોણને <b>5 સેમી</b> વાળી બાજુની આસપાસ ફેરવવામાં આવે છે.<br>
+                            તેથી, <b>ઊંચાઈ (h) = 5 સેમી</b> થશે અને <b>ત્રિજ્યા (r) = 12 સેમી</b> થશે.<br><br>
+                            
+                            નવા શંકુનું ઘનફળ = (1 / 3) &pi;r<sup>2</sup>h<br>
+                            = (1 / 3) &times; &pi; &times; 12 &times; 12 &times; 5<br>
+                            <span style='color:#64748b; font-size:12px;'>[12 / 3 = 4]</span><br>
+                            = &pi; &times; 4 &times; 12 &times; 5<br>
+                            = &pi; &times; 240<br>
+                            <b style='color:#15803d; font-size:18px;'>= 240&pi; સેમી<sup>3</sup></b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>પગલું 2: બંને ઘનફળનો ગુણોત્તર</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            પ્રશ્ન 7 નું ઘનફળ (V1) = 100&pi; સેમી<sup>3</sup><br>
+                            પ્રશ્ન 8 નું ઘનફળ (V2) = 240&pi; સેમી<sup>3</sup><br><br>
+                            
+                            ગુણોત્તર = V1 / V2<br>
+                            = 100&pi; / 240&pi;<br>
+                            <span style='color:#64748b; font-size:12px;'>[&pi; અને મીંડા ઉડી જશે]</span><br>
+                            = 10 / 24<br>
+                            <span style='color:#64748b; font-size:12px;'>[બે વડે ભાગતાં: 5/12]</span><br>
+                            = 5 / 12<br>
+                            <b style='color:#be123c; font-size:18px;'>&there4; ગુણોત્તર = 5 : 12</b>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવા દાખલામાં જો ફક્ત ગુણોત્તર જ પૂછ્યો હોય, તો સીધી શોર્ટકટ ટ્રીક વાપરો: <b>"જે બાજુઓની આસપાસ ફેરવ્યું હોય, તેમનો જ ગુણોત્તર લઈ લો!"</b> અહીં પહેલા 12 ની આસપાસ ફેરવ્યું અને પછી 5 ની આસપાસ. પણ જવાબમાં તેનો <b>વ્યસ્ત (ઊલટો) ગુણોત્તર</b> આવે છે, એટલે કે <b>5:12</b>. સીધો MCQ નો જવાબ તૈયાર!</p>
+                </div>`
+            },
+            { 
+                "questionNumber": "સ્વાધ્યાય 11.3 - પ્રશ્ન 9",
+                "marks": 4,
+                "question": "ઘઉંના એક ઢગલાનો આકાર શંકુ જેવો છે. તેનો વ્યાસ 10.5 મીટર અને ઊંચાઈ 3 મીટર છે. તેનું ઘનફળ શોધો. આ ઢગલાને વરસાદથી બચાવવા માટે કેનવાસથી ઢાંકવાનો છે. તો જરૂરી કેનવાસનું ક્ષેત્રફળ શોધો.", 
+                "answer": `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ભાગ 1: ઘઉંના ઢગલાનું ઘનફળ</b></p>
+                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                            વ્યાસ (d) = 10.5 મી. &there4; ત્રિજ્યા (r) = 10.5 / 2 = <b>5.25 મી. (અથવા 21/4)</b><br>
+                            ઊંચાઈ (h) = <b>3 મી.</b><br><br>
+                            
+                            ઘનફળ = (1 / 3) &pi;r<sup>2</sup>h<br>
+                            = (1 / 3) &times; (22 / 7) &times; (21 / 4) &times; (21 / 4) &times; 3<br>
+                            <span style='color:#64748b; font-size:12px;'>[અહીં 3 અને 3 ઉડી જશે. 21/7 = 3 થશે]</span><br>
+                            = 22 &times; 3 &times; 21 / 16<br>
+                            = 1386 / 16<br>
+                            <b style='color:#0284c7; font-size:16px;'>= 86.625 મીટર<sup>3</sup></b>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px; margin-top:15px;'>
+                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>ભાગ 2: કેનવાસનું ક્ષેત્રફળ (વક્ર સપાટી)</b></p>
+                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                            કેનવાસ ઢાંકવા માટે વક્ર સપાટીનું ક્ષેત્રફળ (&pi;rl) શોધવું પડે, જેના માટે ત્રાંસી ઊંચાઈ (l) જોઈશે.<br>
+                            l<sup>2</sup> = r<sup>2</sup> + h<sup>2</sup><br>
+                            l<sup>2</sup> = (5.25)<sup>2</sup> + (3)<sup>2</sup><br>
+                            l<sup>2</sup> = 27.5625 + 9 = 36.5625<br>
+                            &there4; l = &radic;36.5625 &approx; <b>6.05 મી.</b> (આશરે)<br><br>
+                            
+                            કેનવાસનું ક્ષેત્રફળ = &pi;rl<br>
+                            = (22 / 7) &times; 5.25 &times; 6.05<br>
+                            <span style='color:#64748b; font-size:12px;'>[5.25 / 7 = 0.75]</span><br>
+                            = 22 &times; 0.75 &times; 6.05<br>
+                            = 16.5 &times; 6.05<br>
+                            <b style='color:#be123c; font-size:18px;'>= 99.825 મીટર<sup>2</sup></b>
+                        </div>
+                    </div>
+                </div>`
             }
         
+    
         ]
     }
     
