@@ -1067,7 +1067,1090 @@ var njMathsExamples = {
                 </div>`
             }
         ]
+    },
+        ,
+    // ------------------------------------
+    // ધોરણ 8 - પ્રકરણ 7: રાશિઓની તુલના (નવો અભ્યાસક્રમ - ઉદાહરણો)
+    // ------------------------------------
+    "7": {
+        "chapterName": "પ્રકરણ 7",
+        "chapterTitle": "રાશિઓની તુલના (ઉદાહરણો)",
+        "qa_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "એક વસ્તુની છાપેલી કિંમત ₹ 840 છે અને તે ₹ 714 માં વેચાય છે. તો વળતર (Discount) અને વળતરની ટકાવારી શોધો.", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px;'>
+                    <div style='text-align:center; margin-bottom:15px;'>
+                        <svg width="220" height="120" viewBox="0 0 220 120">
+                            <!-- Price Tag -->
+                            <polygon points="10,60 50,20 180,20 180,100 50,100" fill="#fef2f2" stroke="#be123c" stroke-width="3"/>
+                            <circle cx="45" cy="60" r="5" fill="#ffffff" stroke="#be123c"/>
+                            <path d="M 10 60 Q -10 30 20 10" fill="none" stroke="#94a3b8" stroke-width="2"/>
+                            
+                            <text x="70" y="45" fill="#64748b" font-size="14" text-decoration="line-through">₹ 840</text>
+                            <text x="70" y="75" fill="#be123c" font-size="22" font-weight="bold">₹ 714</text>
+                            <text x="130" y="72" fill="#ea580c" font-size="14" font-weight="bold">SALE!</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border-left:4px solid #0284c7; font-size:15px; color:#1e3a8a; line-height:2;'>
+                        <b style='color:#0369a1;'>સ્ટેપ 1: વળતર (Discount) શોધવું</b><br>
+                        વળતર = છાપેલી કિંમત - વેચાણ કિંમત<br>
+                        વળતર = 840 - 714 = <b style='color:#be123c;'>₹ 126</b><br><br>
+
+                        <b style='color:#0369a1;'>સ્ટેપ 2: વળતરની ટકાવારી (%) શોધવી</b><br>
+                        ટકાવારી = 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>વળતર</div>
+                            <div style='padding:0 3px;'>છાપેલી કિંમત</div>
+                        </div>
+                        &times; 100 <br>
+                        
+                        &there4; ટકાવારી = 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>126</div>
+                            <div style='padding:0 3px;'>840</div>
+                        </div>
+                        &times; 100 <br>
+                        
+                        <span style='color:#64748b; font-size:14px;'>(છેદ ઉડાડતા: શૂન્ય શૂન્ય કટ થશે, અને 14 ના ઘડિયાથી ભાગ ચાલશે)</span><br>
+                        &there4; ટકાવારી = (126 / 84) &times; 10 = <b style='color:#047857;'>15 %</b>
+                        
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:18px; color:#1d4ed8;'>
+                            જવાબ: વળતર = ₹ 126, અને વળતરની ટકાવારી = 15%
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fffbeb; padding:12px; border-radius:8px; border-left:5px solid #eab308; margin-top:15px;'>
+                        <h4 style='color:#a16207; margin:0 0 5px 0;'>🔥 Nitesh Sir ની શોર્ટ ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#854d0e;'>ટકાવારી શોધતી વખતે એક વાત મગજમાં ફિટ કરી લો: <br><b>વળતર (Discount) હંમેશા 'છાપેલી કિંમત' પર જ ગણાય!</b> તેથી છેદમાં ક્યારેય વેચાણ કિંમત નહિ આવે, હંમેશા મોટી કિંમત (છાપેલી) જ છેદમાં બેસશે!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "એક દુકાનમાં એક જોડી રોલર સ્કેટ્સની કિંમત ₹ 450 હતી. તેના પર 5% GST લેવામાં આવ્યો. તો બિલની કુલ રકમ શોધો.", 
+                answer: `
+                <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; overflow-x:auto;'>
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #bbf7d0; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        રોલર સ્કેટ્સની કિંમત = ₹ 450 <br>
+                        GST નો દર = 5% <br><br>
+
+                        <b style='color:#047857;'>સ્ટેપ 1: GST ની રકમ શોધીએ</b><br>
+                        GST = 450 ના 5% <br>
+                        GST = 450 &times; 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>5</div>
+                            <div style='padding:0 3px;'>100</div>
+                        </div>
+                        <br>
+                        
+                        <span style='color:#64748b; font-size:14px;'>(શૂન્ય ઉડાડીએ અને ગુણાકાર કરીએ)</span><br>
+                        GST = (45 &times; 5) / 10 = 225 / 10 = <b style='color:#ea580c;'>₹ 22.50</b><br><br>
+
+                        <b style='color:#047857;'>સ્ટેપ 2: બિલની કુલ રકમ શોધીએ</b><br>
+                        કુલ રકમ = મૂળ કિંમત + GST <br>
+                        કુલ રકમ = 450 + 22.50 <br>
+                        
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            કુલ રકમ = ₹ 472.50
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fdf4ff; padding:12px; border-radius:8px; border-left:5px solid #c026d3; margin-top:15px;'>
+                        <h4 style='color:#a21caf; margin:0 0 5px 0;'>🔥 Nitesh Sir ની કોન્સેપ્ટ ક્લિયર ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#86198f;'><b>GST / Tax</b> એ સરકારને ચૂકવવાનો હોય છે, એટલે કે તે ખિસ્સામાંથી જતો વધારાનો ખર્ચ છે. તેથી તે હંમેશા મૂળ કિંમતમાં <b>ઉમેરાય (+)</b>. જ્યારે <b>વળતર (Discount)</b> આપણો ફાયદો છે, તેથી તે હંમેશા <b>બાદ (-)</b> થાય!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "₹ 12,600 પર 10% પ્રતિ વર્ષના દરે 2 વર્ષ માટે ચક્રવૃદ્ધિ વ્યાજ (Compound Interest) શોધો.", 
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; font-size:15px; color:#9a3412;'><b>ચક્રવૃદ્ધિ વ્યાજ</b> માટે આપણે વ્યાજમુદ્દલ (Amount - A) નું સૂત્ર વાપરીશું.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #fed7aa; font-size:15px; color:#1e3a8a; line-height:2.2;'>
+                        અહીં મુદ્દલ (P) = 12,600 <br>
+                        વ્યાજનો દર (R) = 10% <br>
+                        મુદત (n) = 2 વર્ષ <br><br>
+
+                        <b>સૂત્ર: A = P &times; (1 + R/100)<sup>n</sup></b><br>
+                        A = 12600 &times; ( 1 + 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>10</div>
+                            <div style='padding:0 3px;'>100</div>
+                        </div>
+                        )<sup>2</sup><br>
+                        
+                        <span style='color:#64748b; font-size:14px;'>(10/100 માંથી શૂન્ય ઉડાડતા 1/10 વધે. કૌંસનો લ.સા.અ. લેતા 11/10 થશે)</span><br>
+                        A = 12600 &times; (11/10)<sup>2</sup> <br>
+                        A = 12600 &times; 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>11</div>
+                            <div style='padding:0 3px;'>10</div>
+                        </div>
+                        &times; 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>11</div>
+                            <div style='padding:0 3px;'>10</div>
+                        </div>
+                        <br>
+                        
+                        <span style='color:#64748b; font-size:14px;'>(છેદના 2 મીંડા અને 12600 ના 2 મીંડા કટ થશે)</span><br>
+                        A = 126 &times; 11 &times; 11 <br>
+                        A = 126 &times; 121 = <b style='color:#0284c7;'>₹ 15,246</b> (આ વ્યાજમુદ્દલ છે)<br><br>
+
+                        <b>ચક્રવૃદ્ધિ વ્યાજ (CI) = A - P</b><br>
+                        CI = 15246 - 12600 <br>
+                        <div style='background-color:#fff1f2; border:2px dashed #be123c; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#9f1239;'>
+                            &there4; ચક્રવૃદ્ધિ વ્યાજ = ₹ 2,646
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-radius:8px; border-left:5px solid #2563eb; margin-top:15px;'>
+                        <h4 style='color:#1d4ed8; margin:0 0 5px 0;'>🔥 Nitesh Sir ની 'સુપર 2-1' ટ્રીક (હેતુલક્ષી પ્રશ્નો માટે):</h4>
+                        <p style='margin:0; font-size:14px; color:#1e40af;'>
+                        જ્યારે પણ <b>2 વર્ષનું ચક્રવૃદ્ધિ વ્યાજ</b> શોધવાનું હોય, ત્યારે સૂત્રમાં સમય ન બગાડો! <b>2:1</b> નો રેશિયો યાદ રાખો!<br>
+                        <b>સ્ટેપ 1:</b> 12600 ના 10% કાઢો &rarr; <b>1260</b><br>
+                        <b>સ્ટેપ 2:</b> મળેલા 1260 ના ફરીથી 10% કાઢો &rarr; <b>126</b><br>
+                        હવે પહેલાને <b>2</b> વડે અને બીજાને <b>1</b> વડે ગુણીને સરવાળો કરો!<br>
+                        (1260 &times; 2) + (126 &times; 1) = 2520 + 126 = <b>2646</b>. સીધો જ જવાબ!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 4",
+                question: "એક ટીવી ₹ 21,000 માં ખરીદવામાં આવ્યું. 1 વર્ષ પછી તેની કિંમતમાં 5% નો ઘટાડો (Depreciation) થાય છે. તો 1 વર્ષ પછી ટીવીની કિંમત શોધો.", 
+                answer: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; overflow-x:auto;'>
+                    <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; padding:10px; border-radius:8px;'>
+                        <svg width="150" height="120" viewBox="0 0 150 120">
+                            <!-- TV shape -->
+                            <rect x="20" y="20" width="110" height="70" rx="5" fill="#334155" stroke="#1e293b" stroke-width="3"/>
+                            <rect x="30" y="30" width="90" height="50" fill="#bae6fd"/>
+                            <!-- Stand -->
+                            <polygon points="65,90 85,90 95,110 55,110" fill="#475569"/>
+                            <line x1="75" y1="90" x2="75" y2="100" stroke="#1e293b" stroke-width="4"/>
+                            <!-- Down Arrow indicating depreciation -->
+                            <path d="M 110 55 L 110 85 L 100 85 L 115 105 L 130 85 L 120 85 L 120 55 Z" fill="#ef4444"/>
+                            <text x="135" y="70" fill="#ef4444" font-weight="bold" font-size="14">-5%</text>
+                        </svg>
+                    </div>
+
+                    <div style='font-size:15px; color:#334155; line-height:2;'>
+                        <b style='color:#be123c;'>અવમૂલ્યન (ઘટાડો)</b> એટલે વસ્તુની કિંમત સમય જતાં ઓછી થવી. (જેમ કે વાહન કે ઇલેક્ટ્રોનિક્સ).<br>
+                        
+                        ટીવીની મૂળ કિંમત = ₹ 21,000 <br>
+                        કિંમતમાં ઘટાડો = 5% <br><br>
+
+                        <b>સ્ટેપ 1: ઘટાડાની રકમ શોધીએ</b><br>
+                        ઘટાડો = 21,000 ના 5% <br>
+                        = 21000 &times; (5 / 100) <br>
+                        = 210 &times; 5 <br>
+                        = <b style='color:#ea580c;'>₹ 1,050</b> (આટલા રૂપિયા કિંમત ઓછી થશે)<br><br>
+
+                        <b>સ્ટેપ 2: 1 વર્ષ પછીની નવી કિંમત</b><br>
+                        નવી કિંમત = મૂળ કિંમત - ઘટાડો <br>
+                        નવી કિંમત = 21000 - 1050 <br>
+                        
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            1 વર્ષ પછી ટીવીની કિંમત = ₹ 19,950
+                        </div>
+                    </div>
+                </div>`
+            }
+        ]
+    },
+    
+    // ------------------------------------
+    // ધોરણ 8 - પ્રકરણ 8: બૈજિક પદાવલિઓ અને નિત્યસમો (નવો અભ્યાસક્રમ - ઉદાહરણો)
+    // ------------------------------------
+    "8": {
+        "chapterName": "પ્રકરણ 8",
+        "chapterTitle": "બૈજિક પદાવલિઓ અને નિત્યસમો (ઉદાહરણો)",
+        "qa_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "સરવાળો કરો: 7x² - 4x + 5 અને 9x - 10", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px;'>
+                    <p style='margin-top:0; color:#0369a1; font-size:15px;'>સરવાળો માત્ર <b>સજાતીય પદો (જેના ચલ અને ચલની ઘાત સરખા હોય)</b> વચ્ચે જ થાય છે. આપણે પદોને ઊભી હરોળમાં સરખા પદોની નીચે સરખા પદો આવે તેમ ગોઠવીશું.</p>
+                    
+                    <div style='font-family:monospace; font-size:18px; line-height:1.8; color:#1e3a8a; background-color:#ffffff; padding:15px; border-radius:8px; border:1px dashed #94a3b8; display:inline-block; margin-top:10px;'>
+                        &nbsp;&nbsp;7x&sup2; - &nbsp;4x + &nbsp;5<br>
+                        <b style='color:#047857;'>+</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9x - 10<br>
+                        -----------------<br>
+                        <b style='color:#be123c;'>&nbsp;&nbsp;7x&sup2; + &nbsp;5x - &nbsp;5</b>
+                    </div>
+                    
+                    <div style='background-color:#fffbeb; padding:10px; border-radius:8px; border-left:4px solid #ca8a04; margin-top:15px; font-size:14px; color:#854d0e;'>
+                        <b>સમજૂતી:</b><br>
+                        &rarr; 7x&sup2; ની નીચે કોઈ સજાતીય પદ નથી, તેથી તે એમને એમ રહેશે.<br>
+                        &rarr; (-4x) અને (+9x) માં વિરુદ્ધ નિશાની હોવાથી બાદબાકી થશે. (9 - 4 = 5x). મોટા પદની નિશાની (+) આવશે.<br>
+                        &rarr; (+5) અને (-10) ની પણ બાદબાકી થશે. (10 - 5 = -5).
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "બાદબાકી કરો: 7x² - 4xy + 8y² + 5x - 3y માંથી 5x² - 4y² + 6y - 3 બાદ કરો.", 
+                answer: `
+                <div style='background-color:#fdf4ff; padding:15px; border-left:5px solid #c026d3; border-radius:8px; overflow-x:auto;'>
+                    <h4 style='color:#a21caf; margin:0 0 10px 0;'>🔥 Nitesh Sir નો બાદબાકીનો ગોલ્ડન રૂલ:</h4>
+                    <p style='margin:0 0 15px 0; font-size:14px; color:#86198f;'>જ્યારે પણ બાદબાકી કરવાની હોય, ત્યારે <b>નીચે આવતી આખી બહુપદીની નિશાનીઓ બદલી નાખવાની!</b> (+ નું - અને - નું + કરી દેવાનું).</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #f0abfc;'>
+                        <div style='font-family:monospace; font-size:16px; line-height:2; color:#1e3a8a; white-space:nowrap;'>
+                            &nbsp;&nbsp;7x&sup2; - 4xy + 8y&sup2; + 5x - 3y + 0<br>
+                            &nbsp;&nbsp;5x&sup2; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 4y&sup2; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ 6y - 3<br>
+                            <span style='color:#ea580c; font-weight:bold;'>( - ) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( + ) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( - )( + ) &nbsp;&nbsp;&larr; નવી નિશાનીઓ</span><br>
+                            ------------------------------------<br>
+                            <b style='color:#047857;'>&nbsp;&nbsp;2x&sup2; - 4xy + 12y&sup2; + 5x - 9y + 3</b>
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "ગુણાકાર કરો: (3x) × (4y) × (5z)", 
+                answer: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                    <p style='margin-top:0; color:#334155; font-size:15px;'>એકપદી નો એકપદી સાથે ગુણાકાર. <br><b>રીત:</b> સંખ્યા નો ગુણાકાર સંખ્યા સાથે અને ચલ (ABCD) નો ગુણાકાર ચલ સાથે કરવો.</p>
+                    
+                    <div style='font-size:16px; color:#1e3a8a; line-height:2.2; background-color:#f8fafc; padding:15px; border-radius:8px;'>
+                        = (3 &times; 4 &times; 5) &times; (x &times; y &times; z)<br>
+                        = (12 &times; 5) &times; (xyz)<br>
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            = 60xyz
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 6",
+                question: "ગુણાકાર કરો: a(a² + a + 1) + 5 અને a = 0 માટે તેની કિંમત શોધો.", 
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px;'>
+                    <b style='color:#9a3412;'>સ્ટેપ 1: સાદું રૂપ (કૌંસ છોડવો)</b><br>
+                    <p style='margin:5px 0 15px 0; font-size:15px; color:#334155;'>બહાર રહેલો 'a' કૌંસના ત્રણેય પદો સાથે વારાફરતી ગુણાશે.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #fed7aa; font-size:16px; color:#1e3a8a; line-height:2;'>
+                        = a(a&sup2;) + a(a) + a(1) + 5 <br>
+                        = <b style='color:#be123c;'>a&sup3; + a&sup2; + a + 5</b><br><br>
+                        
+                        <b style='color:#047857;'>સ્ટેપ 2: a = 0 મૂકતા</b><br>
+                        = (0)&sup3; + (0)&sup2; + (0) + 5 <br>
+                        = 0 + 0 + 0 + 5 <br>
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            = 5
+                        </div>
+                    </div>
+                </div>`
+            },
+                        { 
+                questionNumber: "ઉદાહરણ 10",
+                question: "નિત્યસમ (I) નો ઉપયોગ કરી કિંમત શોધો: \n(i) (2x + 3y)² \n(ii) (103)²", 
+                answer: `
+                <div style='background-color:#ffffff; border:1px solid #cbd5e1; border-radius:10px; overflow-x:auto;'>
+                    <div style='background-color:#f8fafc; padding:15px; border-bottom:1px solid #e2e8f0;'>
+                        <p style='margin:0; color:#1e3a8a; font-weight:bold;'>નિત્યસમ (I): (a + b)² = a² + 2ab + b²</p>
+                    </div>
+
+                    <div style='padding:15px;'>
+                        <div style='margin-bottom:25px;'>
+                            <h4 style='color:#be123c; margin:0 0 10px 0;'>(i) (2x + 3y)²</h4>
+                            <div style='font-size:16px; color:#334155; line-height:2.2; padding-left:10px; border-left:4px solid #be123c;'>
+                                અહીં <b>a = 2x</b> અને <b>b = 3y</b> લેતા:<br>
+                                = (2x)² + 2(2x)(3y) + (3y)² <br>
+                                = <b style='color:#16a34a; font-size:18px;'>4x² + 12xy + 9y²</b>
+                            </div>
+                        </div>
+
+                        <div style='text-align:center; margin:20px 0;'>
+                            <svg width="200" height="150" viewBox="0 0 200 150">
+                                <rect x="40" y="20" width="80" height="80" fill="#fee2e2" stroke="#be123c" stroke-width="2"/>
+                                <rect x="120" y="20" width="40" height="80" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                                <rect x="40" y="100" width="80" height="30" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                                <rect x="120" y="100" width="40" height="30" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+                                <text x="75" y="65" fill="#be123c" font-size="14" font-weight="bold">a²</text>
+                                <text x="130" y="65" fill="#166534" font-size="12">ab</text>
+                                <text x="70" y="120" fill="#166534" font-size="12">ab</text>
+                                <text x="130" y="120" fill="#1d4ed8" font-size="12" font-weight="bold">b²</text>
+                            </svg>
+                            <p style='font-size:12px; color:#64748b; margin-top:5px;'>વૈજ્ઞાનિક સમજૂતી: (a+b)² એટલે ક્ષેત્રફળ</p>
+                        </div>
+
+                        <div>
+                            <h4 style='color:#be123c; margin:0 0 10px 0;'>(ii) (103)²</h4>
+                            <div style='font-size:16px; color:#334155; line-height:2.2; padding-left:10px; border-left:4px solid #1d4ed8;'>
+                                આપણે 103 ને <b>(100 + 3)</b> તરીકે લખી શકીએ.<br>
+                                અહીં a = 100 અને b = 3 લેતા:<br>
+                                = (100 + 3)² <br>
+                                = (100)² + 2(100)(3) + (3)² <br>
+                                = 10000 + 600 + 9 <br>
+                                = <b style='color:#16a34a; font-size:18px;'>10,609</b>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style='background-color:#fffbeb; padding:15px; border-top:1px solid #fef3c7;'>
+                        <h4 style='color:#b45309; margin:0 0 5px 0;'>🔥 નિતેશ સર ની શોર્ટ ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#92400e;'>
+                            જ્યારે પણ ( + ) આખા નો વર્ગ હોય, ત્યારે બસ આટલું યાદ રાખો:<br>
+                            <b>"પહેલા પદ નો વર્ગ કરી દો, છેલ્લા પદ નો વર્ગ કરી છેલ્લે મૂકો, અને વચ્ચે ત્રણેય (2, પહેલું અને બીજું પદ) નો ગુણાકાર કરી દો!"</b><br>
+                            આ ટ્રીક થી ક્યારેય પદાવલિમાં ભૂલ નહીં પડે!
+                        </p>
+                    </div>
+                </div>`
+                  }
+            ]
+      },
+        
+    // ------------------------------------
+    // ધોરણ 8 - પ્રકરણ 9: માપન (નવો અભ્યાસક્રમ - ઉદાહરણો)
+    // ------------------------------------
+    "9": {
+        "chapterName": "પ્રકરણ 9",
+        "chapterTitle": "માપન (ઉદાહરણો)",
+        "qa_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "એક સમલંબ ચતુષ્કોણ આકારના બગીચાની સમાંતર બાજુઓનું માપ 10 મીટર અને 12 મીટર છે, અને તેમની વચ્ચેનું લંબઅંતર 8 મીટર છે. તો આ બગીચાનું ક્ષેત્રફળ શોધો.", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px;'>
+                    <div style='text-align:center; overflow-x:auto; margin-bottom:15px; background-color:#ffffff; padding:15px; border-radius:8px;'>
+                        <svg width="220" height="130" viewBox="0 0 220 130">
+                            <!-- Trapezium -->
+                            <polygon points="60,30 160,30 190,100 30,100" fill="#fef2f2" stroke="#be123c" stroke-width="3"/>
+                            <!-- Height -->
+                            <line x1="60" y1="30" x2="60" y2="100" stroke="#047857" stroke-width="2" stroke-dasharray="5,5"/>
+                            <rect x="60" y="90" width="10" height="10" fill="none" stroke="#047857" stroke-width="1"/>
+                            
+                            <!-- Labels -->
+                            <text x="95" y="20" fill="#1e3a8a" font-weight="bold">a = 10 m</text>
+                            <text x="85" y="120" fill="#1e3a8a" font-weight="bold">b = 12 m</text>
+                            <text x="25" y="70" fill="#047857" font-weight="bold">h=8 m</text>
+                        </svg>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border-left:4px solid #0284c7; font-size:15px; color:#1e3a8a; line-height:2.2;'>
+                        અહીં <b>સમાંતર બાજુઓ</b>: a = 10 m, અને b = 12 m <br>
+                        <b>લંબઅંતર (ઊંચાઈ)</b>: h = 8 m <br><br>
+
+                        <b>સમલંબ ચતુષ્કોણનું ક્ષેત્રફળ = 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>1</div>
+                            <div style='padding:0 3px;'>2</div>
+                        </div>
+                        &times; h &times; (a + b)</b><br>
+                        
+                        = 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>1</div>
+                            <div style='padding:0 3px;'>2</div>
+                        </div>
+                        &times; 8 &times; (10 + 12)<br>
+                        
+                        <span style='color:#64748b; font-size:14px;'>(છેદ ઉડાડતા: 2 ચોક 8)</span><br>
+                        = 4 &times; (22)<br>
+                        
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            = 88 ચો. મીટર (m&sup2;)
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "એક સમબાજુ ચતુષ્કોણના વિકર્ણોની લંબાઈ 10 cm અને 8 cm છે. તેનું ક્ષેત્રફળ શોધો.", 
+                answer: `
+                <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; font-size:15px; color:#14532d;'>સમબાજુ ચતુષ્કોણમાં બંને વિકર્ણો એકબીજાને કાટખૂણે દુભાગે છે.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #bbf7d0; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        અહીં પ્રથમ વિકર્ણ <b>(d&#8321;) = 10 cm</b> <br>
+                        બીજો વિકર્ણ <b>(d&#8322;) = 8 cm</b> <br><br>
+
+                        <b>સમબાજુ ચતુષ્કોણનું ક્ષેત્રફળ = 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>1</div>
+                            <div style='padding:0 3px;'>2</div>
+                        </div>
+                        &times; d&#8321; &times; d&#8322;</b><br>
+                        
+                        = 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>1</div>
+                            <div style='padding:0 3px;'>2</div>
+                        </div>
+                        &times; 10 &times; 8<br>
+                        
+                        = 5 &times; 8<br>
+                        
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            = 40 cm&sup2;
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fffbeb; padding:12px; border-radius:8px; border-left:5px solid #eab308; margin-top:15px;'>
+                        <h4 style='color:#a16207; margin:0 0 5px 0;'>🔥 Nitesh Sir ની ડાયરેક્ટ શોર્ટ ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#854d0e;'>આટલું મોટું સૂત્ર લખવાની કોઈ જરૂર નથી! <br>જ્યારે પણ <b>સમબાજુ ચતુષ્કોણના વિકર્ણો</b> આપ્યા હોય, ત્યારે બસ <b>બંનેનો ગુણાકાર કરી અડધા કરી દો!</b><br>
+                        (10 &times; 8 = 80... અને 80 ના અડધા = <b>40</b>. રમત પૂરી!)</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "એક લંબઘન ડબ્બાની લંબાઈ 20 cm, પહોળાઈ 15 cm અને ઊંચાઈ 10 cm છે. તેનું કુલ પૃષ્ઠફળ શોધો.", 
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; font-size:15px; color:#9a3412;'>પૃષ્ઠફળ એટલે ડબ્બાની બહારની બધી જ સપાટીઓનું ક્ષેત્રફળ.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #fed7aa; font-size:15px; color:#1e3a8a; line-height:2;'>
+                        લંબાઈ <b>(l) = 20 cm</b> <br>
+                        પહોળાઈ <b>(b) = 15 cm</b> <br>
+                        ઊંચાઈ <b>(h) = 10 cm</b> <br><br>
+
+                        <b>લંબઘનનું કુલ પૃષ્ઠફળ = 2(lb + bh + hl)</b><br>
+                        = 2 [ (20 &times; 15) + (15 &times; 10) + (10 &times; 20) ]<br>
+                        = 2 [ 300 + 150 + 200 ]<br>
+                        = 2 [ 650 ]<br>
+                        
+                        <div style='background-color:#fff1f2; border:2px dashed #be123c; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#9f1239;'>
+                            = 1300 cm&sup2;
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 4",
+                question: "એક સમઘનની બાજુની લંબાઈ 8 cm છે. તો આ સમઘનનું ઘનફળ (Volume) શોધો.", 
+                answer: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; overflow-x:auto;'>
+                    <div style='text-align:center; margin-bottom:15px; background-color:#f8fafc; padding:15px; border-radius:8px;'>
+                        <svg width="120" height="120" viewBox="0 0 120 120">
+                            <!-- 3D Cube -->
+                            <polygon points="30,50 80,50 100,30 50,30" fill="#bae6fd" stroke="#0369a1" stroke-width="2"/>
+                            <polygon points="30,50 30,100 80,100 80,50" fill="#e0f2fe" stroke="#0369a1" stroke-width="2"/>
+                            <polygon points="80,50 100,30 100,80 80,100" fill="#7dd3fc" stroke="#0369a1" stroke-width="2"/>
+                            <text x="50" y="115" fill="#be123c" font-weight="bold">l = 8 cm</text>
+                        </svg>
+                    </div>
+
+                    <div style='font-size:15px; color:#334155; line-height:2.2;'>
+                        ઘનફળ એટલે અંદર સમાતી જગ્યા (કેપેસિટી). સમઘનમાં લંબાઈ, પહોળાઈ અને ઊંચાઈ સરખા જ હોય છે.<br>
+                        અહીં <b>l = 8 cm</b><br><br>
+
+                        <b>સમઘનનું ઘનફળ = l&sup3; (લંબાઈ નો ઘન)</b><br>
+                        = (8)&sup3;<br>
+                        = 8 &times; 8 &times; 8<br>
+                        
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            = 512 cm&sup3;
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 6",
+                question: "એક નળાકાર ટાંકીની ત્રિજ્યા 7 m અને ઊંચાઈ 10 m છે. તેમાં કેટલા ઘન મીટર પાણી સમાઈ શકે? (π = 22/7 લો)", 
+                answer: `
+                <div style='background-color:#fdf4ff; padding:15px; border-left:5px solid #c026d3; border-radius:8px; overflow-x:auto;'>
+                    <div style='display:flex; flex-wrap:wrap; gap:20px; align-items:center;'>
+                        <div style='background-color:#ffffff; padding:10px; border-radius:8px; border:1px solid #f0abfc; min-width:160px; text-align:center;'>
+                            <svg width="140" height="180" viewBox="0 0 140 180">
+                                <!-- Top Ellipse -->
+                                <ellipse cx="70" cy="30" rx="50" ry="15" fill="#fbcfe8" stroke="#be123c" stroke-width="2"/>
+                                <!-- Body -->
+                                <path d="M 20 30 L 20 150 A 50 15 0 0 0 120 150 L 120 30" fill="#fdf2f8" stroke="#be123c" stroke-width="2"/>
+                                <!-- Radius -->
+                                <line x1="70" y1="30" x2="120" y2="30" stroke="#047857" stroke-width="2"/>
+                                <text x="75" y="25" fill="#047857" font-weight="bold">r=7 m</text>
+                                <!-- Height -->
+                                <line x1="130" y1="30" x2="130" y2="150" stroke="#0284c7" stroke-width="2" stroke-dasharray="4"/>
+                                <text x="135" y="95" fill="#0284c7" font-weight="bold" font-size="12">h=10</text>
+                            </svg>
+                        </div>
+                        
+                        <div style='background-color:#ffffff; padding:15px; border-radius:8px; flex-grow:1; font-size:16px; color:#1e3a8a; line-height:2.2; border:1px dashed #d946ef;'>
+                            પાણી સમાવવાની વાત છે, એટલે આપણે <b>ઘનફળ</b> શોધવું પડે.<br>
+                            ત્રિજ્યા <b>(r) = 7 m</b><br>
+                            ઊંચાઈ <b>(h) = 10 m</b><br><br>
+
+                            <b>નળાકારનું ઘનફળ = &pi;r&sup2;h</b><br>
+                            = 
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>22</div>
+                                <div style='padding:0 3px;'>7</div>
+                            </div>
+                            &times; 7 &times; 7 &times; 10 <br>
+                            
+                            <span style='color:#64748b; font-size:14px;'>(એક 7 અંશમાં અને એક છેદમાં કેન્સલ થશે)</span><br>
+                            = 22 &times; 7 &times; 10 <br>
+                            = 154 &times; 10 <br>
+                            
+                            <div style='background-color:#fdf4ff; border:2px dashed #c026d3; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#86198f;'>
+                                = 1540 m&sup3; 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-radius:8px; border-left:5px solid #2563eb; margin-top:15px;'>
+                        <h4 style='color:#1d4ed8; margin:0 0 5px 0;'>🔥 Nitesh Sir ની ફોર્મ્યુલા માસ્ટર ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#1e40af;'>ઘનફળના સૂત્રો ગોખવા પડે છે? જરાય નહિ! <b>કોઈપણ સીધા આકારનું (પ્રિઝમ/નળાકાર) ઘનફળ = પાયાનું ક્ષેત્રફળ &times; ઊંચાઈ.</b><br>
+                        નળાકારનો પાયો ગોળ (વર્તુળ) હોય. વર્તુળનું ક્ષેત્રફળ = <b>&pi;r&sup2;</b>.<br>બસ તેને ઊંચાઈ <b>(h)</b> વડે ગુણી નાખો એટલે <b>&pi;r&sup2;h</b> બની ગયું!</p>
+                    </div>
+                </div>`
+            }
+        ]
+      },
+        
+    // ------------------------------------
+    // ધોરણ 8 - પ્રકરણ 10: ઘાતાંક અને ઘાત (નવો અભ્યાસક્રમ - ઉદાહરણો)
+    // ------------------------------------
+    "10": {
+        "chapterName": "પ્રકરણ 10",
+        "chapterTitle": "ઘાતાંક અને ઘાત (ઉદાહરણો)",
+        "qa_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "કિંમત શોધો: \n(i) 2⁻³ \n(ii) (1/3)⁻²", 
+                answer: `
+                <div style='display:flex; flex-direction:column; gap:12px;'>
+                    <div style='background-color:#f0fdf4; padding:15px; border:1px solid #bbf7d0; border-radius:8px;'>
+                        <h4 style='color:#166534; margin:0 0 5px 0;'>(i) 2⁻³</h4>
+                        <p style='margin:0; font-size:15px; color:#1e3a8a; line-height:2;'>
+                            અહીં ઘાત ઋણ (-) છે. <b>(a⁻ᵐ = 1 / aᵐ)</b> ના નિયમ મુજબ:<br>
+                            2⁻³ = 
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>1</div>
+                                <div style='padding:0 3px;'>2³</div>
+                            </div>
+                            <br>
+                            = 
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:1px solid #1e3a8a; padding:0 3px;'>1</div>
+                                <div style='padding:0 3px;'>2 &times; 2 &times; 2</div>
+                            </div>
+                            <br>
+                            = <b style='color:#be123c; font-size:18px;'>1/8</b>
+                        </p>
+                    </div>
+
+                    <div style='background-color:#eff6ff; padding:15px; border:1px solid #bfdbfe; border-radius:8px;'>
+                        <h4 style='color:#1e40af; margin:0 0 5px 0;'>(ii) (1/3)⁻²</h4>
+                        <p style='margin:0; font-size:15px; color:#1e3a8a; line-height:2;'>
+                            અહીં આખો અપૂર્ણાંક કૌંસમાં છે અને ઘાત ઋણ છે.<br>
+                            = (3/1)² <span style='color:#64748b; font-size:14px;'>(અંશ અને છેદ ઉલટાવી દીધા)</span><br>
+                            = 3² <br>
+                            = 3 &times; 3 = <b style='color:#ea580c; font-size:18px;'>9</b>
+                        </p>
+                    </div>
+                    
+                    <div style='background-color:#fffbeb; padding:12px; border-radius:8px; border-left:5px solid #eab308;'>
+                        <h4 style='color:#a16207; margin:0 0 5px 0;'>🔥 Nitesh Sir ની 'પલટી મારો' ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#854d0e;'>ઘાત ઋણ (માઇનસ) હોય અને તેને ધન (પ્લસ) કરવી હોય તો બસ આધાર ને <b>પલટી મરાવી દો!</b><br>
+                        જો સંખ્યા અંશમાં હોય તો તેને છેદમાં લઈ જાવ, અને છેદમાં હોય તો અંશમાં લાવો. એટલે નિશાની ઓટોમેટિક બદલાઈ જશે!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "સાદું રૂપ આપો અને પરિણામને ધન ઘાતાંક સ્વરૂપે દર્શાવો: (-4)⁵ × (-4)⁻¹⁰", 
+                answer: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; color:#334155; font-size:15px;'><b>નિયમ:</b> જો આધાર સરખા હોય અને વચ્ચે ગુણાકારનો સંબંધ હોય, તો <b>ઘાતાંકોનો સરવાળો</b> થાય. <b>(aᵐ &times; aⁿ = aᵐ⁺ⁿ)</b></p>
+                    
+                    <div style='font-size:16px; color:#1e3a8a; line-height:2.2; background-color:#f8fafc; padding:15px; border-radius:8px;'>
+                        અહીં આધાર <b>(-4)</b> સમાન છે.<br>
+                        = (-4)<sup>5 + (-10)</sup> <br>
+                        = (-4)<sup>5 - 10</sup> <br>
+                        = <b style='color:#be123c;'>(-4)⁻⁵</b><br><br>
+
+                        <span style='color:#64748b; font-size:14px;'>(હવે જવાબ <b>ધન ઘાતાંક</b> માં માંગ્યો છે, તેથી ઋણ ઘાત ને ધન કરવા છેદમાં લઈ જઈશું)</span><br>
+                        
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            = 
+                            <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                                <div style='border-bottom:2px solid #14532d; padding:0 3px;'>1</div>
+                                <div style='padding:0 3px;'>(-4)⁵</div>
+                            </div>
+                        </div>
+                        <p style='margin:5px 0 0 0; font-size:12px; color:#ef4444; text-align:center;'>નોંધ: માત્ર ઘાતની નિશાની બદલાશે, આધાર (-4) તો માઇનસ જ રહેશે.</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "4⁻³ ને આધાર 2 હોય તેવા ઘાત સ્વરૂપમાં દર્શાવો.", 
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px;'>
+                    <p style='margin-top:0; font-size:15px; color:#9a3412;'>આપણને આધાર <b>4</b> આપ્યો છે, અને તેને <b>2</b> ના આધારમાં ફેરવવો છે.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #fed7aa; font-size:16px; color:#1e3a8a; line-height:2;'>
+                        આપણે જાણીએ છીએ કે <b>4 = 2²</b> થાય.<br>
+                        તેથી, 4⁻³ માં 4 ની જગ્યાએ 2² મૂકતા:<br>
+                        
+                        = (2²)⁻³ <br><br>
+
+                        <span style='color:#64748b; font-size:14px;'>(નિયમ: ઘાત ની ઘાત નો ગુણાકાર થાય: <b>(aᵐ)ⁿ = aᵐⁿ</b>)</span><br>
+                        = 2<sup>(2 &times; -3)</sup> <br>
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            = 2⁻⁶
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 5 (પરીક્ષા માટે મોસ્ટ IMP)",
+                question: "m શોધો, જેથી (-3)ᵐ⁺¹ × (-3)⁵ = (-3)⁷ થાય.", 
+                answer: `
+                <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; overflow-x:auto;'>
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #bbf7d0; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        પ્રથમ <b>ડાબી બાજુ (L.H.S)</b> નું સાદું રૂપ આપીએ:<br>
+                        અહીં આધાર (-3) સમાન છે અને ગુણાકાર છે, તેથી ઘાતનો સરવાળો થશે.<br>
+                        
+                        (-3)<sup>(m+1) + 5</sup> = (-3)⁷ <br>
+                        &there4; (-3)<sup>m + 6</sup> = (-3)⁷ <br><br>
+
+                        <span style='color:#64748b; font-size:14px;'>(હવે બંને બાજુ આધાર (-3) સમાન છે, તેથી માત્ર ઘાતાંકોને જ સરખાવતા)</span><br>
+                        &there4; m + 6 = 7 <br>
+                        &there4; m = 7 - 6 <br>
+                        
+                        <div style='background-color:#fff1f2; border:2px dashed #be123c; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#9f1239;'>
+                            &there4; m = 1
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fdf4ff; padding:12px; border-radius:8px; border-left:5px solid #c026d3; margin-top:15px;'>
+                        <h4 style='color:#a21caf; margin:0 0 5px 0;'>🔥 Nitesh Sir નો જાદુઈ નિયમ:</h4>
+                        <p style='margin:0; font-size:14px; color:#86198f;'>જ્યારે પણ વચ્ચે <b>બરાબર (=)</b> ની નિશાની હોય અને બંને બાજુ <b>આધાર સરખા</b> થઈ જાય, ત્યારે <b>આધાર ને ભૂલી જાવ!</b> માત્ર ઉપર લટકતી ઘાત ને જ નીચે ઉતારીને સમીકરણ બનાવી લો!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 8 (પ્રમાણિત સ્વરૂપ - Standard Form)",
+                question: "નીચેની સંખ્યાઓને પ્રમાણિત સ્વરૂપમાં દર્શાવો: \n(i) 0.000035 \n(ii) 4050000", 
+                answer: `
+                <div style='display:flex; flex-direction:column; gap:12px; overflow-x:auto;'>
+                    <div style='background-color:#f8fafc; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#0f172a; margin:0 0 5px 0;'>(i) 0.000035</h4>
+                        <p style='margin:0; font-size:15px; color:#334155; line-height:2;'>
+                            પ્રમાણિત સ્વરૂપમાં દશાંશ ચિહ્ન (પોઈન્ટ) <b>પ્રથમ શૂન્યતર અંક (અહીં 3)</b> પછી હોવું જોઈએ.<br>
+                            આપણે પોઈન્ટ ને <b>જમણી બાજુ 5 કદમ</b> ખસેડવો પડશે (3 અને 5 ની વચ્ચે).<br>
+                            
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e2e8f0; font-weight:bold; font-size:18px; color:#ea580c; text-align:center;'>
+                                3.5 &times; 10⁻⁵
+                            </div>
+                        </p>
+                    </div>
+
+                    <div style='background-color:#f8fafc; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+                        <h4 style='color:#0f172a; margin:0 0 5px 0;'>(ii) 4050000</h4>
+                        <p style='margin:0; font-size:15px; color:#334155; line-height:2;'>
+                            અહીં ક્યાંય પોઈન્ટ નથી, એટલે તે સૌથી છેલ્લે ગણાય (4050000.0).<br>
+                            આપણે પોઈન્ટ ને <b>ડાબી બાજુ 6 કદમ</b> ખસેડવો પડશે (4 અને 0 ની વચ્ચે).<br>
+                            
+                            <div style='background-color:#ffffff; padding:10px; border-radius:5px; border:1px solid #e2e8f0; font-weight:bold; font-size:18px; color:#047857; text-align:center;'>
+                                4.05 &times; 10⁶
+                            </div>
+                        </p>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-radius:8px; border-left:5px solid #2563eb;'>
+                        <h4 style='color:#1d4ed8; margin:0 0 5px 0;'>🔥 Nitesh Sir ની 'L-P, R-N' શોર્ટ ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#1e40af;'>
+                        પોઈન્ટ ખસેડવામાં માઇનસ-પ્લસ ની ભૂલ પડે છે? આ મંત્ર યાદ રાખો: <b>L-P, R-N</b>.<br>
+                        👉 <b>L</b>eft (ડાબી) બાજુ પોઈન્ટ જાય તો ઘાત <b>P</b>ositive (ધન +) આવે.<br>
+                        👉 <b>R</b>ight (જમણી) બાજુ પોઈન્ટ જાય તો ઘાત <b>N</b>egative (ઋણ -) આવે!</p>
+                    </div>
+                </div>`
+            }
+        ]
+       },
+        
+    // ------------------------------------
+    // ધોરણ 8 - પ્રકરણ 11: સમપ્રમાણ અને વ્યસ્ત પ્રમાણ (નવો અભ્યાસક્રમ - ઉદાહરણો)
+    // ------------------------------------
+    "11": {
+        "chapterName": "પ્રકરણ 11",
+        "chapterTitle": "સમપ્રમાણ અને વ્યસ્ત પ્રમાણ (ઉદાહરણો)",
+        "qa_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "એક શિરોલંબ થાંભલાની ઊંચાઈ 5.6 m છે અને તેના પડછાયાની લંબાઈ 3.2 m છે. તે જ સમયે અન્ય એક થાંભલાના પડછાયાની લંબાઈ 5 m હોય, તો તેની ઊંચાઈ શોધો.", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલ:</p>
+                    <p style='margin:0 0- 10px 0; font-size:15px; color:#334155;'>અહીં જેમ થાંભલાની ઊંચાઈ વધશે, તેમ પડછાયો પણ વધશે. તેથી આ <b>સમપ્રમાણ (Direct Proportion)</b> નો દાખલો છે.</p>
+                    
+                    <div style='background-color:#ffffff; padding:10px; border-radius:8px; border:1px solid #e0f2fe; margin-bottom:15px;'>
+                        <table style='width:100%; border-collapse: collapse; text-align:center;'>
+                            <tr style='background-color:#1e3a8a; color:white;'>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>થાંભલાની ઊંચાઈ (m)</th>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>પડછાયાની લંબાઈ (m)</th>
+                            </tr>
+                            <tr>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>5.6 (x₁)</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>3.2 (y₁)</td>
+                            </tr>
+                            <tr>
+                                <td style='padding:8px; border:1px solid #cbd5e1; color:#be123c; font-weight:bold;'>x₂ = ?</td>
+                                <td style='padding:8px; border:1px solid #cbd5e1;'>5.0 (y₂)</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border-left:4px solid #0284c7; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        સમપ્રમાણ માટેનું સૂત્ર: <b>x₁/y₁ = x₂/y₂</b> <br>
+                        &there4; 5.6 / 3.2 = x₂ / 5 <br>
+                        &there4; x₂ = (5.6 &times; 5) / 3.2 <br>
+                        
+                        <span style='color:#64748b; font-size:14px;'>(દશાંશ ચિહ્ન દૂર કરતા: 56 &times; 5 / 32)</span><br>
+                        &there4; x₂ = (7 &times; 5) / 4 <span style='color:#64748b; font-size:12px;'>(8 સત્તા 56, 8 ચોક 32)</span><br>
+                        &there4; x₂ = 35 / 4 <br>
+                        
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            ઊંચાઈ = 8.75 m
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "6 પાઈપ એક ટાંકીને 1 કલાક 20 મિનિટમાં ભરી શકે છે. જો તેની જગ્યાએ 5 પાઈપનો ઉપયોગ કરીએ, તો ટાંકી ભરાતા કેટલો સમય લાગશે?", 
+                answer: `
+                <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; font-size:15px; color:#14532d;'><b>તર્ક:</b> જો પાઈપની સંખ્યા ઘટે, તો ટાંકી ભરાતા <b>વધારે સમય</b> લાગશે. એક રાશિ ઘટે અને બીજી વધે, એટલે આ <b>વ્યસ્ત પ્રમાણ (Inverse Proportion)</b> છે.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #bbf7d0; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        પ્રથમ સમયને મિનિટમાં ફેરવીએ:<br>
+                        1 કલાક 20 મિનિટ = 60 + 20 = <b style='color:#be123c;'>80 મિનિટ</b><br><br>
+
+                        <table style='width:100%; border-collapse: collapse; text-align:center; margin-bottom:15px;'>
+                            <tr style='background-color:#16a34a; color:white;'>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>પાઈપની સંખ્યા (x)</th>
+                                <th style='padding:8px; border:1px solid #cbd5e1;'>સમય (મિનિટ) (y)</th>
+                            </tr>
+                            <tr><td style='padding:8px; border:1px solid #cbd5e1;'>6 (x₁)</td><td style='padding:8px; border:1px solid #cbd5e1;'>80 (y₁)</td></tr>
+                            <tr><td style='padding:8px; border:1px solid #cbd5e1;'>5 (x₂)</td><td style='padding:8px; border:1px solid #cbd5e1; color:#ea580c; font-weight:bold;'>y₂ = ?</td></tr>
+                        </table>
+
+                        વ્યસ્ત પ્રમાણ માટેનું સૂત્ર: <b>x₁ &times; y₁ = x₂ &times; y₂</b> <br>
+                        &there4; 6 &times; 80 = 5 &times; y₂ <br>
+                        &there4; y₂ = (6 &times; 80) / 5 <br>
+                        &there4; y₂ = 6 &times; 16 <br>
+                        
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            y₂ = 96 મિનિટ
+                        </div>
+                        <p style='text-align:center; margin:5px 0 0 0; color:#64748b;'>(એટલે કે 1 કલાક અને 36 મિનિટ)</p>
+                    </div>
+                    
+                    <div style='background-color:#fffbeb; padding:12px; border-radius:8px; border-left:5px solid #eab308; margin-top:15px;'>
+                        <h4 style='color:#a16207; margin:0 0 5px 0;'>🔥 Nitesh Sir ની શોર્ટ ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#854d0e;'>આધાર કાર્ડ જેવું યાદ રાખો! <br>👉 <b>સમપ્રમાણ</b> હોય તો <b>ત્રાજવું (Cross)</b> ગુણાકાર કરો.<br>👉 <b>વ્યસ્ત પ્રમાણ</b> હોય તો <b>સામે-સામે</b> ગુણાકાર કરી ત્રીજી સંખ્યા નીચે મૂકી દો! <br>અહીં: (6 &times; 80) / 5. સીધો જવાબ 96!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "100 વિદ્યાર્થીઓ ધરાવતા છાત્રાલયમાં 20 દિવસ ચાલે તેટલી ભોજન સામગ્રી છે. જો 25 નવા વિદ્યાર્થીઓ આવે, તો આ સામગ્રી કેટલા દિવસ ચાલશે?", 
+                answer: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; overflow-x:auto;'>
+                    <div style='text-align:center; margin-bottom:15px;'>
+                        <svg width="240" height="120" viewBox="0 0 240 120">
+                            <circle cx="40" cy="50" r="15" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            <circle cx="80" cy="50" r="15" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+                            <text x="60" y="85" fill="#1e3a8a" font-weight="bold" font-size="12">વધારે વિદ્યાર્થીઓ</text>
+                            
+                            <path d="M 110 50 L 140 50" stroke="#be123c" stroke-width="3" marker-end="url(#arrow)"/>
+                            <defs>
+                                <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                                    <path d="M 0 0 L 10 5 L 0 10 z" fill="#be123c"/>
+                                </marker>
+                            </defs>
+                            
+                            <rect x="160" y="35" width="60" height="30" fill="#fef2f2" stroke="#be123c" stroke-width="2"/>
+                            <text x="190" y="85" fill="#be123c" font-weight="bold" font-size="12">ઓછા દિવસ</text>
+                        </svg>
+                    </div>
+
+                    <p style='color:#334155;'>વિદ્યાર્થીઓ વધે તો ખોરાક <b>ઓછા દિવસ</b> ચાલે, એટલે કે આ <b>વ્યસ્ત પ્રમાણ</b> છે.</p>
+                    
+                    <div style='font-size:16px; color:#1e3a8a; line-height:2.2; background-color:#f8fafc; padding:15px; border-radius:8px;'>
+                        શરૂઆતના વિદ્યાર્થીઓ (x₁) = 100 <br>
+                        નવા આવ્યા પછી કુલ વિદ્યાર્થીઓ (x₂) = 100 + 25 = <b>125</b> <br>
+                        પહેલાના દિવસો (y₁) = 20 <br><br>
+
+                        &there4; x₁ &times; y₁ = x₂ &times; y₂ <br>
+                        &there4; 100 &times; 20 = 125 &times; y₂ <br>
+                        &there4; y₂ = (100 &times; 20) / 125 <br>
+                        
+                        <span style='color:#64748b; font-size:14px;'>(25 ચોક 100, 25 પંચા 125)</span><br>
+                        &there4; y₂ = (4 &times; 20) / 5 <br>
+                        &there4; y₂ = 4 &times; 4 <br>
+                        
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            જવાબ = 16 દિવસ
+                        </div>
+                    </div>
+                </div>`
+            }
+        ]
+    },
+        ,
+    // ------------------------------------
+    // ધોરણ 8 - પ્રકરણ 12: અવયવીકરણ (નવો અભ્યાસક્રમ - ઉદાહરણો)
+    // ------------------------------------
+    "12": {
+        "chapterName": "પ્રકરણ 12",
+        "chapterTitle": "અવયવીકરણ (ઉદાહરણો)",
+        "qa_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "આપેલી પદાવલિનું અવયવીકરણ કરો: 12a²b + 15ab²", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>ઉકેલ:</p>
+                    <p style='margin:0 0 10px 0; font-size:15px; color:#334155;'>આપણે બંને પદોમાંથી <b>સામાન્ય અવયવ (Common Factor)</b> બહાર કાઢીશું.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border-left:4px solid #0284c7; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        બંને પદોના અલગ-અલગ અવયવો પાડીએ:<br>
+                        12a&sup2;b = <span style='color:#be123c;'><b>3</b></span> &times; 4 &times; <span style='color:#be123c;'><b>a</b></span> &times; a &times; <span style='color:#be123c;'><b>b</b></span><br>
+                        15ab&sup2; = <span style='color:#be123c;'><b>3</b></span> &times; 5 &times; <span style='color:#be123c;'><b>a</b></span> &times; <span style='color:#be123c;'><b>b</b></span> &times; b<br><br>
+
+                        <span style='color:#64748b; font-size:14px;'>(બંનેમાં સમાન હોય તેવા પદો <b>3, a, અને b</b> છે. તેથી <b>3ab</b> સામાન્ય નીકળશે)</span><br>
+                        
+                        = 3ab (4a) + 3ab (5b) <br>
+                        
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            = 3ab (4a + 5b)
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#fffbeb; padding:12px; border-radius:8px; border-left:5px solid #eab308; margin-top:15px;'>
+                        <h4 style='color:#a16207; margin:0 0 5px 0;'>🔥 Nitesh Sir ની ડાયરેક્ટ કોમન ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#854d0e;'>આટલા બધા છૂટા અવયવ પાડવાની જરૂર નથી! <br>
+                        1. <b>સંખ્યામાં:</b> 12 અને 15 બંને કયા મોટા ઘડિયામાં આવે? <b>3 ના ઘડિયામાં!</b> (તો 3 બહાર કાઢો).<br>
+                        2. <b>ABCD (ચલ) માં:</b> જેની <b>ઘાત નાની</b> હોય તેને બહાર ખેંચી લો! અહી a&sup2; અને a માં નાનું કોણ? <b>a</b>. અને b તથા b&sup2; માં નાનું કોણ? <b>b</b>.<br>
+                        બસ તો <b>3ab</b> બહાર! કૌંસમાં જે વધે તે લખી દો.</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 3",
+                question: "પદોની પુનઃ ગોઠવણી કરીને અવયવીકરણ કરો: xy + x + y + 1", 
+                answer: `
+                <div style='background-color:#fdf4ff; padding:15px; border-left:5px solid #c026d3; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; font-size:15px; color:#86198f;'>જ્યારે <b>4 પદો</b> આપેલા હોય, ત્યારે હંમેશા <b>બબ્બે (2-2) ની જોડી</b> બનાવીને સામાન્ય કાઢવા.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #f0abfc; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        <u>xy + x</u> &nbsp;+&nbsp; <u>y + 1</u><br><br>
+
+                        <b style='color:#be123c;'>પહેલી જોડી (xy + x) માંથી:</b> બંનેમાં <b>x</b> સમાન છે.<br>
+                        &rarr; x (y + 1)<br><br>
+
+                        <b style='color:#047857;'>બીજી જોડી (y + 1) માંથી:</b> બંનેમાં કંઈ સામાન્ય નથી, તેથી <b>+1</b> સામાન્ય નીકળશે.<br>
+                        &rarr; +1 (y + 1)<br><br>
+
+                        <span style='color:#64748b; font-size:14px;'>(હવે બંને કૌંસ <b>(y + 1)</b> સમાન થઈ ગયા. તેને એકવાર લખીશું અને બહારના પદોને બીજા કૌંસમાં લખીશું.)</span><br>
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            = (y + 1) (x + 1)
+                        </div>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 6",
+                question: "અવયવ પાડો: 49p² - 36", 
+                answer: `
+                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; font-size:15px; color:#9a3412;'>અહીં બે પદો છે, વચ્ચે માઇનસ (-) છે અને બંને પદો પૂર્ણવર્ગ છે. તેથી <b>a&sup2; - b&sup2; = (a - b)(a + b)</b> નિત્યસમ લાગશે.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #fed7aa; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        પ્રથમ બંને પદોના વર્ગમૂળ કાઢીને આખા કૌંસનો વર્ગ લખીએ:<br>
+                        49p&sup2; નું વર્ગમૂળ = 7p <br>
+                        36 નું વર્ગમૂળ = 6 <br><br>
+
+                        = (7p)&sup2; - (6)&sup2; <br>
+                        
+                        <div style='background-color:#f0fdf4; border:2px dashed #16a34a; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#14532d;'>
+                            = (7p - 6) (7p + 6)
+                        </div>
+                    </div>
+                    
+                    <div style='background-color:#eff6ff; padding:12px; border-radius:8px; border-left:5px solid #2563eb; margin-top:15px;'>
+                        <h4 style='color:#1d4ed8; margin:0 0 5px 0;'>🔥 Nitesh Sir ની 'એકવાર માઇનસ, એકવાર પ્લસ' ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#1e40af;'>જ્યારે પણ <b>બે પૂર્ણવર્ગ સંખ્યાઓની વચ્ચે માઇનસ (-)</b> દેખાય, ત્યારે બસ બંનેના વર્ગમૂળ કાઢીને બે કૌંસ બનાવી દો: <br>એક કૌંસમાં બંનેની વચ્ચે <b>માઇનસ (-)</b> મૂકો અને બીજામાં <b>પ્લસ (+)</b> મૂકો. ફટાફટ જવાબ!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 10 (મધ્યમ પદના ભાગ પાડવાની રીત)",
+                question: "અવયવ પાડો: x² + 5x + 6", 
+                answer: `
+                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; overflow-x:auto;'>
+                    <div style='background-color:#f8fafc; padding:15px; border-bottom:1px solid #e2e8f0; margin-bottom:15px;'>
+                        <p style='margin:0; color:#1e3a8a; font-weight:bold; font-size:16px;'>આ <b>'ગુણાકાર અને સરવાળા'</b> વાળી રીત છે (Splitting the middle term).</p>
+                    </div>
+
+                    <div style='font-size:16px; color:#334155; line-height:2.2; padding-left:10px; border-left:4px solid #be123c;'>
+                        અહીં <b>છેલ્લું પદ 6</b> છે અને <b>વચ્ચેનું પદ 5</b> છે.<br>
+                        આપણે એવી બે સંખ્યા શોધવાની છે જેનો:<br>
+                        &rarr; <b style='color:#047857;'>ગુણાકાર 6</b> થાય.<br>
+                        &rarr; <b style='color:#ea580c;'>સરવાળો 5</b> થાય.<br><br>
+
+                        વિચારો: 3 &times; 2 = 6, અને 3 + 2 = 5. (તેથી બે સંખ્યાઓ <b>3x અને 2x</b> મળશે).<br>
+                        હવે મધ્યમ પદ (5x) ના સ્થાને આ બે ટુકડા મૂકીશું:<br>
+                    </div>
+
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #e2e8f0; font-family:monospace; font-size:18px; color:#1e3a8a; margin-top:15px;'>
+                        = x&sup2; <b style='color:#be123c;'>+ 3x + 2x</b> + 6 <br>
+                        <span style='color:#64748b; font-size:12px; font-family:sans-serif;'>(હવે બબ્બે ની જોડી બનાવીશું)</span><br>
+                        = <u>x&sup2; + 3x</u> &nbsp;+&nbsp; <u>2x + 6</u><br>
+                        = x(x + 3) + 2(x + 3)<br>
+                        = (x + 3) (x + 2)
+                    </div>
+
+                    <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border-left:5px solid #eab308; margin-top:15px;'>
+                        <h4 style='color:#a16207; margin:0 0 5px 0;'>🔥 Nitesh Sir ની હેતુલક્ષી શોર્ટ ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#854d0e;'>જો વિકલ્પો (MCQ) માં આ પ્રશ્ન પૂછાય તો સીધો જવાબ લખી શકાય! <br>જે બે સંખ્યાઓ તમે મનમાં વિચારી (અહીં <b>+3 અને +2</b>), તેને સીધી <b>x</b> ની બાજુમાં કૌંસમાં મૂકી દો! <br>
+                        સીધો જવાબ: <b>(x + 3) (x + 2)</b>. વચ્ચેના કોઈ સ્ટેપ કરવાની જરૂર જ નથી!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 13 (બહુપદીનો એકપદી વડે ભાગાકાર)",
+                question: "ભાગાકાર કરો: 24(x²yz + xy²z + xyz²) ને 8xyz વડે ભાગો.", 
+                answer: `
+                <div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px; overflow-x:auto;'>
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #bbf7d0; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        પ્રથમ <b>અંશ (અંદરના કૌંસ)</b> માંથી સામાન્ય પદ બહાર કાઢીએ.<br>
+                        કૌંસમાં ત્રણેય પદો પાસે <b>x, y અને z</b> છે. તેથી <b>xyz</b> સામાન્ય નીકળશે.<br><br>
+
+                        અંશ = 24 &times; <b style='color:#be123c;'>xyz</b> (x + y + z) <br>
+                        છેદ = 8xyz <br><br>
+
+                        ભાગાકારના સ્વરૂપમાં લખતા:<br>
+                        = 
+                        <div style='display:inline-block; vertical-align:middle; text-align:center;'>
+                            <div style='border-bottom:2px solid #1e3a8a; padding:0 3px;'>24 &times; xyz (x + y + z)</div>
+                            <div style='padding:0 3px;'>8xyz</div>
+                        </div>
+                        <br><br>
+
+                        <span style='color:#64748b; font-size:14px;'>(xyz અને xyz કેન્સલ થશે, 8 તેરી 24 છેદ ઉડશે)</span><br>
+                        <div style='background-color:#eff6ff; border:2px dashed #3b82f6; padding:10px; border-radius:8px; margin-top:10px; text-align:center; font-weight:bold; font-size:20px; color:#1d4ed8;'>
+                            = 3 (x + y + z)
+                        </div>
+                    </div>
+                </div>`
+            }
+        ]
+    },
+    
+    // ------------------------------------
+    // ધોરણ 8 - પ્રકરણ 13: આલેખનો પરિચય (નવો અભ્યાસક્રમ - ઉદાહરણો)
+    // ------------------------------------
+    "13": {
+        "chapterName": "પ્રકરણ 13",
+        "chapterTitle": "આલેખનો પરિચય (ઉદાહરણો)",
+        "qa_list": [
+            { 
+                questionNumber: "ઉદાહરણ 1",
+                question: "આલેખપત્ર પર બિંદુઓ A(4, 3), B(4, 2), C(4, 6) અને D(4, 2.5) દર્શાવો. શું તેઓ એક જ રેખા પર છે?", 
+                answer: `
+                <div style='background-color:#f0f9ff; padding:15px; border:1px solid #bae6fd; border-radius:8px; overflow-x:auto;'>
+                    <div style='text-align:center; margin-bottom:15px; background-color:#ffffff; padding:15px; border-radius:8px;'>
+                        <svg width="250" height="250" viewBox="0 0 250 250">
+                            <!-- Grid Lines -->
+                            <g stroke="#e2e8f0" stroke-width="1">
+                                <line x1="40" y1="210" x2="230" y2="210"/><line x1="40" y1="180" x2="230" y2="180"/><line x1="40" y1="150" x2="230" y2="150"/><line x1="40" y1="120" x2="230" y2="120"/><line x1="40" y1="90" x2="230" y2="90"/><line x1="40" y1="60" x2="230" y2="60"/><line x1="40" y1="30" x2="230" y2="30"/>
+                                <line x1="70" y1="210" x2="70" y2="30"/><line x1="100" y1="210" x2="100" y2="30"/><line x1="130" y1="210" x2="130" y2="30"/><line x1="160" y1="210" x2="160" y2="30"/><line x1="190" y1="210" x2="190" y2="30"/><line x1="220" y1="210" x2="220" y2="30"/>
+                            </g>
+                            
+                            <!-- Axes -->
+                            <line x1="40" y1="210" x2="230" y2="210" stroke="#1e293b" stroke-width="2"/> <!-- X Axis -->
+                            <line x1="40" y1="210" x2="40" y2="20" stroke="#1e293b" stroke-width="2"/> <!-- Y Axis -->
+                            
+                            <!-- X Axis Labels -->
+                            <text x="35" y="225" fill="#1e293b" font-size="12">0</text>
+                            <text x="65" y="225" fill="#1e293b" font-size="12">1</text>
+                            <text x="95" y="225" fill="#1e293b" font-size="12">2</text>
+                            <text x="125" y="225" fill="#1e293b" font-size="12">3</text>
+                            <text x="155" y="225" fill="#1e293b" font-size="12" font-weight="bold">4</text>
+                            <text x="185" y="225" fill="#1e293b" font-size="12">5</text>
+                            <text x="215" y="225" fill="#1e293b" font-size="12">6</text>
+                            <text x="235" y="215" fill="#1e293b" font-weight="bold">X</text>
+
+                            <!-- Y Axis Labels -->
+                            <text x="25" y="185" fill="#1e293b" font-size="12">1</text>
+                            <text x="25" y="155" fill="#1e293b" font-size="12">2</text>
+                            <text x="25" y="125" fill="#1e293b" font-size="12">3</text>
+                            <text x="25" y="95" fill="#1e293b" font-size="12">4</text>
+                            <text x="25" y="65" fill="#1e293b" font-size="12">5</text>
+                            <text x="25" y="35" fill="#1e293b" font-size="12">6</text>
+                            <text x="35" y="15" fill="#1e293b" font-weight="bold">Y</text>
+
+                            <!-- The Line connecting points -->
+                            <line x1="160" y1="150" x2="160" y2="30" stroke="#be123c" stroke-width="2"/>
+
+                            <!-- Points -->
+                            <!-- B(4,2) -->
+                            <circle cx="160" cy="150" r="4" fill="#0284c7"/>
+                            <text x="170" y="155" fill="#0284c7" font-weight="bold" font-size="12">B(4,2)</text>
+                            <!-- D(4,2.5) -->
+                            <circle cx="160" cy="135" r="4" fill="#0284c7"/>
+                            <text x="170" y="135" fill="#0284c7" font-weight="bold" font-size="12">D(4,2.5)</text>
+                            <!-- A(4,3) -->
+                            <circle cx="160" cy="120" r="4" fill="#0284c7"/>
+                            <text x="170" y="115" fill="#0284c7" font-weight="bold" font-size="12">A(4,3)</text>
+                            <!-- C(4,6) -->
+                            <circle cx="160" cy="30" r="4" fill="#0284c7"/>
+                            <text x="170" y="35" fill="#0284c7" font-weight="bold" font-size="12">C(4,6)</text>
+                        </svg>
+                    </div>
+
+                    <div style='font-size:15px; color:#334155; line-height:2.2; background-color:#ffffff; padding:15px; border-radius:8px; border-left:4px solid #0284c7;'>
+                        બધા જ બિંદુઓનો <b>X-યામ 4</b> છે. તેથી જ્યારે આપણે તેમને આલેખ પર દર્શાવીએ છીએ, ત્યારે તે બધા જ <b>Y-અક્ષને સમાંતર એક જ ઊભી રેખા પર</b> આવે છે.<br>
+                        <b style='color:#16a34a; font-size:16px;'>હા, આ બધા બિંદુઓ એક જ રેખા પર આવેલા છે.</b>
+                    </div>
+                    
+                    <div style='background-color:#fffbeb; padding:12px; border-radius:8px; border-left:5px solid #eab308; margin-top:15px;'>
+                        <h4 style='color:#a16207; margin:0 0 5px 0;'>🔥 Nitesh Sir ની 'ચાલવા અને ચઢવાની' ટ્રીક:</h4>
+                        <p style='margin:0; font-size:14px; color:#854d0e;'>યામ (x, y) માં કોને ક્યાં લેવો એ ભૂલાઈ જાય છે?<br>
+                        યાદ રાખો: <b>"પહેલા જમીન પર ચાલો, પછી સીડી ચઢો!"</b><br>
+                        એટલે કે પહેલો અંક (X) આડી લાઈન પર ચાલવાનો, અને બીજો અંક (Y) હોય તેટલું ઊભી લાઈન પર (સીડીની જેમ) ચઢવાનું. ક્યારેય બિંદુ ખોટું નહિ મુકાય!</p>
+                    </div>
+                </div>`
+            },
+            { 
+                questionNumber: "ઉદાહરણ 2",
+                question: "આકૃતિમાં દર્શાવેલા બિંદુઓ P, Q, R અને S ના યામ (Coordinates) લખો.", 
+                answer: `
+                <div style='background-color:#fdf4ff; padding:15px; border-left:5px solid #c026d3; border-radius:8px; overflow-x:auto;'>
+                    <p style='margin-top:0; font-size:15px; color:#86198f;'>યામ લખવા માટે હંમેશા પહેલા <b>X-અક્ષ (આડી ધરી)</b> નો અંક જોવો અને પછી <b>Y-અક્ષ (ઊભી ધરી)</b> નો અંક જોવો.</p>
+                    
+                    <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #f0abfc; font-size:16px; color:#1e3a8a; line-height:2.2;'>
+                        અહીં માની લો કે આલેખમાં બિંદુઓ નીચે મુજબ છે:<br><br>
+                        
+                        &rarr; <b style='color:#be123c;'>P ના યામ:</b> P થી આડી લીટી પર (X અક્ષ પર) જતાં 4 મળે છે, અને ઊભી લીટી પર (Y અક્ષ પર) જતાં 3 મળે છે. તેથી <b>P(4, 3)</b>.<br>
+                        
+                        &rarr; <b style='color:#047857;'>Q ના યામ:</b> Q નો X યામ 6 અને Y યામ 1 છે. તેથી <b>Q(6, 1)</b>.<br>
+                        
+                        &rarr; <b style='color:#ea580c;'>R ના યામ:</b> R નો X યામ 6 અને Y યામ 5 છે. તેથી <b>R(6, 5)</b>.<br>
+                        
+                        &rarr; <b style='color:#0284c7;'>S ના યામ:</b> S નો X યામ 4 અને Y યામ 7 છે. તેથી <b>S(4, 7)</b>.
+                    </div>
+                </div>`
+            }
+        ]
     }
+
+                
     
     
     
