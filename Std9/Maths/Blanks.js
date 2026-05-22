@@ -1,4 +1,4 @@
-var mathFillInTheBlanksDB_Std9 = [
+var mathFillInTheBlanksDB = [
 
     // ---------------- પ્રકરણ 1: સંખ્યા પદ્ધતિ (ધોરણ 9) ----------------
     { chapter: 1, marks: 1, q: "પ્રાકૃતિક સંખ્યાઓના ગણને _______ સંકેતથી દર્શાવાય છે. (N, W, Z)", ans: "N" },
