@@ -1,4 +1,4 @@
-var mathMatchDB_Std9 = [
+var mathMatchDB = [
     // ---------------- પ્રકરણ 1: સંખ્યા પદ્ધતિ ----------------
     { 
         chapter: 1, marks: 2, 
