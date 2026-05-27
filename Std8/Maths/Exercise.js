@@ -155,7 +155,7 @@ var std8MathsExercise = {
                 }
             ]
         },
-            // ........................................
+        // ........................................
         // ધોરણ 8 - પ્રકરણ 4: માહિતીનું નિયમન
         // ........................................
         "4": {
@@ -236,7 +236,7 @@ var std8MathsExercise = {
                         
             ]
         },
-                            // ........................................
+        // ........................................
         // ધોરણ 8 - પ્રકરણ 5: વર્ગ અને વર્ગમૂળ
         // ........................................
         "5": {
@@ -280,10 +280,6 @@ var std8MathsExercise = {
                     "answer": "<div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'><h4 style='color:#14532d; margin:0 0 10px 0; font-size:18px;'>&#10004; ઉકેલ:</h4><div style='background-color:#ffffff; padding:15px; border-radius:5px; border:1px solid #bbf7d0;'><p style='margin:0 0 10px 0; font-size:16px; color:#1e3a8a;'><b>નિયમ:</b> બે ક્રમિક સંખ્યાઓ 'n' અને '(n + 1)' ના વર્ગોની વચ્ચે આવતી પ્રાકૃતિક સંખ્યાઓની સંખ્યા <b>2n</b> જેટલી હોય છે.</p><p style='margin:0 0 8px 0; font-size:15px; color:#334155;'><b>(i) 12 અને 13:</b><br>અહીં n = 12 છે.<br>વચ્ચે આવતી સંખ્યાઓ = 2n = 2(12) = <b>24 સંખ્યાઓ</b>.</p><p style='margin:0 0 8px 0; font-size:15px; color:#334155;'><b>(ii) 25 અને 26:</b><br>અહીં n = 25 છે.<br>વચ્ચે આવતી સંખ્યાઓ = 2n = 2(25) = <b>50 સંખ્યાઓ</b>.</p><p style='margin:0; font-size:15px; color:#334155;'><b>(iii) 99 અને 100:</b><br>અહીં n = 99 છે.<br>વચ્ચે આવતી સંખ્યાઓ = 2n = 2(99) = <b>198 સંખ્યાઓ</b>.</p></div></div>"
                 }
             ]
-                    }
-                    
-    
-    
-  
+         }
 };
 
