@@ -235,7 +235,53 @@ var std8MathsExercise = {
 
                         
             ]
-        }
+        },
+                            // ........................................
+        // ધોરણ 8 - પ્રકરણ 5: વર્ગ અને વર્ગમૂળ
+        // ........................................
+        "5": {
+            "chapterName": "પ્રકરણ 5",
+            "chapterTitle": "વર્ગ અને વર્ગમૂળ",
+            "qa_list": [
+                {
+                    "questionNumber": "સ્વાધ્યાય 5.1 - દાખલો 1",
+                    "marks": 2,
+                    "question": "નીચે આપેલી સંખ્યાઓના વર્ગ કરવાથી એકમનો અંક કયો મળશે?<br>(i) 81<br>(ii) 272<br>(iii) 799<br>(iv) 3853<br>(v) 1234",
+                    "answer": "<div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'><h4 style='color:#14532d; margin:0 0 10px 0; font-size:18px;'>&#10004; ઉકેલ:</h4><div style='background-color:#ffffff; padding:15px; border-radius:5px; border:1px solid #bbf7d0;'><p style='margin:0 0 10px 0; font-size:16px; color:#1e3a8a;'>કોઈપણ સંખ્યાના વર્ગનો એકમનો અંક તે સંખ્યાના એકમના અંકના વર્ગના એકમના અંક જેટલો હોય છે.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(i) 81:</b> એકમનો અંક 1 છે, તેથી તેના વર્ગનો એકમનો અંક (1 &times; 1) = <b>1</b> મળશે.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(ii) 272:</b> એકમનો અંક 2 છે, તેથી તેના વર્ગનો એકમનો અંક (2 &times; 2) = <b>4</b> મળશે.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(iii) 799:</b> એકમનો અંક 9 છે, 9 નો વર્ગ 81 થાય, તેથી વર્ગનો એકમનો અંક <b>1</b> મળશે.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(iv) 3853:</b> એકમનો અંક 3 છે, તેથી તેના વર્ગનો એકમનો અંક (3 &times; 3) = <b>9</b> મળશે.</p><p style='margin:0; font-size:15px; color:#334155;'><b>(v) 1234:</b> એકમનો અંક 4 છે, 4 નો વર્ગ 16 થાય, તેથી વર્ગનો એકમનો અંક <b>6</b> મળશે.</p></div></div>"
+                },
+                {
+                    "questionNumber": "સ્વાધ્યાય 5.1 - દાખલો 2",
+                    "marks": 3,
+                    "question": "નીચે આપેલી સંખ્યાઓ માટે સ્પષ્ટ છે કે તે પૂર્ણવર્ગ સંખ્યાઓ નથી. કારણ સહ જણાવો:<br>(i) 1057<br>(ii) 23453<br>(iii) 7928<br>(iv) 64000",
+                    "answer": "<div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'><h4 style='color:#14532d; margin:0 0 10px 0; font-size:18px;'>&#10004; ઉકેલ:</h4><div style='background-color:#ffffff; padding:15px; border-radius:5px; border:1px solid #bbf7d0;'><p style='margin:0 0 10px 0; font-size:16px; color:#1e3a8a;'><b>નિયમ:</b> જે સંખ્યાનો એકમનો અંક 2, 3, 7 કે 8 હોય અથવા અંતમાં શૂન્યોની સંખ્યા એકી (1, 3, 5...) હોય, તે સંખ્યા ક્યારેય પૂર્ણવર્ગ હોતી નથી.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(i) 1057:</b> આ સંખ્યાનો એકમનો અંક <b>7</b> છે. તેથી તે પૂર્ણવર્ગ નથી.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(ii) 23453:</b> આ સંખ્યાનો એકમનો અંક <b>3</b> છે. તેથી તે પૂર્ણવર્ગ નથી.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(iii) 7928:</b> આ સંખ્યાનો એકમનો અંક <b>8</b> છે. તેથી તે પૂર્ણવર્ગ નથી.</p><p style='margin:0; font-size:15px; color:#334155;'><b>(iv) 64000:</b> આ સંખ્યાના અંતમાં શૂન્યોની સંખ્યા <b>3 (એકી સંખ્યા)</b> છે. તેથી તે પૂર્ણવર્ગ નથી.</p></div></div>"
+                },
+                {
+                    "questionNumber": "સ્વાધ્યાય 5.1 - દાખલો 3",
+                    "marks": 2,
+                    "question": "નીચે આપેલી સંખ્યાઓમાંથી કઈ સંખ્યાનો વર્ગ કરવાથી મળતી સંખ્યા એકી સંખ્યા હશે કે બેકી સંખ્યા હશે?<br>(i) 431<br>(ii) 2826<br>(iii) 7779<br>(iv) 82004",
+                    "answer": "<div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'><h4 style='color:#14532d; margin:0 0 10px 0; font-size:18px;'>&#10004; ઉકેલ:</h4><div style='background-color:#ffffff; padding:15px; border-radius:5px; border:1px solid #bbf7d0;'><p style='margin:0 0 10px 0; font-size:16px; color:#1e3a8a;'><b>નિયમ:</b> એકી સંખ્યાનો વર્ગ હંમેશાં એકી સંખ્યા મળે અને બેકી સંખ્યાનો વર્ગ હંમેશાં બેકી સંખ્યા મળે.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(i) 431:</b> આ એકી સંખ્યા છે, તેથી તેનો વર્ગ કરવાથી મળતી સંખ્યા <b>એકી સંખ્યા</b> હશે.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(ii) 2826:</b> આ બેકી સંખ્યા છે, તેથી તેનો વર્ગ કરવાથી મળતી સંખ્યા <b>બેકી સંખ્યા</b> હશે.</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(iii) 7779:</b> આ એકી સંખ્યા છે, તેથી તેનો વર્ગ કરવાથી મળતી સંખ્યા <b>એકી સંખ્યા</b> હશે.</p><p style='margin:0; font-size:15px; color:#334155;'><b>(iv) 82004:</b> આ બેકી સંખ્યા છે, તેથી તેનો વર્ગ કરવાથી મળતી સંખ્યા <b>બેકી સંખ્યા</b> હશે.</p></div></div>"
+                },
+                {
+                    "questionNumber": "સ્વાધ્યાય 5.1 - દાખલો 7",
+                    "marks": 2,
+                    "question": "સરવાળાની ક્રિયા કર્યા વિના સરવાળો મેળવો:<br>(i) 1 + 3 + 5 + 7 + 9<br>(ii) 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19",
+                    "answer": "<div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'><h4 style='color:#14532d; margin:0 0 10px 0; font-size:18px;'>&#10004; ઉકેલ:</h4><div style='background-color:#ffffff; padding:15px; border-radius:5px; border:1px solid #bbf7d0;'><p style='margin:0 0 10px 0; font-size:16px; color:#1e3a8a;'><b>નિયમ:</b> પ્રથમ 'n' ક્રમિક એકી સંખ્યાઓનો સરવાળો = n&sup2;</p><p style='margin:0 0 5px 0; font-size:15px; color:#334155;'><b>(i) 1 + 3 + 5 + 7 + 9</b><br>અહીં પ્રથમ 5 ક્રમિક એકી સંખ્યાઓ છે. (n = 5)<br>&#8756; સરવાળો = 5&sup2; = <b>25</b></p><hr style='border:0; border-top:1px dashed #bbf7d0; margin:10px 0;'><p style='margin:0; font-size:15px; color:#334155;'><b>(ii) 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19</b><br>અહીં પ્રથમ 10 ક્રમિક એકી સંખ્યાઓ છે. (n = 10)<br>&#8756; સરવાળો = 10&sup2; = <b>100</b></p></div></div>"
+                },
+                {
+                    "questionNumber": "સ્વાધ્યાય 5.1 - દાખલો 8",
+                    "marks": 2,
+                    "question": "(i) 49 ને 7 એકી સંખ્યાઓના સરવાળા તરીકે દર્શાવો.<br>(ii) 121 ને 11 એકી સંખ્યાઓના સરવાળા તરીકે દર્શાવો.",
+                    "answer": "<div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'><h4 style='color:#14532d; margin:0 0 10px 0; font-size:18px;'>&#10004; ઉકેલ:</h4><div style='background-color:#ffffff; padding:15px; border-radius:5px; border:1px solid #bbf7d0;'><p style='margin:0 0 5px 0; font-size:16px; color:#1e3a8a;'>આપણે જાણીએ છીએ કે પૂર્ણવર્ગ સંખ્યા n&sup2; એ પ્રથમ 'n' એકી સંખ્યાઓનો સરવાળો છે.</p><p style='margin:10px 0 5px 0; font-size:15px; color:#334155;'><b>(i) 49:</b><br>અહીં 49 = 7&sup2; છે, તેથી તેને પ્રથમ 7 ક્રમિક એકી સંખ્યાઓના સરવાળા તરીકે નીચે મુજબ લખી શકાય:<br><b>49 = 1 + 3 + 5 + 7 + 9 + 11 + 13</b></p><hr style='border:0; border-top:1px dashed #bbf7d0; margin:10px 0;'><p style='margin:0; font-size:15px; color:#334155;'><b>(ii) 121:</b><br>અહીં 121 = 11&sup2; છે, તેથી તેને પ્રથમ 11 ક્રમિક એકી સંખ્યાઓના સરવાળા તરીકે નીચે મુજબ લખી શકાય:<br><b>121 = 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 + 17 + 19 + 21</b></p></div></div>"
+                },
+                {
+                    "questionNumber": "સ્વાધ્યાય 5.1 - દાખલો 9",
+                    "marks": 3,
+                    "question": "નીચે આપેલી સંખ્યાઓના વર્ગોની વચ્ચે કેટલી સંખ્યાઓ આવશે તે જણાવો:<br>(i) 12 અને 13<br>(ii) 25 અને 26<br>(iii) 99 અને 100",
+                    "answer": "<div style='background-color:#f0fdf4; padding:15px; border-left:5px solid #16a34a; border-radius:8px;'><h4 style='color:#14532d; margin:0 0 10px 0; font-size:18px;'>&#10004; ઉકેલ:</h4><div style='background-color:#ffffff; padding:15px; border-radius:5px; border:1px solid #bbf7d0;'><p style='margin:0 0 10px 0; font-size:16px; color:#1e3a8a;'><b>નિયમ:</b> બે ક્રમિક સંખ્યાઓ 'n' અને '(n + 1)' ના વર્ગોની વચ્ચે આવતી પ્રાકૃતિક સંખ્યાઓની સંખ્યા <b>2n</b> જેટલી હોય છે.</p><p style='margin:0 0 8px 0; font-size:15px; color:#334155;'><b>(i) 12 અને 13:</b><br>અહીં n = 12 છે.<br>વચ્ચે આવતી સંખ્યાઓ = 2n = 2(12) = <b>24 સંખ્યાઓ</b>.</p><p style='margin:0 0 8px 0; font-size:15px; color:#334155;'><b>(ii) 25 અને 26:</b><br>અહીં n = 25 છે.<br>વચ્ચે આવતી સંખ્યાઓ = 2n = 2(25) = <b>50 સંખ્યાઓ</b>.</p><p style='margin:0; font-size:15px; color:#334155;'><b>(iii) 99 અને 100:</b><br>અહીં n = 99 છે.<br>વચ્ચે આવતી સંખ્યાઓ = 2n = 2(99) = <b>198 સંખ્યાઓ</b>.</p></div></div>"
+                }
+            ]
+                    }
+                    
     
     
   
