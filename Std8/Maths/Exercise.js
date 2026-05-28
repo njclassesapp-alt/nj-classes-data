@@ -1506,4 +1506,3 @@ var std8MathsExercise = {
                 ]
        }
 };
-
