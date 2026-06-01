@@ -75,5 +75,70 @@ Var sciExerciseDB_Std8 = [
         marks: 4,
         q: "નીચે આપેલા સંકેતોની મદદથી આપેલો શબ્દ કોયડો તેનાં અંગ્રેજી નામ વડે પૂર્ણ કરો :<br>(Storage, Crop, Gram, Harvester, Winnowing, Irrigation)",
         ans: "આપેલા કોયડાના અંગ્રેજી જવાબો નીચે મુજબ છે:<br><br><b>ઊભી ચાવી (Down):</b><br>1. પાકને પાણી આપવું = <span style='color:#c2185b; font-weight:bold; letter-spacing:2px;'>IRRIGATION</span><br>2. પાકના દાણાઓને લાંબા સમય સુધી યોગ્ય સ્થિતિમાં રાખવા = <span style='color:#c2185b; font-weight:bold; letter-spacing:2px;'>STORAGE</span><br>5. વનસ્પતિ કે જેને મોટા પાયે ઉછેરવામાં આવે છે = <span style='color:#c2185b; font-weight:bold; letter-spacing:2px;'>CROP</span><br><br><b>આડી ચાવી (Across):</b><br>3. મશીન કે જે પરિપક્વ પાકને કાપવા માટે વપરાય છે = <span style='color:#1976d2; font-weight:bold; letter-spacing:2px;'>HARVESTER</span><br>4. રવીપાક કે જે એક કઠોળ પણ છે = <span style='color:#1976d2; font-weight:bold; letter-spacing:2px;'>GRAM</span> (ચણા)<br>6. ભૂસામાંથી દાણાઓને છૂટા પાડવાની પદ્ધતિ = <span style='color:#1976d2; font-weight:bold; letter-spacing:2px;'>WINNOWING</span> (ઉપણવું)<br><br><div style='background-color:#d4edda; border-left:5px solid #28a745; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#155724;'><b>નિતેશ સરની ટિપ્સ:</b><br>સ્પેલિંગ યાદ રાખવા માટે શબ્દોને તોડી નાખો: <b>IRRI-GATION, HAR-VESTER, WIN-NOW-ING.</b> આ સ્પેલિંગ એક-બે વાર રફ બુકમાં લખી લેવા, જેથી પરીક્ષામાં બોક્સમાં લખતી વખતે અક્ષરો ખૂટે નહીં!</span></div>"
+    },
+
+    {
+        chapter: 2,
+        questionNumber: 1,
+        marks: 4,
+        q: "ખાલી જગ્યા પૂર્ણ કરો :<br>(a) સૂક્ષ્મજીવો ____________ ની મદદથી જોઈ શકાય છે.<br>(b) નીલહરિત લીલ વાતાવરણમાંથી ____________ નું સ્થાપન સીધે સીધું જ કરે છે, જેનાથી ભૂમિની ફળદ્રુપતામાં વધારો થાય છે.<br>(c) આલ્કોહોલનું ઉત્પાદન ____________ ની મદદથી કરવામાં આવે છે.<br>(d) કૉલેરા ____________ દ્વારા થાય છે.",
+        ans: "(a) સૂક્ષ્મજીવો <span style='color:#c2185b; font-weight:bold;'>માઇક્રોસ્કોપ (સૂક્ષ્મદર્શક યંત્ર)</span> ની મદદથી જોઈ શકાય છે.<br><br>(b) નીલહરિત લીલ વાતાવરણમાંથી <span style='color:#c2185b; font-weight:bold;'>નાઇટ્રોજન</span> નું સ્થાપન સીધે સીધું જ કરે છે, જેનાથી ભૂમિની ફળદ્રુપતામાં વધારો થાય છે.<br><br>(c) આલ્કોહોલનું ઉત્પાદન <span style='color:#c2185b; font-weight:bold;'>યીસ્ટ</span> ની મદદથી કરવામાં આવે છે.<br><br>(d) કૉલેરા <span style='color:#c2185b; font-weight:bold;'>બેક્ટેરિયા</span> દ્વારા થાય છે.<br><br><div style='background-color:#fff3cd; border-left:5px solid #ffc107; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#856404;'><b>નિતેશ સરની શોર્ટકટ ટ્રિક:</b><br>યાદ રાખો: જે સાવ નાનું હોય (સૂક્ષ્મ), તેને જોવા <b>માઇક્રોસ્કોપ</b> જોઈએ. જમીન માટે સૌથી જરૂરી ખાતર <b>નાઇટ્રોજન</b> છે, અને આલ્કોહોલ (દારૂ) કે બ્રેડ બનાવતો સ્પેશિયલ કારીગર એટલે <b>'યીસ્ટ'</b>!</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 2,
+        marks: 5,
+        q: "સાચા ઉત્તરોને પસંદ કરો :",
+        ans: "<b>(a) યીસ્ટનો ઉપયોગ નીચેનામાંથી કોના ઉત્પાદનમાં થાય છે ?</b><br>જવાબ: <span style='color:#28a745; font-weight:bold;'>(ii) આલ્કોહોલ</span><br><br><b>(b) નીચેનામાંથી કયું એન્ટિબાયોટિક્સ છે ?</b><br>જવાબ: <span style='color:#28a745; font-weight:bold;'>(ii) સ્ટ્રેપ્ટોમાઈસીન</span><br><br><b>(c) મેલેરિયા થવા માટે જવાબદાર પ્રજીવનું વાહક _______ છે.</b><br>જવાબ: <span style='color:#28a745; font-weight:bold;'>(i) માદા એનોફિલિસ મચ્છર</span><br><br><b>(d) ચેપીરોગોનું મુખ્ય વાહક _______ છે.</b><br>જવાબ: <span style='color:#28a745; font-weight:bold;'>(ii) માખી</span><br><br><b>(e) બ્રેડ અથવા ઈડલીની કણક ફૂલવાનું કારણ .....</b><br>જવાબ: <span style='color:#28a745; font-weight:bold;'>(iii) યીસ્ટ કોષોની વૃદ્ધિ</span><br><br><div style='background-color:#e2e3e5; border-left:5px solid #6c757d; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#383d41;'><b>નિતેશ સરની ટિપ્સ:</b><br>મેલેરિયા મચ્છરથી થાય અને ચેપી રોગ માખીથી (કારણ કે માખી ગંદકી પર બેસીને આપણા ખોરાક પર આવે). બ્રેડ કે ઈડલી ફૂલે એનો મતલબ અંદર <b>'યીસ્ટ'</b> એ શ્વાસ લીધો અને ગેસ (CO₂) બહાર કાઢ્યો!</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 3,
+        marks: 6,
+        q: "કૉલમ-A માં આપેલાં સજીવોને કૉલમ-B માં આપેલાં તેમનાં કાર્યો સાથે જોડો :",
+        ans: "નીચે સાચા જવાબોની જોડ આપેલી છે:<br><br><div style='overflow-x:auto; background-color:#fdfdfd; border:1px solid #dee2e6; border-radius:8px;'><table style='width:100%; border-collapse:collapse; text-align:left;'><tr style='background-color:#17a2b8; color:white;'><th style='padding:12px; border:1px solid #dee2e6;'>કૉલમ - A</th><th style='padding:12px; border:1px solid #dee2e6;'>સાચો જવાબ (કૉલમ - B)</th></tr><tr><td style='padding:10px; border:1px solid #dee2e6;'>(i) બેક્ટેરિયા</td><td style='padding:10px; border:1px solid #dee2e6;'><span style='color:#c2185b; font-weight:bold;'>(e) કૉલેરા કારક</span></td></tr><tr style='background-color:#f2f2f2;'><td style='padding:10px; border:1px solid #dee2e6;'>(ii) રાઈઝોબિયમ</td><td style='padding:10px; border:1px solid #dee2e6;'><span style='color:#c2185b; font-weight:bold;'>(a) નાઇટ્રોજન સ્થાપન</span></td></tr><tr><td style='padding:10px; border:1px solid #dee2e6;'>(iii) લેક્ટોબેસિલસ</td><td style='padding:10px; border:1px solid #dee2e6;'><span style='color:#c2185b; font-weight:bold;'>(b) દહીં જમાવવું</span></td></tr><tr style='background-color:#f2f2f2;'><td style='padding:10px; border:1px solid #dee2e6;'>(iv) યીસ્ટ</td><td style='padding:10px; border:1px solid #dee2e6;'><span style='color:#c2185b; font-weight:bold;'>(c) બ્રેડનું બેકિંગ</span></td></tr><tr><td style='padding:10px; border:1px solid #dee2e6;'>(v) પ્રજીવ</td><td style='padding:10px; border:1px solid #dee2e6;'><span style='color:#c2185b; font-weight:bold;'>(d) મેલેરિયા કારક</span></td></tr><tr style='background-color:#f2f2f2;'><td style='padding:10px; border:1px solid #dee2e6;'>(vi) વાઇરસ</td><td style='padding:10px; border:1px solid #dee2e6;'><span style='color:#c2185b; font-weight:bold;'>(f) AIDS કારક</span></td></tr></table></div><br><div style='background-color:#d4edda; border-left:5px solid #28a745; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#155724;'><b>નિતેશ સરની શોર્ટકટ ટ્રિક:</b><br>શબ્દો પકડો! <b>'લેક્ટો' (Lacto)</b> શબ્દ આવે એટલે દૂધ કે દહીં જ હોય! <b>'રાઈઝોબિયમ'</b> એટલે ખેડૂતનો મિત્ર (નાઇટ્રોજન આપે). અને AIDS જેવી ખતરનાક બીમારી હંમેશા <b>'વાઇરસ'</b> થી જ થાય.</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 4,
+        marks: 2,
+        q: "શું સૂક્ષ્મજીવોને નરી આંખે જોઈ શકાય છે ? જો ના, તો તે કેવી રીતે જોવામાં આવે છે ?",
+        ans: "<b>ના</b>, સૂક્ષ્મજીવોને નરી આંખે (સામાન્ય રીતે) જોઈ શકાતા નથી, કારણ કે કદમાં તેઓ અત્યંત નાના હોય છે.<br><br><b>તેમને જોવાની રીત:</b><br>૧. તેમને જોવા માટે <b>માઇક્રોસ્કોપ (સૂક્ષ્મદર્શક યંત્ર)</b> નો ઉપયોગ કરવામાં આવે છે.<br>૨. કેટલાક મોટા સૂક્ષ્મજીવો (જેમ કે ચોમાસામાં બ્રેડ પર ઊગતી ફૂગ) ને <b>બિલોરી કાચ (Magnifying glass)</b> ની મદદથી જોઈ શકાય છે.<br><br><div style='background-color:#e1f5fe; border-left:5px solid #03a9f4; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#01579b;'><b>નિતેશ સરની ટિપ્સ:</b><br>સૂક્ષ્મ એટલે સાવ ઝીણું! જે વસ્તુ આંખમાં ધૂળની જેમ જાય પણ દેખાય નહીં, તેને જોવા માટે 'માઇક્રોસ્કોપ' નામનાં પાવરફુલ ચશ્માંની જ જરૂર પડે!</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 5,
+        marks: 2,
+        q: "સૂક્ષ્મજીવોના મુખ્ય સમૂહ કયા કયા છે ?",
+        ans: "સૂક્ષ્મજીવોને મુખ્યત્વે <b>ચાર (4)</b> વર્ગોમાં વિભાજિત કરવામાં આવેલ છે:<br><br>૧. <b>બેક્ટેરિયા</b> (દા.ત. ટાઇફોઇડ, કૉલેરા કરનારા)<br>૨. <b>ફૂગ</b> (દા.ત. બ્રેડ મોલ્ડ, પેનિસિલિયમ)<br>૩. <b>પ્રજીવ</b> (દા.ત. અમીબા, પેરામિશિયમ)<br>૪. <b>લીલ</b> (દા.ત. સ્પાયરોગાયરા, ક્લેમિડોમોનાસ)<br><br><i>(નોંધ: વાઇરસ પણ સૂક્ષ્મ હોય છે, પરંતુ તે માત્ર યજમાન કોષની અંદર જ ગુણન કરતા હોવાથી તેમને આ ચાર મુખ્ય સમૂહથી અલગ માનવામાં આવે છે.)</i><br><br><div style='background-color:#fff3cd; border-left:5px solid #ff9800; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#e65100;'><b>નિતેશ સરની શોર્ટકટ ટ્રિક:</b><br>આ ચાર સમૂહ યાદ રાખવા માટે એક ટૂંકું નામ યાદ રાખો: <b>B-F-P-A</b> (Bacteria, Fungi, Protozoa, Algae) એટલે કે બેક્ટેરિયા, ફૂગ, પ્રજીવ, લીલ.</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 6,
+        marks: 2,
+        q: "વાતાવરણીય નાઇટ્રોજનનું ભૂમિમાં સ્થાપન કરતાં સૂક્ષ્મજીવોનું નામ જણાવો.",
+        ans: "વાતાવરણમાં રહેલા મુક્ત નાઇટ્રોજનનું ભૂમિમાં સ્થાપન મુખ્યત્વે નીચેના સૂક્ષ્મજીવો કરે છે:<br><br>૧. <b>રાઈઝોબિયમ (Rhizobium) બેક્ટેરિયા:</b> જે કઠોળ વર્ગની (શિંબી) વનસ્પતિના મૂળમાં રહે છે.<br>૨. <b>નીલહરિત લીલ (Blue-green algae):</b> સાયનોબેક્ટેરિયા તરીકે પણ ઓળખાય છે.<br>૩. <b>એઝોટોબેક્ટર બેક્ટેરિયા</b>.<br><br><div style='background-color:#f3e5f5; border-left:5px solid #9c27b0; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#4a148c;'><b>નિતેશ સરની ટિપ્સ:</b><br>'રાઈઝોબિયમ' એ ખેડૂતનો બેસ્ટ ફ્રેન્ડ છે! તે વનસ્પતિના મૂળમાં ભાડેથી રહે છે અને ભાડા પેટે હવામાંથી નાઇટ્રોજન પકડીને જમીનને આપે છે!</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 7,
+        marks: 5,
+        q: "આપણા જીવનમાં સૂક્ષ્મજીવોની ઉપયોગિતા વિશે 10 વાક્યો લખો.",
+        ans: "સૂક્ષ્મજીવો માત્ર નુકસાન જ નથી કરતા, તે આપણા મિત્રો પણ છે. તેમની ઉપયોગિતા નીચે મુજબ છે:<br><br>૧. <b>લેક્ટોબેસિલસ</b> નામના બેક્ટેરિયા દૂધમાંથી દહીં બનાવવામાં ઉપયોગી છે.<br>૨. <b>યીસ્ટ</b> નો ઉપયોગ બ્રેડ, પેસ્ટ્રીઝ અને કેક બનાવવા (બેકિંગ ઉદ્યોગમાં) થાય છે.<br>૩. મોટા પાયે આલ્કોહોલ (દારૂ) અને વિનેગર (એસિટીક એસિડ) ના ઉત્પાદનમાં યીસ્ટ વપરાય છે.<br>૪. ચીઝ, અથાણું અને અન્ય ખાદ્ય પદાર્થો બનાવવામાં બેક્ટેરિયા મદદરૂપ છે.<br>૫. રોગકારક સૂક્ષ્મજીવોનો નાશ કરવા <b>એન્ટિબાયોટિક્સ</b> (દા.ત. પેનિસિલિન) દવાઓ ફૂગ અને બેક્ટેરિયામાંથી બનાવાય છે.<br>૬. કૉલેરા, પોલિયો કે કમળા જેવા રોગો સામે રક્ષણ આપતી <b>રસી (Vaccine)</b> પણ સૂક્ષ્મજીવોમાંથી જ બને છે.<br>૭. રાઈઝોબિયમ બેક્ટેરિયા અને નીલહરિત લીલ વાતાવરણના નાઇટ્રોજનનું સ્થાપન કરી જમીનની <b>ફળદ્રુપતા વધારે છે</b>.<br>૮. પર્યાવરણને શુદ્ધ કરવા વનસ્પતિના અને પ્રાણીઓના મૃતદેહો તથા કચરાનું <b>વિઘટન</b> કરી તેને સરળ પદાર્થોમાં ફેરવે છે.<br>૯. પ્રાણીઓના મળ અને કૃષિ કચરામાંથી <b>બાયોગેસ</b> ઉત્પન્ન કરવા બેક્ટેરિયા ઉપયોગી છે.<br>૧૦. માનવ આંતરડામાં રહેલા કેટલાક બેક્ટેરિયા પાચન પ્રક્રિયામાં મદદરૂપ થાય છે.<br><br><div style='background-color:#e1f5fe; border-left:5px solid #03a9f4; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#01579b;'><b>નિતેશ સરની શોર્ટકટ ટ્રિક:</b><br>10 મુદ્દા યાદ રાખવા આ શબ્દો પકડો: <b>રસોઈમાં</b> (દહીં, બ્રેડ, ચીઝ, દારૂ), <b>દવાખાનામાં</b> (એન્ટિબાયોટિક, રસી, પાચન), અને <b>ખેતરમાં</b> (ખાતર, વિઘટન, બાયોગેસ).</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 8,
+        marks: 3,
+        q: "સૂક્ષ્મજીવો દ્વારા થતા નુકસાન વિશે ટૂંકમાં નોંધ લખો.",
+        ans: "સૂક્ષ્મજીવો મનુષ્ય, પ્રાણીઓ અને વનસ્પતિઓમાં રોગ ઉત્પન્ન કરે છે તેમજ વસ્તુઓ બગાડે છે. તેમનાથી થતા નુકસાન નીચે મુજબ છે:<br><br>૧. <b>માણસોમાં રોગો:</b> બેક્ટેરિયા, વાઇરસ અને પ્રજીવ દ્વારા કૉલેરા, ટાઇફોઇડ, ક્ષય (ટીબી), મેલેરિયા અને ડેન્ગ્યુ જેવા ખતરનાક ચેપી રોગો થાય છે.<br>૨. <b>પ્રાણીઓમાં રોગો:</b> ગાય-ભેંસ જેવા પ્રાણીઓમાં ફૂટ એન્ડ માઉથ ડિસીઝ (વાઇરસથી) અને એન્થ્રેક્સ (બેક્ટેરિયાથી) જેવા જીવલેણ રોગ થાય છે.<br>૩. <b>વનસ્પતિમાં રોગો:</b> લીંબુમાં સાઇટ્રસ કેન્કર (બેક્ટેરિયા), ઘઉંમાં રસ્ટ (ફૂગ) અને ભીંડામાં પિત્ત (વાઇરસ) જેવા રોગો પાકનું ઉત્પાદન ઘટાડે છે.<br>૪. <b>ખોરાક બગાડવો (ફૂડ પોઇઝનિંગ):</b> કેટલાક સૂક્ષ્મજીવો ખોરાક પર ઉગીને ઝેરી પદાર્થો ઉત્પન્ન કરે છે, જે ખાવાથી ગંભીર બીમારી કે મૃત્યુ પણ થઈ શકે છે.<br>૫. <b>વસ્તુઓ બગાડવી:</b> ચોમાસામાં ફૂગને કારણે ચામડાનાં પગરખાં, કપડાં અને લાકડાનું ફર્નિચર સડી જાય છે.<br><br><div style='background-color:#ffebee; border-left:5px solid #f44336; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#b71c1c;'><b>નિતેશ સરની ટિપ્સ:</b><br>નુકસાનના 3 રસ્તા યાદ રાખો: 1. શરીરમાં જઈ રોગ કરે (માણસ/પ્રાણી/વનસ્પતિ), 2. ખોરાક પર બેસી ઝેર બનાવે, 3. કપડાં/લાકડાં સડાવે.</span></div>"
+    },
+    {
+        chapter: 2,
+        questionNumber: 9,
+        marks: 4,
+        q: "એન્ટિબાયોટિક્સ એટલે શું ? એન્ટિબાયોટિક્સનું સેવન કરતી વખતે કઈ સાવધાની રાખવી જોઈએ ?",
+        ans: "<b>એન્ટિબાયોટિક્સની વ્યાખ્યા:</b> બીમારી પેદા કરનારા સૂક્ષ્મજીવોનો નાશ કરનારી અથવા તેમની વૃદ્ધિ અટકાવનારી દવાઓને એન્ટિબાયોટિક્સ (Antibiotics) કહે છે. (દા.ત. પેનિસિલિન, સ્ટ્રેપ્ટોમાઈસીન, ટેટ્રાસાયક્લિન). તે ફૂગ અને બેક્ટેરિયામાંથી બનાવવામાં આવે છે.<br><br><b>એન્ટિબાયોટિક્સ લેતી વખતે રાખવાની સાવધાનીઓ:</b><br>૧. આ દવા હંમેશા <b>માન્ય ડૉક્ટરની સલાહ મુજબ</b> જ લેવી જોઈએ.<br>૨. ડૉક્ટરે જેટલા દિવસની દવા કહી હોય તેનો <b>કોર્સ ફરજિયાત પૂરો કરવો</b> જોઈએ (વચ્ચેથી છોડી ન દેવી).<br>૩. જરૂર ન હોય ત્યારે અથવા ખોટી માત્રામાં દવા લેવી નહીં, નહિતર ભવિષ્યમાં જ્યારે ખરેખર જરૂર પડશે ત્યારે તે દવા <b>અસર કરશે નહીં</b>.<br>૪. કારણ વગર એન્ટિબાયોટિક્સ લેવાથી શરીરમાં રહેલા <b>ઉપયોગી બેક્ટેરિયા પણ નાશ પામે છે</b>.<br>૫. ખાસ નોંધ: શરદી અને ફ્લૂ જેવા <b>વાઇરસથી થતા રોગોમાં એન્ટિબાયોટિક્સ અસરકારક નથી</b>.<br><br><div style='background-color:#cce5ff; border-left:5px solid #004085; padding:10px; margin-top:10px; border-radius:4px;'>💡 <span style='color:#004085;'><b>નિતેશ સરની શોર્ટકટ ટ્રિક:</b><br>એન્ટિબાયોટિક્સ એટલે રોગના જીવાણુ મારવાની <b>'મિસાઇલ'</b>. ડૉક્ટર કહે એટલી જ ફોડવી, અધવચ્ચે ન મૂકવી, અને ખોટી જગ્યાએ વાપરો તો આપણા શરીરના સારા સૈનિકો (ઉપયોગી બેક્ટેરિયા) પણ મરી જાય!</span></div>"
     }
+
 ];
