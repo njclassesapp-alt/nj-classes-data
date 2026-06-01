@@ -1,4 +1,4 @@
-Var sciExerciseDB_Std8_Ch1 = [
+Var sciExerciseDB_Std8 = [
     {
         chapter: 1,
         questionNumber: 1,
