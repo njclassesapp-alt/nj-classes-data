@@ -367,68 +367,13 @@ var njMathsExercise = {
                 </div>`
             },
             { 
-                "questionNumber": "સ્વાધ્યાય 1.3 - પ્રશ્ન 3",
-                "marks": 3,
-                "question": "p પૂર્ણાંક હોય અને q શૂન્યેતર પૂર્ણાંક હોય તેવા p, q માટે નીચેની સંખ્યાઓને p/q સ્વરૂપમાં દર્શાવો:\n(i) 0.6̅ \n(ii) 0.47̅", 
-                "answer": `
-                <div style='display:flex; flex-direction:column; gap:15px;'>
-                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
-                        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(i) 0.<span style='text-decoration:overline;'>6</span> ને p/q સ્વરૂપમાં ફેરવવું:</h4>
-                        
-                        <div style='background-color:#f1f5f9; padding:12px; border-radius:5px; font-size:15px; color:#334155; line-height:1.8;'>
-                            ધારો કે <b>x = 0.<span style='text-decoration:overline;'>6</span></b><br>
-                            &there4; x = 0.6666... <b>--- (સમીકરણ 1)</b><br><br>
-                            અહીં 1 અંક (6) નું પુનરાવર્તન થાય છે, તેથી બંને બાજુ 10 વડે ગુણતા:<br>
-                            10x = 6.6666... <b>--- (સમીકરણ 2)</b><br><br>
-                            સમીકરણ 2 માંથી 1 બાદ કરતા:<br>
-                            <div style='font-family:monospace; margin-left:20px; font-size:16px;'>
-                                &nbsp;10x = 6.6666...<br>
-                                - &nbsp;x = 0.6666...<br>
-                                <div style='border-top:1px solid #94a3b8; width:150px;'></div>
-                                &nbsp;&nbsp;9x = 6.0000...
-                            </div><br>
-                            &there4; 9x = 6<br>
-                            &there4; x = 6/9 <br>
-                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 2/3</b> (છેદ ઉડાડતા)
-                        </div>
-                    </div>
-
-                    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
-                        <h4 style='color:#be123c; margin:0 0 10px 0;'>(ii) 0.4<span style='text-decoration:overline;'>7</span> ને p/q સ્વરૂપમાં ફેરવવું:</h4>
-                        <p style='margin:0 0 10px 0; font-size:14px; color:#64748b;'>(નોંધ: અહીં માત્ર 7 પર જ બાર છે, 4 પર નથી)</p>
-                        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; font-size:15px; color:#881337; line-height:1.8;'>
-                            ધારો કે <b>x = 0.4777...</b> <b>--- (સમીકરણ 1)</b><br><br>
-                            અહીં માત્ર 1 અંક (7) નું પુનરાવર્તન થાય છે, તેથી 10 વડે ગુણતા:<br>
-                            10x = 4.7777... <b>--- (સમીકરણ 2)</b><br><br>
-                            સમીકરણ 2 માંથી 1 બાદ કરતા:<br>
-                            <div style='font-family:monospace; margin-left:20px; font-size:16px;'>
-                                &nbsp;10x = 4.777...<br>
-                                - &nbsp;x = 0.477...<br>
-                                <div style='border-top:1px solid #fecdd3; width:150px;'></div>
-                                &nbsp;&nbsp;9x = 4.300...
-                            </div><br>
-                            &there4; 9x = 4.3<br>
-                            &there4; 9x = 43/10<br>
-                            &there4; x = 43 / (10 &times; 9)<br>
-                            &there4; <b style='color:#e11d48; font-size:16px;'>x = 43/90</b>
-                        </div>
-                    </div>
-                </div>
-
-                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
-                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક (Super Shortcut):</b> 
-                    <p style='margin:10px 0 0 0; font-size:15px; color:#854d0e;'>હેતુલક્ષી પ્રશ્નો માટે ગણતરી કર્યા વગર સીધો જ જવાબ લખો!</p>
-                    <ul style='margin:5px 0 0 0; font-size:14px; color:#78350f; padding-left:20px; line-height:1.8;'>
-                        <li><b>ટ્રીક 1:</b> પોઈન્ટ પછી જેટલા આંકડા પર બાર (રેખા) હોય, તેટલા <b>9</b> છેદમાં મૂકી દો.<br>
-                        દા.ત. 0.<span style='text-decoration:overline;'>6</span> &rarr; 6/9 (છેદ ઉડાડતા 2/3)<br>
-                        0.<span style='text-decoration:overline;'>001</span> &rarr; 1/999 (કારણ કે 3 અંક પર બાર છે)</li>
-                        <li><b>ટ્રીક 2:</b> જો અમુક અંક પર બાર ન હોય (જેમ કે 0.4<span style='text-decoration:overline;'>7</span>):<br>
-                        સ્ટેપ 1: આખી સંખ્યા (47) માંથી બાર વગરની સંખ્યા (4) <b>બાદ કરો</b> &rarr; 47 - 4 = <b>43</b> (આ તમારો અંશ).<br>
-                        સ્ટેપ 2: જેટલા અંક પર બાર છે તેટલા <b>9</b> અને જેટલા પર નથી તેટલા <b>0</b> છેદમાં લખો &rarr; એક 9 અને એક 0 એટલે <b>90</b>.<br>
-                        જવાબ: <b style='color:#be123c;'>43/90</b> સીધો તૈયાર!</li>
-                    </ul>
-                </div>`
+  "questionNumber": "સ્વાધ્યાય 1.3 - પ્રશ્ન 3",
+  "marks": 3,
+  "question": "p પૂર્ણાંક હોય અને q શૂન્યેતર પૂર્ણાંક હોય તેવા p, q માટે નીચેની સંખ્યાઓને p/q સ્વરૂપમાં દર્શાવો:\n(i) 0.6̅ \n(ii) 0.47̅ \n(iii) 0.001̅", 
+  "answer": "<div style='display:flex; flex-direction:column; gap:15px;'>\n    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>\n        <h4 style='color:#1e3a8a; margin:0 0 10px 0;'>(i) 0.<span style='text-decoration:overline;'>6</span> ને p/q સ્વરૂપમાં ફેરવવું:</h4>\n        \n        <div style='background-color:#f1f5f9; padding:12px; border-radius:5px; font-size:15px; color:#334155; line-height:1.8;'>\n            ધારો કે <b>x = 0.<span style='text-decoration:overline;'>6</span></b><br>\n            &there4; x = 0.6666... <b>--- (સમીકરણ 1)</b><br><br>\n            અહીં 1 અંક (6) નું પુનરાવર્તન થાય છે, તેથી બંને બાજુ 10 વડે ગુણતા:<br>\n            10x = 6.6666... <b>--- (સમીકરણ 2)</b><br><br>\n            સમીકરણ 2 માંથી 1 બાદ કરતા:<br>\n            <div style='font-family:monospace; margin-left:20px; font-size:16px;'>\n                &nbsp;10x = 6.6666...<br>\n                - &nbsp;x = 0.6666...<br>\n                <div style='border-top:1px solid #94a3b8; width:150px;'></div>\n                &nbsp;&nbsp;9x = 6.0000...\n            </div><br>\n            &there4; 9x = 6<br>\n            &there4; x = 6/9 <br>\n            &there4; <b style='color:#16a34a; font-size:16px;'>x = 2/3</b> (છેદ ઉડાડતા)\n        </div>\n    </div>\n\n    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>\n        <h4 style='color:#be123c; margin:0 0 10px 0;'>(ii) 0.4<span style='text-decoration:overline;'>7</span> ને p/q સ્વરૂપમાં ફેરવવું:</h4>\n        <p style='margin:0 0 10px 0; font-size:14px; color:#64748b;'>(નોંધ: અહીં માત્ર 7 પર જ બાર છે, 4 પર નથી)</p>\n        <div style='background-color:#fff1f2; padding:12px; border-radius:5px; font-size:15px; color:#881337; line-height:1.8;'>\n            ધારો કે <b>x = 0.4777...</b> <b>--- (સમીકરણ 1)</b><br><br>\n            અહીં માત્ર 1 અંક (7) નું પુનરાવર્તન થાય છે, તેથી 10 વડે ગુણતા:<br>\n            10x = 4.7777... <b>--- (સમીકરણ 2)</b><br><br>\n            સમીકરણ 2 માંથી 1 બાદ કરતા:<br>\n            <div style='font-family:monospace; margin-left:20px; font-size:16px;'>\n                &nbsp;10x = 4.777...<br>\n                - &nbsp;x = 0.477...<br>\n                <div style='border-top:1px solid #fecdd3; width:150px;'></div>\n                &nbsp;&nbsp;9x = 4.300...\n            </div><br>\n            &there4; 9x = 4.3<br>\n            &there4; 9x = 43/10<br>\n            &there4; x = 43 / (10 &times; 9)<br>\n            &there4; <b style='color:#e11d48; font-size:16px;'>x = 43/90</b>\n        </div>\n    </div>\n\n    <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>\n        <h4 style='color:#047857; margin:0 0 10px 0;'>(iii) 0.<span style='text-decoration:overline;'>001</span> ને p/q સ્વરૂપમાં ફેરવવું:</h4>\n        <div style='background-color:#ecfdf5; padding:12px; border-radius:5px; font-size:15px; color:#064e3b; line-height:1.8;'>\n            ધારો કે <b>x = 0.<span style='text-decoration:overline;'>001</span></b><br>\n            &there4; x = 0.001001001... <b>--- (સમીકરણ 1)</b><br><br>\n            અહીં 3 અંકો (001) નું પુનરાવર્તન થાય છે, તેથી બંને બાજુ 1000 વડે ગુણતા:<br>\n            1000x = 1.001001001... <b>--- (સમીકરણ 2)</b><br><br>\n            સમીકરણ 2 માંથી 1 બાદ કરતા:<br>\n            <div style='font-family:monospace; margin-left:20px; font-size:16px;'>\n                &nbsp;1000x = 1.001001...<br>\n                - &nbsp;&nbsp;&nbsp;x = 0.001001...<br>\n                <div style='border-top:1px solid #6ee7b7; width:180px;'></div>\n                &nbsp;&nbsp;&nbsp;999x = 1.000000...\n            </div><br>\n            &there4; 999x = 1<br>\n            &there4; <b style='color:#059669; font-size:16px;'>x = 1/999</b>\n        </div>\n    </div>\n</div>\n\n<div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>\n    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક (Super Shortcut):</b> \n    <p style='margin:10px 0 0 0; font-size:15px; color:#854d0e;'>હેતુલક્ષી પ્રશ્નો માટે ગણતરી કર્યા વગર સીધો જ જવાબ લખો!</p>\n    <ul style='margin:5px 0 0 0; font-size:14px; color:#78350f; padding-left:20px; line-height:1.8;'>\n        <li><b>ટ્રીક 1:</b> પોઈન્ટ પછી જેટલા આંકડા પર બાર (રેખા) હોય, તેટલા <b>9</b> છેદમાં મૂકી દો.<br>\n        દા.ત. 0.<span style='text-decoration:overline;'>6</span> &rarr; 6/9 (છેદ ઉડાડતા 2/3)<br>\n        0.<span style='text-decoration:overline;'>001</span> &rarr; 1/999 (કારણ કે 3 અંક પર બાર છે)</li>\n        <li><b>ટ્રીક 2:</b> જો અમુક અંક પર બાર ન હોય (જેમ કે 0.4<span style='text-decoration:overline;'>7</span>):<br>\n        સ્ટેપ 1: આખી સંખ્યા (47) માંથી બાર વગરની સંખ્યા (4) <b>બાદ કરો</b> &rarr; 47 - 4 = <b>43</b> (આ તમારો અંશ).<br>\n        સ્ટેપ 2: જેટલા અંક પર બાર છે તેટલા <b>9</b> અને જેટલા પર નથી તેટલા <b>0</b> છેદમાં લખો &rarr; એક 9 અને એક 0 એટલે <b>90</b>.<br>\n        જવાબ: <b style='color:#be123c;'>43/90</b> સીધો તૈયાર!</li>\n    </ul>\n</div>"
             },
+    
+
             { 
                 "questionNumber": "સ્વાધ્યાય 1.3 - પ્રશ્ન 5",
                 "marks": 4,
