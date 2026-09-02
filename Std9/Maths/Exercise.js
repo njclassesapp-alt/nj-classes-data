@@ -3339,130 +3339,168 @@ var njMathsExercise = {
         "chapterName": "પ્રકરણ 6",
         "chapterTitle": "રેખાઓ અને ખૂણાઓ (સ્વાધ્યાય)",
         "qa_list": [
-            { 
-                "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 1",
-                "marks": 3,
-                "question": "આકૃતિમાં, રેખાઓ AB અને CD બિંદુ O માં છેદે છે. જો &ang;AOC + &ang;BOE = 70&deg; અને &ang;BOD = 40&deg; હોય, તો &ang;BOE અને વિપરીત &ang;COE શોધો.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+{ 
+        "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 1",
+        "marks": 3,
+        "question": "આકૃતિમાં, રેખાઓ AB અને CD બિંદુ O માં છેદે છે. જો &ang;AOC + &ang;BOE = 70&deg; અને &ang;BOD = 40&deg; હોય, તો &ang;BOE અને વિપરીત &ang;COE શોધો.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>પ્રશ્નની આકૃતિ</p>
+                <svg viewBox="0 0 300 260" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <marker id="arrowBlack" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                            <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                        </marker>
+                    </defs>
                     
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>પ્રશ્નની આકૃતિ</p>
-                        <svg viewBox="0 0 300 150" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="20" y1="100" x2="280" y2="100" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack)" marker-end="url(#arrowBlack)"/>
-                            <line x1="90" y1="140" x2="210" y2="20" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack)" marker-end="url(#arrowBlack)"/>
-                            <line x1="150" y1="100" x2="240" y2="50" stroke="#0f172a" stroke-width="2" marker-end="url(#arrowBlack)"/>
-                            
-                            <text x="25" y="90" fill="#be123c" font-weight="bold">A</text>
-                            <text x="265" y="90" fill="#be123c" font-weight="bold">B</text>
-                            <text x="215" y="25" fill="#1d4ed8" font-weight="bold">C</text>
-                            <text x="95" y="135" fill="#1d4ed8" font-weight="bold">D</text>
-                            <text x="245" y="55" fill="#16a34a" font-weight="bold">E</text>
-                            <text x="145" y="120" fill="#0f172a" font-weight="bold">O</text>
-                            
-                            <path d="M 130 100 A 20 20 0 0 0 137 108" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <text x="110" y="115" fill="#ea580c" font-size="12" font-weight="bold">40&deg;</text>
-                            
-                            <defs>
-                                <marker id="arrowBlack" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-                                    <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
-                                </marker>
-                            </defs>
-                        </svg>
-                    </div>
+                    <!-- Line AB -->
+                    <line x1="50" y1="150" x2="250" y2="150" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack)" marker-end="url(#arrowBlack)"/>
+                    
+                    <!-- Line CD (Angle 40 deg with AB) -->
+                    <line x1="73.4" y1="85.7" x2="226.6" y2="214.3" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack)" marker-end="url(#arrowBlack)"/>
+                    
+                    <!-- Ray OE (Angle 30 deg with OB) -->
+                    <line x1="150" y1="150" x2="236.6" y2="100.0" stroke="#0f172a" stroke-width="2" marker-end="url(#arrowBlack)"/>
+                    
+                    <!-- Angle Arc BOD = 40 deg -->
+                    <path d="M 175.0 150.0 A 25 25 0 0 1 169.2 166.1" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <text x="175" y="175" fill="#ea580c" font-size="12" font-weight="bold">40&deg;</text>
 
-                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
-                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
-                            રેખાઓ AB અને CD બિંદુ O માં છેદે છે.<br>
-                            તેથી, <b>&ang;AOC = &ang;BOD</b> <span style='color:#64748b;'>(અભિકોણોની જોડ સમાન હોય)</span><br>
-                            પરંતુ, &ang;BOD = 40&deg; આપેલ છે.<br>
-                            &there4; <b>&ang;AOC = 40&deg;</b><br><br>
-                            
-                            હવે, રકમ મુજબ: &ang;AOC + &ang;BOE = 70&deg;<br>
-                            &there4; 40&deg; + &ang;BOE = 70&deg;<br>
-                            &there4; &ang;BOE = 70&deg; - 40&deg;<br>
-                            &there4; <b style='color:#be123c; font-size:16px;'>&ang;BOE = 30&deg;</b> (આપણો પહેલો જવાબ)<br><br>
-                            
-                            હવે, રેખા AB પર આવેલા તમામ ખૂણાઓનો સરવાળો 180&deg; થાય (સરળકોણ / રૈખિક જોડ).<br>
-                            &there4; &ang;AOC + &ang;COE + &ang;BOE = 180&deg;<br>
-                            &there4; (&ang;AOC + &ang;BOE) + &ang;COE = 180&deg;<br>
-                            &there4; 70&deg; + &ang;COE = 180&deg;<br>
-                            &there4; &ang;COE = 180&deg; - 70&deg; = <b>110&deg;</b><br><br>
-                            
-                            આપણે <b>વિપરીત &ang;COE</b> શોધવાનો છે. (વિપરીત ખૂણો = 360&deg; - ખૂણો)<br>
-                            &there4; વિપરીત &ang;COE = 360&deg; - 110&deg;<br>
-                            &there4; <b style='color:#be123c; font-size:16px;'>વિપરીત &ang;COE = 250&deg;</b> (આપણો બીજો જવાબ)
-                        </div>
-                    </div>
+                    <!-- Angle Arc AOC = 40 deg (Vertically Opposite) -->
+                    <path d="M 125.0 150.0 A 25 25 0 0 1 130.8 133.9" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    
+                    <!-- Angle Arc BOE = 30 deg -->
+                    <path d="M 185.0 150.0 A 35 35 0 0 0 180.3 132.5" fill="none" stroke="#047857" stroke-width="2"/>
+                    <text x="195" y="140" fill="#047857" font-size="12" font-weight="bold">30&deg;</text>
+
+                    <!-- Reflex Angle COE = 250 deg -->
+                    <path d="M 189.0 127.5 A 45 45 0 1 1 115.5 121.1" fill="none" stroke="#be123c" stroke-width="1.5" stroke-dasharray="3,3"/>
+                    <text x="110" y="210" fill="#be123c" font-size="12" font-weight="bold">વિપરીત (250&deg;)</text>
+
+                    <!-- Points and Labels -->
+                    <circle cx="150" cy="150" r="3" fill="#0f172a"/>
+                    
+                    <text x="45" y="145" fill="#be123c" font-weight="bold" font-size="15">A</text>
+                    <text x="245" y="145" fill="#be123c" font-weight="bold" font-size="15">B</text>
+                    <text x="65" y="80" fill="#1d4ed8" font-weight="bold" font-size="15">C</text>
+                    <text x="230" y="230" fill="#1d4ed8" font-weight="bold" font-size="15">D</text>
+                    <text x="245" y="100" fill="#16a34a" font-weight="bold" font-size="15">E</text>
+                    <text x="145" y="170" fill="#0f172a" font-weight="bold" font-size="15">O</text>
+                </svg>
+            </div>
+
+            <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                    રેખાઓ AB અને CD બિંદુ O માં છેદે છે.<br>
+                    તેથી, <b>&ang;AOC = &ang;BOD</b> <span style='color:#64748b;'>(અભિકોણોની જોડ સમાન હોય)</span><br>
+                    પરંતુ, &ang;BOD = 40&deg; આપેલ છે.<br>
+                    &there4; <b>&ang;AOC = 40&deg;</b><br><br>
+                    
+                    હવે, રકમ મુજબ: &ang;AOC + &ang;BOE = 70&deg;<br>
+                    &there4; 40&deg; + &ang;BOE = 70&deg;<br>
+                    &there4; &ang;BOE = 70&deg; - 40&deg;<br>
+                    &there4; <b style='color:#be123c; font-size:16px;'>&ang;BOE = 30&deg;</b> (આપણો પહેલો જવાબ)<br><br>
+                    
+                    હવે, રેખા AB પર આવેલા તમામ ખૂણાઓનો સરવાળો 180&deg; થાય (સરળકોણ / રૈખિક જોડ).<br>
+                    &there4; &ang;AOC + &ang;COE + &ang;BOE = 180&deg;<br>
+                    &there4; (&ang;AOC + &ang;BOE) + &ang;COE = 180&deg;<br>
+                    &there4; 70&deg; + &ang;COE = 180&deg;<br>
+                    &there4; &ang;COE = 180&deg; - 70&deg; = <b>110&deg;</b><br><br>
+                    
+                    આપણે <b>વિપરીત &ang;COE</b> શોધવાનો છે. (વિપરીત ખૂણો = 360&deg; - અંદરનો ખૂણો)<br>
+                    &there4; વિપરીત &ang;COE = 360&deg; - 110&deg;<br>
+                    &there4; <b style='color:#be123c; font-size:16px;'>વિપરીત &ang;COE = 250&deg;</b> (આપણો બીજો જવાબ)
                 </div>
-                
-                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
-                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
-                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવા દાખલામાં સૌથી પહેલા <b>X (ચોકડી)</b> ગોતો! જ્યાં ચોકડી પડે ત્યાં સામસામેના ખૂણા (અભિકોણો) સરખા જ હોય. અહીં AB અને CD ચોકડી બનાવે છે, તેથી નીચે 40 તો ઉપર પણ 40. પછી સીધી લીટી (180&deg;) નો નિયમ વાપરો એટલે દાખલો તરત સોલ્વ!</p>
-                </div>`
-            },
-            { 
-                "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 2",
-                "marks": 4,
-                "question": "આકૃતિમાં, રેખાઓ XY અને MN બિંદુ O માં છેદે છે. જો &ang;POY = 90&deg; અને a : b = 2 : 3 હોય, તો c શોધો.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આવા દાખલામાં સૌથી પહેલા <b>X (ચોકડી)</b> ગોતો! જ્યાં ચોકડી પડે ત્યાં સામસામેના ખૂણા (અભિકોણો) સરખા જ હોય. અહીં AB અને CD ચોકડી બનાવે છે, તેથી નીચે 40&deg; તો ઉપર પણ 40&deg;. પછી સીધી લીટી (180&deg;) નો નિયમ વાપરો એટલે દાખલો તરત સોલ્વ!</p>
+        </div>`
+    },
+          { 
+        "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 2",
+        "marks": 4,
+        "question": "આકૃતિમાં, રેખાઓ XY અને MN બિંદુ O માં છેદે છે. જો &ang;POY = 90&deg; અને a : b = 2 : 3 હોય, તો c શોધો.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 300 240" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <marker id="arrowBlack2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                            <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                        </marker>
+                    </defs>
                     
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <svg viewBox="0 0 300 160" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="20" y1="120" x2="280" y2="120" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack2)" marker-end="url(#arrowBlack2)"/>
-                            <line x1="80" y1="20" x2="220" y2="150" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack2)" marker-end="url(#arrowBlack2)"/>
-                            <line x1="150" y1="120" x2="150" y2="20" stroke="#0f172a" stroke-width="2" marker-end="url(#arrowBlack2)"/>
-                            <polyline points="150,110 160,110 160,120" fill="none" stroke="#be123c" stroke-width="1.5"/>
-                            
-                            <text x="15" y="115" fill="#0f172a" font-weight="bold">X</text>
-                            <text x="275" y="115" fill="#0f172a" font-weight="bold">Y</text>
-                            <text x="140" y="135" fill="#0f172a" font-weight="bold">O</text>
-                            <text x="155" y="20" fill="#0f172a" font-weight="bold">P</text>
-                            <text x="70" y="20" fill="#0f172a" font-weight="bold">M</text>
-                            <text x="225" y="155" fill="#0f172a" font-weight="bold">N</text>
-                            
-                            <text x="125" y="80" fill="#1d4ed8" font-weight="bold" font-size="14">a</text>
-                            <text x="95" y="110" fill="#16a34a" font-weight="bold" font-size="14">b</text>
-                            <text x="135" y="145" fill="#ea580c" font-weight="bold" font-size="14">c</text>
-                            
-                            <defs>
-                                <marker id="arrowBlack2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-                                    <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
-                                </marker>
-                            </defs>
-                        </svg>
-                    </div>
+                    <!-- Line XY -->
+                    <line x1="30" y1="120" x2="270" y2="120" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrowBlack2)" marker-end="url(#arrowBlack2)"/>
+                    
+                    <!-- Line MN (At 54 degrees from negative x-axis) -->
+                    <line x1="85.3" y1="31.0" x2="214.7" y2="209.0" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrowBlack2)" marker-end="url(#arrowBlack2)"/>
+                    
+                    <!-- Ray OP (Vertical) -->
+                    <line x1="150" y1="120" x2="150" y2="30" stroke="#0f172a" stroke-width="2.5" marker-end="url(#arrowBlack2)"/>
+                    
+                    <!-- Right Angle Marker for POY -->
+                    <polyline points="150,105 165,105 165,120" fill="#fefce8" stroke="#be123c" stroke-width="1.5"/>
+                    
+                    <!-- Angle Arc 'a' (POM = 36 deg) -->
+                    <path d="M 129.4 91.7 A 35 35 0 0 1 150.0 85.0" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                    <text x="135" y="80" fill="#1d4ed8" font-weight="bold" font-size="16">a</text>
+                    
+                    <!-- Angle Arc 'b' (MOX = 54 deg) -->
+                    <path d="M 120.0 120.0 A 30 30 0 0 1 132.4 95.7" fill="none" stroke="#16a34a" stroke-width="2"/>
+                    <text x="110" y="105" fill="#16a34a" font-weight="bold" font-size="16">b</text>
+                    
+                    <!-- Angle Arc 'c' (XON = 126 deg) -->
+                    <path d="M 125.0 120.0 A 25 25 0 0 0 164.7 140.2" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <text x="135" y="150" fill="#ea580c" font-weight="bold" font-size="16">c</text>
+                    
+                    <!-- Points and Labels -->
+                    <circle cx="150" cy="120" r="4" fill="#0f172a"/>
+                    
+                    <text x="25" y="112" fill="#0f172a" font-weight="bold" font-size="15">X</text>
+                    <text x="265" y="112" fill="#0f172a" font-weight="bold" font-size="15">Y</text>
+                    <text x="155" y="135" fill="#0f172a" font-weight="bold" font-size="15">O</text>
+                    <text x="155" y="25" fill="#0f172a" font-weight="bold" font-size="15">P</text>
+                    <text x="70" y="25" fill="#0f172a" font-weight="bold" font-size="15">M</text>
+                    <text x="220" y="225" fill="#0f172a" font-weight="bold" font-size="15">N</text>
+                </svg>
+            </div>
 
-                    <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ઉકેલ:</b></p>
-                        <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
-                            અહીં રેખા XY પર કિરણ OP આવેલું છે અને &ang;POY = 90&deg; છે.<br>
-                            રૈખિક જોડના નિયમ મુજબ: &ang;POX + &ang;POY = 180&deg;<br>
-                            &there4; &ang;POX + 90&deg; = 180&deg; &rArr; <b>&ang;POX = 90&deg;</b><br><br>
-                            
-                            હવે, આકૃતિ પરથી &ang;POX બે ખૂણાઓનો બનેલો છે: $a$ અને $b$.<br>
-                            &there4; <b>a + b = 90&deg;</b><br>
-                            આપણને ગુણોત્તર આપેલ છે: $a : b = 2 : 3$.<br>
-                            ધારો કે $a = 2x$ અને $b = 3x$.<br>
-                            &there4; $2x + 3x = 90&deg;$<br>
-                            &there4; $5x = 90&deg;$ &rArr; $x = 18&deg;$<br><br>
-                            
-                            તેથી ખૂણાઓ મેળવીએ:<br>
-                            $a = 2(18&deg;) = 36&deg;$<br>
-                            <b style='color:#0f172a;'>$b = 3(18&deg;) = 54&deg;$</b><br><br>
-                            
-                            હવે આકૃતિમાં રેખા MN ને જુઓ. કિરણ OX તેના પર આવેલું છે.<br>
-                            તેથી, $b$ અને $c$ રૈખિક જોડના ખૂણા બનાવે છે.<br>
-                            &there4; $b + c = 180&deg;$<br>
-                            &there4; $54&deg; + c = 180&deg;$<br>
-                            &there4; $c = 180&deg; - 54&deg;$<br>
-                            &there4; <b style='color:#be123c; font-size:18px;'>c = 126&deg;</b>
-                        </div>
-                    </div>
-                </div>`
-            },
+            <div style='background-color:#f0fdf4; padding:12px; border-left:4px solid #16a34a; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#14532d;'><b>ઉકેલ:</b></p>
+                <div style='font-size:14px; color:#166534; line-height:1.8; margin-left:10px;'>
+                    અહીં રેખા XY પર કિરણ OP આવેલું છે અને &ang;POY = 90&deg; છે.<br>
+                    રૈખિક જોડના નિયમ મુજબ: &ang;POX + &ang;POY = 180&deg;<br>
+                    &there4; &ang;POX + 90&deg; = 180&deg; &rArr; <b>&ang;POX = 90&deg;</b><br><br>
+                    
+                    હવે, આકૃતિ પરથી &ang;POX બે ખૂણાઓનો બનેલો છે: $a$ અને $b$.<br>
+                    &there4; <b>a + b = 90&deg;</b><br>
+                    આપણને ગુણોત્તર આપેલ છે: $a : b = 2 : 3$.<br>
+                    ધારો કે $a = 2x$ અને $b = 3x$.<br>
+                    &there4; $2x + 3x = 90&deg;$<br>
+                    &there4; $5x = 90&deg;$ &rArr; $x = 18&deg;$<br><br>
+                    
+                    તેથી ખૂણાઓ મેળવીએ:<br>
+                    $a = 2(18&deg;) = 36&deg;$<br>
+                    <b style='color:#0f172a;'>$b = 3(18&deg;) = 54&deg;$</b><br><br>
+                    
+                    હવે આકૃતિમાં રેખા MN ને જુઓ. કિરણ OX તેના પર આવેલું છે.<br>
+                    તેથી, $b$ અને $c$ રૈખિક જોડના ખૂણા બનાવે છે.<br>
+                    &there4; $b + c = 180&deg;$<br>
+                    &there4; $54&deg; + c = 180&deg;$<br>
+                    &there4; $c = 180&deg; - 54&deg;$<br>
+                    &there4; <b style='color:#be123c; font-size:18px;'>c = 126&deg;</b>
+                </div>
+            </div>
+        </div>`
+    },
             { 
                 "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 3",
                 "marks": 3,
@@ -3511,56 +3549,82 @@ var njMathsExercise = {
                     </div>
                 </div>`
             },
-            { 
-                "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 4",
-                "marks": 3,
-                "question": "આકૃતિમાં, જો x + y = w + z હોય, તો સાબિત કરો કે AOB એક રેખા છે.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <svg viewBox="0 0 300 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="30" y1="100" x2="270" y2="100" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack4)" marker-end="url(#arrowBlack4)"/>
-                            <line x1="150" y1="100" x2="220" y2="30" stroke="#0f172a" stroke-width="2" marker-end="url(#arrowBlack4)"/>
-                            <line x1="150" y1="100" x2="200" y2="170" stroke="#0f172a" stroke-width="2" marker-end="url(#arrowBlack4)"/>
-                            
-                            <text x="25" y="90" fill="#0f172a" font-weight="bold">B</text>
-                            <text x="265" y="90" fill="#0f172a" font-weight="bold">A</text>
-                            <text x="135" y="105" fill="#0f172a" font-weight="bold">O</text>
-                            <text x="225" y="25" fill="#0f172a" font-weight="bold">C</text>
-                            <text x="205" y="185" fill="#0f172a" font-weight="bold">D</text>
-                            
-                            <text x="180" y="80" fill="#ea580c" font-weight="bold">y</text>
-                            <text x="100" y="80" fill="#16a34a" font-weight="bold">x</text>
-                            <text x="120" y="130" fill="#1d4ed8" font-weight="bold">w</text>
-                            <text x="180" y="130" fill="#be123c" font-weight="bold">z</text>
-                            
-                            <defs>
-                                <marker id="arrowBlack4" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-                                    <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
-                                </marker>
-                            </defs>
-                        </svg>
-                    </div>
+      { 
+        "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 4",
+        "marks": 3,
+        "question": "આકૃતિમાં, જો x + y = w + z હોય, તો સાબિત કરો કે AOB એક રેખા છે.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 300 200" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <marker id="arrowBlack4" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                            <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                        </marker>
+                    </defs>
+                    
+                    <!-- Line AOB -->
+                    <line x1="30" y1="100" x2="270" y2="100" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrowBlack4)" marker-end="url(#arrowBlack4)"/>
+                    
+                    <!-- Ray OC (Top) -->
+                    <line x1="150" y1="100" x2="190" y2="30.7" stroke="#0f172a" stroke-width="2.5" marker-end="url(#arrowBlack4)"/>
+                    
+                    <!-- Ray OD (Bottom) -->
+                    <line x1="150" y1="100" x2="177.4" y2="175.2" stroke="#0f172a" stroke-width="2.5" marker-end="url(#arrowBlack4)"/>
+                    
+                    <!-- Angle Arc y (COA) -->
+                    <path d="M 165.0 74.0 A 30 30 0 0 1 180.0 100.0" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <text x="175" y="85" fill="#ea580c" font-weight="bold" font-size="16">y</text>
+                    
+                    <!-- Angle Arc x (BOC) -->
+                    <path d="M 120.0 100.0 A 30 30 0 0 1 165.0 74.0" fill="none" stroke="#16a34a" stroke-width="2"/>
+                    <text x="125" y="85" fill="#16a34a" font-weight="bold" font-size="16">x</text>
+                    
+                    <!-- Angle Arc z (AOD) -->
+                    <path d="M 180.0 100.0 A 30 30 0 0 1 160.3 128.2" fill="none" stroke="#be123c" stroke-width="2"/>
+                    <text x="175" y="125" fill="#be123c" font-weight="bold" font-size="16">z</text>
+                    
+                    <!-- Angle Arc w (DOB) -->
+                    <path d="M 160.3 128.2 A 30 30 0 0 1 120.0 100.0" fill="none" stroke="#1d4ed8" stroke-width="2"/>
+                    <text x="125" y="125" fill="#1d4ed8" font-weight="bold" font-size="16">w</text>
 
-                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
-                        <div style='font-family:monospace; font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
-                            આપણે જાણીએ છીએ કે બિંદુ O ની આસપાસ આવેલા તમામ ખૂણાઓનો સરવાળો 360&deg; થાય છે.<br>
-                            &there4; <b>x + y + w + z = 360&deg;</b><br><br>
-                            
-                            રકમમાં આપેલું છે કે: <b>x + y = w + z</b><br>
-                            તેથી, સમીકરણમાં (w + z) ની જગ્યાએ (x + y) મૂકી શકાય.<br>
-                            &there4; (x + y) + (x + y) = 360&deg;<br>
-                            &there4; 2(x + y) = 360&deg;<br>
-                            &there4; x + y = 360&deg; / 2<br>
-                            &there4; <b style='color:#be123c; font-size:16px;'>x + y = 180&deg;</b><br><br>
-                            
-                            અહીં, x અને y એ આસન્નકોણ (Adjacent angles) છે અને તેમનો સરવાળો 180&deg; થાય છે. જ્યારે બે આસન્નકોણનો સરવાળો 180&deg; થાય, ત્યારે તેમની સામાન્ય ન હોય તેવી બાજુઓ એક સીધી રેખા બનાવે છે (રૈખિક જોડની પૂર્વધારણાનો પ્રતીપ).<br>
-                            તેથી સાબિત થાય છે કે <b style='color:#16a34a;'>AOB એક સીધી રેખા છે.</b>
-                        </div>
-                    </div>
-                </div>`
-            },
+                    <!-- Points and Labels -->
+                    <circle cx="150" cy="100" r="4" fill="#0f172a"/>
+                    
+                    <text x="25" y="90" fill="#0f172a" font-weight="bold" font-size="15">B</text>
+                    <text x="265" y="90" fill="#0f172a" font-weight="bold" font-size="15">A</text>
+                    <text x="135" y="115" fill="#0f172a" font-weight="bold" font-size="15">O</text>
+                    <text x="195" y="25" fill="#0f172a" font-weight="bold" font-size="15">C</text>
+                    <text x="185" y="190" fill="#0f172a" font-weight="bold" font-size="15">D</text>
+                </svg>
+            </div>
+
+            <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>સાબિતી:</b></p>
+                <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                    આપણે જાણીએ છીએ કે બિંદુ O ની આસપાસ આવેલા તમામ ખૂણાઓનો (સંપૂર્ણ ખૂણાનો) સરવાળો 360&deg; થાય છે.<br>
+                    &there4; <b>x + y + w + z = 360&deg;</b><br><br>
+                    
+                    રકમમાં આપેલું છે કે: <b>x + y = w + z</b><br>
+                    તેથી, સમીકરણમાં (w + z) ની જગ્યાએ (x + y) મૂકી શકાય.<br>
+                    &there4; (x + y) + (x + y) = 360&deg;<br>
+                    &there4; 2(x + y) = 360&deg;<br>
+                    &there4; x + y = 360&deg; / 2<br>
+                    &there4; <b style='color:#be123c; font-size:16px;'>x + y = 180&deg;</b><br><br>
+                    
+                    અહીં, x અને y એ આસન્નકોણ (Adjacent angles) છે અને તેમનો સરવાળો 180&deg; થાય છે.<br>
+                    જ્યારે બે આસન્નકોણનો સરવાળો 180&deg; થાય, ત્યારે તેમની સામાન્ય ન હોય તેવી બાજુઓ (OA અને OB) એક સીધી રેખા બનાવે છે <i>(રૈખિક જોડની પૂર્વધારણાનો પ્રતીપ)</i>.<br>
+                    તેથી સાબિત થાય છે કે <b style='color:#16a34a;'>AOB એક સીધી રેખા છે.</b>
+                </div>
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>કોઈપણ આકૃતિમાં જ્યારે બિંદુની ચારે બાજુના ખૂણાઓ આપ્યા હોય, ત્યારે આંખ બંધ કરીને <b>બધાનો સરવાળો = 360&deg;</b> મૂકી દેવો. પછી રકમમાં આપેલી શરત વાપરશો એટલે <b>2 વાર = 360</b> આવશે. બે ને સામે લઈ જઈને ભાગાકાર કરો એટલે <b>180&deg;</b> મળે. અને આપણને ખબર જ છે કે 180 નો ખૂણો એટલે <b>સીધી રેખા!</b></p>
+        </div>`
+    },
   { 
                 "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 5",
                 "marks": 4,
@@ -3620,140 +3684,168 @@ var njMathsExercise = {
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ <b>V.V.I.M.P.</b> સાબિતી યાદ રાખવાની સૌથી સહેલી રીત: જે ખૂણો ડાબી બાજુ માંગ્યો છે (ROS), તેને એકવાર <b>મોટા ખૂણામાંથી બાદ કરીને</b> લખો અને બીજી વાર <b>નાના ખૂણામાંથી બાદ કરીને</b> લખો. પછી બંનેનો સરવાળો કરશો એટલે સીધો 90&deg; ઉડી જશે અને જવાબ આવી જશે!</p>
                 </div>`
             },
-            { 
-                "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 6",
-                "marks": 4,
-                "question": "આપેલ છે કે &ang;XYZ = 64&deg; અને XY ને બિંદુ P સુધી લંબાવેલ છે. આપેલ માહિતી પરથી આકૃતિ દોરો. જો કિરણ YQ એ &ang;ZYP નો દ્વિભાજક હોય, તો &ang;XYQ અને વિપરીત &ang;QYP શોધો.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>માહિતી પરથી દોરેલી આકૃતિ</p>
-                        <svg viewBox="0 0 300 160" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="40" y1="130" x2="260" y2="130" stroke="#0f172a" stroke-width="2" marker-start="url(#arrowBlack6)" marker-end="url(#arrowBlack6)"/>
-                            <line x1="150" y1="130" x2="80" y2="30" stroke="#0f172a" stroke-width="2" marker-end="url(#arrowBlack6)"/>
-                            <line x1="150" y1="130" x2="210" y2="30" stroke="#1d4ed8" stroke-width="2" marker-end="url(#arrowBlack6)"/>
-                            
-                            <text x="35" y="120" fill="#0f172a" font-weight="bold">P</text>
-                            <text x="145" y="145" fill="#0f172a" font-weight="bold">Y</text>
-                            <text x="255" y="120" fill="#0f172a" font-weight="bold">X</text>
-                            <text x="70" y="25" fill="#0f172a" font-weight="bold">Z</text>
-                            <text x="220" y="25" fill="#1d4ed8" font-weight="bold">Q</text>
-                            
-                            <path d="M 180 130 A 30 30 0 0 0 130 100" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <text x="120" y="115" fill="#ea580c" font-size="12" font-weight="bold">64&deg;</text>
-                            
-                            <path d="M 110 130 A 40 40 0 0 1 120 80" fill="none" stroke="#16a34a" stroke-width="2"/>
-                            <path d="M 120 80 A 40 40 0 0 1 165 105" fill="none" stroke="#16a34a" stroke-width="2"/>
-                            
-                            <defs>
-                                <marker id="arrowBlack6" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-                                    <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
-                                </marker>
-                            </defs>
-                        </svg>
-                        <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>નોંધ: કિરણ YQ એ &ang;ZYP ના સમાન બે ભાગ કરે છે.</p>
-                    </div>
-
-                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
-                        <div style='font-family:monospace; font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
-                            XY ને P સુધી લંબાવેલ હોવાથી, PYX એક સીધી રેખા બને છે.<br>
-                            તેથી, રૈખિક જોડના નિયમ મુજબ:<br>
-                            &ang;XYZ + &ang;ZYP = 180&deg;<br>
-                            &there4; 64&deg; + &ang;ZYP = 180&deg;<br>
-                            &there4; &ang;ZYP = 180&deg; - 64&deg; = <b>116&deg;</b><br><br>
-                            
-                            હવે, રકમમાં આપેલ છે કે કિરણ YQ એ &ang;ZYP નો દ્વિભાજક (Bisector) છે.<br>
-                            તેથી તે &ang;ZYP ના બે સમાન ભાગ કરશે.<br>
-                            &there4; &ang;ZYQ = &ang;QYP = 116&deg; / 2 = <b>58&deg;</b><br><br>
-                            
-                            <b>(1) &ang;XYQ શોધવા માટે:</b><br>
-                            આકૃતિ મુજબ, &ang;XYQ એ બે ખૂણાઓનો સરવાળો છે.<br>
-                            &ang;XYQ = &ang;XYZ + &ang;ZYQ<br>
-                            &there4; &ang;XYQ = 64&deg; + 58&deg;<br>
-                            &there4; <b style='color:#be123c; font-size:16px;'>&ang;XYQ = 122&deg;</b><br><br>
-                            
-                            <b>(2) વિપરીત &ang;QYP શોધવા માટે:</b><br>
-                            આપણે જાણીએ છીએ કે &ang;QYP = 58&deg; છે.<br>
-                            વિપરીત ખૂણો શોધવા માટે તેને 360&deg; માંથી બાદ કરવો પડે.<br>
-                            વિપરીત &ang;QYP = 360&deg; - &ang;QYP<br>
-                            &there4; વિપરીત &ang;QYP = 360&deg; - 58&deg;<br>
-                            &there4; <b style='color:#be123c; font-size:16px;'>વિપરીત &ang;QYP = 302&deg;</b>
-                        </div>
-                    </div>
-                </div>`
-            },
-                        
-            { 
-                "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 1",
-                "marks": 3,
-                "question": "આકૃતિમાં, x અને y નાં મૂલ્યો શોધો અને પછી બતાવો કે AB || CD.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+       { 
+        "questionNumber": "સ્વાધ્યાય 6.1 - પ્રશ્ન 6",
+        "marks": 4,
+        "question": "આપેલ છે કે &ang;XYZ = 64&deg; અને XY ને બિંદુ P સુધી લંબાવેલ છે. આપેલ માહિતી પરથી આકૃતિ દોરો. જો કિરણ YQ એ &ang;ZYP નો દ્વિભાજક હોય, તો &ang;XYQ અને વિપરીત &ang;QYP શોધો.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>માહિતી પરથી દોરેલી આકૃતિ</p>
+                <svg viewBox="0 0 300 210" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <marker id="arrowBlack6" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                            <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                        </marker>
+                    </defs>
                     
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>પ્રશ્નની આકૃતિ</p>
-                        <svg viewBox="0 0 300 250" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="40" y1="80" x2="260" y2="80" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
-                            <line x1="40" y1="180" x2="260" y2="180" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
-                            
-                            <line x1="120" y1="20" x2="180" y2="230" stroke="#be123c" stroke-width="2" marker-start="url(#arrowRed)" marker-end="url(#arrowRed)"/>
-                            
-                            <text x="25" y="75" fill="#0f172a" font-weight="bold">A</text>
-                            <text x="265" y="75" fill="#0f172a" font-weight="bold">B</text>
-                            <text x="25" y="175" fill="#0f172a" font-weight="bold">C</text>
-                            <text x="265" y="175" fill="#0f172a" font-weight="bold">D</text>
-                            
-                            <path d="M 134 70 A 20 20 0 0 0 125 50" fill="none" stroke="#1d4ed8" stroke-width="2"/>
-                            <text x="100" y="55" fill="#1d4ed8" font-size="14" font-weight="bold">50&deg;</text>
-                            
-                            <path d="M 145 80 A 20 20 0 0 1 138 100" fill="none" stroke="#16a34a" stroke-width="2"/>
-                            <text x="150" y="105" fill="#16a34a" font-size="16" font-weight="bold">x</text>
-                            
-                            <path d="M 154 180 A 20 20 0 0 0 162 160" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <text x="135" y="165" fill="#ea580c" font-size="16" font-weight="bold">y</text>
-                            
-                            <path d="M 166 180 A 20 20 0 0 1 173 200" fill="none" stroke="#9333ea" stroke-width="2"/>
-                            <text x="175" y="210" fill="#9333ea" font-size="14" font-weight="bold">130&deg;</text>
-                            
-                            <defs>
-                                <marker id="arrow62" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-                                    <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
-                                </marker>
-                                <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
-                                    <path d="M0,0 L0,8 L8,4 z" fill="#be123c" />
-                                </marker>
-                            </defs>
-                        </svg>
-                    </div>
+                    <!-- Line PYX -->
+                    <line x1="50" y1="130" x2="250" y2="130" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrowBlack6)" marker-end="url(#arrowBlack6)"/>
+                    
+                    <!-- Ray YZ (At 64 deg from YX) -->
+                    <line x1="150" y1="130" x2="193.8" y2="40.1" stroke="#0f172a" stroke-width="2.5" marker-end="url(#arrowBlack6)"/>
+                    
+                    <!-- Ray YQ (Bisector of ZYP, so at 122 deg from YX) -->
+                    <line x1="150" y1="130" x2="97.0" y2="45.2" stroke="#1d4ed8" stroke-width="2.5" marker-end="url(#arrowBlack6)"/>
+                    
+                    <!-- Angle Arc XYZ = 64 deg -->
+                    <path d="M 180.0 130.0 A 30 30 0 0 0 163.2 103.0" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <text x="175" y="115" fill="#ea580c" font-size="13" font-weight="bold">64&deg;</text>
+                    
+                    <!-- Angle Arcs for Bisector (ZYQ and QYP = 58 deg) -->
+                    <path d="M 167.5 94.0 A 40 40 0 0 0 128.8 96.1" fill="none" stroke="#16a34a" stroke-width="2"/>
+                    <text x="135" y="90" fill="#16a34a" font-size="12" font-weight="bold">58&deg;</text>
+                    
+                    <path d="M 128.8 96.1 A 40 40 0 0 0 110.0 130.0" fill="none" stroke="#16a34a" stroke-width="2"/>
+                    <text x="100" y="110" fill="#16a34a" font-size="12" font-weight="bold">58&deg;</text>
 
-                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
-                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
-                            <b>1) x શોધવા માટે:</b><br>
-                            આકૃતિમાં 50&deg; અને x એ એક જ સીધી રેખા (છેદિકા) પર આવેલા રૈખિક જોડના ખૂણા છે.<br>
-                            &there4; x + 50&deg; = 180&deg;<br>
-                            &there4; x = 180&deg; - 50&deg;<br>
-                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 130&deg;</b><br><br>
-                            
-                            <b>2) y શોધવા માટે:</b><br>
-                            આકૃતિમાં y અને 130&deg; એ સામસામેના ખૂણા (અભિકોણો) છે. અભિકોણો હંમેશા સમાન હોય છે.<br>
-                            &there4; <b style='color:#ea580c; font-size:16px;'>y = 130&deg;</b><br><br>
-                            
-                            <b>3) AB || CD સાબિત કરવા માટે:</b><br>
-                            અહીં, x = 130&deg; અને y = 130&deg; છે. એટલે કે, <b>x = y</b>.<br>
-                            પરંતુ આકૃતિ મુજબ, x અને y એ રેખાઓ AB અને CD ની છેદિકા દ્વારા બનતા <b>અંતઃયુગ્મકોણો (Alternate interior angles)</b> છે.<br>
-                            જ્યારે અંતઃયુગ્મકોણો સમાન હોય, ત્યારે તે બે રેખાઓ હંમેશા સમાંતર હોય છે (યુગ્મકોણ પ્રતીપ પ્રમેય).<br>
-                            &there4; <b style='color:#be123c; font-size:16px;'>AB || CD</b> (સાબિત થાય છે).
-                        </div>
-                    </div>
+                    <!-- Reflex Angle QYP (302 deg) -->
+                    <path d="M 105.0 130.0 A 45 45 0 1 0 126.2 91.8" fill="none" stroke="#be123c" stroke-width="1.5" stroke-dasharray="3,3"/>
+                    <text x="125" y="195" fill="#be123c" font-size="12" font-weight="bold">વિપરીત (302&deg;)</text>
+
+                    <!-- Points and Labels -->
+                    <circle cx="150" cy="130" r="4" fill="#0f172a"/>
+                    
+                    <text x="45" y="145" fill="#0f172a" font-weight="bold" font-size="15">P</text>
+                    <text x="145" y="150" fill="#0f172a" font-weight="bold" font-size="15">Y</text>
+                    <text x="245" y="145" fill="#0f172a" font-weight="bold" font-size="15">X</text>
+                    <text x="200" y="35" fill="#0f172a" font-weight="bold" font-size="15">Z</text>
+                    <text x="85" y="40" fill="#1d4ed8" font-weight="bold" font-size="15">Q</text>
+                </svg>
+                <p style='margin:5px 0 0 0; color:#64748b; font-size:13px;'>નોંધ: કિરણ YQ એ &ang;ZYP ના સમાન બે ભાગ કરે છે.</p>
+            </div>
+
+            <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                <div style='font-family:monospace; font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                    XY ને P સુધી લંબાવેલ હોવાથી, PYX એક સીધી રેખા બને છે.<br>
+                    તેથી, રૈખિક જોડના નિયમ મુજબ:<br>
+                    &ang;XYZ + &ang;ZYP = 180&deg;<br>
+                    &there4; 64&deg; + &ang;ZYP = 180&deg;<br>
+                    &there4; &ang;ZYP = 180&deg; - 64&deg; = <b>116&deg;</b><br><br>
+                    
+                    હવે, રકમમાં આપેલ છે કે કિરણ YQ એ &ang;ZYP નો દ્વિભાજક (Bisector) છે.<br>
+                    તેથી તે &ang;ZYP ના બે સમાન ભાગ કરશે.<br>
+                    &there4; &ang;ZYQ = &ang;QYP = 116&deg; / 2 = <b>58&deg;</b><br><br>
+                    
+                    <b>(1) &ang;XYQ શોધવા માટે:</b><br>
+                    આકૃતિ મુજબ, &ang;XYQ એ બે ખૂણાઓનો સરવાળો છે.<br>
+                    &ang;XYQ = &ang;XYZ + &ang;ZYQ<br>
+                    &there4; &ang;XYQ = 64&deg; + 58&deg;<br>
+                    &there4; <b style='color:#be123c; font-size:16px;'>&ang;XYQ = 122&deg;</b><br><br>
+                    
+                    <b>(2) વિપરીત &ang;QYP શોધવા માટે:</b><br>
+                    આપણે જાણીએ છીએ કે &ang;QYP = 58&deg; છે.<br>
+                    વિપરીત ખૂણો શોધવા માટે તેને 360&deg; માંથી બાદ કરવો પડે.<br>
+                    વિપરીત &ang;QYP = 360&deg; - &ang;QYP<br>
+                    &there4; વિપરીત &ang;QYP = 360&deg; - 58&deg;<br>
+                    &there4; <b style='color:#be123c; font-size:16px;'>વિપરીત &ang;QYP = 302&deg;</b>
                 </div>
-                
-                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
-                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
-                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આકૃતિમાં <b>Z</b> આકાર શોધો! જ્યાં પણ Z આકાર બને, ત્યાં Z ના અંદરના બંને ખૂણા (યુગ્મકોણ) સરખા જ હોય. અહીં x અને y મળીને ઊંધો <b>Z</b> બનાવે છે. બંને 130&deg; આવ્યા એટલે સાબિત થઈ ગયું કે લાઈનો સમાંતર છે!</p>
-                </div>`
-            },
+            </div>
+        </div>`
+    },
+                        
+        { 
+        "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 1",
+        "marks": 3,
+        "question": "આકૃતિમાં, x અને y નાં મૂલ્યો શોધો અને પછી બતાવો કે AB || CD.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <p style='margin:0 0 10px 0; color:#1e3a8a; font-weight:bold; font-size:15px;'>પ્રશ્નની આકૃતિ</p>
+                <svg viewBox="0 0 300 260" style="width:100%; max-width:350px;" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <marker id="arrow62" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                            <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                        </marker>
+                        <marker id="arrowRed" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                            <path d="M0,0 L0,8 L8,4 z" fill="#be123c" />
+                        </marker>
+                    </defs>
+
+                    <!-- Parallel Lines AB and CD -->
+                    <line x1="40" y1="80" x2="260" y2="80" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                    <line x1="40" y1="180" x2="260" y2="180" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                    
+                    <!-- Transversal Line (At 130 deg to horizontal) -->
+                    <line x1="57.7" y1="20" x2="242.3" y2="240" stroke="#be123c" stroke-width="2.5" marker-start="url(#arrowRed)" marker-end="url(#arrowRed)"/>
+                    
+                    <!-- Angle Arc 50 deg (Top Left) -->
+                    <path d="M 83.0 80.0 A 25 25 0 0 1 92.0 60.8" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+                    <text x="65" y="65" fill="#1d4ed8" font-size="15" font-weight="bold">50&deg;</text>
+                    
+                    <!-- Angle Arc x (Bottom Left) -->
+                    <path d="M 127.3 103.0 A 30 30 0 0 1 78.0 80.0" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+                    <text x="95" y="115" fill="#16a34a" font-size="18" font-weight="bold">x</text>
+                    
+                    <!-- Angle Arc y (Top Right) -->
+                    <path d="M 172.7 157.0 A 30 30 0 0 1 222.0 180.0" fill="none" stroke="#ea580c" stroke-width="2.5"/>
+                    <text x="195" y="165" fill="#ea580c" font-size="18" font-weight="bold">y</text>
+                    
+                    <!-- Angle Arc 130 deg (Bottom Left) Vertically Opposite to y -->
+                    <path d="M 208.0 199.2 A 25 25 0 0 1 167.0 180.0" fill="none" stroke="#9333ea" stroke-width="2.5"/>
+                    <text x="210" y="215" fill="#9333ea" font-size="15" font-weight="bold">130&deg;</text>
+
+                    <!-- Points -->
+                    <circle cx="108" cy="80" r="4" fill="#0f172a"/>
+                    <circle cx="192" cy="180" r="4" fill="#0f172a"/>
+                    
+                    <!-- Labels -->
+                    <text x="25" y="75" fill="#0f172a" font-weight="bold" font-size="16">A</text>
+                    <text x="265" y="75" fill="#0f172a" font-weight="bold" font-size="16">B</text>
+                    <text x="25" y="175" fill="#0f172a" font-weight="bold" font-size="16">C</text>
+                    <text x="265" y="175" fill="#0f172a" font-weight="bold" font-size="16">D</text>
+                </svg>
+            </div>
+
+            <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                    <b>1) x શોધવા માટે:</b><br>
+                    આકૃતિમાં 50&deg; અને x એ એક જ સીધી રેખા (છેદિકા) પર આવેલા રૈખિક જોડના ખૂણા છે.<br>
+                    &there4; x + 50&deg; = 180&deg;<br>
+                    &there4; x = 180&deg; - 50&deg;<br>
+                    &there4; <b style='color:#16a34a; font-size:16px;'>x = 130&deg;</b><br><br>
+                    
+                    <b>2) y શોધવા માટે:</b><br>
+                    આકૃતિમાં y અને 130&deg; એ સામસામેના ખૂણા (અભિકોણો) છે. અભિકોણો હંમેશા સમાન હોય છે.<br>
+                    &there4; <b style='color:#ea580c; font-size:16px;'>y = 130&deg;</b><br><br>
+                    
+                    <b>3) AB || CD સાબિત કરવા માટે:</b><br>
+                    અહીં, x = 130&deg; અને y = 130&deg; છે. એટલે કે, <b>x = y</b>.<br>
+                    પરંતુ આકૃતિ મુજબ, x અને y એ રેખાઓ AB અને CD ની છેદિકા દ્વારા બનતા <b>અંતઃયુગ્મકોણો (Alternate interior angles)</b> છે.<br>
+                    જ્યારે અંતઃયુગ્મકોણો સમાન હોય, ત્યારે તે બે રેખાઓ હંમેશા સમાંતર હોય છે (યુગ્મકોણ પ્રતીપ પ્રમેય).<br>
+                    &there4; <b style='color:#be123c; font-size:16px;'>AB || CD</b> <span style='color:#16a34a;'>(સાબિત થાય છે)</span>.
+                </div>
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આકૃતિમાં <b>Z આકાર</b> શોધો! જ્યાં પણ Z આકાર બને, ત્યાં Z ના અંદરના બંને ખૂણા (યુગ્મકોણ) સરખા જ હોય. અહીં x અને y મળીને ઊંધો <b>Z</b> બનાવે છે. બંને 130&deg; આવ્યા એટલે સાબિત થઈ ગયું કે લાઈનો સમાંતર છે!</p>
+        </div>`
+    },
             { 
                 "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 2",
                 "marks": 4,
@@ -3935,64 +4027,91 @@ var njMathsExercise = {
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ <b>"તૂટેલા પુલ (Broken Bridge)"</b> વાળો દાખલો છે! જ્યારે પણ લાઈન વચ્ચેથી તૂટેલી દેખાય, ત્યાં નીચે એક સીધી <b>Support Line (આધાર રેખા)</b> દોરી દેવી. પછી બસ ડાબી બાજુથી <b>Z આકાર</b> અને જમણી બાજુથી <b>C આકાર</b> નો નિયમ વાપરો એટલે જવાબ દોડતો આવશે!</p>
                 </div>`
             },
-               { 
-                "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 5",
-                "marks": 3,
-                "question": "આકૃતિમાં, જો AB || CD, &ang;APQ = 50&deg; અને &ang;PRD = 127&deg; હોય, તો x અને y શોધો.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <svg viewBox="0 0 350 200" style="width:100%; max-width:380px;" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="30" y1="50" x2="320" y2="50" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
-                            <line x1="30" y1="160" x2="320" y2="160" stroke="#0f172a" stroke-width="2" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
-                            
-                            <polygon points="120,50 90,160 220,160" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
-                            
-                            <text x="20" y="40" fill="#0f172a" font-weight="bold">A</text>
-                            <text x="320" y="40" fill="#0f172a" font-weight="bold">B</text>
-                            <text x="20" y="180" fill="#0f172a" font-weight="bold">C</text>
-                            <text x="320" y="180" fill="#0f172a" font-weight="bold">D</text>
-                            <text x="120" y="35" fill="#be123c" font-weight="bold">P</text>
-                            <text x="75" y="175" fill="#be123c" font-weight="bold">Q</text>
-                            <text x="230" y="175" fill="#be123c" font-weight="bold">R</text>
-                            
-                            <path d="M 80 50 A 20 20 0 0 0 110 85" fill="none" stroke="#16a34a" stroke-width="2"/>
-                            <text x="65" y="70" fill="#16a34a" font-size="12" font-weight="bold">50&deg;</text>
-                            
-                            <path d="M 105 160 A 20 20 0 0 1 113 130" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <text x="115" y="150" fill="#ea580c" font-size="16" font-weight="bold">x</text>
-                            
-                            <path d="M 125 70 A 20 20 0 0 1 143 75" fill="none" stroke="#9333ea" stroke-width="2"/>
-                            <text x="135" y="95" fill="#9333ea" font-size="16" font-weight="bold">y</text>
-                            
-                            <path d="M 245 160 A 20 20 0 0 0 205 140" fill="none" stroke="#1d4ed8" stroke-width="2"/>
-                            <text x="235" y="145" fill="#1d4ed8" font-size="12" font-weight="bold">127&deg;</text>
-                        </svg>
-                    </div>
+          { 
+        "questionNumber": "સ્વાધ્યાય 6.2 - પ્રશ્ન 5",
+        "marks": 3,
+        "question": "આકૃતિમાં, જો AB || CD, &ang;APQ = 50&deg; અને &ang;PRD = 127&deg; હોય, તો x અને y શોધો.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 350 200" style="width:100%; max-width:380px;" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <marker id="arrow62" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+                            <path d="M0,0 L0,8 L8,4 z" fill="#0f172a" />
+                        </marker>
+                    </defs>
 
-                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
-                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
-                            આપેલું છે કે AB || CD.<br><br>
-                            
-                            <b>1) x શોધવા માટે:</b><br>
-                            AB || CD અને PQ તેની છેદિકા છે.<br>
-                            આથી, &ang;APQ અને &ang;PQR એ <b>અંતઃયુગ્મકોણો (Z આકાર)</b> બને છે.<br>
-                            &there4; &ang;PQR = &ang;APQ<br>
-                            &there4; <b style='color:#16a34a; font-size:16px;'>x = 50&deg;</b><br><br>
-                            
-                            <b>2) y શોધવા માટે:</b><br>
-                            ફરીથી, AB || CD અને આ વખતે PR તેની છેદિકા છે.<br>
-                            આથી, આખો ખૂણો &ang;APR અને &ang;PRD પણ <b>અંતઃયુગ્મકોણો</b> બને છે.<br>
-                            &there4; &ang;APR = &ang;PRD<br>
-                            હવે, &ang;APR એ બે ખૂણાઓ 50&deg; અને y નો બનેલો છે.<br>
-                            &there4; 50&deg; + y = 127&deg;<br>
-                            &there4; y = 127&deg; - 50&deg;<br>
-                            &there4; <b style='color:#be123c; font-size:16px;'>y = 77&deg;</b>
-                        </div>
-                    </div>
-                </div>`
-               }
+                    <!-- Triangle Fill -->
+                    <polygon points="180,50 87.7,160 262.9,160" fill="#f0f9ff" stroke="none"/>
+
+                    <!-- Parallel Lines AB and CD -->
+                    <line x1="30" y1="50" x2="320" y2="50" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                    <line x1="30" y1="160" x2="320" y2="160" stroke="#0f172a" stroke-width="2.5" marker-start="url(#arrow62)" marker-end="url(#arrow62)"/>
+                    
+                    <!-- Transversals PQ and PR -->
+                    <line x1="180" y1="50" x2="87.7" y2="160" stroke="#0284c7" stroke-width="2.5"/>
+                    <line x1="180" y1="50" x2="262.9" y2="160" stroke="#0284c7" stroke-width="2.5"/>
+                    
+                    <!-- Angle Arc 50 deg (APQ) -->
+                    <path d="M 155.0 50.0 A 25 25 0 0 1 163.9 69.2" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+                    <text x="140" y="42" fill="#16a34a" font-size="14" font-weight="bold">50&deg;</text>
+                    
+                    <!-- Angle Arc x (PQR) -->
+                    <path d="M 103.8 140.8 A 25 25 0 0 1 112.7 160.0" fill="none" stroke="#ea580c" stroke-width="2.5"/>
+                    <text x="110" y="152" fill="#ea580c" font-size="16" font-weight="bold">x</text>
+                    
+                    <!-- Angle Arc y (QPR) -->
+                    <path d="M 160.7 73.0 A 30 30 0 0 1 198.1 74.0" fill="none" stroke="#9333ea" stroke-width="2.5"/>
+                    <text x="175" y="90" fill="#9333ea" font-size="16" font-weight="bold">y</text>
+                    
+                    <!-- Angle Arc 127 deg (PRD) -->
+                    <path d="M 247.8 140.0 A 25 25 0 0 0 287.9 160.0" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+                    <text x="245" y="132" fill="#1d4ed8" font-size="14" font-weight="bold">127&deg;</text>
+
+                    <!-- Points -->
+                    <circle cx="180" cy="50" r="4" fill="#0f172a"/>
+                    <circle cx="87.7" cy="160" r="4" fill="#0f172a"/>
+                    <circle cx="262.9" cy="160" r="4" fill="#0f172a"/>
+                    
+                    <!-- Labels -->
+                    <text x="20" y="40" fill="#0f172a" font-weight="bold" font-size="15">A</text>
+                    <text x="310" y="40" fill="#0f172a" font-weight="bold" font-size="15">B</text>
+                    <text x="20" y="180" fill="#0f172a" font-weight="bold" font-size="15">C</text>
+                    <text x="310" y="180" fill="#0f172a" font-weight="bold" font-size="15">D</text>
+                    <text x="180" y="35" fill="#be123c" font-weight="bold" font-size="15">P</text>
+                    <text x="75" y="180" fill="#be123c" font-weight="bold" font-size="15">Q</text>
+                    <text x="260" y="180" fill="#be123c" font-weight="bold" font-size="15">R</text>
+                </svg>
+            </div>
+
+            <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                    આપેલું છે કે AB || CD.<br><br>
+                    
+                    <b>1) x શોધવા માટે:</b><br>
+                    AB || CD અને PQ તેની છેદિકા છે.<br>
+                    આથી, &ang;APQ અને &ang;PQR એ <b>અંતઃયુગ્મકોણો (Z આકાર)</b> બને છે.<br>
+                    &there4; &ang;PQR = &ang;APQ<br>
+                    &there4; <b style='color:#16a34a; font-size:16px;'>x = 50&deg;</b><br><br>
+                    
+                    <b>2) y શોધવા માટે:</b><br>
+                    ફરીથી, AB || CD અને આ વખતે PR તેની છેદિકા છે.<br>
+                    આથી, આખો ખૂણો &ang;APR અને &ang;PRD પણ <b>અંતઃયુગ્મકોણો</b> બને છે.<br>
+                    &there4; &ang;APR = &ang;PRD<br>
+                    હવે, &ang;APR એ બે ખૂણાઓ 50&deg; અને y નો બનેલો છે.<br>
+                    &there4; 50&deg; + y = 127&deg;<br>
+                    &there4; y = 127&deg; - 50&deg;<br>
+                    &there4; <b style='color:#be123c; font-size:16px;'>y = 77&deg;</b>
+                </div>
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આખો દાખલો <b>Z આકાર</b> (યુગ્મકોણ) પર જ આધારિત છે! પહેલો Z બને છે 50&deg; અને x થી, એટલે x સીધો 50&deg; મળી જાય. બીજો Z આકાર મોટો બને છે, જેમાં એક બાજુ 127&deg; છે અને બીજી બાજુ (50&deg; + y) છે. 127 માંથી 50 કાઢી નાખો એટલે y ની કિંમત 77&deg; ચપટી વગાડતા મળી જાય!</p>
+        </div>`
+    }
             
         ]
     },
