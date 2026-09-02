@@ -2239,120 +2239,179 @@ var njMathsExamples = {
         "chapterName": "પ્રકરણ 9",
         "chapterTitle": "વર્તુળ (ઉદાહરણો)",
         "qa_list": [
-            { 
-                questionNumber: "ઉદાહરણ 1",
-                question: "જો વર્તુળની બે છેદતી જીવાઓ તેમના છેદબિંદુમાંથી પસાર થતા વ્યાસ સાથે સમાન ખૂણા બનાવે, તો સાબિત કરો કે તે જીવાઓ સમાન છે.", 
-                answer: `
-                <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
-                    <p style='margin-top:0; color:#0369a1; font-weight:bold;'>સાબિતીનો તર્ક:</p>
-                    <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં આપણે કેન્દ્રમાંથી જીવાઓ પર લંબ દોરીશું અને બંને નાના ત્રિકોણોને <b>ખૂખૂબા (AAS)</b> શરતથી એકરૂપ સાબિત કરીશું. જો લંબ અંતર સમાન હોય, તો જીવાઓ પણ સમાન હોય.</p>
+        { 
+        "questionNumber": "ઉદાહરણ 1",
+        "question": "જો વર્તુળની બે છેદતી જીવાઓ તેમના છેદબિંદુમાંથી પસાર થતા વ્યાસ સાથે સમાન ખૂણા બનાવે, તો સાબિત કરો કે તે જીવાઓ સમાન છે.", 
+        "answer": `
+        <div style='background-color:#f0f9ff; padding:15px; border-left:5px solid #1e3a8a; border-radius:8px; margin-bottom:15px;'>
+            <p style='margin-top:0; color:#0369a1; font-weight:bold;'>સાબિતીનો તર્ક:</p>
+            <p style='margin:0 0 5px 0; font-size:14px; color:#334155;'>અહીં આપણે કેન્દ્રમાંથી જીવાઓ પર લંબ દોરીશું અને બંને નાના ત્રિકોણોને <b>ખૂખૂબા (AAS)</b> શરતથી એકરૂપ સાબિત કરીશું. જો લંબ અંતર સમાન હોય, તો જીવાઓ પણ સમાન હોય.</p>
+        </div>
+        
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px; margin-bottom:15px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 320 240" style="width:100%; max-width:320px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Circle -->
+                    <circle cx="160" cy="120" r="100" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2"/>
+                    
+                    <!-- Diameter PQ -->
+                    <line x1="40" y1="120" x2="280" y2="120" stroke="#047857" stroke-width="2" stroke-dasharray="4,4"/>
+                    
+                    <!-- Chords AB and CD -->
+                    <line x1="62.4" y1="141.7" x2="227.6" y2="46.3" stroke="#be123c" stroke-width="2.5"/>
+                    <line x1="62.4" y1="98.3" x2="227.6" y2="193.7" stroke="#ea580c" stroke-width="2.5"/>
+                    
+                    <!-- Perpendiculars OL and OM -->
+                    <line x1="160" y1="120" x2="145" y2="94" stroke="#6d28d9" stroke-width="2" stroke-dasharray="3,3"/>
+                    <line x1="160" y1="120" x2="145" y2="146" stroke="#6d28d9" stroke-width="2" stroke-dasharray="3,3"/>
+                    
+                    <!-- Right Angle Markers -->
+                    <polyline points="138.1,98 142.1,104.9 149,100.9" fill="none" stroke="#6d28d9" stroke-width="1.5"/>
+                    <polyline points="138.1,142 142.1,135.1 149,139.1" fill="none" stroke="#6d28d9" stroke-width="1.5"/>
+                    
+                    <!-- Angle Arcs for AEO and DEO -->
+                    <path d="M 125 120 A 25 25 0 0 0 121.6 107.5" fill="none" stroke="#047857" stroke-width="2"/>
+                    <path d="M 125 120 A 25 25 0 0 1 121.6 132.5" fill="none" stroke="#047857" stroke-width="2"/>
+
+                    <!-- Points -->
+                    <circle cx="160" cy="120" r="4" fill="#1e3a8a"/> <!-- O -->
+                    <circle cx="100" cy="120" r="4" fill="#1e3a8a"/> <!-- E -->
+                    <circle cx="145" cy="94" r="3.5" fill="#6d28d9"/> <!-- L -->
+                    <circle cx="145" cy="146" r="3.5" fill="#6d28d9"/> <!-- M -->
+                    
+                    <!-- Labels -->
+                    <text x="165" y="125" fill="#1e3a8a" font-weight="bold" font-size="14">O</text>
+                    <text x="95" y="113" fill="#1e3a8a" font-weight="bold" font-size="14">E</text>
+                    <text x="235" y="45" fill="#be123c" font-weight="bold" font-size="14">A</text>
+                    <text x="45" y="150" fill="#be123c" font-weight="bold" font-size="14">B</text>
+                    <text x="45" y="95" fill="#ea580c" font-weight="bold" font-size="14">C</text>
+                    <text x="235" y="205" fill="#ea580c" font-weight="bold" font-size="14">D</text>
+                    <text x="133" y="85" fill="#6d28d9" font-weight="bold" font-size="14">L</text>
+                    <text x="133" y="165" fill="#6d28d9" font-weight="bold" font-size="14">M</text>
+                    <text x="40" y="113" fill="#047857" font-weight="bold" font-size="14">P</text>
+                    <text x="275" y="113" fill="#047857" font-weight="bold" font-size="14">Q</text>
+                </svg>
+            </div>
+            
+            <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
+                <b style='color:#1e3a8a;'>આપેલ છે:</b><br>
+                વર્તુળની બે છેદતી જીવાઓ AB અને CD બિંદુ E માં છેદે છે. વ્યાસ PQ એ E માંથી પસાર થાય છે અને <b>&ang;AEO = &ang;DEO</b> આપેલ છે.<br><br>
+                
+                <b style='color:#047857;'>રચના:</b><br>
+                કેન્દ્ર O માંથી જીવા AB પર લંબ OL અને જીવા CD પર લંબ OM દોરો. (માટે &ang;OLE = 90&deg; અને &ang;OME = 90&deg;).<br><br>
+
+                <b style='color:#be123c;'>&Delta;OLE અને &Delta;OME માં સરખામણી:</b>
+                <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                    <li><b>&ang;LEO = &ang;MEO</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે, સમાન ખૂણા બનાવે છે)</span></li>
+                    <li><b>&ang;OLE = &ang;OME = 90&deg;</b> <span style='color:#64748b;'>(રચના મુજબ)</span></li>
+                    <li><b>OE = OE</b> <span style='color:#64748b;'>(બંને ત્રિકોણની સામાન્ય બાજુ)</span></li>
+                </ul>
+                
+                <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d; margin-top:10px;'>
+                    'ખૂખૂબા' (AAS) શરત મુજબ, &Delta;OLE &cong; &Delta;OME સાબિત થાય છે.<br>
+                    તેથી CPCT મુજબ: <b>OL = OM</b> થશે.
                 </div>
                 
-                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
-                    <div style='min-width:320px; text-align:center;'>
-                        <svg width="320" height="240" viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
-                            <circle cx="160" cy="120" r="100" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2"/>
-                            
-                            <line x1="60" y1="120" x2="260" y2="120" stroke="#047857" stroke-width="2" stroke-dasharray="4,4"/>
-                            
-                            <line x1="80" y1="60" x2="240" y2="180" stroke="#be123c" stroke-width="2.5"/> <line x1="80" y1="180" x2="240" y2="60" stroke="#ea580c" stroke-width="2.5"/> <line x1="160" y1="120" x2="160" y2="80" stroke="#6d28d9" stroke-width="2"/> <line x1="160" y1="120" x2="160" y2="160" stroke="#6d28d9" stroke-width="2"/> <rect x="150" y="80" width="10" height="10" fill="none" stroke="#6d28d9" stroke-width="1.5"/>
-                            <rect x="150" y="150" width="10" height="10" fill="none" stroke="#6d28d9" stroke-width="1.5"/>
-                            
-                            <circle cx="160" cy="120" r="4" fill="#1e3a8a"/>
-                            <circle cx="160" cy="120" r="4" fill="#1e3a8a"/>
-                            
-                            <text x="165" y="115" fill="#1e3a8a" font-weight="bold">O</text>
-                            <text x="265" y="125" fill="#047857" font-weight="bold">Q</text>
-                            <text x="45" y="125" fill="#047857" font-weight="bold">P</text>
-                            <text x="65" y="55" fill="#be123c" font-weight="bold">A</text>
-                            <text x="245" y="195" fill="#be123c" font-weight="bold">B</text>
-                            <text x="245" y="55" fill="#ea580c" font-weight="bold">C</text>
-                            <text x="65" y="195" fill="#ea580c" font-weight="bold">D</text>
-                            <text x="135" y="115" fill="#1e3a8a" font-weight="bold">E</text>
-                            <text x="165" y="75" fill="#6d28d9" font-weight="bold">M</text>
-                            <text x="165" y="175" fill="#6d28d9" font-weight="bold">L</text>
-                        </svg>
-                    </div>
-                </div>
+                <p style='margin:10px 0 0 0; font-size:14px; color:#1e3a8a; font-weight:bold;'>નિયમ: જો બે જીવાઓ વર્તુળના કેન્દ્રથી સમાન અંતરે આવેલી હોય (OL = OM), તો તે બે જીવાઓ સમાન જ હોય છે. આથી AB = CD સાબિત થાય છે.</p>
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ પ્રમેયમાં ટાર્ગેટ <b>"કેન્દ્રથી અંતર સમાન" (OL = OM)</b> સાબિત કરવાનું છે. કાટકોણ ત્રિકોણ દોરો અને <b>'ખૂખૂબા (AAS)'</b> એકરૂપતા વાપરો. એકવાર અંતર સમાન સાબિત થાય, એટલે સીધો જ નિયમ લગાવી દો કે <i>"જે જીવાઓ કેન્દ્રથી સરખા અંતરે હોય, તે હંમેશા સમાન જ હોય!"</i></p>
+        </div>`
+    },
+        { 
+        "questionNumber": "ઉદાહરણ 2",
+        "question": "આકૃતિમાં, AB એ વર્તુળનો વ્યાસ છે, CD એ વર્તુળની ત્રિજ્યા જેટલી જીવા છે. AC અને BD ને લંબાવતા તેઓ બિંદુ E માં છેદે છે. સાબિત કરો કે ∠AEB = 60°.", 
+        "answer": `
+        <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+            <p style='margin-top:0; color:#9a3412; font-weight:bold;'>ખૂણા શોધવાનો નકશો:</p>
+            <p style='margin:0 0 5px 0; font-size:14px; color:#c2410c;'>1) સમબાજુ ત્રિકોણ પરથી 60° નો ખૂણો મળશે.<br> 2) વર્તુળના કેન્દ્ર આગળના ખૂણા કરતાં પરિઘ પરનો ખૂણો અડધો હોય છે.<br> 3) અર્ધવર્તુળમાં બનેલો ખૂણો હંમેશા 90° હોય છે.</p>
+        </div>
 
-                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
-                    <b style='color:#1e3a8a;'>આપેલ છે:</b><br>
-                    વર્તુળની બે છેદતી જીવાઓ AB અને CD બિંદુ E માં છેદે છે. વ્યાસ PQ એ E માંથી પસાર થાય છે અને <b>∠AEO = ∠DEO</b> આપેલ છે.<br><br>
+        <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1; margin-bottom:15px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 320 280" style="width:100%; max-width:320px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Circle -->
+                    <circle cx="160" cy="180" r="80" fill="none" stroke="#1e3a8a" stroke-width="2"/>
                     
-                    <b style='color:#047857;'>રચના:</b><br>
-                    કેન્દ્ર O માંથી જીવા AB પર લંબ OL અને જીવા CD પર લંબ OM દોરો. (માટે ∠OLE = 90° અને ∠OME = 90°).<br><br>
-
-                    <b style='color:#be123c;'>∆OLE અને ∆OME માં સરખામણી:</b>
-                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
-                        <li><b>∠LEO = ∠MEO</b> <span style='color:#64748b;'>(પક્ષમાં આપેલ છે, સમાન ખૂણા બનાવે છે)</span></li>
-                        <li><b>∠OLE = ∠OME = 90°</b> <span style='color:#64748b;'>(રચના મુજબ)</span></li>
-                        <li><b>OE = OE</b> <span style='color:#64748b;'>(બંને ત્રિકોણની સામાન્ય બાજુ)</span></li>
-                    </ul>
+                    <!-- Diameter AB -->
+                    <line x1="80" y1="180" x2="240" y2="180" stroke="#1e3a8a" stroke-width="2"/>
                     
-                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d; margin-top:10px;'>
-                        'ખૂખૂબા' (AAS) શરત મુજબ, ∆OLE ≅ ∆OME સાબિત થાય છે.<br>
-                        તેથી CPCT મુજબ: <b>OL = OM</b> થશે.
-                    </div>
+                    <!-- Lines extending to E (Intersecting Lines AE and BE) -->
+                    <!-- Coordinates calculated to form 60 degree at E and proper intersections -->
+                    <line x1="80" y1="180" x2="160" y2="41.4" stroke="#be123c" stroke-width="2"/> <!-- A to E through C -->
+                    <line x1="240" y1="180" x2="160" y2="41.4" stroke="#be123c" stroke-width="2"/> <!-- B to E through D -->
                     
-                    <p style='margin:10px 0 0 0; font-size:14px; color:#1e3a8a; font-weight:bold;'>નિયમ: જો બે જીવાઓ વર્તુળના કેન્દ્રથી સમાન અંતરે આવેલી હોય (OL = OM), તો તે બે જીવાઓ સમાન જ હોય છે. આથી AB = CD સાબિત થાય છે.</p>
-                </div>`
-            },
-            { 
-                questionNumber: "ઉદાહરણ 2",
-                question: "આકૃતિમાં, AB એ વર્તુળનો વ્યાસ છે, CD એ વર્તુળની ત્રિજ્યા જેટલી જીવા છે. AC અને BD ને લંબાવતા તેઓ બિંદુ E માં છેદે છે. સાબિત કરો કે ∠AEB = 60°.", 
-                answer: `
-                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
-                    <p style='margin-top:0; color:#9a3412; font-weight:bold;'>ખૂણા શોધવાનો નકશો:</p>
-                    <p style='margin:0 0 5px 0; font-size:14px; color:#c2410c;'>1) સમબાજુ ત્રિકોણ પરથી 60° નો ખૂણો મળશે.<br> 2) વર્તુળના કેન્દ્ર આગળના ખૂણા કરતાં પરિઘ પરનો ખૂણો અડધો હોય છે.<br> 3) અર્ધવર્તુળમાં બનેલો ખૂણો હંમેશા 90° હોય છે.</p>
-                </div>
+                    <!-- Line CB -->
+                    <line x1="240" y1="180" x2="120" y2="110.7" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4,4"/>
+                    
+                    <!-- Chord CD -->
+                    <line x1="120" y1="110.7" x2="200" y2="110.7" stroke="#047857" stroke-width="3"/>
+                    
+                    <!-- Radii OC and OD -->
+                    <line x1="160" y1="180" x2="120" y2="110.7" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3,3"/>
+                    <line x1="160" y1="180" x2="200" y2="110.7" stroke="#64748b" stroke-width="1.5" stroke-dasharray="3,3"/>
+                    
+                    <!-- Right Angle at C (Angle in Semicircle) -->
+                    <!-- Coordinates adjusted to match the angle of line AC -->
+                    <polyline points="127,114.7 131.5,106.9 123.7,102.4" fill="none" stroke="#0f172a" stroke-width="1.5"/>
 
-                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
-                    <div style='min-width:300px; text-align:center;'>
-                        <svg width="300" height="280" viewBox="0 0 300 280" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
-                            <circle cx="150" cy="180" r="80" fill="none" stroke="#1e3a8a" stroke-width="2"/>
-                            
-                            <line x1="70" y1="180" x2="230" y2="180" stroke="#1e3a8a" stroke-width="2"/>
-                            
-                            <line x1="70" y1="180" x2="150" y2="20" stroke="#be123c" stroke-width="2"/> <line x1="230" y1="180" x2="150" y2="20" stroke="#be123c" stroke-width="2"/> <line x1="110" y1="110" x2="190" y2="110" stroke="#047857" stroke-width="3"/> <line x1="150" y1="180" x2="110" y2="110" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4"/>
-                            <line x1="150" y1="180" x2="190" y2="110" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,4"/>
-                            
-                            <line x1="230" y1="180" x2="110" y2="110" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="4,4"/>
-                            
-                            <text x="50" y="190" fill="#1e3a8a" font-weight="bold">A</text>
-                            <text x="240" y="190" fill="#1e3a8a" font-weight="bold">B</text>
-                            <text x="145" y="200" fill="#1e3a8a" font-weight="bold">O</text>
-                            <text x="145" y="15" fill="#be123c" font-weight="bold">E</text>
-                            <text x="95" y="105" fill="#047857" font-weight="bold">C</text>
-                            <text x="195" y="105" fill="#047857" font-weight="bold">D</text>
-                        </svg>
-                    </div>
-                </div>
+                    <!-- Arcs for angles -->
+                    <path d="M 148 160 A 25 25 0 0 1 172 160" fill="none" stroke="#047857" stroke-width="1.5"/>
+                    <text x="150" y="152" fill="#047857" font-size="11" font-weight="bold">60&deg;</text>
 
-                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
-                    <b style='color:#1e3a8a;'>સ્ટેપ 1:</b><br>
-                    અહીં <b>CD = વર્તુળની ત્રિજ્યા (OC અને OD)</b> આપેલ છે. આથી ∆OCD માં ત્રણેય બાજુઓ સમાન હોવાથી તે સમબાજુ ત્રિકોણ છે.<br>
-                    તેથી, <b>∠COD = 60°</b>.<br><br>
+                    <path d="M 216 166 A 20 20 0 0 0 220 176" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                    <text x="193" y="171" fill="#ea580c" font-size="11" font-weight="bold">30&deg;</text>
 
-                    <div style='border-left:4px solid #047857; padding-left:10px; margin-bottom:10px;'>
-                        <b style='color:#047857;'>સ્ટેપ 2: વર્તુળનો પ્રમેય</b><br>
-                        ચાપ CD દ્વારા કેન્દ્ર આગળ બનેલો ખૂણો (∠COD) એ પરિઘ પરના બાકીના ભાગમાં બનેલા ખૂણા (∠CBD) કરતાં બમણો હોય છે.<br>
-                        ∠CBD = ½(∠COD) = ½(60°) = <b style='color:#be123c;'>30°</b>
-                    </div>
+                    <!-- Points -->
+                    <circle cx="160" cy="180" r="4" fill="#1e3a8a"/> <!-- O -->
+                    <circle cx="80" cy="180" r="4" fill="#1e3a8a"/> <!-- A -->
+                    <circle cx="240" cy="180" r="4" fill="#1e3a8a"/> <!-- B -->
+                    <circle cx="160" cy="41.4" r="4" fill="#be123c"/> <!-- E -->
+                    <circle cx="120" cy="110.7" r="4" fill="#047857"/> <!-- C -->
+                    <circle cx="200" cy="110.7" r="4" fill="#047857"/> <!-- D -->
+                    
+                    <!-- Labels -->
+                    <text x="60" y="185" fill="#1e3a8a" font-weight="bold" font-size="15">A</text>
+                    <text x="250" y="185" fill="#1e3a8a" font-weight="bold" font-size="15">B</text>
+                    <text x="155" y="200" fill="#1e3a8a" font-weight="bold" font-size="15">O</text>
+                    <text x="155" y="32" fill="#be123c" font-weight="bold" font-size="15">E</text>
+                    <text x="100" y="105" fill="#047857" font-weight="bold" font-size="15">C</text>
+                    <text x="210" y="105" fill="#047857" font-weight="bold" font-size="15">D</text>
+                </svg>
+            </div>
 
-                    <b style='color:#1e3a8a;'>સ્ટેપ 3:</b><br>
-                    અહીં AB વ્યાસ છે. વ્યાસ દ્વારા અર્ધવર્તુળમાં અંતરાયેલો ખૂણો 90° હોય છે.<br>
-                    તેથી <b>∠ACB = 90°</b>.<br>
-                    રૈખિક જોડના નિયમ મુજબ, તેની બહારનો ખૂણો <b>∠ECB પણ 90°</b> જ થાય.<br><br>
+            <b style='color:#1e3a8a;'>સ્ટેપ 1:</b><br>
+            અહીં <b>CD = વર્તુળની ત્રિજ્યા (OC અને OD)</b> આપેલ છે. આથી &Delta;OCD માં ત્રણેય બાજુઓ સમાન હોવાથી તે સમબાજુ ત્રિકોણ છે.<br>
+            તેથી, <b>&ang;COD = 60&deg;</b>.<br><br>
 
-                    <div style='background-color:#f0f9ff; padding:10px; border-radius:5px; border:1px dashed #0284c7; margin-bottom:10px;'>
-                        <b style='color:#0369a1;'>સ્ટેપ 4: ∆BCE માં સરવાળો કરો</b><br>
-                        કોઈપણ ત્રિકોણના ત્રણેય ખૂણાનો સરવાળો 180° હોય છે.<br>
-                        ∠CEB + ∠ECB + ∠CBE = 180°<br>
-                        ∠CEB + 90° + 30° = 180°<br>
-                        ∠CEB + 120° = 180° &rArr; <b style='color:#ea580c; font-size:18px;'>∠CEB = 60°</b> (જે જ ∠AEB છે). સાબિત થયું!
-                    </div>
-                </div>`
-            },
+            <div style='border-left:4px solid #047857; padding-left:10px; margin-bottom:10px;'>
+                <b style='color:#047857;'>સ્ટેપ 2: વર્તુળનો પ્રમેય</b><br>
+                ચાપ CD દ્વારા કેન્દ્ર આગળ બનેલો ખૂણો (&ang;COD) એ પરિઘ પરના બાકીના ભાગમાં બનેલા ખૂણા (&ang;CBD) કરતાં બમણો હોય છે.<br>
+                &ang;CBD = &frac12;(&ang;COD) = &frac12;(60&deg;) = <b style='color:#be123c;'>30&deg;</b>
+            </div>
+
+            <b style='color:#1e3a8a;'>સ્ટેપ 3:</b><br>
+            અહીં AB વ્યાસ છે. વ્યાસ દ્વારા અર્ધવર્તુળમાં અંતરાયેલો ખૂણો 90&deg; હોય છે.<br>
+            તેથી <b>&ang;ACB = 90&deg;</b>.<br>
+            રૈખિક જોડના નિયમ મુજબ, તેની બહારનો ખૂણો <b>&ang;ECB પણ 90&deg;</b> જ થાય.<br><br>
+
+            <div style='background-color:#f0f9ff; padding:10px; border-radius:5px; border:1px dashed #0284c7; margin-bottom:10px;'>
+                <b style='color:#0369a1;'>સ્ટેપ 4: &Delta;BCE માં સરવાળો કરો</b><br>
+                કોઈપણ ત્રિકોણના ત્રણેય ખૂણાનો સરવાળો 180&deg; હોય છે.<br>
+                &ang;CEB + &ang;ECB + &ang;CBE = 180&deg;<br>
+                &ang;CEB + 90&deg; + 30&deg; = 180&deg;<br>
+                &ang;CEB + 120&deg; = 180&deg; &rArr; <b style='color:#ea580c; font-size:18px;'>&ang;CEB = 60&deg;</b> (જે જ &ang;AEB છે). સાબિત થયું!
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આખો દાખલો ઉકેલવા ફક્ત <b>"ત્રિકોણ BCE"</b> પર નજર રાખો! આપણે તેમાં CEB શોધવાનો છે. બાકીના બે ખૂણા મળી જાય એટલે કામ પૂરું. ખૂણો C રૈખિક જોડથી <b>90&deg;</b> (અર્ધવર્તુળનો કાટખૂણો) થાય અને ખૂણો B એ સમબાજુ ત્રિકોણના 60&deg; નો અડધો એટલે <b>30&deg;</b> થાય. 90+30=120, તો બાકી બચ્યો <b>60&deg;</b>, બસ આવી ગયો જવાબ!</p>
+        </div>`
+    },
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "આકૃતિમાં ચક્રીય ચતુષ્કોણ ABCD ના વિકર્ણો AC અને BD છે. જો ∠DBC = 55° અને ∠BAC = 45° હોય, તો ∠BCD શોધો.", 
@@ -2458,56 +2517,94 @@ var njMathsExamples = {
                     <p style='margin:10px 0 0 0; font-size:14px; color:#1e3a8a; font-weight:bold;'>જો બે પાસપાસેના ખૂણાઓનો સરવાળો 180° થાય, તો તેનો અર્થ એ છે કે તેઓ <b>રૈખિક જોડના ખૂણા</b> બનાવે છે અને તેથી DBC એ એક સીધી રેખા છે. આથી સાબિત થાય છે કે બિંદુ B એ રેખાખંડ DC પર જ આવેલું છે.</p>
                 </div>`
             },
-               { 
-                questionNumber: "ઉદાહરણ 5",
-                question: "સાબિત કરો કે કોઈપણ ચતુષ્કોણના ખૂણાઓના દુભાગકોથી બનતો ચતુષ્કોણ (જો બને તો) ચક્રીય ચતુષ્કોણ છે.", 
-                answer: `
-                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
-                    <p style='margin-top:0; color:#c2410c; font-weight:bold;'>ચક્રીય ચતુષ્કોણ સાબિત કરવાની શરત:</p>
-                    <p style='margin:0; font-size:14px; color:#9a3412;'>અંદર બનતા નવા ચતુષ્કોણ (EFGH) ના <b>સામસામેના ખૂણાઓનો સરવાળો 180°</b> બતાવી દઈશું, એટલે તે આપોઆપ ચક્રીય ચતુષ્કોણ સાબિત થઈ જશે.</p>
-                </div>
+             { 
+        "questionNumber": "ઉદાહરણ 5",
+        "question": "સાબિત કરો કે કોઈપણ ચતુષ્કોણના ખૂણાઓના દુભાગકોથી બનતો ચતુષ્કોણ (જો બને તો) ચક્રીય ચતુષ્કોણ છે.", 
+        "answer": `
+        <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+            <p style='margin-top:0; color:#c2410c; font-weight:bold;'>ચક્રીય ચતુષ્કોણ સાબિત કરવાની શરત:</p>
+            <p style='margin:0; font-size:14px; color:#9a3412;'>અંદર બનતા નવા ચતુષ્કોણ (EFGH) ના <b>સામસામેના ખૂણાઓનો સરવાળો 180°</b> બતાવી દઈશું, એટલે તે આપોઆપ ચક્રીય ચતુષ્કોણ સાબિત થઈ જશે.</p>
+        </div>
 
-                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
-                    <div style='min-width:320px; text-align:center;'>
-                        <svg width="320" height="220" viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
-                            <polygon points="60,40 260,30 280,180 40,160" fill="none" stroke="#1e3a8a" stroke-width="2"/>
-                            
-                            <line x1="60" y1="40" x2="160" y2="100" stroke="#047857" stroke-width="1.5" stroke-dasharray="4,4"/> <line x1="40" y1="160" x2="160" y2="100" stroke="#047857" stroke-width="1.5" stroke-dasharray="4,4"/> <line x1="260" y1="30" x2="150" y2="120" stroke="#be123c" stroke-width="1.5" stroke-dasharray="4,4"/> <line x1="280" y1="180" x2="150" y2="120" stroke="#be123c" stroke-width="1.5" stroke-dasharray="4,4"/> <polygon points="120,80 180,75 160,140 100,120" fill="#fef3c7" stroke="#ca8a04" stroke-width="2"/>
-                            
-                            <text x="45" y="35" fill="#1e3a8a" font-weight="bold">A</text>
-                            <text x="270" y="25" fill="#1e3a8a" font-weight="bold">B</text>
-                            <text x="290" y="190" fill="#1e3a8a" font-weight="bold">C</text>
-                            <text x="25" y="170" fill="#1e3a8a" font-weight="bold">D</text>
-                            
-                            <text x="140" y="110" fill="#ca8a04" font-weight="bold">E,F,G,H</text>
-                        </svg>
-                    </div>
-                </div>
+        <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1; margin-bottom:15px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 320 260" style="width:100%; max-width:340px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Main Quadrilateral ABCD -->
+                    <polygon points="40,220 280,220 250,40 70,40" fill="#f8fafc" stroke="#1e3a8a" stroke-width="2"/>
+                    
+                    <!-- Bisectors A and B (Green) -->
+                    <line x1="40" y1="220" x2="165" y2="114" stroke="#047857" stroke-width="1.5" stroke-dasharray="4,4"/>
+                    <line x1="280" y1="220" x2="155" y2="114" stroke="#047857" stroke-width="1.5" stroke-dasharray="4,4"/>
+                    
+                    <!-- Bisectors C and D (Red) -->
+                    <line x1="250" y1="40" x2="155" y2="152" stroke="#be123c" stroke-width="1.5" stroke-dasharray="4,4"/>
+                    <line x1="70" y1="40" x2="165" y2="152" stroke="#be123c" stroke-width="1.5" stroke-dasharray="4,4"/>
+                    
+                    <!-- Cyclic Circle (Dashed Orange) demonstrating it is indeed a cyclic quad! -->
+                    <circle cx="160" cy="132.3" r="13.9" fill="none" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="3,3"/>
+                    
+                    <!-- Inner Cyclic Quadrilateral EFGH -->
+                    <polygon points="146.3,130 160,118.4 173.7,130 160,146.2" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                    
+                    <!-- Angle Bisector Arcs -->
+                    <path d="M 65 220 A 25 25 0 0 0 44 195.4" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
+                    <path d="M 255 220 A 25 25 0 0 1 275.9 195.4" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
+                    <path d="M 225 40 A 25 25 0 0 0 254.1 64.6" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
+                    <path d="M 95 40 A 25 25 0 0 1 65.9 64.6" fill="none" stroke="#1e3a8a" stroke-width="1.5"/>
 
-                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
-                    <b style='color:#1e3a8a;'>સાબિતીનાં સ્ટેપ્સ:</b>
-                    <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>ધારો કે ચતુષ્કોણ ABCD ના ખૂણાઓના દુભાગકો અંદરની બાજુએ છેદીને <b>ચતુષ્કોણ EFGH</b> બનાવે છે.</p>
+                    <!-- Vertices ABCD -->
+                    <circle cx="40" cy="220" r="4" fill="#1e3a8a"/>
+                    <circle cx="280" cy="220" r="4" fill="#1e3a8a"/>
+                    <circle cx="250" cy="40" r="4" fill="#1e3a8a"/>
+                    <circle cx="70" cy="40" r="4" fill="#1e3a8a"/>
                     
-                    <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
-                        <li><b>∆AHB માં:</b> ત્રણેય ખૂણાનો સરવાળો 180° થાય.<br>
-                        ∠AHB = 180° - (½∠A + ½∠B)<br>
-                        અભિકોણો સમાન હોવાથી, <b>∠EHG = 180° - ½(∠A + ∠B)</b> --- (1)</li>
-                        
-                        <li><b>∆CFD માં:</b> તેવી જ રીતે,<br>
-                        <b>∠EFG = 180° - ½(∠C + ∠D)</b> --- (2)</li>
-                    </ul>
+                    <!-- Vertices EFGH -->
+                    <circle cx="146.3" cy="130" r="3" fill="#ca8a04"/>
+                    <circle cx="160" cy="146.2" r="3" fill="#ca8a04"/>
+                    <circle cx="173.7" cy="130" r="3" fill="#ca8a04"/>
+                    <circle cx="160" cy="118.4" r="3" fill="#ca8a04"/>
                     
-                    <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d; margin-top:10px;'>
-                        હવે અંદરના ચતુષ્કોણ EFGH ના સામસામેના ખૂણાઓ (∠EHG અને ∠EFG) નો સરવાળો કરતાં:<br>
-                        ∠EHG + ∠EFG = [180° - ½(∠A + ∠B)] + [180° - ½(∠C + ∠D)]<br>
-                        = 360° - ½(∠A + ∠B + ∠C + ∠D)
-                    </div>
+                    <!-- Labels -->
+                    <text x="25" y="230" fill="#1e3a8a" font-weight="bold" font-size="15">A</text>
+                    <text x="285" y="230" fill="#1e3a8a" font-weight="bold" font-size="15">B</text>
+                    <text x="255" y="35" fill="#1e3a8a" font-weight="bold" font-size="15">C</text>
+                    <text x="55" y="35" fill="#1e3a8a" font-weight="bold" font-size="15">D</text>
                     
-                    <p style='margin:10px 0 0 0; font-size:14px; color:#334155;'>આપણે જાણીએ છીએ કે મોટા ચતુષ્કોણ ABCD ના ચારેય ખૂણાનો સરવાળો <b>360°</b> થાય છે.<br>
-                    તેથી, ∠EHG + ∠EFG = 360° - ½(360°) = 360° - 180° = <b style='color:#be123c;'>180°</b>.</p>
-                    <p style='margin:5px 0 0 0; font-size:15px; font-weight:bold; color:#1e3a8a;'>જે ચતુષ્કોણના સામસામેના ખૂણાઓનો સરવાળો 180° થાય, તે <b>ચક્રીય ચતુષ્કોણ</b> છે. સાબિત થયું!</p>
-                </div>`
-            }
+                    <text x="131" y="135" fill="#ca8a04" font-weight="bold" font-size="13">E</text>
+                    <text x="156" y="161" fill="#ca8a04" font-weight="bold" font-size="13">F</text>
+                    <text x="180" y="135" fill="#ca8a04" font-weight="bold" font-size="13">G</text>
+                    <text x="156" y="112" fill="#ca8a04" font-weight="bold" font-size="13">H</text>
+                </svg>
+            </div>
+
+            <b style='color:#1e3a8a;'>સાબિતીનાં સ્ટેપ્સ:</b>
+            <p style='margin:5px 0 10px 0; font-size:14px; color:#334155;'>ધારો કે ચતુષ્કોણ ABCD ના ખૂણાઓના દુભાગકો અંદરની બાજુએ છેદીને <b>ચતુષ્કોણ EFGH</b> બનાવે છે.</p>
+            
+            <ul style='color:#334155; line-height:1.8; margin-top:5px;'>
+                <li><b>&Delta;AHB માં:</b> ત્રણેય ખૂણાનો સરવાળો 180&deg; થાય.<br>
+                &ang;AHB = 180&deg; - (&frac12;&ang;A + &frac12;&ang;B)<br>
+                અભિકોણો સમાન હોવાથી, <b>&ang;EHG = 180&deg; - &frac12;(&ang;A + &ang;B)</b> ......(1)</li>
+                
+                <li><b>&Delta;CFD માં:</b> તેવી જ રીતે,<br>
+                <b>&ang;EFG = 180&deg; - &frac12;(&ang;C + &ang;D)</b> ......(2)</li>
+            </ul>
+            
+            <div style='background-color:#f0fdf4; padding:10px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d; margin-top:10px;'>
+                હવે અંદરના ચતુષ્કોણ EFGH ના સામસામેના ખૂણાઓ (&ang;EHG અને &ang;EFG) નો સરવાળો કરતાં:<br>
+                &ang;EHG + &ang;EFG = [180&deg; - &frac12;(&ang;A + &ang;B)] + [180&deg; - &frac12;(&ang;C + &ang;D)]<br>
+                = 360&deg; - &frac12;(&ang;A + &ang;B + &ang;C + &ang;D)
+            </div>
+            
+            <p style='margin:10px 0 0 0; font-size:14px; color:#334155;'>આપણે જાણીએ છીએ કે મોટા ચતુષ્કોણ ABCD ના ચારેય ખૂણાનો સરવાળો <b>360&deg;</b> થાય છે.<br>
+            તેથી, &ang;EHG + &ang;EFG = 360&deg; - &frac12;(360&deg;) = 360&deg; - 180&deg; = <b style='color:#be123c;'>180&deg;</b>.</p>
+            <p style='margin:5px 0 0 0; font-size:15px; font-weight:bold; color:#1e3a8a;'>જે ચતુષ્કોણના સામસામેના ખૂણાઓનો સરવાળો 180&deg; થાય, તે <b>ચક્રીય ચતુષ્કોણ</b> છે. સાબિત થયું!</p>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ પ્રમેયની સૌથી મોટી શોર્ટકટ ટ્રીક: અંદરના ચતુષ્કોણના બે સામસામેના ખૂણા (EHG અને EFG) પકડો. આ બંને ખૂણાઓ બે અલગ-અલગ ત્રિકોણો (&Delta;AHB અને &Delta;CFD) માં આવે છે. બંને ત્રિકોણનો કુલ સરવાળો <b>360&deg; (180+180)</b> થાય. તેમાંથી મોટા ચતુષ્કોણના અડધા ખૂણા (360 ના અડધા = 180) બાદ કરી દો. <b>360 - 180 = 180&deg;</b>. સામસામેના ખૂણા 180 એટલે ચતુષ્કોણ સીધો ચક્રીય સાબિત!</p>
+        </div>`
+    }
         ]
     },
     // ------------------------------------
