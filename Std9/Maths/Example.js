@@ -1334,67 +1334,82 @@ var njMathsExamples = {
                     ∠SOQ = ∠POR = <b style='color:#ea580c;'>75°</b>
                 </div>`
             },
-            { 
-                questionNumber: "ઉદાહરણ 2",
-                question: "આકૃતિમાં, કિરણ OS એ રેખા POQ પર આવેલું છે. કિરણ OR અને કિરણ OT અનુક્રમે ∠POS અને ∠SOQ ના દુભાગકો છે. જો ∠POS = x હોય, તો ∠ROT શોધો.", 
-                answer: `
-                <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
-                    <p style='margin-top:0; color:#9a3412; font-weight:bold;'>દુભાગક એટલે શું?</p>
-                    <p style='margin:0 0 10px 0; font-size:14px; color:#c2410c;'>દુભાગક એટલે ખૂણાના બરાબર <b>બે સરખા ભાગ</b> કરતું કિરણ. એટલે કે આખો ખૂણો $x$ હોય, તો બંને અડધા ભાગ $x/2$ થાય.</p>
-                </div>
+        { 
+        "questionNumber": "ઉદાહરણ 2",
+        "question": "આકૃતિમાં, કિરણ OS એ રેખા POQ પર આવેલું છે. કિરણ OR અને કિરણ OT અનુક્રમે ∠POS અને ∠SOQ ના દુભાગકો છે. જો ∠POS = x હોય, તો ∠ROT શોધો.", 
+        "answer": `
+        <div style='background-color:#fff7ed; padding:15px; border-left:5px solid #ea580c; border-radius:8px; margin-bottom:15px;'>
+            <p style='margin-top:0; color:#9a3412; font-weight:bold;'>દુભાગક એટલે શું?</p>
+            <p style='margin:0 0 10px 0; font-size:14px; color:#c2410c;'>દુભાગક એટલે ખૂણાના બરાબર <b>બે સરખા ભાગ</b> કરતું કિરણ. એટલે કે આખો ખૂણો $x$ હોય, તો બંને અડધા ભાગ $x/2$ થાય.</p>
+        </div>
 
-                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
-                    <div style='min-width:280px; text-align:center;'>
-                        <svg width="280" height="180" viewBox="0 0 280 180" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
-                            <line x1="20" y1="150" x2="260" y2="150" stroke="#1e3a8a" stroke-width="3"/>
-                            
-                            <line x1="140" y1="150" x2="80" y2="30" stroke="#047857" stroke-width="3"/>
-                            
-                            <line x1="140" y1="150" x2="30" y2="70" stroke="#be123c" stroke-width="2" stroke-dasharray="5,5"/>
-                            
-                            <line x1="140" y1="150" x2="220" y2="50" stroke="#be123c" stroke-width="2" stroke-dasharray="5,5"/>
-                            
-                            <text x="15" y="165" fill="#1e3a8a" font-weight="bold">P</text>
-                            <text x="250" y="165" fill="#1e3a8a" font-weight="bold">Q</text>
-                            <text x="135" y="165" fill="#be123c" font-weight="bold">O</text>
-                            <text x="70" y="25" fill="#047857" font-weight="bold">S</text>
-                            <text x="20" y="65" fill="#be123c" font-weight="bold">R</text>
-                            <text x="225" y="45" fill="#be123c" font-weight="bold">T</text>
-                            
-                            <path d="M 120 150 A 20 20 0 0 1 127 125" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <path d="M 127 125 A 20 20 0 0 1 110 90" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            
-                            <path d="M 155 125 A 20 20 0 0 1 160 150" fill="none" stroke="#6d28d9" stroke-width="2"/>
-                            <path d="M 125 90 A 20 20 0 0 1 155 125" fill="none" stroke="#6d28d9" stroke-width="2"/>
-                        </svg>
-                    </div>
-                </div>
-
-                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
-                    <b style='color:#1e3a8a;'>સ્ટેપ 1:</b> રૈખિક જોડના ખૂણા<br>
-                    ∠POS + ∠SOQ = 180°<br>
-                    $x$ + ∠SOQ = 180°<br>
-                    તેથી, <b style='color:#047857;'>∠SOQ = 180° - x</b><br><br>
-
-                    <b style='color:#1e3a8a;'>સ્ટેપ 2:</b> દુભાગકોનો ઉપયોગ<br>
-                    OR એ ∠POS નો દુભાગક છે, તેથી:<br>
-                    ∠ROS = ½(∠POS) = <b style='color:#ea580c;'>x/2</b><br><br>
+        <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1; margin-bottom:15px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 280 180" style="width:100%; max-width:320px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Line POQ -->
+                    <line x1="20" y1="150" x2="260" y2="150" stroke="#1e3a8a" stroke-width="2.5"/>
                     
-                    OT એ ∠SOQ નો દુભાગક છે, તેથી:<br>
-                    ∠SOT = ½(∠SOQ) = ½(180° - x) = <b style='color:#ea580c;'>90° - x/2</b><br><br>
+                    <!-- Ray OS -->
+                    <!-- Coordinates for 60 degrees from Q -->
+                    <line x1="140" y1="150" x2="190" y2="63.4" stroke="#047857" stroke-width="2.5"/>
+                    
+                    <!-- Bisector Ray OR (Bisecting POS which is 120 deg -> OR is at 120 from Q) -->
+                    <line x1="140" y1="150" x2="90" y2="63.4" stroke="#be123c" stroke-width="2" stroke-dasharray="5,5"/>
+                    
+                    <!-- Bisector Ray OT (Bisecting SOQ which is 60 deg -> OT is at 30 from Q) -->
+                    <line x1="140" y1="150" x2="226.6" y2="100" stroke="#be123c" stroke-width="2" stroke-dasharray="5,5"/>
+                    
+                    <!-- Right Angle Marker for ROT (120 deg to 30 deg = 90 deg) -->
+                    <polyline points="132.5,137.0 145.5,129.5 153.0,142.5" fill="#fefce8" stroke="#be123c" stroke-width="1.5"/>
 
-                    <b style='color:#be123c; font-size:16px;'>સ્ટેપ 3:</b> ∠ROT શોધવા બંનેનો સરવાળો<br>
-                    ∠ROT = ∠ROS + ∠SOT<br>
-                    ∠ROT = $x/2$ + (90° - $x/2$)<br>
-                    <div style='text-align:center; background-color:#f0fdf4; padding:10px; border-radius:5px; border:2px dashed #16a34a; margin-top:10px; font-size:18px; font-weight:bold; color:#166534;'>
-                        ∠ROT = 90°
-                    </div>
-                </div>
-                
-                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04; margin-top:10px;'>
-                    <b>🎯 Nitesh Sir ની ટ્રીક:</b> આ એક સનાતન સત્ય છે! કોઈપણ રૈખિક જોડના ખૂણાઓના બે દુભાગકો વચ્ચે હંમેશા <b>90° નો કાટખૂણો</b> જ બને. હેતુલક્ષી પ્રશ્નમાં સીધો 90° ટીક કરવો.
-                </div>`
-            },
+                    <!-- Angle Arcs for POS Bisector (Orange) -->
+                    <path d="M 115 150 A 25 25 0 0 1 127.5 128.3" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <path d="M 127.5 128.3 A 25 25 0 0 1 152.5 128.3" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    
+                    <!-- Angle Arcs for SOQ Bisector (Purple) -->
+                    <path d="M 152.5 128.3 A 25 25 0 0 1 161.7 137.5" fill="none" stroke="#6d28d9" stroke-width="2"/>
+                    <path d="M 161.7 137.5 A 25 25 0 0 1 165 150" fill="none" stroke="#6d28d9" stroke-width="2"/>
+
+                    <!-- Points -->
+                    <circle cx="140" cy="150" r="4" fill="#be123c"/>
+                    <circle cx="20" cy="150" r="3" fill="#1e3a8a"/>
+                    <circle cx="260" cy="150" r="3" fill="#1e3a8a"/>
+                    
+                    <!-- Labels -->
+                    <text x="15" y="170" fill="#1e3a8a" font-weight="bold" font-size="15">P</text>
+                    <text x="250" y="170" fill="#1e3a8a" font-weight="bold" font-size="15">Q</text>
+                    <text x="135" y="170" fill="#be123c" font-weight="bold" font-size="15">O</text>
+                    <text x="190" y="55" fill="#047857" font-weight="bold" font-size="15">S</text>
+                    <text x="80" y="60" fill="#be123c" font-weight="bold" font-size="15">R</text>
+                    <text x="233" y="98" fill="#be123c" font-weight="bold" font-size="15">T</text>
+                </svg>
+            </div>
+
+            <b style='color:#1e3a8a;'>સ્ટેપ 1:</b> રૈખિક જોડના ખૂણા<br>
+            &ang;POS + &ang;SOQ = 180&deg;<br>
+            $x$ + &ang;SOQ = 180&deg;<br>
+            તેથી, <b style='color:#047857;'>&ang;SOQ = 180&deg; - $x$</b><br><br>
+
+            <b style='color:#1e3a8a;'>સ્ટેપ 2:</b> દુભાગકોનો ઉપયોગ<br>
+            OR એ &ang;POS નો દુભાગક છે, તેથી:<br>
+            &ang;ROS = &frac12;(&ang;POS) = <b style='color:#ea580c;'>$x$/2</b><br><br>
+            
+            OT એ &ang;SOQ નો દુભાગક છે, તેથી:<br>
+            &ang;SOT = &frac12;(&ang;SOQ) = &frac12;(180&deg; - $x$) = <b style='color:#ea580c;'>90&deg; - $x$/2</b><br><br>
+
+            <b style='color:#be123c; font-size:16px;'>સ્ટેપ 3:</b> &ang;ROT શોધવા બંનેનો સરવાળો<br>
+            &ang;ROT = &ang;ROS + &ang;SOT<br>
+            &ang;ROT = $x$/2 + (90&deg; - $x$/2)<br>
+            <div style='text-align:center; background-color:#f0fdf4; padding:10px; border-radius:5px; border:2px dashed #16a34a; margin-top:10px; font-size:18px; font-weight:bold; color:#166534;'>
+                &ang;ROT = 90&deg;
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ એક સનાતન સત્ય છે! કોઈપણ રૈખિક જોડના ખૂણાઓના બે દુભાગકો વચ્ચે હંમેશા <b>90&deg; નો કાટખૂણો</b> જ બને. જો હેતુલક્ષી (MCQ) પ્રશ્નમાં આ આકૃતિ આવે તો, કોઈ ગણતરી કર્યા વગર સીધો 90&deg; ટીક કરી દેવો.</p>
+        </div>`
+    },
             { 
                 questionNumber: "ઉદાહરણ 3",
                 question: "આકૃતિમાં, OP, OQ, OR અને OS ચાર કિરણો છે. સાબિત કરો કે ∠POQ + ∠QOR + ∠SOR + ∠POS = 360°.", 
@@ -1571,78 +1586,99 @@ var njMathsExamples = {
                     <p style='margin:0 0 10px 0; font-size:14px; color:#1e3a8a; font-weight:bold;'>પરંતુ આ બંને ખૂણાઓ છેદિકા AD થી રેખાઓ PQ અને RS દ્વારા બનતા અનુકોણો છે. જો અનુકોણો સમાન હોય, તો <b>રેખાઓ સમાંતર હોય જ.</b> તેથી PQ || RS સાબિત થાય છે.</p>
                 </div>`
             },
-            { 
-                questionNumber: "ઉદાહરણ 6",
-                question: "આકૃતિમાં, AB || CD અને CD || EF છે. વળી EA ⊥ AB છે. જો ∠BEF = 55° હોય, તો x, y અને z નાં મૂલ્યો શોધો.", 
-                answer: `
-                <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
-                    <p style='margin-top:0; color:#9f1239; font-weight:bold;'>લોજિક મેપ:</p>
-                    <p style='margin:0 0 5px 0; font-size:14px; color:#881337;'>ત્રણેય રેખાઓ એકબીજાને સમાંતર છે. આપણે Z (યુગ્મકોણ) અને C (અંતઃકોણ) ના આકાર શોધીશું.</p>
+      { 
+        "questionNumber": "ઉદાહરણ 6",
+        "question": "આકૃતિમાં, AB || CD અને CD || EF છે. વળી EA ⊥ AB છે. જો ∠BEF = 55° હોય, તો x, y અને z નાં મૂલ્યો શોધો.", 
+        "answer": `
+        <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
+            <p style='margin-top:0; color:#9f1239; font-weight:bold;'>લોજિક મેપ:</p>
+            <p style='margin:0 0 5px 0; font-size:14px; color:#881337;'>ત્રણેય રેખાઓ એકબીજાને સમાંતર છે. આપણે Z (યુગ્મકોણ) અને C (અંતઃકોણ) ના આકાર શોધીશું.</p>
+        </div>
+
+        <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1; margin-bottom:15px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 320 240" style="width:100%; max-width:340px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Parallel Lines -->
+                    <line x1="80" y1="40" x2="300" y2="40" stroke="#1e3a8a" stroke-width="2.5"/>
+                    <line x1="80" y1="120" x2="300" y2="120" stroke="#1e3a8a" stroke-width="2.5"/>
+                    <line x1="80" y1="200" x2="300" y2="200" stroke="#1e3a8a" stroke-width="2.5"/>
+                    
+                    <!-- Transversal EA (Vertical, Perpendicular to AB) -->
+                    <line x1="100" y1="40" x2="100" y2="200" stroke="#be123c" stroke-width="2.5"/>
+                    
+                    <!-- Transversal EB (At 55 degrees to EF) -->
+                    <line x1="100" y1="200" x2="212" y2="40" stroke="#047857" stroke-width="2.5"/>
+                    
+                    <!-- Right Angle Marker at A -->
+                    <polyline points="100,52 112,52 112,40" fill="#fefce8" stroke="#be123c" stroke-width="1.5"/>
+
+                    <!-- Angle Arcs -->
+                    <!-- 55 degrees (BEF) -->
+                    <path d="M 125.0 200.0 A 25 25 0 0 0 114.3 179.5" fill="none" stroke="#6d28d9" stroke-width="2"/>
+                    <!-- z degrees (AEB = 35) -->
+                    <path d="M 117.2 175.4 A 30 30 0 0 0 100.0 170.0" fill="none" stroke="#be123c" stroke-width="2"/>
+                    <!-- y degrees (Interior angle = 125) -->
+                    <path d="M 176.0 120.0 A 20 20 0 0 1 144.5 136.4" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <!-- x degrees (Corresponding angle = 125) -->
+                    <path d="M 232.0 40.0 A 20 20 0 0 1 200.6 56.4" fill="none" stroke="#ea580c" stroke-width="2"/>
+
+                    <!-- Points -->
+                    <circle cx="100" cy="40" r="4" fill="#be123c"/> <!-- A -->
+                    <circle cx="212" cy="40" r="4" fill="#047857"/> <!-- B -->
+                    <circle cx="156" cy="120" r="3" fill="#1e3a8a"/> <!-- Intersection on CD -->
+                    <circle cx="100" cy="200" r="4" fill="#be123c"/> <!-- E -->
+                    <circle cx="280" cy="200" r="3" fill="#1e3a8a"/> <!-- F -->
+                    
+                    <!-- Labels for lines -->
+                    <text x="65" y="45" fill="#1e3a8a" font-weight="bold" font-size="14">A</text>
+                    <text x="285" y="32" fill="#1e3a8a" font-weight="bold" font-size="14">B</text>
+                    <text x="65" y="125" fill="#1e3a8a" font-weight="bold" font-size="14">C</text>
+                    <text x="285" y="112" fill="#1e3a8a" font-weight="bold" font-size="14">D</text>
+                    <text x="65" y="205" fill="#1e3a8a" font-weight="bold" font-size="14">E</text>
+                    <text x="285" y="192" fill="#1e3a8a" font-weight="bold" font-size="14">F</text>
+                    
+                    <!-- Angle Labels -->
+                    <text x="218" y="70" fill="#ea580c" font-weight="bold" font-size="16">x</text>
+                    <text x="162" y="150" fill="#ea580c" font-weight="bold" font-size="16">y</text>
+                    <text x="108" y="155" fill="#be123c" font-weight="bold" font-size="16">z</text>
+                    <text x="135" y="195" fill="#6d28d9" font-weight="bold" font-size="14">55&deg;</text>
+                </svg>
+            </div>
+
+            <div style='display:flex; flex-direction:column; gap:12px;'>
+                <div style='border:1px solid #cbd5e1; background-color:#f8fafc; padding:12px; border-radius:8px;'>
+                    <b style='color:#0369a1;'>સ્ટેપ 1: y ની કિંમત (અંતઃકોણનો C આકાર)</b><br>
+                    અહીં CD || EF છે અને તેમની છેદિકા ED (અથવા BE નો ભાગ) છે.<br>
+                    તેથી છેદિકાની એક જ તરફના અંતઃકોણો પૂરક હોય:<br>
+                    y + 55&deg; = 180&deg;<br>
+                    y = 180&deg; - 55&deg; = <b style='color:#ea580c; font-size:16px;'>125&deg;</b>
                 </div>
 
-                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
-                    <div style='min-width:300px; text-align:center;'>
-                        <svg width="300" height="240" viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
-                            <line x1="100" y1="40" x2="280" y2="40" stroke="#1e3a8a" stroke-width="3"/>
-                            <line x1="100" y1="120" x2="280" y2="120" stroke="#1e3a8a" stroke-width="3"/>
-                            <line x1="100" y1="200" x2="280" y2="200" stroke="#1e3a8a" stroke-width="3"/>
-                            
-                            <line x1="140" y1="40" x2="140" y2="200" stroke="#be123c" stroke-width="3"/>
-                            <rect x="140" y="40" width="10" height="10" fill="none" stroke="#be123c" stroke-width="1.5"/>
-                            
-                            <line x1="220" y1="40" x2="140" y2="200" stroke="#047857" stroke-width="2"/>
-                            
-                            <text x="80" y="45" fill="#1e3a8a" font-weight="bold">A</text>
-                            <text x="285" y="45" fill="#1e3a8a" font-weight="bold">B</text>
-                            
-                            <text x="80" y="125" fill="#1e3a8a" font-weight="bold">C</text>
-                            <text x="285" y="125" fill="#1e3a8a" font-weight="bold">D</text>
-                            
-                            <text x="80" y="205" fill="#1e3a8a" font-weight="bold">E</text>
-                            <text x="285" y="205" fill="#1e3a8a" font-weight="bold">F</text>
-                            
-                            <text x="200" y="85" fill="#ea580c" font-weight="bold" font-size="16">x</text>
-                            <text x="160" y="165" fill="#ea580c" font-weight="bold" font-size="16">y</text>
-                            <text x="145" y="180" fill="#ea580c" font-weight="bold" font-size="14">z</text>
-                            
-                            <path d="M 165 200 A 20 20 0 0 1 150 180" fill="none" stroke="#6d28d9" stroke-width="2"/>
-                            <text x="170" y="195" fill="#6d28d9" font-weight="bold" font-size="12">55°</text>
-                        </svg>
-                    </div>
+                <div style='border:1px solid #cbd5e1; background-color:#ffffff; padding:12px; border-radius:8px;'>
+                    <b style='color:#0369a1;'>સ્ટેપ 2: x ની કિંમત (અનુકોણનો F આકાર)</b><br>
+                    અહીં AB || CD છે. <br>
+                    તેથી તેમના અનુકોણો સમાન હોય:<br>
+                    x = y<br>
+                    તેથી <b style='color:#ea580c; font-size:16px;'>x = 125&deg;</b>
                 </div>
 
-                <div style='display:flex; flex-direction:column; gap:12px;'>
-                    <div style='border:1px solid #cbd5e1; background-color:#f8fafc; padding:12px; border-radius:8px;'>
-                        <b style='color:#0369a1;'>સ્ટેપ 1: y ની કિંમત (અંતઃકોણનો C આકાર)</b><br>
-                        અહીં CD || EF છે અને તેમની છેદિકા ED (અથવા BE નો ભાગ) છે.<br>
-                        તેથી છેદિકાની એક જ તરફના અંતઃકોણો પૂરક હોય:<br>
-                        y + 55° = 180°<br>
-                        y = 180° - 55° = <b style='color:#ea580c; font-size:16px;'>125°</b>
-                    </div>
-
-                    <div style='border:1px solid #cbd5e1; background-color:#ffffff; padding:12px; border-radius:8px;'>
-                        <b style='color:#0369a1;'>સ્ટેપ 2: x ની કિંમત (અનુકોણનો F આકાર)</b><br>
-                        અહીં AB || CD છે. <br>
-                        તેથી તેમના અનુકોણો સમાન હોય:<br>
-                        x = y<br>
-                        તેથી <b style='color:#ea580c; font-size:16px;'>x = 125°</b>
-                    </div>
-
-                    <div style='border:1px solid #cbd5e1; background-color:#f8fafc; padding:12px; border-radius:8px;'>
-                        <b style='color:#0369a1;'>સ્ટેપ 3: z ની કિંમત શોધવી</b><br>
-                        અહીં AB || EF છે (કારણ કે AB||CD અને CD||EF). EA તેમની છેદિકા છે.<br>
-                        તેથી ∠EAB + ∠FEA = 180° (અંતઃકોણો).<br>
-                        પરંતુ EA ⊥ AB હોવાથી ∠EAB = 90° છે. અને ∠FEA આખો ખૂણો (z + 55°) થી બનેલો છે.<br>
-                        90° + (z + 55°) = 180°<br>
-                        145° + z = 180°<br>
-                        z = 180° - 145° = <b style='color:#ea580c; font-size:16px;'>35°</b>
-                    </div>
+                <div style='border:1px solid #cbd5e1; background-color:#f8fafc; padding:12px; border-radius:8px;'>
+                    <b style='color:#0369a1;'>સ્ટેપ 3: z ની કિંમત શોધવી</b><br>
+                    અહીં AB || EF છે (કારણ કે AB||CD અને CD||EF). EA તેમની છેદિકા છે.<br>
+                    તેથી &ang;EAB + &ang;FEA = 180&deg; (અંતઃકોણો).<br>
+                    પરંતુ EA &perp; AB હોવાથી &ang;EAB = 90&deg; છે. અને &ang;FEA આખો ખૂણો (z + 55&deg;) થી બનેલો છે.<br>
+                    90&deg; + (z + 55&deg;) = 180&deg;<br>
+                    145&deg; + z = 180&deg;<br>
+                    z = 180&deg; - 145&deg; = <b style='color:#be123c; font-size:16px;'>35&deg;</b>
                 </div>
-                
-                <div style='background-color:#fffbeb; padding:10px; border-left:4px solid #ca8a04; margin-top:15px;'>
-                    <b>🎯 Nitesh Sir ની ટ્રીક:</b> જો આકૃતિમાં સીધો <b>Z</b> બનતો હોય તો બંને ખૂણા સરખા કરી દેવા, અને <b>C</b> બનતો હોય તો બંનેનો સરવાળો 180° કરી દેવો. બસ આ જ ફંડા આખા પ્રકરણમાં ચાલશે!
-                </div>`
-            }
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જો આકૃતિમાં સીધો <b>Z આકાર</b> (યુગ્મકોણ) બનતો હોય તો બંને ખૂણા સરખા કરી દેવા, <b>F આકાર</b> (અનુકોણ) હોય તો પણ સરખા કરી દેવા, અને <b>C આકાર</b> (અંતઃકોણ) બનતો હોય તો બંનેનો સરવાળો હંમેશા 180&deg; કરી દેવો. બસ આ ત્રણ અંગ્રેજી મૂળાક્ષરો યાદ રાખો એટલે આખા પ્રકરણના દાખલા સોલ્વ!</p>
+        </div>`
+    }
         ]
     },
     // ------------------------------------
@@ -1764,61 +1800,87 @@ var njMathsExamples = {
                     </div>
                 </div>`
             },
-            { 
-                questionNumber: "ઉદાહરણ 3",
-                question: "રેખાખંડ AB એ બીજા રેખાખંડ CD ને સમાંતર છે. O એ AD નું મધ્યબિંદુ છે. સાબિત કરો કે:\n(i) ∆AOB ≅ ∆DOC\n(ii) O એ BC નું પણ મધ્યબિંદુ છે.", 
-                answer: `
-                <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
-                    <p style='margin-top:0; color:#9f1239; font-weight:bold;'>મહત્વનો કન્સેપ્ટ:</p>
-                    <p style='margin:0; font-size:14px; color:#881337;'>અહીં સમાંતર રેખાઓ (AB || CD) આપેલી છે, એટલે <b>યુગ્મકોણો (Z આકાર)</b> નો ઉપયોગ ચોક્કસ થશે! અને શરત લાગશે <b>ખૂખૂબા (ખૂણો-ખૂણો-બાજુ)</b>.</p>
-                </div>
+      { 
+        "questionNumber": "ઉદાહરણ 3",
+        "question": "રેખાખંડ AB એ બીજા રેખાખંડ CD ને સમાંતર છે. O એ AD નું મધ્યબિંદુ છે. સાબિત કરો કે:\n(i) ∆AOB ≅ ∆DOC\n(ii) O એ BC નું પણ મધ્યબિંદુ છે.", 
+        "answer": `
+        <div style='background-color:#fff1f2; padding:15px; border-left:5px solid #be123c; border-radius:8px; margin-bottom:15px;'>
+            <p style='margin-top:0; color:#9f1239; font-weight:bold;'>મહત્વનો કન્સેપ્ટ:</p>
+            <p style='margin:0; font-size:14px; color:#881337;'>અહીં સમાંતર રેખાઓ (AB || CD) આપેલી છે, એટલે <b>યુગ્મકોણો (Z આકાર)</b> નો ઉપયોગ ચોક્કસ થશે! અને શરત લાગશે <b>ખૂખૂબા (ખૂણો-ખૂણો-બાજુ)</b>.</p>
+        </div>
 
-                <div style='overflow-x:auto; padding-bottom:10px; margin-bottom:15px;'>
-                    <div style='min-width:280px; text-align:center;'>
-                        <svg width="280" height="220" viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" style="background-color:#ffffff; border-radius:10px; border:1px solid #cbd5e1; max-width:100%; height:auto;">
-                            <line x1="40" y1="40" x2="160" y2="40" stroke="#1e3a8a" stroke-width="3"/>
-                            <line x1="120" y1="180" x2="240" y2="180" stroke="#1e3a8a" stroke-width="3"/>
-                            
-                            <line x1="40" y1="40" x2="240" y2="180" stroke="#047857" stroke-width="2"/>
-                            <line x1="160" y1="40" x2="120" y2="180" stroke="#047857" stroke-width="2"/>
-                            
-                            <path d="M 55 50 A 15 15 0 0 0 60 40" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <path d="M 225 170 A 15 15 0 0 0 220 180" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            
-                            <line x1="85" y1="105" x2="95" y2="115" stroke="#be123c" stroke-width="2"/>
-                            <line x1="88" y1="108" x2="98" y2="118" stroke="#be123c" stroke-width="2"/>
-                            
-                            <line x1="185" y1="105" x2="195" y2="115" stroke="#be123c" stroke-width="2"/>
-                            <line x1="188" y1="108" x2="198" y2="118" stroke="#be123c" stroke-width="2"/>
-                            
-                            <text x="25" y="45" fill="#1e3a8a" font-weight="bold">A</text>
-                            <text x="170" y="45" fill="#1e3a8a" font-weight="bold">B</text>
-                            <text x="100" y="185" fill="#1e3a8a" font-weight="bold">C</text>
-                            <text x="250" y="185" fill="#1e3a8a" font-weight="bold">D</text>
-                            <text x="145" y="125" fill="#be123c" font-weight="bold">O</text>
-                        </svg>
-                    </div>
-                </div>
+        <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1; margin-bottom:15px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 300 220" style="width:100%; max-width:320px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Fills for Triangles -->
+                    <polygon points="150,110 60,40 180,40" fill="#fef3c7" stroke="none"/>
+                    <polygon points="150,110 240,180 120,180" fill="#e0f2fe" stroke="none"/>
 
-                <div style='background-color:#ffffff; padding:15px; border-radius:8px; border:1px solid #cbd5e1;'>
-                    <h4 style='color:#047857; margin:0 0 10px 0;'>(i) ∆AOB અને ∆DOC માં:</h4>
-                    <ul style='color:#334155; line-height:1.8; margin-top:0;'>
-                        <li><b>∠OAB = ∠ODC</b> <span style='color:#64748b;'>(AB || CD અને AD તેમની છેદિકા હોવાથી બનતા યુગ્મકોણો)</span></li>
-                        <li><b>∠AOB = ∠DOC</b> <span style='color:#64748b;'>(પરસ્પર છેદતી રેખાઓથી બનતા અભિકોણો સમાન હોય)</span></li>
-                        <li><b>OA = OD</b> <span style='color:#64748b;'>(કારણ કે O એ AD નું મધ્યબિંદુ છે)</span></li>
-                    </ul>
-                    <div style='background-color:#f0fdf4; padding:8px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d;'>
-                        તેથી, 'ખૂખૂબા' (AAS) શરત મુજબ, ∆AOB ≅ ∆DOC સાબિત થાય છે.
-                    </div>
+                    <!-- Parallel Lines AB and CD -->
+                    <line x1="40" y1="40" x2="200" y2="40" stroke="#1e3a8a" stroke-width="2"/>
+                    <line x1="100" y1="180" x2="260" y2="180" stroke="#1e3a8a" stroke-width="2"/>
                     
-                    <h4 style='color:#be123c; margin:15px 0 10px 0;'>(ii) O એ BC નું મધ્યબિંદુ છે સાબિતી:</h4>
-                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>ઉપર આપણે સાબિત કર્યું કે ∆AOB ≅ ∆DOC.</p>
-                    <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>તેથી, CPCT મુજબ તેમના અનુરૂપ અંગો સમાન થાય. એટલે કે <b>OB = OC</b> થાય.</p>
-                    <div style='background-color:#fff1f2; padding:8px; border-radius:5px; border-left:4px solid #be123c; font-weight:bold; color:#881337;'>
-                        જો OB = OC હોય, તો સાબિત થાય છે કે O એ BC નું પણ મધ્યબિંદુ છે.
-                    </div>
-                </div>`
-            },
+                    <!-- Intersecting Lines AD and BC -->
+                    <line x1="60" y1="40" x2="240" y2="180" stroke="#047857" stroke-width="2"/>
+                    <line x1="180" y1="40" x2="120" y2="180" stroke="#047857" stroke-width="2"/>
+                    
+                    <!-- Tick Marks for OA = OD -->
+                    <!-- Midpoint of OA is (105, 75) -->
+                    <line x1="99" y1="71" x2="111" y2="79" stroke="#be123c" stroke-width="2.5"/>
+                    <line x1="103" y1="67" x2="115" y2="75" stroke="#be123c" stroke-width="2.5"/>
+                    <!-- Midpoint of OD is (195, 145) -->
+                    <line x1="189" y1="141" x2="201" y2="149" stroke="#be123c" stroke-width="2.5"/>
+                    <line x1="193" y1="137" x2="205" y2="145" stroke="#be123c" stroke-width="2.5"/>
+                    
+                    <!-- Alternate Interior Angles Arcs (Z shape) -->
+                    <!-- Angle A -->
+                    <path d="M 85 40 A 25 25 0 0 0 79.7 55.3" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <!-- Angle D -->
+                    <path d="M 215 180 A 25 25 0 0 0 220.3 164.7" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    
+                    <!-- Vertically Opposite Angles Arcs -->
+                    <path d="M 130.3 94.7 A 25 25 0 0 1 159.8 87.0" fill="none" stroke="#0284c7" stroke-width="2"/>
+                    <path d="M 140.2 133.0 A 25 25 0 0 1 169.7 125.3" fill="none" stroke="#0284c7" stroke-width="2"/>
+
+                    <!-- Points -->
+                    <circle cx="60" cy="40" r="4" fill="#1e3a8a"/>
+                    <circle cx="180" cy="40" r="4" fill="#1e3a8a"/>
+                    <circle cx="120" cy="180" r="4" fill="#1e3a8a"/>
+                    <circle cx="240" cy="180" r="4" fill="#1e3a8a"/>
+                    <circle cx="150" cy="110" r="4" fill="#be123c"/>
+                    
+                    <!-- Labels -->
+                    <text x="50" y="32" fill="#1e3a8a" font-weight="bold" font-size="15">A</text>
+                    <text x="185" y="32" fill="#1e3a8a" font-weight="bold" font-size="15">B</text>
+                    <text x="105" y="200" fill="#1e3a8a" font-weight="bold" font-size="15">C</text>
+                    <text x="245" y="200" fill="#1e3a8a" font-weight="bold" font-size="15">D</text>
+                    <text x="160" y="115" fill="#be123c" font-weight="bold" font-size="16">O</text>
+                </svg>
+            </div>
+
+            <h4 style='color:#047857; margin:0 0 10px 0;'>(i) &Delta;AOB અને &Delta;DOC માં:</h4>
+            <ul style='color:#334155; line-height:1.8; margin-top:0;'>
+                <li><b>&ang;OAB = &ang;ODC</b> <span style='color:#64748b;'>(AB || CD અને AD તેમની છેદિકા હોવાથી બનતા યુગ્મકોણો)</span></li>
+                <li><b>&ang;AOB = &ang;DOC</b> <span style='color:#64748b;'>(પરસ્પર છેદતી રેખાઓથી બનતા અભિકોણો સમાન હોય)</span></li>
+                <li><b>OA = OD</b> <span style='color:#64748b;'>(કારણ કે O એ AD નું મધ્યબિંદુ છે)</span></li>
+            </ul>
+            <div style='background-color:#f0fdf4; padding:8px; border-radius:5px; border-left:4px solid #16a34a; font-weight:bold; color:#14532d;'>
+                તેથી, 'ખૂખૂબા' (AAS) શરત મુજબ, &Delta;AOB &cong; &Delta;DOC સાબિત થાય છે.
+            </div>
+            
+            <h4 style='color:#be123c; margin:15px 0 10px 0;'>(ii) O એ BC નું મધ્યબિંદુ છે સાબિતી:</h4>
+            <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>ઉપર આપણે સાબિત કર્યું કે &Delta;AOB &cong; &Delta;DOC.</p>
+            <p style='margin:0 0 10px 0; font-size:14px; color:#334155;'>તેથી, CPCT મુજબ તેમના અનુરૂપ અંગો સમાન થાય. એટલે કે <b>OB = OC</b> થાય.</p>
+            <div style='background-color:#fff1f2; padding:8px; border-radius:5px; border-left:4px solid #be123c; font-weight:bold; color:#881337;'>
+                જો OB = OC હોય, તો સાબિત થાય છે કે O એ BC નું પણ મધ્યબિંદુ છે.
+            </div>
+        </div>
+        
+        <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+            <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+            <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાની શોર્ટકટ ટ્રીક એટલે <b>"ડબલ Z આકાર"</b>! તમે ચાહો તો <b>ખૂબાખૂ (ASA)</b> શરત પણ વાપરી શકો છો: એક 'Z' આકારથી &ang;A = &ang;D, બીજા 'Z' આકારથી &ang;B = &ang;C અને વચ્ચેની બાજુ OA = OD. ગમે તે રીત વાપરો, ત્રિકોણ એકરૂપ થતા જ CPCT થી OB = OC સીધું જ સાબિત થઈ જશે.</p>
+        </div>`
+    },
             { 
                 questionNumber: "ઉદાહરણ 4",
                 question: "∆ABC માં ખૂણા A નો દુભાગક AD એ બાજુ BC ને લંબ છે. સાબિત કરો કે AB = AC અને ∆ABC સમદ્વિબાજુ ત્રિકોણ છે.", 
