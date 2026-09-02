@@ -6029,73 +6029,86 @@ var njMathsExercise = {
                     <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>જ્યારે પણ રકમમાં <b>3, 4 અને 5</b> સંખ્યા દેખાય, સમજી જવાનું કે આ <b>પાયથાગોરસની ત્રિપુટી</b> જ છે! આનો મતલબ કે કાટખૂણો બને છે અને નાના વર્તુળનું કેન્દ્ર જ જીવાની વચોવચ આવેલું છે. એટલે જીવાની લંબાઈ સીધી જ નાની ત્રિજ્યા (3) થી ડબલ એટલે <b>6 સેમી</b> થઈ જાય. ગણતરી વગર જવાબ!</p>
                 </div>`
             },
-            { 
-                "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 2",
-                "marks": 4,
-                "question": "જો વર્તુળની બે સમાન જીવાઓ વર્તુળની અંદર છેદે, તો સાબિત કરો કે એક જીવાના રેખાખંડો બીજી જીવાના અનુરૂપ રેખાખંડોને સમાન છે.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="150" cy="150" r="120" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
-                            
-                            <circle cx="150" cy="150" r="4" fill="#0f172a"/>
-                            <text x="140" y="140" fill="#0f172a" font-weight="bold">O</text>
-                            
-                            <line x1="56" y1="75" x2="245" y2="225" stroke="#1d4ed8" stroke-width="2"/>
-                            <line x1="56" y1="225" x2="245" y2="75" stroke="#1d4ed8" stroke-width="2"/>
-                            
-                            <text x="40" y="70" fill="#1d4ed8" font-weight="bold">A</text>
-                            <text x="255" y="240" fill="#1d4ed8" font-weight="bold">B</text>
-                            <text x="40" y="240" fill="#1d4ed8" font-weight="bold">C</text>
-                            <text x="255" y="70" fill="#1d4ed8" font-weight="bold">D</text>
-                            
-                            <circle cx="195" cy="150" r="4" fill="#be123c"/>
-                            <text x="205" y="155" fill="#be123c" font-weight="bold">P</text>
-                            
-                            <line x1="150" y1="150" x2="150" y2="114" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
-                            <line x1="150" y1="150" x2="150" y2="186" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
-                            <line x1="150" y1="150" x2="195" y2="150" stroke="#0f172a" stroke-width="2"/>
-                            
-                            <text x="135" y="105" fill="#ea580c" font-weight="bold">M</text>
-                            <text x="135" y="200" fill="#ea580c" font-weight="bold">N</text>
-                            
-                            <polyline points="150,120 156,120 156,114" fill="none" stroke="#ea580c" stroke-width="1.5"/>
-                            <polyline points="150,180 156,180 156,186" fill="none" stroke="#ea580c" stroke-width="1.5"/>
-                        </svg>
-                    </div>
+        { 
+        "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 2",
+        "marks": 4,
+        "question": "જો વર્તુળની બે સમાન જીવાઓ વર્તુળની અંદર છેદે, તો સાબિત કરો કે એક જીવાના રેખાખંડો બીજી જીવાના અનુરૂપ રેખાખંડોને સમાન છે.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 300 300" style="width:100%; max-width:320px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Circle -->
+                    <circle cx="150" cy="150" r="120" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+                    
+                    <!-- Chords AB and CD -->
+                    <line x1="87.5" y1="47.5" x2="252.5" y2="212.5" stroke="#1d4ed8" stroke-width="2"/>
+                    <line x1="87.5" y1="252.5" x2="252.5" y2="87.5" stroke="#1d4ed8" stroke-width="2"/>
+                    
+                    <!-- Line OP connecting center to intersection point -->
+                    <line x1="150" y1="150" x2="190" y2="150" stroke="#0f172a" stroke-width="2" stroke-dasharray="3,3"/>
+                    
+                    <!-- Perpendiculars OM and ON -->
+                    <line x1="150" y1="150" x2="170" y2="130" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                    <line x1="150" y1="150" x2="170" y2="170" stroke="#ea580c" stroke-width="2" stroke-dasharray="4,4"/>
+                    
+                    <!-- Right Angle Markers at M and N -->
+                    <polyline points="163,137 156,130 163,123" fill="none" stroke="#ea580c" stroke-width="1.5"/>
+                    <polyline points="163,163 156,170 163,177" fill="none" stroke="#ea580c" stroke-width="1.5"/>
 
-                    <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
-                        <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
-                            ધારો કે વર્તુળનું કેન્દ્ર O છે. જીવા AB અને CD બિંદુ P આગળ છેદે છે.<br>
-                            આપેલ છે: <b>AB = CD</b>.<br>
-                            સાબિત કરવાનું છે: <b>AP = CP</b> અને <b>PB = PD</b>.<br><br>
-                            
-                            કેન્દ્ર O માંથી AB પર લંબ OM અને CD પર લંબ ON દોરો. બિંદુ O અને P ને જોડો.<br>
-                            આપણે જાણીએ છીએ કે સમાન જીવાઓ કેન્દ્રથી સમાન અંતરે હોય છે.<br>
-                            &there4; <b>OM = ON</b> ......(પરિણામ 1)<br><br>
-                            
-                            હવે, કાટકોણ ત્રિકોણો &Delta;OMP અને &Delta;ONP માં:<br>
-                            1) <b>&ang;OMP = &ang;ONP = 90&deg;</b> <span style='color:#64748b;'>(કાટખૂણો)</span><br>
-                            2) <b>OP = OP</b> <span style='color:#64748b;'>(સામાન્ય કર્ણ)</span><br>
-                            3) <b>OM = ON</b> <span style='color:#64748b;'>(પરિણામ 1 પરથી બાજુ)</span><br>
-                            તેથી <b>કાકબા (RHS)</b> એકરૂપતાના નિયમ મુજબ: <b>&Delta;OMP &cong; &Delta;ONP</b><br>
-                            &there4; <b style='color:#0284c7;'>MP = NP (CPCT)</b> ......(પરિણામ 2)<br><br>
-                            
-                            હવે, AB = CD હોવાથી તેમના અડધા ભાગ પણ સમાન થાય.<br>
-                            &there4; <b>AM = CN</b> ......(પરિણામ 3)<br>
-                            અને <b>MB = ND</b> ......(પરિણામ 4)<br><br>
-                            
-                            પરિણામ 3 અને 2 નો સરવાળો કરતાં:<br>
-                            AM + MP = CN + NP &rArr; <b style='color:#16a34a; font-size:16px;'>AP = CP</b> (મોટા રેખાખંડો સમાન સાબિત થયા)<br><br>
-                            
-                            પરિણામ 4 માંથી 2 બાદ કરતાં:<br>
-                            MB - MP = ND - NP &rArr; <b style='color:#16a34a; font-size:16px;'>PB = PD</b> (નાના રેખાખંડો સમાન સાબિત થયા)
-                        </div>
-                    </div>
-                </div>`
-            },
+                    <!-- Points -->
+                    <circle cx="150" cy="150" r="4" fill="#0f172a"/>
+                    <circle cx="190" cy="150" r="4" fill="#be123c"/>
+                    <circle cx="170" cy="130" r="3.5" fill="#ea580c"/>
+                    <circle cx="170" cy="170" r="3.5" fill="#ea580c"/>
+                    
+                    <!-- Labels -->
+                    <text x="73" y="42" fill="#1d4ed8" font-weight="bold" font-size="15">A</text>
+                    <text x="260" y="222" fill="#1d4ed8" font-weight="bold" font-size="15">B</text>
+                    <text x="73" y="265" fill="#1d4ed8" font-weight="bold" font-size="15">C</text>
+                    <text x="260" y="85" fill="#1d4ed8" font-weight="bold" font-size="15">D</text>
+                    <text x="132" y="155" fill="#0f172a" font-weight="bold" font-size="15">O</text>
+                    <text x="200" y="155" fill="#be123c" font-weight="bold" font-size="15">P</text>
+                    <text x="165" y="120" fill="#ea580c" font-weight="bold" font-size="15">M</text>
+                    <text x="165" y="190" fill="#ea580c" font-weight="bold" font-size="15">N</text>
+                </svg>
+            </div>
+
+            <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#881337;'><b>સાબિતી:</b></p>
+                <div style='font-size:14px; color:#4c0519; line-height:1.8; margin-left:10px;'>
+                    ધારો કે વર્તુળનું કેન્દ્ર O છે. જીવા AB અને CD બિંદુ P આગળ છેદે છે.<br>
+                    આપેલ છે: <b>AB = CD</b>.<br>
+                    સાબિત કરવાનું છે: <b>AP = CP</b> અને <b>PB = PD</b>.<br><br>
+                    
+                    કેન્દ્ર O માંથી AB પર લંબ OM અને CD પર લંબ ON દોરો. બિંદુ O અને P ને જોડો.<br>
+                    આપણે જાણીએ છીએ કે સમાન જીવાઓ કેન્દ્રથી સમાન અંતરે હોય છે.<br>
+                    &there4; <b>OM = ON</b> ......(પરિણામ 1)<br><br>
+                    
+                    હવે, કાટકોણ ત્રિકોણો &Delta;OMP અને &Delta;ONP માં:<br>
+                    1) <b>&ang;OMP = &ang;ONP = 90&deg;</b> <span style='color:#64748b;'>(કાટખૂણો)</span><br>
+                    2) <b>OP = OP</b> <span style='color:#64748b;'>(સામાન્ય કર્ણ)</span><br>
+                    3) <b>OM = ON</b> <span style='color:#64748b;'>(પરિણામ 1 પરથી બાજુ)</span><br>
+                    તેથી <b>કાકબા (RHS)</b> એકરૂપતાના નિયમ મુજબ: <b>&Delta;OMP &cong; &Delta;ONP</b><br>
+                    &there4; <b style='color:#0284c7;'>MP = NP (CPCT)</b> ......(પરિણામ 2)<br><br>
+                    
+                    હવે, AB = CD હોવાથી તેમના અડધા ભાગ પણ સમાન થાય.<br>
+                    &there4; <b>AM = CN</b> ......(પરિણામ 3)<br>
+                    અને <b>MB = ND</b> ......(પરિણામ 4)<br><br>
+                    
+                    પરિણામ 3 અને 2 નો સરવાળો કરતાં:<br>
+                    AM + MP = CN + NP &rArr; <b style='color:#16a34a; font-size:16px;'>AP = CP</b> (મોટા રેખાખંડો સમાન સાબિત થયા)<br><br>
+                    
+                    પરિણામ 4 માંથી 2 બાદ કરતાં:<br>
+                    MB - MP = ND - NP &rArr; <b style='color:#16a34a; font-size:16px;'>PB = PD</b> (નાના રેખાખંડો સમાન સાબિત થયા)
+                </div>
+            </div>
+            
+            <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલામાં સૌથી મોટી ટ્રીક કેન્દ્રથી જીવા પર લંબ દોરીને <b>કાકબા (RHS)</b> એકરૂપતા વાપરવાની છે. એકવાર MP = NP સાબિત થઈ જાય, એટલે જીવાના અડધા ભાગ (AM અને ND) સાથે સ્માર્ટ વર્ક કરીને ફક્ત સરવાળો અને બાદબાકી જ કરવાની છે, જેથી સીધો જ જવાબ મળી જશે!</p>
+            </div>
+        </div>`
+    },
             { 
                 "questionNumber": "સ્વાધ્યાય 9.2 - પ્રશ્ન 3",
                 "marks": 3,
@@ -6445,75 +6458,96 @@ var njMathsExercise = {
                     </div>
                 </div>`
             },
-            { 
-                "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 3",
-                "marks": 3,
-                "question": "આકૃતિમાં, ∠PQR = 100° છે, જ્યાં P, Q અને R એ O કેન્દ્રવાળા વર્તુળ પરનાં બિંદુઓ છે. ∠OPR શોધો.", 
-                "answer": `
-                <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
-                    <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <svg viewBox="0 0 300 300" style="width:100%; max-width:300px;" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="150" cy="150" r="100" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
-                            
-                            <circle cx="150" cy="150" r="4" fill="#0f172a"/>
-                            <text x="145" y="170" fill="#0f172a" font-weight="bold">O</text>
-                            
-                            <circle cx="150" cy="50" r="4" fill="#be123c"/>
-                            <text x="145" y="40" fill="#be123c" font-weight="bold">Q</text>
-                            
-                            <circle cx="51.5" cy="167.4" r="4" fill="#be123c"/>
-                            <text x="35" y="175" fill="#be123c" font-weight="bold">P</text>
-                            
-                            <circle cx="248.5" cy="167.4" r="4" fill="#be123c"/>
-                            <text x="255" y="175" fill="#be123c" font-weight="bold">R</text>
-                            
-                            <line x1="51.5" y1="167.4" x2="150" y2="50" stroke="#be123c" stroke-width="2"/>
-                            <line x1="248.5" y1="167.4" x2="150" y2="50" stroke="#be123c" stroke-width="2"/>
-                            
-                            <path d="M 135 65 A 30 30 0 0 0 165 65" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <text x="138" y="85" fill="#ea580c" font-size="12" font-weight="bold">100&deg;</text>
-                            
-                            <polygon points="150,150 51.5,167.4 248.5,167.4" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
-                            <line x1="51.5" y1="167.4" x2="248.5" y2="167.4" stroke="#ca8a04" stroke-width="2"/>
-                            
-                            <path d="M 110 143 A 40 40 0 0 1 190 143" fill="none" stroke="#16a34a" stroke-width="2"/>
-                            <text x="135" y="130" fill="#16a34a" font-size="12" font-weight="bold">વિપરીત</text>
-                        </svg>
-                    </div>
+          { 
+        "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 3",
+        "marks": 3,
+        "question": "આકૃતિમાં, ∠PQR = 100° છે, જ્યાં P, Q અને R એ O કેન્દ્રવાળા વર્તુળ પરનાં બિંદુઓ છે. ∠OPR શોધો.", 
+        "answer": `
+        <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
+            <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
+                <svg viewBox="0 0 300 300" style="width:100%; max-width:320px;" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Circle -->
+                    <circle cx="150" cy="150" r="100" fill="#f0f9ff" stroke="#0284c7" stroke-width="2"/>
+                    
+                    <!-- Triangle OPR -->
+                    <polygon points="150,150 51.5,132.6 248.5,132.6" fill="#fefce8" stroke="#ca8a04" stroke-width="2"/>
+                    <line x1="51.5" y1="132.6" x2="248.5" y2="132.6" stroke="#ca8a04" stroke-width="2"/>
+                    
+                    <!-- Nitesh Sir's Trick: Cyclic Quad point S (Dashed) -->
+                    <polyline points="51.5,132.6 150,250 248.5,132.6" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4,4"/>
+                    <circle cx="150" cy="250" r="3.5" fill="#64748b"/>
+                    <text x="145" y="270" fill="#64748b" font-weight="bold" font-size="15">S</text>
+                    <path d="M 135 232 A 25 25 0 0 0 165 232" fill="none" stroke="#64748b" stroke-width="1.5"/>
+                    <text x="141" y="225" fill="#64748b" font-size="12" font-weight="bold">80&deg;</text>
 
-                    <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
-                        <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
-                        <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
-                            આપેલ છે કે વર્તુળની સીમા પર <b>&ang;PQR = 100&deg;</b> છે.<br>
-                            આપણે જાણીએ છીએ કે કેન્દ્ર આગળનો ખૂણો વર્તુળના બાકીના ભાગ પરના ખૂણા કરતા બમણો (ડબલ) હોય છે.<br>
-                            પરંતુ અહીં ધ્યાન આપો! Q બિંદુ લઘુચાપ પર છે, તેથી કેન્દ્રનો <b>વિપરીત ખૂણો (Reflex Angle)</b> ડબલ થશે.<br>
-                            &there4; વિપરીત &ang;POR = 2 &times; &ang;PQR<br>
-                            &there4; વિપરીત &ang;POR = 2 &times; 100&deg; = <b>200&deg;</b><br><br>
-                            
-                            હવે, અંદરનો નાનો ખૂણો &ang;POR શોધવા માટે 360&deg; માંથી વિપરીત ખૂણો બાદ કરવો પડે.<br>
-                            &there4; અંદરનો &ang;POR = 360&deg; - 200&deg; = <b>160&deg;</b><br><br>
-                            
-                            હવે ત્રિકોણ <b>&Delta;OPR</b> માં જુઓ:<br>
-                            અહીં OP અને OR બંને એક જ વર્તુળની ત્રિજ્યાઓ છે. તેથી <b>OP = OR</b>.<br>
-                            સમદ્વિબાજુ ત્રિકોણ હોવાથી તેમની સામેના ખૂણાઓ સમાન થાય.<br>
-                            &there4; <b>&ang;OPR = &ang;ORP</b> (ધારો કે બંને x છે).<br><br>
-                            
-                            ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય.<br>
-                            &there4; &ang;OPR + &ang;ORP + &ang;POR = 180&deg;<br>
-                            &there4; x + x + 160&deg; = 180&deg;<br>
-                            &there4; 2x = 180&deg; - 160&deg;<br>
-                            &there4; 2x = 20&deg;<br>
-                            &there4; x = 20&deg; / 2 = 10&deg;<br>
-                            <b style='color:#be123c; font-size:18px;'>&there4; &ang;OPR = 10&deg;</b>
-                        </div>
-                    </div>
+                    <!-- Lines PQ and RQ -->
+                    <line x1="51.5" y1="132.6" x2="116" y2="56" stroke="#be123c" stroke-width="2"/>
+                    <line x1="248.5" y1="132.6" x2="116" y2="56" stroke="#be123c" stroke-width="2"/>
+                    
+                    <!-- Angle at Q (100 deg) -->
+                    <path d="M 133 66 A 20 20 0 0 1 103 72" fill="none" stroke="#be123c" stroke-width="2"/>
+                    <text x="108" y="90" fill="#be123c" font-size="13" font-weight="bold">100&deg;</text>
+                    
+                    <!-- Central Angles -->
+                    <!-- Interior Angle 160 deg -->
+                    <path d="M 125 146 A 25 25 0 0 1 175 146" fill="none" stroke="#ea580c" stroke-width="2"/>
+                    <text x="135" y="138" fill="#ea580c" font-size="12" font-weight="bold">160&deg;</text>
+
+                    <!-- Reflex Angle 200 deg -->
+                    <path d="M 175 146 A 25 25 0 1 1 125 146" fill="none" stroke="#16a34a" stroke-width="2"/>
+                    <text x="125" y="190" fill="#16a34a" font-size="13" font-weight="bold">વિપરીત (200&deg;)</text>
+
+                    <!-- Find Angle OPR -->
+                    <path d="M 81.5 132.6 A 30 30 0 0 1 81 137.8" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+                    <text x="65" y="125" fill="#ca8a04" font-size="16" font-weight="bold">?</text>
+
+                    <!-- Points -->
+                    <circle cx="150" cy="150" r="4" fill="#0f172a"/>
+                    <circle cx="51.5" cy="132.6" r="4" fill="#ca8a04"/>
+                    <circle cx="248.5" cy="132.6" r="4" fill="#ca8a04"/>
+                    <circle cx="116" cy="56" r="4" fill="#be123c"/>
+                    
+                    <!-- Labels -->
+                    <text x="145" y="145" fill="#0f172a" font-weight="bold" font-size="15">O</text>
+                    <text x="35" y="138" fill="#ca8a04" font-weight="bold" font-size="15">P</text>
+                    <text x="255" y="138" fill="#ca8a04" font-weight="bold" font-size="15">R</text>
+                    <text x="105" y="45" fill="#be123c" font-weight="bold" font-size="15">Q</text>
+                </svg>
+            </div>
+
+            <div style='background-color:#f0f9ff; padding:12px; border-left:4px solid #0284c7; border-radius:5px;'>
+                <p style='margin:0 0 10px 0; font-size:15px; color:#0c4a6e;'><b>ઉકેલ:</b></p>
+                <div style='font-size:14px; color:#0369a1; line-height:1.8; margin-left:10px;'>
+                    આપેલ છે કે વર્તુળની સીમા પર <b>&ang;PQR = 100&deg;</b> છે.<br>
+                    આપણે જાણીએ છીએ કે કેન્દ્ર આગળનો ખૂણો વર્તુળના બાકીના ભાગ પરના ખૂણા કરતા બમણો (ડબલ) હોય છે.<br>
+                    પરંતુ અહીં ધ્યાન આપો! Q બિંદુ લઘુચાપ પર છે, તેથી કેન્દ્રનો <b>વિપરીત ખૂણો (Reflex Angle)</b> ડબલ થશે.<br>
+                    &there4; વિપરીત &ang;POR = 2 &times; &ang;PQR<br>
+                    &there4; વિપરીત &ang;POR = 2 &times; 100&deg; = <b>200&deg;</b><br><br>
+                    
+                    હવે, અંદરનો નાનો ખૂણો &ang;POR શોધવા માટે 360&deg; માંથી વિપરીત ખૂણો બાદ કરવો પડે.<br>
+                    &there4; અંદરનો &ang;POR = 360&deg; - 200&deg; = <b>160&deg;</b><br><br>
+                    
+                    હવે ત્રિકોણ <b>&Delta;OPR</b> માં જુઓ:<br>
+                    અહીં OP અને OR બંને એક જ વર્તુળની ત્રિજ્યાઓ છે. તેથી <b>OP = OR</b>.<br>
+                    સમદ્વિબાજુ ત્રિકોણ હોવાથી તેમની સામેના ખૂણાઓ સમાન થાય.<br>
+                    &there4; <b>&ang;OPR = &ang;ORP</b> (ધારો કે બંને x છે).<br><br>
+                    
+                    ત્રિકોણના ત્રણેય ખૂણાઓનો સરવાળો 180&deg; થાય.<br>
+                    &there4; &ang;OPR + &ang;ORP + &ang;POR = 180&deg;<br>
+                    &there4; x + x + 160&deg; = 180&deg;<br>
+                    &there4; 2x = 180&deg; - 160&deg;<br>
+                    &there4; 2x = 20&deg;<br>
+                    &there4; x = 20&deg; / 2 = 10&deg;<br>
+                    <b style='color:#be123c; font-size:18px;'>&there4; &ang;OPR = 10&deg;</b>
                 </div>
-                
-                <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
-                    <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
-                    <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાને સોલ્વ કરવાનો <b>શોર્ટકટ રસ્તો ચક્રીય ચતુષ્કોણ</b> છે! વર્તુળ પર ગમે ત્યાં ચોથું બિંદુ S લઈ લો. PQRS ચક્રીય ચતુષ્કોણ બને. Q=100 હોય તો તેની સામે S=80 થાય. હવે S કેન્દ્રથી દૂર છે, તો કેન્દ્રનો ખૂણો તેનાથી ડબલ એટલે POR = 160 સીધો મળી જાય! પછી બાકી વધ્યા 20, જેને ત્રિકોણના બે સરખા ખૂણા વચ્ચે વહેંચી દો એટલે <b>10&deg; - 10&deg;</b> જવાબ!</p>
-                </div>`
-            },
+            </div>
+            
+            <div style='background-color:#fffbeb; padding:15px; border-radius:8px; border:2px dashed #ca8a04; margin-top:15px;'>
+                <b style='color:#b45309; font-size:16px;'>🎯 Nitesh Sir ની સ્માર્ટ ટ્રીક:</b> 
+                <p style='margin:5px 0 0 0; font-size:15px; color:#854d0e;'>આ દાખલાને સોલ્વ કરવાનો <b>શોર્ટકટ રસ્તો ચક્રીય ચતુષ્કોણ</b> છે! વર્તુળ પર ગમે ત્યાં ચોથું બિંદુ S લઈ લો (જેમ આકૃતિમાં દર્શાવ્યું છે). PQRS ચક્રીય ચતુષ્કોણ બને. Q=100 હોય તો તેની સામે S=80 થાય. હવે S ની મદદથી કેન્દ્રનો ખૂણો તેનાથી ડબલ એટલે અંદરનો POR = 160 સીધો મળી જાય! પછી બાકી વધ્યા 20, જેને ત્રિકોણના બે સરખા ખૂણા વચ્ચે વહેંચી દો એટલે <b>10&deg; - 10&deg;</b> જવાબ!</p>
+            </div>
+        </div>`
+    },
                { 
                 "questionNumber": "સ્વાધ્યાય 9.3 - પ્રશ્ન 4",
                 "marks": 3,
