@@ -74,7 +74,15 @@ var njVideoDatabase = {
     6: [
         { id: "XnuXcOp_0IE", title: "થીયરી અને સુત્રો" },
         { id: "7PcMiqDuo9M", title: "સ્વાધ્યાય 6.1 - પ્રશ્ન 1" },
-        { id: "Hli4ZswkdmM", title: "સ્વાધ્યાય 6.1 - પ્રશ્ન 2" }
+        { id: "Hli4ZswkdmM", title: "સ્વાધ્યાય 6.1 - પ્રશ્ન 2" },
+              { id: "ldu_mk3IRVE", title: "સ્વાધ્યાય 6.1 - પ્રશ્ન 3" },
+        { id: "VctfwM5PoLg", title: "સ્વાધ્યાય 6.1 - પ્રશ્ન 4" },
+        { id: "mUQdJ31UxQA", title: "સ્વાધ્યાય 6.1 - પ્રશ્ન 5" },
+        { id: "K7Tc4kbpDLM", title: "સ્વાધ્યાય 6.1 - પ્રશ્ન 6" },
+        { id: "z9ZeiypoOzM", title: "સ્વાધ્યાય 6.2 - પ્રશ્ન 1" },
+        { id: "az9e9V9c-Zg", title: "સ્વાધ્યાય 6.2 - પ્રશ્ન 2" },
+        { id: "MSWM_pWH7uE", title: "સ્વાધ્યાય 6.2 - પ્રશ્ન 3" }
+      
     ]
   
 };
