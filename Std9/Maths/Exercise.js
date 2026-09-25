@@ -4451,30 +4451,45 @@ var njMathsExercise = {
                 "answer": `
                 <div style='background-color:#ffffff; padding:15px; border:1px solid #cbd5e1; border-radius:8px;'>
                     <div style='text-align:center; overflow-x:auto; background-color:#f8fafc; padding:15px; border-radius:8px; border:1px dashed #cbd5e1; margin-bottom:15px;'>
-                        <svg viewBox="0 0 350 200" style="width:100%; max-width:400px;" xmlns="http://www.w3.org/2000/svg">
-                            <line x1="50" y1="150" x2="300" y2="150" stroke="#0f172a" stroke-width="2"/>
-                            <circle cx="175" cy="150" r="5" fill="#16a34a"/>
-                            <text x="170" y="170" fill="#16a34a" font-weight="bold">P</text>
-                            
-                            <line x1="50" y1="150" x2="130" y2="30" stroke="#be123c" stroke-width="2"/>
-                            <line x1="175" y1="150" x2="130" y2="30" stroke="#be123c" stroke-width="2"/>
-                            
-                            <line x1="300" y1="150" x2="220" y2="30" stroke="#1d4ed8" stroke-width="2"/>
-                            <line x1="175" y1="150" x2="220" y2="30" stroke="#1d4ed8" stroke-width="2"/>
-                            
-                            <line x1="130" y1="30" x2="220" y2="30" stroke="#64748b" stroke-width="1" stroke-dasharray="4,4"/>
-                            
-                            <path d="M 80 150 A 30 30 0 0 0 70 120" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            <path d="M 270 150 A 30 30 0 0 1 280 120" fill="none" stroke="#ea580c" stroke-width="2"/>
-                            
-                            <path d="M 145 150 A 30 30 0 0 1 155 120" fill="none" stroke="#9333ea" stroke-width="2"/>
-                            <path d="M 205 150 A 30 30 0 0 0 195 120" fill="none" stroke="#9333ea" stroke-width="2"/>
-                            
-                            <text x="35" y="155" fill="#0f172a" font-weight="bold">A</text>
-                            <text x="310" y="155" fill="#0f172a" font-weight="bold">B</text>
-                            <text x="120" y="20" fill="#0f172a" font-weight="bold">D</text>
-                            <text x="225" y="20" fill="#0f172a" font-weight="bold">E</text>
-                        </svg>
+                        <svg viewBox="0 0 350 250" style="width:100%; max-width:400px; background-color: white;" xmlns="http://www.w3.org/2000/svg">
+    <!-- Lines and Arcs -->
+    <g stroke="#1b9bb5" stroke-width="1.5" fill="none">
+        <!-- Main base line AB -->
+        <line x1="50" y1="150" x2="300" y2="150" />
+        
+        <!-- Lines connecting to D and E -->
+        <line x1="50" y1="150" x2="250" y2="50" /> <!-- AD -->
+        <line x1="300" y1="150" x2="100" y2="50" /> <!-- BE -->
+        <line x1="175" y1="150" x2="100" y2="50" /> <!-- PE -->
+        <line x1="175" y1="150" x2="250" y2="50" /> <!-- PD -->
+        
+        <!-- Angle at A (Single arc) -->
+        <path d="M 75 150 A 25 25 0 0 0 72.36 138.82" />
+        
+        <!-- Angle at B (Single arc) -->
+        <path d="M 275 150 A 25 25 0 0 1 277.64 138.82" />
+        
+        <!-- Angles at P (Double arcs) -->
+        <!-- Angle EPA -->
+        <path d="M 155 150 A 20 20 0 0 1 163 134" />
+        <path d="M 150 150 A 25 25 0 0 1 160 130" />
+        
+        <!-- Angle DPB -->
+        <path d="M 195 150 A 20 20 0 0 0 187 134" />
+        <path d="M 200 150 A 25 25 0 0 0 190 130" />
+    </g>
+    
+    <!-- Text Labels -->
+    <g fill="#1b9bb5" font-family="sans-serif" font-size="16">
+        <text x="30" y="155">A</text>
+        <text x="310" y="155">B</text>
+        <text x="170" y="175">P</text>
+        <text x="80" y="45">E</text>
+        <text x="260" y="45">D</text>
+        <text x="175" y="210" text-anchor="middle" font-weight="bold">આકૃતિ 7.22</text>
+    </g>
+</svg>
+
                     </div>
 
                     <div style='background-color:#fff1f2; padding:12px; border-left:4px solid #be123c; border-radius:5px;'>
